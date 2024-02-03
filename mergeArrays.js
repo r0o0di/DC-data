@@ -18,11 +18,10 @@ function mergeArrays(episodes, episodesData) {
     });
 
     // Create a new array with the desired order (id, title, data)
-    const rearrangedArray = episodesData.map(item => ({
-        id: item.id,
-        title: item.title,
-        data: item.data,
-    }));
+    const rearrangedArray = episodesData.map(item => {
+        const formattedData = item.data.map(row => `["${row.join('", "')}"]`).join(',\n');
+        return `{ id: "${item.id}", episode: "${item.id}", title: "${item.title}", BGM: [\n${formattedData}\n] }`;
+    });
 
     return rearrangedArray;
 }
@@ -31,13 +30,11 @@ const mergedArray = mergeArrays(episodes, episodesData);
 console.log(mergedArray);
 
 var resultDiv = document.getElementById("mergedarray");
-resultDiv.innerText = JSON.stringify(mergedArray, null, 2)
-    .replace(/"id":/g, 'id:')
-    .replace(/"title":/g, 'title:')
-    .replace(/"data":/g, 'data:');
-    
-document.body.appendChild(resultDiv);
 
+// Join the array items and add commas
+resultDiv.innerText = mergedArray.join(',\n');
+
+document.body.appendChild(resultDiv);
 
 const button = document.querySelector("button");
 

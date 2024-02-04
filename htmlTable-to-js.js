@@ -50,10 +50,27 @@ parseBtn.addEventListener("click", function filterHTML() {
 
 })
 
+const extractBtn = document.getElementById("extract");
 
-const copyBtn = document.getElementById("copy");
+extractBtn.addEventListener("click", function extractTextContent() {
+    var paragraphInput = document.getElementById("paragraphInput").value;
 
-copyBtn.addEventListener("click",  function copyToClipboard() {
+    // Create a temporary div element to parse the HTML code
+    var tempDiv = document.createElement("div");
+    tempDiv.innerHTML = paragraphInput;
+
+    // Extract text content from the <p> element
+    var textContent = tempDiv.querySelector('p').textContent.trim();
+
+    // Display the extracted text content
+    var formattedOutput = `situation: "${textContent}",`;
+
+    document.getElementById("output").innerText = formattedOutput;
+});
+
+const copyBtn = document.querySelector(".copy");
+
+copyBtn.addEventListener("click", function copyToClipboard() {
     var outputElement = document.getElementById("output");
     var range = document.createRange();
     range.selectNode(outputElement);
@@ -61,5 +78,4 @@ copyBtn.addEventListener("click",  function copyToClipboard() {
     window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges();
-}
- )
+})

@@ -15,7 +15,7 @@
 //episode tables to fix: 
 const episodesData = [
     {
-        id: "1",
+        id: "1", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:12", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
@@ -36,7 +36,7 @@ const episodesData = [
         ]
     },
     {
-        id: "2",
+        id: "2", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
@@ -55,7 +55,7 @@ const episodesData = [
             ["16:41", "コナンのテーマ  コナンのテーマ （予告）", "Konan no Tēma  Konan no Tēma (Yokoku)", "Conan's Theme  Conan's Theme (Preview)", "Detective Conan Original Soundtrack 1Detective Conan Original Soundtrack 2"],
             ["18:49", "1996 Unreleased BGM 1事件発生！", "-Jiken Hassei!", "-A Case Springs Forth!", "Detective Conan Original Soundtrack 2"],
             ["19:11", "絶体絶命", "Zettai Zetsumei", "A Desperate Situation", "Detective Conan Original Soundtrack 2"],
-            ["19:39", "名探偵コナン・メインテーマ「名探偵コナン」メイン・テーマ （予告）", "Meitantei Konan・Mein Tēma\"Meitantei Konan\" Mein・Tēma (Yokoku)", "Detective Conan Main Theme\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 1Detective Conan Original Soundtrack 2"],
+            ["19:39", "名探偵コナン・メインテーマ「名探偵コナン」メイン・テーマ （予告）", "Meitantei Konan・Mein Tēma'Meitantei Konan' Mein・Tēma (Yokoku)", "Detective Conan Main Theme'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 1Detective Conan Original Soundtrack 2"],
             ["20:17", "それいけコナン （哀愁ヴァージョン）", "Soreike Konan (Aishū Vājon)", "Let's Go Conan (Sorrow Version)", "Detective Conan Original Soundtrack 1"],
             ["21:30", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["22:13", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
@@ -63,7 +63,7 @@ const episodesData = [
         ]
     },
     {
-        id: "3",
+        id: "3", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
@@ -89,7 +89,7 @@ const episodesData = [
         ]
     },
     {
-        id: "4",
+        id: "4", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
@@ -107,7 +107,7 @@ const episodesData = [
             ["14:45", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
             ["15:55", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
             ["17:37", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
-            ["20:26", "名探偵コナン・メインテーマ「名探偵コナン」メイン・テーマ （予告）", "Meitantei Konan・Mein Tēma\"Meitantei    Konan\" Mein・Tēma (Yokoku)", "Detective Conan Main Theme\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 1Detective Conan Original Soundtrack 2"],
+            ["20:26", "名探偵コナン・メインテーマ「名探偵コナン」メイン・テーマ （予告）", "Meitantei Konan・Mein Tēma'Meitantei    Konan' Mein・Tēma (Yokoku)", "Detective Conan Main Theme'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 1Detective Conan Original Soundtrack 2"],
             ["20:49", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["21:27", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
             ["23:35", "事件解決 （意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
@@ -115,7 +115,7 @@ const episodesData = [
         ]
     },
     {
-        id: "5",
+        id: "5", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
@@ -129,14 +129,14 @@ const episodesData = [
             ["16:11", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["18:45", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
             ["19:43", "絶体絶命", "Zettai Zetsumei", "A Desperate Situation", "Detective Conan Original Soundtrack 2"],
-            ["20:09", "名探偵コナン・メインテーマ - 「名探偵コナン」メイン・テーマ （予告）", "Meitantei Konan・Mein Tēma - \"Meitantei Konan\" Mein・Tēma (Yokoku)", "Detective Conan Main Theme - \"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 1 - Detective Conan Original Soundtrack 2"],
+            ["20:09", "名探偵コナン・メインテーマ - 「名探偵コナン」メイン・テーマ （予告）", "Meitantei Konan・Mein Tēma - 'Meitantei Konan' Mein・Tēma (Yokoku)", "Detective Conan Main Theme - 'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 1 - Detective Conan Original Soundtrack 2"],
             ["20:46", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["21:41", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
             ["23:42", "コナンの勝利", "Konan no Shōri", "Conan's Victory", "Detective Conan Original Soundtrack 1"]
         ]
     },
     {
-        id: "6",
+        id: "6", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
@@ -158,7 +158,7 @@ const episodesData = [
         ]
     },
     {
-        id: "7",
+        id: "7", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:36", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -173,14 +173,14 @@ const episodesData = [
             ["14:07", "事件発生！", "Jiken Hassei!", "A Case Springs Forth!", "Detective Conan Original Soundtrack 2"],
             ["15:34", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["16:46", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["18:12", "「名探偵コナン」メイン・テーマ（バラードバージョン）", "\"Meitantei Konan\" Mein・Tēma (Barādo ver.)", "\"Detective Conan\" Main Theme (Ballad ver.)", "Detective Conan Original Soundtrack 2"],
+            ["18:12", "「名探偵コナン」メイン・テーマ（バラードバージョン）", "'Meitantei Konan' Mein・Tēma (Barādo ver.)", "'Detective Conan' Main Theme (Ballad ver.)", "Detective Conan Original Soundtrack 2"],
             ["19:37", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
             ["21:05", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
             ["22:25", "毛利小五郎のテーマ （ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"]
         ]
     },
     {
-        id: "8",
+        id: "8", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:53", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -201,7 +201,7 @@ const episodesData = [
         ]
     },
     {
-        id: "9",
+        id: "9", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -212,7 +212,7 @@ const episodesData = [
             ["07:42", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)", "Detective Conan Original Soundtrack 2"],
             ["08:18", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
             ["10:08", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["11:11", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["11:11", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["11:41", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
             ["13:35", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["15:40", "犯人現わる！", "Hannin Arawaru!", "The Culprit is Revealed!", "Detective Conan Original Soundtrack 2"],
@@ -222,7 +222,7 @@ const episodesData = [
         ]
     },
     {
-        id: "10",
+        id: "10", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -243,35 +243,35 @@ const episodesData = [
             ["23:48", "それいけコナン （ミディアム・テンポver.）", "Soreike Konan (Midiamu・Tenpo ver.)", "Let's Go Conan (Medium Tempo ver.)", "Detective Conan Original Soundtrack 2"]
         ]
     },
+
     {
         id: "11",
+        isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
-            ["00:00", "Moonlight Sonata First Movement", "", "", ""],
-            ["00:00", "Moonlight Sonata First Movement", "", "", ""],
-            ["00:00", "Unreleased BGM 1", "", "", ""],
-            ["00:00", "Unreleased Sound Effect/BGM", "", "", ""],
-            ["00:00", "Moonlight Sonata First Movement", "", "", ""],
-            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "Unreleased BGM 1", "", "", ""],
-            ["00:00", "Moonlight Sonata Second Movement", "", "", ""],
-            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "コナンのテーマ", "Konan no Tēma", "Conan's Theme", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "Moonlight Sonata First Movement", "", "", ""],
-            ["00:00", "Unreleased Sound Effect/BGM", "", "", ""],
-            ["00:00", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"]
+            ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
+            ["03:42", "('Moonlight Sonata' First Movement)", "", "", ""],
+            ["08:06", "('Moonlight Sonata' First Movement)", "", "", ""],
+            ["09:58", "('Moonlight Sonata' First Movement)", "", "", ""],
+            ["11:52", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["13:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["16:28", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["22:25", "('Moonlight Sonata' Second Movement)", "", "", ""],
+            ["24:15", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["26:41", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
+            ["29:40", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["36:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["36:34", "コナンのテーマ", "Konan no Tēma", "Conan's Theme", "Detective Conan Original Soundtrack 1"],
+            ["37:14", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["39:08", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["41:49", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["42:57", "('Moonlight Sonata' First Movement)", "", "", ""],
+            ["46:32", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
         ]
     },
+
     {
-        id: "12",
+        id: "12", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:36", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
@@ -284,7 +284,7 @@ const episodesData = [
             ["12:36", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
             ["14:28", "(Unreleased BGM 2)", "", "", ""],
             ["16:14", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["17:32", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["17:32", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["19:15", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
             ["20:46", "事件解決", "Jiken Kaiketsu", "Case Resolution", "Detective Conan Original Soundtrack 1"],
             ["22:00", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
@@ -292,7 +292,7 @@ const episodesData = [
         ]
     },
     {
-        id: "13",
+        id: "13", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
@@ -304,7 +304,7 @@ const episodesData = [
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
             ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -312,7 +312,7 @@ const episodesData = [
         ]
     },
     {
-        id: "14",
+        id: "14", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -323,14 +323,14 @@ const episodesData = [
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["00:00", "コナンのテーマ", "Konan no Tēma", "Conan's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
             ["00:00", "事件解決 （意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"]
         ]
     },
     {
-        id: "15",
+        id: "15", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "前話回想", "Zenwa Kaisō", "Previous Story Recollection", "Detective Conan Original Soundtrack 1"],
@@ -348,7 +348,7 @@ const episodesData = [
         ]
     },
     {
-        id: "16",
+        id: "16", isFiller: false,
         data: [
             ["1", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["2", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -366,7 +366,7 @@ const episodesData = [
         ]
     },
     {
-        id: "17",
+        id: "17", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
@@ -381,14 +381,14 @@ const episodesData = [
             ["16:44", "対決のテーマ", "Taiketsu no Tēma", "Showdown Theme", "Detective Conan Original Soundtrack 1"],
             ["18:04", "絶体絶命", "Zettai Zetsumei", "A Desperate Situation", "Detective Conan Original Soundtrack 2"],
             ["19:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["20:16", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["20:16", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["20:44", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["21:21", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
             ["23:19", "事件解決 （意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"]
         ]
     },
     {
-        id: "18",
+        id: "18", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -407,7 +407,7 @@ const episodesData = [
         ]
     },
     {
-        id: "19",
+        id: "19", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "(Unreleased BGM 1)", "", "", ""],
@@ -426,7 +426,7 @@ const episodesData = [
         ]
     },
     {
-        id: "20",
+        id: "20", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "悪のテーマ2", "Aku no Tēma 2", "Theme of Evil 2", "Detective Conan Original Soundtrack 2"],
@@ -448,7 +448,7 @@ const episodesData = [
         ]
     },
     {
-        id: "21",
+        id: "21", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -464,12 +464,12 @@ const episodesData = [
             ["00:00", "沈む夕陽３", "Shizumu Yūhi 3", "Depressing Sunset 3", "Detective Conan Original Soundtrack 2"],
             ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "コナンの夢 （夕暮れver.）", "Konan no Yume (Yūgure ver.)", "Conan's Dream (Twilight ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "「名探偵コナン」メイン・テーマ（バラードバージョン）", "\"Meitantei Konan\" Mein・Tēma (Barādo ver.)", "\"Detective Conan\" Main Theme (Ballad ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「名探偵コナン」メイン・テーマ（バラードバージョン）", "'Meitantei Konan' Mein・Tēma (Barādo ver.)", "'Detective Conan' Main Theme (Ballad ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"]
         ]
     },
     {
-        id: "22",
+        id: "22", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
@@ -489,11 +489,11 @@ const episodesData = [
         ]
     },
     {
-        id: "23",
+        id: "23", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "犯人のアジト１", "Hannin no Ajito 1", "The Culprit's Hideout 1", "Detective Conan Original Soundtrack 2"],
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
@@ -511,7 +511,7 @@ const episodesData = [
         ]
     },
     {
-        id: "24",
+        id: "24", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
@@ -523,7 +523,7 @@ const episodesData = [
             ["00:00", "沈む夕陽１", "Shizumu Yūhi 1", "Depressing Sunset 1", "Detective Conan Original Soundtrack 2"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
-            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "\"Meitantei Konan\" Mein・Tēma (Yokoku)", "\"Detective Conan\" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "沈む夕陽１", "Shizumu Yūhi 1", "Depressing Sunset 1", "Detective Conan Original Soundtrack 2"],
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["00:00", "(Unreleased BGM 1)", "", "", ""],
@@ -535,7 +535,7 @@ const episodesData = [
         ]
     },
     {
-        id: "25",
+        id: "25", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
@@ -555,7 +555,7 @@ const episodesData = [
         ]
     },
     {
-        id: "26",
+        id: "26", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -577,7 +577,7 @@ const episodesData = [
         ]
     },
     {
-        id: "27",
+        id: "27", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -596,7 +596,7 @@ const episodesData = [
         ]
     },
     {
-        id: "28",
+        id: "28", isFiller: false,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -618,7 +618,7 @@ const episodesData = [
         ]
     },
     {
-        id: "29",
+        id: "29", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -634,14 +634,14 @@ const episodesData = [
             ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "コナンの夢 （夕暮れver.）", "Konan no Yume (Yūgure ver.)", "Conan's Dream (Twilight ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "「名探偵コナン」メイン・テーマ （ジャズver.）", "\"Meitantei Konan\" Mein・Tēma (Jazu ver.)", "\"Detective Conan\" Main Theme (Jazz ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （ジャズver.）", "'Meitantei Konan' Mein・Tēma (Jazu ver.)", "'Detective Conan' Main Theme (Jazz ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "迷宮のラヴァーズ", "Meikyū no Lovers", "Lovers' Labyrinth", "Meikyū no Lovers"],
             ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"]
         ]
     },
     {
-        id: "30",
+        id: "30", isFiller: true,
         data: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -659,7 +659,7 @@ const episodesData = [
         ]
     },
     {
-        id: "31",
+        id: "31", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -669,7 +669,7 @@ const episodesData = [
             ["00:00", "Threat (Part 2)", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "Scene of the Case (Mystery ver.)", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "The Culprit's Hideout (Creeping In ver.)", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
-            ["00:00", "\"Detective Conan\" Main Theme (Sound Cue)", "\"Meitantei Konan\" Mein・Tēma (Oto Konte)", "\"Detective Conan\" Main Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "'Detective Conan' Main Theme (Sound Cue)", "'Meitantei Konan' Mein・Tēma (Oto Konte)", "'Detective Conan' Main Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "Theme of Evil (Part 2)", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "The Culprit's Hideout", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
             ["00:00", "Conan's Theme 1", "Konan no Tēma 1", "Conan's Theme 1", "Detective Conan Original Soundtrack 2"],
@@ -683,7 +683,7 @@ const episodesData = [
         ]
     },
     {
-        id: "32",
+        id: "32", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -705,7 +705,7 @@ const episodesData = [
         ]
     },
     {
-        id: "33",
+        id: "33", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "Ran no Tēma", "Ran's Theme", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -725,7 +725,7 @@ const episodesData = [
         ]
     },
     {
-        id: "34",
+        id: "34", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -741,7 +741,7 @@ const episodesData = [
         ]
     },
     {
-        id: "35",
+        id: "35", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "コナンの勇気", "Konan no Yūki", "Conan's Courage", "Detective Conan Original Soundtrack 3"],
@@ -761,7 +761,7 @@ const episodesData = [
         ]
     },
     {
-        id: "36",
+        id: "36", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -781,7 +781,7 @@ const episodesData = [
         ]
     },
     {
-        id: "37",
+        id: "37", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -799,7 +799,7 @@ const episodesData = [
         ]
     },
     {
-        id: "38",
+        id: "38", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
@@ -818,7 +818,7 @@ const episodesData = [
         ]
     },
     {
-        id: "39",
+        id: "39", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "想い出", "Omoide", "Memories", "Detective Conan Original Soundtrack 3"],
@@ -833,7 +833,7 @@ const episodesData = [
         ]
     },
     {
-        id: "40",
+        id: "40", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "コナンの勇気", "Konan no Yūki", "Conan's Courage", "Detective Conan Original Soundtrack 3"],
@@ -855,7 +855,7 @@ const episodesData = [
         ]
     },
     {
-        id: "41",
+        id: "41", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -873,7 +873,7 @@ const episodesData = [
         ]
     },
     {
-        id: "42",
+        id: "42", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "ジングルベル", "Jinguru Beru", "Jingle Bells", ""],
@@ -897,7 +897,7 @@ const episodesData = [
         ]
     },
     {
-        id: "43",
+        id: "43", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "事件現場２", "Jiken Genba 2", "Scene of the Case 2", "Detective Conan Original Soundtrack 2"],
@@ -917,7 +917,7 @@ const episodesData = [
         ]
     },
     {
-        id: "44",
+        id: "44", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -935,7 +935,7 @@ const episodesData = [
         ]
     },
     {
-        id: "45",
+        id: "45", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
@@ -956,7 +956,7 @@ const episodesData = [
         ]
     },
     {
-        id: "46",
+        id: "46", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -976,7 +976,7 @@ const episodesData = [
         ]
     },
     {
-        id: "47",
+        id: "47", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -997,7 +997,7 @@ const episodesData = [
         ]
     },
     {
-        id: "48",
+        id: "48", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -1018,7 +1018,7 @@ const episodesData = [
         ]
     },
     {
-        id: "49",
+        id: "49", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "名探偵コナン～新メイン・テーマ", "Meitantei Konan ~ Shin Mein・Tēma", "Detective Conan ~ New Main Theme", "Detective Conan Original Soundtrack 3"],
@@ -1039,7 +1039,7 @@ const episodesData = [
         ]
     },
     {
-        id: "50",
+        id: "50", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1063,7 +1063,7 @@ const episodesData = [
         ]
     },
     {
-        id: "51",
+        id: "51", isFiller: true,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1083,7 +1083,7 @@ const episodesData = [
         ]
     },
     {
-        id: "52",
+        id: "52", isFiller: false,
         data: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -1114,7 +1114,7 @@ const episodesData = [
         ]
     },
     {
-        id: "53",
+        id: "53", isFiller: true,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1135,7 +1135,7 @@ const episodesData = [
         ]
     },
     {
-        id: "54",
+        id: "54", isFiller: false,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -1160,7 +1160,7 @@ const episodesData = [
         ]
     },
     {
-        id: "55",
+        id: "55", isFiller: true,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1182,7 +1182,7 @@ const episodesData = [
         ]
     },
     {
-        id: "56",
+        id: "56", isFiller: true,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
@@ -1205,7 +1205,7 @@ const episodesData = [
         ]
     },
     {
-        id: "57",
+        id: "57", isFiller: false,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -1223,7 +1223,7 @@ const episodesData = [
         ]
     },
     {
-        id: "58",
+        id: "58", isFiller: false,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "コナンの勇気", "Konan no Yūki", "Conan's Courage", "Detective Conan Original Soundtrack 3"],
@@ -1245,7 +1245,7 @@ const episodesData = [
         ]
     },
     {
-        id: "59",
+        id: "59", isFiller: true,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
@@ -1275,7 +1275,7 @@ const episodesData = [
         ]
     },
     {
-        id: "60",
+        id: "60", isFiller: false,
         data: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -1296,6 +1296,538 @@ const episodesData = [
             ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
         ]
     },
+    {
+        id: "61", isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場２", "Jiken Genba 2", "Scene of the Case 2", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "新一の事件解明", "Shin'ichi no Jiken Kaimei", "Shinichi's Case Clarification", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+        ]
+    },
+    {
+        id: "62", isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊急指令", "Kinkyū Shirei", "Emergency Orders", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件解明 （オリジナルver.）", "Jiken Kaimei (Orijinaru ver.)", "Case Clarification (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "キミがいれば", "Kimi ga Ireba", "If You're There", "Kimi ga Ireba"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "63",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "時計じかけの摩天楼", "Tokei Jikake no Mantenrō", "The Time-Bombed Skyscraper", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "対決のテーマ （摩天楼ヴァージョン）", "Taiketsu no Tēma (Mantenrō Vājon)", "Showdown Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "64",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "新一のテーマ", "Shin'ichi no Tēma", "Shinichi's Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "65",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊急指令", "Kinkyū Shirei", "Emergency Orders", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "キミがいれば", "Kimi ga Ireba", "If You're There", "Kimi ga Ireba"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "捜査開始 （摩天楼ヴァージョン）", "Sōsa Kaishi (Mantenrō Vājon)", "The Investigation Begins (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "時計じかけの摩天楼", "Tokei Jikake no Mantenrō", "The Time-Bombed Skyscraper", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+        ]
+    },
+    {
+        id: "66",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "捜査開始", "Sōsa Kaishi", "The Investigation Begins", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "67",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "英国風館", "Eikoku Fūkan", "Seal of England", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "星の愛", "Hoshi no Ai", "Star Love", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "捜査開始 （摩天楼ヴァージョン）", "Sōsa Kaishi (Mantenrō Vājon)", "The Investigation Begins (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悲劇のヒロイン", "Higeki no Hiroin", "Tragic Heroine", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory", "Detective Conan Original Soundtrack 1"],
+        ]
+    },
+    {
+        id: "68",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "英国風館", "Eikoku Fūkan", "Seal of England", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "想い出", "Omoide", "Memories", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1", "Detective Conan Original Soundtrack 3"],
+        ]
+    },
+    {
+        id: "69",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+        ]
+    },
+    {
+        id: "70",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "捜査開始 （摩天楼ヴァージョン）", "Sōsa Kaishi (Mantenrō Vājon)", "The Investigation Begins (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "光と影のロマン", "Hikari to Kage no Roman", "Romance of Light and Shadow", "Hikari to Kage no Roman"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+        ]
+    },
+    {
+        id: "71",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "捜査開始", "Sōsa Kaishi", "The Investigation Begins", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "72",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "捜査開始", "Sōsa Kaishi", "The Investigation Begins", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
+        ]
+    },
+    {
+        id: "73",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "時計じかけの摩天楼", "Tokei Jikake no Mantenrō", 'The Time-Bombed Skyscraper', "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "対決のテーマ （摩天楼ヴァージョン）", "Taiketsu no Tēma (Mantenrō Vājon)", "Showdown Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件の謎", "Jiken no Nazo", "Mystery of the Case", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+        ]
+    },
+    {
+        id: "74",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "(Unreleased BGM 4)", "", "", ""],
+            ["00:00", "新一・追跡のテーマ", "Shin'ichi・Tsuiseki no Tēma", "Shinichi's Pursuit Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "コナンのテーマ （バラード・ヴァージョン)", "Konan no Tēma (Barādo・Vājon)", "Conan's Theme (Ballad ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "75",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "捜査開始", "Sōsa Kaishi", "The Investigation Begins", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの夢 （夕暮れver.）", "Konan no Yume (Yūgure ver.)", "Conan's Dream (Twilight ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "76",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "ぼくがいる～コナンのテーマ （インストヴァージョン）", "Boku ga Iru ~ Konan no Tēma (Insuto Vājon)", "I'm Here ~ Conan's Theme (Instrumental ver.)", ""],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "英国風館", "Eikoku Fūkan", "Seal of England", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "闇の男爵ナイトバロンのテーマ", "Yami no Danshaku Naito Baron no Tēma", "Baron of the Darkness, The Night Baron's Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "怪人包帯男2", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "ぼくがいる～コナンのテーマ （インストヴァージョン）", "Boku ga Iru ~ Konan no Tēma (Insuto Vājon)", "I'm Here ~ Conan's Theme (Instrumental ver.)", ""],
+            ["00:00", "悪のテーマ （パート2）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "対決のテーマ （摩天楼ヴァージョン）", "Taiketsu no Tēma (Mantenrō Vājon)", "Showdown Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "新一・追跡のテーマ", "Shin'ichi・Tsuiseki no Tēma", "Shinichi's Pursuit Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+        ]
+    },
+    {
+        id: "77",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+        ]
+    },
+    {
+        id: "78",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件解明 （オリジナルver.）", "Jiken Kaimei (Orijinaru ver.)", "Case Clarification (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "沈む夕陽 （アコースティックver.）", "Shizumu Yūhi (Akōsutikku ver.)", "Depressing Sunset (Acoustic ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "79",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "捜査開始", "Sōsa Kaishi", "The Investigation Begins", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "闇の男爵ナイトバロンのテーマ", "Yami no Danshaku Naito Baron no Tēma", "Baron of the Darkness, The Night Baron's Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "コナンの夢", "Konan no Yume", "Conan's Dream", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "80",
+        isFiller: true,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "コナンのテーマ （予告）", "Konan no Tēma (Yokoku)", "Conan's Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンのテーマ （バラード・ヴァージョン)", "Konan no Tēma (Barādo・Vājon)", "Conan's Theme (Ballad ver.)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+    {
+        id: "81",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "LIVING DAYLIGHTS", "LIVING DAYLIGHTS", "LIVING DAYLIGHTS", "LIVING DAYLIGHTS"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊急指令", "Kinkyū Shirei", "Emergency Orders", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+        ]
+    },
+    {
+        id: "82",
+        isFiller: false,
+        data: [
+            ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "前話回想", "Zenwa Kaisō", "Previous Story Recollection", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "BREAK", "BREAK", "BREAK", "LIVING DAYLIGHTS"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "事件解決", "Jiken Kaiketsu", "Case Resolution", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "君がいない夏", "Kimi ga Inai Natsu", "The Summer Without You", "Kimi ga Inai Natsu"],
+            ["00:00", "BREAK", "BREAK", "BREAK", "LIVING DAYLIGHTS"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

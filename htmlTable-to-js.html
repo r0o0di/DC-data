@@ -11,6 +11,9 @@
   <label for="episodeId">Episode ID:</label>
   <input type="text" id="episodeId" placeholder="Enter episode ID">
 
+  <label for="fillerCheckbox">Filler?</label>
+  <input type="checkbox" id="fillerCheckbox">
+
   <label for="htmlCode">HTML Code:</label>
   <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea>
 
@@ -20,11 +23,11 @@
   <!-- Add an output div to display the filtered data -->
   <div id="output"></div>
   <button onclick="copyToClipboard()">Copy to Clipboard</button>
+  
 
 
-  <script type="module" src="anime-episodes.js"></script>
-  <script type="module" src="episodes-data.js"></script>
   <script type="module" src="htmlTable-to-js.js"></script>
+
 </body>
 
 </html>

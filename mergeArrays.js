@@ -17,10 +17,10 @@ function mergeArrays(episodes, episodesData) {
         }
     });
 
-    // Create a new array with the desired order (id, title, data)
+    // Create a new array with the desired order (id, episode, title, isFiller, BGM)
     const rearrangedArray = episodesData.map(item => {
         const formattedData = item.data.map(row => `["${row.join('", "')}"]`).join(',\n');
-        return `{ id: "${item.id}", episode: "${item.id}", title: "${item.title}", BGM: [\n${formattedData}\n] }`;
+        return `{ id: "${item.id}", episode: "${item.id}", title: "${item.title}", isFiller: ${item.isFiller}, BGM: [\n${formattedData}\n] }`;
     });
 
     return rearrangedArray;
@@ -46,4 +46,4 @@ button.addEventListener("click", function copyToClipboard() {
     window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges();
-}) 
+});

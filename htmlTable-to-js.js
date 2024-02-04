@@ -4,7 +4,7 @@ const parseBtn = document.getElementById("parse");
 parseBtn.addEventListener("click", function filterHTML() {
     var episodeId = document.getElementById("episodeId").value;
     var htmlCode = document.getElementById("htmlCode").value;
-
+    var fillerCheckbox = document.getElementById("fillerCheckbox");
     // Create a temporary div element to parse the HTML code
     var tempDiv = document.getElementById("output");
     tempDiv.innerHTML = htmlCode;
@@ -15,6 +15,7 @@ parseBtn.addEventListener("click", function filterHTML() {
     // Initialize the filtered data structure
     var filteredData = {
         id: episodeId,
+        isFiller: fillerCheckbox.checked,
         data: []
     };
 
@@ -39,7 +40,7 @@ parseBtn.addEventListener("click", function filterHTML() {
 
     // Display the filtered data without quotes around id and data
     // Format each row in one line
-    var formattedOutput = `{\n  id: "${episodeId}",\n  data: [\n`;
+    var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n data: [\n`;
     for (var j = 0; j < filteredData.data.length; j++) {
         formattedOutput += `    ["${filteredData.data[j].join('", "')}"],\n`;
     }

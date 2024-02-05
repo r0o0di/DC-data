@@ -20,11 +20,31 @@ function mergeArrays(episodes, episodesData) {
     // Create a new array with the desired order (id, episode, title, isFiller, BGM)
     const rearrangedArray = episodesData.map(item => {
         const formattedData = item.data.map(row => `["${row.join('", "')}"]`).join(',\n');
-        return `{ id: "${item.id}", episode: "${item.id}", title: "${item.title}", isFiller: ${item.isFiller}, BGM: [\n${formattedData}\n] }`;
+        return `{ 
+            id: "${item.id}", 
+            episode: "${item.id}", 
+            title: "${item.title}", 
+            isFiller: ${item.isFiller}, 
+            information: [\n${formatInformation(item.information)}],
+            description: "${item.situation}", 
+            BGM: [\n${formattedData}\n] 
+          }`;
     });
 
     return rearrangedArray;
 }
+
+function formatInformation(information) {
+    if (!information || information.length === 0) {
+        return '';
+    }
+
+    return information.map(info => {
+        const [property, value] = Object.entries(info)[0];
+        return `{ ${property}: "${value}" }`;
+    }).join(',\n');
+}
+
 
 const mergedArray = mergeArrays(episodes, episodesData);
 console.log(mergedArray);

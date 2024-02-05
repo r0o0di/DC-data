@@ -68,6 +68,45 @@ extractBtn.addEventListener("click", function extractTextContent() {
     document.getElementById("output").innerText = formattedOutput;
 });
 
+
+
+
+
+
+
+
+
+
+
+parseBtn.addEventListener("click", function filterHTML() {
+    var table = document.querySelector('.infobox'); // Assuming the table has a unique class 'infobox'
+    var rows = table.querySelectorAll('tr');
+
+    var jsonData = {}; // Object to store the extracted data
+
+    // Loop through each row in the table
+    rows.forEach(function (row) {
+        var cells = row.querySelectorAll('th, td'); // Select both header and data cells
+
+        // Extract header and data information
+        var header = cells[0].textContent.trim();
+        var data = cells[1].textContent.trim();
+
+        // Add the information to the JSON object
+        jsonData[header] = data;
+    });
+
+    // Display the extracted JSON data
+    var formattedOutput = JSON.stringify(jsonData, null, 2);
+    document.getElementById("output").innerText = formattedOutput;
+});
+
+
+
+
+
+
+
 const copyBtn = document.querySelector(".copy");
 
 copyBtn.addEventListener("click", function copyToClipboard() {
@@ -79,3 +118,35 @@ copyBtn.addEventListener("click", function copyToClipboard() {
     document.execCommand("copy");
     window.getSelection().removeAllRanges();
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

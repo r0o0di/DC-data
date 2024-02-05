@@ -1,5 +1,5 @@
 const ttt = [
-    {
+    { 
         id: "1", episode: "1", title: "Ep. 1: Roller Coaster Murder Case", isFiller: false, BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:12", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],

@@ -3,7 +3,7 @@
 const episodesData = [
     {
         id: "1", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:12", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
             ["03:06", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -24,7 +24,7 @@ const episodesData = [
     },
     {
         id: "2", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
             ["01:55", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -51,7 +51,7 @@ const episodesData = [
     },
     {
         id: "3", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
             ["02:22", "うたかたの夢", "Utakata no Yume", "Dream of Bubble", "Utakata no Yume"],
@@ -77,7 +77,7 @@ const episodesData = [
     },
     {
         id: "4", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
             ["02:50", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -103,7 +103,7 @@ const episodesData = [
     },
     {
         id: "5", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
             ["01:56", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -124,7 +124,7 @@ const episodesData = [
     },
     {
         id: "6", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
             ["02:53", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -146,7 +146,7 @@ const episodesData = [
     },
     {
         id: "7", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:36", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["02:56", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
@@ -168,7 +168,7 @@ const episodesData = [
     },
     {
         id: "8", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:53", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["02:45", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -189,7 +189,7 @@ const episodesData = [
     },
     {
         id: "9", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
             ["02:22", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
@@ -210,7 +210,7 @@ const episodesData = [
     },
     {
         id: "10", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["03:13", "毛利小五郎のテーマ （ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
@@ -234,7 +234,7 @@ const episodesData = [
     {
         id: "11",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title ver.)", "Unreleased"],
             ["03:42", "('Moonlight Sonata' First Movement)", "", "", ""],
@@ -259,7 +259,7 @@ const episodesData = [
 
     {
         id: "12", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:36", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)", "Detective Conan Original Soundtrack 2"],
             ["03:42", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -280,7 +280,7 @@ const episodesData = [
     },
     {
         id: "13", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
@@ -300,7 +300,7 @@ const episodesData = [
     },
     {
         id: "14", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "犯人のアジト （忍び込みver.)", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
@@ -318,7 +318,7 @@ const episodesData = [
     },
     {
         id: "15", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "前話回想", "Zenwa Kaisō", "Previous Story Recollection", "Detective Conan Original Soundtrack 1"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -336,7 +336,7 @@ const episodesData = [
     },
     {
         id: "16", isFiller: false,
-        data: [
+        bgm: [
             ["1", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["2", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["3", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
@@ -354,7 +354,7 @@ const episodesData = [
     },
     {
         id: "17", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
             ["03:08", "小さな巨人", "Chiisana Kyojin", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
@@ -376,7 +376,7 @@ const episodesData = [
     },
     {
         id: "18", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -395,7 +395,7 @@ const episodesData = [
     },
     {
         id: "19", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "(Unreleased BGM 1)", "", "", ""],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -414,7 +414,7 @@ const episodesData = [
     },
     {
         id: "20", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "悪のテーマ2", "Aku no Tēma 2", "Theme of Evil 2", "Detective Conan Original Soundtrack 2"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -436,7 +436,7 @@ const episodesData = [
     },
     {
         id: "21", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -457,7 +457,7 @@ const episodesData = [
     },
     {
         id: "22", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "推理１", "Suiri 1", "Deduction 1", "Detective Conan Original Soundtrack 2"],
@@ -477,7 +477,7 @@ const episodesData = [
     },
     {
         id: "23", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
@@ -499,7 +499,7 @@ const episodesData = [
     },
     {
         id: "24", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "(Unreleased BGM 1)", "", "", ""],
@@ -523,7 +523,7 @@ const episodesData = [
     },
     {
         id: "25", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -543,7 +543,7 @@ const episodesData = [
     },
     {
         id: "26", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -565,7 +565,7 @@ const episodesData = [
     },
     {
         id: "27", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -584,7 +584,7 @@ const episodesData = [
     },
     {
         id: "28", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -606,7 +606,7 @@ const episodesData = [
     },
     {
         id: "29", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -629,7 +629,7 @@ const episodesData = [
     },
     {
         id: "30", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
@@ -647,7 +647,7 @@ const episodesData = [
     },
     {
         id: "31", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
             ["00:00", "Showdown Theme", "Taiketsu no Tēma", "Showdown Theme", "Detective Conan Original Soundtrack 1"],
@@ -671,7 +671,7 @@ const episodesData = [
     },
     {
         id: "32", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme", "Detective Conan Original Soundtrack 1"],
@@ -693,7 +693,7 @@ const episodesData = [
     },
     {
         id: "33", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "Ran no Tēma", "Ran's Theme", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "Chiisana Kyojin", "A Small Great Person", "A Small Great Person", "Detective Conan Original Soundtrack 1"],
@@ -713,7 +713,7 @@ const episodesData = [
     },
     {
         id: "34", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
@@ -729,7 +729,7 @@ const episodesData = [
     },
     {
         id: "35", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "コナンの勇気", "Konan no Yūki", "Conan's Courage", "Detective Conan Original Soundtrack 3"],
             ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
@@ -749,7 +749,7 @@ const episodesData = [
     },
     {
         id: "36", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -769,7 +769,7 @@ const episodesData = [
     },
     {
         id: "37", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -787,7 +787,7 @@ const episodesData = [
     },
     {
         id: "38", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
@@ -806,7 +806,7 @@ const episodesData = [
     },
     {
         id: "39", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "想い出", "Omoide", "Memories", "Detective Conan Original Soundtrack 3"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
@@ -821,7 +821,7 @@ const episodesData = [
     },
     {
         id: "40", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "コナンの勇気", "Konan no Yūki", "Conan's Courage", "Detective Conan Original Soundtrack 3"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
@@ -843,7 +843,7 @@ const episodesData = [
     },
     {
         id: "41", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "Shin'ichi no Meisuiri", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -861,7 +861,7 @@ const episodesData = [
     },
     {
         id: "42", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "ジングルベル", "Jinguru Beru", "Jingle Bells", ""],
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
@@ -885,7 +885,7 @@ const episodesData = [
     },
     {
         id: "43", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "事件現場２", "Jiken Genba 2", "Scene of the Case 2", "Detective Conan Original Soundtrack 2"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
@@ -905,7 +905,7 @@ const episodesData = [
     },
     {
         id: "44", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -923,7 +923,7 @@ const episodesData = [
     },
     {
         id: "45", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -944,7 +944,7 @@ const episodesData = [
     },
     {
         id: "46", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -964,7 +964,7 @@ const episodesData = [
     },
     {
         id: "47", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -985,7 +985,7 @@ const episodesData = [
     },
     {
         id: "48", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -1006,7 +1006,7 @@ const episodesData = [
     },
     {
         id: "49", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "名探偵コナン～新メイン・テーマ", "Meitantei Konan ~ Shin Mein・Tēma", "Detective Conan ~ New Main Theme", "Detective Conan Original Soundtrack 3"],
             ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1027,7 +1027,7 @@ const episodesData = [
     },
     {
         id: "50", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -1051,7 +1051,7 @@ const episodesData = [
     },
     {
         id: "51", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -1071,7 +1071,7 @@ const episodesData = [
     },
     {
         id: "52", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
             ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1102,7 +1102,7 @@ const episodesData = [
     },
     {
         id: "53", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1123,7 +1123,7 @@ const episodesData = [
     },
     {
         id: "54", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -1148,7 +1148,7 @@ const episodesData = [
     },
     {
         id: "55", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -1170,7 +1170,7 @@ const episodesData = [
     },
     {
         id: "56", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
             ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
@@ -1193,7 +1193,7 @@ const episodesData = [
     },
     {
         id: "57", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "蘭のテーマ （音コンテ）", "Ran no Tēma (Oto Konte)", "Ran's Theme (Sound Cue)", "Detective Conan Original Soundtrack 2"],
@@ -1211,7 +1211,7 @@ const episodesData = [
     },
     {
         id: "58", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "コナンの勇気", "Konan no Yūki", "Conan's Courage", "Detective Conan Original Soundtrack 3"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
@@ -1233,7 +1233,7 @@ const episodesData = [
     },
     {
         id: "59", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
             ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1263,7 +1263,7 @@ const episodesData = [
     },
     {
         id: "60", isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
             ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1285,7 +1285,7 @@ const episodesData = [
     },
     {
         id: "61", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -1302,7 +1302,7 @@ const episodesData = [
     },
     {
         id: "62", isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
@@ -1326,7 +1326,7 @@ const episodesData = [
     {
         id: "63",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -1352,7 +1352,7 @@ const episodesData = [
     {
         id: "64",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -1375,7 +1375,7 @@ const episodesData = [
     {
         id: "65",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1398,7 +1398,7 @@ const episodesData = [
     {
         id: "66",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1423,7 +1423,7 @@ const episodesData = [
     {
         id: "67",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "英国風館", "Eikoku Fūkan", "Seal of England", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1447,7 +1447,7 @@ const episodesData = [
     {
         id: "68",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "英国風館", "Eikoku Fūkan", "Seal of England", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -1467,7 +1467,7 @@ const episodesData = [
     {
         id: "69",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
@@ -1489,7 +1489,7 @@ const episodesData = [
     {
         id: "70",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
@@ -1514,7 +1514,7 @@ const episodesData = [
     {
         id: "71",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
@@ -1538,7 +1538,7 @@ const episodesData = [
     {
         id: "72",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -1561,7 +1561,7 @@ const episodesData = [
     {
         id: "73",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1587,7 +1587,7 @@ const episodesData = [
     {
         id: "74",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -1611,7 +1611,7 @@ const episodesData = [
     {
         id: "75",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
             ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1634,7 +1634,7 @@ const episodesData = [
     {
         id: "76",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -1667,7 +1667,7 @@ const episodesData = [
     {
         id: "77",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -1686,7 +1686,7 @@ const episodesData = [
     {
         id: "78",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
@@ -1706,7 +1706,7 @@ const episodesData = [
     {
         id: "79",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
@@ -1728,7 +1728,7 @@ const episodesData = [
     {
         id: "80",
         isFiller: true,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
             ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1749,7 +1749,7 @@ const episodesData = [
     {
         id: "81",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1770,7 +1770,7 @@ const episodesData = [
     {
         id: "82",
         isFiller: false,
-        data: [
+        bgm: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
             ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],

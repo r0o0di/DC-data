@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BGM Listing Parser</title>
+</head>
+
+<body>
+
+    <h2>Enter Episode Information</h2>
+    <label for="episodeId">Episode ID:</label>
+    <input type="text" id="episodeId"><br><br>
+    <label for="fillerCheckbox">Is Filler:</label>
+    <input type="checkbox" id="fillerCheckbox"><br><br>
+
+    <h2>Enter HTML Code</h2>
+    <textarea id="htmlCode" rows="10" cols="50"></textarea><br><br>
+
+    <button id="parse">Parse BGM Listing</button><br><br>
+
+    <h2>Output</h2>
+    <pre id="output"></pre>
+
+    <button class="copy">Copy Output</button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const parseBtn = document.getElementById("parse");
+            const copyBtn = document.querySelector(".copy");
+
+            parseBtn.addEventListener("click", function filterHTML() {
+                var episodeId = document.getElementById("episodeId").value;
+                var htmlCode = document.getElementById("htmlCode").value;
+                var fillerCheckbox = document.getElementById("fillerCheckbox");
+                // Create a temporary div element to parse the HTML code
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = htmlCode;
+
+                // Find the span element with id "BGM_listing"
+                var bgmListingSpan = tempDiv.querySelector('#BGM_listing');
+
+                if (!bgmListingSpan) {
+                    // If the BGM listing span is not found, show an error message
+                    document.getElementById("output").innerText = "BGM listing span not found.";
+                    return;
+                }
+
+                // Find the table following the BGM listing span
+                var bgmTable = bgmListingSpan.nextElementSibling;
+
+                if (!bgmTable || bgmTable.tagName !== 'TABLE') {
+                    // If the table following the BGM listing span is not found or not a table, show an error message
+                    document.getElementById("output").innerText = "BGM listing table not found.";
+                    return;
+                }
+
+                // Get all rows in the BGM listing table
+                var trElements = bgmTable.querySelectorAll('tr');
+
+                // Initialize the filtered data structure
+                var filteredData = {
+                    id: episodeId,
+                    isFiller: fillerCheckbox.checked,
+                    bgm: []
+                };
+
+                // Loop through each tr element in the BGM listing table
+                for (var i = 1; i < trElements.length; i++) { // Start from index 1 to skip header row
+                    var tdElements = trElements[i].querySelectorAll('td');
+
+                    // If the tr element has td elements, proceed with filtering
+                    if (tdElements.length > 0) {
+                        var timestamp = tdElements[0].innerText.trim();
+                        var jpnTitle = tdElements[1].innerText.trim();
+                        var rmjTitle = tdElements[2].innerText.trim();
+                        var enTitle = tdElements[3].innerText.trim();
+                        var ost = tdElements[4].innerText.trim();
+
+                        // Add the filtered data to the result
+                        filteredData.bgm.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
+                    }
+                }
+
+                // Display the filtered data without quotes around id and data
+                // Format each row in one line
+                var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n bgm: [\n`;
+                for (var j = 0; j < filteredData.bgm.length; j++) {
+                    formattedOutput += `    ["${filteredData.bgm[j].join('", "')}"],\n`;
+                }
+                formattedOutput += '  ]\n},';
+
+                document.getElementById("output").innerText = formattedOutput;
+            });
+
+            copyBtn.addEventListener("click", function copyToClipboard() {
+                var outputElement = document.getElementById("output");
+                var range = document.createRange();
+                range.selectNode(outputElement);
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(range);
+                document.execCommand("copy");
+                window.getSelection().removeAllRanges();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -19,7 +19,7 @@ function mergeArrays(episodes, episodesData) {
 
     // Create a new array with the desired order (id, episode, title, isFiller, BGM)
     const rearrangedArray = episodesData.map(item => {
-        const formattedData = item.data.map(row => `["${row.join('", "')}"]`).join(',\n');
+        const formattedData = item.bgm.map(row => `["${row.join('", "')}"]`).join(',\n');
         return `{ 
             id: "${item.id}", 
             episode: "${item.id}", 
@@ -27,7 +27,7 @@ function mergeArrays(episodes, episodesData) {
             isFiller: ${item.isFiller}, 
             information: [\n${formatInformation(item.information)}],
             description: "${item.situation}", 
-            BGM: [\n${formattedData}\n] 
+            bgm: [\n${formattedData}\n] 
           }`;
     });
 
@@ -66,4 +66,5 @@ button.addEventListener("click", function copyToClipboard() {
     window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges();
+    console.log("copied");
 });

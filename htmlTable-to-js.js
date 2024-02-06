@@ -16,7 +16,7 @@ parseBtn.addEventListener("click", function filterHTML() {
     var filteredData = {
         id: episodeId,
         isFiller: fillerCheckbox.checked,
-        data: []
+        bgm: []
     };
 
     // Loop through each tr element
@@ -34,15 +34,15 @@ parseBtn.addEventListener("click", function filterHTML() {
             var ost = tdElements[4].innerText.trim();
 
             // Add the filtered data to the result
-            filteredData.data.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
+            filteredData.bgm.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
         }
     }
 
     // Display the filtered data without quotes around id and data
     // Format each row in one line
-    var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n data: [\n`;
+    var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n bgm: [\n`;
     for (var j = 0; j < filteredData.data.length; j++) {
-        formattedOutput += `    ["${filteredData.data[j].join('", "')}"],\n`;
+        formattedOutput += `    ["${filteredData.bgm[j].join('", "')}"],\n`;
     }
     formattedOutput += '  ]\n},';
 

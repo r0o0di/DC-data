@@ -33,9 +33,6 @@
 
       // Initialize the result object
       const result = {
-        id: "",
-        isFiller: false,
-        bgm: [],
         information: [],
         englishVersion: [],
         case: [],
@@ -75,27 +72,12 @@
         if (categoryName === 'information') {
           result.information = result.information.concat(Object.entries(categoryData));
         }
-        if (categoryName === 'english version') {
-          result.englishVersion = result.englishVersion.concat(Object.entries(categoryData));
-        }
-        if (categoryName === 'case') {
-          result.case = result.case.concat(Object.entries(categoryData));
-        }
-        if (categoryName === 'staff') {
-          result.staff = result.staff.concat(Object.entries(categoryData));
-        }
-        if (categoryName === 'music') {
-          result.music = result.music.concat(Object.entries(categoryData));
-        }
-        if (categoryName === 'chronology') {
-          result.chronology = result.chronology.concat(Object.entries(categoryData));
-        }
 
       });
 
 
       // Display the result as a string
-      let formattedOutput = `{\n  id: "${result.id}",\n isFiller: ${result.isFiller},\n information: [\n`;
+      let formattedOutput = `{\n information: [\n`;
       for (var j = 0; j < result.information.length; j++) {
         const [property, value] = result.information[j];
         const formattedProperty = formatPropertyName(property);

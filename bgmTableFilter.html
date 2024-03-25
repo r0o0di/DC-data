@@ -74,7 +74,7 @@
 
             // Display the filtered data without quotes around id and data
             // Format each row in one line
-            var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n data: [\n`;
+            var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n bgm: [\n`;
             for (var j = 0; j < filteredData.data.length; j++) {
                 formattedOutput += `    ["${filteredData.data[j].join('", "')}"],\n`;
             }

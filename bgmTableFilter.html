@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Parser</title>
+    <style>
+        body {
+            background: #2d2d2d;
+        }
+    </style>
+</head>
+
+
+<body>
+    
+    <label for="episodeId">Episode ID:</label>
+    <input type="text" id="episodeId" placeholder="Enter episode ID">
+
+    <label for="htmlCode">HTML Code:</label>
+    <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea>
+
+    <!-- Add a checkbox for filler episodes -->
+    <label for="fillerCheckbox">Filler Episode:</label>
+    <input type="checkbox" id="fillerCheckbox">
+
+    <button id="parse">Parse HTML</button>
+    <button id="copy">Copy to Clipboard</button>
+
+    <!-- Add an output div to display the filtered data -->
+    <div id="output"></div>
+
+    <script>
+        const parseBtn = document.getElementById("parse");
+
+
+        parseBtn.addEventListener("click", function filterHTML() {
+            var episodeId = document.getElementById("episodeId").value;
+            var htmlCode = document.getElementById("htmlCode").value;
+            var fillerCheckbox = document.getElementById("fillerCheckbox");
+            // Create a temporary div element to parse the HTML code
+            var tempDiv = document.getElementById("output");
+            tempDiv.innerHTML = htmlCode;
+
+            // Find all tr elements inside the temporary div
+            var trElements = tempDiv.querySelectorAll('tr');
+
+            // Initialize the filtered data structure
+            var filteredData = {
+                id: episodeId,
+                isFiller: fillerCheckbox.checked,
+                data: []
+            };
+
+            // Loop through each tr element
+            for (var i = 0; i < trElements.length; i++) {
+                var tdElements = trElements[i].querySelectorAll('td');
+
+                // If the tr element has td elements, proceed with filtering
+                if (tdElements.length > 0) {
+                    // Replace numbers with "00:00" for the timestamp
+                    var timestamp = tdElements[0].innerText.trim();
+                    timestamp = /^\d+$/.test(timestamp) ? "00:00" : timestamp;
+                    var jpnTitle = tdElements[1].innerText.trim();
+                    var rmjTitle = tdElements[2].innerText.trim();
+                    var enTitle = tdElements[3].innerText.trim();
+                    var ost = tdElements[4].innerText.trim();
+
+                    // Add the filtered data to the result
+                    filteredData.data.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
+                }
+            }
+
+            // Display the filtered data without quotes around id and data
+            // Format each row in one line
+            var formattedOutput = `{\n  id: "${episodeId}",\n isFiller: ${fillerCheckbox.checked},\n data: [\n`;
+            for (var j = 0; j < filteredData.data.length; j++) {
+                formattedOutput += `    ["${filteredData.data[j].join('", "')}"],\n`;
+            }
+            formattedOutput += '  ]\n},';
+
+            document.getElementById("output").innerText = formattedOutput;
+
+        })
+
+
+        const copyBtn = document.getElementById("copy");
+
+        copyBtn.addEventListener("click", function copyToClipboard() {
+            var outputElement = document.getElementById("output");
+            var range = document.createRange();
+            range.selectNode(outputElement);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges();
+        }
+        )
+    </script>
+</body>
+
+</html>

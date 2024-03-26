@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Parser & Filter</title>
+    <style>
+        body {
+            background: #2d2d2d;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <label for="episodeId">Episode ID:</label> <br>
+    <input type="text" id="episodeId" placeholder="Enter episode ID">
+
+    <label for="htmlCode">HTML Code:</label><br>
+    <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea>
+
+    <label for="fillerCheckbox">Filler Episode:</label> <br>
+    <input type="checkbox" id="fillerCheckbox">
+
+    <button id="parse">Parse & Filter HTML</button><br>
+    <button id="copy">Copy to Clipboard</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        const parseBtn = document.getElementById("parse");
+
+        parseBtn.addEventListener("click", function parseAndFilterHTML() {
+            const episodeId = document.getElementById('episodeId').value;
+            const fillerCheckbox = document.getElementById('fillerCheckbox').checked;
+            const htmlInput = document.getElementById('htmlCode').value;
+            const jsOutput = document.getElementById('output');
+
+            // Create a temporary div element to parse the HTML content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlInput;
+
+            // Initialize the result object
+            const result = {
+                id: episodeId,
+                isFiller: fillerCheckbox,
+                episodeDescription: "",
+                information: [],
+                bgm: []
+            };
+
+            // Get Situation Text
+            const situationSpan = tempDiv.querySelector('#Situation');
+            if (situationSpan) {
+                let situationText = null;
+                let siblingElement = situationSpan.parentElement.nextElementSibling;
+
+                // Keep looking through the siblings until we find a <p> element
+                while (siblingElement) {
+                    if (siblingElement.tagName === 'P') {
+                        situationText = siblingElement.textContent.trim();
+                        break;
+                    }
+                    siblingElement = siblingElement.nextElementSibling;
+                }
+
+                if (situationText) {
+                    result.episodeDescription = situationText;
+                }
+            }
+
+            // Iterate through each center element in the table
+            const centerElements = tempDiv.querySelectorAll('center');
+            centerElements.forEach((centerElement) => {
+                const categoryName = centerElement.querySelector('b').textContent.toLowerCase().trim();
+                console.log(categoryName.toUpperCase());
+
+                const categoryData = {};
+
+                // Iterate through rows (tr) under the current center element
+                let currentRow = centerElement.closest('tr').nextElementSibling;
+                while (currentRow && currentRow.tagName === 'TR') {
+                    const propertyElement = currentRow.querySelector('th');
+                    const valueElement = currentRow.querySelector('td');
+
+                    if (propertyElement && valueElement) {
+                        const property = propertyElement.textContent.trim().toLocaleLowerCase();
+                        const value = valueElement.textContent.trim();
+                        categoryData[property] = value;
+                        console.log(property, value);
+                    }
+
+                    currentRow = currentRow.nextElementSibling;
+                }
+
+                // If it's the "information" category, also add it to the general "information" array
+                if (categoryName === 'information') {
+                    result.information = [...result.information, ...Object.entries(categoryData)];
+                }
+            });
+
+            // Extract BGM Table Data (Optional)
+            const bgmSpan = tempDiv.querySelector('#BGM_listing');
+            if (bgmSpan) {
+                let nextElement = bgmSpan.parentElement.nextElementSibling;
+
+                // Move to the next sibling until we find a table or run out of siblings
+                while (nextElement && nextElement.tagName !== 'TABLE') {
+                    nextElement = nextElement.nextElementSibling;
+                }
+
+                if (nextElement && nextElement.tagName === 'TABLE') {
+                    const trElements = nextElement.querySelectorAll('tr');
+
+                    trElements.forEach((trElement) => {
+                        const tdElements = trElement.querySelectorAll('td');
+                        if (tdElements.length > 0) {
+                            const timestamp = tdElements[0].innerText.trim().replace(/^\d+$/, "00:00");
+                            const jpnTitle = tdElements[1].innerText.trim();
+                            const rmjTitle = tdElements[2].innerText.trim();
+                            const enTitle = tdElements[3].innerText.trim();
+                            const ost = tdElements[4].innerText.trim();
+
+                            result.bgm.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
+                        }
+                    });
+                }
+            }
+
+
+
+            // Format Output String
+            let formattedOutput = `{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n information: [\n`;
+            for (var j = 0; j < result.information.length; j++) {
+                const [property, value] = result.information[j];
+                const formattedProperty = formatPropertyName(property);
+                const formattedValue = formatPropertyValue(value);
+                formattedOutput += `    {${formattedProperty} "${formattedValue}"},\n`;
+            }
+            formattedOutput += '  ],\n';
+
+            if (result.bgm.length > 0) {
+                formattedOutput += ` BGM: [\n`;
+                result.bgm.forEach((entry) => {
+                    formattedOutput += `    ["${entry.join('", "')}"],\n`;
+                });
+                formattedOutput = formattedOutput.slice(0, -2) + `\n  ]\n`; // Remove trailing comma from last entry
+            }
+
+            formattedOutput += `},`;
+
+            // Display Output and Enable Copying
+            jsOutput.innerHTML = formattedOutput;
+
+            const copyBtn = document.getElementById("copy");
+            copyBtn.addEventListener("click", function copyToClipboard() {
+                const outputElement = document.getElementById("output");
+                const range = document.createRange();
+                range.selectNode(outputElement);
+                window.getSelection().removeAllRanges();
+                window.getSelection().addRange(range);
+                document.execCommand("copy");
+                window.getSelection().removeAllRanges();
+            });
+        });
+
+        function formatPropertyName(name) {
+            // Check if name includes "expandvoice" (case-insensitive)
+            if (name.toLowerCase().includes("expandvoice")) {
+                // Replace "expand" with an empty string
+                return name.replace(/expand/gi, "");
+            } else if (name.toLowerCase().includes("collapsevoice")) {
+                // Replace "collase" with an empty string
+                return name.replace(/collapse/gi, "");
+
+            } else {
+                // Otherwise, process as usual
+                return name.includes(' ') ? name.toLowerCase().replace(/ /g, '_').replace("'", "") : name.toLowerCase();
+            }
+        }
+
+        function formatPropertyValue(value) {
+            // Check if value includes "expandvoice" (case-insensitive)
+            if (value.toLowerCase().includes("expandvoice cast:")) {
+                // Replace "expand" with an empty string
+                return value.replace(/expandvoice cast:/gi, "").trim();
+            } else if (value.toLowerCase().includes("collapsevoice cast:")) {
+                // Replace "collapse" with an empty string
+                return value.replace(/collapsevoice cast:/gi, "").trim();
+            } else {
+                // Otherwise, return the original value
+                return value.trim();
+            }
+        }
+
+    </script>
+</body>
+
+</html>

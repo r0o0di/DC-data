@@ -217,7 +217,7 @@ const episodesData = [
     {
         id: "5",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Conan and Ran accompany Kogoro on the bullet train to go to Kogoro's best friend's wedding when Conan overhears two men in black talking about a bomb set to go off on the train. If Conan doesn't find the briefcase with the bomb in time, everyone's life on the bullet train is in danger.",
         information: [
             { title: "The Shinkansen's Bomb Case" },
             { japanese_title: "新幹線大爆破事件  (Shinkansen Dai Bakuha Jiken)" },
@@ -570,7 +570,7 @@ const episodesData = [
     {
         id: "12",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "While playing hide and seek, Ayumi goes into the trunk of a car, which speeds off before the game is over. In there, she discovers the head of a dead girl.",
         information: [
             { title: "Ayumi-chan Kidnapping Case" },
             { japanese_title: "歩美ちゃん誘拐事件  (Ayumi-chan Yūkai Jiken)" },
@@ -760,7 +760,7 @@ const episodesData = [
     {
         id: "16",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Denjiro Maru, an antique collector, asks Kogoro to investigate his wife's affair. Denjiro is later found pinned to a wall with a katana. The crime scene has been shredded with a sword and clues point to different people who had scheduled meetings with the collector.",
         information: [
             { title: "The Antique Collector Murder Case" },
             { japanese_title: "骨董品コレクター殺人事件  (Kottōhin Korekutā Satsujin Jiken)" },
@@ -807,7 +807,7 @@ const episodesData = [
     {
         id: "17",
         isFiller: true,
-        episodeDescription: "",
+        episodeDescription: "The Detective Boys were locked inside a department store after hours. They were returning to retrieve Genta's autograph of Yaiba, a fictional super hero. They decide to visit the security room to ask to be released. They find robbers have tied up the security guards and the elevator girl.",
         information: [
             { title: "Hijacked Department Store Case" },
             { japanese_title: "デパートジャック事件  (Depāto Jakku Jiken)" },
@@ -952,7 +952,7 @@ const episodesData = [
     {
         id: "20",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Conan, Genta, Mitsuhiko, and Ayumi explore a haunted house. With strange noises and mysterious scream around every corner, what they find is more tangible and bizarre than any ghost.",
         information: [
             { title: "The Haunted Mansion Murder Case" },
             { japanese_title: "幽霊屋敷殺人事件  (Yūrei Yashiki Satsujin Jiken)" },
@@ -1052,7 +1052,7 @@ const episodesData = [
     {
         id: "22",
         isFiller: false,
-        episodeDescription: '',
+        episodeDescription: "Ran and Conan enjoy the view from a luxury cruise ship, whose owners are charitably giving them a ride back to Tokyo since Kogoro forgot the departure time of their original boat. Ran and Conan notice another passenger, Natsue Hatamoto, who just married her husband, Takeshi, on the island they just left. Natsue's grandfather, Gozo, the head of the Hatamoto family and businesses, rants at his son-in-law, Kitarou, for allowing non-family members onto the ship. Natsue's uncle, Joji Hatamoto, muses that Gozo's bad mood is likely from Joji cooking Western rather than traditional food. Gozo also belittles Kitarou's son, Ichirou, for being an artist and pursuing a hopeless dream. Gozo then orders Takeshi to come visit his room before dinner, and leaves.",
         information: [
             { title: "Luxury Liner Serial Murder Case" },
             { japanese_title: "豪華客船連続殺人事件  (Gōka Kyakusen Renzoku Satsujin Jiken)" },
@@ -1101,7 +1101,7 @@ const episodesData = [
     {
         id: "23",
         isFiller: false,
-        episodeDescription: '',
+        episodeDescription: "After reviewing the crime, Kogoro suggests they should gather for the rest of the night together in the dining hall, to keep Takeshi from murdering anyone else. Akie and Mariko blame Natsue for giving Takeshi access to the family, but Conan interjects that Takeshi's guilt isn't proven, because the room had to be opened from the outside, as it was a sliding lock, not one that required a key and therefore could be lock-picked. Someone had to let Takeshi out of the room, otherwise he would still have been in there.",
         information: [
             { title: "Luxury Liner Serial Murder Case" },
             { japanese_title: "豪華客船連続殺人事件  (Gōka Kyakusen Renzoku Satsujin Jiken)" },
@@ -1253,7 +1253,7 @@ const episodesData = [
     {
         id: "26",
         isFiller: true,
-        episodeDescription: "",
+        episodeDescription: "Takeshi Maehara, a local college student, is house-sitting for his neighbor, Masayoshi Sakaguchi. When Sakaguchi's dog John attacks and kills Takeshi, it shocks not only his owner, but Conan as well. This is a pooch that Conan has known since he was a boy, and now John faces the possibility of being put to sleep, unless Conan can get to the bottom of things first.",
         information: [
             { title: "Pet Dog John Murder Case" },
             { japanese_title: "愛犬ジョン殺人事件  (Aiken Jon Satsujin Jiken)" },
@@ -1303,7 +1303,7 @@ const episodesData = [
     {
         id: "27",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "After Kogoro and Conan take down a would-be bank robber, they head off to Kogoro's 15-year class reunion with Ran in Tochigi Prefecture. Kogoro's old friends were all on the state-winning Judo team together, but when the beautiful Yumi Horikoshi turns up in her room dead of an apparent suicide, the fun is abruptly ended.",
         information: [
             { title: "Kogoro's Class Reunion Murder Case" },
             { japanese_title: "小五郎の同窓会殺人事件  (Kogoro no Dōsōkai Satsujin Jiken)" },
@@ -1351,7 +1351,7 @@ const episodesData = [
     {
         id: "28",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Kogoro's class reunion continues, but all the catching up has finally caught up to the classmates leaving one of them dead. Is the killer still among them, and if so, can Conan apprehend him in time? Everyone's a suspect in this exciting episode.",
         information: [
             { title: "Kogoro's Class Reunion Murder Case" },
             { japanese_title: "小五郎の同窓会殺人事件  (Kogoro no Dōsōkai Satsujin Jiken)" },
@@ -1403,7 +1403,7 @@ const episodesData = [
     {
         id: "29",
         isFiller: true,
-        episodeDescription: "",
+        episodeDescription: "Sometime during the night after meeting Kogoro, Ran, and Conan, President Okida of the Bigwood software company died from a heart attack.",
         information: [
             { title: "Computer Murder Case" },
             { japanese_title: "コンピューター殺人事件  (Konpyūtā Satsujin Jiken)" },
@@ -1602,7 +1602,7 @@ const episodesData = [
     {
         id: "33",
         isFiller: true,
-        episodeDescription: "",
+        episodeDescription: "A weekend that begins with what Conan believes to be a childish game quickly turns deadly. Lost in the wild, miles from civilization with two suspicious looking men sneaking around, how's the gang going to get themselves out of this mess? Get ready for a treasure hunt where Conan and the kids find more than they bargain for.",
         information: [
             { title: "Detective Boys Survival Case" },
             { japanese_title: "探偵団サバイバル事件  (Tantei-dan Sabaibaru Jiken)" },
@@ -1650,7 +1650,7 @@ const episodesData = [
     {
         id: "34",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Conan and Ran are invited by Sonoko to her family's mountain villa in Gunma Prefecture to see the autumn leaves and meet up with Sonoko's sister Ayako and some old friends of hers. At first they get lost thanks to Ran's lack of direction sense, but they find their way and see themselves in front of a bridge. On the way to the front they see a strange bandaged man in a dark cloak crossing the bridge. When they see him he turns around, shocking them with his face and eye contact as he quickly makes a retreat around the side of the house.",
         information: [
             { title: "Mountain Villa Bandaged Man Murder Case" },
             { japanese_title: "山荘包帯男殺人事件  (Sansō Hōtai Otoko Satsujin Jiken)" },
@@ -1694,7 +1694,7 @@ const episodesData = [
     {
         id: "35",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Everyone decides to stay up for the night and keep together to throw off the murderous man in bandages. Conan sees that Ayako has a choker that belonged to the dead Chikako. She says she found it a short while ago, but Conan recalls that she had it on when she was abducted. This means that yes, the 'bandaged man' is someone in the group.",
         information: [
             { title: "Mountain Villa Bandaged Man Murder Case" },
             { japanese_title: "山荘包帯男殺人事件  (Sansō Hōtai Otoko Satsujin Jiken)" },
@@ -1885,7 +1885,7 @@ const episodesData = [
     {
         id: "39",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "A billionaire hosts a birthday gala for his daughter Reika and the famous detective Mouri is the celebrity guest of honor. But when one of Reika's handsome young suitors turns up dead, the remaining guests are suspects for murder.",
         information: [
             { title: "Wealthy Daughter Murder Case" },
             { japanese_title: "資産家令嬢殺人事件  (Shisanka Reijō Satsujin Jiken)" },
@@ -1929,7 +1929,7 @@ const episodesData = [
     {
         id: "40",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "When a beautiful heiress is murdered on her birthday, Conan springs into action to solve the baffling crime. The painful past of every suspect must be brought to light. Opening these old wounds is the only way to bring the killer to justice.",
         information: [
             { title: "Wealthy Daughter Murder Case" },
             { japanese_title: "資産家令嬢殺人事件  (Shisanka Reijō Satsujin Jiken)" },
@@ -1980,7 +1980,7 @@ const episodesData = [
     {
         id: "41",
         isFiller: true,
-        episodeDescription: "",
+        episodeDescription: "The fun of a baseball game is interrupted when bad news comes down from the school chairman. A slashing has taken place and the victim has been cut multiple times. But the victim is not a person, it's the baseball team's cherished championship flag. Scandal rocks Shukou High as Conan investigates and finds that it was an inside job.",
         information: [
             { title: "Victory Flag Tearing Case" },
             { japanese_title: "優勝旗切り裂き事件  (Yūshōki Kirisaki Jiken)" },
@@ -2320,7 +2320,7 @@ const episodesData = [
     {
         id: "48",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Conan has to deal with some stiff competition when Heiji Hattori, heralded as the 'Great Detective of the West', comes looking for Shinichi Kudo to prove which of them is the best detective. He shows up all of a sudden in the Mouri Agency (since he suspects Shinichi has a hand on Kogoro's recent success and Sonoko told him where it was located), bringing a nice Osakan liquor as a gift to Kogoro (so he'll let him stay overnight), and delivers the challenge, which will take place regarding the request coming from a rich woman: to make a background check on her future daughter-in-law, a young woman who's simply too good to be true so she could actually be a bitch in sheep's clothing or a gold digger in disguise.",
         information: [
             { title: "Diplomat Murder Case" },
             { japanese_title: "外交官殺人事件  (Gaikōkan Satsujin Jiken)" },
@@ -2369,7 +2369,7 @@ const episodesData = [
     {
         id: "49",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Heiji Hattori believes that the murder of the diplomat Isao Tsujimura is a locked room one, and he's also sure of who the killer is. But almost at the same time, Conan collapses due to his illness, and then Shinichi Kudo returns to the surprise of everyone, especially himself. As Shinichi tries to expose the real secret behind the perfectly sealed room, the rivalry between he and Heiji Hattori heats up. Deceit and treachery are revealed, as Isao Tsujimura's killer is finally unmasked and their reasons to commit the crime are explained.",
         information: [
             { title: "Diplomat Murder Case" },
             { japanese_title: "外交官殺人事件  (Gaikōkan Satsujin Jiken)" },
@@ -2782,7 +2782,7 @@ const episodesData = [
     {
         id: "57",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "Conan enters a Sherlock Holmes contest to win a rare first-edition book and persuades Ran Mouri and Kogoro to attend. Once at the place of the contest, everyone must take a 1000-question test about Sherlock Holmes. Heiji also attends and reveals to Ran that he thought he would meet Shinichi there. Later that day, Hiroyuki Kanaya, the host, is seen driving his car off a cliff and into the ocean.",
         information: [
             { title: "Holmes Freak Murder Case" },
             { japanese_title: "ホームズフリーク殺人事件  (Hōmuzu Furīku Satsujin Jiken)" },
@@ -2829,7 +2829,7 @@ const episodesData = [
     {
         id: "58",
         isFiller: false,
-        episodeDescription: "",
+        episodeDescription: "After Conan reveals his insight, Heiji believes Conan is actually Shinichi Kudo. Heiji reveals that, when Kanaya was in the car, his body had already undergone rigor mortis. At that moment, Conan and Heiji realize who the murderer is. Heiji decides to wait for Conan to solve the case in order to see if he really is Shinichi. Conan tranquilizes Heiji and makes his deduction.",
         information: [
             { title: "Holmes Freak Murder Case" },
             { japanese_title: "ホームズフリーク殺人事件  (Hōmuzu Furīku Satsujin Jiken)" },
@@ -3033,7 +3033,7 @@ const episodesData = [
     {
         id: "62",
         isFiller: true,
-        episodeDescription: "Ran and Conan accompany Kogoro to Shiki Island, a very superstitious island, where many of the residents believe in local legends. Kogoro was invited here to make a speech about a ghost ship that had been lost at sea seven years before. Kogoro arrives on stage completely drunk. A miniature bomb explodes, nearly killing him.",
+        episodeDescription: "Conan proves that Kogoro did not kill the caretaker. Next, Conan enters the cave to show that the sounds were from the wind in the tunnels. But before he can Suzu finds him and threatens to tell, unless conan kisses her that is. So after a quick peck on the cheek they both head into the cave. Conan finds a staircase which breaks away to reveal another dead man and the killer. Conan deduces that the ghost ship was stuck in this part of the cave for seven years due to a cave-in. Conan finds the gold hidden in the bricks of the staircase covered in moss. Another cave-in occurs, forcing Conan and the killer to leave. The gold is sealed inside the cave.",
         information: [
             { title: "A Ghost Ship Murder Case" },
             { japanese_title: "幽霊船殺人事件  (Yūreisen Satsujin Jiken)" },
@@ -3138,7 +3138,7 @@ const episodesData = [
     {
         id: "64",
         isFiller: true,
-        episodeDescription: "",
+        episodeDescription: "Kogoro must choose between friendship and the law when an old friend is suspected of murder. It is up to Conan to find the clues and piece together the truth that will either condemn Kogoro's mentor, or set him free.",
         information: [
             { title: "The Third Fingerprint Murder Case" },
             { japanese_title: "第3の指紋殺人事件  (Daisan no Shimon Satsujin Jiken)" },
@@ -3389,7 +3389,7 @@ const episodesData = [
     {
         id: "69",
         isFiller: false,
-        episodeDescription: "At a beach in Izu, Conan mentally grumbles about being stuck outside of Tokyo when he should be looking for Gin and Vodka until Ran, with her voluptuous figure, convinces him to come swimming with her. However, when they check into their hotel, the reservations Agasa turned over to them has a catch. It's only half paid for. Agasa signed up for a 'mystery tour'. If Conan can figure out who of the ten guests in the tour is the sponsor, the other half of the reservation will be covered and he will also receive a certain computer program. Before Conan can remember what Agasa said was the sponsor's name, Kogoro is asked by another hotel patron if he is the 'Night Baron', a character from Yusaku Kudo's novels. Kogoro reacts with confusion, and the man records the reaction as part of his dataset for determining who is the Night Baron, the alias the tour sponsor.",
+        episodeDescription: "Conan and Ran hear about the death of someone 'in a mask' and go to look. Conan slips through the police barrier only to be stopped by Inspector Yokomizo, who was recently transferred from Saitama to Shizuoka. While Yokomizo explains this to Ran, Conan sneaks the mask off to reveal Ebara. Ran recognizes him and explain the tour to Yokomizo while Conan discovers Ebara only has one glove on, and his costume's tie tied backwards. Yokomizo assumes Ebara was the sponsor but wonders whether the death is suicide or accident and asks where Kogoro is. Hideko tells them he's still in the bar, but stays to look at the body. Conan realizes that behind her sunglasses, she is crying.",
         information: [
             { title: "Night Baron Murder Case  68 The Case  69 The Suspicion  70 The Resolution" },
             { japanese_title: "闇の男爵(ナイトバロン)殺人事件  (Naito Baron Satsujin Jiken)  68 事件編 (Jiken-hen)  69 疑惑編 (Giwaku-hen)  70 解決編 (Kaiketsu-hen)" },
@@ -3439,7 +3439,7 @@ const episodesData = [
     {
         id: "70",
         isFiller: false,
-        episodeDescription: "At a beach in Izu, Conan mentally grumbles about being stuck outside of Tokyo when he should be looking for Gin and Vodka until Ran, with her voluptuous figure, convinces him to come swimming with her. However, when they check into their hotel, the reservations Agasa turned over to them has a catch. It's only half paid for. Agasa signed up for a 'mystery tour'. If Conan can figure out who of the ten guests in the tour is the sponsor, the other half of the reservation will be covered and he will also receive a certain computer program. Before Conan can remember what Agasa said was the sponsor's name, Kogoro is asked by another hotel patron if he is the 'Night Baron', a character from Yusaku Kudo's novels. Kogoro reacts with confusion, and the man records the reaction as part of his dataset for determining who is the Night Baron, the alias the tour sponsor.",
+        episodeDescription: "In their hotel room, Ran sits miserably on the bed with the knowledge that only a certain person could have blocked her kick the way Night Baron did. Unsure what to do with the knowledge, she wishes for Shinichi to tell her what to do. A knock on the door interrupts her; she opens the door as far as the anti-theft lock allows to find Conan, who declares his experiment successful because she didn't close the lock herself. He notices her face and asks if she was crying, but she passes it off as yawning and Conan runs off again. He ends up in the same elevator as the two policeman, and as he ponders the suspects he overhears that the officer who was guarding Ebara's body and overpowered was himself a strong practitioner of karate. Like Ran earlier, Conan suddenly wonders if the identity of Night Baron may, in fact, be karate champion Satoru Maeda. But Ran confirms that Maeda has a perfect alibi because he was giving autographs to his fans. So Conan dismisses him as a killer and still wonders who did it. Talking to one of the hotel maids, Conan learns that the wind that blows in this time of the year is a famous one named 'Himekaze' aka 'Princess Wind', and it blows in a very special direction. Thanks to that, he finally figures out who the killer is.",
         information: [
             { title: "Night Baron Murder Case  68 The Case  69 The Suspicion  70 The Resolution" },
             { japanese_title: "闇の男爵(ナイトバロン)殺人事件  (Naito Baron Satsujin Jiken)  68 事件編 (Jiken-hen)  69 疑惑編 (Giwaku-hen)  70 解決編 (Kaiketsu-hen)" },
@@ -3855,7 +3855,7 @@ const episodesData = [
     {
         id: "78",
         isFiller: false,
-        episodeDescription: "Kogoro is recommended by someone to a wealthy family for a routine assignment: the very old and sickly leader of the clan, Dousan Nagato, wishes to find his first love before he dies. With the police roaming around the house, though, Conan begins to wonder if that's really all there is to it. His answer comes when suddenly, Heiji Hattori joins the group alongside his father Heizo, an old friend of the chairman who was supposed to take up the case, but recomended Kogoro instead. Bad thing, Heiji calls out to Conan by his actual name of 'Shinichi Kudo' (not knowing that Conan hasn't told Ran and Kogoro about his identity), and they have to make up a quick lie to cover up.",
+        episodeDescription: "Hideomi's corpse is pulled out of the water, and Yasue mourns him heavily. The forensic expert says Hideomi's been dead for at least two days, so Megure thinks that he might have killed Mitsuaki and drowned himself immediately afterwards. There's a flaw in that theory, however: Hideomi's death was caused by poisoning, NOT by drowning. Since there were many stones in his pockets, they wonder if Hideomi first took poison and then threw himself in the pond, the stones pulling his body to the bottom so he wouldn't found. Nobuko adds that, by the time Mitsuaki married Yasue, Hideomi never managed to see him as his brother-in-law, even when he didn't openly object to their marriage.",
         information: [
             { title: "Distinguished Family's Consecutive Accidental Death Case" },
             { japanese_title: "名家連続変死事件  (Meika Renzoku Henshi Jiken)" },
@@ -4050,7 +4050,7 @@ const episodesData = [
     {
         id: "82",
         isFiller: false,
-        episodeDescription: "Ran and Sonoko are getting ready to attend a huge concert by the very popular J-Pop band Two-Mix. Some hours before that, Conan and the Detective Boys go to a coffee parlor and meet a lady with sunglasses and a cap, who turns out to be the singer of the group, a woman named Minami Takayama whose voice is rather similar to Conan's.",
+        episodeDescription: "Ayumi, Mitsuhiko, and Genta tell Inspector Megure everything except how to find Conan. They decide to ignore Conan's instructions to give the tracking glasses to the police, instead they decide to track down two-mix themselves to get some of the glory. They decide to track him down with the glasses and they learn who the kidnapper is and why the crime was committed.",
         information: [
             { title: "The Kidnapping of a Popular Artist Case" },
             { japanese_title: "人気アーティスト誘拐事件  (Ninki Ātisuto Yūkai Jiken)" },
@@ -4195,7 +4195,7 @@ const episodesData = [
     {
         id: "85",
         isFiller: false,
-        episodeDescription: "Ran, Sonoko, and Conan run into their old third grade teacher, Akiko Yonehara, who invites them to spend the night at a Nagano Prefecture mountain villa with her co-workers, who are taking a small weekend trip. A mysterious journalist arrives and tells them that a massacre similar to three years before will happen that night, and true to the man's words, people are attacked with different results. Can Conan help find the clues before too much damage occurs?",
+        episodeDescription: "Conan is unable to figure out how a piece of rope disappeared, but when he figures out who is wearing something VERY special in his/her person, he realizes that the person has killed two people on the same night. Using Ran to reveal the secret by using his own voice, Shinichi reveals the information to everyone present, but the revelation will shock everyone involved, especially Ran and Sonoko.",
         information: [
             { title: "Ski Lodge Murder Case" },
             { japanese_title: "スキーロッジ殺人事件  (Sukii Rojji Satsujin Jiken)" },
@@ -4385,7 +4385,7 @@ const episodesData = [
     {
         id: "89",
         isFiller: true,
-        episodeDescription: "A famous vampire writer who used to be a romance writer, and whom Kogoro reads, invites Kogoro to his estate outside Tokyo, an old Western building called 'Dracula's Manor', for discussion on his next vampire novel and to spy on his wife. However, when the writer ends up dead and snow prevents the cops from coming Kogoro is forced to re-evaluate the possibilities of vampires being real.",
+        episodeDescription: "With no footprints to reveal the killer and Kogoro's absurd deduction, Conan must think of how the door was locked and then find enough evidence to solve the case or else a killer and his hidden secret will walk free with a vampire receiving the blame.",
         information: [
             { title: "Dracula's Villa Murder Case" },
             { japanese_title: "ドラキュラ荘殺人事件  (Dorakyura-sō Satsujin Jiken)" },
@@ -4580,7 +4580,7 @@ const episodesData = [
     {
         id: "93",
         isFiller: true,
-        episodeDescription: "Several years ago, the Fox known as the best assassin in the country had killed a president of a major company. However this assassination took place while his target was driving as a result, his car swerved into the path of a school bus carrying elementary school children. This caused a collision, that claimed the life of the young 5 year old Chisato Ushio, due to this unintended casualty The Fox went into hiding.",
+        episodeDescription: "The others rush to the cabin and are relieved to see Ran unharmed, she apologizes saying that there is trouble and directs them toward Kyoko Saegusa who is dead with a knife in her back. Akira Kawabe is mourning her death apologizing for not being able to protect her. Shingo Nose asks what is going on, as it is obvious that Kogoro knows more then he’s letting on.",
         information: [
             { title: "The Fearful Traversing Murder Case" },
             { japanese_title: "恐怖のトラヴァース殺人事件  (Kyōfu no Toravāsu Satsujin Jiken)" },
@@ -4899,7 +4899,7 @@ const episodesData = [
     {
         id: "99",
         isFiller: false,
-        episodeDescription: "When a fan of Kogoro, who works as a famous potter, invites the Mouri family out to his place for the weekend, Kogoro wins an valuable cup of pottery. After a long night of drinking, the group awakes and finds that a suicide has taken place. Inspector Megure thinks it may be more than a coincidence, but what is the real truth behind this mystery?",
+        episodeDescription: "Despite most proof pointing to a suicide, Conan is convinced that a murder has taken place. He begins looking for additional proof that someone killed Masuko.",
         information: [
             { title: "The Famous Potter Murder Case" },
             { japanese_title: "名陶芸家殺人事件  (Meitōgeika Satsujin Jiken)" },
@@ -5000,7 +5000,7 @@ const episodesData = [
     {
         id: "101",
         isFiller: false,
-        episodeDescription: "Conan, Ran, and Sonoko are cleaning up Shinchi's house, and their chat goes from Sonoko complaining about doing this in summer break to Ran wondering who could have been Shinichi's first love and Sonoko speculating whether Ran was his first love or not. Almost as if on cue, an old classmate stops by to check on Shinichi's well-being, then joins the group in their cleaning: her name is Asami Uchida, she used to be the student council president of Teitan Middle School when Ran Sonoko and Shinichi were in the Grade 7 and she now attends a local art-centered university as a literature major.",
+        episodeDescription: "Ran passes out almost immediately after rescuing Asami, both from the smoke inhalation and the huge effort. She wakes up in the nearby hospital and is fine, but Asami is still unconscious. She tells Sonoko that the helmet idea came from Conan, who gave it to her so she'd have extra protection, and mentions that he did something incredible.",
         information: [
             { title: "The Memories of First Love Case" },
             { japanese_title: "初恋の人想い出事件  (Hatsukoi no Hito Omoide no Jiken)" },
@@ -5046,6 +5046,188 @@ const episodesData = [
             ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"]
         ]
     },
+    {
+     id: "102",
+     isFiller: false,
+     episodeDescription: "When a famous samurai movie star, Kozaburo Hijikata, hires Kogoro for some consultations, the group is led to believe that he wants to learn about detective work for an upcoming TV series where he is to star as a detective. However, rumors of an affair between his beautiful and much younger wife Isami Nagakura and stunt actor Hajime Okita can't help but lead Conan to doubt the reason. When Isami is found dead on Okita's balcony, the group believes it is an open and shut case, but Conan doubts the authenticity when he sees a big smile form on Hijikata's face. Which side is truly right?",
+     information: [
+        {title: "The Historical Actor Murder Case"},
+        {japanese_title: "時代劇俳優殺人事件  (Jidaigeki Haiyū Satsujin Jiken)"},
+        {original_airdate: "May 25, 1998 (Part 1)  June 1, 1998 (Part 2)  May 22, 2021 (Remastered version Part 1)  May 29, 2021 (Remastered version Part 2)"},
+        {broadcast_rating: "17.7%  17.6%"},
+        {remastered_rating: "7.2% (Part 1)  6.3% (Part 2)"},
+        {manga_case: "#49"},
+        {season: "4"},
+        {manga_source: "Volume 17: File 10 (170) ~  Volume 18: File 2 (172)"},
+        {english_title: "Fame and Misfortune"},
+        {dubbed_episode: "Episode 108-109"},
+        {english_airdate: "May 12, 2009 (DVD)"},
+        {cast: "Conan Edogawa  Kogoro Mouri  Ran Mouri  Juzo Megure  Wataru Takagi  Officer Tome  Forensic member"},
+        {case_solved_by: "Kogoro Mouri (via Conan)"},
+        {next_conans_hint: "Telephone (Part 1)  Tea (Part 2)  Model gun (Remastered version Part 1)  Tea set (Remastered version Part 2)"},
+        {director: "Kenji Kodama"},
+        {organizer: "102 Johei Matsuura  103 Kenji Kodama"},
+        {storyboard: "102 Johei Matsuura  103 Kenji Kodama"},
+        {episode_director: "102 Johei Matsuura  103 Kazuo Nogami"},
+        {animation_director: "102 Atsushi Aono  103 Hiromi Muranaka"},
+        {character_design: "Masatomo Sudo  Yasuhiro Moriki (design works)"},
+        {voice cast: "Minami Takayama as Conan Edogawa  Wakana Yamazaki as Ran Mouri  Akira Kamiya as Kogoro Mouri  Chafurin as Juzo Megure  Wataru Takagi as Wataru Takagi, Next Conan's Hint  Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B  Kenji Utsumi as Kozaburo Hijikata  Sachi Asakura as Isami Nagakura  Kihachiro Uemura as Hajime Okita  Isshin Chiba as Forensics officer, Reporter A  Yasuhiro Takato as Reporter C  Naoki Makishima as Reporter D"},
+        {opening_song: "Unmei no Roulette Mawashite"},
+        {closing_song: "Negai Goto Hitotsu Dake"},
+        {prev_episode: "« The Memories of First Love Case"},
+        {next_episode: "The Mysterious Mansion of a Band of Thieves Case »"},
+      ],
+     BGM: [
+        ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
+        ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan "The Time-Bombed Skyscraper" Original Soundtrack"],
+        ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
+        ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+        ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+        ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
+        ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+        ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+        ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+        ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning", "Detective Conan "The Time-Bombed Skyscraper" Original Soundtrack"],
+        ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish", "Negai Goto Hitotsu Dake"]
+      ]
+    },
+    {
+     id: "103",
+     isFiller: false,
+     episodeDescription: "Kogoro tells the media all of the current suspicions so Inspector Megure and Detective Takagi can sneak Hijikata and Okita out the backdoor for questioning, but before doing so Conan goes up to the sixth floor to try and find some evidence that his suspicion of Hijikata being the killer is accurate. In the end one truth as always will prevail, but which side is truly innocent here?",
+     information: [
+        {title: "The Historical Actor Murder Case"},
+        {japanese_title: "時代劇俳優殺人事件  (Jidaigeki Haiyū Satsujin Jiken)"},
+        {original_airdate: "May 25, 1998 (Part 1)  June 1, 1998 (Part 2)  May 22, 2021 (Remastered version Part 1)  May 29, 2021 (Remastered version Part 2)"},
+        {broadcast_rating: "17.7%  17.6%"},
+        {remastered_rating: "7.2% (Part 1)  6.3% (Part 2)"},
+        {manga_case: "#49"},
+        {season: "4"},
+        {manga_source: "Volume 17: File 10 (170) ~  Volume 18: File 2 (172)"},
+        {english_title: "Fame and Misfortune"},
+        {dubbed_episode: "Episode 108-109"},
+        {english_airdate: "May 12, 2009 (DVD)"},
+        {cast: "Conan Edogawa  Kogoro Mouri  Ran Mouri  Juzo Megure  Wataru Takagi  Officer Tome  Forensic member"},
+        {case_solved_by: "Kogoro Mouri (via Conan)"},
+        {next_conans_hint: "Telephone (Part 1)  Tea (Part 2)  Model gun (Remastered version Part 1)  Tea set (Remastered version Part 2)"},
+        {director: "Kenji Kodama"},
+        {organizer: "102 Johei Matsuura  103 Kenji Kodama"},
+        {storyboard: "102 Johei Matsuura  103 Kenji Kodama"},
+        {episode_director: "102 Johei Matsuura  103 Kazuo Nogami"},
+        {animation_director: "102 Atsushi Aono  103 Hiromi Muranaka"},
+        {character_design: "Masatomo Sudo  Yasuhiro Moriki (design works)"},
+        {voice cast: "Minami Takayama as Conan Edogawa  Wakana Yamazaki as Ran Mouri  Akira Kamiya as Kogoro Mouri  Chafurin as Juzo Megure  Wataru Takagi as Wataru Takagi, Next Conan's Hint  Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B  Kenji Utsumi as Kozaburo Hijikata  Sachi Asakura as Isami Nagakura  Kihachiro Uemura as Hajime Okita  Isshin Chiba as Forensics officer, Reporter A  Yasuhiro Takato as Reporter C  Naoki Makishima as Reporter D"},
+        {opening_song: "Unmei no Roulette Mawashite"},
+        {closing_song: "Negai Goto Hitotsu Dake"},
+        {prev_episode: "« The Memories of First Love Case"},
+        {next_episode: "The Mysterious Mansion of a Band of Thieves Case »"},
+      ],
+     BGM: [
+        ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
+        ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)", "Detective Conan "The Time-Bombed Skyscraper" Original Soundtrack"],
+        ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+        ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+        ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
+        ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+        ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper ver.)", "Detective Conan "The Time-Bombed Skyscraper" Original Soundtrack"],
+        ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+        ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+        ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1", "Detective Conan Original Soundtrack 3"],
+        ["00:00", "瞳を閉じれば～蘭のテーマ～ （インストヴァージョン）", "Hitomi o Tojireba ~ Ran no Tēma (Insuto Vājon)", "If I Close My Eyes ~ Ran's Theme (Instrumental ver.)", "Boku ga Iru ~ TV Anime "Detective Conan" Image Song Album"],
+        ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish", "Negai Goto Hitotsu Dake"],
+        ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory", "Detective Conan Original Soundtrack 1"]
+      ]
+    },{
+        id: "104",
+        isFiller: false,
+        episodeDescription: "When Kogoro gets a letter from a person named Misao Nakamura, he automatically assumes it's a female and decides to run to the rescue. When he arrives though, he finds two men claiming to be related and a bunch of clocks simultaneously going off. What makes things even more complicated though is a clock with a goblin statue instead of a cuckoo in it. What's really going on at Nakamura Manor?",
+        information: [
+           {title: "The Mysterious Mansion of a Band of Thieves Case"},
+           {japanese_title: "盗賊団謎の洋館事件  (Tōzoku-dan Nazo no Yōkan Jiken)"},
+           {original_airdate: "June 8, 1998 (Part 1)  June 15, 1998 (Part 2)"},
+           {broadcast_rating: "17.3%  19.5%"},
+           {manga_case: "#48"},
+           {season: "4"},
+           {manga_source: "Volume 17: Files 7-9 (167-169)"},
+           {english_title: "The Mystery of Bludcraven Manor"},
+           {dubbed_episode: "Episode 110-111"},
+           {english_airdate: "May 12, 2009 (DVD)"},
+           {cast: "Conan Edogawa  Kogoro Mouri  Ran Mouri"},
+           {case_solved_by: "Conan Edogawa  Kogoro Mouri"},
+           {next_conans_hint: "Stamps (Part 1)  Door (Part 2)"},
+           {director: "Kenji Kodama"},
+           {organizer: "Michiyo Sakurai"},
+           {storyboard: "Michiyo Sakurai"},
+           {episode_director: "104 Nana Harada  105 Hirohito Ochi"},
+           {animation_director: "104 Izumi Shimura  105 Kumiko Shishido"},
+           {character_design: "Masatomo Sudo  Yasuhiro Moriki (design works)"},
+           {voice cast: "Minami Takayama as Conan Edogawa, Next Conan's Hint  Wakana Yamazaki as Ran Mouri, Next Conan's Hint  Akira Kamiya as Kogoro Mouri  Wataru Takagi as Next Conan's Hint  Masahiko Tanaka as Misao Nakamura  Osamu Kato as Mr. Nakamura  Kaori Yamagata as Real Misao Nakamura"},
+           {opening_song: "Unmei no Roulette Mawashite"},
+           {closing_song: "Negai Goto Hitotsu Dake"},
+           {prev_episode: "« The Historical Actor Murder Case"},
+           {next_episode: "Scoop Picture Murder Case »"},
+         ],
+        BGM: [
+           ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
+           ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)", "Detective Conan "The Time-Bombed Skyscraper" Original Soundtrack"],
+           ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)", "Detective Conan "The Time-Bombed Skyscraper" Original Soundtrack"],
+           ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
+           ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+           ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+           ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish", "Negai Goto Hitotsu Dake"]
+         ]
+       },{
+        id: "105",
+        isFiller: false,
+        episodeDescription: "The Goblins remind Kogoro and Conan of the gang known as the Goblin Gang, and using a flash light Conan begins to realize the two gentlemen claiming to be Nakamura's could actually be after something much more valuable. If they are indeed impostors, then what happened to the real Misao Nakamura? Can Conan solve this before times runs out for them all?",
+        information: [
+           {title: "The Mysterious Mansion of a Band of Thieves Case"},
+           {japanese_title: "盗賊団謎の洋館事件  (Tōzoku-dan Nazo no Yōkan Jiken)"},
+           {original_airdate: "June 8, 1998 (Part 1)  June 15, 1998 (Part 2)"},
+           {broadcast_rating: "17.3%  19.5%"},
+           {manga_case: "#48"},
+           {season: "4"},
+           {manga_source: "Volume 17: Files 7-9 (167-169)"},
+           {english_title: "The Mystery of Bludcraven Manor"},
+           {dubbed_episode: "Episode 110-111"},
+           {english_airdate: "May 12, 2009 (DVD)"},
+           {cast: "Conan Edogawa  Kogoro Mouri  Ran Mouri"},
+           {case_solved_by: "Conan Edogawa  Kogoro Mouri"},
+           {next_conans_hint: "Stamps (Part 1)  Door (Part 2)"},
+           {director: "Kenji Kodama"},
+           {organizer: "Michiyo Sakurai"},
+           {storyboard: "Michiyo Sakurai"},
+           {episode_director: "104 Nana Harada  105 Hirohito Ochi"},
+           {animation_director: "104 Izumi Shimura  105 Kumiko Shishido"},
+           {character_design: "Masatomo Sudo  Yasuhiro Moriki (design works)"},
+           {voice cast: "Minami Takayama as Conan Edogawa, Next Conan's Hint  Wakana Yamazaki as Ran Mouri, Next Conan's Hint  Akira Kamiya as Kogoro Mouri  Wataru Takagi as Next Conan's Hint  Masahiko Tanaka as Misao Nakamura  Osamu Kato as Mr. Nakamura  Kaori Yamagata as Real Misao Nakamura"},
+           {opening_song: "Unmei no Roulette Mawashite"},
+           {closing_song: "Negai Goto Hitotsu Dake"},
+           {prev_episode: "« The Historical Actor Murder Case"},
+           {next_episode: "Scoop Picture Murder Case »"},
+         ],
+        BGM: [
+           ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
+           ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
+           ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
+           ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+           ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "事件発生！", "Jiken Hassei!", "A Case Springs Forth!", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "「名探偵コナン」メイン・テーマ （予告）", ""Meitantei Konan" Mein・Tēma (Yokoku)", ""Detective Conan" Main Theme (Preview)", "Detective Conan Original Soundtrack 2"],
+           ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish", "Negai Goto Hitotsu Dake"],
+           ["00:00", "コナンの夢", "Konan no Yume", "Conan's Dream", "Detective Conan Original Soundtrack 1"]
+         ]
+       },
+
 
 
 ];

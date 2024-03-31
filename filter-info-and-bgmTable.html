@@ -10,22 +10,34 @@
             background: #2d2d2d;
             color: #fff;
         }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .checkbox-container {
+            display: flex;
+            flex-direction: row-reverse;
+        }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <label for="episodeId">Episode ID:</label>
+        <input type="text" id="episodeId" placeholder="Enter episode ID"> <br>
 
-    <label for="episodeId">Episode ID:</label> <br>
-    <input type="text" id="episodeId" placeholder="Enter episode ID">
+        <label for="htmlCode">HTML Code:</label>
+        <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea> <br>
+        <div class="checkbox-container">
+            <label for="fillerCheckbox">Filler Episode:</label>
+            <input type="checkbox" id="fillerCheckbox">
+        </div><br>
 
-    <label for="htmlCode">HTML Code:</label><br>
-    <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea>
-
-    <label for="fillerCheckbox">Filler Episode:</label> <br>
-    <input type="checkbox" id="fillerCheckbox">
-
-    <button id="parse">Parse & Filter HTML</button><br>
-    <button id="copy">Copy to Clipboard</button>
+        <button id="parse">Parse & Filter HTML</button><br>
+        <button id="copy">Copy to Clipboard</button>
+    </div>
 
     <pre id="output"></pre>
 
@@ -48,6 +60,7 @@
                 isFiller: fillerCheckbox,
                 episodeDescription: "",
                 information: [],
+                inOtherLanguages: [],
                 bgm: []
             };
 
@@ -68,6 +81,29 @@
 
                 if (situationText) {
                     result.episodeDescription = situationText;
+                }
+            }
+
+
+            // Get In Other Languages
+            const inOtherLanguagesSpan = tempDiv.querySelector('#In_other_languages');
+            if (inOtherLanguagesSpan) {
+                let parentElement = inOtherLanguagesSpan.parentElement;
+                let siblingElement = parentElement.nextElementSibling;
+
+                // Find the sibling table element
+                if (siblingElement && siblingElement.tagName === 'TABLE') {
+                    const trElements = siblingElement.querySelectorAll('tr');
+
+                    trElements.forEach((trElement) => {
+                        const tdElements = trElement.querySelectorAll('td');
+                        if (tdElements.length === 3) {
+                            const language = tdElements[0].textContent.trim();
+                            const title = tdElements[1].textContent.trim();
+                            const translatedTitle = tdElements[2].textContent.trim();
+                            result.inOtherLanguages.push({ language, title, translatedTitle });
+                        }
+                    });
                 }
             }
 
@@ -139,7 +175,22 @@
                 const formattedValue = formatPropertyValue(value);
                 formattedOutput += `    {${formattedProperty} "${formattedValue}"},\n`;
             }
+
             formattedOutput += '  ],\n';
+
+            formattedOutput += ' inOtherLanguages: [\n';
+            for (var i = 0; i < result.inOtherLanguages.length; i++) {
+                const { language, title, translatedTitle } = result.inOtherLanguages[i];
+                formattedOutput += `    { language: "${language}", title: "${title}", englishTranslatio: "${translatedTitle}" },\n`;
+            }
+
+            formattedOutput += '  ],\n';
+
+
+
+
+
+
 
             if (result.bgm.length > 0) {
                 formattedOutput += ` BGM: [\n`;

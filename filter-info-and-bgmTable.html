@@ -20,6 +20,16 @@
             display: flex;
             flex-direction: row-reverse;
         }
+    
+        #fillerCheckbox {
+            width: 100vw;
+            height: 40px;
+            cursor: pointer;
+            margin: 0;
+        }
+        #parse {
+            margin: 0;
+        }
     </style>
 </head>
 
@@ -29,11 +39,11 @@
         <input type="text" id="episodeId" placeholder="Enter episode ID"> <br>
 
         <label for="htmlCode">HTML Code:</label>
-        <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea> <br>
+        <textarea id="htmlCode" placeholder="Paste your HTML code here"></textarea>
         <div class="checkbox-container">
-            <label for="fillerCheckbox">Filler Episode:</label>
+            <label for="fillerCheckbox">Filler?</label>
             <input type="checkbox" id="fillerCheckbox">
-        </div><br>
+        </div>
 
         <button id="parse">Parse & Filter HTML</button><br>
         <button id="copy">Copy to Clipboard</button>
@@ -43,7 +53,6 @@
 
     <script>
         const parseBtn = document.getElementById("parse");
-
         parseBtn.addEventListener("click", function parseAndFilterHTML() {
             const episodeId = document.getElementById('episodeId').value;
             const fillerCheckbox = document.getElementById('fillerCheckbox').checked;
@@ -55,32 +64,32 @@
             tempDiv.innerHTML = htmlInput;
 
             // Initialize the result object
-            const result = {
+            let result = {
                 id: episodeId,
                 isFiller: fillerCheckbox,
+                cast: [],
                 episodeDescription: "",
-                information: [],
                 inOtherLanguages: [],
-                bgm: []
+                BGM: []
             };
 
-            // Get Situation Text
-            const situationSpan = tempDiv.querySelector('#Situation');
-            if (situationSpan) {
-                let situationText = null;
-                let siblingElement = situationSpan.parentElement.nextElementSibling;
+            // Get Descricption Text
+            const descriptionSpan = tempDiv.querySelector('#Situation');
+            if (descriptionSpan) {
+                let descriptionText = null;
+                let siblingElement = descriptionSpan.parentElement.nextElementSibling;
 
                 // Keep looking through the siblings until we find a <p> element
                 while (siblingElement) {
                     if (siblingElement.tagName === 'P') {
-                        situationText = siblingElement.textContent.trim();
+                        descriptionText = siblingElement.textContent.trim();
                         break;
                     }
                     siblingElement = siblingElement.nextElementSibling;
                 }
 
-                if (situationText) {
-                    result.episodeDescription = situationText;
+                if (descriptionText) {
+                    result.episodeDescription = descriptionText;
                 }
             }
 
@@ -107,11 +116,23 @@
                 }
             }
 
+            // Get Cast Information
+            const thElements = tempDiv.querySelectorAll('th');
+            thElements.forEach((thElement) => {
+                if (thElement.textContent.trim() === 'Cast:') {
+                    const castTd = thElement.nextElementSibling;
+                    if (castTd) {
+                        const castNames = Array.from(castTd.querySelectorAll('a'))
+                            .map(anchor => anchor.textContent.trim());
+                        result.cast = castNames;
+                    }
+                }
+            });
+
             // Iterate through each center element in the table
             const centerElements = tempDiv.querySelectorAll('center');
             centerElements.forEach((centerElement) => {
                 const categoryName = centerElement.querySelector('b').textContent.toLowerCase().trim();
-                console.log(categoryName.toUpperCase());
 
                 const categoryData = {};
 
@@ -124,8 +145,9 @@
                     if (propertyElement && valueElement) {
                         const property = propertyElement.textContent.trim().toLocaleLowerCase();
                         const value = valueElement.textContent.trim();
-                        categoryData[property] = value;
-                        console.log(property, value);
+                        if (property !== 'cast:') { // exclude the cast property because we already got it in the "// get cast information" code block
+                            categoryData[property] = value;
+                        }
                     }
 
                     currentRow = currentRow.nextElementSibling;
@@ -133,7 +155,9 @@
 
                 // If it's the "information" category, also add it to the general "information" array
                 if (categoryName === 'information') {
-                    result.information = [...result.information, ...Object.entries(categoryData)];
+                    for (const [key, value] of Object.entries(categoryData)) {
+                        result[key] = value;
+                    }
                 }
             });
 
@@ -159,48 +183,42 @@
                             const enTitle = tdElements[3].innerText.trim();
                             const ost = tdElements[4].innerText.trim();
 
-                            result.bgm.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
+                            result.BGM.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
                         }
                     });
                 }
             }
 
-
-
             // Format Output String
-            let formattedOutput = `{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n information: [\n`;
-            for (var j = 0; j < result.information.length; j++) {
-                const [property, value] = result.information[j];
-                const formattedProperty = formatPropertyName(property);
-                const formattedValue = formatPropertyValue(value);
-                formattedOutput += `    {${formattedProperty} "${formattedValue}"},\n`;
+            let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n`;
+
+            for (const [key, value] of Object.entries(result)) {
+                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== 'episodeDescription' && key !== 'inOtherLanguages' && key !== 'BGM') {
+                    formattedOutput += ` ${formatPropertyName(key)} "${formatPropertyValue(value)}",\n`;
+                } else if (key === "cast") {
+
+                    formattedOutput += ` ${key}: ["${value.join('", "')}"], \n`; // surround the value with [] to make it an array and put each name inside " ".
+
+                }
+
             }
-
-            formattedOutput += '  ],\n';
-
             formattedOutput += ' inOtherLanguages: [\n';
             for (var i = 0; i < result.inOtherLanguages.length; i++) {
                 const { language, title, translatedTitle } = result.inOtherLanguages[i];
-                formattedOutput += `    { language: "${language}", title: "${title}", englishTranslatio: "${translatedTitle}" },\n`;
+                formattedOutput += `    [ "${language}", "${title}", "${translatedTitle}" ],\n`;
             }
 
             formattedOutput += '  ],\n';
 
-
-
-
-
-
-
-            if (result.bgm.length > 0) {
+            if (result.BGM.length > 0) {
                 formattedOutput += ` BGM: [\n`;
-                result.bgm.forEach((entry) => {
+                result.BGM.forEach((entry) => {
                     formattedOutput += `    ["${entry.join('", "')}"],\n`;
                 });
                 formattedOutput = formattedOutput.slice(0, -2) + `\n  ]\n`; // Remove trailing comma from last entry
             }
 
-            formattedOutput += `},`;
+            formattedOutput += `},\n`;
 
             // Display Output and Enable Copying
             jsOutput.innerHTML = formattedOutput;
@@ -218,33 +236,46 @@
         });
 
         function formatPropertyName(name) {
-            // Check if name includes "expandvoice" (case-insensitive)
-            if (name.toLowerCase().includes("expandvoice")) {
-                // Replace "expand" with an empty string
-                return name.replace(/expand/gi, "");
-            } else if (name.toLowerCase().includes("collapsevoice")) {
-                // Replace "collase" with an empty string
-                return name.replace(/collapse/gi, "");
+            switch (true) {
+                case name.toLowerCase().includes("next conan's hint"):
+                    return "nextConansHint:";
+                case name.toLowerCase().includes("voice cast"):
+                    return "voiceCast:";
+                case name.toLowerCase().includes("expandvoice"):
+                    return name.replace(/expand/gi, "");
+                case name.toLowerCase().includes("collapsevoice"):
+                    return name.replace(/collapse/gi, "");
+                case name.toLowerCase().includes("next episode"):
+                    return "nextCase:";
+                case name.toLowerCase().includes("prev episode"):
+                    return "prevCase:";
+                // case name.toLowerCase().includes("cast:"):
+                //     return name.replace("cast", "UNWANTED_PROPERTY");
 
-            } else {
-                // Otherwise, process as usual
-                return name.includes(' ') ? name.toLowerCase().replace(/ /g, '_').replace("'", "") : name.toLowerCase();
+                default:
+                    return name.includes(' ')
+                        ? name.toLowerCase().replace(/ (.)/g, (match, group1) => group1.toUpperCase())
+                        : name.toLowerCase();
+
             }
         }
 
         function formatPropertyValue(value) {
-            // Check if value includes "expandvoice" (case-insensitive)
-            if (value.toLowerCase().includes("expandvoice cast:")) {
-                // Replace "expand" with an empty string
-                return value.replace(/expandvoice cast:/gi, "").trim();
-            } else if (value.toLowerCase().includes("collapsevoice cast:")) {
-                // Replace "collapse" with an empty string
-                return value.replace(/collapsevoice cast:/gi, "").trim();
+            if (typeof value === 'string') {
+                if (value.toLowerCase().includes("expandvoice cast:")) {
+                    return value.replace(/expandvoice cast:/gi, "").trim();
+                } else if (value.toLowerCase().includes("collapsevoice cast:")) {
+                    return value.replace(/collapsevoice cast:/gi, "").trim();
+                } else if (value.toLowerCase().includes("  ")) {
+                    return value.replace(/  /gi, ". ")
+                } else {
+                    return value.trim();
+                }
             } else {
-                // Otherwise, return the original value
-                return value.trim();
+                return value; // Return the value as it is if it's not a string
             }
         }
+
 
     </script>
 </body>

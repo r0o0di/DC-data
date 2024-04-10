@@ -1,8 +1,8 @@
 
 const allData = [
     {
-        id: "1", isFIller: false, title: "1: Roller Coaster Murder Case",
-        cast: ["Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Gin", "Vodka", "Detective Boys", "Hiroshi Agasa"],
+        id: "1", isFiller: false, title: "1: Roller Coaster Murder Case",
+        appearances: ["Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Gin", "Vodka", "Detective Boys", "Hiroshi Agasa"],
         episodeDescription: "The episode starts in a mansion where a party has been interrupted by a murder: one of the guests, President Yamazaki of Yatsubishi Bank, was found dead with a bullet in his heart. The police, led by Inspector Megure, have been investigating the crime scene, but have no conclusive evidence as to who the killer is. However, Shinichi makes his grand entrance and claims that he has figured out the case.",
         japaneseTitle: "ジェットコースター殺人事件. (Jetto Kōsutā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -33,6 +33,7 @@ const allData = [
         englishAirdate: "May 24, 2004",
         broadcastRating: "8.5%",
         remasteredRating: "6.9%",
+
         mangaCase: "#1",
         mangaSource: "Volume 1: File 1 (001)",
         dubbedEpisode: "Episode 1",
@@ -48,7 +49,7 @@ const allData = [
         voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima (Uncredited: Police officer, Security guard B, Next Conan's Hint) Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Takeshi Watabe as Mansion owner Yukitoshi Hori as Man in black A Fumihiko Tachiki as Man in black B Shinpachi Tsuji as CEO Yumi Hikita as Hitomi Mari Maruta as Aiko Naomi Nagasawa as Reiko Isshin Chiba as Kishida (Uncredited: Security guard A)",
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
-        prevCase: "undefined",
+
         nextCase: "Company President's Daughter Kidnapping Case »",
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart"],
@@ -70,8 +71,8 @@ const allData = [
         ]
     },
     {
-        id: "2", isFIller: false, title: "2: Company President's Daughter Kidnapping Case",
-        cast: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Hiroshi Agasa", "Gin", "Vodka", "Detective Boys", "Toya"],
+        id: "2", isFiller: false, title: "2: Company President's Daughter Kidnapping Case",
+        appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Hiroshi Agasa", "Gin", "Vodka", "Detective Boys", "Toya"],
         episodeDescription: "Shinichi realizes that the poison shrunk him, and after making it home, asks Professor Agasa for help. Agasa warns that to stay safely hidden from the men in black, Shinichi can tell no one else, even Ran - who coincidentally shows up, intending to check on Shinichi. Agasa convinces her to look after Shinichi, who tells her his name is Conan Edogawa. On the way to her house, Ran confides to Conan that she really likes Shinichi, but Conan's reply is interrupted by Ran's father rushing outside on the trail of a case. He brags that he's been hired to find a CEO's daughter, who was kidnapped by a 'man in black'. Conan sneaks along in case it is a lead, followed by Ran, who explains Conan's situation to Kogoro. Kogoro can't kick them out of a moving taxi, so simply orders them to stay out of the way.",
         japaneseTitle: "社長令嬢誘拐事件. (Shachō Reijō Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -99,6 +100,7 @@ const allData = [
         englishAirdate: "May 25, 2004",
         broadcastRating: "11.9%",
         remasteredRating: "7%",
+
         mangaCase: "#2",
         mangaSource: "Volume 1: Files 2-5 (002-005)",
         dubbedEpisode: "Episode 2",
@@ -142,8 +144,8 @@ const allData = [
         ]
     },
     {
-        id: "3", isFIller: false, title: "3: An Idol's Locked Room Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Hiroshi Agasa", "Gin", "Vodka", "Detective Boys", "Juzo Megure", "Eiichi Yamagishi", "Shinichi Kudo", "Officer Tome"],
+        id: "3", isFiller: false, title: "3: An Idol's Locked Room Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Hiroshi Agasa", "Gin", "Vodka", "Detective Boys", "Juzo Megure", "Eiichi Yamagishi", "Shinichi Kudo", "Officer Tome"],
         episodeDescription: "Conan declines to walk home from school with classmates Ayumi, Genta, and Mitsuhiko. He arrives at the Mouri Detective Agency to see that without work, Kogoro spent all day drinking beer and watching his favorite popstar, Yoko Okino, on TV. When a client arrives during one of her shows, Kogoro even tries to make them return later, until he realizes that the client is Yoko Okino herself, accompanied by her manager. Kogoro quickly makes himself presentable and hears her concerns about a recent stalker. He agrees to investigate at her apartment, and Ran and Conan tag along. Ayumi, Genta, and Mitsuhiko were watching the agency and also follow, so when the front door opens everyone sees the body on the floor inside.",
         japaneseTitle: "アイドル密室殺人事件. (Aidoru Misshitsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -170,7 +172,8 @@ const allData = [
         originalAirdate: "January 22, 1996",
         englishAirdate: "May 26, 2004",
         broadcastRating: "11.4%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#3",
         mangaSource: "Volume 1: Files 6-9 (006-009)",
         dubbedEpisode: "Episode 3",
@@ -213,8 +216,8 @@ const allData = [
         ]
     },
     {
-        id: "4", isFIller: false, title: "4: The Coded Map of the City Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+        id: "4", isFiller: false, title: "4: The Coded Map of the City Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
         episodeDescription: "After visiting an exhibit on hidden treasures Conan and his friends find a piece of paper with symbols and the word 'Oro' written on it. A treasure hunt ensues but does not discover much. Conan, initially not interested in the children's treasure hunt finally realizes that the paper is a treasure map after learning that 'Oro' means gold in Italian. That night, Conan determines that the symbols refer to neon light signs on buildings.",
         japaneseTitle: "大都会暗号マップ事件. (Daitokai Angou Mappu Jiken)",
         titleInOtherLanguages: [
@@ -241,6 +244,7 @@ const allData = [
         englishAirdate: "May 27, 2004",
         broadcastRating: "12.2%",
         remasteredRating: "5.2%",
+
         mangaCase: "#11",
         mangaSource: "Volume 4: Files 7-10 (036-039)",
         dubbedEpisode: "Episode 4",
@@ -283,8 +287,8 @@ const allData = [
         ]
     },
     {
-        id: "5", isFIller: false, title: "5: The Shinkansen's Bomb Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
+        id: "5", isFiller: false, title: "5: The Shinkansen's Bomb Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
         episodeDescription: "A remastered version of this case was aired on December 3, 2016.",
         japaneseTitle: "新幹線大爆破事件. (Shinkansen Dai Bakuha Jiken)",
         titleInOtherLanguages: [
@@ -311,6 +315,7 @@ const allData = [
         englishAirdate: "May 31, 2004",
         broadcastRating: "13.4%",
         remasteredRating: "7.4%",
+
         mangaCase: "#10",
         mangaSource: "Volume 4: Files 4-6 (033-035). (h.a.)",
         dubbedEpisode: "Episode 5",
@@ -348,8 +353,8 @@ const allData = [
         ]
     },
     {
-        id: "6", isFIller: true, title: "6: Valentine Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Hiroshi Agasa", "Detective Boys", "Shinichi Kudo"],
+        id: "6", isFiller: true, title: "6: Valentine Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Hiroshi Agasa", "Detective Boys", "Shinichi Kudo"],
         episodeDescription: "Ran is invited to attend a Valentine's party by a young man and a jealous Conan follows her. During the party, Katsuhiko, the party host, is poisoned.",
         japaneseTitle: "バレンタイン殺人事件. (Barentain Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -375,8 +380,9 @@ const allData = [
         originalAirdate: "February 12, 1996",
         englishAirdate: "June 1, 2004",
         broadcastRating: "12%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#1",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 6",
         englishTitle: "Tragic Valentine",
@@ -414,8 +420,8 @@ const allData = [
         ]
     },
     {
-        id: "7", isFIller: false, title: "7: Once-A-Month Present Threat Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Detective Boys", "Shinichi Kudo", "Gin", "Vodka", "Hitomi", "Reiko", "Yuko Ikezawa", "Jumbo", "Yaiba Kurogane", "Takeshi Onimaru"],
+        id: "7", isFiller: false, title: "7: Once-A-Month Present Threat Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Detective Boys", "Shinichi Kudo", "Gin", "Vodka", "Hitomi", "Reiko", "Yuko Ikezawa", "Jumbo", "Yaiba Kurogane", "Takeshi Onimaru"],
         episodeDescription: "For the past two years, surgeon Masayuki Ogawa has been receiving anonymous toys and money once a month. He asks Kogoro to determine who's the one sending the gifts. During the investigation, Ran begins to suspect that Conan is actually Shinichi.",
         japaneseTitle: "月いちプレゼント脅迫事件. (Tsukiichi Purezento Kyouhaku Jiken)",
         titleInOtherLanguages: [
@@ -440,7 +446,8 @@ const allData = [
         originalAirdate: "February 19, 1996",
         englishAirdate: "June 2, 2004",
         broadcastRating: "12.7%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#8",
         mangaSource: "Volume 3: Files 7-10 (026-029)",
         dubbedEpisode: "Episode 7",
@@ -477,8 +484,8 @@ const allData = [
         ]
     },
     {
-        id: "8", isFIller: false, title: "8: Art Museum Owner Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Detective Boys"],
+        id: "8", isFiller: false, title: "8: Art Museum Owner Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Detective Boys"],
         episodeDescription: "Two security guards at the Beika Art Museum see a medieval suit of armor moving on its own. Ran hears the rumor and wants to visit the museum; when Conan and Kogoro mock her for believing it might be true, she forces them to come along after her fearsome display of smashing Kogoro's deck with her fist. While admiring a painting, Ran meets Ochiai, the curator of the museum, who explains his love for the art and then berates a museum worker named Kubota for not handling a painting properly. Another worker, Iijima, takes over the job before they are interrupted by the museum's new owner, Manaka, arriving with an architect. The museum will be demolished soon to make a casino, despite the sale having hinged on the promise to keep the museum open. After Kubota accidentally drops a helmet, Manaka mentions his plans to sell all the museum pieces, which frustrates Kubota enough to throw it down after, but Conan notices that Ochiai doesn't lecture Kubota this time.",
         japaneseTitle: "美術館オーナー殺人事件. (Bijutsukan Ōnā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -504,6 +511,7 @@ const allData = [
         englishAirdate: "June 3, 2004",
         broadcastRating: "13.1%",
         remasteredRating: "7.4%",
+
         mangaCase: "#9",
         mangaSource: "Volume 4: Files 1-3 (030-032)",
         dubbedEpisode: "Episode 8",
@@ -542,8 +550,8 @@ const allData = [
         ]
     },
     {
-        id: "9", isFIller: false, title: "9: Tenkaichi Night Festival Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo"],
+        id: "9", isFiller: false, title: "9: Tenkaichi Night Festival Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo"],
         episodeDescription: "During the night of the Tenkaichi Festival at the Okeyama Hotel, the author named Satoru Imatake is brushing his teeth in the bathroom and his friend named Norikazu Sasai is making a mess. When he checked what Sasai's doing, he's confused that Sasai dressed up weird and saw that the hotel room was a big mess. Sasai raises his gun to aim at Imatake's forehead and fired. He also took the rest of the money from his wallet.",
         japaneseTitle: "天下一夜祭殺人事件. (Tenkaichi Yomatsuri Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -569,6 +577,7 @@ const allData = [
         englishAirdate: "June 7, 2004",
         broadcastRating: "13%",
         remasteredRating: "7.1%",
+
         mangaCase: "#17",
         mangaSource: "Volume 6: File 9 (059) ~. Volume 7: File 1 (061)",
         dubbedEpisode: "Episode 9",
@@ -605,8 +614,8 @@ const allData = [
         ]
     },
     {
-        id: "10", isFIller: false, title: "10: Pro Soccer Player Blackmail Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Hideo Akagi", "Naoki Uemura", "Takeshi Onimaru"],
+        id: "10", isFiller: false, title: "10: Pro Soccer Player Blackmail Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Hideo Akagi", "Naoki Uemura", "Takeshi Onimaru"],
         episodeDescription: "When Conan get to home, he find a student girl who looks hesitent in front of Mouri Detective Agency. He asks her to come inside the agency, seeing she want to take with Kogoro. The girl in question, named Ryoko Akagi, ask Kogoro to find a missing person.",
         japaneseTitle: "プロサッカー選手脅迫事件. (Puro Sakkā Senshu Kyōhaku Jiken)",
         titleInOtherLanguages: [
@@ -632,6 +641,7 @@ const allData = [
         englishAirdate: "June 8, 2004",
         broadcastRating: "13.7%",
         remasteredRating: "8.4%",
+
         mangaCase: "#19",
         mangaSource: "Volume 7: File 8 (068) ~. Volume 8: File 1 (071)",
         dubbedEpisode: "Episode 10",
@@ -671,8 +681,8 @@ const allData = [
         ]
     },
     {
-        id: "11", isFIller: false, title: "11: Moonlight Sonata Murder Case (1 Hour Special)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+        id: "11", isFiller: false, title: "11: Moonlight Sonata Murder Case (1 Hour Special)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
         episodeDescription: "Kogoro Mouri received a strange cut-and-paste letter from a client called Keiji Asoh asking him investigate something on Tsukikage Island, in the Izu coast, which is part of the Tokyo Division, according to Megure. He then found out that the man requesting for the investigation, Keiji Asoh, has been dead for twelve years. He was a world-renowned pianist who suddenly killed his family, set his house on fire, and played Beethoven's Moonlight Sonata as his house burnt around him.",
         japaneseTitle: "ピアノソナタ「月光」殺人事件. (Piano Sonata 'Gekkō' Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -698,7 +708,8 @@ const allData = [
         originalAirdate: "April 8, 1996 *. September 22, 2003 (Rerun) *",
         englishAirdate: "June 9, 2004 (Part 1). June 10, 2004 (Part 2)",
         broadcastRating: "12.9%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#18",
         mangaSource: "Volume 7: Files 2-7 (062-067)",
         dubbedEpisode: "Episode 11-12",
@@ -708,7 +719,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Ikuro Sato. Yuji Yamaguchi",
         animationDirector: "Masatomo Sudo. Hirotoshi Takaya",
-        screenplay: "undefined",
+
         storyboard: "Kenji Kodama. Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Shozo Iizuka as Tatsuji Kuroiwa Shigezo Sasaoka as Hideo Kawashima Ikuya Sawaki as Masato Shimizu Atsushi Ii as Kazuaki Hirata Ai Orikasa as Narumi Asai Kei Hayami as Reiko Kuroiwa Hidetoshi Nakamura as Ken Nishimoto Masuo Amada as Shuichi Murasawa Yukimasa Natori as Manager Yasuhiro Takato as Clerk Yuichi Nagashima as Police officer Yukiko Iwai as Election car Wataru Takagi as Next Conan's Hint",
@@ -739,8 +750,8 @@ const allData = [
         ]
     },
     {
-        id: "12", isFIller: false, title: "12: Ayumi-chan Kidnapping Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
+        id: "12", isFiller: false, title: "12: Ayumi-chan Kidnapping Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
         episodeDescription: "On June 27, 2009, a remastered version of the case was aired.",
         japaneseTitle: "歩美ちゃん誘拐事件. (Ayumi-chan Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -765,6 +776,7 @@ const allData = [
         englishAirdate: "June 14, 2004",
         broadcastRating: "13.6%",
         remasteredRating: "6.7%",
+
         mangaCase: "#22",
         mangaSource: "Volume 9: Files 1-3 (081-083)",
         dubbedEpisode: "Episode 13",
@@ -802,8 +814,8 @@ const allData = [
         ]
     },
     {
-        id: "13", isFIller: false, title: "13: The Strange Person Hunt Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Hiroshi Agasa", "Akemi Miyano"],
+        id: "13", isFiller: false, title: "13: The Strange Person Hunt Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Hiroshi Agasa", "Akemi Miyano"],
         episodeDescription: "A woman named Masami Hirota shows up at Kogoro's Detective Agency and asks him to find her father, Kenzo Hirota. She is reunited with her father when they located him in a horse racing track. The next day, Kenzo is found dead and Masami missing. Meanwhile, another detective is tracking Kenzo down for his client, Akira Hirota.",
         japaneseTitle: "奇妙な人捜し殺人事件. (Kimyō na Hitosagashi Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -827,7 +839,8 @@ const allData = [
         originalAirdate: "April 22, 1996",
         englishAirdate: "June 15, 2004",
         broadcastRating: "12.7%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#5",
         mangaSource: "Volume 2: Files 4-7 (013-016) (h.a.)",
         dubbedEpisode: "Episode 14",
@@ -864,8 +877,8 @@ const allData = [
         ]
     },
     {
-        id: "14", isFIller: true, title: "14: The Mysterious Shooting Message Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kogoro Mouri", "Ran Mouri"],
+        id: "14", isFiller: true, title: "14: The Mysterious Shooting Message Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kogoro Mouri", "Ran Mouri"],
         episodeDescription: "While fishing, Conan and with the Detective Boys spot a sniper shooting a balloon tied to a remote controlled boat on the river. This sniper is held at gunpoint by other men.",
         japaneseTitle: "謎のメッセージ狙撃事件. (Nazo no Messēji Sogeki Jiken)",
         titleInOtherLanguages: [
@@ -888,8 +901,9 @@ const allData = [
         originalAirdate: "April 29, 1996",
         englishAirdate: "June 16, 2004",
         broadcastRating: "12.5%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#2",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 15",
         englishTitle: "The Shooter",
@@ -923,8 +937,8 @@ const allData = [
         ]
     },
     {
-        id: "15", isFIller: false, title: "15: Missing Corpse Murder Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kamen Yaiba"],
+        id: "15", isFiller: false, title: "15: Missing Corpse Murder Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kamen Yaiba"],
         episodeDescription: "The Detective Boys are commissioned by a classmate to find his missing cat, Akira. When they do finally find Akira, the cat has just emerged from a house's window, covered in blood. The Detective Boys immediately investigate, and see a bloody corpse face-down in the house's bathtub.",
         japaneseTitle: "消えた死体殺人事件. (Kieta Shitai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -947,7 +961,8 @@ const allData = [
         originalAirdate: "May 13, 1996",
         englishAirdate: "June 17, 2004",
         broadcastRating: "13.9%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#16",
         mangaSource: "Volume 6: Files 6-8 (056-058)",
         dubbedEpisode: "Episode 16",
@@ -982,8 +997,8 @@ const allData = [
         ]
     },
     {
-        id: "16", isFIller: false, title: "16: The Antique Collector Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Officer Tome"],
+        id: "16", isFiller: false, title: "16: The Antique Collector Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Officer Tome"],
         episodeDescription: "Because this one episode case was adapted from four manga chapters, several scenes were shortened or removed.",
         japaneseTitle: "骨董品コレクター殺人事件. (Kottōhin Korekutā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1007,6 +1022,7 @@ const allData = [
         englishAirdate: "June 21, 2004",
         broadcastRating: "12.3%",
         remasteredRating: "5.6%",
+
         mangaCase: "#15",
         mangaSource: "Volume 6: Files 2-5 (052-055)",
         dubbedEpisode: "Episode 17",
@@ -1041,8 +1057,8 @@ const allData = [
         ]
     },
     {
-        id: "17", isFIller: true, title: "17: Hijacked Department Store Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+        id: "17", isFiller: true, title: "17: Hijacked Department Store Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
         episodeDescription: "",
         japaneseTitle: "デパートジャック事件. (Depāto Jakku Jiken)",
         titleInOtherLanguages: [
@@ -1067,7 +1083,8 @@ const allData = [
         englishAirdate: "June 22, 2004",
         broadcastRating: "15.7%",
         remasteredRating: "9.3%",
-        mangaCase: "undefined",
+        fillerCase: "#3",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 18",
         englishTitle: "The Case of the Hi-Jacked Department Store",
@@ -1105,8 +1122,8 @@ const allData = [
         ]
     },
     {
-        id: "18", isFIller: false, title: "18: A June Bride Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Kiyonaga Matsumoto", "Shinichi Kudo", "Officer Tome"],
+        id: "18", isFiller: false, title: "18: A June Bride Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Kiyonaga Matsumoto", "Shinichi Kudo", "Officer Tome"],
         episodeDescription: "Conan, Ran, and Sonoko visit their old middle school music teacher, Sayuri Matsumoto, as she prepares for her wedding to Toshihiko Takasugi. Sayuri teases Conan because he reminds her of a boy she once taught. Conan manages to escape suspicion before too many parallels to Shinichi are noticed.",
         japaneseTitle: "6月の花嫁殺人事件. (Rokugatsu no Hanayome Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1129,7 +1146,8 @@ const allData = [
         originalAirdate: "June 3, 1996. June 12, 2010 (Remastered version)",
         englishAirdate: "June 23, 2004",
         broadcastRating: "14.6%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#21",
         mangaSource: "Volume 8: Files 8-10 (078-080)",
         dubbedEpisode: "Episode 19",
@@ -1165,8 +1183,8 @@ const allData = [
         ]
     },
     {
-        id: "19", isFIller: true, title: "19: An Elevator Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+        id: "19", isFiller: true, title: "19: An Elevator Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
         episodeDescription: "What began as an enjoyable day for Kogoro, Ran, and Conan, who is being interviewed for a potential job as a fashion model, soon turns deadly as a beautiful young lady is found dead. All signs point to a simple break in, but Conan knows that not all is as it seems.",
         japaneseTitle: "エレベーター殺人事件. (Erebētā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1189,8 +1207,9 @@ const allData = [
         originalAirdate: "June 10, 1996",
         englishAirdate: "June 24, 2004",
         broadcastRating: "15.6%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#4",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 20",
         englishTitle: "Fashion Sense",
@@ -1225,8 +1244,8 @@ const allData = [
         ]
     },
     {
-        id: "20", isFIller: false, title: "20: A Haunted Mansion Murder Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Hiroshi Agasa", "Shinichi Kudo"],
+        id: "20", isFiller: false, title: "20: A Haunted Mansion Murder Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Hiroshi Agasa", "Shinichi Kudo"],
         episodeDescription: "",
         japaneseTitle: "幽霊屋敷殺人事件. (Yūrei Yashiki Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1249,7 +1268,8 @@ const allData = [
         originalAirdate: "June 17, 1996",
         englishAirdate: "June 28, 2004",
         broadcastRating: "14.3%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#6",
         mangaSource: "Volume 2: Files 8-10 (017-019)",
         dubbedEpisode: "Episode 21",
@@ -1259,7 +1279,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Ikuro Sato",
         animationDirector: "Masatomo Sudo",
-        screenplay: "undefined",
+
         storyboard: "Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Hiroshi Yanaka as Akio Reiko Yamada as Akio's mother Tomomichi Nishimura as Akio's father",
@@ -1288,8 +1308,8 @@ const allData = [
         ]
     },
     {
-        id: "21", isFIller: true, title: "21: On Location, TV Drama Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Juzo Megure", "Wataru Takagi", "Eiichi Yamagishi"],
+        id: "21", isFiller: true, title: "21: On Location, TV Drama Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Juzo Megure", "Wataru Takagi", "Eiichi Yamagishi"],
         episodeDescription: "Yoko Okino is starring in 'The Stalker Who Laughted at the Darkness', a Tuesday Suspense Drama with Nichiuri TV as filming script, and she invites Kogoro, Ran, and Conan to watch the filming at the Beika Shrine. The cameraman named Morio Anzai is murdered and his dying message in kanji spells 'Shrine god'.",
         japaneseTitle: "TVドラマロケ殺人事件. (Terebi Dorama Roke Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1315,7 +1335,8 @@ const allData = [
         englishAirdate: "June 29, 2004",
         broadcastRating: "13.4%",
         remasteredRating: "7.4%",
-        mangaCase: "undefined",
+        fillerCase: "#5",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 22",
         englishTitle: "Lights, Camera... Murder",
@@ -1352,8 +1373,8 @@ const allData = [
         ]
     },
     {
-        id: "22", isFIller: false, title: "22: Luxury Liner Serial Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Joji Hatamoto", "Shinichi Kudo"],
+        id: "22", isFiller: false, title: "22: Luxury Liner Serial Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Joji Hatamoto", "Shinichi Kudo"],
         episodeDescription: "Ran and Conan enjoy the view from a luxury cruise ship, whose owners are charitably giving them a ride back to Tokyo since Kogoro forgot the departure time of their original boat. Ran and Conan notice another passenger, Natsue Hatamoto, who just married her husband, Takeshi, on the island they just left. Natsue's grandfather, Gozo, the head of the Hatamoto family and businesses, rants at his son-in-law, Kitarou, for allowing non-family members onto the ship. Natsue's uncle, Joji Hatamoto, muses that Gozo's bad mood is likely from Joji cooking Western rather than traditional food. Gozo also belittles Kitarou's son, Ichirou, for being an artist and pursuing a hopeless dream. Gozo then orders Takeshi to come visit his room before dinner, and leaves.",
         japaneseTitle: "豪華客船連続殺人事件. (Gōka Kyakusen Renzoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1379,6 +1400,7 @@ const allData = [
         englishAirdate: "June 30, 2004 (Part 1). July 1, 2004 (Part 2)",
         broadcastRating: "12.8%. 13.4%",
         remasteredRating: "10.5%. 7.5%",
+
         mangaCase: "#7",
         mangaSource: "Volume 3: Files 1-6 (020-025)",
         dubbedEpisode: "Episode 23-24",
@@ -1388,7 +1410,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "22 Hiroshi Matsuzono. 23 Toshiya Shinohara",
         animationDirector: "22 Hirotoshi Takaya. 23 Masatomo Sudo",
-        screenplay: "undefined",
+
         storyboard: "22 Kenji Kodama. 23 Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yuri Aso as Natsue Hatamoto Shigeru Nakahara as Takeshi Hatamoto Yonehiko Kitagawa as Gozo Hatamoto Yasuo Muramatsu as Kitaro Hatamoto Kinryuu Arimoto as Joji Hatamoto Akira Ishida as Ichiro Hatamoto Tomie Kataoka as Mariko Hatamoto Masumi Tsuda as Akie Hatamoto Wataru Takagi as Tatsuo Hatamoto, Next Conan's Hint Kousei Yagi as Kenji Suzuki",
@@ -1415,8 +1437,8 @@ const allData = [
         ]
     },
     {
-        id: "23", isFIller: false, title: "23: Luxury Liner Serial Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Joji Hatamoto", "Shinichi Kudo"],
+        id: "23", isFiller: false, title: "23: Luxury Liner Serial Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Joji Hatamoto", "Shinichi Kudo"],
         episodeDescription: "After reviewing the crime, Kogoro suggests they should gather for the rest of the night together in the dining hall, to keep Takeshi from murdering anyone else. Akie and Mariko blame Natsue for giving Takeshi access to the family, but Conan interjects that Takeshi's guilt isn't proven, because the room had to be opened from the outside, as it was a sliding lock, not one that required a key and therefore could be lock-picked. Someone had to let Takeshi out of the room, otherwise he would still have been in there.",
         japaneseTitle: "豪華客船連続殺人事件. (Gōka Kyakusen Renzoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1442,6 +1464,7 @@ const allData = [
         englishAirdate: "June 30, 2004 (Part 1). July 1, 2004 (Part 2)",
         broadcastRating: "12.8%. 13.4%",
         remasteredRating: "10.5%. 7.5%",
+
         mangaCase: "#7",
         mangaSource: "Volume 3: Files 1-6 (020-025)",
         dubbedEpisode: "Episode 23-24",
@@ -1451,7 +1474,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "22 Hiroshi Matsuzono. 23 Toshiya Shinohara",
         animationDirector: "22 Hirotoshi Takaya. 23 Masatomo Sudo",
-        screenplay: "undefined",
+
         storyboard: "22 Kenji Kodama. 23 Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yuri Aso as Natsue Hatamoto Shigeru Nakahara as Takeshi Hatamoto Yonehiko Kitagawa as Gozo Hatamoto Yasuo Muramatsu as Kitaro Hatamoto Kinryuu Arimoto as Joji Hatamoto Akira Ishida as Ichiro Hatamoto Tomie Kataoka as Mariko Hatamoto Masumi Tsuda as Akie Hatamoto Wataru Takagi as Tatsuo Hatamoto, Next Conan's Hint Kousei Yagi as Kenji Suzuki",
@@ -1480,8 +1503,8 @@ const allData = [
         ]
     },
     {
-        id: "24", isFIller: true, title: "24: The Mysterious Woman With Amnesia Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+        id: "24", isFiller: true, title: "24: The Mysterious Woman With Amnesia Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
         episodeDescription: "Just as Kogoro's luck seems to be running out after a bad day at the horse races with a revenge fueled escaped con bearing down on him, a beautiful woman practically falls into his arms. The only problem is, she can't remember a thing about herself, except her name. Can Kogoro help this woman regain her memory and, if so, will it only get him into more trouble than he's already in?",
         japaneseTitle: "謎の美女記憶喪失事件. (Nazo no Bijo Kioku Sōshitsu Jiken)",
         titleInOtherLanguages: [
@@ -1505,8 +1528,9 @@ const allData = [
         originalAirdate: "July 15, 1996",
         englishAirdate: "July 5, 2004",
         broadcastRating: "14.4%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#6",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 25",
         englishTitle: "Better Off Forgotten",
@@ -1546,8 +1570,8 @@ const allData = [
         ]
     },
     {
-        id: "25", isFIller: true, title: "25: The False Kidnapping and Hostage Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+        id: "25", isFiller: true, title: "25: The False Kidnapping and Hostage Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
         episodeDescription: "Kogoro and Megure are tasked with a critical case that involves the kidnapping of a girl named Naoko Takei, who is being held hostage in a van near a warehouse by the harbor. When the group plus Ran, Conan and Naoko's father, Katsuhiko Takei, approach the van, however, the kidnapper panics and drives the van into the sea itself, killing both Naoko and themself. It turns out Naoko was a classmate of Shinichi and Ran, and as Megure asks Ran about her, Conan thinks of how she was an awkward and quiet 'lonely rich kid'.",
         japaneseTitle: "偽りの身代金誘拐事件. (Itsuwari no Minoshirokin Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -1571,8 +1595,9 @@ const allData = [
         originalAirdate: "July 22, 1996",
         englishAirdate: "July 6, 2004",
         broadcastRating: "16.2%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#7",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 26",
         englishTitle: "The Counterfeit Ransom Kidnapping",
@@ -1608,8 +1633,8 @@ const allData = [
         ]
     },
     {
-        id: "26", isFIller: true, title: "26: Pet Dog John Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys", "Shinichi Kudo"],
+        id: "26", isFiller: true, title: "26: Pet Dog John Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys", "Shinichi Kudo"],
         episodeDescription: "",
         japaneseTitle: "愛犬ジョン殺人事件. (Aiken Jon Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1633,8 +1658,9 @@ const allData = [
         originalAirdate: "July 29, 1996",
         englishAirdate: "July 7, 2004",
         broadcastRating: "13.6%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#8",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 27",
         englishTitle: "Jack Attacks!",
@@ -1672,8 +1698,8 @@ const allData = [
         ]
     },
     {
-        id: "27", isFIller: false, title: "27: Kogoro's Class Reunion Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Jun Omura"],
+        id: "27", isFiller: false, title: "27: Kogoro's Class Reunion Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Jun Omura"],
         episodeDescription: "After Kogoro and Conan take down a would-be bank robber, they head off to Kogoro's 15-year class reunion with Ran in Tochigi Prefecture. Kogoro's old friends were all on the state-winning Judo team together, but when the beautiful Yumi Horikoshi turns up in her room dead of an apparent suicide, the fun is abruptly ended.",
         japaneseTitle: "小五郎の同窓会殺人事件. (Kogoro no Dōsōkai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1697,6 +1723,7 @@ const allData = [
         englishAirdate: "July 8, 2004 (Part 1). July 12, 2004 (Part 2)",
         broadcastRating: "13.4%. 12.6%",
         remasteredRating: "8.9%. 8.7%",
+
         mangaCase: "#23",
         mangaSource: "Volume 9: Files 4-6 (084-086)",
         dubbedEpisode: "Episode 28-29",
@@ -1732,8 +1759,8 @@ const allData = [
         ]
     },
     {
-        id: "28", isFIller: false, title: "28: Kogoro's Class Reunion Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Jun Omura"],
+        id: "28", isFiller: false, title: "28: Kogoro's Class Reunion Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Jun Omura"],
         episodeDescription: "Kogoro's class reunion continues, but all the catching up has finally caught up to the classmates leaving one of them dead. Is the killer still among them, and if so, can Conan apprehend him in time? Everyone's a suspect in this exciting episode.",
         japaneseTitle: "小五郎の同窓会殺人事件. (Kogoro no Dōsōkai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1757,6 +1784,7 @@ const allData = [
         englishAirdate: "July 8, 2004 (Part 1). July 12, 2004 (Part 2)",
         broadcastRating: "13.4%. 12.6%",
         remasteredRating: "8.9%. 8.7%",
+
         mangaCase: "#23",
         mangaSource: "Volume 9: Files 4-6 (084-086)",
         dubbedEpisode: "Episode 28-29",
@@ -1796,8 +1824,8 @@ const allData = [
         ]
     },
     {
-        id: "29", isFIller: true, title: "29: Computer Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Juzo Megure", "Shinichi Kudo"],
+        id: "29", isFiller: true, title: "29: Computer Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Juzo Megure", "Shinichi Kudo"],
         episodeDescription: "",
         japaneseTitle: "コンピューター殺人事件. (Konpyūtā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1820,8 +1848,9 @@ const allData = [
         originalAirdate: "August 19, 1996",
         englishAirdate: "July 13, 2004",
         broadcastRating: "12.9%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#9",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 30",
         englishTitle: "The Computer Murder",
@@ -1859,8 +1888,8 @@ const allData = [
         ]
     },
     {
-        id: "30", isFIller: true, title: "30: Alibi Testimony Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+        id: "30", isFiller: true, title: "30: Alibi Testimony Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
         episodeDescription: "Kogoro, Ran, and Conan are meeting Souhei Tatsumi, a well-known lawyer with many large corporations as clients, who's office is in a luxury hotel. While there, Conan picks up a phone call from Souhei's wife, Kazumi Tatsumi. During the phone call, a musical melody is heard from Kazumi's side. Souhei takes over the phone call and tells his wife he will call later and asks Conan and Ran to leave so he may talk with Kogoro. Kogoro returns telling Ran and Conan he took Souhei's request to spy on Kazumi and her affair. On the way home, they spot police cars in front of a house and decide to investigate. They found out it is Souhei Tatsumi's house. Inside they learn that Kazumi was found dead in the bathtub.",
         japaneseTitle: "アリバイ証言殺人事件. (Aribai Shōgen Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1883,8 +1912,9 @@ const allData = [
         originalAirdate: "August 26, 1996",
         englishAirdate: "July 14, 2004",
         broadcastRating: "13.7%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#10",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 31",
         englishTitle: "The Missing Melody",
@@ -1918,8 +1948,8 @@ const allData = [
         ]
     },
     {
-        id: "31", isFIller: false, title: "31: TV Station Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ayumi Yoshida", "Yoko Okino", "Mrs. Yoshida", "George Kirishima"],
+        id: "31", isFiller: false, title: "31: TV Station Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ayumi Yoshida", "Yoko Okino", "Mrs. Yoshida", "George Kirishima"],
         episodeDescription: "The TV presenter Takashi Matsuo calls his colleague, Michihiko Suwa, and tells him that he wants to meet him after the show in the conference room. Matsuo hangs a photo of himself and Suwa, throws it across the room, and shoots it with a gun.",
         japaneseTitle: "テレビ局殺人事件. (Terebi-kyoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1943,6 +1973,7 @@ const allData = [
         englishAirdate: "July 15, 2004",
         broadcastRating: "13.1%",
         remasteredRating: "7.5%",
+
         mangaCase: "#28",
         mangaSource: "Volume 11: Files 2-4 (102-104)",
         dubbedEpisode: "Episode 32",
@@ -1952,7 +1983,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Hirohito Ochi",
         animationDirector: "Haruo Ogawara",
-        screenplay: "undefined",
+
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Norio Wakamoto as Michihiko Suwa Megumi Ogata as Ayako Nagai Yuri Amano as Yoko Okino Yukiko Iwai as Ayumi Yoshida Hirohiko Kakegawa as Kuroshima Takashi Naka as Studio executive Wataru Takagi as Staff (Uncredited: Wataru Takagi, Next Conan's Hint) Takumi Yamazaki as Police detective Naoki Makishima as AD Takashi Matsuo as Himself",
@@ -1983,8 +2014,8 @@ const allData = [
         ]
     },
     {
-        id: "32", isFIller: false, title: "32: Coffee Shop Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Eri Kisaki", "Juzo Megure", "Sonoko Suzuki", "Kogoro Mouri", "Shinichi Kudo"],
+        id: "32", isFiller: false, title: "32: Coffee Shop Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Eri Kisaki", "Juzo Megure", "Sonoko Suzuki", "Kogoro Mouri", "Shinichi Kudo"],
         episodeDescription: "In a lazy Sunday, Conan catches Ran getting out early from home and asks her where is she going. She tells him that she's in a date with Shinichi and Conan at first lets her go. but then realizes that this cannot be true because he is Shinichi. He tries to convince himself that it doesn't matter, but then he decides to tag along anyway.",
         japaneseTitle: "コーヒーショップ殺人事件. (Kōhī Shoppu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2007,7 +2038,8 @@ const allData = [
         originalAirdate: "September 9, 1996",
         englishAirdate: "July 19, 2004",
         broadcastRating: "14.3%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#29",
         mangaSource: "Volume 11: Files 5-7 (105-107)",
         dubbedEpisode: "Episode 33",
@@ -2017,7 +2049,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "Masatomo Sudo. Hirotoshi Takaya",
-        screenplay: "undefined",
+
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Yoko Fuchino as Yayoi Himeno Hiroshi Ishida as Yuichi Sumeragi Gara Takashima as Eri Kisaki Daisuke Gouri as Juzo Tonoyama Kazuya Ichijo as Shiro Wakaoji Wataru Takagi as Forensics officer (Uncredited: Next Conan's Hint) Isshin Chiba as Detective Hiroshi Nagahata as Master Yukiko Iwai as Waitress",
@@ -2046,8 +2078,8 @@ const allData = [
         ]
     },
     {
-        id: "33", isFIller: true, title: "33: Detective Boys Survival Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Juzo Megure"],
+        id: "33", isFiller: true, title: "33: Detective Boys Survival Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Juzo Megure"],
         episodeDescription: "",
         japaneseTitle: "探偵団サバイバル事件. (Tantei-dan Sabaibaru Jiken)",
         titleInOtherLanguages: [
@@ -2070,8 +2102,9 @@ const allData = [
         originalAirdate: "October 14, 1996",
         englishAirdate: "July 20, 2004",
         broadcastRating: "14.7%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#11",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 34",
         englishTitle: "A Hunting We Will Go",
@@ -2107,8 +2140,8 @@ const allData = [
         ]
     },
     {
-        id: "34", isFIller: false, title: "34: Mountain Villa Bandaged Man Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki"],
+        id: "34", isFiller: false, title: "34: Mountain Villa Bandaged Man Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki"],
         episodeDescription: "Conan and Ran are invited by Sonoko to her family's mountain villa in Gunma Prefecture to see the autumn leaves and meet up with Sonoko's sister Ayako and some old friends of hers. At first they get lost thanks to Ran's lack of direction sense, but they find their way and see themselves in front of a bridge. On the way to the front they see a strange bandaged man in a dark cloak crossing the bridge. When they see him he turns around, shocking them with his face and eye contact as he quickly makes a retreat around the side of the house.",
         japaneseTitle: "山荘包帯男殺人事件. (Sansō Hōtai Otoko Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2132,7 +2165,8 @@ const allData = [
         originalAirdate: "October 21, 1996 (Part 1). October 28, 1996 (Part 2)",
         englishAirdate: "July 21, 2004 (Part 1). July 22, 2004 (Part 2)",
         broadcastRating: "17.8%. 18.7%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#12",
         mangaSource: "Volume 5: Files 1-5 (040-044)",
         dubbedEpisode: "Episode 35-36",
@@ -2142,7 +2176,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "34 Yasuichiro Yamamoto. 35 Masato Sato",
         animationDirector: "34 Keiko Sasaki. 35 Akio Kawamura",
-        screenplay: "undefined",
+
         storyboard: "34 Yasuichiro Yamamoto. 35 Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Norihiro Inoue as Masaru Ohta Tetsuo Goto as Hiroki Sumiya Man Katou as Ryoichi Takahashi Sumiko Motoi as Ayako Suzuki Jun Karasawa as Chikako Ikeda Wataru Takagi as Next Conan's Hint",
@@ -2165,8 +2199,8 @@ const allData = [
         ]
     },
     {
-        id: "35", isFIller: false, title: "35: Mountain Villa Bandaged Man Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki"],
+        id: "35", isFiller: false, title: "35: Mountain Villa Bandaged Man Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki"],
         episodeDescription: "Everyone decides to stay up for the night and keep together to throw off the murderous man in bandages. Conan sees that Ayako has a choker that belonged to the dead Chikako. She says she found it a short while ago, but Conan recalls that she had it on when she was abducted. This means that yes, the 'bandaged man' is someone in the group.",
         japaneseTitle: "山荘包帯男殺人事件. (Sansō Hōtai Otoko Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2190,7 +2224,8 @@ const allData = [
         originalAirdate: "October 21, 1996 (Part 1). October 28, 1996 (Part 2)",
         englishAirdate: "July 21, 2004 (Part 1). July 22, 2004 (Part 2)",
         broadcastRating: "17.8%. 18.7%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#12",
         mangaSource: "Volume 5: Files 1-5 (040-044)",
         dubbedEpisode: "Episode 35-36",
@@ -2200,7 +2235,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "34 Yasuichiro Yamamoto. 35 Masato Sato",
         animationDirector: "34 Keiko Sasaki. 35 Akio Kawamura",
-        screenplay: "undefined",
+
         storyboard: "34 Yasuichiro Yamamoto. 35 Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Norihiro Inoue as Masaru Ohta Tetsuo Goto as Hiroki Sumiya Man Katou as Ryoichi Takahashi Sumiko Motoi as Ayako Suzuki Jun Karasawa as Chikako Ikeda Wataru Takagi as Next Conan's Hint",
@@ -2227,8 +2262,8 @@ const allData = [
         ]
     },
     {
-        id: "36", isFIller: true, title: "36: Monday Night 7:30 p.m. Murder Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Kamen Yaiba"],
+        id: "36", isFiller: true, title: "36: Monday Night 7:30 p.m. Murder Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Kamen Yaiba"],
         episodeDescription: "When Katsuhiko Nakamoto, a seedy real estate agent, is murdered in his condominium, the police suspect Yoko Sawaki, a well-known dentist in town. They believe that she was getting back at Nakamoto for a crime that he committed twenty-six years ago in a village of East Kofu, Yamanashi Prefecture. Will Conan's investigation vindicate the beautiful dentist or debunk her perfect alibi?",
         japaneseTitle: "月曜夜7時30分殺人事件. (Getsuyō Yoru Shichiji Sanjuppun Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2251,8 +2286,9 @@ const allData = [
         originalAirdate: "November 4, 1996",
         englishAirdate: "July 26, 2004",
         broadcastRating: "17%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#12",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 37",
         englishTitle: "Wrong Place at the Wrong Time",
@@ -2288,8 +2324,8 @@ const allData = [
         ]
     },
     {
-        id: "37", isFIller: true, title: "37: Cactus's Flower Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys"],
+        id: "37", isFiller: true, title: "37: Cactus's Flower Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys"],
         episodeDescription: "When a pretty girl hires Kogoro to help her find an old flame, it seems like a routine case. But when Conan finds out that the man she is looking for was responsible for the death of her fiancé, he realizes that romance is the farthest thing from her mind. What is she planning to do?",
         japaneseTitle: "サボテンの花殺人事件. (Saboten no Hana Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2314,7 +2350,8 @@ const allData = [
         englishAirdate: "July 27, 2004",
         broadcastRating: "18.5%",
         remasteredRating: "8%",
-        mangaCase: "undefined",
+        fillerCase: "#13",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 38",
         englishTitle: "Prickly Past",
@@ -2348,8 +2385,8 @@ const allData = [
         ]
     },
     {
-        id: "38", isFIller: false, title: "38: Akaoni Village Fire Festival Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa"],
+        id: "38", isFiller: false, title: "38: Akaoni Village Fire Festival Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa"],
         episodeDescription: "When a body is discovered in a bonfire at a ritual Fire Festival by a tourist, the murder investigation begins.",
         japaneseTitle: "赤鬼村火祭殺人事件. (Akaoni Mura Himatsuri Sastujin Jiken)",
         titleInOtherLanguages: [
@@ -2373,6 +2410,7 @@ const allData = [
         englishAirdate: "July 28, 2004",
         broadcastRating: "17.8%",
         remasteredRating: "6.6%",
+
         mangaCase: "#4",
         mangaSource: "Volume 2: Files 1-3 (010-012)",
         dubbedEpisode: "Episode 39",
@@ -2382,7 +2420,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Hirohito Ochi",
         animationDirector: "Haruo Ogawara",
-        screenplay: "undefined",
+
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Katsunosuke Hori as Yutaka Abe Takkou Ishimori as Masaki Negishi Isshin Chiba as Announcer Wataru Takagi as Male clerk, Next Conan's Hint Yukiko Iwai as Female clerk",
@@ -2408,8 +2446,8 @@ const allData = [
         ]
     },
     {
-        id: "39", isFIller: false, title: "39: Wealthy Daughter Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Takuya Mifune", "Shinichi Kudo"],
+        id: "39", isFiller: false, title: "39: Wealthy Daughter Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Takuya Mifune", "Shinichi Kudo"],
         episodeDescription: "A billionaire hosts a birthday gala for his daughter Reika and the famous detective Mouri is the celebrity guest of honor. But when one of Reika's handsome young suitors turns up dead, the remaining guests are suspects for murder.",
         japaneseTitle: "資産家令嬢殺人事件. (Shisanka Reijō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2433,6 +2471,7 @@ const allData = [
         englishAirdate: "July 29, 2004 (Part 1). August 2, 2004 (Part 2)",
         broadcastRating: "17.4% (Part 1). 17.1% (Part 2)",
         remasteredRating: "7.0% (Part 1). 6.3% (Part 2)",
+
         mangaCase: "#24",
         mangaSource: "Volume 9: File 7 (087) ~. Volume 10: File 1 (091)",
         dubbedEpisode: "Episode 40-41",
@@ -2442,7 +2481,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "39 Kazuo Nogami. 40 Yasuichiro Yamamoto",
         animationDirector: "39 Izumi Shimura. 40 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Rieko Takahashi as Reika Yotsui Hiroshi Nakano as Takashi Ichieda Takumi Tsutsui as Yuji Nikaido Hitoshi Ooya as Takuya Mifune Shirou Ishimoda as Osamu Gojo Ryuzaburo Otomo as Masashi Rokuda Reiko Suzuki as Yone Nanao Jinshou Hirao as Chairman Yotsui Wataru Takagi as Driver, Next Conan's Hint",
@@ -2464,8 +2503,8 @@ const allData = [
         ]
     },
     {
-        id: "40", isFIller: false, title: "40: Wealthy Daughter Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Takuya Mifune", "Shinichi Kudo"],
+        id: "40", isFiller: false, title: "40: Wealthy Daughter Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Takuya Mifune", "Shinichi Kudo"],
         episodeDescription: "When a beautiful heiress is murdered on her birthday, Conan springs into action to solve the baffling crime. The painful past of every suspect must be brought to light. Opening these old wounds is the only way to bring the killer to justice.",
         japaneseTitle: "資産家令嬢殺人事件. (Shisanka Reijō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2489,6 +2528,7 @@ const allData = [
         englishAirdate: "July 29, 2004 (Part 1). August 2, 2004 (Part 2)",
         broadcastRating: "17.4% (Part 1). 17.1% (Part 2)",
         remasteredRating: "7.0% (Part 1). 6.3% (Part 2)",
+
         mangaCase: "#24",
         mangaSource: "Volume 9: File 7 (087) ~. Volume 10: File 1 (091)",
         dubbedEpisode: "Episode 40-41",
@@ -2498,7 +2538,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "39 Kazuo Nogami. 40 Yasuichiro Yamamoto",
         animationDirector: "39 Izumi Shimura. 40 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Rieko Takahashi as Reika Yotsui Hiroshi Nakano as Takashi Ichieda Takumi Tsutsui as Yuji Nikaido Hitoshi Ooya as Takuya Mifune Shirou Ishimoda as Osamu Gojo Ryuzaburo Otomo as Masashi Rokuda Reiko Suzuki as Yone Nanao Jinshou Hirao as Chairman Yotsui Wataru Takagi as Driver, Next Conan's Hint",
@@ -2527,8 +2567,8 @@ const allData = [
         ]
     },
     {
-        id: "41", isFIller: true, title: "41: Victory Flag Tearing Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki"],
+        id: "41", isFiller: true, title: "41: Victory Flag Tearing Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki"],
         episodeDescription: "",
         japaneseTitle: "優勝旗切り裂き事件. (Yūshōki Kirisaki Jiken)",
         titleInOtherLanguages: [
@@ -2551,8 +2591,9 @@ const allData = [
         originalAirdate: "December 9, 1996",
         englishAirdate: "August 3, 2004",
         broadcastRating: "17.6%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#14",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 42",
         englishTitle: "Left in Tatters",
@@ -2586,8 +2627,8 @@ const allData = [
         ]
     },
     {
-        id: "42", isFIller: false, title: "42: Karaoke Box Murder Case",
-        cast: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa"],
+        id: "42", isFiller: false, title: "42: Karaoke Box Murder Case",
+        appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa"],
         episodeDescription: "When Sonoko's father uses his connections, Ran and Sonoko find themselves in a Karaoke Bar having dinner with the hottest band in the land! It seems like a dream come true until the lead singer, Tatsuya Kimura, is poisoned right in front of their eyes. The brash super-star had plenty of enemies (he constantly fought for nothing with Mari, Mieko had her love confession to him rejected, Katsumi was angry at him because he was about to go solo and that put the band's career on hold, Go was in his previous band till he left and he was very rude towards the whole band), but which of them hated him enough to commit murder? It's up to Conan to find out.",
         japaneseTitle: "カラオケボックス殺人事件. (Karaoke Bokkusu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2609,7 +2650,8 @@ const allData = [
         originalAirdate: "December 16, 1996. October 22, 2011 (Remastered version)",
         englishAirdate: "August 4, 2004",
         broadcastRating: "17.5%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#13",
         mangaSource: "Volume 5: Files 6-9 (045-048)",
         dubbedEpisode: "Episode 43",
@@ -2650,8 +2692,8 @@ const allData = [
         ]
     },
     {
-        id: "43", isFIller: false, title: "43: Conan Edogawa Kidnapping Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Yusaku Kudo", "Yukiko Kudo", "Shinichi Kudo", "Gin", "Vodka"],
+        id: "43", isFiller: false, title: "43: Conan Edogawa Kidnapping Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Yusaku Kudo", "Yukiko Kudo", "Shinichi Kudo", "Gin", "Vodka"],
         episodeDescription: "After realizing that Conan's parents have not contacted them (Kogoro and Ran Mouri) for a long stretch of time, Ran asks when his parents will be returning from overseas. Suddenly, a woman by the name of Fumiyo Edogawa enters the Mouri Detective Agency and admits to the group that she is Conan's mother and wishes to take Conan home. Soon after, Conan revels on the idea and absolute truth that this person is indeed not his mother, as Conan does not really exist, and begins to grow anxious. Worrying that she might harm his new found 'family', he goes along with Fumiyo, planning to get away and figure out the mess he's gotten himself into. En route, Fumiyo reveals in Conan's horror that she knows Conan's identity as Shinichi Kudo, together with his family's background. Conan escapes from her car and rushes to Professor Agasa' house, but is kidnapped again by Fumiyo before he has a chance to contact him.",
         japaneseTitle: "江戸川コナン誘拐事件. (Edogawa Konan Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -2674,19 +2716,20 @@ const allData = [
         ],
         season: "2",
         originalAirdate: "January 13, 1997. April 2, 2011 (Remastered version)",
-        englishAirdate: "undefined",
+
         broadcastRating: "18.3%",
         remasteredRating: "10.2%",
+
         mangaCase: "#14",
         mangaSource: "Volume 5: Files 10-11 (49-50) ~ Volume 6: File 1 (51)",
-        dubbedEpisode: "undefined",
+
         englishTitle: "Conan is Kidnapped",
         caseSolvedBy: "No one",
         nextConansHint: "The Night Baron. N/A (Remastered version)",
         director: "Kenji Kodama",
         episodeDirector: "Susumu Ishizaki",
         animationDirector: "Yasushi Tanaka",
-        screenplay: "undefined",
+
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Atsuko Takahata as Fumiyo Edogawa Yasuhiro Takato as Bellboy Ikue Otani as Cloakroom clerk Yukiko Iwai as Customer A Isshin Chiba as Customer B Mika Watanabe as Masao Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Yukiko Kudo Wataru Takagi as Next Conan's Hint",
@@ -2713,8 +2756,8 @@ const allData = [
         ]
     },
     {
-        id: "44", isFIller: true, title: "44: Three Hotta Siblings Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        id: "44", isFiller: true, title: "44: Three Hotta Siblings Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
         episodeDescription: "A lazy drive through Chiyoda mountain, Tokyo, lands Kogoro, Ran, and Conan in the middle of a murder mystery surrounding the death of billionaire industrialist, Kosaku Hotta. As Conan tries to unravel the clues before the killer can strike again, he faces one disturbing reality. The prime suspects are the victim's children. It's an explosive whodunit you won't want to miss.",
         japaneseTitle: "堀田三兄弟殺人事件. (Hotta Sankyōdai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2736,8 +2779,9 @@ const allData = [
         originalAirdate: "January 20, 1997",
         englishAirdate: "August 9, 2004",
         broadcastRating: "17.6%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#15",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 45",
         englishTitle: "Unhappy Birthday",
@@ -2771,8 +2815,8 @@ const allData = [
         ]
     },
     {
-        id: "45", isFIller: true, title: "45: Facial Mask Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+        id: "45", isFiller: true, title: "45: Facial Mask Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
         episodeDescription: "Another day, another case as Kogoro stumbles upon the death of the President of a popular apparel company. Just why would the President be wearing an unflattering facial mask if she had been expecting company? It's just one of the many perplexing elements of a most unusual case.",
         japaneseTitle: "顔パック殺人事件. (Kaopakku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2795,7 +2839,8 @@ const allData = [
         englishAirdate: "August 10, 2004",
         broadcastRating: "17%",
         remasteredRating: "8.2%",
-        mangaCase: "undefined",
+        fillerCase: "#16",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 46",
         englishTitle: "Unexpected Visitors",
@@ -2832,8 +2877,8 @@ const allData = [
         ]
     },
     {
-        id: "46", isFIller: false, title: "46: Alpine Hut in the Snowy Mountain Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        id: "46", isFiller: false, title: "46: Alpine Hut in the Snowy Mountain Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
         episodeDescription: "Conan and the gang's ski-trip turns deadly when a medical professor is murdered right under their noses. A secret message left by the victim points to one of his students as being the killer. However, unraveling the secret proves one of the greatest challenges the pint-sized sleuth has ever faced.",
         japaneseTitle: "雪山山荘殺人事件. (Yukiyama Sansō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2856,6 +2901,7 @@ const allData = [
         englishAirdate: "August 11, 2004",
         broadcastRating: "18%",
         remasteredRating: "7.4%",
+
         mangaCase: "#27",
         mangaSource: "Volume 10: File 9 (099) ~. Volume 11: File 1 (101)",
         dubbedEpisode: "Episode 47",
@@ -2865,7 +2911,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Johei Matsuura",
         animationDirector: "Atsushi Aono",
-        screenplay: "undefined",
+
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yuzuru Fujimoto as Masashi Oyama Eiko Yamada as Kaori Nakahara Daisaku Shinohara as Tomoyasu Kanazawa Koji Yusa as Ginji Tobita Kumiko Ishizuka as Kaho Ezumi Yukiko Iwai as Mitsue (credited as Woman on TV) Wataru Takagi as Tsutomu (credited as Man on TV), Next Conan's Hint",
@@ -2892,8 +2938,8 @@ const allData = [
         ]
     },
     {
-        id: "47", isFIller: true, title: "47: Sports Club Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Officer Tome"],
+        id: "47", isFiller: true, title: "47: Sports Club Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Officer Tome"],
         episodeDescription: "The bitter rivalry between two world-class high divers boils over as the reigning champion is found dead. Due to the nature of the injuries and eye witness testimony, it seems as if this death was nothing more than a tragic accident. But nothing is ever as it seems as the brilliant mind of Conan soon reveals.",
         japaneseTitle: "スポーツクラブ殺人事件. (Supōtsu Kurabu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2916,7 +2962,8 @@ const allData = [
         englishAirdate: "May 29, 2007 (DVD)",
         broadcastRating: "16.6%",
         remasteredRating: "6.2%",
-        mangaCase: "undefined",
+        fillerCase: "#17",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 48",
         englishTitle: "The Last Dive",
@@ -2953,8 +3000,8 @@ const allData = [
         ]
     },
     {
-        id: "48", isFIller: false, title: "48: Diplomat Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Heiji Hattori", "Shinichi Kudo", "Juzo Megure", "Detective Boys", "Yukiko Katsuragi", "Takayoshi Tsujimura", "Sonoko Suzuki"],
+        id: "48", isFiller: false, title: "48: Diplomat Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Heiji Hattori", "Shinichi Kudo", "Juzo Megure", "Detective Boys", "Yukiko Katsuragi", "Takayoshi Tsujimura", "Sonoko Suzuki"],
         episodeDescription: "Conan has to deal with some stiff competition when Heiji Hattori, heralded as the 'Great Detective of the West', comes looking for Shinichi Kudo to prove which of them is the best detective. He shows up all of a sudden in the Mouri Agency (since he suspects Shinichi has a hand on Kogoro's recent success and Sonoko told him where it was located), bringing a nice Osakan liquor as a gift to Kogoro (so he'll let him stay overnight), and delivers the challenge, which will take place regarding the request coming from a rich woman: to make a background check on her future daughter-in-law, a young woman who's simply too good to be true so she could actually be a bitch in sheep's clothing or a gold digger in disguise.",
         japaneseTitle: "外交官殺人事件. (Gaikōkan Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2977,7 +3024,8 @@ const allData = [
         originalAirdate: "February 17, 1997 (Part 1). February 24, 1997 (Part 2)",
         englishAirdate: "August 12, 2004 (Part 1). August 16, 2004 (Part 2)",
         broadcastRating: "19%. 18.2%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#25",
         mangaSource: "Volume 10: Files 2-6 (092-096)",
         dubbedEpisode: "Episode 49-50",
@@ -2987,7 +3035,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "48 Kazuo Nogami. 49 Susumu Ishizaki",
         animationDirector: "48 Masatomo Sudo, Takashi Hyodo. 49 Masatomo Sudo",
-        screenplay: "undefined",
+
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Kappei Yamaguchi as Shinichi Kudo Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Policeman, Next Conan's Hint Mari Arita as Kimie Tsujimura Aruno Tahara as Fumio Koike Yoshinobu Yamada as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Eiji Maruyama as Toshimitsu Tsujimura Saburo Kamei as Isao Tsujimura",
@@ -3015,8 +3063,8 @@ const allData = [
         ]
     },
     {
-        id: "49", isFIller: false, title: "49: Diplomat Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Heiji Hattori", "Shinichi Kudo", "Juzo Megure", "Detective Boys", "Yukiko Katsuragi", "Takayoshi Tsujimura", "Sonoko Suzuki"],
+        id: "49", isFiller: false, title: "49: Diplomat Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Heiji Hattori", "Shinichi Kudo", "Juzo Megure", "Detective Boys", "Yukiko Katsuragi", "Takayoshi Tsujimura", "Sonoko Suzuki"],
         episodeDescription: "Heiji Hattori believes that the murder of the diplomat Isao Tsujimura is a locked room one, and he's also sure of who the killer is. But almost at the same time, Conan collapses due to his illness, and then Shinichi Kudo returns to the surprise of everyone, especially himself. As Shinichi tries to expose the real secret behind the perfectly sealed room, the rivalry between he and Heiji Hattori heats up. Deceit and treachery are revealed, as Isao Tsujimura's killer is finally unmasked and their reasons to commit the crime are explained.",
         japaneseTitle: "外交官殺人事件. (Gaikōkan Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3039,7 +3087,8 @@ const allData = [
         originalAirdate: "February 17, 1997 (Part 1). February 24, 1997 (Part 2)",
         englishAirdate: "August 12, 2004 (Part 1). August 16, 2004 (Part 2)",
         broadcastRating: "19%. 18.2%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#25",
         mangaSource: "Volume 10: Files 2-6 (092-096)",
         dubbedEpisode: "Episode 49-50",
@@ -3049,7 +3098,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "48 Kazuo Nogami. 49 Susumu Ishizaki",
         animationDirector: "48 Masatomo Sudo, Takashi Hyodo. 49 Masatomo Sudo",
-        screenplay: "undefined",
+
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Kappei Yamaguchi as Shinichi Kudo Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Policeman, Next Conan's Hint Mari Arita as Kimie Tsujimura Aruno Tahara as Fumio Koike Yoshinobu Yamada as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Eiji Maruyama as Toshimitsu Tsujimura Saburo Kamei as Isao Tsujimura",
@@ -3077,8 +3126,8 @@ const allData = [
         ]
     },
     {
-        id: "50", isFIller: false, title: "50: Library Murder Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa", "Shinichi Kudo"],
+        id: "50", isFiller: false, title: "50: Library Murder Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa", "Shinichi Kudo"],
         episodeDescription: "A routine afternoon at the library turns into the hunt for a corpse after an attendant turns up missing. When Conan and the Detective Boys try to solve the mystery by staying after-hours, they find themselves trapped, in the dark, and not alone. Will they catch the killer before he catches them?",
         japaneseTitle: "図書館殺人事件. (Toshokan Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3101,6 +3150,7 @@ const allData = [
         englishAirdate: "May 29, 2007 (DVD)",
         broadcastRating: "16.8%",
         remasteredRating: "8.8%",
+
         mangaCase: "#26",
         mangaSource: "Volume 10: Files 6-8 (096-098)",
         dubbedEpisode: "Episode 51",
@@ -3110,7 +3160,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Hirohito Ochi",
         animationDirector: "Haruo Ogawara",
-        screenplay: "undefined",
+
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Isshin Chiba as Police detective Ichiro Nagai as Shuji Tsugawa Kaoru Morota as Clerk",
@@ -3141,8 +3191,8 @@ const allData = [
         ]
     },
     {
-        id: "51", isFIller: true, title: "51: The Golf Driving Range Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Juzo Megure", "Ran Mouri", "Yoko Okino", "Officer Tome"],
+        id: "51", isFiller: true, title: "51: The Golf Driving Range Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Juzo Megure", "Ran Mouri", "Yoko Okino", "Officer Tome"],
         episodeDescription: "A relaxing day at the driving range leads Kogoro, Ran, and Conan to their next explosive case, as the president of a leading electronics manufacturer meets an untimely end. With many suspects and few clues, will Conan unravel the mystery in time to catch a killer?",
         japaneseTitle: "ゴルフ練習場殺人事件. (Gorufu Renshūjō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3164,8 +3214,9 @@ const allData = [
         originalAirdate: "March 10, 1997",
         englishAirdate: "May 29, 2007 (DVD)",
         broadcastRating: "15.3%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#18",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 52",
         englishTitle: "Driving a Bomb",
@@ -3201,8 +3252,8 @@ const allData = [
         ]
     },
     {
-        id: "52", isFIller: false, title: "52: The Mist Goblin Legend Murder Case (1 Hour Special)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo", "Juzo Megure", "Hiroshi Agasa", "Gin", "Vodka", "Seiji Asoh"],
+        id: "52", isFiller: false, title: "52: The Mist Goblin Legend Murder Case (1 Hour Special)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo", "Juzo Megure", "Hiroshi Agasa", "Gin", "Vodka", "Seiji Asoh"],
         episodeDescription: "A baffling and seemingly impossible murder is committed at a secluded Mount Takao temple. Luckily Conan and Kogoro are on the scene. It is believed that the terrible Mist Goblin (Kiritengu), a creature with super strength, haunts the temple. Conan doesn't believe in goblins, but he may have to change his tune as the evidence suggests that the Mist Goblin may be more than just a legend.",
         japaneseTitle: "霧天狗伝説殺人事件. (Kiri-tengu Densetsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3225,7 +3276,8 @@ const allData = [
         originalAirdate: "March 17, 1997 *. June 28, 2004 (Rerun) *",
         englishAirdate: "August 24, 2004 (DVD)",
         broadcastRating: "17.9%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#30",
         mangaSource: "Volume 11: Files 8-10 (108-110)",
         dubbedEpisode: "Episode 53-54",
@@ -3273,8 +3325,8 @@ const allData = [
         ]
     },
     {
-        id: "53", isFIller: true, title: "53: The Mystery Weapon Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+        id: "53", isFiller: true, title: "53: The Mystery Weapon Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
         episodeDescription: "After finding a wounded bird on the ground Conan, Kogoro, and Ran hear a loud scream coming from the building next to them. Once upon entering the building they find a terrified woman in the hall, screaming about how she has just found her husband dead. The murder victim on the balcony, believed to have been killed by a plant pot.",
         japaneseTitle: "謎の凶器殺人事件. (Nazo no Kyōki Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3295,8 +3347,9 @@ const allData = [
         originalAirdate: "April 7, 1997",
         englishAirdate: "August 24, 2004 (DVD)",
         broadcastRating: "17.3%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#19",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 55",
         englishTitle: "Weapon of Choice",
@@ -3333,8 +3386,8 @@ const allData = [
         ]
     },
     {
-        id: "54", isFIller: false, title: "54: Game Company Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Tequila", "Gin", "Vodka"],
+        id: "54", isFiller: false, title: "54: Game Company Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Tequila", "Gin", "Vodka"],
         episodeDescription: "Kogoro is invited to a party for the release of a game which stars himself. While there, Conan runs into a man who uses the alias Tequila and learns that he plans to meet with Gin and Vodka. Conan follows Tequila to the bathroom where an explosion occurs and kills the man. Conan investigates the explosion and realizes that it was a murder attempt but the wrong person was killed.",
         japaneseTitle: "ゲーム会社殺人事件. (Gēmu-gaisha Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3355,7 +3408,8 @@ const allData = [
         originalAirdate: "April 14, 1997",
         englishAirdate: "October 12, 2004 (DVD)",
         broadcastRating: "19.1%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#32",
         mangaSource: "Volume 12: Files 4-6 (114-116)",
         dubbedEpisode: "Episode 56",
@@ -3365,7 +3419,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "Hiromi Muranaka. Asako Nishida",
-        screenplay: "undefined",
+
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Takashi Hyodo (sub-character). Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Shuntaro Tanigawa as Hideaki Nakajima Yoshinobu Yamada as Koji Ueda Jin Horikawa as Hironobu Takeshita Yoshito Ishinami as Ishikawa Kousei Hirota as Tequila Yukiko Iwai as Attendant A Kaoru Morota as Attendant B Saeko Yoshizawa as Attendant C Isshin Chiba as Forensics officer A Wataru Takagi as Forensics officer B, Next Conan's Hint",
@@ -3397,8 +3451,8 @@ const allData = [
         ]
     },
     {
-        id: "55", isFIller: true, title: "55: The Train Trick Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        id: "55", isFiller: true, title: "55: The Train Trick Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
         episodeDescription: "As Kogoro, Ran, and Conan are on their way home from a hot spring in Komono, Mie Prefecture, they boarded a train together with a pair of doctors. They arrived at a station where one may change trains to another line, but no one could possibly change trains since the two lines are scheduled differently by a mere five-minute difference. At the station where the trio are to change trains to one going to Tokyo, a murder is discovered. The only suspect rides in the train with Conan's group while the victim rides on a train from a different line.",
         japaneseTitle: "列車トリック殺人事件. (Ressha Torikku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3419,8 +3473,9 @@ const allData = [
         originalAirdate: "April 21, 1997",
         englishAirdate: "October 12, 2004 (DVD)",
         broadcastRating: "18.4%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#20",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 57",
         englishTitle: "Train Trick",
@@ -3458,8 +3513,8 @@ const allData = [
         ]
     },
     {
-        id: "56", isFIller: true, title: "56: The Ojamanbou Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+        id: "56", isFiller: true, title: "56: The Ojamanbou Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
         episodeDescription: "Kogoro, Ran, and Conan are out jogging when they are attracted to a scene of a murder. One of the owners of the Ojamanbou Cleaning Company has been killed by a falling beam.",
         japaneseTitle: "おじゃマンボウ殺人事件. (Ojamanbō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3480,8 +3535,9 @@ const allData = [
         originalAirdate: "April 28, 1997",
         englishAirdate: "October 12, 2004 (DVD)",
         broadcastRating: "17.6%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#21",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 58",
         englishTitle: "The Sunfish Murder",
@@ -3520,8 +3576,8 @@ const allData = [
         ]
     },
     {
-        id: "57", isFIller: false, title: "57: Holmes Freak Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo"],
+        id: "57", isFiller: false, title: "57: Holmes Freak Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo"],
         episodeDescription: "Conan enters a Sherlock Holmes contest to win a rare first-edition book and persuades Ran Mouri and Kogoro to attend. Once at the place of the contest, everyone must take a 1000-question test about Sherlock Holmes. Heiji also attends and reveals to Ran that he thought he would meet Shinichi there. Later that day, Hiroyuki Kanaya, the host, is seen driving his car off a cliff and into the ocean.",
         japaneseTitle: "ホームズフリーク殺人事件. (Hōmuzu Furīku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3543,6 +3599,7 @@ const allData = [
         englishAirdate: "November 23, 2004 (DVD)",
         broadcastRating: "16% (Part 1). 16.5% (Part 2)",
         remasteredRating: "7.8% (Part 1). 7.1% (Part 2)",
+
         mangaCase: "#33",
         mangaSource: "Volume 12: File 7 (117) ~. Volume 13: File 1 (121)",
         dubbedEpisode: "Episode 59-60",
@@ -3552,7 +3609,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "57 Yasuichiro Yamamoto. 58 Kazuo Nogami",
         animationDirector: "57 Keiko Sasaki. 58 Hiromi Muranaka, Asako Nishida",
-        screenplay: "undefined",
+
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Kazuhiko Kishino as Toshiaki Fujisawa Shinobu Sato as Nanako Shimizu Hidenari Ugaki as Ikuo Kawatsu Yukiko Iwai as Hitomi Iwai Kiyoshi Kawakubo as Hiroyuki Kanaya Miyuki Ichijou as Maria Toda Katsumi Toriumi as Kento Togano Yurika Hino as Ayako Oki Wataru Takagi as Next Conan's Hint",
@@ -3577,8 +3634,8 @@ const allData = [
         ]
     },
     {
-        id: "58", isFIller: false, title: "58: Holmes Freak Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo"],
+        id: "58", isFiller: false, title: "58: Holmes Freak Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo"],
         episodeDescription: "After Conan reveals his insight, Heiji believes Conan is actually Shinichi Kudo. Heiji reveals that, when Kanaya was in the car, his body had already undergone rigor mortis. At that moment, Conan and Heiji realize who the murderer is. Heiji decides to wait for Conan to solve the case in order to see if he really is Shinichi. Conan tranquilizes Heiji and makes his deduction.",
         japaneseTitle: "ホームズフリーク殺人事件. (Hōmuzu Furīku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3600,6 +3657,7 @@ const allData = [
         englishAirdate: "November 23, 2004 (DVD)",
         broadcastRating: "16% (Part 1). 16.5% (Part 2)",
         remasteredRating: "7.8% (Part 1). 7.1% (Part 2)",
+
         mangaCase: "#33",
         mangaSource: "Volume 12: File 7 (117) ~. Volume 13: File 1 (121)",
         dubbedEpisode: "Episode 59-60",
@@ -3609,7 +3667,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "57 Yasuichiro Yamamoto. 58 Kazuo Nogami",
         animationDirector: "57 Keiko Sasaki. 58 Hiromi Muranaka, Asako Nishida",
-        screenplay: "undefined",
+
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Kazuhiko Kishino as Toshiaki Fujisawa Shinobu Sato as Nanako Shimizu Hidenari Ugaki as Ikuo Kawatsu Yukiko Iwai as Hitomi Iwai Kiyoshi Kawakubo as Hiroyuki Kanaya Miyuki Ichijou as Maria Toda Katsumi Toriumi as Kento Togano Yurika Hino as Ayako Oki Wataru Takagi as Next Conan's Hint",
@@ -3638,8 +3696,8 @@ const allData = [
         ]
     },
     {
-        id: "59", isFIller: true, title: "59: The First Errand Murder Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo", "Kamen Yaiba"],
+        id: "59", isFiller: true, title: "59: The First Errand Murder Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo", "Kamen Yaiba"],
         episodeDescription: "The Detective Boys are back on the case when a young boy finds himself the unknowing target of a killer. Conan and his friends must use all their deductive powers to protect the tiny tot and bring a murderer to justice before he strikes again.",
         japaneseTitle: "初めてのお使い殺人事件. (Hajimete no Otsukai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3660,8 +3718,9 @@ const allData = [
         originalAirdate: "May 19, 1997",
         englishAirdate: "November 23, 2004 (DVD)",
         broadcastRating: "19.2%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#22",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 61",
         englishTitle: "Shopping Can Be Murder",
@@ -3707,8 +3766,8 @@ const allData = [
         ]
     },
     {
-        id: "60", isFIller: false, title: "60: An Illustrator Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+        id: "60", isFiller: false, title: "60: An Illustrator Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
         episodeDescription: "Kenjin Hanaoka is a popular painter who seems to have everything that a man could want: his own design firm, best selling books, and untold wealth. But when he decides to eat the forbidden fruit and have an affair with one of his pretty, young illustrators his life starts to come apart at the seams. But rather than face the consequences of his mistakes, Hanaoka tries to cover them up in a brutal and bloody manner. Can Conan see through his ingenious plot and expose Hanaoka for what he really is?",
         japaneseTitle: "イラストレーター殺人事件. (Irasutorētā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3729,7 +3788,8 @@ const allData = [
         originalAirdate: "May 26, 1997",
         englishAirdate: "January 11, 2005 (DVD)",
         broadcastRating: "19.5%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#35",
         mangaSource: "Volume 13: Files 5-7 (125-127)",
         dubbedEpisode: "Episode 62",
@@ -3739,7 +3799,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Masashi Abe",
         animationDirector: "Toshiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "Masashi Abe",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Jun Hazumi as Kenjin Hanaoka Sanae Noguchi as Izumi Chono Takashi Yanase as Man A Masahito Yabe as Tanaka Wataru Takagi as Bike courier, Next Conan's Hint Isshin Chiba as Forensics officer",
@@ -3768,8 +3828,8 @@ const allData = [
         ]
     },
     {
-        id: "61", isFIller: true, title: "61: A Ghost Ship Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        id: "61", isFiller: true, title: "61: A Ghost Ship Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
         episodeDescription: "Ran and Conan accompany Kogoro to Shiki Island, a very superstitious island, where many of the residents believe in local legends. Kogoro was invited here to make a speech about a ghost ship that had been lost at sea seven years before. Kogoro arrives on stage completely drunk. A miniature bomb explodes, nearly killing him.",
         japaneseTitle: "幽霊船殺人事件. (Yūreisen Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3790,8 +3850,9 @@ const allData = [
         originalAirdate: "June 2, 1997 (Part 1). June 9, 1997 (Part 2)",
         englishAirdate: "January 11, 2005 (DVD)",
         broadcastRating: "19.1%. 20.8%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#23",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 63-64",
         englishTitle: "Ghost Ship Murder",
@@ -3824,8 +3885,8 @@ const allData = [
         ]
     },
     {
-        id: "62", isFIller: true, title: "62: A Ghost Ship Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        id: "62", isFiller: true, title: "62: A Ghost Ship Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
         episodeDescription: "Conan proves that Kogoro did not kill the caretaker. Next, Conan enters the cave to show that the sounds were from the wind in the tunnels. But before he can Suzu finds him and threatens to tell, unless conan kisses her that is. So after a quick peck on the cheek they both head into the cave. Conan finds a staircase which breaks away to reveal another dead man and the killer. Conan deduces that the ghost ship was stuck in this part of the cave for seven years due to a cave-in. Conan finds the gold hidden in the bricks of the staircase covered in moss. Another cave-in occurs, forcing Conan and the killer to leave. The gold is sealed inside the cave.",
         japaneseTitle: "幽霊船殺人事件. (Yūreisen Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3846,8 +3907,9 @@ const allData = [
         originalAirdate: "June 2, 1997 (Part 1). June 9, 1997 (Part 2)",
         englishAirdate: "January 11, 2005 (DVD)",
         broadcastRating: "19.1%. 20.8%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#23",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 63-64",
         englishTitle: "Ghost Ship Murder",
@@ -3886,8 +3948,8 @@ const allData = [
         ]
     },
     {
-        id: "63", isFIller: false, title: "63: Big Monster Gomera Murder Case",
-        cast: ["Conan Edogawa", "Hiroshi Agasa", "Detective Boys", "Juzo Megure", "Ran Mouri", "Tomomi Sakaguchi"],
+        id: "63", isFiller: false, title: "63: Big Monster Gomera Murder Case",
+        appearances: ["Conan Edogawa", "Hiroshi Agasa", "Detective Boys", "Juzo Megure", "Ran Mouri", "Tomomi Sakaguchi"],
         episodeDescription: "Conan and the Detective Boys visit the film set of their favorite monster, Gomera, and stumble onto a real-life murder. The most puzzling aspect of the case is the prime suspect: Gomera. The kids must uncover the truth behind the grizzly killing before the death toll rises higher.",
         japaneseTitle: "大怪獣ゴメラ殺人事件. (Ōkaijū Gomera Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3909,6 +3971,7 @@ const allData = [
         englishAirdate: "March 1, 2005 (DVD)",
         broadcastRating: "17.7%",
         remasteredRating: "7.8%",
+
         mangaCase: "#36",
         mangaSource: "Volume 13: Files 8-10 (128-130)",
         dubbedEpisode: "Episode 65",
@@ -3918,7 +3981,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "Hiromi Muranaka",
-        screenplay: "undefined",
+
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Chafurin as Juzo Megure Fumito Yamano as Daisuke Mikami Katsuhisa Houki as Ryota Adachi Katsuhiro Kitagawa as Shugo Matsui Atsuko Yuya as Tomomi Sakaguchi Takehiro Koyama as Osamu Kamei Isshin Chiba as AD Yasuhiro Takato as Policeman",
@@ -3950,8 +4013,8 @@ const allData = [
         ]
     },
     {
-        id: "64", isFIller: true, title: "64: The Third Fingerprint Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
+        id: "64", isFiller: true, title: "64: The Third Fingerprint Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
         episodeDescription: "",
         japaneseTitle: "第3の指紋殺人事件. (Daisan no Shimon Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3972,8 +4035,9 @@ const allData = [
         originalAirdate: "June 23, 1997",
         englishAirdate: "March 1, 2005 (DVD)",
         broadcastRating: "18%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#24",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 66",
         englishTitle: "The Three Fingerprints",
@@ -4011,8 +4075,8 @@ const allData = [
         ]
     },
     {
-        id: "65", isFIller: true, title: "65: A Crab and Whale Kidnapping Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
+        id: "65", isFiller: true, title: "65: A Crab and Whale Kidnapping Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
         episodeDescription: "A relaxing night out turns into the search for a kidnapped little boy, as Kogoro Ran, and Conan come to the aide of a desperate father in his hour of need. As they search to find the truth, nothing is certain, except the kidnapper's deadly ultimatum: No police, no mercy, no time.",
         japaneseTitle: "カニとクジラ誘拐事件. (Kani to Kujira Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -4033,8 +4097,9 @@ const allData = [
         originalAirdate: "June 30, 1997",
         englishAirdate: "March 1, 2005 (DVD)",
         broadcastRating: "17.3%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#25",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 67",
         englishTitle: "The Crab and Whale",
@@ -4072,8 +4137,8 @@ const allData = [
         ]
     },
     {
-        id: "66", isFIller: true, title: "66: Night Road Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Jun Omura", "Shinichi Kudo"],
+        id: "66", isFiller: true, title: "66: Night Road Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Jun Omura", "Shinichi Kudo"],
         episodeDescription: "Kogoro, Ran, and Conan ate at the restaurant until they met an old friend, Jun Omura.",
         japaneseTitle: "暗闇の道殺人事件. (Kurayami no Michi Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4094,8 +4159,9 @@ const allData = [
         originalAirdate: "July 7, 1997",
         englishAirdate: "April 19, 2005 (DVD)",
         broadcastRating: "18%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#26",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 68",
         englishTitle: "Moonless Murder",
@@ -4135,8 +4201,8 @@ const allData = [
         ]
     },
     {
-        id: "67", isFIller: true, title: "67: Stage Actress Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+        id: "67", isFiller: true, title: "67: Stage Actress Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
         episodeDescription: "Kogoro is given a case to solve the sender of a threat note. His teacher Heihachiro Shiota appears at his house and decides to go to the theater, too. Conan and Ran tag along. Kogoro's case turns into a murder, but he soon breaks his backbone before Conan can solve it.",
         japaneseTitle: "舞台女優殺人事件. (Butai Joyū Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4157,8 +4223,9 @@ const allData = [
         originalAirdate: "July 14, 1997",
         englishAirdate: "April 19, 2005 (DVD)",
         broadcastRating: "19.3%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#27",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 69",
         englishTitle: "The Case of the Murdered Actress",
@@ -4197,8 +4264,8 @@ const allData = [
         ]
     },
     {
-        id: "68", isFIller: false, title: "68: Night Baron Murder Case (The Case)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
+        id: "68", isFiller: false, title: "68: Night Baron Murder Case (The Case)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
         episodeDescription: "At a beach in Izu, Conan mentally grumbles about being stuck outside of Tokyo when he should be looking for Gin and Vodka until Ran, with her voluptuous figure, convinces him to come swimming with her. However, when they check into their hotel, the reservations Agasa turned over to them has a catch. It's only half paid for. Agasa signed up for a 'mystery tour'. If Conan can figure out who of the ten guests in the tour is the sponsor, the other half of the reservation will be covered and he will also receive a certain computer program. Before Conan can remember what Agasa said was the sponsor's name, Kogoro is asked by another hotel patron if he is the 'Night Baron', a character from Yusaku Kudo's novels. Kogoro reacts with confusion, and the man records the reaction as part of his dataset for determining who is the Night Baron, the alias the tour sponsor.",
         japaneseTitle: "闇の男爵(ナイトバロン)殺人事件. (Naito Baron Satsujin Jiken). 68 事件編 (Jiken-hen). 69 疑惑編 (Giwaku-hen). 70 解決編 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -4221,6 +4288,7 @@ const allData = [
         englishAirdate: "June 7, 2005 (DVD)",
         broadcastRating: "17.5% (The Case). 18.2% (The Suspicion). 17.2% (The Resolution)",
         remasteredRating: "6.2% (The Case). 6.0% (The Suspicion). 8.1% (The Resolution)",
+
         mangaCase: "#20",
         mangaSource: "Volume 8: Files 2-7 (072-077)",
         dubbedEpisode: "Episode 70-72",
@@ -4230,7 +4298,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "68 Yasuichiro Yamamoto. 69 Masato Sato. 70 Yoshio Suzuki",
         animationDirector: "68 Keiko Sasaki. 69 Akio Kawamura. 70 Izumi Shimura",
-        screenplay: "undefined",
+
         storyboard: "68 Masato Sato. 69 Masato Sato. 70 Akio Kawamura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Akio Otsuka as Sango Yokomizo Sho Hayami as Shiro Konno Shigezo Sasaoka as Tokio Ebara Hiroshi Ito as Genichirou Kaneshiro Rin Mizuhara as Shizue Hayashi Chieko Enomoto as Hideko Kamijo Taro Arakawa as Satoru Maeda Chieko Honda as Akiko Sayama Isshin Chiba as Manager, Policeman A, Forensics officer A Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint Yukiko Iwai as Customer, Waitress Yasuhiro Takato as Officer Misawa",
@@ -4256,8 +4324,8 @@ const allData = [
         ]
     },
     {
-        id: "69", isFIller: false, title: "69: Night Baron Murder Case (The Suspicion)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
+        id: "69", isFiller: false, title: "69: Night Baron Murder Case (The Suspicion)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
         episodeDescription: "Conan and Ran hear about the death of someone 'in a mask' and go to look. Conan slips through the police barrier only to be stopped by Inspector Yokomizo, who was recently transferred from Saitama to Shizuoka. While Yokomizo explains this to Ran, Conan sneaks the mask off to reveal Ebara. Ran recognizes him and explain the tour to Yokomizo while Conan discovers Ebara only has one glove on, and his costume's tie tied backwards. Yokomizo assumes Ebara was the sponsor but wonders whether the death is suicide or accident and asks where Kogoro is. Hideko tells them he's still in the bar, but stays to look at the body. Conan realizes that behind her sunglasses, she is crying.",
         japaneseTitle: "闇の男爵(ナイトバロン)殺人事件. (Naito Baron Satsujin Jiken). 68 事件編 (Jiken-hen). 69 疑惑編 (Giwaku-hen). 70 解決編 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -4280,6 +4348,7 @@ const allData = [
         englishAirdate: "June 7, 2005 (DVD)",
         broadcastRating: "17.5% (The Case). 18.2% (The Suspicion). 17.2% (The Resolution)",
         remasteredRating: "6.2% (The Case). 6.0% (The Suspicion). 8.1% (The Resolution)",
+
         mangaCase: "#20",
         mangaSource: "Volume 8: Files 2-7 (072-077)",
         dubbedEpisode: "Episode 70-72",
@@ -4289,7 +4358,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "68 Yasuichiro Yamamoto. 69 Masato Sato. 70 Yoshio Suzuki",
         animationDirector: "68 Keiko Sasaki. 69 Akio Kawamura. 70 Izumi Shimura",
-        screenplay: "undefined",
+
         storyboard: "68 Masato Sato. 69 Masato Sato. 70 Akio Kawamura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Akio Otsuka as Sango Yokomizo Sho Hayami as Shiro Konno Shigezo Sasaoka as Tokio Ebara Hiroshi Ito as Genichirou Kaneshiro Rin Mizuhara as Shizue Hayashi Chieko Enomoto as Hideko Kamijo Taro Arakawa as Satoru Maeda Chieko Honda as Akiko Sayama Isshin Chiba as Manager, Policeman A, Forensics officer A Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint Yukiko Iwai as Customer, Waitress Yasuhiro Takato as Officer Misawa",
@@ -4317,8 +4386,8 @@ const allData = [
         ]
     },
     {
-        id: "70", isFIller: false, title: "70: Night Baron Murder Case (The Resolution)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
+        id: "70", isFiller: false, title: "70: Night Baron Murder Case (The Resolution)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
         episodeDescription: "In their hotel room, Ran sits miserably on the bed with the knowledge that only a certain person could have blocked her kick the way Night Baron did. Unsure what to do with the knowledge, she wishes for Shinichi to tell her what to do. A knock on the door interrupts her; she opens the door as far as the anti-theft lock allows to find Conan, who declares his experiment successful because she didn't close the lock herself. He notices her face and asks if she was crying, but she passes it off as yawning and Conan runs off again. He ends up in the same elevator as the two policeman, and as he ponders the suspects he overhears that the officer who was guarding Ebara's body and overpowered was himself a strong practitioner of karate. Like Ran earlier, Conan suddenly wonders if the identity of Night Baron may, in fact, be karate champion Satoru Maeda. But Ran confirms that Maeda has a perfect alibi because he was giving autographs to his fans. So Conan dismisses him as a killer and still wonders who did it. Talking to one of the hotel maids, Conan learns that the wind that blows in this time of the year is a famous one named 'Himekaze' aka 'Princess Wind', and it blows in a very special direction. Thanks to that, he finally figures out who the killer is.",
         japaneseTitle: "闇の男爵(ナイトバロン)殺人事件. (Naito Baron Satsujin Jiken). 68 事件編 (Jiken-hen). 69 疑惑編 (Giwaku-hen). 70 解決編 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -4341,6 +4410,7 @@ const allData = [
         englishAirdate: "June 7, 2005 (DVD)",
         broadcastRating: "17.5% (The Case). 18.2% (The Suspicion). 17.2% (The Resolution)",
         remasteredRating: "6.2% (The Case). 6.0% (The Suspicion). 8.1% (The Resolution)",
+
         mangaCase: "#20",
         mangaSource: "Volume 8: Files 2-7 (072-077)",
         dubbedEpisode: "Episode 70-72",
@@ -4350,7 +4420,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "68 Yasuichiro Yamamoto. 69 Masato Sato. 70 Yoshio Suzuki",
         animationDirector: "68 Keiko Sasaki. 69 Akio Kawamura. 70 Izumi Shimura",
-        screenplay: "undefined",
+
         storyboard: "68 Masato Sato. 69 Masato Sato. 70 Akio Kawamura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Akio Otsuka as Sango Yokomizo Sho Hayami as Shiro Konno Shigezo Sasaoka as Tokio Ebara Hiroshi Ito as Genichirou Kaneshiro Rin Mizuhara as Shizue Hayashi Chieko Enomoto as Hideko Kamijo Taro Arakawa as Satoru Maeda Chieko Honda as Akiko Sayama Isshin Chiba as Manager, Policeman A, Forensics officer A Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint Yukiko Iwai as Customer, Waitress Yasuhiro Takato as Officer Misawa",
@@ -4381,8 +4451,8 @@ const allData = [
         ]
     },
     {
-        id: "71", isFIller: true, title: "71: A Stalker's Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Detective Boys"],
+        id: "71", isFiller: true, title: "71: A Stalker's Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Detective Boys"],
         episodeDescription: "Kogoro, Ran, and Conan go on a hiking trip. While walking, Kogoro noticed a vending machine and decided to buy a bottle of 'Guts-man' as he was suffering from a lack of sleep. He found an extra bottle in the machine and decided to take it. After careful examination of the bottle, he decided to drink it. While he was drinking the extra bottle a passing woman screams.",
         japaneseTitle: "ストーカー殺人事件. (Sutōkā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4405,8 +4475,9 @@ const allData = [
         originalAirdate: "August 11, 1997",
         englishAirdate: "April 19, 2005 (DVD)",
         broadcastRating: "13.2%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#28",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 73",
         englishTitle: "The Stalker",
@@ -4445,8 +4516,8 @@ const allData = [
         ]
     },
     {
-        id: "72", isFIller: true, title: "72: The Triplet's Country Home Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki", "Sango Yokomizo", "Yuzo Tomizawa"],
+        id: "72", isFiller: true, title: "72: The Triplet's Country Home Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki", "Sango Yokomizo", "Yuzo Tomizawa"],
         episodeDescription: "Ran and Conan are at Sonoko's place for her big sister, Ayako. Ayako is getting married so she’s there to meet her new dad-in-law. However, when they are at their house, they witness a murder outside in the rain. The victim is the dad-in-law, Tetsuharu Tomizawa. The killer at first looks like Ayako's fiancé, but then they find out he's the younger of triplet sons, and nevermind their more or less different looks they all have the same eyes, the only part of the killer that Ayako, Sonoko, Ran, and Conan saw. Which of the triplets is the real murderer: eldest son Taichi, second son Tatsuji, or youngest son Yuzo?",
         japaneseTitle: "三つ子別荘殺人事件. (Mitsugo Bessō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4468,6 +4539,7 @@ const allData = [
         englishAirdate: "July 26, 2005 (DVD)",
         broadcastRating: "18.3%",
         remasteredRating: "7.5%",
+
         mangaCase: "#34",
         mangaSource: "Volume 13: Files 2-4 (122-124)",
         dubbedEpisode: "Episode 74",
@@ -4477,7 +4549,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "Hiromi Muranaka",
-        screenplay: "undefined",
+
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chiharu Suzuka as Ayako Suzuki Akio Otsuka as Sango Yokomizo Hirotaka Suzuoki as Taichi Tomizawa Keiichi Nanba as Tatsuji Tomizawa Yasunori Matsumoto as Yuzo Tomizawa Hikaru Miyata as Tetsuharu Tomizawa Isshin Chiba as TV announcer, Officer Chiba Wataru Takagi as TV announcer, Next Conan's Hint Yukiko Iwai as Answering machine voice",
@@ -4506,8 +4578,8 @@ const allData = [
         ]
     },
     {
-        id: "73", isFIller: true, title: "73: The Detective Boys' Disaster Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Detective Boys"],
+        id: "73", isFiller: true, title: "73: The Detective Boys' Disaster Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Detective Boys"],
         episodeDescription: "The Detective Boys and the Mouri family go to a water park and witness the dysfunctional interaction of a girl named Shinobu and her fiancée Kasuga. Some time later the kids discovers an S.O.S. which Teruhiko Kasuga claims is false, but Shinobu is nowhere to be found. What is he trying to hide, and can the Detective Boys save whoever the victim is, or will they meet their tragic fate?",
         japaneseTitle: "少年探偵団遭難事件. (Shōnen Tantei-dan Sōnan Jiken)",
         titleInOtherLanguages: [
@@ -4528,8 +4600,9 @@ const allData = [
         originalAirdate: "August 25, 1997",
         englishAirdate: "July 26, 2005 (DVD)",
         broadcastRating: "18.8%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#29",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 75",
         englishTitle: "The Ship Wreck Murder",
@@ -4570,8 +4643,8 @@ const allData = [
         ]
     },
     {
-        id: "74", isFIller: true, title: "74: The Death God Jinnai Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Officer Tome"],
+        id: "74", isFiller: true, title: "74: The Death God Jinnai Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Officer Tome"],
         episodeDescription: "Kogoro, Ran, and Conan are at a movie premier of Jinnai King of Death VIII. After the show they see Hayato Nanjo greeting fans, he plays Jinnai in the movie. Then Kogoro is spotted by Hayato's wife who shows him a death threat that says Hayato will die at midnight just like in the movie. His wife is worried but Hayato brushes it off. Reporters and Kogoro have a stake out when Jinnai appears and makes for Hayato's room. They arrive by elevator and when Kogoro comes out he trips on vinyl tape. They hear a scream and Hayato's dead with a bullet to the head.",
         japaneseTitle: "死神陣内殺人事件. (Shinigami Jin'nai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4592,8 +4665,9 @@ const allData = [
         originalAirdate: "September 1, 1997",
         englishAirdate: "July 26, 2005 (DVD)",
         broadcastRating: "17.3%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#30",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 76",
         englishTitle: "Jinnai, King of Death",
@@ -4632,8 +4706,8 @@ const allData = [
         ]
     },
     {
-        id: "75", isFIller: false, title: "75: Loan Company President's Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Forensic member"],
+        id: "75", isFiller: false, title: "75: Loan Company President's Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Forensic member"],
         episodeDescription: "Kogoro, Ran, Conan, and some of Kogoro's friends are at a Mahjong hall. One of his friends leave so now they're missing a player. They call Hida who says he'll be there in half an hour. He doesn't show so the gang goes to investigate. They run into Minamizawa who says he forgot his cell phone. They go to check on Hida who's dead.",
         japaneseTitle: "金融会社社長殺人事件. (Kinyū Kaisha Shachō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4655,6 +4729,7 @@ const allData = [
         englishAirdate: "November 1, 2005 (DVD)",
         broadcastRating: "18.5%",
         remasteredRating: "8.8%",
+
         mangaCase: "#41",
         mangaSource: "Volume 15: Files 7-9 (147-149)",
         dubbedEpisode: "Episode 77",
@@ -4664,7 +4739,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Johei Matsuura",
         animationDirector: "Atsushi Aono",
-        screenplay: "undefined",
+
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Saburo Kamei as Mitsuhiro Hida Shigeru Ushiyama as Hisayoshi Minamizawa Yūko Kobayashi as Takako Fujii Koji Ishii as Hiroshi Iino Hitoshi Hirao as Okano Katsumi Suzuki as Hasegawa Toshihiko Nakajima as Forensics officer A Isshin Chiba as Forensics officer B Yukiko Iwai as Game audio",
@@ -4693,8 +4768,8 @@ const allData = [
         ]
     },
     {
-        id: "76", isFIller: false, title: "76: Conan vs. Kaitou Kid (1 Hour Special)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Hiroshi Agasa", "Kaitou Kid", "Kaito Kuroba", "Ginzo Nakamori", "Shintaro Chaki", "Ayako Suzuki", "Aoko Nakamori", "Joji Hatamoto", "Takuya Mifune", "Yuzo Tomizawa", "Kazumi Sanada", "Shiro Suzuki", "Tomoko Suzuki", "Shinichi Kudo"],
+        id: "76", isFiller: false, title: "76: Conan vs. Kaitou Kid (1 Hour Special)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Hiroshi Agasa", "Kaitou Kid", "Kaito Kuroba", "Ginzo Nakamori", "Shintaro Chaki", "Ayako Suzuki", "Aoko Nakamori", "Joji Hatamoto", "Takuya Mifune", "Yuzo Tomizawa", "Kazumi Sanada", "Shiro Suzuki", "Tomoko Suzuki", "Shinichi Kudo"],
         episodeDescription: "Sonoko's family wants Kogoro to protect their priceless piece of jewelry called the Black Star from the Phantom Thief. The necklace along with other valuables will be on display at a museum where people are sure the Phantom will strike. The Phantom left a coded letter to Sonoko's father and its the first clue.",
         japaneseTitle: "コナンVS怪盗キッド. (Konan VS Kaitō Kiddo)",
         titleInOtherLanguages: [
@@ -4716,7 +4791,8 @@ const allData = [
         originalAirdate: "September 22, 1997 *. May 1, 2006 (Remastered version) *",
         englishAirdate: "September 13, 2005 (DVD)",
         broadcastRating: "21.7%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#44",
         mangaSource: "Volume 16: Files 6-9 (156-159)",
         dubbedEpisode: "Episode 78-79",
@@ -4726,7 +4802,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "Hiromi Muranaka. Masatomo Sudo",
-        screenplay: "undefined",
+
         storyboard: "Michiyo Sakurai. Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki Kappei Yamaguchi as Kaitou Kid, Kaito Kuroba Fumio Matsuoka as Shiro Suzuki Nobuo Tanaka as Shintaro Chaki Unsho Ishizuka as Ginzo Nakamori Miru Hitotsuyanagi as Tomoko Suzuki Chiharu Suzuka as Ayako Suzuki Kinryuu Arimoto as Joji Hatamoto Hitoshi Ooya as Takuya Mifune Yasunori Matsumoto as Yuzo Tomizawa Ryotaro Okiayu as Kazumi Sanada Wataru Takagi as Detective A, Next Conan's Hint Masaki Aizawa as Detective B Isshin Chiba as Helicopter pilot Yukiko Iwai as Aoko Nakamori",
@@ -4765,8 +4841,8 @@ const allData = [
         ]
     },
     {
-        id: "77", isFIller: false, title: "77: Distinguished Family's Consecutive Accidental Death Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Juzo Megure", "Wataru Takagi", "Heizo Hattori", "Seiji Asoh", "Shinichi Kudo", "Yamada"],
+        id: "77", isFiller: false, title: "77: Distinguished Family's Consecutive Accidental Death Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Juzo Megure", "Wataru Takagi", "Heizo Hattori", "Seiji Asoh", "Shinichi Kudo", "Yamada"],
         episodeDescription: "Kogoro is recommended by someone to a wealthy family for a routine assignment: the very old and sickly leader of the clan, Dousan Nagato, wishes to find his first love before he dies. With the police roaming around the house, though, Conan begins to wonder if that's really all there is to it. His answer comes when suddenly, Heiji Hattori joins the group alongside his father Heizo, an old friend of the chairman who was supposed to take up the case, but recomended Kogoro instead. Bad thing, Heiji calls out to Conan by his actual name of 'Shinichi Kudo' (not knowing that Conan hasn't told Ran and Kogoro about his identity), and they have to make up a quick lie to cover up.",
         japaneseTitle: "名家連続変死事件. (Meika Renzoku Henshi Jiken)",
         titleInOtherLanguages: [
@@ -4789,7 +4865,8 @@ const allData = [
         originalAirdate: "October 20, 1997 (Part 1). October 27, 1997 (Part 2)",
         englishAirdate: "September 13, 2005 (DVD)",
         broadcastRating: "19.1%. 19.8%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#42",
         mangaSource: "Volume 15: File 10 (150) ~. Volume 16: File 3 (153)",
         dubbedEpisode: "Episode 80-81",
@@ -4799,7 +4876,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "77 Masato Sato. 78 Yasuichiro Yamamoto",
         animationDirector: "77 Akio Kawamura. 78 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "77 Kenji Kodama. 78 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Cook, Next Conan's Hint Takehiro Koyama as Heizo Hattori Yonehiko Kitagawa as Dosan Nagato Kaoru Matsuno as Nobuko Nagato Keiko Aizawa as Yasue Nagato Kousei Hirota as Hideomi Nagato Ryoichi Tanaka as Mitsuaki Nagato Kousei Yagi as Kuranosuke Take Rica Fukami as Miyuki Hyuga Isshin Chiba as Medical examiner, Security guard A Yasuhiro Takato as Policeman, Security guard B Yukiko Iwai as Maid Naoki Makishima as Yamada",
@@ -4824,8 +4901,8 @@ const allData = [
         ]
     },
     {
-        id: "78", isFIller: false, title: "78: Distinguished Family's Consecutive Accidental Death Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Juzo Megure", "Wataru Takagi", "Heizo Hattori", "Seiji Asoh", "Shinichi Kudo", "Yamada"],
+        id: "78", isFiller: false, title: "78: Distinguished Family's Consecutive Accidental Death Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Juzo Megure", "Wataru Takagi", "Heizo Hattori", "Seiji Asoh", "Shinichi Kudo", "Yamada"],
         episodeDescription: "Hideomi's corpse is pulled out of the water, and Yasue mourns him heavily. The forensic expert says Hideomi's been dead for at least two days, so Megure thinks that he might have killed Mitsuaki and drowned himself immediately afterwards. There's a flaw in that theory, however: Hideomi's death was caused by poisoning, NOT by drowning. Since there were many stones in his pockets, they wonder if Hideomi first took poison and then threw himself in the pond, the stones pulling his body to the bottom so he wouldn't found. Nobuko adds that, by the time Mitsuaki married Yasue, Hideomi never managed to see him as his brother-in-law, even when he didn't openly object to their marriage.",
         japaneseTitle: "名家連続変死事件. (Meika Renzoku Henshi Jiken)",
         titleInOtherLanguages: [
@@ -4848,7 +4925,8 @@ const allData = [
         originalAirdate: "October 20, 1997 (Part 1). October 27, 1997 (Part 2)",
         englishAirdate: "September 13, 2005 (DVD)",
         broadcastRating: "19.1%. 19.8%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#42",
         mangaSource: "Volume 15: File 10 (150) ~. Volume 16: File 3 (153)",
         dubbedEpisode: "Episode 80-81",
@@ -4858,7 +4936,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "77 Masato Sato. 78 Yasuichiro Yamamoto",
         animationDirector: "77 Akio Kawamura. 78 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "77 Kenji Kodama. 78 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Cook, Next Conan's Hint Takehiro Koyama as Heizo Hattori Yonehiko Kitagawa as Dosan Nagato Kaoru Matsuno as Nobuko Nagato Keiko Aizawa as Yasue Nagato Kousei Hirota as Hideomi Nagato Ryoichi Tanaka as Mitsuaki Nagato Kousei Yagi as Kuranosuke Take Rica Fukami as Miyuki Hyuga Isshin Chiba as Medical examiner, Security guard A Yasuhiro Takato as Policeman, Security guard B Yukiko Iwai as Maid Naoki Makishima as Yamada",
@@ -4884,8 +4962,8 @@ const allData = [
         ]
     },
     {
-        id: "79", isFIller: true, title: "79: The Bank Heist Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Forensic member"],
+        id: "79", isFiller: true, title: "79: The Bank Heist Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Forensic member"],
         episodeDescription: "After bowling, Ran, Sonoko, and Conan head to the bank to cash a check. While there, an armed bank robbery happens. After some struggle, one man is shot by the robber but survives. After being shot, another man struggles with the robber and ends up shooting and killing the robber. It all seems normal but Conan finds it strange. After figuring out the robber had an accomplice, Conan, using Sonoko, reveals the robber's accomplice.",
         japaneseTitle: "銀行強盗殺人事件. (Ginkō Gōtō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4907,7 +4985,8 @@ const allData = [
         englishAirdate: "November 1, 2005 (DVD)",
         broadcastRating: "18.9%",
         remasteredRating: "8.8%",
-        mangaCase: "undefined",
+        fillerCase: "#31",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 82",
         englishTitle: "The Revengeful Robber",
@@ -4944,8 +5023,8 @@ const allData = [
         ]
     },
     {
-        id: "80", isFIller: true, title: "80: The Wandering Artist Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Ninzaburo Shiratori"],
+        id: "80", isFiller: true, title: "80: The Wandering Artist Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Ninzaburo Shiratori"],
         episodeDescription: "While at a painting exhibit in Beika Art Museum, Conan notices a man in rag examining a picture. The next day while playing baseball with his friends, he notices the man again. After being asked about his drawings of a home, the man realizes he has been drawing unconsciously, and holds his head in pain. In the hospital, he was revealed to have been affected by amnesia and the pain was his returning memories. Later that day, the man runs away from the hospital. The next day while playing baseball, Genta finds the man dead.",
         japaneseTitle: "放浪画家殺人事件. (Hōrō Gaka Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4967,7 +5046,8 @@ const allData = [
         englishAirdate: "November 1, 2005 (DVD)",
         broadcastRating: "19.2%",
         remasteredRating: "7.3%",
-        mangaCase: "undefined",
+        fillerCase: "#32",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 83",
         englishTitle: "Dead Hobo",
@@ -5003,8 +5083,8 @@ const allData = [
         ]
     },
     {
-        id: "81", isFIller: false, title: "81: The Kidnapping of a Popular Artist Case (Part 1)",
-        cast: ["Conan Edogawa", "Detective Boys", "TWO-MIX", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Sonoko Suzuki"],
+        id: "81", isFiller: false, title: "81: The Kidnapping of a Popular Artist Case (Part 1)",
+        appearances: ["Conan Edogawa", "Detective Boys", "TWO-MIX", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Sonoko Suzuki"],
         episodeDescription: "Ran and Sonoko are getting ready to attend a huge concert by the very popular J-Pop band Two-Mix. Some hours before that, Conan and the Detective Boys go to a coffee parlor and meet a lady with sunglasses and a cap, who turns out to be the singer of the group, a woman named Minami Takayama whose voice is rather similar to Conan's.",
         japaneseTitle: "人気アーティスト誘拐事件. (Ninki Ātisuto Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -5026,6 +5106,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20.6%. 20.6%",
         remasteredRating: "6.3%. 6.5%",
+
         mangaCase: "#40",
         mangaSource: "Volume 15: Files 4-6 (144-146)",
         dubbedEpisode: "Episode 84-85",
@@ -5035,7 +5116,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Yasuichiro Yamamoto",
         animationDirector: "81 Hiromi Muranaka. 82 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa, Minami Takayama (Two-Mix) Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Shiina Nagano as Shiina Nagano (Two-Mix) Norio Wakamoto as Satoshi Miyahara Katsuhisa Houki as Subordinate Hiroshi Naka as Budokan staff B Toshihiko Nakajima as Yama, Concert staff A Takehiro Murozono as Manager, Concert staff B Yasuhiro Takato as Security guard, Concert staff C Isshin Chiba as Budokan staff A, Concert staff D Mikiko Enomoto as Waitress, Female customer",
@@ -5062,8 +5143,8 @@ const allData = [
         ]
     },
     {
-        id: "82", isFIller: false, title: "82: The Kidnapping of a Popular Artist Case (Part 2)",
-        cast: ["Conan Edogawa", "Detective Boys", "TWO-MIX", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Sonoko Suzuki"],
+        id: "82", isFiller: false, title: "82: The Kidnapping of a Popular Artist Case (Part 2)",
+        appearances: ["Conan Edogawa", "Detective Boys", "TWO-MIX", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Sonoko Suzuki"],
         episodeDescription: "Ayumi, Mitsuhiko, and Genta tell Inspector Megure everything except how to find Conan. They decide to ignore Conan's instructions to give the tracking glasses to the police, instead they decide to track down two-mix themselves to get some of the glory. They decide to track him down with the glasses and they learn who the kidnapper is and why the crime was committed.",
         japaneseTitle: "人気アーティスト誘拐事件. (Ninki Ātisuto Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -5085,6 +5166,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20.6%. 20.6%",
         remasteredRating: "6.3%. 6.5%",
+
         mangaCase: "#40",
         mangaSource: "Volume 15: Files 4-6 (144-146)",
         dubbedEpisode: "Episode 84-85",
@@ -5094,7 +5176,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Yasuichiro Yamamoto",
         animationDirector: "81 Hiromi Muranaka. 82 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa, Minami Takayama (Two-Mix) Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Shiina Nagano as Shiina Nagano (Two-Mix) Norio Wakamoto as Satoshi Miyahara Katsuhisa Houki as Subordinate Hiroshi Naka as Budokan staff B Toshihiko Nakajima as Yama, Concert staff A Takehiro Murozono as Manager, Concert staff B Yasuhiro Takato as Security guard, Concert staff C Isshin Chiba as Budokan staff A, Concert staff D Mikiko Enomoto as Waitress, Female customer",
@@ -5123,8 +5205,8 @@ const allData = [
         ]
     },
     {
-        id: "83", isFIller: true, title: "83: General Hospital Murder Case",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Forensic member"],
+        id: "83", isFiller: true, title: "83: General Hospital Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Forensic member"],
         episodeDescription: "Kogoro is in the hospital after his leg injured by a criminal he was chasing down. While there, he witnesses a silhouette of one person stabbing another person in the back. He notifies the nurses immediately, only to find out that the room in which the murder took place is empty. This happens continuously for three nights in a row, before an actual murder has taken place on the 4th night. Even worse, Kogoro is found passed out next to the corpse and mistaken to be the killer, and now Conan will have to clear his name.",
         japaneseTitle: "総合病院殺人事件. (Sōgō Byōin Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5145,8 +5227,9 @@ const allData = [
         originalAirdate: "December 1, 1997",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "23.1%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#33",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 86",
         englishTitle: "The Set Up",
@@ -5183,8 +5266,8 @@ const allData = [
         ]
     },
     {
-        id: "84", isFIller: false, title: "84: Ski Lodge Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
+        id: "84", isFiller: false, title: "84: Ski Lodge Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
         episodeDescription: "Ran, Sonoko, and Conan run into their old third grade teacher, Akiko Yonehara, who invites them to spend the night at a Nagano Prefecture mountain villa with her co-workers, who are taking a small weekend trip. A mysterious journalist arrives and tells them that a massacre similar to three years before will happen that night, and true to the man's words, people are attacked with different results. Can Conan help find the clues before too much damage occurs?",
         japaneseTitle: "スキーロッジ殺人事件. (Sukii Rojji Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5206,6 +5289,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "19.7% (Part 1). 21.2% (Part 2)",
         remasteredRating: "7.6% (Part 1). 7.6% (Part 2)",
+
         mangaCase: "#39",
         mangaSource: "Volume 14: File 9 (139) ~. Volume 15: File 3 (143)",
         dubbedEpisode: "Episode 87-88",
@@ -5215,7 +5299,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "84 Izumi Shimura. 85 Yoshihiro Shimizu",
-        screenplay: "undefined",
+
         storyboard: "84 Kazuo Nogami. 85 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Kenichi Ogata as Hiroshi Agasa Kappei Yamaguchi as Shinichi Kudo Mikiko Miki as Akiko Yonehara Ryuji Mizuno as Kohei Shimoda Ryuichi Nakamura as Ryuichi Sakai Miki Yamazaki as Minori Nakamura Ryuzaburo Otomo as Atsushi Mori Wataru Takagi as Local man, Next Conan's Hint",
@@ -5238,8 +5322,8 @@ const allData = [
         ]
     },
     {
-        id: "85", isFIller: false, title: "85: Ski Lodge Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
+        id: "85", isFiller: false, title: "85: Ski Lodge Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
         episodeDescription: "Conan is unable to figure out how a piece of rope disappeared, but when he figures out who is wearing something VERY special in his/her person, he realizes that the person has killed two people on the same night. Using Ran to reveal the secret by using his own voice, Shinichi reveals the information to everyone present, but the revelation will shock everyone involved, especially Ran and Sonoko.",
         japaneseTitle: "スキーロッジ殺人事件. (Sukii Rojji Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5261,6 +5345,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "19.7% (Part 1). 21.2% (Part 2)",
         remasteredRating: "7.6% (Part 1). 7.6% (Part 2)",
+
         mangaCase: "#39",
         mangaSource: "Volume 14: File 9 (139) ~. Volume 15: File 3 (143)",
         dubbedEpisode: "Episode 87-88",
@@ -5270,7 +5355,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Kazuo Nogami",
         animationDirector: "84 Izumi Shimura. 85 Yoshihiro Shimizu",
-        screenplay: "undefined",
+
         storyboard: "84 Kazuo Nogami. 85 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Kenichi Ogata as Hiroshi Agasa Kappei Yamaguchi as Shinichi Kudo Mikiko Miki as Akiko Yonehara Ryuji Mizuno as Kohei Shimoda Ryuichi Nakamura as Ryuichi Sakai Miki Yamazaki as Minori Nakamura Ryuzaburo Otomo as Atsushi Mori Wataru Takagi as Local man, Next Conan's Hint",
@@ -5297,8 +5382,8 @@ const allData = [
         ]
     },
     {
-        id: "86", isFIller: false, title: "86: The Kidnapping Location Case",
-        cast: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Hiroshi Agasa"],
+        id: "86", isFiller: false, title: "86: The Kidnapping Location Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Hiroshi Agasa"],
         episodeDescription: "Mitsuhiko has a new radio transceiver that intercepts other peoples conversations, but when it intercepts a kidnap case, Conan must figure out the hidden location before a young daughter loses her life.",
         japaneseTitle: "誘拐現場特定事件. (Yūkai Genba Tokutei Jiken)",
         titleInOtherLanguages: [
@@ -5319,8 +5404,9 @@ const allData = [
         originalAirdate: "January 12, 1998",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "22.7%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+
+
         mangaSource: "Special Volume 1: File 2",
         dubbedEpisode: "Episode 89",
         englishTitle: "Find the Kidnap Site!",
@@ -5360,8 +5446,8 @@ const allData = [
         ]
     },
     {
-        id: "87", isFIller: true, title: "87: The Crane's Return of a Favor Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+        id: "87", isFiller: true, title: "87: The Crane's Return of a Favor Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
         episodeDescription: "Kogoro, Ran, and Conan take a trip to Kushiro marshland, Hokkaido Prefecture, to see the red-crowned cranes. They run into an old man who takes care of the cranes and he invites them to his house. His daughter and son rush into the room demanding the reason why he is donating his life savings to the city. The group is allowed to soak in the hot spring near the house, but they are called when they find out the old man has been murdered.",
         japaneseTitle: "鶴の恩返し殺人事件. (Tsuru no Ongaeshi Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5383,7 +5469,8 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20.8%",
         remasteredRating: "7.0%",
-        mangaCase: "undefined",
+        fillerCase: "#34",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 90",
         englishTitle: "For the Birds",
@@ -5417,8 +5504,8 @@ const allData = [
         ]
     },
     {
-        id: "88", isFIller: true, title: "88: Dracula's Villa Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+        id: "88", isFiller: true, title: "88: Dracula's Villa Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
         episodeDescription: "A famous vampire writer who used to be a romance writer, and whom Kogoro reads, invites Kogoro to his estate outside Tokyo, an old Western building called 'Dracula's Manor', for discussion on his next vampire novel and to spy on his wife. However, when the writer ends up dead and snow prevents the cops from coming Kogoro is forced to re-evaluate the possibilities of vampires being real.",
         japaneseTitle: "ドラキュラ荘殺人事件. (Dorakyura-sō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5439,8 +5526,9 @@ const allData = [
         originalAirdate: "January 26, 1998 (Part 1). February 2, 1998 (Part 2)",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20.6%. 20%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#35",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 91-92",
         englishTitle: "Vampire Villa",
@@ -5471,8 +5559,8 @@ const allData = [
         ]
     },
     {
-        id: "89", isFIller: true, title: "89: Dracula's Villa Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+        id: "89", isFiller: true, title: "89: Dracula's Villa Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
         episodeDescription: "With no footprints to reveal the killer and Kogoro's absurd deduction, Conan must think of how the door was locked and then find enough evidence to solve the case or else a killer and his hidden secret will walk free with a vampire receiving the blame.",
         japaneseTitle: "ドラキュラ荘殺人事件. (Dorakyura-sō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5493,8 +5581,9 @@ const allData = [
         originalAirdate: "January 26, 1998 (Part 1). February 2, 1998 (Part 2)",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20.6%. 20%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#35",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 91-92",
         englishTitle: "Vampire Villa",
@@ -5533,8 +5622,8 @@ const allData = [
         ]
     },
     {
-        id: "90", isFIller: true, title: "90: The Flower Scent Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+        id: "90", isFiller: true, title: "90: The Flower Scent Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
         episodeDescription: "A threat on a flower show artist causes Kogoro Mouri to be hired during a local flower show, but when one of the guests is murdered.",
         japaneseTitle: "花の香り殺人事件. (Hana no Kaori Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5555,8 +5644,9 @@ const allData = [
         originalAirdate: "February 9, 1998",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#36",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 93",
         englishTitle: "Deadly Art",
@@ -5594,8 +5684,8 @@ const allData = [
         ]
     },
     {
-        id: "91", isFIller: false, title: "91: The Bank Robber's Hospitalization Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys", "Yoko Okino"],
+        id: "91", isFiller: false, title: "91: The Bank Robber's Hospitalization Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys", "Yoko Okino"],
         episodeDescription: "On a quest to get to a Yoko Okino concert Kogoro breaks his foot, while the Detective Boys visit the hospital, they are unaware that a patient in Kogoro's room is one of the bank robbers. Along the way, a visiting father is separated from his daughter by the remaining robbers, and the only way he can get her back is by murdering the robber.",
         japaneseTitle: "強盗犯人入院事件. (Gōtō Hannin Nyūin Jiken)",
         titleInOtherLanguages: [
@@ -5617,6 +5707,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "21.5%",
         remasteredRating: "7.4%",
+
         mangaCase: "#47",
         mangaSource: "Volume 17: File 6 (166)",
         dubbedEpisode: "Episode 94",
@@ -5653,8 +5744,8 @@ const allData = [
         ]
     },
     {
-        id: "92", isFIller: true, title: "92: The Fearful Traversing Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+        id: "92", isFiller: true, title: "92: The Fearful Traversing Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
         episodeDescription: "Several years ago, the Fox known as the best assassin in the country had killed a president of a major company. However this assassination took place while his target was driving as a result, his car swerved into the path of a school bus carrying elementary school children. This caused a collision, that claimed the life of the young 5 year old Chisato Ushio, due to this unintended casualty The Fox went into hiding.",
         japaneseTitle: "恐怖のトラヴァース殺人事件. (Kyōfu no Toravāsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5675,8 +5766,9 @@ const allData = [
         originalAirdate: "February 23, 1998 (Part 1). March 2, 1998 (Part 2)",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "19.7%. 19.9%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#37",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 95-96",
         englishTitle: "Mountain Fox",
@@ -5709,8 +5801,8 @@ const allData = [
         ]
     },
     {
-        id: "93", isFIller: true, title: "93: The Fearful Traversing Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+        id: "93", isFiller: true, title: "93: The Fearful Traversing Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
         episodeDescription: "The others rush to the cabin and are relieved to see Ran unharmed, she apologizes saying that there is trouble and directs them toward Kyoko Saegusa who is dead with a knife in her back. Akira Kawabe is mourning her death apologizing for not being able to protect her. Shingo Nose asks what is going on, as it is obvious that Kogoro knows more then he’s letting on.",
         japaneseTitle: "恐怖のトラヴァース殺人事件. (Kyōfu no Toravāsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5731,8 +5823,9 @@ const allData = [
         originalAirdate: "February 23, 1998 (Part 1). March 2, 1998 (Part 2)",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "19.7%. 19.9%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#37",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 95-96",
         englishTitle: "Mountain Fox",
@@ -5766,8 +5859,8 @@ const allData = [
         ]
     },
     {
-        id: "94", isFIller: true, title: "94: Snow Woman's Legend Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+        id: "94", isFiller: true, title: "94: Snow Woman's Legend Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
         episodeDescription: "A famous movie Yuki-onna star and her body double show up at the same cabin Kogoro and family are spending vacation time at Miyagi Prefecture, but when a note and a mysterious illness seem to overcome the star, then Kogoro decides to begin searching it as a case. Is there something more than a mysterious suicide note though that could indicate murder?",
         japaneseTitle: "雪女伝説殺人事件. (Yuki-on'na Densetsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5788,8 +5881,9 @@ const allData = [
         originalAirdate: "March 9, 1998",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "21.2%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#38",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 97",
         englishTitle: "The Other Girl",
@@ -5825,8 +5919,8 @@ const allData = [
         ]
     },
     {
-        id: "95", isFIller: true, title: "95: Kogoro's Date Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys"],
+        id: "95", isFiller: true, title: "95: Kogoro's Date Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys"],
         episodeDescription: "After drinking with a friend who hasn't met for ten years, Kogoro falls asleep on a train and awakens to find himself a person that is willing to go on a date with him. When she stops at home though, she finds a person murdered and causes Kogoro and Conan to start seeking out whether she's guilty or if someone else is involved.",
         japaneseTitle: "小五郎のデート殺人事件. (Kogorō no Dēto Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5847,8 +5941,9 @@ const allData = [
         originalAirdate: "March 16, 1998",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "16.8%",
-        remasteredRating: "undefined",
-        mangaCase: "undefined",
+
+        fillerCase: "#39",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 98",
         englishTitle: "Richard's Deadly Date",
@@ -5881,8 +5976,8 @@ const allData = [
         ]
     },
     {
-        id: "96", isFIller: false, title: "96: The Cornered Famous Detective! Two Big Murder Cases (2 Hour Special)",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yukiko Kudo", "Yusaku Kudo", "Juzo Megure", "Misao Yamamura", "Wataru Takagi", "Eri Kisaki", "Hiroshi Agasa", "Kazumi Sanada", "Shinichi Kudo", "Kamen Yaiba"],
+        id: "96", isFiller: false, title: "96: The Cornered Famous Detective! Two Big Murder Cases (2 Hour Special)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yukiko Kudo", "Yusaku Kudo", "Juzo Megure", "Misao Yamamura", "Wataru Takagi", "Eri Kisaki", "Hiroshi Agasa", "Kazumi Sanada", "Shinichi Kudo", "Kamen Yaiba"],
         episodeDescription: "When Conan's glasses are taken off while he's asleep, Ran sees his face clearly and begins to suspect that he might be Shinichi. Her suspicions become stronger when she finds an old picture of them as children with a famous magician named Motoyasu Tsukumo. However, she cannot confront Conan right away, Tsukumo's wife suddenly arrives to Kogoro's office and tells him, Ran and Conan that her husband has been murdered! She also has some suspects in mind: specifically, his three disciples and prospect successors.",
         japaneseTitle: "追いつめられた名探偵! 連続2大殺人事件. (Oitsumerareta Meitantei! Renzoku Nidai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5903,7 +5998,8 @@ const allData = [
         originalAirdate: "March 23, 1998 *",
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "22.4%",
-        remasteredRating: "undefined",
+
+
         mangaCase: "#37. #38",
         mangaSource: "Volume 14: Files 1-8 (131-138)",
         dubbedEpisode: "Episode 99-102",
@@ -5913,7 +6009,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "Yasuichiro Yamamoto. Keitaro Motonaga",
         animationDirector: "Keiko Sasaki. Hiroto Yokote. Masahiko Yoda. Hisashi Saito (asst.). Minako Shiba (asst.)",
-        screenplay: "undefined",
+
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Gara Takashima as Eri Kisaki Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Yukiko Kudo Toshio Furukawa as Misao Yamamura Tamie Kubota as Nanae Tsukumo Konami Yoshida as Ayano Tsukumo Ryotaro Okiayu as Kazumi Sanada Yurika Hino as Mako Miyoshi Sousuke Komori as Yuji Momochi Masaaki Tsukada as Yoshichika Yabuuchi Seiko Fujimoto as Machiko Yabuuchi Yuzuru Fujimoto as Yoshifusa Yabuuchi Chieko Enomoto as Hiromi Yabuuchi Yoshizou Yamaguchi as Hidekazu Yabuuchi Akihiko Shimizu as Yoshiyuki Yabuuchi Masasumi Tsuda as Keiko Yabuuchi Hiroshi Naka as Lawyer Isshin Chiba as Policeman A Wataru Takagi as Policeman B, Next Conan's Hint",
@@ -5976,8 +6072,8 @@ const allData = [
         ]
     },
     {
-        id: "97", isFIller: true, title: "97: The Farewell Wine Murder Case",
-        cast: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+        id: "97", isFiller: true, title: "97: The Farewell Wine Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
         episodeDescription: "A wealthy company president hires Kogoro after hearing one of his daughters is going to attempt to kill him. If Kogoro can solve the case, he will be given 1 million yen. When Conan goes to the toilet, he sees Kazue Ichikawa go to wine storehouse with a syringe that Conan suspects contains poison. In a moment of distraction, Conan is kidnapped by an unknown person and imprisoned in the basement.",
         japaneseTitle: "別れのワイン殺人事件. (Wakare no Wain Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5999,7 +6095,8 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "20.1%",
         remasteredRating: "9.5%",
-        mangaCase: "undefined",
+        fillerCase: "#40",
+
         mangaSource: "TV Original",
         dubbedEpisode: "Episode 103",
         englishTitle: "The Farewell Wine Murder Case",
@@ -6037,8 +6134,8 @@ const allData = [
         ]
     },
     {
-        id: "98", isFIller: false, title: "98: The Famous Potter Murder Case (Part 1)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Hiroshi Agasa", "Kikuemon"],
+        id: "98", isFiller: false, title: "98: The Famous Potter Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Hiroshi Agasa", "Kikuemon"],
         episodeDescription: "When a fan of Kogoro, who works as a famous potter, invites the Mouri family out to his place for the weekend, Kogoro wins an valuable cup of pottery. After a long night of drinking, the group awakes and finds that a suicide has taken place. Inspector Megure thinks it may be more than a coincidence, but what is the real truth behind this mystery?",
         japaneseTitle: "名陶芸家殺人事件. (Meitōgeika Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6060,6 +6157,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "19.8%. 18.6%",
         remasteredRating: "6.3% (Part 1). 6.9% (Part 2)",
+
         mangaCase: "#45",
         mangaSource: "Volume 16: File 10 (160) ~. Volume 17: File 2 (162)",
         dubbedEpisode: "Episode 104-105",
@@ -6092,8 +6190,8 @@ const allData = [
         ]
     },
     {
-        id: "99", isFIller: false, title: "99: The Famous Potter Murder Case (Part 2)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Hiroshi Agasa", "Kikuemon"],
+        id: "99", isFiller: false, title: "99: The Famous Potter Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Hiroshi Agasa", "Kikuemon"],
         episodeDescription: "Despite most proof pointing to a suicide, Conan is convinced that a murder has taken place. He begins looking for additional proof that someone killed Masuko.",
         japaneseTitle: "名陶芸家殺人事件. (Meitōgeika Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6115,6 +6213,7 @@ const allData = [
         englishAirdate: "January 27, 2009 (DVD)",
         broadcastRating: "19.8%. 18.6%",
         remasteredRating: "6.3% (Part 1). 6.9% (Part 2)",
+
         mangaCase: "#45",
         mangaSource: "Volume 16: File 10 (160) ~. Volume 17: File 2 (162)",
         dubbedEpisode: "Episode 104-105",
@@ -6153,8 +6252,8 @@ const allData = [
         ]
     },
     {
-        id: "100", isFIller: false, title: "100: The Memories of First Love Case (Part 1)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo"],
+        id: "100", isFiller: false, title: "100: The Memories of First Love Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo"],
         episodeDescription: "Conan, Ran, and Sonoko are cleaning up Shinchi's house, and their chat goes from Sonoko complaining about doing this in summer break to Ran wondering who could have been Shinichi's first love and Sonoko speculating whether Ran was his first love or not. Almost as if on cue, an old classmate stops by to check on Shinichi's well-being, then joins the group in their cleaning: her name is Asami Uchida, she used to be the student council president of Teitan Middle School when Ran Sonoko and Shinichi were in the Grade 7 and she now attends a local art-centered university as a literature major.",
         japaneseTitle: "初恋の人想い出事件. (Hatsukoi no Hito Omoide no Jiken)",
         titleInOtherLanguages: [
@@ -6176,6 +6275,7 @@ const allData = [
         englishAirdate: "May 12, 2009 (DVD)",
         broadcastRating: "20.3%. 19.5%",
         remasteredRating: "6.1%. 7.9%",
+
         mangaCase: "#50",
         mangaSource: "Volume 18: Files 3-5 (173-175)",
         dubbedEpisode: "Episode 106-107",
@@ -6185,7 +6285,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "100 Hirohito Ochi. 101 Yasuichiro Yamamoto",
         animationDirector: "100 Akio Kawamura. 101 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "100 Hirohito Ochi. 101 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Akio Kawamura (sub-character). Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki Yukari Shin as Asami Uchida Naoya Uchida as Manabu Sawai Takako Fuji as Tomoko Hayasaka Toshiharu Sakurai as Yoshinobu Morimoto Yuji Ueda as Shigehisa Noguchi Romi Park as Chika Miyazaki Isshin Chiba as Firefighter A Wataru Takagi as Firefighter B, Next Conan's Hint (Part 2) Hiroshi Naka as Convenience store manager",
@@ -6213,8 +6313,8 @@ const allData = [
         ]
     },
     {
-        id: "101", isFIller: false, title: "101: The Memories of First Love Case (Part 2)",
-        cast: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo"],
+        id: "101", isFiller: false, title: "101: The Memories of First Love Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo"],
         episodeDescription: "Ran passes out almost immediately after rescuing Asami, both from the smoke inhalation and the huge effort. She wakes up in the nearby hospital and is fine, but Asami is still unconscious. She tells Sonoko that the helmet idea came from Conan, who gave it to her so she'd have extra protection, and mentions that he did something incredible.",
         japaneseTitle: "初恋の人想い出事件. (Hatsukoi no Hito Omoide no Jiken)",
         titleInOtherLanguages: [
@@ -6236,6 +6336,7 @@ const allData = [
         englishAirdate: "May 12, 2009 (DVD)",
         broadcastRating: "20.3%. 19.5%",
         remasteredRating: "6.1%. 7.9%",
+
         mangaCase: "#50",
         mangaSource: "Volume 18: Files 3-5 (173-175)",
         dubbedEpisode: "Episode 106-107",
@@ -6245,7 +6346,7 @@ const allData = [
         director: "Kenji Kodama",
         episodeDirector: "100 Hirohito Ochi. 101 Yasuichiro Yamamoto",
         animationDirector: "100 Akio Kawamura. 101 Keiko Sasaki",
-        screenplay: "undefined",
+
         storyboard: "100 Hirohito Ochi. 101 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Akio Kawamura (sub-character). Yasuhiro Moriki (design works)",
         voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki Yukari Shin as Asami Uchida Naoya Uchida as Manabu Sawai Takako Fuji as Tomoko Hayasaka Toshiharu Sakurai as Yoshinobu Morimoto Yuji Ueda as Shigehisa Noguchi Romi Park as Chika Miyazaki Isshin Chiba as Firefighter A Wataru Takagi as Firefighter B, Next Conan's Hint (Part 2) Hiroshi Naka as Convenience store manager",
@@ -6271,6 +6372,3226 @@ const allData = [
             ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
         ]
     },
-];
+    {
+        id: "102", isFiller: false, title: "102: The Historical Actor Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Forensic member"],
+        episodeDescription: "When a famous samurai movie star, Kozaburo Hijikata, hires Kogoro for some consultations, the group is led to believe that he wants to learn about detective work for an upcoming TV series where he is to star as a detective. However, rumors of an affair between his beautiful and much younger wife Isami Nagakura and stunt actor Hajime Okita can't help but lead Conan to doubt the reason. When Isami is found dead on Okita's balcony, the group believes it is an open and shut case, but Conan doubts the authenticity when he sees a big smile form on Hijikata's face. Which side is truly right?",
+        japaneseTitle: "時代劇俳優殺人事件. (Jidaigeki Haiyū Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "Not dubbed", ""],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de l'actor de les pel·lícules de samurais", "Samurai films actor murder case"],
+            ["Catalan (Valencian dub)", "L'assassinat de l'actor samurai", "Samurai actor murder"],
+            ["French", "Le Meurtre de l'acteur des films de samouraï", "The Murder of the Actor of the Samourai Movies"],
+            ["Galician", "O asasinato do actor de películas de samurais", "Samurai films actor murder"],
+            ["German", "Eifersucht", "Jealousy"],
+            ["Italian", "L'illusionista", "The Illusionist"],
+            ["Spanish (American dub)", "El asesinato karateka", "Karate practitioner murder"],
+            ["Spanish (Castilian dub)", "El caso del actor Samurai", "Samurai actor case"],
+            ["Thai", "คดีฆาตกรรมดาราหนังย้อนยุค", "Historical film actor murder case"],
+            ["Vietnamese", "Vụ án mạng của diễn viên kịch lịch sử", "The Historical Actor Murder Case"]
+        ],
+        season: "4",
+        originalAirdate: "May 25, 1998 (Part 1). June 1, 1998 (Part 2). May 22, 2021 (Remastered version Part 1). May 29, 2021 (Remastered version Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "17.7%. 17.6%",
+        remasteredRating: "7.2% (Part 1). 6.3% (Part 2)",
 
-export default allData;
+        mangaCase: "#49",
+        mangaSource: "Volume 17: File 10 (170) ~. Volume 18: File 2 (172)",
+        dubbedEpisode: "Episode 108-109",
+        englishTitle: "Fame and Misfortune",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Telephone (Part 1). Tea (Part 2). Model gun (Remastered version Part 1). Tea set (Remastered version Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "102 Johei Matsuura. 103 Kazuo Nogami",
+        animationDirector: "102 Atsushi Aono. 103 Hiromi Muranaka",
+
+        storyboard: "102 Johei Matsuura. 103 Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B Kenji Utsumi as Kozaburo Hijikata Sachi Asakura as Isami Nagakura Kihachiro Uemura as Hajime Okita Isshin Chiba as Forensics officer, Reporter A Yasuhiro Takato as Reporter C Naoki Makishima as Reporter D",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« The Memories of First Love Case",
+        nextCase: "The Mysterious Mansion of a Band of Thieves Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"]
+        ]
+    },
+    {
+        id: "103", isFiller: false, title: "103: The Historical Actor Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Forensic member"],
+        episodeDescription: "Kogoro tells the media all of the current suspicions so Inspector Megure and Detective Takagi can sneak Hijikata and Okita out the backdoor for questioning, but before doing so Conan goes up to the sixth floor to try and find some evidence that his suspicion of Hijikata being the killer is accurate. In the end one truth as always will prevail, but which side is truly innocent here?",
+        japaneseTitle: "時代劇俳優殺人事件. (Jidaigeki Haiyū Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "Not dubbed", ""],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de l'actor de les pel·lícules de samurais", "Samurai films actor murder case"],
+            ["Catalan (Valencian dub)", "L'assassinat de l'actor samurai", "Samurai actor murder"],
+            ["French", "Le Meurtre de l'acteur des films de samouraï", "The Murder of the Actor of the Samourai Movies"],
+            ["Galician", "O asasinato do actor de películas de samurais", "Samurai films actor murder"],
+            ["German", "Eifersucht", "Jealousy"],
+            ["Italian", "L'illusionista", "The Illusionist"],
+            ["Spanish (American dub)", "El asesinato karateka", "Karate practitioner murder"],
+            ["Spanish (Castilian dub)", "El caso del actor Samurai", "Samurai actor case"],
+            ["Thai", "คดีฆาตกรรมดาราหนังย้อนยุค", "Historical film actor murder case"],
+            ["Vietnamese", "Vụ án mạng của diễn viên kịch lịch sử", "The Historical Actor Murder Case"]
+        ],
+        season: "4",
+        originalAirdate: "May 25, 1998 (Part 1). June 1, 1998 (Part 2). May 22, 2021 (Remastered version Part 1). May 29, 2021 (Remastered version Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "17.7%. 17.6%",
+        remasteredRating: "7.2% (Part 1). 6.3% (Part 2)",
+
+        mangaCase: "#49",
+        mangaSource: "Volume 17: File 10 (170) ~. Volume 18: File 2 (172)",
+        dubbedEpisode: "Episode 108-109",
+        englishTitle: "Fame and Misfortune",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Telephone (Part 1). Tea (Part 2). Model gun (Remastered version Part 1). Tea set (Remastered version Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "102 Johei Matsuura. 103 Kazuo Nogami",
+        animationDirector: "102 Atsushi Aono. 103 Hiromi Muranaka",
+
+        storyboard: "102 Johei Matsuura. 103 Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B Kenji Utsumi as Kozaburo Hijikata Sachi Asakura as Isami Nagakura Kihachiro Uemura as Hajime Okita Isshin Chiba as Forensics officer, Reporter A Yasuhiro Takato as Reporter C Naoki Makishima as Reporter D",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« The Memories of First Love Case",
+        nextCase: "The Mysterious Mansion of a Band of Thieves Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper ver.)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1"],
+            ["00:00", "瞳を閉じれば～蘭のテーマ～ （インストヴァージョン）", "Hitomi o Tojireba ~ Ran no Tēma (Insuto Vājon)", "If I Close My Eyes ~ Ran's Theme (Instrumental ver.)"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"]
+        ]
+    },
+    {
+        id: "104", isFiller: false, title: "104: The Mysterious Mansion of a Band of Thieves Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        episodeDescription: "When Kogoro gets a letter from a person named Misao Nakamura, he automatically assumes it's a female and decides to run to the rescue. When he arrives though, he finds two men claiming to be related and a bunch of clocks simultaneously going off. What makes things even more complicated though is a clock with a goblin statue instead of a cuckoo in it. What's really going on at Nakamura Manor?",
+        japaneseTitle: "盗賊団謎の洋館事件. (Tōzoku-dan Nazo no Yōkan Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "بيت الساعات", "The House of Clocks"],
+            ["Catalan (Catalan dub)", "El cas de la mansió misteriosa de la banda de malfactors", "The mysterious mansion of a malefactors band case"],
+            ["Catalan (Valencian dub)", "La misteriosa casa dels bandits", "The mysterious bandits house"],
+            ["French", "La Maison aux pendules", "The House with the Clocks"],
+            ["Galician", "A casa misteriosa dos bandidos", "The mysterious bandits house"],
+            ["German", "Das Spukhaus der Goblins", "The Haunted House of the Goblins"],
+            ["Italian", "La casa degli orologi", "The House with the Clocks"],
+            ["Spanish (American dub)", "Los bandidos de la mansión misteriosa", "Bnadits of the mysterious mansion"],
+            ["Spanish (Castilian dub)", "La misteriosa mansión de los ladrones", "The mysterious thiefs mansion"],
+            ["Thai", "คดีแก๊งค์โจรในคฤหาสน์ปริศนา", "Thieves gang in a mysterious mansion case"],
+            ["Vietnamese", "Vụ án băng cướp bí ẩn trong tòa nhà kiểu phương Tây", "The Mysterious Western-style Mansion of a Band of Thieves Case"]
+        ],
+        season: "4",
+        originalAirdate: "June 8, 1998 (Part 1). June 15, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "17.3%. 19.5%",
+
+
+        mangaCase: "#48",
+        mangaSource: "Volume 17: Files 7-9 (167-169)",
+        dubbedEpisode: "Episode 110-111",
+        englishTitle: "The Mystery of Bludcraven Manor",
+        caseSolvedBy: "Conan Edogawa. Kogoro Mouri",
+        nextConansHint: "Stamps (Part 1). Door (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "104 Nana Harada. 105 Hirohito Ochi",
+        animationDirector: "104 Izumi Shimura. 105 Kumiko Shishido",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Wataru Takagi as Next Conan's Hint Masahiko Tanaka as Misao Nakamura Osamu Kato as Mr. Nakamura Kaori Yamagata as Real Misao Nakamura",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« The Historical Actor Murder Case",
+        nextCase: "Scoop Picture Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"]
+        ]
+    },
+    {
+        id: "105", isFiller: false, title: "105: The Mysterious Mansion of a Band of Thieves Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        episodeDescription: "The Goblins remind Kogoro and Conan of the gang known as the Goblin Gang, and using a flash light Conan begins to realize the two gentlemen claiming to be Nakamura's could actually be after something much more valuable. If they are indeed impostors, then what happened to the real Misao Nakamura? Can Conan solve this before times runs out for them all?",
+        japaneseTitle: "盗賊団謎の洋館事件. (Tōzoku-dan Nazo no Yōkan Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "بيت الساعات", "The House of Clocks"],
+            ["Catalan (Catalan dub)", "El cas de la mansió misteriosa de la banda de malfactors", "The mysterious mansion of a malefactors band case"],
+            ["Catalan (Valencian dub)", "La misteriosa casa dels bandits", "The mysterious bandits house"],
+            ["French", "La Maison aux pendules", "The House with the Clocks"],
+            ["Galician", "A casa misteriosa dos bandidos", "The mysterious bandits house"],
+            ["German", "Das Spukhaus der Goblins", "The Haunted House of the Goblins"],
+            ["Italian", "La casa degli orologi", "The House with the Clocks"],
+            ["Spanish (American dub)", "Los bandidos de la mansión misteriosa", "Bnadits of the mysterious mansion"],
+            ["Spanish (Castilian dub)", "La misteriosa mansión de los ladrones", "The mysterious thiefs mansion"],
+            ["Thai", "คดีแก๊งค์โจรในคฤหาสน์ปริศนา", "Thieves gang in a mysterious mansion case"],
+            ["Vietnamese", "Vụ án băng cướp bí ẩn trong tòa nhà kiểu phương Tây", "The Mysterious Western-style Mansion of a Band of Thieves Case"]
+        ],
+        season: "4",
+        originalAirdate: "June 8, 1998 (Part 1). June 15, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "17.3%. 19.5%",
+
+
+        mangaCase: "#48",
+        mangaSource: "Volume 17: Files 7-9 (167-169)",
+        dubbedEpisode: "Episode 110-111",
+        englishTitle: "The Mystery of Bludcraven Manor",
+        caseSolvedBy: "Conan Edogawa. Kogoro Mouri",
+        nextConansHint: "Stamps (Part 1). Door (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "104 Nana Harada. 105 Hirohito Ochi",
+        animationDirector: "104 Izumi Shimura. 105 Kumiko Shishido",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Wataru Takagi as Next Conan's Hint Masahiko Tanaka as Misao Nakamura Osamu Kato as Mr. Nakamura Kaori Yamagata as Real Misao Nakamura",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« The Historical Actor Murder Case",
+        nextCase: "Scoop Picture Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)"],
+            ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "事件発生！", "Jiken Hassei!", "A Case Springs Forth!"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"],
+            ["00:00", "コナンの夢", "Konan no Yume", "Conan's Dream"]
+        ]
+    },
+    {
+        id: "106", isFiller: true, title: "106: Scoop Picture Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Juzo Megure"],
+        episodeDescription: "In Angel City Hotel, the photographer named Ryuuichi Yanase wins the 35th Yomikiri Photography Award in the award ceremony and he also receives a brand new watch. He was nominated by the crime news department. Yanase's award winning photographs of various incidents are also shown as a slideshow.",
+        japaneseTitle: "スクープ写真殺人事件. (Sukūpu Shashin Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "عدسة العنكبوت", "The Lens of The Spider"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de les fotografies d'exclusives", "Scoop pictures murder case"],
+            ["Catalan (Valencian dub)", "L'assassinat de la fotografia instantània", "Instant picture murder"],
+            ["French", "Photos de meurtre", "Murder Pictures"],
+            ["Galician", "O asasinato da primicia fotográfica", "Scoop picture murder"],
+            ["German", "Mord mit Blitzlicht", "Murder with Photo Flash"],
+            ["Italian", "Il fotografo", "The Photographer"],
+            ["Spanish (American dub)", "El caso de la fotografía sensacionalista", "Gutter picture case"],
+            ["Spanish (Castilian dub)", "El asesinato de la foto instantánea", "Instant picture murder"],
+            ["Thai", "คดีฆาตกรรมในภาพเด็ด", "A murder case in a scoop picture"],
+            ["Vietnamese", "Vụ án giết người liên quan đến bức ảnh giật gân", "Scoop Picture Murder Case"]
+        ],
+        season: "4",
+        originalAirdate: "June 22, 1998",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "19.8%",
+
+        fillerCase: "#41",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 112",
+        englishTitle: "Snapshots of Death",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Highway bus",
+        director: "Kenji Kodama",
+        episodeDirector: "Johei Matsuura",
+        animationDirector: "Atsushi Aono",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Yoshio Suzuki",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Hiroshi Takahashi as Ryuuichi Yanase Nobuaki Fukuda as Atsushi Nakai Wataru Takagi as Director, Next Conan's Hint Isshin Chiba as Presenter Hiroshi Naka as Driver",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« The Mysterious Mansion of a Band of Thieves Case",
+        nextCase: "The Mysterious Mole Alien Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "時計じかけの摩天楼", "Tokei Jikake no Mantenrō", "The Time-Bombed Skyscraper"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis"],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)"]
+        ]
+    },
+    {
+        id: "107", isFiller: true, title: "107: The Mysterious Mole Alien Case (Part 1)",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Kamen Yaiba"],
+        episodeDescription: "Conan and the Detective Boys are playing baseball at the construction site. When Mitsuhiko throws the ball, Genta hits it so hard that it went away to someone's yard. When they go there, they rang the door bell, and the mysterious man named Yoshikazu Watanuki appears to them. Conan asks if he could have the ball back from Watanuki's yard. Watanuki refuses and won't give the ball back. He then tells Conan and the Detective Boys to go away. The Detective Boys think that he's really mean. When Conan and the Detective Boys went to the Mouri detective agency, they see a man named Masao Kouda from Saku City, Nagano Prefecture, which is famous for the cosmos flowers. Conan asks him if he's meeting Kogoro. After that, they went inside, and Kouda asks Kogoro if he could find his missing younger sister, Sanae Kouda. He claims Watanuki has killed his sister and has buried her in his yard.",
+        japaneseTitle: "モグラ星人謎の事件. (Mogura Seijin Nazo no Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "نبتة العطر", "The Perfume Plant"],
+            ["Catalan (Catalan dub)", "El cas del misteri d'en Mógra, l'extraterrestre", "The case of the extraterrestrial Mogra mystery"],
+            ["Catalan (Valencian dub)", "El cas del misteriós home Talp", "Mysterious mole man case"],
+            ["French", "Le Taupe-Master", "The Mole-Master"],
+            ["Galician", "O misterioso caso do Toupa", "The mole mysterious case"],
+            ["German", "Das Grab im Garten", "The Grave in the Garden"],
+            ["Italian", "Il caso dell'uomo talpa", "The Mole Man Case"],
+            ["Spanish (American dub)", "El misterioso caso del Hombre Topo", "Mole man mysterious case"],
+            ["Spanish (Castilian dub)", "El caso del Hombre Topo", "The mole man case"],
+            ["Thai", "คดีปริศนามนุษย์ดาวตัวตุ่น", "The mole alien mystery case"],
+            ["Vietnamese", "Vụ án người hành tinh chuột chũi bí ẩn", "The Mysterious Mole Alien Case"]
+        ],
+        season: "5",
+        originalAirdate: "June 28, 1998 (Part 1). July 6, 1998 (Part 2). June 2, 2018 (Remastered version Part 1). June 9, 2018 (Remastered version Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18.5%. 19.8%",
+        remasteredRating: "6.8%. 7.4%",
+        fillerCase: "#42",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 113-114",
+        englishTitle: "The Mysterious Moletian Case",
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Jewelery robbers (Part 1). Manhole (Part 2). Binoculars (Remastered version Part 1). Jewels (Remastered version Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "107 Yasuichiro Yamamoto. 108 Kazuo Nogami",
+        animationDirector: "107 Keiko Sasaki. 108 Hirobi Muranaka",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kosei Tomita as Yoshikazu Watanuki Shigeru Chiba as Masao Kouda Yuko Kato as Sanae Kouda Satoru Yanase as Shinichi Mochida Hiroshi Yanaka as Detective Shimizu Isshin Chiba as Policeman",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« Scoop Picture Murder Case",
+        nextCase: "Detective Club Pursuit Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"]
+        ]
+    },
+    {
+        id: "108", isFiller: true, title: "108: The Mysterious Mole Alien Case (Part 2)",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Kamen Yaiba"],
+        episodeDescription: "Kouda hides stolen jewelry in Watanuki's yard to force the police department to dig it up, but unbeknown to him is that Mother Nature has caused an optical illusion to fool witness Shinichi Mochida. Can Conan prove Masao's innocence before a guilty man gets away permanently?",
+        japaneseTitle: "モグラ星人謎の事件. (Mogura Seijin Nazo no Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "نبتة العطر", "The Perfume Plant"],
+            ["Catalan (Catalan dub)", "El cas del misteri d'en Mógra, l'extraterrestre", "The case of the extraterrestrial Mogra mystery"],
+            ["Catalan (Valencian dub)", "El cas del misteriós home Talp", "Mysterious mole man case"],
+            ["French", "Le Taupe-Master", "The Mole-Master"],
+            ["Galician", "O misterioso caso do Toupa", "The mole mysterious case"],
+            ["German", "Das Grab im Garten", "The Grave in the Garden"],
+            ["Italian", "Il caso dell'uomo talpa", "The Mole Man Case"],
+            ["Spanish (American dub)", "El misterioso caso del Hombre Topo", "Mole man mysterious case"],
+            ["Spanish (Castilian dub)", "El caso del Hombre Topo", "The mole man case"],
+            ["Thai", "คดีปริศนามนุษย์ดาวตัวตุ่น", "The mole alien mystery case"],
+            ["Vietnamese", "Vụ án người hành tinh chuột chũi bí ẩn", "The Mysterious Mole Alien Case"]
+        ],
+        season: "5",
+        originalAirdate: "June 28, 1998 (Part 1). July 6, 1998 (Part 2). June 2, 2018 (Remastered version Part 1). June 9, 2018 (Remastered version Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18.5%. 19.8%",
+        remasteredRating: "6.8%. 7.4%",
+        fillerCase: "#42",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 113-114",
+        englishTitle: "The Mysterious Moletian Case",
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Jewelery robbers (Part 1). Manhole (Part 2). Binoculars (Remastered version Part 1). Jewels (Remastered version Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "107 Yasuichiro Yamamoto. 108 Kazuo Nogami",
+        animationDirector: "107 Keiko Sasaki. 108 Hirobi Muranaka",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kosei Tomita as Yoshikazu Watanuki Shigeru Chiba as Masao Kouda Yuko Kato as Sanae Kouda Satoru Yanase as Shinichi Mochida Hiroshi Yanaka as Detective Shimizu Isshin Chiba as Policeman",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Negai Goto Hitotsu Dake",
+        prevCase: "« Scoop Picture Murder Case",
+        nextCase: "Detective Club Pursuit Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper ver.)"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper ver.)"],
+            ["00:00", "少年探偵団のテーマ(摩天楼ヴァージョン)", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper ver.)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful ver.)"],
+            ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
+        ]
+    },
+    {
+        id: "109", isFiller: true, title: "109: Detective Club Pursuit Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+        episodeDescription: "Conan is chasing the robber with the skateboard. While chasing, Conan contacts the Detective Boys with their badges to get ready to trap the robber. When the robber is trapped, Conan kicks the can to knock the robber into the trap successfully capturing him. The police thank them for their great help and are awarded for their efforts. A sinister shadow reads the newspaper about Conan and the kids latest triumph and smiles menacingly.",
+        japaneseTitle: "探偵団大追跡事件. (Tantei-dan Daitsuiseki Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "السيارة الحمراء", "The Red Car"],
+            ["Catalan (Catalan dub)", "El cas de la gran persecució de la Lliga de Detectius Júnior", "The junior detectives union big pursuit case"],
+            ["Catalan (Valencian dub)", "La gran persecució de la Lliga dels Xiquets Detectius", "The detective boys union big pursuit"],
+            ["Chinese", "偵探隊大追擊事件", "The Detective Boys Followed Traces Case"],
+            ["French", "La Voiture fantôme", "The Ghost Car"],
+            ["Galician", "A gran persecución automobilística da Asociación de Detectives Xuvenís", "The great car chase of the Association of Young Detectives"],
+            ["German", "Schneller als die Polizei erlaubt", "Faster than the Police Allows"],
+            ["Italian", "Paura a quattro ruote", "Four-wheel Fear"],
+            ["Spanish (American dub)", "El Escuadrón Juvenil y el caso del automóvil", "The young squad and the automobile case"],
+            ["Spanish (Castilian dub)", "La Liga Juvenil de Detectives: persiguiendo al coche deportivo", "The Youth League of Detectives: chasing the sports car"],
+            ["Thai", "คดีไล่ล่าของขบวนการนักสืบเยาวชน", "The Detective Boys' pursuit case"],
+            ["Vietnamese", "Vụ án Đội Thám Tử Tí Hon lần theo dấu vết", "The Detective Boys Follow Traces Case"]
+        ],
+        season: "5",
+        originalAirdate: "July 13, 1998",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "16.7%",
+
+        fillerCase: "#43",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 115",
+        englishTitle: "Hit and Run",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Ice",
+        director: "Kenji Kodama",
+        episodeDirector: "Hirohito Ochi",
+        animationDirector: "Izumi Shimura",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kazuki Yao as Kenichi Shishido Rin Mizuhara as Old lady Isshin Chiba as Policeman",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Mysterious Mole Alien Case",
+        nextCase: "Cooking Classroom Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "新一・追跡のテーマ", "Shin'ichi・Tsuiseki no Tēma", "Shinichi's Pursuit Theme"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "新一・追跡のテーマ", "Shin'ichi・Tsuiseki no Tēma", "Shinichi's Pursuit Theme"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper ver.)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper ver.)"],
+            ["00:00", "対決のテーマ （摩天楼ヴァージョン）", "Taiketsu no Tēma (Mantenrō Vājon)", "Showdown Theme (Skyscraper ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)"]
+        ]
+    },
+    {
+        id: "110", isFiller: true, title: "110: Cooking Classroom Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+        episodeDescription: "Sonoko tricks Ran into attending a cooking class by famous French chef Michi Uemori, and in order to go she invites her father and Conan. When the group arrives, they met several other people: Uemori's assistant, Yuko Komiyama, Michi's daughter-in-law Kaoru, and the cooking students Kazue Yashiro and Hiroaki Nishitani. Finally, the cooking class teacher Michi Uemori shows up. Conan, Ran, and Kogoro learn everyone seems to have something against the instructor, who is also a very unpleasant person. At some point the lights go out, then Uemori gets stabbed in the back and her lung is punctured, causing her to die. Now Conan and Kogoro have to decipher four suspects's agendas against her, but can they find the killer?",
+        japaneseTitle: "料理教室殺人事件. (Ryōri Kyōshitsu Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "الرحيل الصامت", "The Silent Departure"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la classe de cuina", "Cooking class murder case"],
+            ["Catalan (Valencian dub)", "Assassinat en la classe de cuina", "Murder at the cooking class"],
+            ["French", "Meurtre à l'école de cuisine", "Murder at the Cooking School"],
+            ["Galician", "Asasinato na escola de cociña", "Murder at the Cooking School"],
+            ["German", "Mord à la Carte", "Murder à la Carte"],
+            ["Italian", "Lezioni di cucina", "Cooking Lessons"],
+            ["Spanish (American dub)", "El caso de la escuela de cocina", "Cooking school case"],
+            ["Spanish (Castilian dub)", "El asesinato en la clase de cocina", "Murder at cooking class"],
+            ["Thai", "คดีฆาตกรรมในโรงเรียนสอนทำอาหาร", "A murder case at the cooking school"],
+            ["Vietnamese", "Vụ án giết người ở lớp nấu ăn", "Cooking Classroom Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "July 27, 1998 (Part 1). August 3, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18%. 18.9%",
+
+        fillerCase: "#44",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 116-117",
+        englishTitle: "Recipe for Murder",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Ring (Part 1). School infirmary (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "110 Nana Harada. 111 Yasuichiro Yamamoto",
+        animationDirector: "110 Kumiko Shishido. 111 Keiko Sasaki",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "110 Masato Sato. 111 Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi (Uncredited: Announcer, Next Conan's Hint) Hiroko Takahashi as Michi Uemori Rumi Ochiai as Yuko Komiyama Kazuko Yanaga as Kazue Yashiro Emi Shinohara as Kaoru Uemori Shigeru Nakahara as Hiroaki Nishitani Isshin Chiba as Forensics officer Mikiko Enomoto as Female officer",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« Detective Club Pursuit Case",
+        nextCase: "The Seven Mysteries of Teitan Elementary School Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)"],
+            ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper ver.)"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "英国風館", "Eikoku Fūkan", "Seal of England"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "111", isFiller: true, title: "111: Cooking Classroom Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+        episodeDescription: "All four students are found to be suspects in Uemori's murder, and it appears a needle or another small object is to be to blame. Conan begins to search for locations that could hide a needle. Can any person be proven to be the culprit?",
+        japaneseTitle: "料理教室殺人事件. (Ryōri Kyōshitsu Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "الرحيل الصامت", "The Silent Departure"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la classe de cuina", "Cooking class murder case"],
+            ["Catalan (Valencian dub)", "Assassinat en la classe de cuina", "Murder at the cooking class"],
+            ["French", "Meurtre à l'école de cuisine", "Murder at the Cooking School"],
+            ["Galician", "Asasinato na escola de cociña", "Murder at the Cooking School"],
+            ["German", "Mord à la Carte", "Murder à la Carte"],
+            ["Italian", "Lezioni di cucina", "Cooking Lessons"],
+            ["Spanish (American dub)", "El caso de la escuela de cocina", "Cooking school case"],
+            ["Spanish (Castilian dub)", "El asesinato en la clase de cocina", "Murder at cooking class"],
+            ["Thai", "คดีฆาตกรรมในโรงเรียนสอนทำอาหาร", "A murder case at the cooking school"],
+            ["Vietnamese", "Vụ án giết người ở lớp nấu ăn", "Cooking Classroom Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "July 27, 1998 (Part 1). August 3, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18%. 18.9%",
+
+        fillerCase: "#44",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 116-117",
+        englishTitle: "Recipe for Murder",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Ring (Part 1). School infirmary (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "110 Nana Harada. 111 Yasuichiro Yamamoto",
+        animationDirector: "110 Kumiko Shishido. 111 Keiko Sasaki",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "110 Masato Sato. 111 Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi (Uncredited: Announcer, Next Conan's Hint) Hiroko Takahashi as Michi Uemori Rumi Ochiai as Yuko Komiyama Kazuko Yanaga as Kazue Yashiro Emi Shinohara as Kaoru Uemori Shigeru Nakahara as Hiroaki Nishitani Isshin Chiba as Forensics officer Mikiko Enomoto as Female officer",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« Detective Club Pursuit Case",
+        nextCase: "The Seven Mysteries of Teitan Elementary School Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "闇の男爵ナイトバロンのテーマ", "Yami no Danshaku Naito Baron no Tēma", "Baron of the Darkness, The Night Baron's Theme"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
+        ]
+    },
+    {
+        id: "112", isFiller: false, title: "112: The Seven Mysteries of Teitan Elementary School Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Sumiko Kobayashi", "Ryujiro Uematsu", "Toya"],
+        episodeDescription: "The elementary school has had strange things going on at night. The anatomy figure running around, statues appearing to move, dolls showing up in the hall with the students' names, and a missing Vice Principal. The Detective Boys decide they need to sneak in at night to uncover these mysteries, but what they learn could lead to a laugh and to a horrible nightmare.",
+        japaneseTitle: "帝丹小7不思議事件. (Teitan-shō Nana-Fushigi Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "ظلال الظلام", "Shadows of The Darkness"],
+            ["Catalan (Catalan dub)", "El cas dels set misteris de l'escola Téitan", "The seven mysteries of Teitan school case"],
+            ["Catalan (Valencian dub)", "Les set maravelles de l'escola Teitan", "The seven wonders of Teitan school"],
+            ["French", "Le Fantôme de l'école", "The Ghost of the School"],
+            ["Galician", "Os contos de medo da Escola Primaria de Teitan", "The scary tales of Teitan elementary school"],
+            ["German", "Nächtlicher Spuk in der Schule", "Nightly Haunting in the School"],
+            ["Italian", "La scuola stregata", "The Haunted School"],
+            ["Spanish (American dub)", "Las siete maravillas de la escuela", "The school seven wonders"],
+            ["Spanish (Castilian dub)", "Los siete misterios de la Escuela Primaria Teitan", "The seven mysteries of Teitan elementary school"],
+            ["Thai", "7 เรื่องประหลาดในโรงเรียนประถมเทย์ตัน", "7 strange stories inside Teitan elementary school"],
+            ["Vietnamese", "Bảy điều kì bí của trường tiểu học Teitan", "The Seven Mysteries of Teitan Elementary School Case"]
+        ],
+        season: "5",
+        originalAirdate: "August 10, 1998. September 13, 2014 (Remastered version)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "19.1%",
+        remasteredRating: "9.2%",
+
+        mangaCase: "#43",
+        mangaSource: "Volume 16: Files 4-5 (154-155)",
+        dubbedEpisode: "Episode 118",
+        englishTitle: "School of Ghouls",
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Pool float. Kobayashi-sensei (Remastered version)",
+        director: "Kenji Kodama",
+        episodeDirector: "Johei Matsuura",
+        animationDirector: "Atsushi Aono",
+
+        storyboard: "Johei Matsuura",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Wataru Takagi as Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Yuko Kobayashi as Sumiko Kobayashi Shigeru Ushiyama as Masayuki Ohata Toshihiko Nakajima as Asst. principal Motomu Kiyokawa as Ryujiro Uematsu Mikiko Enomoto as Fukumoto",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« Cooking Classroom Murder Case",
+        nextCase: "The White Sandy Beach Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)"],
+            ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle ver.)"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "113", isFiller: false, title: "113: The White Sandy Beach Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        episodeDescription: "A young and beautiful woman named Mitsuko Sekine is found by a reef drowned in what appears to be a suicide. When information that the town's doctor had been intimate with her in the past is revealed, and Mitsuko's best friend Tomoko insists it was murder, both Conan and Kogoro suspect she is right and that suicide is impossible. Now the two must find the clues before his drinking alibi fully comes through, but what to do when Tanaka was actually drinking with Kogoro himself?",
+        japaneseTitle: "白い砂浜殺人事件. (Shiroi Sunahama Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "همس الأمواج", "Whisper of the waves"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la platja blanca", "The white beach murder case"],
+            ["Catalan (Valencian dub)", "Assassinat a la platja d'arena blanca", "Murder at the white sand beach"],
+            ["Chinese", "白色海灘殺人事件", "The White Sandy Beach Murder Case"],
+            ["French", "Plage en deuil", "Sorrow on the beach"],
+            ["Galician", "Asasinato na praia de area branca", "Murder at the white sand beach"],
+            ["German", "Die Strömung bringt es an den Tag", "The Current Reveals It"],
+            ["Italian", "Il medico legale", "The Coroner"],
+            ["Spanish (American dub)", "Asesinato en la playa de arena blanca", "Murder at the white sand beach"],
+            ["Spanish (Castilian dub)", "El asesinato en la playa de arena blanca", "Murder at the white sand beach"],
+            ["Thai", "คดีฆาตกรรมบนชายหาดสีขาว", "A murder case at a white sandy beach"],
+            ["Vietnamese", "Vụ án giết người trên bãi cát trắng", "The White Sandy Beach Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "August 17, 1998",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "19.8%",
+
+
+
+        mangaSource: "Special Volume 1: File 6",
+        dubbedEpisode: "Episode 119",
+        englishTitle: "Prescription for Murder",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Feather",
+        director: "Kenji Kodama",
+        episodeDirector: "Kazuo Nogami",
+        animationDirector: "Hirobi Muranaka",
+        screenplay: "Yutaka Yamada",
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kazusa Murai as Tomoko Yamada Akimasa Ohmori as Tanaka Yuzuru Fujimoto as Old detective Isshin Chiba as Customer Yoshiko Okamoto as Lady Eiji Maruyama as Old man Wataru Takagi as Barkeeper, Next Conan's Hint",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Seven Mysteries of Teitan Elementary School Case",
+        nextCase: "Scuba Diving Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "爆弾処理", "Bakudan Shori", "Bomb Disposal"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper ver.)"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
+        ]
+    },
+    {
+        id: "114", isFiller: false, title: "114: Scuba Diving Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Eri Kisaki", "Ran Mouri"],
+        episodeDescription: "Ran secretly plans for her parents to meet at the beach in hopes of reuniting them. While there, they come upon Kiwako and Masahiko, who are childhood sweethearts and are engaged. When Kiwako gets bitten by a sea snake it appears a freakish accident has taken place, but Conan suspects there is more than what the regular eye can see.",
+        japaneseTitle: "スキューバダイビング殺人事件. (Sukyūba Daibingu Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "Not dubbed", ""],
+            ["Bahasa Melayu", "Kes pembunuhan penyelam skuba", "The scuba murder case"],
+            ["Catalan (Catalan dub)", "El cas de la submarinista mossegada per la serp", "The scuba diver bitten by a snake case"],
+            ["Catalan (Valencian dub)", "El cas de la submarinista", "Scuba diver case"],
+            ["French", "L'Affaire du serpent de mer", "The Snake Eel Case"],
+            ["Galician", "Submarinismo e asasinato", "Scuba diving and murder"],
+            ["German", "Der Biss der Seeschlange", "The Bite of the Sea Snake"],
+            ["Italian", "I sommozzatori", "The Scuba Divers"],
+            ["Spanish (American dub)", "Muerte en el mar", "Death at the sea"],
+            ["Spanish (Castilian dub)", "El caso de la buceadora", "The scuba diver case"],
+            ["Thai", "คดีฆาตกรรมนักดำน้ำ", "A diving murder case"],
+            ["Vietnamese", "Vụ án mưu sát người lặn biển", "Scuba Diver Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "August 24, 1998 (Part 1). August 31, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18.4%. 20.1%",
+
+
+        mangaCase: "#46",
+        mangaSource: "Volume 17: Files 3-5 (163-165)",
+        dubbedEpisode: "Episode 120-121",
+        englishTitle: "Scuba Dying",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Ring (Part 1). 1/2 (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "114 Hirohito Ochi. 115 Nana Harada",
+        animationDirector: "114 Izumi Shimura. 115 Kumiko Shishido",
+        screenplay: "Junichi Miyashita",
+        storyboard: "114 Kenji Kodama. 115 Masato Sato",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki Kikuko Inoue as Kiwako Toda Yuko Minaguchi as Harumi Matsuzaki Yoku Shioya as Kunio Kawazu Masaru Hachinohe as Masahiko Matsuzaki Moichi Saito as Hiroshi Ito Wataru Takagi as Emergency personnel, Next Conan's Hint (Part 1) Isshin Chiba as Employee Toshihiko Nakajima as Receptionist Naoki Makishima as Hotel man Mitsuki Saiga as Nurse Mikiko Enomoto as Hospital broadcast",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The White Sandy Beach Murder Case",
+        nextCase: "The Mystery Writer Disappearance Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "115", isFiller: false, title: "115: Scuba Diving Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Eri Kisaki", "Ran Mouri"],
+        episodeDescription: "Conan knows a love triangle is involved in Kiwako's attack, but is Kawazu or is Harumi the culprit?",
+        japaneseTitle: "スキューバダイビング殺人事件. (Sukyūba Daibingu Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "Not dubbed", ""],
+            ["Bahasa Melayu", "Kes pembunuhan penyelam skuba", "The scuba murder case"],
+            ["Catalan (Catalan dub)", "El cas de la submarinista mossegada per la serp", "The scuba diver bitten by a snake case"],
+            ["Catalan (Valencian dub)", "El cas de la submarinista", "Scuba diver case"],
+            ["French", "L'Affaire du serpent de mer", "The Snake Eel Case"],
+            ["Galician", "Submarinismo e asasinato", "Scuba diving and murder"],
+            ["German", "Der Biss der Seeschlange", "The Bite of the Sea Snake"],
+            ["Italian", "I sommozzatori", "The Scuba Divers"],
+            ["Spanish (American dub)", "Muerte en el mar", "Death at the sea"],
+            ["Spanish (Castilian dub)", "El caso de la buceadora", "The scuba diver case"],
+            ["Thai", "คดีฆาตกรรมนักดำน้ำ", "A diving murder case"],
+            ["Vietnamese", "Vụ án mưu sát người lặn biển", "Scuba Diver Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "August 24, 1998 (Part 1). August 31, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18.4%. 20.1%",
+
+
+        mangaCase: "#46",
+        mangaSource: "Volume 17: Files 3-5 (163-165)",
+        dubbedEpisode: "Episode 120-121",
+        englishTitle: "Scuba Dying",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Ring (Part 1). 1/2 (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "114 Hirohito Ochi. 115 Nana Harada",
+        animationDirector: "114 Izumi Shimura. 115 Kumiko Shishido",
+        screenplay: "Junichi Miyashita",
+        storyboard: "114 Kenji Kodama. 115 Masato Sato",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki Kikuko Inoue as Kiwako Toda Yuko Minaguchi as Harumi Matsuzaki Yoku Shioya as Kunio Kawazu Masaru Hachinohe as Masahiko Matsuzaki Moichi Saito as Hiroshi Ito Wataru Takagi as Emergency personnel, Next Conan's Hint (Part 1) Isshin Chiba as Employee Toshihiko Nakajima as Receptionist Naoki Makishima as Hotel man Mitsuki Saiga as Nurse Mikiko Enomoto as Hospital broadcast",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The White Sandy Beach Murder Case",
+        nextCase: "The Mystery Writer Disappearance Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper ver.)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "爆弾処理", "Bakudan Shori", "Bomb Disposal"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "沈む夕陽 （哀愁ver.）", "Shizumu Yūhi (Aishū ver.)", "Depressing Sunset (Sorrow ver.)"],
+            ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "116", isFiller: false, title: "116: The Mystery Writer Disappearance Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Heiji Hattori", "Kaori Shinmei", "Police detective", "Shinichi Kudo", "Yamada"],
+        episodeDescription: "One evening, Kogoro, Ran, and Conan watch the latest episode of a drama based on the mystery novel series Detective Samonji, written by Nintaro Shinmei. Ran then talk about how the novel is continuing after it ended ten years ago.",
+        japaneseTitle: "ミステリー作家失踪事件. (Misuterii Sakka Shissō Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "مَا بَيْنَ السُّطُور", "That Which Is Between the Lines"],
+            ["Catalan (Catalan dub)", "El cas de la fuga de l'escriptor de misteri", "The case of the escape of the mystery writer"],
+            ["Catalan (Valencian dub)", "La desaparició de l'escriptor de misteris", "The mystery writer disappearence"],
+            ["French", "La Disparition du mystérieux écrivain", "The Disappearance of the Mysterious Writer"],
+            ["Galician", "A desaparición dun escritor de novelas policíacas", "The Disappearance of a Police Novel Writer"],
+            ["German", "Wo ist Nintaro Shinmei?", "Where is Nintaro Shinmei?"],
+            ["Italian", "Il giallista scomparso", "The Disappeared Mystery Writer"],
+            ["Spanish (American dub)", "El escritor de misterio desaparece", "The mystery writer disappears"],
+            ["Spanish (Castilian dub)", "La desaparición del escritor de misterios", "The disappearance of the mystery writer"],
+            ["Thai", "คดีการหายตัวของนักเขียนนิยายสืบสวน", "The disappearance of a mystery novel writer case"],
+            ["Vietnamese", "Vụ án tiểu thuyết gia trinh thám mất tích", "The Mystery Writer Disappearance Case"]
+        ],
+        season: "5",
+        originalAirdate: "September 7, 1998 (Part 1). September 14, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "19.7%. 17.4%",
+
+
+        mangaCase: "#53",
+        mangaSource: "Volume 19: Files 2-4 (182-184)",
+        dubbedEpisode: "Episode 122-123",
+        englishTitle: "The Mystery Writer Disappearance",
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "French (Part 1). Car mirror (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "116 Johei Matsuura. 117 Kazuo Nogami",
+        animationDirector: "116 Atsushi Aono. 117 Hirobi Muranaka",
+
+        storyboard: "116 Johei Matsuura. 117 Kazuo Nogami",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Fumiko Osaka as Kaori Shinmei Yuzuru Fujimoto as Nintaro Shinmei Chikako Akimoto as Kaori's mother Eiichiro Suzuki as Samonji Matsuda Toshihiko Nakajima as Editor A Isshin Chiba as Editor B Naoki Makishima as Editor C Ikkei Seta as Comedian A Nobuaki Kanemitsu as Comedian B",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« Scuba Diving Murder Case",
+        nextCase: "The Naniwa Serial Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "事件解決", "Jiken Kaiketsu", "Case Resolution"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "117", isFiller: false, title: "117: The Mystery Writer Disappearance Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Heiji Hattori", "Kaori Shinmei", "Police detective", "Shinichi Kudo", "Yamada"],
+        episodeDescription: "Due to the fact Mr. Shinmei's signature from chapter seven onward were copy of his. It was determined he and his wife is in danger. Heiji Hattori later calls in and explain how he deciphered the text in the first new chapter, and with this information Conan manages to solve the rest of the hidden riddles, but can him and the cops get to the place Mr. and Mrs. Shinmei live before it was too late?",
+        japaneseTitle: "ミステリー作家失踪事件. (Misuterii Sakka Shissō Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "مَا بَيْنَ السُّطُور", "That Which Is Between the Lines"],
+            ["Catalan (Catalan dub)", "El cas de la fuga de l'escriptor de misteri", "The case of the escape of the mystery writer"],
+            ["Catalan (Valencian dub)", "La desaparició de l'escriptor de misteris", "The mystery writer disappearence"],
+            ["French", "La Disparition du mystérieux écrivain", "The Disappearance of the Mysterious Writer"],
+            ["Galician", "A desaparición dun escritor de novelas policíacas", "The Disappearance of a Police Novel Writer"],
+            ["German", "Wo ist Nintaro Shinmei?", "Where is Nintaro Shinmei?"],
+            ["Italian", "Il giallista scomparso", "The Disappeared Mystery Writer"],
+            ["Spanish (American dub)", "El escritor de misterio desaparece", "The mystery writer disappears"],
+            ["Spanish (Castilian dub)", "La desaparición del escritor de misterios", "The disappearance of the mystery writer"],
+            ["Thai", "คดีการหายตัวของนักเขียนนิยายสืบสวน", "The disappearance of a mystery novel writer case"],
+            ["Vietnamese", "Vụ án tiểu thuyết gia trinh thám mất tích", "The Mystery Writer Disappearance Case"]
+        ],
+        season: "5",
+        originalAirdate: "September 7, 1998 (Part 1). September 14, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "19.7%. 17.4%",
+
+
+        mangaCase: "#53",
+        mangaSource: "Volume 19: Files 2-4 (182-184)",
+        dubbedEpisode: "Episode 122-123",
+        englishTitle: "The Mystery Writer Disappearance",
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "French (Part 1). Car mirror (Part 2)",
+        director: "Kenji Kodama",
+        episodeDirector: "116 Johei Matsuura. 117 Kazuo Nogami",
+        animationDirector: "116 Atsushi Aono. 117 Hirobi Muranaka",
+
+        storyboard: "116 Johei Matsuura. 117 Kazuo Nogami",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Fumiko Osaka as Kaori Shinmei Yuzuru Fujimoto as Nintaro Shinmei Chikako Akimoto as Kaori's mother Eiichiro Suzuki as Samonji Matsuda Toshihiko Nakajima as Editor A Isshin Chiba as Editor B Naoki Makishima as Editor C Ikkei Seta as Comedian A Nobuaki Kanemitsu as Comedian B",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« Scuba Diving Murder Case",
+        nextCase: "The Naniwa Serial Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "ひらめき", "Hirameki", "Flash"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "118", isFiller: false, title: "118: The Naniwa Serial Murder Case (1 Hour Special)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Heiji Hattori", "Ran Mouri", "Kazuha Toyama", "Heizo Hattori", "Ginshiro Toyama", "Goro Otaki", "Ki'ichiro Numabuchi", "Shinichi Kudo"],
+        episodeDescription: "Heiji invites Conan, Ran, and Kogoro to visit him in Osaka, taking them on a sightseeing tour. In a restaurant, they run into Kazuha Toyama, Heiji's childhood friend, who appears to be jealous of Ran, asking her if she's 'that Kudo girl' that Heiji keeps talking about and telling Ran to back off, because Heiji and her have been 'joined by steel' for ages. Ran laughs and explains herself and the two girls hit it off. After finishing their meal, Kazuha joins them on their exploration of the city, but, as they leave the restaurant, a dead body falls from the roof of the building, hitting Kogoro's rental car.",
+        japaneseTitle: "浪花の連続殺人事件. (Naniwa no Renzoku Satsujin Jiken)",
+        titleInOtherLanguages: [
+        ],
+        season: "5",
+        originalAirdate: "September 23, 1998 *. July 19, 2004 (Rerun) *",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "21.2%",
+
+
+        mangaCase: "#54",
+        mangaSource: "Volume 19: Files 5-8 (185-188)",
+        dubbedEpisode: "Episode 124-125",
+        englishTitle: "License to Die",
+        caseSolvedBy: "Heiji Hattori",
+        nextConansHint: "Car mirror. N/A (Rerun)",
+        director: "Kenji Kodama",
+        episodeDirector: "Yasuichiro Yamamoto",
+        animationDirector: "Keiko Sasaki. Hiroto Yokote",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's HintAkira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Takehiro Koyama as Heizo Hattori Masato Sako as Ginshiro Toyama Norio Wakamoto as Goro Otaki Kazuya Ichijou as Yusuke Sakata Yukiko Hattori as Sumie Okazaki Takaya Hashi as Sotaro Goshi Naoki Tatsuta as Ki'ichiro Numabuchi Yukimasa Natori as Teahouse owner Hitoshi Horimoto as Secretary Katsumi Suzuki as Newscaster Kazunari Tanaka as Policeman A Nobuaki Kanemitsu as Policeman B",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Mystery Writer Disappearance Case",
+        nextCase: "The Kamen Yaiba Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D"],
+            ["00:00", "ターゲット サスペンスＧ", "Tāgetto Sasupensu G", "Target Suspense G"],
+            ["00:00", "コナンの大作戦１", "Konan no Daisakusen 1", "Conan's Big Battle 1"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar ver.)"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D"],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "コナンの大作戦２", "Konan no Daisakusen 2", "Conan's Big Battle 2"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A"],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "コナンが通る", "Konan ga Tōru", "Conan Passes By"],
+            ["00:00", "ターゲット サスペンスＪ", "Tāgetto Sasupensu J", "Target Suspense J"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D"],
+            ["00:00", "ターゲット サスペンスＧ", "Tāgetto Sasupensu G", "Target Suspense G"],
+            ["00:00", "ターゲット サスペンスＩ", "Tāgetto Sasupensu I", "Target Suspense I"],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （バラードver.）", "'Meitantei Konan' Mein・Tēma (Barādo ver.)", "'Detective Conan' Main Theme (Ballad ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "119", isFiller: true, title: "119: The Kamen Yaiba Murder Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Kamen Yaiba"],
+        episodeDescription: "While on the way to dinner, Conan and the group come across a bunch of people dressed as Kamen Yaiba fans. They are invited to the party where an attempted murder and suicide appears to occur, but Conan begins to wonder if there is more than meets the eye to this.",
+        japaneseTitle: "仮面ヤイバー殺人事件. (Kamen Yaibā Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "البطل المقنع", "The Masked Hero"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat d'en Yaïba l'emmascarat", "Masked Yaiba murder case"],
+            ["Catalan (Valencian dub)", "L'assassinat de Kamen Yaiba", "The Kamen Yaiba murder"],
+            ["French", "Meurtre au fan-club de Kamen Yaiba", "Murder at the Kamen Yaiba fan-club"],
+            ["Galician", "O asasinato de Yaiba o enmascarado", "Masked Yaiba murder"],
+            ["German", "Im falschen Film", "In the Wrong Movie"],
+            ["Italian", "La matricola", "The Freshman"],
+            ["Spanish (American dub)", "El caso del asesinato Kamen Yaiba", "The Kamen Yaiba murder case"],
+            ["Spanish (Castilian dub)", "El caso de Yaiba el enmascarado", "Masked Yaiba case"],
+            ["Thai", "คดีฆาตกรรมหน้ากากไยบะ", "Masked Yaiba murder case"],
+            ["Vietnamese", "Vụ án sát nhân Kamen Yaiba", "The Kamen Yaiba Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "October 12, 1998. December 28, 2019 (Remastered version)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18%",
+        remasteredRating: "6.6%",
+        fillerCase: "#45",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 126",
+        englishTitle: "The Masked Yaiba Murder Mystery",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Model gun. Costume (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Hirohito Ochi",
+        animationDirector: "Izumi Shimura",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Izumi Shimura (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Toshihiko Nakajima as Officer Tome Takeshi Kusao as Osamu Honda Takehiro Murozono as Yasuyuki Tsutsumi Yuka Imai as Madoka Saotome Takashi Nagasako as Katsuji Mishima Mikiko Enomoto as Hiroshi Honda",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Naniwa Serial Murder Case",
+        nextCase: "A Honey Cocktail Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"],
+            ["00:00", "新一のテーマ", "Shin'ichi no Tēma", "Shinichi's Theme"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "事件の謎", "Jiken no Nazo", "Mystery of the Case"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （バラードver.）", "'Meitantei Konan' Mein・Tēma (Barādo ver.)", "'Detective Conan' Main Theme (Ballad ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
+        ]
+    },
+    {
+        id: "120", isFiller: true, title: "120: A Honey Cocktail Murder Case",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+        episodeDescription: "A woman Kogoro helped in an earlier case, Hiromi Yamazaki, invites Conan, Ran, and Kogoro to a new planned mountain estate in Iwami Town, Tottori Prefecture, hoping to get Kogoro to be their propganda model for their new Hotspring their going to bulid. Later, when Kogoro, Ran, Conan, the mayor, and the caretaker are enjoying a cocktail, the presidents falls from the balcony and fells on the cliff rocks.",
+        japaneseTitle: "ハニーカクテル殺人事件. (Hanī Kakuteru Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "سلاح بجناحين", "A Weapon With Two Wings"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat del còctel de mel", "Honey Cocktail murder case"],
+            ["Catalan (Valencian dub)", "L'assassinat del còctel de mel", "Honey Cocktail murder"],
+            ["French", "Un meurtre au goût de miel", "A Honey-tasting Murder"],
+            ["Galician", "Asasinato con mel", "Murder with honey"],
+            ["German", "Angriff der Killerwespen", "Attack of the Killer Wasps"],
+            ["Italian", "Api e miele", "Bees and Honey"],
+            ["Spanish (American dub)", "El caso del asesinato de miel", "Honey cocktail case"],
+            ["Spain (Castilian dub)", "El asesinato en el cóctel de miel", "Murder at the honey cocktail"],
+            ["Thai", "คดีฆาตกรรมฮันนี่ค็อกเทล", "Honey cocktail murder case"],
+            ["Vietnamese", "Vụ án cocktail mật ong giết người", "A Honey Cocktail Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "October 19, 1998",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "18.2%",
+
+        fillerCase: "#46",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 127",
+        englishTitle: "The Big Sting",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Balloon",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Johei Matsuura",
+        animationDirector: "Atsushi Aono",
+        screenplay: "Masaaki Sakurai",
+        storyboard: "Johei Matsuura",
+        characterDesign: "Masatomo Sudo. Takashi Hyodo (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akiko Takeguchi as Hiromi Yamazaki Rei Igarashi as Eri Nakamura Kinryuu Arimoto as Shingo Aihara Masaaki Okabe as Hachibe Hachimaki Hideyuki Umezu as Ichiro Suzuki",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Kamen Yaiba Murder Case",
+        nextCase: "The Locked Bathroom Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper ver.)"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West"],
+            ["00:00", "闇の男爵ナイトバロンのテーマ", "Yami no Danshaku Naito Baron no Tēma", "Baron of the Darkness, The Night Baron's Theme"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"]
+        ]
+    },
+    {
+        id: "121", isFiller: false, title: "121: The Locked Bathroom Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Yoko Okino", "Asuka Anzai", "Terumi Hoshino"],
+        episodeDescription: "While on the way to a Yoko Okino concert Kogoro loses his ticket. Luck seems to be on his side when a young lady named Masayo Aoshima has an extra ticket, but the concert ends up being the last thing on their minds when they walk into her sister Mina's house and comes upon an apparent suicide.",
+        japaneseTitle: "バスルーム密室事件. (Basurūmu Misshitsu Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "تيما وسيما", "Tima and Sima"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat enigmàtic del lavabo tancat", "The enigmatic murder at the closed bathroom case"],
+            ["Catalan (Valencian dub)", "L'assassinat del lavabo", "The bathroom murder"],
+            ["French", "L'Affaire des deux soeurs", "The Case of the Two Sisters"],
+            ["Galician", "O vencello esquecido entre dúas irmás", "The forgotten link between two sisters"],
+            ["German", "Das versiegelte Badezimmer", "The Sealed Bathroom"],
+            ["Italian", "Le due sorelle", "The Two Sisters"],
+            ["Spanish (Castilian dub)", "El asesinato en el cuarto de baño", "Murder at bathroom"],
+            ["Spanish (American dub)", "El extraño caso de las hermanas", "The sisters' strange case"],
+            ["Thai", "คดีห้องอาบน้ำที่ปิดล็อก", "The locked bathroom case"],
+            ["Vietnamese", "Án mạng trong phòng tắm bị khóa kín", "The Locked Bathroom Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "October 26, 1998 (Part 1). November 2, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "20.9%. 20%",
+
+
+        mangaCase: "#57",
+        mangaSource: "Volume 20: Files 7-9 (197-199)",
+        dubbedEpisode: "Episode 128-129",
+        englishTitle: "The Forgotten Bond",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Packing tape (Part 1). Bandana (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "121 Nana Harada. 122 Yoshio Suzuki",
+        animationDirector: "121 Kumiko Shishido. 122 Hirobi Muranaka",
+
+        storyboard: "Masato Sato",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Yuri Amano as Yoko Okino Yukari Tamura as Mina Aoshima Aya Hisakawa as Masayo Aoshima Kunihiko Yasui as Kenji Isshin Chiba as Forensics officer",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« A Honey Cocktail Murder Case",
+        nextCase: "The Weather Girl Kidnapping Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "アクアクリスタル", "Akua Kurisutaru", "Aqua Crystal"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "毛利小五郎のテーマ（ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper ver.)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "122", isFiller: false, title: "122: The Locked Bathroom Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Yoko Okino", "Asuka Anzai", "Terumi Hoshino"],
+        episodeDescription: "Just as it appears the perfect crime has been committed, Detective Takagi returns with news that could show Mina cared more for her sister than anyone realized. When a spot of Mina's blood is also found on the door, it is all the clues Conan needs to prove Masayo murdered her sister.",
+        japaneseTitle: "バスルーム密室事件. (Basurūmu Misshitsu Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "تيما وسيما", "Tima and Sima"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat enigmàtic del lavabo tancat", "The enigmatic murder at the closed bathroom case"],
+            ["Catalan (Valencian dub)", "L'assassinat del lavabo", "The bathroom murder"],
+            ["French", "L'Affaire des deux soeurs", "The Case of the Two Sisters"],
+            ["Galician", "O vencello esquecido entre dúas irmás", "The forgotten link between two sisters"],
+            ["German", "Das versiegelte Badezimmer", "The Sealed Bathroom"],
+            ["Italian", "Le due sorelle", "The Two Sisters"],
+            ["Spanish (Castilian dub)", "El asesinato en el cuarto de baño", "Murder at bathroom"],
+            ["Spanish (American dub)", "El extraño caso de las hermanas", "The sisters' strange case"],
+            ["Thai", "คดีห้องอาบน้ำที่ปิดล็อก", "The locked bathroom case"],
+            ["Vietnamese", "Án mạng trong phòng tắm bị khóa kín", "The Locked Bathroom Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "October 26, 1998 (Part 1). November 2, 1998 (Part 2)",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "20.9%. 20%",
+
+
+        mangaCase: "#57",
+        mangaSource: "Volume 20: Files 7-9 (197-199)",
+        dubbedEpisode: "Episode 128-129",
+        englishTitle: "The Forgotten Bond",
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Packing tape (Part 1). Bandana (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "121 Nana Harada. 122 Yoshio Suzuki",
+        animationDirector: "121 Kumiko Shishido. 122 Hirobi Muranaka",
+
+        storyboard: "Masato Sato",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Yuri Amano as Yoko Okino Yukari Tamura as Mina Aoshima Aya Hisakawa as Masayo Aoshima Kunihiko Yasui as Kenji Isshin Chiba as Forensics officer",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« A Honey Cocktail Murder Case",
+        nextCase: "The Weather Girl Kidnapping Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "ひらめき", "Hirameki", "Flash"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "新一の事件解明", "Shin'ichi no Jiken Kaimei", "Shinichi's Case Clarification"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "コナンが通る", "Konan ga Tōru", "Conan Passes By"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"]
+        ]
+    },
+    {
+        id: "123", isFiller: true, title: "123: The Weather Girl Kidnapping Case",
+        appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri"],
+        episodeDescription: "While Kogoro is sleeping from drinking too much, the Detective Boys listen to one of his messages and end up talking to Nichiuri TV newswoman Aki Asano. When she goes missing though, it's up to the Detective Boys to solve the clues she is sending them on Conan's pager.",
+        japaneseTitle: "お天気お姉さん誘拐事件. (Otenki Onēsan Yūkai Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "الرسائل الرقمية", "The Digital Messages"],
+            ["Catalan (Catalan dub)", "El cas del segrest de la dona del temps", "The weather woman kidnapping case"],
+            ["Catalan (Valencian dub)", "El segrest de la xica de l'oratge", "The weather girl kidnapping"],
+            ["French", "Le Kidnapping de Mademoiselle Meteo", "The Kidnapping of the Weather Girl"],
+            ["Galician", "O secuestro da muller do tempo", "The weather woman kidnapping"],
+            ["German", "Zahlenspiele", "Numbers Game"],
+            ["Italian", "Che tempo fa?", "What is the Weather Like?"],
+            ["Spanish (American dub)", "El secuestro de la reportera", "The reporter kidnapping"],
+            ["Spanish (Castilian dub)", "El secuestro de la chica del tiempo", "The weather girl kidnapping"],
+            ["Thai", "คดีลักพาตัวสาวพยากรณ์อากาศ", "The weather girl kidnapping case"],
+            ["Vietnamese", "Vụ bắt cóc nữ biên tập viên dự báo thời tiết", "The Weather Girl Kidnapping Case"]
+        ],
+        season: "5",
+        originalAirdate: "November 9, 1998",
+        englishAirdate: "May 12, 2009 (DVD)",
+        broadcastRating: "21.7%",
+
+        fillerCase: "#47",
+
+        mangaSource: "TV Original",
+        dubbedEpisode: "Episode 130",
+        englishTitle: "The Disappearing Weather Girl",
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Beeper",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Minoru Tozawa",
+        animationDirector: "Keiko Sasaki",
+        screenplay: "Manabu Harada",
+        storyboard: "Yoshio Suzuki",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Kishiko Yonekura as Aki Asano Yoshiko Sakakibara as Kazumi Tsukumo Hiroyuki Yokoo as Kobayashi Yasuhiro Takato as Staff Isshin Chiba as AD",
+        openingSong: "Unmei no Roulette Mawashite",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Locked Bathroom Murder Case",
+        nextCase: "A Mysterious Sniper Murder Case »",
+        BGM: [
+            ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "スペードのエース", "Supēdo no Ēsu", "The Ace of Spades"],
+            ["00:00", "コナンの夢", "Konan no Yume", "Conan's Dream"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "124", isFiller: true, title: "124: A Mysterious Sniper Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+        episodeDescription: "Seiji Ishimoto, president of an electronic company, claims he has been receiving threat letters and hires Kogoro as a bodyguard. As a House of Representatives member gets on stage at the banquet where they're at, he is shot and Seiji's shoulder is grazed.",
+        japaneseTitle: "謎の狙撃者殺人事件. (Nazo no Sogekisha Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "بقعة الضوء", "The Spotlight"],
+            ["Bahasa Melayu", "Misteri pembunuh upahan", "The mysterious contract killer"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat del franctirador misteriós", "The Mysterious Sniper Murder Case"],
+            ["Catalan (Valencian dub)", "L'assassí misteriós", "The mysterious murderer"],
+            ["French", "Le Mystérieux assassin", "The mysterious murderer"],
+            ["Galician", "A misteriosa morte do asasino", "The murderer's Mysterious Death"],
+            ["German", "Der mysteriöse Scharfschütze", "The Mysterious Sniper"],
+            ["Italian", "L'assassino misterioso", "The Mysterious Murderer"],
+            ["Spanish (American dub)", "El asesino misterioso", "The mysterious murderer"],
+            ["Spanish (Castilian dub)", "El asesinato del misterioso tirador", "The Mysterious Sniper Murder"],
+            ["Thai", "คดีฆาตกรรมมือปืนปริศนา", "A mysterious sniper murder case"],
+            ["Vietnamese", "Vụ án sát nhân bắn tỉa bí ẩn", "A Mysterious Sniper Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "November 16, 1998 (Part 1). November 23, 1998 (Part 2)",
+
+        broadcastRating: "19.9%. 16.4%",
+
+        fillerCase: "#48",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Spotlight (Part 1). Remote control (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "124 Nana Harada. 125 Hirohito Ochi",
+        animationDirector: "124 Miwa Oshima. 125 Izumi Shimura",
+        screenplay: "Hiroshi Kashiwabara",
+        storyboard: "124 Kenji Kodama. 125 Hirohito Ochi",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Kiyoshi Kawakubo as Seiji Ishimoto Yumi Hikita as Yukiko Tanaka Hiroshi Naka as Masao Takada Banjou Ginga as Tsuneaki Niikura Ryuzaburo Otomo as Shiro Hiraoka Masamichi Sato as Kenichi Shibata Ginzo Matsuo as Iwato Kaze Isshin Chiba as Presenter Yoshiko Okamoto as Lady Nao Takamori as Companion Mitsuki Saiga as Beautiful client",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Weather Girl Kidnapping Case",
+        nextCase: "The Traveling Drama Troupe Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper ver.)"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "犯人の目星", "Hannin no Meboshi", "The Culprit's Objective"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "125", isFiller: true, title: "125: A Mysterious Sniper Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+        episodeDescription: "Seiji tells the police about the threat letters after he's approached by the victim's secretary, Tsuneaki Niikura. When everyone leaves the hotel room, Conan does a search, but he is interrupted by an unknown man who finds something. Inspector Megure questions Kogoro about Seiji's secretary and reveals she has a motive and shows a picture of her boyfriend who Kogoro recognizes as the person he bumped into as he left the hotel room.",
+        japaneseTitle: "謎の狙撃者殺人事件. (Nazo no Sogekisha Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "بقعة الضوء", "The Spotlight"],
+            ["Bahasa Melayu", "Misteri pembunuh upahan", "The mysterious contract killer"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat del franctirador misteriós", "The Mysterious Sniper Murder Case"],
+            ["Catalan (Valencian dub)", "L'assassí misteriós", "The mysterious murderer"],
+            ["French", "Le Mystérieux assassin", "The mysterious murderer"],
+            ["Galician", "A misteriosa morte do asasino", "The murderer's Mysterious Death"],
+            ["German", "Der mysteriöse Scharfschütze", "The Mysterious Sniper"],
+            ["Italian", "L'assassino misterioso", "The Mysterious Murderer"],
+            ["Spanish (American dub)", "El asesino misterioso", "The mysterious murderer"],
+            ["Spanish (Castilian dub)", "El asesinato del misterioso tirador", "The Mysterious Sniper Murder"],
+            ["Thai", "คดีฆาตกรรมมือปืนปริศนา", "A mysterious sniper murder case"],
+            ["Vietnamese", "Vụ án sát nhân bắn tỉa bí ẩn", "A Mysterious Sniper Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "November 16, 1998 (Part 1). November 23, 1998 (Part 2)",
+
+        broadcastRating: "19.9%. 16.4%",
+
+        fillerCase: "#48",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Spotlight (Part 1). Remote control (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "124 Nana Harada. 125 Hirohito Ochi",
+        animationDirector: "124 Miwa Oshima. 125 Izumi Shimura",
+        screenplay: "Hiroshi Kashiwabara",
+        storyboard: "124 Kenji Kodama. 125 Hirohito Ochi",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Kiyoshi Kawakubo as Seiji Ishimoto Yumi Hikita as Yukiko Tanaka Hiroshi Naka as Masao Takada Banjou Ginga as Tsuneaki Niikura Ryuzaburo Otomo as Shiro Hiraoka Masamichi Sato as Kenichi Shibata Ginzo Matsuo as Iwato Kaze Isshin Chiba as Presenter Yoshiko Okamoto as Lady Nao Takamori as Companion Mitsuki Saiga as Beautiful client",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Weather Girl Kidnapping Case",
+        nextCase: "The Traveling Drama Troupe Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "犯人の目星", "Hannin no Meboshi", "The Culprit's Objective"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper ver.)"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "スペードのエース", "Supēdo no Ēsu", "The Ace of Spades"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)"]
+        ]
+    },
+    {
+        id: "126", isFiller: true, title: "126: The Traveling Drama Troupe Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Tamanosuke Ito", "Megumi Ito"],
+        episodeDescription: "While in the classroom one day, several female Teitan High School students, including Ran and Sonoko, gather around the new transfer student, Tamanosuke Ito, as he answers questions about his drama troupe. Sonoko shows everyone a flyer advertising the troupe's production and reads aloud that the show will be the first public performance run by Tamanosuke since becoming the troupe's second ringleader. Tamanosuke confirms this, later explaining that his troupe travels around the entire country and was previously in Beika two years prior when his father was the ringleader. When Ran mentions that she heard his father passed away, Tamanosuke confirms that the previous ringleader died of a disease the previous year. When his father died, half the troupe subsequently left, making transition very challenging. Sonoko volunteers herself and Ran to distribute the troupe's flyers so that Tamanosuke can concentrate on practicing for the big show.",
+        japaneseTitle: "旅芝居一座殺人事件. (Tabi Shibai Ichiza Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "فرقة المسرح المتجولة", "The Theatre Troupe"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la companyia de teatre itinerant", "The itinerant theater company murder case"],
+            ["Catalan (Valencian dub)", "La companyia de teatre ambulant", "The travelling theater company"],
+            ["French", "Meurtre au théâtre", "Murder on the Theatre Stage"],
+            ["Galician", "Asasinato na compañía itinerante de teatro", "Murder at the itinerant theater company"],
+            ["German", "Mord im Theater", "Murder in the Theater"],
+            ["Italian", "Delitto dietro le quinte", "Crime Behind the Scenes"],
+            ["Spanish (American dub)", "La compañía de teatro itinerante", "The itinerant theater company"],
+            ["Spanish (Castilian dub)", "El asesinato de la compañía de teatro", "The theater company murder"],
+            ["Thai", "คดีฆาตกรรมคณะละครเร่", "The traveling drama troupe murder case"],
+            ["Vietnamese", "Vụ án giết người ở đoàn kịch lưu động", "The Traveling Drama Troupe Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "November 30, 1998 (Part 1). December 7, 1998 (Part 2)",
+
+        broadcastRating: "20.1%. 21.3%",
+
+        fillerCase: "#49",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Characters (Part 1). Script (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "126 Johei Matsuura. 127 Yoshio Suzuki",
+        animationDirector: "126 Atsushi Aono. 127 Kumiko Shishido",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Naoko Matsui as Sonoko Suzuki Soichiro Hoshi as Tamanosuke Ito Runa Akiyama as Megumi Ito Ken Narita as Ryuichi Muraki Sayaka Ohara as Yuri Shirai Kazue Ikura as Itoe Ogiwara Nobuaki Fukuda as Tetsuo Chikaishi Taimei Suzuki as Kenzo Tajima Isshin Chiba as Theatre staff Mikiko Enomoto as Woman Hitoshi Hirao as Male innkeeper Yoshiko Okamoto as Female innkeeper",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« A Mysterious Sniper Murder Case",
+        nextCase: "The Black Organization: One Billion Yen Robbery Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper ver.)"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "恋のトランプゲーム占い", "Koi no Toranpu Gēmu Uranai", "Love's Fortune-Telling Card Game"],
+            ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "127", isFiller: true, title: "127: The Traveling Drama Troupe Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Tamanosuke Ito", "Megumi Ito"],
+        episodeDescription: "The Detective Boys and Megumi are watching a news report from the troupe’s hotel room on Chikaishi’s death, with the reporter stationed right outside the building. When the reporter mentions the ringleader, Tamanosuke, was currently being questioned at the station, Megumi turns off the television out of frustration. Coincidently, Yuri excitedly opens the door to the room with the children to give Megumi good news: Tamanosuke had returned. As Megumi runs out to greet her brother, Tamanosuke walks down the hallway with support from Tajima, least he fall to the ground again.",
+        japaneseTitle: "旅芝居一座殺人事件. (Tabi Shibai Ichiza Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "فرقة المسرح المتجولة", "The Theatre Troupe"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la companyia de teatre itinerant", "The itinerant theater company murder case"],
+            ["Catalan (Valencian dub)", "La companyia de teatre ambulant", "The travelling theater company"],
+            ["French", "Meurtre au théâtre", "Murder on the Theatre Stage"],
+            ["Galician", "Asasinato na compañía itinerante de teatro", "Murder at the itinerant theater company"],
+            ["German", "Mord im Theater", "Murder in the Theater"],
+            ["Italian", "Delitto dietro le quinte", "Crime Behind the Scenes"],
+            ["Spanish (American dub)", "La compañía de teatro itinerante", "The itinerant theater company"],
+            ["Spanish (Castilian dub)", "El asesinato de la compañía de teatro", "The theater company murder"],
+            ["Thai", "คดีฆาตกรรมคณะละครเร่", "The traveling drama troupe murder case"],
+            ["Vietnamese", "Vụ án giết người ở đoàn kịch lưu động", "The Traveling Drama Troupe Murder Case"]
+        ],
+        season: "5",
+        originalAirdate: "November 30, 1998 (Part 1). December 7, 1998 (Part 2)",
+
+        broadcastRating: "20.1%. 21.3%",
+
+        fillerCase: "#49",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Characters (Part 1). Script (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "126 Johei Matsuura. 127 Yoshio Suzuki",
+        animationDirector: "126 Atsushi Aono. 127 Kumiko Shishido",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Naoko Matsui as Sonoko Suzuki Soichiro Hoshi as Tamanosuke Ito Runa Akiyama as Megumi Ito Ken Narita as Ryuichi Muraki Sayaka Ohara as Yuri Shirai Kazue Ikura as Itoe Ogiwara Nobuaki Fukuda as Tetsuo Chikaishi Taimei Suzuki as Kenzo Tajima Isshin Chiba as Theatre staff Mikiko Enomoto as Woman Hitoshi Hirao as Male innkeeper Yoshiko Okamoto as Female innkeeper",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« A Mysterious Sniper Murder Case",
+        nextCase: "The Black Organization: One Billion Yen Robbery Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "新一の事件解明", "Shin'ichi no Jiken Kaimei", "Shinichi's Case Clarification"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout"],
+            ["00:00", "コナンのテーマ", "Konan no Tēma", "Conan's Theme"],
+            ["00:00", "次のターゲット！", "Tsugi no Tāgetto!", "The Next Target!"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal ver.)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"]
+        ]
+    },
+    {
+        id: "128", isFiller: false, title: "128: The Black Organization: One Billion Yen Robbery Case",
+        appearances: ["Conan Edogawa", "Akemi Miyano", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Gin", "Vodka", "Police detective", "Kamen Yaiba"],
+        episodeDescription: "While at the bank, Conan witnesses bank robbers driving away with the 1 billion yen in a truck. The police finds the abandoned truck under the bridge and come upon a mask used for the robbery.",
+        japaneseTitle: "黒の組織10億円強奪事件. (Kuro no Soshiki Jūoku En Gōdatsu Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "عصابة المعاطف السوداء", "The Black Coat Gang"],
+            ["Catalan (Catalan dub)", "El cas del robatori de 10 milions de iens de l'Organització dels Homes de Negre", "The Men in Black organization 10 millions yens robbery case"],
+            ["Catalan (Valencian dub)", "El robatori dels deu milions de dòlars", "The 10 millions dollars robbery"],
+            ["French", "Le Dixième braquage des Hommes en Noir", "The Tenth Robbery of the Men in Black"],
+            ["Galician", "O grande atraco da Organización dos Homes de Negro", "The Men in Black organization great hold-up"],
+            ["German", "Der Milliardenraub", "The Billion Robbery"],
+            ["Italian", "Rapina in banca", "The Bank Robbery"],
+            ["Spanish (American dub)", "El robo de mil millones perpetrado por los Hombres de Negro de la Organización", "The billion robbery perpetrated by the Men in Black of the organization"],
+            ["Spanish (Castilian dub)", "El gran robo de los diez millones de dólares de la Organización de los Hombres de Negro", "The Men in Black organization 10 millions dollars great robbery"],
+            ["Thai", "คดีปล้นเงินพันล้านขององค์กรชุดดำ", "The Black Organization's billion robbery case."],
+            ["Vietnamese", "Tổ Chức Áo Đen: Vụ cướp một tỷ yên", "The Black Organization: One Billion Yen Robbery Case"]
+        ],
+        season: "5",
+        originalAirdate: "December 14, 1998",
+
+        broadcastRating: "20.9%",
+
+
+        mangaCase: "#5",
+        mangaSource: "Volume 2: Files 4-7 (013-016) (h.a.)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Gin and Vodka",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Minoru Tozawa",
+        animationDirector: "Keiko Sasaki",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Toshihiko Nakajima as Officer Tome Sakiko Tamagawa as Masami Hirota (Akemi Miyano) Isshin Chiba as Kishii Hiroshi Naka as Shiro Kaizuka Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Traveling Drama Troupe Murder Case",
+        nextCase: "The Girl from the Black Organization and the University Professor Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "カード賭博のボス", "Kādo Tobaku no Bosu", "The Card Gambler's Boss"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "次のターゲット！", "Tsugi no Tāgetto!", "The Next Target!"],
+            ["00:00", "謎の解明（ターゲット サスペンスＫ）", "Nazo no Kaimei (Tāgetto Sasupensu K)", "Clearing the Mystery (Target Suspense K)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "スペードのエース", "Supēdo no Ēsu", "The Ace of Spades"]
+        ]
+    },
+    {
+        id: "129", isFiller: false, title: "129: The Girl from the Black Organization and the University Professor Murder Case (2 Hour Special)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Sumiko Kobayashi", "Hiroshi Agasa", "Sango Yokomizo", "Akemi Miyano", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Gin", "Vodka", "Shinichi Kudo"],
+        episodeDescription: "A new girl named Ai Haibara transfers into Conan's class. Conan is apathetic, but the rest of the Detective Boys are excited. She acts rather cold and reserved when the Detective Boys try to befriend her, and Genta notices she's looking at Conan suspiciously. She tells them she lives at Beika 2-chōme, 22-banchi, which Conan deduces is right near his house, but can't think of any candidate houses or apartments where a Haibara family has lived.",
+        japaneseTitle: "黒の組織から来た女 大学教授殺人事件. (Kuro no Soshiki Kara Kita Onna Daigaku Kyōju Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "الطالبة الجديدة", "The new student"],
+            ["Catalan (Catalan dub)", "La noia que va venir de l'Organització dels Homes de Negre", "The girl who came from the Men in Black Organization"],
+            ["Catalan (Valencian dub)", "La xica de l'Organització dels Homes de Negre", "The girl from the Men in Black Organization"],
+            ["Chinese (Simplified)", "来自黑衣组织的女子 大学教授杀人事件", "The girl from the Black Organization - the university professor murder case"],
+            ["Chinese (Traditional)", "黑暗組織來的女子 大學教授殺人事件", "The girl from the Black Organization - the university professor murder case"],
+            ["French", "La Nouvelle élève", "The new student"],
+            ["Galician", "A misteriosa alumna nova", "The mysterious new student"],
+            ["German", "Den Männern in Schwarz auf der Spur", "On the track of the Men in Black"],
+            ["Hindi", "द गर्ल फ्रम द ब्लैक ऑर्गनाइजेशन एंड द यूनिवर्सिटी प्रोफेसर मर्डर केस", "The Girl from the Black Organization and the University Professor Murder Case"],
+            ["Italian", "La nuova studentessa", "The new student"],
+            ["Spanish (American dub)", "La misteriosa alumna nueva y el asesinato del profesor universitario", "The mysterious new student and the university professor murder"],
+            ["Spanish (Castilian dub)", "La chica de la Organización de los Hombres de Negro", "The Men in Black organization girl"],
+            ["Thai", "ผู้หญิงที่มาจากองค์กรชุดดำ กับคดีฆาตกรรมอาจารย์มหาวิทยาลัย", "The girl from the Black Organization and the university professor murder case"],
+            ["Vietnamese", "Cô gái bí ẩn đến từ Tổ Chức Áo Đen - Vụ án giáo sư đại học bị sát hại", "The mysterious girl from the Black Organization - the vniversity professor murder case"]
+        ],
+        season: "5",
+        originalAirdate: "January 4, 1999 *",
+
+        broadcastRating: "20.9%",
+
+
+        mangaCase: "#51. #52",
+        mangaSource: "Volume 18: File 6 (176) ~. Volume 19: File 1 (181)",
+
+
+        caseSolvedBy: "Conan Edogawa. Hiroshi Agasa (via Conan)",
+        nextConansHint: "Cassette tape",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Keitaro Motonaga. Toshiya Shinohara",
+        animationDirector: "Akio Kawamura",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima Megumi Hayashibara as Ai Haibara, Shiho Miyano Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Akio Otsuka as Sango Yokomizo Yuko Kato as Sumiko Kobayashi Motoko Kumai as Toshiya Kousuke Okano as Toshiya's brother Yukiko Hattori as Toshiya's mother Mitsuki Saiga as Clerk Toshihiko Nakajima as Man Yoshizou Yamaguchi as Real estate agent Isshin Chiba as Policeman Yasuhiro Takato as Policeman Jun Karasawa as Lady in black Koji Ishii as Black hat man Jin Hirao as Inuyama Hiroshi Naka as Masami Hirota Sachi Asakura as Toshiko Hirota Takehito Koyasu as Akira Shirakura Katsuhisa Houki as Michio Morioka Yuji Fujishiro as Kazuhiro Hosoya Sakiko Tamagawa as Akemi Miyano Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Black Organization: One Billion Yen Robbery Case",
+        nextCase: "The Indiscriminate Stadium Threatening Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "ぼくがいる～コナンのテーマ（インストヴァージョン）", "Boku ga Iru ~ Konan no Tēma (Insuto Vājon)", "I'm Here ~ Conan's Theme (Instrumental Version)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D"],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "爆破予告", "Bakuha Yokoku", "Bomb Warning"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "ターゲット サスペンスＪ", "Tāgetto Sasupensu J", "Target Suspense J"],
+            ["00:00", "スペードのエース", "Supēdo no Ēsu", "The Ace of Spades"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "恋のトランプゲーム占い", "Koi no Toranpu Gēmu Uranai", "Love's Fortune-Telling Card Game"],
+            ["00:00", "カード賭博のボス", "Kādo Tobaku no Bosu", "The Card Gambler's Boss"],
+            ["00:00", "ターゲット サスペンスＦ", "Tāgetto Sasupensu F", "Target Suspense F"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal Version)"],
+            ["00:00", "ターゲット サスペンスＥ", "Tāgetto Sasupensu E", "Target Suspense E"],
+            ["00:00", "謎の解明 （ターゲット サスペンスＫ）", "Nazo no Kaimei (Tāgetto Sasupensu K)", "Clearing the Mystery (Target Suspense K)"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "スペードのエース", "Supēdo no Ēsu", "The Ace of Spades"]
+        ]
+    },
+    {
+        id: "130", isFiller: false, title: "130: The Indiscriminate Stadium Threatening Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Ran Mouri", "Kogoro Mouri", "Hideo Akagi", "Naoki Uemura", "Gin", "Vodka"],
+        episodeDescription: "Conan and the Detective Boys are watching a soccer game when someone calls the television station covering the game. This person demands that 50 million yen be given to him, or he will indiscriminately shoot someone in the stands.",
+        japaneseTitle: "競技場無差別脅迫事件. (Kyougijou Musabetsu Kyouhaku Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "تهديد داخل الملعب", "A Threat Inside the Stadium"],
+            ["Catalan (Catalan dub)", "El cas del xantatge dels assassinats indiscriminats a l'estadi", "The indiscriminate murders at Stadium blackmail case"],
+            ["Catalan (Valencian dub)", "Amenaça d'assassinat indiscriminat a l'estadi", "Indiscriminate murder at Stadium threat"],
+            ["French", "Menace de meurtre aveugle au stade", "Threat of an Indiscriminate Murder in the Stadium"],
+            ["Galician", "Ameaza de asasinato indiscriminado no estadio", "Indiscriminate murder at Stadium threat"],
+            ["German", "Schüsse im Stadion", "Gunshots in the Stadium"],
+            ["Italian", "Minaccia allo stadio", "Threat at the Stadium"],
+            ["Spanish (American dub)", "El caso de la amenaza indiscriminada al estadio", "The indiscriminate threat at Stadium case"],
+            ["Spanish (Castilian dub)", "El asesinato indiscriminado en el estadio", "The indiscriminate murder at Stadium"],
+            ["Thai", "คดีขู่ฆ่าหมู่ในสนามกีฬา", "The mass murder threatening in a sport stadium case"],
+            ["Vietnamese", "Vụ án đe doạ tính mạng cả sân vận động", "The Indiscriminate Stadium Threatening Case"]
+        ],
+        season: "5",
+        originalAirdate: "January 11, 1999 (Part 1). January 18, 1999 (Part 2). Remastered version. First broadcast: January 21, 2012 (Part 1). January 28, 2012 (Part 2). Second broadcast:. December 10, 2022 (Part 1). December 17, 2022 (Part 2)",
+
+        broadcastRating: "21.3% (Part 1). 23.2% (Part 2)",
+        remasteredRating: "First broadcast: 9.8% (Part 1). 9.6% (Part 2). Second broadcast: 6.2% (Part 1). 6.2% (Part 2)",
+
+        mangaCase: "#55",
+        mangaSource: "Volume 19: File 9 (189) ~. Volume 20: File 1 (191)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Baseball cap (Part 1). TV camera (Part 2). Remastered version. First broadcast: Bullet (Part 1). Earphone (Part 2). Second broadcast: Sport broadcast (Part 1). Age (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "130 Hirohito Ochi. 131 Nana Harada",
+        animationDirector: "130 Izumi Shimura. 131 Miwa Oshima, Ayako Kurata (asst.)",
+
+        storyboard: "130 Hirohito Ochi. 131 Johei Matsuura",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Atsuko Yuya as Miwako Sato Ryo Kamon as Kaneko Susumu Chiba as Detective Tamiya Junichi Sugawara as Observer, Detective A Isshin Chiba as Announcer Yasuhiro Takato as Staff A, Detective B Naoki Nakashima as Staff B Yoko Gendai as Herself Kazuhiro Yamaki as Himself Ryuzaburo Otomo as Hiruta",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Girl from the Black Organization and the University Professor Murder Case",
+        nextCase: "Magic Lover's Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "恋のトランプゲーム占い", "Koi no Toranpu Gēmu Uranai", "Love's Fortune-Telling Card Game"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "緊急指令", "Kinkyū Shirei", "Emergency Orders"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "新一・追跡のテーマ", "Shin'ichi・Tsuiseki no Tēma", "Shinichi's Pursuit Theme"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"]
+        ]
+    },
+    {
+        id: "131", isFiller: false, title: "131: The Indiscriminate Stadium Threatening Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Ran Mouri", "Kogoro Mouri", "Hideo Akagi", "Naoki Uemura", "Gin", "Vodka"],
+        episodeDescription: "When the money is being picked up, the police attempt to capture the culprit. However, it turns out that this person was just an accomplice and the real shooter is in the stands, and will shoot someone unless this person is set free. The police are forced to let him go, and he makes an impossible demand: 1 billion yen must be delivered before the end of the match. Conan realizes with this plan that the culprit had aimed to kill someone from the start, and he has to find out who the shooter who is still in the stadium is before he murders someone before his eyes.",
+        japaneseTitle: "競技場無差別脅迫事件. (Kyougijou Musabetsu Kyouhaku Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "تهديد داخل الملعب", "A Threat Inside the Stadium"],
+            ["Catalan (Catalan dub)", "El cas del xantatge dels assassinats indiscriminats a l'estadi", "The indiscriminate murders at Stadium blackmail case"],
+            ["Catalan (Valencian dub)", "Amenaça d'assassinat indiscriminat a l'estadi", "Indiscriminate murder at Stadium threat"],
+            ["French", "Menace de meurtre aveugle au stade", "Threat of an Indiscriminate Murder in the Stadium"],
+            ["Galician", "Ameaza de asasinato indiscriminado no estadio", "Indiscriminate murder at Stadium threat"],
+            ["German", "Schüsse im Stadion", "Gunshots in the Stadium"],
+            ["Italian", "Minaccia allo stadio", "Threat at the Stadium"],
+            ["Spanish (American dub)", "El caso de la amenaza indiscriminada al estadio", "The indiscriminate threat at Stadium case"],
+            ["Spanish (Castilian dub)", "El asesinato indiscriminado en el estadio", "The indiscriminate murder at Stadium"],
+            ["Thai", "คดีขู่ฆ่าหมู่ในสนามกีฬา", "The mass murder threatening in a sport stadium case"],
+            ["Vietnamese", "Vụ án đe doạ tính mạng cả sân vận động", "The Indiscriminate Stadium Threatening Case"]
+        ],
+        season: "5",
+        originalAirdate: "January 11, 1999 (Part 1). January 18, 1999 (Part 2). Remastered version. First broadcast: January 21, 2012 (Part 1). January 28, 2012 (Part 2). Second broadcast:. December 10, 2022 (Part 1). December 17, 2022 (Part 2)",
+
+        broadcastRating: "21.3% (Part 1). 23.2% (Part 2)",
+        remasteredRating: "First broadcast: 9.8% (Part 1). 9.6% (Part 2). Second broadcast: 6.2% (Part 1). 6.2% (Part 2)",
+
+        mangaCase: "#55",
+        mangaSource: "Volume 19: File 9 (189) ~. Volume 20: File 1 (191)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Baseball cap (Part 1). TV camera (Part 2). Remastered version. First broadcast: Bullet (Part 1). Earphone (Part 2). Second broadcast: Sport broadcast (Part 1). Age (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "130 Hirohito Ochi. 131 Nana Harada",
+        animationDirector: "130 Izumi Shimura. 131 Miwa Oshima, Ayako Kurata (asst.)",
+
+        storyboard: "130 Hirohito Ochi. 131 Johei Matsuura",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Atsuko Yuya as Miwako Sato Ryo Kamon as Kaneko Susumu Chiba as Detective Tamiya Junichi Sugawara as Observer, Detective A Isshin Chiba as Announcer Yasuhiro Takato as Staff A, Detective B Naoki Nakashima as Staff B Yoko Gendai as Herself Kazuhiro Yamaki as Himself Ryuzaburo Otomo as Hiruta",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Kōri no Ue ni Tatsu Yō ni",
+        prevCase: "« The Girl from the Black Organization and the University Professor Murder Case",
+        nextCase: "Magic Lover's Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A"],
+            ["00:00", "ターゲット サスペンスＥ", "Tāgetto Sasupensu E", "Target Suspense E"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "カード賭博のボス", "Kādo Tobaku no Bosu", "The Card Gambler's Boss"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "氷の上に立つように", "Kōri no Ue ni Tatsu Yō ni", "Like Standing on Ice"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "132", isFiller: false, title: "132: Magic Lover's Murder Case (The Case)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kaitou Kid", "Shinichi Kudo", "Kazumi Sanada"],
+        episodeDescription: "Sonoko invites Ran, to attend a meeting full of avid magic fans she met online. After dropping her off at the snowy lodge, Conan and Kogoro return home. During the ride, they hear on the radio that one of the members, Tsutomu Nishiyama, is found dead in his home and that his dying message was the name Dark Master, one of the members of the club.",
+        japaneseTitle: "奇術愛好家殺人事件. (Kijutsu Aikōka Satsujin Jiken). 132 事件篇 (Jiken-hen). 133 疑惑篇 (Giwaku-hen). 134 解決篇 (Kaiketsu-hen)",
+        titleInOtherLanguages: [
+            ["Arabic", "أصدقاء لعبة الخفة", "Friends of an illusion trick"],
+            ["Bahasa Melayu", "Kes pembunuhan peminat magis", "Murder case of magic fans"],
+            ["Catalan (Catalan dub)", "El cas dels assassinats dels amics de la màgia", "The friends of magic murder case"],
+            ["Catalan (Valencian dub)", "Assassinat entre els amants de la màgia", "Murders between lovers of magic"],
+            ["Chinese (Simplified)", "魔术爱好者杀人事件", "Magic lover's murder case"],
+            ["French", "Magic Party", "Magic party"],
+            ["Galician", "Asasinatos entre magos afeccionados", "Murders between amateur magicians"],
+            ["German", "Tödlicher Zauber", "Deadly magic"],
+            ["Italian", "Il caso degli appassionati di magia", "The magic lover's case"],
+            ["Spanish (American dub)", "Los amantes de la magia en un caso de asesinato", "Lovers of magic in a murder case"],
+            ["Spanish (Castilian dub)", "Los asesinatos en el club de magos aficionados", "Murder at the amateur magicians club"],
+            ["Thai", "คดีฆาตกรรมคนรักมายากล", "Magic lover murder case"],
+            ["Vietnamese", "Vụ sát nhân tại câu lạc bộ yêu ảo thuật", "Magic lover's club murder case"]
+        ],
+        season: "5",
+        originalAirdate: "January 25, 1999 (The Case). February 1, 1999 (The Suspicion). February 8, 1999 (The Resolution)",
+
+        broadcastRating: "21.9% (The Case). 21.2% (The Suspicion). 23% (The Resolution)",
+
+
+        mangaCase: "#56",
+        mangaSource: "Volume 20: Files 2-6 (192-196)",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Screen name (The Case). Boat sail (The Suspicion). Bow gun (The Resolution)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "132 Johei Matsuura. 133 Yoshio Suzuki. 134 Nana Harada",
+        animationDirector: "132 Masayuki Hiraoka. 133 Hirobi Muranaka. 134 Izumi Shimura",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Natsuo Tokuhiro as Yoshinori Ara Kanji Watanabe as Katsuki Doito Hiroko Fukuda as Kikue Tanaka Renshi Fukuyama as Toshiya Hamano Maki Tamura as Naoko Kuroda Kenji Hamada as Tsutomu Nishiyama Tousei Tanaka as Kiyohiro Sugama Isshin Chiba as Radio Kappei Yamaguchi as Kaitou Kid",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Indiscriminate Stadium Threatening Case",
+        nextCase: "The Disappearing Weapon Search Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper Version)"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "時計じかけの摩天楼", "Tokei Jikake no Mantenrō", "The Time-Bombed Skyscraper"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "ターゲット サスペンスＨ", "Tāgetto Sasupensu H", "Target Suspense H"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "アクアクリスタル", "Akua Kurisutaru", "Aqua Crystal"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "133", isFiller: false, title: "133: Magic Lover's Murder Case (The Suspicion)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kaitou Kid", "Shinichi Kudo", "Kazumi Sanada"],
+        episodeDescription: "The members of the lodge decide to leave the Hamano's body untouched to preserve the crime scene and retreat back into the lodge. They discuss among themselves and believe that the club member with the Username Dark Master is the murderer.",
+        japaneseTitle: "奇術愛好家殺人事件. (Kijutsu Aikōka Satsujin Jiken). 132 事件篇 (Jiken-hen). 133 疑惑篇 (Giwaku-hen). 134 解決篇 (Kaiketsu-hen)",
+        titleInOtherLanguages: [
+            ["Arabic", "أصدقاء لعبة الخفة", "Friends of an illusion trick"],
+            ["Bahasa Melayu", "Kes pembunuhan peminat magis", "Murder case of magic fans"],
+            ["Catalan (Catalan dub)", "El cas dels assassinats dels amics de la màgia", "The friends of magic murder case"],
+            ["Catalan (Valencian dub)", "Assassinat entre els amants de la màgia", "Murders between lovers of magic"],
+            ["Chinese (Simplified)", "魔术爱好者杀人事件", "Magic lover's murder case"],
+            ["French", "Magic Party", "Magic party"],
+            ["Galician", "Asasinatos entre magos afeccionados", "Murders between amateur magicians"],
+            ["German", "Tödlicher Zauber", "Deadly magic"],
+            ["Italian", "Il caso degli appassionati di magia", "The magic lover's case"],
+            ["Spanish (American dub)", "Los amantes de la magia en un caso de asesinato", "Lovers of magic in a murder case"],
+            ["Spanish (Castilian dub)", "Los asesinatos en el club de magos aficionados", "Murder at the amateur magicians club"],
+            ["Thai", "คดีฆาตกรรมคนรักมายากล", "Magic lover murder case"],
+            ["Vietnamese", "Vụ sát nhân tại câu lạc bộ yêu ảo thuật", "Magic lover's club murder case"]
+        ],
+        season: "5",
+        originalAirdate: "January 25, 1999 (The Case). February 1, 1999 (The Suspicion). February 8, 1999 (The Resolution)",
+
+        broadcastRating: "21.9% (The Case). 21.2% (The Suspicion). 23% (The Resolution)",
+
+
+        mangaCase: "#56",
+        mangaSource: "Volume 20: Files 2-6 (192-196)",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Screen name (The Case). Boat sail (The Suspicion). Bow gun (The Resolution)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "132 Johei Matsuura. 133 Yoshio Suzuki. 134 Nana Harada",
+        animationDirector: "132 Masayuki Hiraoka. 133 Hirobi Muranaka. 134 Izumi Shimura",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Natsuo Tokuhiro as Yoshinori Ara Kanji Watanabe as Katsuki Doito Hiroko Fukuda as Kikue Tanaka Renshi Fukuyama as Toshiya Hamano Maki Tamura as Naoko Kuroda Kenji Hamada as Tsutomu Nishiyama Tousei Tanaka as Kiyohiro Sugama Isshin Chiba as Radio Kappei Yamaguchi as Kaitou Kid",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Indiscriminate Stadium Threatening Case",
+        nextCase: "The Disappearing Weapon Search Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "134", isFiller: false, title: "134: Magic Lover's Murder Case (The Resolution)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kaitou Kid", "Shinichi Kudo", "Kazumi Sanada"],
+        episodeDescription: "Conan recreates the crossbow attack on the top floor and lures everyone outside.",
+        japaneseTitle: "奇術愛好家殺人事件. (Kijutsu Aikōka Satsujin Jiken). 132 事件篇 (Jiken-hen). 133 疑惑篇 (Giwaku-hen). 134 解決篇 (Kaiketsu-hen)",
+        titleInOtherLanguages: [
+            ["Arabic", "أصدقاء لعبة الخفة", "Friends of an illusion trick"],
+            ["Bahasa Melayu", "Kes pembunuhan peminat magis", "Murder case of magic fans"],
+            ["Catalan (Catalan dub)", "El cas dels assassinats dels amics de la màgia", "The friends of magic murder case"],
+            ["Catalan (Valencian dub)", "Assassinat entre els amants de la màgia", "Murders between lovers of magic"],
+            ["Chinese (Simplified)", "魔术爱好者杀人事件", "Magic lover's murder case"],
+            ["French", "Magic Party", "Magic party"],
+            ["Galician", "Asasinatos entre magos afeccionados", "Murders between amateur magicians"],
+            ["German", "Tödlicher Zauber", "Deadly magic"],
+            ["Italian", "Il caso degli appassionati di magia", "The magic lover's case"],
+            ["Spanish (American dub)", "Los amantes de la magia en un caso de asesinato", "Lovers of magic in a murder case"],
+            ["Spanish (Castilian dub)", "Los asesinatos en el club de magos aficionados", "Murder at the amateur magicians club"],
+            ["Thai", "คดีฆาตกรรมคนรักมายากล", "Magic lover murder case"],
+            ["Vietnamese", "Vụ sát nhân tại câu lạc bộ yêu ảo thuật", "Magic lover's club murder case"]
+        ],
+        season: "5",
+        originalAirdate: "January 25, 1999 (The Case). February 1, 1999 (The Suspicion). February 8, 1999 (The Resolution)",
+
+        broadcastRating: "21.9% (The Case). 21.2% (The Suspicion). 23% (The Resolution)",
+
+
+        mangaCase: "#56",
+        mangaSource: "Volume 20: Files 2-6 (192-196)",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Screen name (The Case). Boat sail (The Suspicion). Bow gun (The Resolution)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "132 Johei Matsuura. 133 Yoshio Suzuki. 134 Nana Harada",
+        animationDirector: "132 Masayuki Hiraoka. 133 Hirobi Muranaka. 134 Izumi Shimura",
+
+        storyboard: "Michiyo Sakurai",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Natsuo Tokuhiro as Yoshinori Ara Kanji Watanabe as Katsuki Doito Hiroko Fukuda as Kikue Tanaka Renshi Fukuyama as Toshiya Hamano Maki Tamura as Naoko Kuroda Kenji Hamada as Tsutomu Nishiyama Tousei Tanaka as Kiyohiro Sugama Isshin Chiba as Radio Kappei Yamaguchi as Kaitou Kid",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Indiscriminate Stadium Threatening Case",
+        nextCase: "The Disappearing Weapon Search Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper Version)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "怪人包帯男１", "Kaijin Hōtai Otoko 1", "The Mysterious Bandaged Man 1"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "135", isFiller: true, title: "135: The Disappearing Weapon Search Case",
+        appearances: ["Conan Edogawa", "Juzo Megure", "Wataru Takagi", "Ai Haibara", "Detective Boys", "Officer Tome"],
+        episodeDescription: "The Detective Boys are walking to a beauty salon, because Ayumi wants to get a haircut from her favorite hairdresser. However, they see her hairdresser, Mika Mitsui, arguing with the owner of the salon, Midori Goto, an argument that gets heated. Mitsui wants to leave the salon, and join a different one. However, the owner keeps begging for her to stay, because she believes that the hairdresser is the best one in the salon. Mitsui tells Ayumi that even though she is leaving the salon, that she can still get her hair done anytime she wants. She tells Ayumi to visit her apartment on Saturday morning, to get her hair done. The next Saturday, the Detective Boys go to the hairdresser's apartment, but find that she has been murdered.",
+        japaneseTitle: "消えた凶器捜索事件. (Kieta Kyōki Sōsaku Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "البحث عن سلاح الجريمة", "The Search For The Crime Weapon"],
+            ["Catalan (Catalan dub)", "El cas de la investigació de l'arma del crim desapareguda", "The investigation of the disappeared crime weapon case"],
+            ["Catalan (Valencian dub)", "La desaparició de l'arma", "The weapon dissapearance"],
+            ["French", "Meurtre sans arme", "Weaponless Murder"],
+            ["Galician", "A desaparición da arma homicida", "The murder weapon dissapearance"],
+            ["German", "Ein rabenschwarzer Mord", "A Jet-Black Murder"],
+            ["Italian", "Il caso dell'arma del delitto mancante", "The Disappeared Murder Weapon Case"],
+            ["Spanish (American dub)", "El caso de investigación del arma asesina desaparecida", "The investigation of the disappeared crime weapon case"],
+            ["Spanish (Castilian dub)", "El caso del arma homicida desaparecida", "The murder weapon dissapearance"],
+            ["Thai", "คดีตามหาอาวุธที่หายไป", "Searching for a missing weapon case"],
+            ["Vietnamese", "Tìm kiếm hung khí biến mất", "Searching for the Disappearing Weapon"]
+        ],
+        season: "6",
+        originalAirdate: "February 15, 1999",
+
+        broadcastRating: "22.6%",
+
+        fillerCase: "#50",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Juzo Megure (thanks to Conan)",
+        nextConansHint: "Trash pickup day and crows",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Minoru Tozawa",
+        animationDirector: "Keiko Sasaki",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Toshihiko Nakajima as Officer Tome Takumi Kurebayashi as Midori Goto Masami Toyoshima as Mika Mitsui Isshin Chiba as Worker Mitsuaki Hoshino as Manager Nao Takamori as Hairdresser A",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« Magic Lover's Murder Case",
+        nextCase: "The Old Blue Castle Investigation Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)"],
+            ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "事件解明 （オリジナルver.）", "Jiken Kaimei (Orijinaru ver.)", "Case Clarification (Original ver.)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal Version)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "それいけコナン （超早ver.）", "Soreike Konan (Chōhaya ver.)", "Let's Go Conan (Very Fast ver.)"]
+        ]
+    },
+    {
+        id: "136", isFiller: false, title: "136: The Old Blue Castle Investigation Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure"],
+        episodeDescription: "The Detective Boys are on a camping trip but Professor Agasa forgot the tent. They then wander to a castle owned by an old mistress and learn that there's a secret treasure in the castle. Mitsuru Mamiya is actually the second husband of the eldest Mamiya daughter.",
+        japaneseTitle: "青の古城探索事件. (Ao no Kojō Tansaku Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "القلعة الزرقاء", "The Blue Castle"],
+            ["Catalan (Catalan dub)", "El cas de la investigació del castell antic de color blau", "The blue color antique castle investigation case"],
+            ["Catalan (Valencian dub)", "L'antic castell blau", "The antique blue castle"],
+            ["Chinese", "蓝色古堡探索事件", "The Blue Old Castle Exploraing Case"],
+            ["French", "Le Vieux château", "The Old Castle"],
+            ["Galician", "O antigo palacio europeo", "The antique european palace"],
+            ["German", "Das Geheimnis des alten Schlosses", "The Secret of the Old Castle"],
+            ["Italian", "Il vecchio castello blu", "The Old Blue Castle"],
+            ["Spanish (American dub)", "El antiguo castillo azul", "The antique blue castle"],
+            ["Spanish (Castilian dub)", "El misterio del viejo castillo azul", "The mistery of the old blue castle"],
+            ["Thai", "คดีสำรวจปราสาทโบราณ", "The case of investigating an ancient castle"],
+            ["Vietnamese", "Chuyến thám hiểm toà lâu đài giữa rừng rậm", "Expedition of a Castle in the Middle of the Forest"]
+        ],
+        season: "6",
+        originalAirdate: "February 22, 1999 (Part 1). March 1, 1999 (Part 2). February 13, 2010 (Part 1) (Remastered version). February 20, 2010 (Part 2) (Remastered version)",
+
+        broadcastRating: "22.8%. 23.4%",
+        remasteredRating: "8.9%. 8.5%",
+
+        mangaCase: "#58",
+        mangaSource: "Volume 20: File 10 (200) ~. Volume 21: File 3 (203)",
+
+
+        caseSolvedBy: "Ai Haibara. Conan Edogawa. Hiroshi Agasa",
+        nextConansHint: "Chess pieces (Part 1). Passport size (Part 2). Clock (Part 1) (Remastered version). Passport (Part 2) (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "136 Yoshio Suzuki. 137 Hirohito Ochi",
+        animationDirector: "136 Miwa Oshima. 137 Atsushi Aono",
+
+        storyboard: "Hirohito Ochi",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Hisako Kyouda as Masuyo Mamiya Yoshisada Sakaguchi as Mitsuru Mamiya Jin Yamanoi as Takahito Mamiya Naoki Tatsuta as Katsuo Tabata Isshin Chiba as Servant Nao Takamori as Housekeeper",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Disappearing Weapon Search Case",
+        nextCase: "The Final Screening Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "脅迫 （パート１）", "Kyōhaku (Pāto 1)", "Threat (Part 1)"],
+            ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper Version)"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "カード賭博のボス", "Kādo Tobaku no Bosu", "The Card Gambler's Boss"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "137", isFiller: false, title: "137: The Old Blue Castle Investigation Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure"],
+        episodeDescription: "When nighttime comes, Haibara investigates freely and is accompanied by the Detective Boys. They enter the same secret passage as Conan did and wander out of another secret entrance. Genta remains trapped in the passage and captured by the culprit.",
+        japaneseTitle: "青の古城探索事件. (Ao no Kojō Tansaku Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "القلعة الزرقاء", "The Blue Castle"],
+            ["Catalan (Catalan dub)", "El cas de la investigació del castell antic de color blau", "The blue color antique castle investigation case"],
+            ["Catalan (Valencian dub)", "L'antic castell blau", "The antique blue castle"],
+            ["Chinese", "蓝色古堡探索事件", "The Blue Old Castle Exploraing Case"],
+            ["French", "Le Vieux château", "The Old Castle"],
+            ["Galician", "O antigo palacio europeo", "The antique european palace"],
+            ["German", "Das Geheimnis des alten Schlosses", "The Secret of the Old Castle"],
+            ["Italian", "Il vecchio castello blu", "The Old Blue Castle"],
+            ["Spanish (American dub)", "El antiguo castillo azul", "The antique blue castle"],
+            ["Spanish (Castilian dub)", "El misterio del viejo castillo azul", "The mistery of the old blue castle"],
+            ["Thai", "คดีสำรวจปราสาทโบราณ", "The case of investigating an ancient castle"],
+            ["Vietnamese", "Chuyến thám hiểm toà lâu đài giữa rừng rậm", "Expedition of a Castle in the Middle of the Forest"]
+        ],
+        season: "6",
+        originalAirdate: "February 22, 1999 (Part 1). March 1, 1999 (Part 2). February 13, 2010 (Part 1) (Remastered version). February 20, 2010 (Part 2) (Remastered version)",
+
+        broadcastRating: "22.8%. 23.4%",
+        remasteredRating: "8.9%. 8.5%",
+
+        mangaCase: "#58",
+        mangaSource: "Volume 20: File 10 (200) ~. Volume 21: File 3 (203)",
+
+
+        caseSolvedBy: "Ai Haibara. Conan Edogawa. Hiroshi Agasa",
+        nextConansHint: "Chess pieces (Part 1). Passport size (Part 2). Clock (Part 1) (Remastered version). Passport (Part 2) (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "136 Yoshio Suzuki. 137 Hirohito Ochi",
+        animationDirector: "136 Miwa Oshima. 137 Atsushi Aono",
+
+        storyboard: "Hirohito Ochi",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Hisako Kyouda as Masuyo Mamiya Yoshisada Sakaguchi as Mitsuru Mamiya Jin Yamanoi as Takahito Mamiya Naoki Tatsuta as Katsuo Tabata Isshin Chiba as Servant Nao Takamori as Housekeeper",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Disappearing Weapon Search Case",
+        nextCase: "The Final Screening Murder Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "カード賭博のボス", "Kādo Tobaku no Bosu", "The Card Gambler's Boss"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "ターゲット サスペンスＨ", "Tāgetto Sasupensu H", "Target Suspense H"],
+            ["00:00", "一触即発", "Isshokusokuhatsu", "Critical Situation"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "ターゲット サスペンスＩ", "Tāgetto Sasupensu I", "Target Suspense I"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "138", isFiller: false, title: "138: The Final Screening Murder Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Hiroshi Agasa", "Wataru Takagi", "Kazunobu Chiba"],
+        episodeDescription: "The Detective Boys attend the final opening day of a theatre as it is about to be demolished. They plan to watch three films of Gomera, a parody of Godzilla. During the second film, the man who bought and planned the demolishing of the theatre is found hanged.",
+        japaneseTitle: "最後の上映殺人事件. (Saigo no Jouei Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "العرض الأخير", "The Last Screening"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de l'última sessió", "Last screening murder case"],
+            ["Catalan (Valencian dub)", "L'última sessió", "The last screening"],
+            ["French", "La Dernière séance", "The last screening"],
+            ["Galician", "A derradeira sesión", "The last screening"],
+            ["German", "Schattenspiele", "Shadow Play"],
+            ["Italian", "L'ultimo spettacolo", "The last screening"],
+            ["Spanish (American dub)", "La última función", "The last screening"],
+            ["Spanish (Castilian dub)", "El asesinato en la última sesión", "Murder in the last screening"],
+            ["Thai", "คดีฆาตกรรมการฉายภาพยนตร์ครั้งสุดท้าย", "The final film screening murder case"],
+            ["Vietnamese", "Vụ án mạng ở buổi chiếu phim cuối cùng", "The Final Screening Murder Case"]
+        ],
+        season: "6",
+        originalAirdate: "March 8, 1999 (Part 1). March 15, 1999 (Part 2)",
+
+        broadcastRating: "21.1%. 21.3%",
+
+
+        mangaCase: "#64",
+        mangaSource: "Volume 23: Files 1-3 (222-224)",
+
+
+        caseSolvedBy: "Hiroshi Agasa (via Conan)",
+        nextConansHint: "Above the movie theater (Part 1). Mirror (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "138 Koichi Sasaki. 139 Nana Harada",
+        animationDirector: "138 Masayuki Hiraoka. 139 Hirobi Muranaka",
+
+        storyboard: "138 Koichi Sasaki. 139 Hiroshi Matsuzono",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba Eiji Maruyama as Akio Muramatsu Yusaku Yara as Minoru Furuhashi Yuki Kaida as Yuriko Tomosato Akio Suyama as Toshiyuki Ide Nobutaka Masutomi as Seiji Haruta Nao Takamori as Woman Kendo Kobayashi as Investigator A Shuuji Murakoshi as Investigator B Ai Kobayashi as Fairy Emera Hiroshi Naka as Professor Serizawa",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Old Blue Castle Investigation Case",
+        nextCase: "SOS! Messages from Ayumi »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "恋のトランプゲーム占い", "Koi no Toranpu Gēmu Uranai", "Love's Fortune-Telling Card Game"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "139", isFiller: false, title: "139: The Final Screening Murder Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Hiroshi Agasa", "Wataru Takagi", "Kazunobu Chiba"],
+        episodeDescription: "The clerk went to fix her contact lenses. Takagi comes in explaining that the Victim owed a large sum of money. Agasa comes by to pick up the children, but Ayumi, Haibara, and Conan were still inside with the girls going to the bathroom while Conan walked around. Conan comes to an conclusion while looking in the bathroom mirror after Haibara parted some words, he runs into the theater and finds a clue in the pile of cigarettes' where Haruta was sitting as well as a footprint. Conan goes to Agasa and explains what he has discovered, though it is never said to the viewer. When Conan goes to whisper to Agasa the kids come in saying how rude he is (how about how rude they are for eavesdropping?) Tagaki tells Megure about what Haruta's neighbors had to say, that he was in a bad mood because of his debts and that he was arguing with the bank. Its revealed that the theater hasn't been sold yet. As the suspects keep saying that it was a suicide, the lights go dark and Agasa appears in the window, having repeated the 'trick the murderer has conspired today'.",
+        japaneseTitle: "最後の上映殺人事件. (Saigo no Jouei Satsujin Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "العرض الأخير", "The Last Screening"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de l'última sessió", "Last screening murder case"],
+            ["Catalan (Valencian dub)", "L'última sessió", "The last screening"],
+            ["French", "La Dernière séance", "The last screening"],
+            ["Galician", "A derradeira sesión", "The last screening"],
+            ["German", "Schattenspiele", "Shadow Play"],
+            ["Italian", "L'ultimo spettacolo", "The last screening"],
+            ["Spanish (American dub)", "La última función", "The last screening"],
+            ["Spanish (Castilian dub)", "El asesinato en la última sesión", "Murder in the last screening"],
+            ["Thai", "คดีฆาตกรรมการฉายภาพยนตร์ครั้งสุดท้าย", "The final film screening murder case"],
+            ["Vietnamese", "Vụ án mạng ở buổi chiếu phim cuối cùng", "The Final Screening Murder Case"]
+        ],
+        season: "6",
+        originalAirdate: "March 8, 1999 (Part 1). March 15, 1999 (Part 2)",
+
+        broadcastRating: "21.1%. 21.3%",
+
+
+        mangaCase: "#64",
+        mangaSource: "Volume 23: Files 1-3 (222-224)",
+
+
+        caseSolvedBy: "Hiroshi Agasa (via Conan)",
+        nextConansHint: "Above the movie theater (Part 1). Mirror (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "138 Koichi Sasaki. 139 Nana Harada",
+        animationDirector: "138 Masayuki Hiraoka. 139 Hirobi Muranaka",
+
+        storyboard: "138 Koichi Sasaki. 139 Hiroshi Matsuzono",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba Eiji Maruyama as Akio Muramatsu Yusaku Yara as Minoru Furuhashi Yuki Kaida as Yuriko Tomosato Akio Suyama as Toshiyuki Ide Nobutaka Masutomi as Seiji Haruta Nao Takamori as Woman Kendo Kobayashi as Investigator A Shuuji Murakoshi as Investigator B Ai Kobayashi as Fairy Emera Hiroshi Naka as Professor Serizawa",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Old Blue Castle Investigation Case",
+        nextCase: "SOS! Messages from Ayumi »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "それいけコナン （哀愁ヴァージョン）", "Soreike Konan (Aishū Vājon)", "Let's Go Conan (Sorrow Version)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)"]
+        ]
+    },
+    {
+        id: "140", isFiller: true, title: "140: SOS! Messages from Ayumi",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Sumiko Kobayashi", "Mrs. Yoshida", "Kamen Yaiba"],
+        episodeDescription: "One day, Ayumi is sick. She takes a day off from school and while she naps, her mother nips out from their apartment to do some shopping. When Ayumi wakes up, she hears noises from the front door. Excitedly, she runs to the door to surprise her mother as she comes in, but when she peeks through the peep hole, she finds that it isn't her mother at all, but a strange man with a ponytail fiddling with the lock. Terrified, she runs for the phone and tries to call the police, but her fingers are too slow, and as the door handle turns, in a frenzy of motion, she dives for a hiding spot and drops the phone in the process.",
+        japaneseTitle: "SOS! 歩美からのメッセージ. (SOS! Ayumi kara no Messēji)",
+        titleInOtherLanguages: [
+            ["Arabic", "رسالة من إيومي", "A Message from Iyumi"],
+            ["Catalan (Catalan dub)", "El missatge d'auxili de l'Ayumi", "SOS message from Ayumi"],
+            ["Catalan (Valencian dub)", "El missatge d'auxili d'Ayumi", "SOS message from Ayumi"],
+            ["French", "Mission: Sauver Ayumi", "Mission: Save Ayumi"],
+            ["Galician", "A mensaxe de socorro de Ayumi", "SOS message from Ayumi"],
+            ["German", "Ayumi in Gefahr", "Ayumi in Danger"],
+            ["Italian", "SOS, Ayumi è in pericolo!", "SOS, Ayumi is in Danger!"],
+            ["Spanish (American dub)", "¡SOS! Mensajes de Ayumi", "SOS! Messages from Ayumi"],
+            ["Spanish (Castilian dub)", "¡El mensaje de socorro de Ayumi!", "SOS message from Ayumi!"],
+            ["Thai", "คดี SOS ข้อความจากอายูมิ", "The case of SOS - Message from Ayumi"],
+            ["Vietnamese", "SOS! Thông điệp của Ayumi", "SOS! Message from Ayumi"]
+        ],
+        season: "6",
+        originalAirdate: "April 12, 1999",
+
+        broadcastRating: "18.4%",
+
+        fillerCase: "#51",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Clock",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Minoru Tozawa",
+        animationDirector: "Keiko Sasaki",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Yuko Kato as Sumiko Kobayashi Shinobu Sato as Mrs. Yoshida Hikaru Hanada as Minoru Nakagawa Mitsuki Saiga as Day shift Isshin Chiba as Kamen Yaiba",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« The Final Screening Murder Case",
+        nextCase: "The Night Before the Wedding Locked Room Case »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "ターゲット サスペンスＨ", "Tāgetto Sasupensu H", "Target Suspense H"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "ターゲット サスペンスＦ", "Tāgetto Sasupensu F", "Target Suspense F"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "ターゲット サスペンスＧ", "Tāgetto Sasupensu G", "Target Suspense G"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "141", isFiller: false, title: "141: The Night Before the Wedding Locked Room Case (Part 1)",
+        appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Kazuha Toyama", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Detective Yama", "Shizuka Hattori", "Reporter"],
+        episodeDescription: "Heiji and Kazuha visit Tokyo accompanied by Kogoro, Ran, and Conan. They run into the butler of Heiji's mother's late friend's family and are invited to their mansion. The son of the friend is getting married the next day. There a murder occurs and the butler is found dead in a locked room. It seems he was dragged to another room after being stabbed in the heart.",
+        japaneseTitle: "結婚前夜の密室事件. (Kekkon Zenya no Misshitsu Jiken)",
+        titleInOtherLanguages: [
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la vigília del casament", "Wedding eve murder case"],
+            ["Catalan (Valencian dub)", "Assassinat a porta tancada la nit d'abans de la boda", "Murder behind closed doors the night before the wedding"],
+            ["French", "Intrigue nuptiale", "Nuptial conspiracy"],
+            ["Galician", "Asasinato nun cuarto pechado na vespera da voda", "Murder in a closed room on wedding's eve"],
+            ["German", "Mord in einem verschlossenen Zimmer", "Murder in a Locked Room"],
+            ["Italian", "Omicidio alla vigilia delle nozze", "Murder on the Wedding Eve"],
+            ["Spanish (American dub)", "Asesinato en una habitación cerrada en la víspera de matrimonio", "Murder in a closed room on weeding's eve"],
+            ["Spanish (Castilian dub)", "El asesinato a puerta cerrada antes de la boda", "Murder behind closed doors before the wedding"],
+            ["Thai", "คดีห้องฆาตกรรมห้องปิดตายในคืนก่อนแต่งงาน", "Locked room murder case on the night before the wedding"],
+            ["Vietnamese", "Án mạng trong phòng kín đêm trước ngày cưới", "The Night Before the Wedding Locked Room Murder Case"]
+        ],
+        season: "6",
+        originalAirdate: "April 19, 1999 (Part 1). April 26, 1999 (Part 2)",
+
+        broadcastRating: "19.4%. 18.7%",
+
+
+        mangaCase: "#61",
+        mangaSource: "Volume 21: File 11 (211) ~. Volume 22: File 3 (214)",
+
+
+        caseSolvedBy: "Conan Edogawa. Heiji Hattori",
+        nextConansHint: "Pendant (Part 1). Bag (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "141 Yoshio Suzuki. 142 Hirohito Ochi",
+        animationDirector: "141 Izumi Shimura. 142 Miwa Oshima",
+
+        storyboard: "141 Yoshio Suzuki. 142 Hirohito Ochi",
+        characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Toshihiko Nakajima as Officer Tome Takao Ohyama as Mikio Morizono Keiko Fukushima as Yurie Morizono Yuji Takada as Kikuhito Morizono Ayako Kurosaki as Kaede Katagiri Ryuichi Horibe as Akio Shigematsu Naochika Hayashida as Yuji Sakuraba Sadao Nunome as Reporter A Takayuki Inoue as Reporter B Isshin Chiba as Servant, detective",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« SOS! Messages from Ayumi",
+        nextCase: "The Suspicious Astronomical Observation »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "142", isFiller: false, title: "142: The Night Before the Wedding Locked Room Case (Part 2)",
+        appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Kazuha Toyama", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Detective Yama", "Shizuka Hattori", "Reporter"],
+        episodeDescription: "Continuing the investigation, Heiji proclaims the family servant was the murderer and he is taken away, screaming his innocence.",
+        japaneseTitle: "結婚前夜の密室事件. (Kekkon Zenya no Misshitsu Jiken)",
+        titleInOtherLanguages: [
+            ["Catalan (Catalan dub)", "El cas de l'assassinat de la vigília del casament", "Wedding eve murder case"],
+            ["Catalan (Valencian dub)", "Assassinat a porta tancada la nit d'abans de la boda", "Murder behind closed doors the night before the wedding"],
+            ["French", "Intrigue nuptiale", "Nuptial conspiracy"],
+            ["Galician", "Asasinato nun cuarto pechado na vespera da voda", "Murder in a closed room on wedding's eve"],
+            ["German", "Mord in einem verschlossenen Zimmer", "Murder in a Locked Room"],
+            ["Italian", "Omicidio alla vigilia delle nozze", "Murder on the Wedding Eve"],
+            ["Spanish (American dub)", "Asesinato en una habitación cerrada en la víspera de matrimonio", "Murder in a closed room on weeding's eve"],
+            ["Spanish (Castilian dub)", "El asesinato a puerta cerrada antes de la boda", "Murder behind closed doors before the wedding"],
+            ["Thai", "คดีห้องฆาตกรรมห้องปิดตายในคืนก่อนแต่งงาน", "Locked room murder case on the night before the wedding"],
+            ["Vietnamese", "Án mạng trong phòng kín đêm trước ngày cưới", "The Night Before the Wedding Locked Room Murder Case"]
+        ],
+        season: "6",
+        originalAirdate: "April 19, 1999 (Part 1). April 26, 1999 (Part 2)",
+
+        broadcastRating: "19.4%. 18.7%",
+
+
+        mangaCase: "#61",
+        mangaSource: "Volume 21: File 11 (211) ~. Volume 22: File 3 (214)",
+
+
+        caseSolvedBy: "Conan Edogawa. Heiji Hattori",
+        nextConansHint: "Pendant (Part 1). Bag (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "141 Yoshio Suzuki. 142 Hirohito Ochi",
+        animationDirector: "141 Izumi Shimura. 142 Miwa Oshima",
+
+        storyboard: "141 Yoshio Suzuki. 142 Hirohito Ochi",
+        characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Toshihiko Nakajima as Officer Tome Takao Ohyama as Mikio Morizono Keiko Fukushima as Yurie Morizono Yuji Takada as Kikuhito Morizono Ayako Kurosaki as Kaede Katagiri Ryuichi Horibe as Akio Shigematsu Naochika Hayashida as Yuji Sakuraba Sadao Nunome as Reporter A Takayuki Inoue as Reporter B Isshin Chiba as Servant, detective",
+        openingSong: "TRUTH ~A Great Detective of Love~",
+        endingSong: "Still for your love",
+        prevCase: "« SOS! Messages from Ayumi",
+        nextCase: "The Suspicious Astronomical Observation »",
+        BGM: [
+            ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "悪のテーマ （パート３）", "Aku no Tēma (Pāto 3)", "Theme of Evil (Part 3)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful ver.)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"]
+        ]
+    },
+    {
+        id: "143", isFiller: true, title: "143: The Suspicious Astronomical Observation",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki"],
+        episodeDescription: "Ran, Sonoko, and Conan go to watch the stars. Sonoko is especially hoping that she will see a shooting star. Ran has a friend at the observatory that helps her use a telescope. He introduces his sempais that work at the observatory. One of them just won an award known as the 'Star Pioneer', while the other one seems angered. However, that same night, that same person falls from the higher level of the observatory. Conan knows it isn't an accident, but how can he prove it?",
+        japaneseTitle: "疑惑の天体観測. (Giwaku no Tentaikansoku)",
+        titleInOtherLanguages: [
+            ["Catalan (Catalan dub)", "Unes observacions astronòmiques sospitoses", "A sospicious astronomical observations"],
+            ["Catalan (Valencian dub)", "Assassinat mirant les estreles", "Murder looking the stars"],
+            ["French", "La Nuit des étoiles", "The Night of the Stars"],
+            ["Galician", "A misteriosa observación astronómica", "A mysterious astronomical observation"],
+            ["German", "Nachtaufnahmen", "Night Photographs"],
+            ["Italian", "Intuito astronomico", "Astronomical Insight"],
+            ["Spanish (American dub)", "La sospechosa observación astronómica", "The mysterious astronomical observation"],
+            ["Spanish (Castilian dub)", "El asesinato mientras se miran las estrellas", "Murder while we look the stars"],
+            ["Thai", "การดูดาวที่น่าสงสัย", "A suspicious stars observation"],
+            ["Vietnamese", "Vụ án ở đài quan sát thiên văn", "The Astronomical Observatory Case"]
+        ],
+        season: "6",
+        originalAirdate: "May 3, 1999. July 11, 2020 (Remastered)",
+
+        broadcastRating: "15.6%",
+        remasteredRating: "7.7%",
+        fillerCase: "#52",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Developed picture. Shooting star (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Koichi Sasaki",
+        animationDirector: "Masayuki Hiraoka",
+        screenplay: "Manabu Harada",
+        storyboard: "Johei Matsuura",
+        characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Hirohito Torihata as Koichi Nonaka Tohru Furuya as Hiroshi Akimoto Nozomu Sasaki as Kazuhiko Eda Masahiko Tanaka as Detective Yamada Isshin Chiba as Policeman Junichi Sugawara as Forensics officer Wataru Takagi as Next Conan's Hint",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Night Before the Wedding Locked Room Case",
+        nextCase: "The North Star No.3 Express Leaving Ueno »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm ver.)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "事件解決 （意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
+        ]
+    },
+    {
+        id: "144", isFiller: false, title: "144: The North Star No.3 Express Leaving Ueno (Part 1)",
+        appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Yukiko Kudo", "Yusaku Kudo", "Kyohei Nishimura", "Detective Tamura"],
+        episodeDescription: "Conan, Kogoro, and Ran take the overnight North Star Express to Hokkaido to meet a former client. On the train, they meet up with a series of people. However, in the night, a murder case occurs when a burglar seemingly kills a jewelry trader, and escapes through the window.",
+        japaneseTitle: "上野発北斗星3号. (Ueno-hatsu Hokutosei Sangō)",
+        titleInOtherLanguages: [
+            ["Catalan (Catalan dub)", "L'exprés Estrella del nord número 3", "The North Star express number 3"],
+            ["Catalan (Valencian dub)", "Assassinat al tren Estrela del Nord", "Murder in the North Star train"],
+            ["French", "Le Meurtre de l''Étoile du nord'", "The Murder of the 'North Star'"],
+            ["Galician", "Asasinato a bordo do Estrela Polar", "Murder aboard the Polar Star"],
+            ["German", "Mord im Speisewagen", "Murder in the Dining Car"],
+            ["Italian", "Assassino sull'Intercity", "Murder on the Intercity Train"],
+            ["Spanish (American dub)", "Asesinato en el tren expreso Hokutosei número 3", "Murder in the express train Hokutosei number 3"],
+            ["Spanish (Castilian dub)", "Asesinato en el Estrella del Norte", "Murder in the North Star"],
+            ["Thai", "โฮคุโตะเซย์หมายเลข 3 ต้นทางอุเอโนะ", "Hokutosei No.3 - Leaving Ueno"],
+            ["Vietnamese", "Vụ án trên chuyến tàu cao tốc ngôi sao Bắc Đẩu số 3", "The North Star No.3 Express Case"]
+        ],
+        season: "6",
+        originalAirdate: "May 10, 1999 (Part 1). May 17, 1999 (Part 2)",
+
+        broadcastRating: "18.9%. 19.4%",
+
+
+        mangaCase: "#62",
+        mangaSource: "Volume 22: Files 4-7 (215-218)",
+
+
+        caseSolvedBy: "Conan Edogawa. Yusaku Kudo",
+        nextConansHint: "B-class sleeping car (Part 1). Disguise (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "144 Nana Harada. 145 Minoru Tozawa",
+        animationDirector: "144 Atsushi Aono. 145 Keiko Sasaki",
+
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1) Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Fumiyo Akechi, Yukiko Kudo Hikaru Hanada as Kyohei Nishimura Takashi Nagasako as Detective Tamura Shigeru Ushiyama as Keitaro Izumo Takashi Taniguchi as Toshinori Kaetsu Yuzuru Fujimoto as Akishige Ishizuchi Seiko Fujiki as Azusa Izumo Tsutomu Tsuji as Yasuji Asama Kouichi Nagano as Toru Aoba Yasuyuki Kase as Conductor Isshin Chiba as Waiter, Announcement Hiromichi Kogami as Passenger A Mari Tomokawa as Passenger B Wataru Takagi as Next Conan's Hint",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Suspicious Astronomical Observation",
+        nextCase: "Metropolitan Police Detective Love Story »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "145", isFiller: false, title: "145: The North Star No.3 Express Leaving Ueno (Part 2)",
+        appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Yukiko Kudo", "Yusaku Kudo", "Kyohei Nishimura", "Detective Tamura"],
+        episodeDescription: "Conan reveals to the suspicious woman that he knows her identity - it is Yukiko Kudo, his mother, in disguise. As they discuss the case, Kogoro calls all the passengers to witness his inaccurate deduction, enabling Conan to figure out the trick. However, a worried Conan recalls that in the novel, the detective boy who solved the case was murdered by the trap he set for the criminal. Yukiko volunteers to act as a decoy to help him find the proof.",
+        japaneseTitle: "上野発北斗星3号. (Ueno-hatsu Hokutosei Sangō)",
+        titleInOtherLanguages: [
+            ["Catalan (Catalan dub)", "L'exprés Estrella del nord número 3", "The North Star express number 3"],
+            ["Catalan (Valencian dub)", "Assassinat al tren Estrela del Nord", "Murder in the North Star train"],
+            ["French", "Le Meurtre de l''Étoile du nord'", "The Murder of the 'North Star'"],
+            ["Galician", "Asasinato a bordo do Estrela Polar", "Murder aboard the Polar Star"],
+            ["German", "Mord im Speisewagen", "Murder in the Dining Car"],
+            ["Italian", "Assassino sull'Intercity", "Murder on the Intercity Train"],
+            ["Spanish (American dub)", "Asesinato en el tren expreso Hokutosei número 3", "Murder in the express train Hokutosei number 3"],
+            ["Spanish (Castilian dub)", "Asesinato en el Estrella del Norte", "Murder in the North Star"],
+            ["Thai", "โฮคุโตะเซย์หมายเลข 3 ต้นทางอุเอโนะ", "Hokutosei No.3 - Leaving Ueno"],
+            ["Vietnamese", "Vụ án trên chuyến tàu cao tốc ngôi sao Bắc Đẩu số 3", "The North Star No.3 Express Case"]
+        ],
+        season: "6",
+        originalAirdate: "May 10, 1999 (Part 1). May 17, 1999 (Part 2)",
+
+        broadcastRating: "18.9%. 19.4%",
+
+
+        mangaCase: "#62",
+        mangaSource: "Volume 22: Files 4-7 (215-218)",
+
+
+        caseSolvedBy: "Conan Edogawa. Yusaku Kudo",
+        nextConansHint: "B-class sleeping car (Part 1). Disguise (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "144 Nana Harada. 145 Minoru Tozawa",
+        animationDirector: "144 Atsushi Aono. 145 Keiko Sasaki",
+
+        storyboard: "Yasuichiro Yamamoto",
+        characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1) Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Fumiyo Akechi, Yukiko Kudo Hikaru Hanada as Kyohei Nishimura Takashi Nagasako as Detective Tamura Shigeru Ushiyama as Keitaro Izumo Takashi Taniguchi as Toshinori Kaetsu Yuzuru Fujimoto as Akishige Ishizuchi Seiko Fujiki as Azusa Izumo Tsutomu Tsuji as Yasuji Asama Kouichi Nagano as Toru Aoba Yasuyuki Kase as Conductor Isshin Chiba as Waiter, Announcement Hiromichi Kogami as Passenger A Mari Tomokawa as Passenger B Wataru Takagi as Next Conan's Hint",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Suspicious Astronomical Observation",
+        nextCase: "Metropolitan Police Detective Love Story »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West"],
+            ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle ver.)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "146", isFiller: false, title: "146: Metropolitan Police Detective Love Story (Part 1)",
+        appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ninzaburo Shiratori", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Kiyonaga Matsumoto", "Detective Kobayashi", "Detective Yokoyama", "Detective Kojima", "Police detective", "Police detective", "Detective Tamiya", "Man"],
+        episodeDescription: "The Detective Boys are called to the police station to make a statement about the Blue Castle Investigation Case, when they learn that the police are busy trying to figure out who robbed a nearby bank. The man who owns the bank Keizo Masuo has just arrived is wondering if his wife has already arrived to the police station, but Takagi and Sato say she hasn’t.",
+        japaneseTitle: "本庁の刑事恋物語. (Honchō no Keiji Koi-monogatari)",
+        titleInOtherLanguages: [
+            ["Arabic", "ذكاء المحقق", "The Detective’s Intelligence"],
+            ["Catalan (Catalan dub)", "La història d'amor dels inspectors de la comissaria central de policia", "Police HQ inspectors love story"],
+            ["Catalan (Valencian dub)", "Història d'amor entre detectius", "Love story between detectives"],
+            ["French", "L'Histoire d'amour d'un détective", "A detective's love story"],
+            ["Galician", "Historia de amor entre detectives", "Love story between detectives"],
+            ["German", "Bei Anruf Mord", "A murder by call (Reference to 'Dial M for Murder' movie title in Germany)"],
+            ["Italian", "I pericoli dell'amore", "The Dangers of Love"],
+            ["Spanish (American dub)", "Historia de amor en la policía metropolitana - Tomo 1", "A love story in the metropolitan police - Volume 1"],
+            ["Spanish (Castilian dub)", "Una historia de amor entre detectives", "Love story between detectives"],
+            ["Thai", "ตำนานรักตำรวจนครบาล", "Metropolitan Police Love Story"],
+            ["Vietnamese", "Câu chuyện tình yêu ở trụ sở cảnh sát", "Metropolitan Police Headquarter Love Story"]
+        ],
+        season: "6",
+        originalAirdate: "May 24, 1999 (Part 1). May 31, 1999 (Part 2)",
+
+        broadcastRating: "21%. 20.2%",
+
+
+        mangaCase: "#60",
+        mangaSource: "Volume 21: Files 8-10 (208-210)",
+
+
+        caseSolvedBy: "Conan Edogawa. Wataru Takagi. Miwako Sato. Ninzaburo Shiratori",
+        nextConansHint: "Exercise bike (Part 1). Bookshelf (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "146 Yoshio Suzuki. 147 Nana Harada",
+        animationDirector: "146 Izumi Shimura. 147 Miwa Oshima",
+
+        storyboard: "Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Seizo Kato as Kiyonaga Matsumoto Kaneto Shiozawa as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Sadao Nunome as Detective Kobayashi Takayuki Inoue as Detective Yokoyama Yasuo Muramatsu as Keizo Masuo Kei Hayami as Kayo Masuo Isshin Chiba as Police detective Toshihiko Nakajima as Detective Kojima",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The North Star No.3 Express Leaving Ueno",
+        nextCase: "The Streetcar's Sudden Stopping Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "事件解明 （オリジナルver.）", "Jiken Kaimei (Orijinaru ver.)", "Case Clarification (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "147", isFiller: false, title: "147: Metropolitan Police Detective Love Story (Part 2)",
+        appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ninzaburo Shiratori", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Kiyonaga Matsumoto", "Detective Kobayashi", "Detective Yokoyama", "Detective Kojima", "Police detective", "Police detective", "Detective Tamiya", "Man"],
+        episodeDescription: "Conan gives the police small clues and they eventually find out the culprit who killed the wife. They also found out that a robbery took place days ago in Tohto bank, where Keizo is working as the manager.",
+        japaneseTitle: "本庁の刑事恋物語. (Honchō no Keiji Koi-monogatari)",
+        titleInOtherLanguages: [
+            ["Arabic", "ذكاء المحقق", "The Detective’s Intelligence"],
+            ["Catalan (Catalan dub)", "La història d'amor dels inspectors de la comissaria central de policia", "Police HQ inspectors love story"],
+            ["Catalan (Valencian dub)", "Història d'amor entre detectius", "Love story between detectives"],
+            ["French", "L'Histoire d'amour d'un détective", "A detective's love story"],
+            ["Galician", "Historia de amor entre detectives", "Love story between detectives"],
+            ["German", "Bei Anruf Mord", "A murder by call (Reference to 'Dial M for Murder' movie title in Germany)"],
+            ["Italian", "I pericoli dell'amore", "The Dangers of Love"],
+            ["Spanish (American dub)", "Historia de amor en la policía metropolitana - Tomo 1", "A love story in the metropolitan police - Volume 1"],
+            ["Spanish (Castilian dub)", "Una historia de amor entre detectives", "Love story between detectives"],
+            ["Thai", "ตำนานรักตำรวจนครบาล", "Metropolitan Police Love Story"],
+            ["Vietnamese", "Câu chuyện tình yêu ở trụ sở cảnh sát", "Metropolitan Police Headquarter Love Story"]
+        ],
+        season: "6",
+        originalAirdate: "May 24, 1999 (Part 1). May 31, 1999 (Part 2)",
+
+        broadcastRating: "21%. 20.2%",
+
+
+        mangaCase: "#60",
+        mangaSource: "Volume 21: Files 8-10 (208-210)",
+
+
+        caseSolvedBy: "Conan Edogawa. Wataru Takagi. Miwako Sato. Ninzaburo Shiratori",
+        nextConansHint: "Exercise bike (Part 1). Bookshelf (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "146 Yoshio Suzuki. 147 Nana Harada",
+        animationDirector: "146 Izumi Shimura. 147 Miwa Oshima",
+
+        storyboard: "Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Seizo Kato as Kiyonaga Matsumoto Kaneto Shiozawa as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Sadao Nunome as Detective Kobayashi Takayuki Inoue as Detective Yokoyama Yasuo Muramatsu as Keizo Masuo Kei Hayami as Kayo Masuo Isshin Chiba as Police detective Toshihiko Nakajima as Detective Kojima",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The North Star No.3 Express Leaving Ueno",
+        nextCase: "The Streetcar's Sudden Stopping Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "小さな巨人", "Chiisana Kyojin", "A Small Great Person"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper Version)"],
+            ["00:00", "激突", "Gekitotsu", "Clash"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"]
+        ]
+    },
+    {
+        id: "148", isFiller: true, title: "148: The Streetcar's Sudden Stopping Case",
+        appearances: ["Conan Edogawa", "Detective Boys"],
+        episodeDescription: "Conan and the Detective Boys wake up at 5:30 am in the morning to go get in line for a roller coaster ride in Beika Land. There are only three other people on the train at that time, and they plan on going there in order to take pictures of the train. One of the photographers waits outside so he can take pictures of the train coming towards him. Suddenly, the ladder underneath him tips over and he falls onto the track.",
+        japaneseTitle: "路面電車急停止事件. (Rōmen Densha Kyūteishi Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "قضية القطار القديم", "The Old Train Case"],
+            ["Catalan (Catalan dub)", "El cas de la frenada sobtada del tramvia", "The tram's sudden breaking case"],
+            ["Catalan (Valencian dub)", "El cas del tramvia", "The tram case"],
+            ["French", "L'Affaire du tramway", "The tram case"],
+            ["Galician", "Asasinato no tranvía", "Murder in tram"],
+            ["German", "Tod in der Straßenbahn", "Death in the Tram"],
+            ["Italian", "Fermate quel tram!", "Stop That Tram!"],
+            ["Spanish (American dub)", "El caso del asesinato en el tren", "The train murder case"],
+            ["Spanish (Castilian dub)", "El caso del tranvía", "The tram case"],
+            ["Thai", "คดีรถรางเบรกฉุกเฉิน", "The case of a streetcar making an emergency stop"],
+            ["Vietnamese", "Vụ án xe điện dừng lại đột ngột", "The Streetcar's Sudden Stopping Case"]
+        ],
+        season: "6",
+        originalAirdate: "June 7, 1999October 23, 2021 (Remastered version)",
+
+        broadcastRating: "20.2%",
+        remasteredRating: "6.3%",
+        fillerCase: "#53",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa. Kenji Wakai",
+        nextConansHint: "Camera caseS-shaped hook (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Kazuo Nogami",
+        animationDirector: "Hirobi Muranaka",
+        screenplay: "Masaaki Sakurai",
+        storyboard: "Kazuo Nogami",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Koji Yusa as Tetsuya Kawasaki Ai Kobayashi as Rumi Shimizu Keiichi Sonobe as Masao Horii Ikuya Sawaki as Kenji Wakai Takashi Nagasako as Driver Isshin Chiba as Station announcement",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« Metropolitan Police Detective Love Story",
+        nextCase: "The Amusement Park Bungee Jumping Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "挫折", "Zasetsu", "Frustration"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "別居の真相", "Bekkyo no Shinsō", "The Truth Behind the Separation"]
+        ]
+    },
+    {
+        id: "149", isFiller: true, title: "149: The Amusement Park Bungee Jumping Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Vodka", "Hitomi", "Reiko", "Kishida", "Aiko", "Kamen Yaiba"],
+        episodeDescription: "Conan, Ran, Kogoro, are at the amusement park. Later, while Yaiba is jumping on a bungee jump, the ring around his feet and he falls into the river nearby.",
+        japaneseTitle: "遊園地バンジー事件. (Yūenchi Banjī Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "قفزة البطل الطائر", "The Flying Hero’s Jump"],
+            ["Catalan (Catalan dub)", "El cas de l'assassinat del pònting del parc d'atraccions", "The amusement park's Bungee jumping murder case"],
+            ["Catalan (Valencian dub)", "El salt amb elàstic del parc d'atraccions", "The amusement park's Bungee jumping"],
+            ["French", "Meurtre au parc d'attraction", "Murder in the Amusement Park"],
+            ["Galician", "Puenting no parque de atraccións", "Bungee jumping in the amusement park"],
+            ["German", "Verräterische Pose", "Suspicious Posture"],
+            ["Italian", "Delitto al parco dei divertimenti", "Murder at the Amusement Park"],
+            ["Spanish (American dub)", "El caso del salto en bungee", "The Bungee jumping case"],
+            ["Spanish (Castilian dub)", "El asesinato haciendo puenting en el parque de atracciones", "The murder doing Bungee jumping in the amusement park"],
+            ["Thai", "คดีบันจี้สวนสนุก", "The amusement park bungee jumping case"],
+            ["Vietnamese", "Vụ tai nạn do nhảy Bungee", "The Bungee Jumping Accident Case"]
+        ],
+        season: "6",
+        originalAirdate: "June 21, 1999",
+
+        broadcastRating: "19.3%",
+
+        fillerCase: "#54",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Kamen Yaiba show",
+        director: "Yasuichiro Yamamoto. Kenji Kodama",
+        episodeDirector: "Koichi Sasaki",
+        animationDirector: "Masayuki Hiraoka",
+        screenplay: "Hiroshi Kashiwabara. Tokihiro Kon",
+        storyboard: "Takashi Iwama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Yuta Hosono, Kamen Yaiba Koji Ishii as Shinpei Okubo, Black Planet Man Kaori Saiki as Kanako Harukawa Junichi Sugawara as Akiyoshi Ishijima You Kitazawa as Wataru Otake Yuji Fujishiro as Seizou Fujita Ayumi Kida as Tomohiro Takata Mari Tomokawa as Woman Hiromichi Kogami as Staff A Toshitaka Shimizu as Staff B Toshiaki Kuwahara as Staff C",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Streetcar's Sudden Stopping Case",
+        nextCase: "The Truth Behind the Car Explosion Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "新一のテーマ", "Shin'ichi no Tēma", "Shinichi's Theme"],
+            ["00:00", "毛利小五郎のテーマ （ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky ver.)"],
+            ["00:00", "新一のテーマ", "Shin'ichi no Tēma", "Shinichi's Theme"],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper Version)"],
+            ["00:00", "コナンのテーマ （バラード・ヴァージョン)", "Konan no Tēma (Barādo・Vājon)", "Conan's Theme (Ballad Version)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"]
+        ]
+    },
+    {
+        id: "150", isFiller: true, title: "150: The Truth Behind the Car Explosion Case (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+        episodeDescription: "Kogoro reveals that he tutored in his youth, and resolves to meet up with one of his students. However, when they go see her, her car suddenly explodes as her sister drives it out of the driveway.",
+        japaneseTitle: "自動車爆発事件の真相. (Jidōsha Bakuhatsu Jiken no Shinsō)",
+        titleInOtherLanguages: [
+            ["Arabic", "لغز السيارة المتفجرة", "The Mystery of the Exploding Car"],
+            ["Catalan (Catalan dub)", "La veritat del cas de l'explosió de l'automòbil", "The truth of the automobile explosion case"],
+            ["Catalan (Valencian dub)", "L'atemptat amb cotxe bomba", "The attack with a car bomb"],
+            ["French", "Meurtre à la voiture piégée", "The Bombed Car Murder"],
+            ["Galician", "Asasinato con coche bomba", "Murder with a car bomb"],
+            ["German", "Ungleiche Schwestern", "Dissimilar Sisters"],
+            ["Italian", "Esplosione mortale", "Deadly Explosion"],
+            ["Spanish (American dub)", "La verdad del caso de la explosión del auto", "The truth of the car explosion case"],
+            ["Spanish (Castilian dub)", "El atentado en el coche", "The attack in the car"],
+            ["Thai", "ความจริงในคดีรถระเบิด", "The truth of the car explosion case"],
+            ["Vietnamese", "Chân tướng đằng sau vụ xe hơi phát nổ", "The Truth Behind the Car Explosion Case"]
+        ],
+        season: "6",
+        originalAirdate: "June 28, 1999 (Part 1). July 5, 1999 (Part 2)",
+
+        broadcastRating: "17.2%. 19.5%",
+
+        fillerCase: "#55",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri",
+        nextConansHint: "Car garage (Part 1). Window (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "150 Hirohito Ochi. 151 Minoru Tozawa",
+        animationDirector: "150 Kumiko Shishido. 151 Keiko Sasaki",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "150 Michiyo Sakurai. 151 Hiroshi Matsuzono",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint (Part 1) Atsuko Yuya as Miwako Sato Keiko Han as Megumi Sakihara Tohru Furusawa as Kazuo Sakihara Shigenori Soya as Hiromasa Takahashi Mari Tomokawa as Detective Tomokawa Isshin Chiba as Detective A",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Amusement Park Bungee Jumping Case",
+        nextCase: "The Mysterious Old Man Disappearance Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", ""],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "真相究明", "Shinsō Kyūmei", "Investigating the Truth"],
+            ["00:00", "コナンが通る", "Konan ga Tōru", "Conan Passes By"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"]
+        ]
+    },
+    {
+        id: "151", isFiller: true, title: "151: The Truth Behind the Car Explosion Case (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+        episodeDescription: "With some prodding by Conan, Kogoro finds the truth of the case himself.",
+        japaneseTitle: "自動車爆発事件の真相. (Jidōsha Bakuhatsu Jiken no Shinsō)",
+        titleInOtherLanguages: [
+            ["Arabic", "لغز السيارة المتفجرة", "The Mystery of the Exploding Car"],
+            ["Catalan (Catalan dub)", "La veritat del cas de l'explosió de l'automòbil", "The truth of the automobile explosion case"],
+            ["Catalan (Valencian dub)", "L'atemptat amb cotxe bomba", "The attack with a car bomb"],
+            ["French", "Meurtre à la voiture piégée", "The Bombed Car Murder"],
+            ["Galician", "Asasinato con coche bomba", "Murder with a car bomb"],
+            ["German", "Ungleiche Schwestern", "Dissimilar Sisters"],
+            ["Italian", "Esplosione mortale", "Deadly Explosion"],
+            ["Spanish (American dub)", "La verdad del caso de la explosión del auto", "The truth of the car explosion case"],
+            ["Spanish (Castilian dub)", "El atentado en el coche", "The attack in the car"],
+            ["Thai", "ความจริงในคดีรถระเบิด", "The truth of the car explosion case"],
+            ["Vietnamese", "Chân tướng đằng sau vụ xe hơi phát nổ", "The Truth Behind the Car Explosion Case"]
+        ],
+        season: "6",
+        originalAirdate: "June 28, 1999 (Part 1). July 5, 1999 (Part 2)",
+
+        broadcastRating: "17.2%. 19.5%",
+
+        fillerCase: "#55",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri",
+        nextConansHint: "Car garage (Part 1). Window (Part 2)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "150 Hirohito Ochi. 151 Minoru Tozawa",
+        animationDirector: "150 Kumiko Shishido. 151 Keiko Sasaki",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "150 Michiyo Sakurai. 151 Hiroshi Matsuzono",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint (Part 1) Atsuko Yuya as Miwako Sato Keiko Han as Megumi Sakihara Tohru Furusawa as Kazuo Sakihara Shigenori Soya as Hiromasa Takahashi Mari Tomokawa as Detective Tomokawa Isshin Chiba as Detective A",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Amusement Park Bungee Jumping Case",
+        nextCase: "The Mysterious Old Man Disappearance Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "謎の解明 （ターゲット サスペンスＫ）", "Nazo no Kaimei (Tāgetto Sasupensu K)", "Clearing the Mystery (Target Suspense K)"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal Version)"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "事件解決", "Jiken Kaiketsu", "Case Resolution"]
+        ]
+    },
+    {
+        id: "152", isFiller: true, title: "152: The Mysterious Old Man Disappearance Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kogoro Mouri", "Wataru Takagi", "Juzo Megure", "Miwako Sato", "Detective Kobayashi", "Detective Kojima", "Minor law enforcement#Police detective", "Azusa Enomoto", "Ninzaburo Shiratori", "Tatsuya Kimura", "Mieko Shibazaki", "Katsumi Yamada"],
+        episodeDescription: "While on the bus home, Ran meets an old man who later disappears. Later she finds a MO disk in her purse with secret information about fraud involving several companies. Conan realizes the old man must've been followed and captured. Sonoko is kidnapped, in a case of mistaken identity for having Ran's bag at the time.",
+        japaneseTitle: "謎の老人失踪事件. (Nazo no Rōjin Shissō Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "اختفاء الرجل العجوز", "The Disappearance of the Old Man"],
+            ["Bahasa Indonesia", "Kasus Hilangnya Kakek Tua Misterius", "The Mysterious Old Man Disappearance Case"],
+            ["Catalan (Catalan dub)", "El cas de la desaparició de l'avi misteriós", "The disappearance of the mysterious grandfather case"],
+            ["Catalan (Valencian dub)", "La desaparició de l'ancià", "The disappearance of the elderly man"],
+            ["French", "La Disparition du vieil homme", "The disappearance of the old man"],
+            ["Galician", "O vello que desapareceu", "The old man who dissapeared"],
+            ["German", "Dunkle Geschäfte", "Dark Business"],
+            ["Italian", "Per amor di giustizia", "For the Sake of Justice"],
+            ["Spanish (American dub)", "El caso de la misteriosa desaparición del anciano", "The mysterious disappearance of a elderly man case"],
+            ["Spanish (Castilian dub)", "La desaparición del anciano", "The disappearance of the elderly man"],
+            ["Thai", "คดีชายชราลึกลับหายตัว", "The case of a mysterious old man disappeared"],
+            ["Vietnamese", "Vụ án biến mất bí ẩn của một ông lão", "The Mysterious Old Man Disappearance Case"]
+        ],
+        season: "6",
+        originalAirdate: "July 12, 1999",
+
+        broadcastRating: "19.6%",
+
+        fillerCase: "#56",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Windowpane",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Yoshio Suzuki",
+        animationDirector: "Izumi Shimura",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Yoshio Suzuki",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki, Next Conan's Hint Nobuaki Sekine as Juukichi Shitara Isshin Chiba as Bus driver Mikiko Enomoto as Receptionist Kouichi Nagano as Cleaning staff Jin Hirao as Taxi driver Kazuhiro Nakata as Man in the coat A Takashi Nagasako as Man in the coat B Wataru Takagi as Next Conan's Hint",
+        openingSong: "Girigiri chop",
+        endingSong: "Still for your love",
+        prevCase: "« The Truth Behind the Car Explosion Case",
+        nextCase: "Sonoko's Dangerous Summer Story »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling"],
+            ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （予告）", "'Meitantei Konan' Mein・Tēma (Yokoku)", "'Detective Conan' Main Theme (Preview)"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "Still for your love", "Still for your love", "Still for your love"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"]
+        ]
+    },
+    {
+        id: "153", isFiller: false, title: "153: Sonoko's Dangerous Summer Story (Part 1)",
+        appearances: ["Conan Edogawa", "Sonoko Suzuki", "Ran Mouri", "Sango Yokomizo", "Makoto Kyogoku"],
+        episodeDescription: "Sonoko, Ran, and Conan go to Izu, Shizuoka Prefecture, because of Sonoko's schemes to get a man. At the beach, Sonoko takes a picture of Ran fixing her bathing suit and threatens to send the picture to Shinichi. Sonoko is upset about her lack of love life. However, a college student approaches the girls and asks Sonoko to lunch. He appears to be romantically interested and asks Sonoko to dinner as well. They agree to meet at their lodgings later that day. The college student tells the group a story about a brunette that was murdered a year ago and now haunts the restaurant he wants to dine at. Ran is frighten by the story and forbids Sonoko in using the camera to capture a ghost in it. Sonoko suggest that maybe they could show such a picture to Shinichi and see if he can figure something out, since she is going to show the other picture anyway. The group then finds out that another brunette was murdered in the woods recently in the same manner as the brunette from a year ago.",
+        japaneseTitle: "園子のアブない夏物語. (Sonoko no Abunai Natsumonogatari)",
+        titleInOtherLanguages: [
+            ["Arabic", "نزهة محفوفة بالمخاطر", "a perilous outing"],
+            ["Catalan (Catalan dub)", "La perillosa història estiuenca de la Sonoko", "Sonoko's dangerous summer story"],
+            ["Catalan (Valencian dub)", "El perillós estiu de Sonoko", "Sonoko's dangerous summer"],
+            ["French", "Dangereux été pour Sonoko", "Dangerous Summer for Sonoko"],
+            ["Galician", "O azaroso verán de Sonoko", "Sonoko's risky summer"],
+            ["German", "Die Liebe, der Strand und der Tod", "Love, the Beach and Death"],
+            ["Italian", "Un'estate che scotta", "A Summer that Burn"],
+            ["Spanish (American dub)", "El peligroso verano de Sonoko", "Sonoko's dangerous summer"],
+            ["Spanish (Castilian dub)", "El verano peligroso de Sonoko", "Sonoko's dangerous summer"],
+            ["Thai", "หน้าร้อนอันตรายของโซโนโกะ", "Sonoko's dangerous summer"],
+            ["Vietnamese", "Câu chuyện mùa hè nguy hiểm của Sonoko", "Sonoko's Dangerous Summer Story"]
+        ],
+        season: "6",
+        originalAirdate: "July 19, 1999 (Part 1). July 26, 1999 (Part 2). July 31, 2010 (Part 1) (Remastered version). August 7, 2010 (Part 2) (Remastered version)",
+
+        broadcastRating: "18.3%. 17.3%",
+        remasteredRating: "7.0%. 5.5%",
+
+        mangaCase: "#63",
+        mangaSource: "Volume 22: Files 8-10 (219-221)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Sonoko's camera (Part 1). Bite mark (Part 2)Spirit photo (Part 1) (Remastered version). Pantograph (Part 2) (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "153 Nana Harada. 154 Kazuo Nogami",
+        animationDirector: "153 Hirobi Muranaka. 154 Masatomo Sudo",
+
+        storyboard: "Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri, Next Conan's Hint Naoko Matsui as Sonoko Suzuki, Next Conan's Hint Akio Otsuka as Sango Yokomizo Nobuyuki Hiyama as Makoto Kyogoku Hiroaki Hirata as Tadahiko Michiwaki Katsuhisa Houki as Shoji Terabayashi Isshin Chiba as Detective A Naoki Makishima as Man A Keesuke as Waiter Wataru Takagi as Next Conan's Hint",
+        openingSong: "Girigiri chop",
+        endingSong: "Free Magic",
+        prevCase: "« The Mysterious Old Man Disappearance Case",
+        nextCase: "Underwater Key in the Locked Room Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme"],
+            ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "ターゲット サスペンスＢ", "Tāgetto Sasupensu B", "Target Suspense B"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "Free Magic", "Free Magic", "Free Magic"]
+        ]
+    },
+    {
+        id: "154", isFiller: false, title: "154: Sonoko's Dangerous Summer Story (Part 2)",
+        appearances: ["Conan Edogawa", "Sonoko Suzuki", "Ran Mouri", "Sango Yokomizo", "Makoto Kyogoku"],
+        episodeDescription: "Sonoko sleeps inside Michiwaki's Station Wagon, while Conan, Ran and Michiwaki are eating in the restaurant. Just then, Conan realizes that the car is moving and Sonoko is still in the car. Conan and Ran run to stop the car, and just when the car is about to fall into the cliff, Ran broke the window and saved Sonoko in time, and the car fell into the cliff. Conan believes the culprit was the serial killer who attacked Sonoko last night.",
+        japaneseTitle: "園子のアブない夏物語. (Sonoko no Abunai Natsumonogatari)",
+        titleInOtherLanguages: [
+            ["Arabic", "نزهة محفوفة بالمخاطر", "a perilous outing"],
+            ["Catalan (Catalan dub)", "La perillosa història estiuenca de la Sonoko", "Sonoko's dangerous summer story"],
+            ["Catalan (Valencian dub)", "El perillós estiu de Sonoko", "Sonoko's dangerous summer"],
+            ["French", "Dangereux été pour Sonoko", "Dangerous Summer for Sonoko"],
+            ["Galician", "O azaroso verán de Sonoko", "Sonoko's risky summer"],
+            ["German", "Die Liebe, der Strand und der Tod", "Love, the Beach and Death"],
+            ["Italian", "Un'estate che scotta", "A Summer that Burn"],
+            ["Spanish (American dub)", "El peligroso verano de Sonoko", "Sonoko's dangerous summer"],
+            ["Spanish (Castilian dub)", "El verano peligroso de Sonoko", "Sonoko's dangerous summer"],
+            ["Thai", "หน้าร้อนอันตรายของโซโนโกะ", "Sonoko's dangerous summer"],
+            ["Vietnamese", "Câu chuyện mùa hè nguy hiểm của Sonoko", "Sonoko's Dangerous Summer Story"]
+        ],
+        season: "6",
+        originalAirdate: "July 19, 1999 (Part 1). July 26, 1999 (Part 2). July 31, 2010 (Part 1) (Remastered version). August 7, 2010 (Part 2) (Remastered version)",
+
+        broadcastRating: "18.3%. 17.3%",
+        remasteredRating: "7.0%. 5.5%",
+
+        mangaCase: "#63",
+        mangaSource: "Volume 22: Files 8-10 (219-221)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Sonoko's camera (Part 1). Bite mark (Part 2)Spirit photo (Part 1) (Remastered version). Pantograph (Part 2) (Remastered version)",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "153 Nana Harada. 154 Kazuo Nogami",
+        animationDirector: "153 Hirobi Muranaka. 154 Masatomo Sudo",
+
+        storyboard: "Kenji Kodama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri, Next Conan's Hint Naoko Matsui as Sonoko Suzuki, Next Conan's Hint Akio Otsuka as Sango Yokomizo Nobuyuki Hiyama as Makoto Kyogoku Hiroaki Hirata as Tadahiko Michiwaki Katsuhisa Houki as Shoji Terabayashi Isshin Chiba as Detective A Naoki Makishima as Man A Keesuke as Waiter Wataru Takagi as Next Conan's Hint",
+        openingSong: "Girigiri chop",
+        endingSong: "Free Magic",
+        prevCase: "« The Mysterious Old Man Disappearance Case",
+        nextCase: "Underwater Key in the Locked Room Case »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)"],
+            ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened..."],
+            ["00:00", "次のターゲット！", "Tsugi no Tāgetto!", "The Next Target!"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original ver.)"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis"],
+            ["00:00", "犯人の目星", "Hannin no Meboshi", "The Culprit's Objective"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar ver.)"],
+            ["00:00", "Free Magic", "Free Magic", "Free Magic"],
+            ["00:00", "コナンの勝利", "Konan no Shōri", "Conan's Victory"]
+        ]
+    },
+    {
+        id: "155", isFiller: true, title: "155: Underwater Key in the Locked Room Case",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Yokoyama"],
+        episodeDescription: "Kogoro, Ran, and Conan pay a visit to an old woman, who had meet Kogoro when he was a student. She decides to take them to her grandson, but he's found dead when they get into the house. The front door is locked however. How could this have happened? Rather than use Sleeping Kogoro for the case, Conan solves this one as himself.",
+        japaneseTitle: "水中の鍵密室事件. (Suichū no Kagi Misshitsu Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "الخنفساء الجائعة", "The Hungry Beetle"],
+            ["Catalan (Catalan dub)", "El cas de l'habitació tancada i la clau a l'aigua", "The closed room and the key in the water case"],
+            ["Catalan (Valencian dub)", "El cas de l'habitació tancada amb una clau sota l'aigua", "The closed room with a key under the water case"],
+            ["French", "Un Mystérieux suicide", "A Mysterious Suicide"],
+            ["Galician", "O caso da chave da auga nun piso pechado", "The key in the water in a closed apartment case"],
+            ["German", "Ein Käfer kommt selten allein", "A Beetle Seldom Comes Alone"],
+            ["Italian", "Il caso della chiave nell'acqua", "The Underwater Key Case"],
+            ["Spanish (American dub)", "El caso de la llave bajo el agua", "The key under the water case"],
+            ["Spanish (Castilian dub)", "El caso de la habitación cerrada con una llave bajo el agua", "The closed room with a key under the water case"],
+            ["Thai", "คดีห้องปิดตายกุญแจอยู่ในน้ำ", "A locked room case - The key is in underwater"],
+            ["Vietnamese", "Án mạng trong phòng kín chiếc chìa khóa dưới nước", "Underwater Key in the Locked Room Murder Case"]
+        ],
+        season: "6",
+        originalAirdate: "August 2, 1999",
+
+        broadcastRating: "16.4%",
+
+        fillerCase: "#57",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Crayon",
+        director: "Yasuichiro Yamamoto. Kenji Kodama (chief)",
+        episodeDirector: "Koichi Sasaki",
+        animationDirector: "Masayuki Hiraoka",
+        screenplay: "Kazunari Kouchi",
+        storyboard: "Takashi Iwama",
+        characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Takayuki Inoue as Detective Yokoyama Junko Hori as Mitsue Souda Susumu Chiba as Yoshihiko Kido",
+        openingSong: "Girigiri chop",
+        endingSong: "Free Magic",
+        prevCase: "« Sonoko's Dangerous Summer Story",
+        nextCase: "Metropolitan Police Detective Love Story 2 »",
+        BGM: [
+            ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop"],
+            ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original ver.)"],
+            ["00:00", "緊迫", "Kinpaku", "Tension"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In ver.)"],
+            ["00:00", "トリック", "Torikku", "Trick"],
+            ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit"],
+            ["00:00", "ターゲット サスペンスＣ", "Tāgetto Sasupensu C", "Target Suspense C"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset"],
+            ["00:00", "名探偵コナン・メインテーマ （ヴォーカル・ヴァージョン)", "Meitantei Konan・Mein Tēma (Vōkaru・Vājon)", "Detective Conan Main Theme (Vocal Version)"],
+            ["00:00", "Free Magic", "Free Magic", "Free Magic"],
+            ["00:00", "事件解決 （意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)"]
+        ]
+    },
+];

@@ -139,7 +139,7 @@ const mergeArrays = (episodes, episodesData) => {
 
         const formattedBGM = item.BGM.map((bg, index) => {
             const comma = index < item.BGM.length - 1 ? ',' : '';
-            return `["${bg[3]}"]${comma}<br>`;
+            return `["${bg[0]}", "${bg[1]}", "${bg[2]}", "${bg[3]}", "${bg[4]}"]${comma}<br>`;
         }).join('');
 
         const casesSolvedBy = item.hasOwnProperty('caseSolvedBy') ? item.caseSolvedBy : item.casesSolvedBy;
@@ -175,12 +175,42 @@ const mergeArrays = (episodes, episodesData) => {
         const endingSong = item.hasOwnProperty('closingSong') ? `endingSong: "${item.closingSong}", ` : '';
         const prevCase = item.hasOwnProperty('prevCase') ? `prevCase: "${item.prevCase}", ` : '';
         const nextCase = item.hasOwnProperty('nextCase') ? `nextCase: "${item.nextCase}", ` : '';
-        const BGM = item.hasOwnProperty('BGM') ? `<br>${formattedBGM}<br> ` : '';
+        const BGM = item.hasOwnProperty('BGM') ? `BGM: [<br>${formattedBGM}]<br> ` : '';
 
         return `<div> 
-         <br>
+        { <br>
+            ${id}
+            ${isFiller}
+            ${title}<br>
+            ${cast}<br>
+            ${episodeDescription}<br>
+            ${japaneseTitle}<br>
+            ${titleInOtherLanguages}<br>
+            ${season}<br>
+            ${originalAirdate}<br>
+            ${englishAirdate}<br>
+            ${broadcastRating}<br>
+            ${remasteredRating}<br>
+            ${fillerCase}<br>
+            ${mangaCase}<br>
+            ${mangaSource}<br>
+            ${dubbedEpisode}<br>
+            ${englishTitle}<br>
+            ${caseSolvedBy}<br>
+            ${nextConansHint}<br>
+            ${director}<br>
+            ${episodeDirector}<br>
+            ${animationDirector}<br>
+            ${screenplay}<br>
+            ${storyboard}<br>
+            ${characterDesign}<br>
+            ${voiceCast}<br>
+            ${openingSong}<br>
+            ${endingSong}<br>
+            ${prevCase}<br>
+            ${nextCase}<br>
             ${BGM}
-        
+        },
         </div>`;
     });
 

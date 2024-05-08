@@ -190,7 +190,7 @@ const episodes = [
     { id: "188", title: "188: The Desperate Revival - The Cavern of the Detective Boys" },
     { id: "189", title: "189: The Desperate Revival - The Wounded Great Detective" },
     { id: "190", title: "190: The Desperate Revival - The Third Choice" },
-    { id: "191", title: "199: The Desperate Revival - The Black Knight" },
+    { id: "191", title: "191: The Desperate Revival - The Black Knight" },
     { id: "192", title: "192: The Desperate Revival - Shinichi's Return" },
     { id: "193", title: "193: The Desperate Revival - The Promised Place" },
     { id: "194", title: "194: The Significant Music Box (Part 1)" },

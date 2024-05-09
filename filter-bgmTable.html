@@ -61,7 +61,6 @@
                 if (tdElements.length > 0) {
                     // Replace numbers with "00:00" for the timestamp
                     var timestamp = tdElements[0].innerText.trim();
-                    timestamp = /^\d+$/.test(timestamp) ? "00:00" : timestamp;
                     var jpnTitle = tdElements[1].innerText.trim();
                     var rmjTitle = tdElements[2].innerText.trim();
                     var enTitle = tdElements[3].innerText.trim();

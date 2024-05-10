@@ -139,6 +139,7 @@ const mergeArrays = (episodes, episodesData) => {
 
         const formattedBGM = item.BGM.map((bg, index) => {
             const comma = index < item.BGM.length - 1 ? ',' : '';
+            bg[3] = bg[3].replace(/ver\./gi, "Version");
             return `["${bg[0]}", "${bg[1]}", "${bg[2]}", "${bg[3]}", "${bg[4]}"]${comma}<br>`;
         }).join('');
 

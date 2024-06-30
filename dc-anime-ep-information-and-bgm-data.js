@@ -2398,7 +2398,7 @@ const episodesData = [
       ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery ver.)", "Detective Conan Original Soundtrack 2"],
       ["00:00", "コナンの危機", "Konan no Kiki", "Conan's Crisis", "Detective Conan Original Soundtrack Super Best"],
       ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
-      ["00:00", "夢をとめないでいて", "Yume o Tomenaide Ite", "Don't Stop Dreaming", "Feel Your Heart"],
+      ["00:00", "夢をとめないでいて", "Yume o Tomenaide Ite", "Don't Stop Dreaming", "Don't Stop Dreaming"],
       ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
       ["00:00", "事件の謎", "Jiken no Nazo", "Mystery of the Case", "Detective Conan Original Soundtrack 3"],
       ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful ver.)", "Detective Conan Original Soundtrack 2"],
@@ -6109,8 +6109,8 @@ const episodesData = [
       ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
       ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
       ["00:00", "悲劇のヒロイン", "Higeki no Hiroin", "Tragic Heroine", "Detective Conan Original Soundtrack 3"],
-      ["00:00", "瞳を閉じれば～蘭のテーマ～ （インストヴァージョン）", "Hitomi o Tojireba ~ Ran no Tēma (Insuto Vājon)", "If I Close My Eyes ~ Ran's Theme (Instrumental ver.)", "Boku ga Iru ~ TV Anime 'Detective Conan' Image Song Album"],
-      ["00:00", "あなたを感じてる～蘭・愛のテーマ～ （インストヴァージョン）", "Anata o Kanjiteru ~ Ran・Ai no Tēma (Insuto Vājon)", "I'm Feeling You ~ Ran's Love Theme (Instrumental ver.)", "Boku ga Iru ~ TV Anime 'Detective Conan' Image Song Album"],
+      ["00:00", "瞳を閉じれば～蘭のテーマ～", "Hitomi o Tojireba ~ Ran no Tēma", "If I Close My Eyes ~ Ran's Theme", "Boku ga Iru ~ TV Anime 'Detective Conan' Image Song Album"],
+      ["00:00", "あなたを感じてる～蘭・愛のテーマ～", "Anata o Kanjiteru ~ Ran・Ai no Tēma", "I'm Feeling You ~ Ran's Love Theme", "Boku ga Iru ~ TV Anime 'Detective Conan' Image Song Album"],
       ["00:00", "願い事ひとつだけ", "Negai Goto Hitotsu Dake", "Just One Wish", "Negai Goto Hitotsu Dake"],
       ["00:00", "事件解決（意気揚々ver.）", "Jiken Kaiketsu (Ikiyōyō ver.)", "Case Resolution (Triumphant ver.)", "Detective Conan Original Soundtrack 2"]
     ]

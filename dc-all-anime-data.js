@@ -65,7 +65,7 @@ const allData = [
             ["14:03", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
             ["14:31", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short Version)", "Detective Conan Original Soundtrack 2"],
             ["15:56", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm Version)", "Detective Conan Original Soundtrack 2"],
-            ["17:32", "コナンのテーマ （バラード・ヴァージョン)", "Konan no Tēma (Barādo・Vājon)", "let's go gonan (sorrow Version'jazz)", "Detective Conan Original Soundtrack 1"],
+            ["17:32", "コナンのテーマ （バラード・ヴァージョン)", "Konan no Tēma (Barādo・Vājon)", "Conan's Theme (Ballad Version)", "Detective Conan Original Soundtrack 1"],
             ["21:14", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
             ["21:53", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"]
         ]
@@ -803,14 +803,15 @@ const allData = [
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
             ["01:52", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm Version)", "Detective Conan Original Soundtrack 2"],
             ["02:35", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
-            ["04:44", "そばにいるから", "Soba ni Iru Kara", "Because I'm By Your Side", "Mune ga Dokidoki"],
+            ["04:44", "そばにいるから", "Soba ni Iru Kara", "Because I'm By Your Side", "↑THE HIGH-LOWS↓"],
             ["08:26", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["09:38", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
             ["12:14", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
             ["12:50", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
             ["14:40", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
             ["16:02", "1996 Unreleased BGM 2", "", "", ""],
-            ["17:07", "コナンのテーマコナンのテーマ （予告）", "Konan no Tēma Konan no Tēma (Yokoku)", "Conan's Theme Conan's Theme (Preview)", "Detective Conan Original Soundtrack 1 Detective Conan Original Soundtrack 2"],
+            ["17:07", "コナンのテーマ", "Konan no Tēma", "Conan's Theme", "Detective Conan Original Soundtrack 1"],
+            ["17:07", "コナンのテーマ （予告）", "Konan no Tēma (Yokoku)", "Conan's Theme (Preview)", "Detective Conan Original Soundtrack 2"],
             ["19:41", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
             ["20:44", "事件解決", "Jiken Kaiketsu", "Case Resolution", "Detective Conan Original Soundtrack 1"],
             ["21:30", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP", "STEP BY STEP"],
@@ -11941,3 +11942,5 @@ const allData = [
 ];
 
 export default allData;
+
+jazz

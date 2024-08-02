@@ -137,6 +137,16 @@ const mergeArrays = (episodes, episodesData) => {
             return `["${lang[0]}", "${lang[1]}", "${lang[2]}"]${comma}<br>`;
         }).join('');
 
+        const formattedMangaToAnimeChanges = item.mangaToAnimeChanges ? item.mangaToAnimeChanges.map((text, index) => {
+            const comma = index < item.mangaToAnimeChanges.length - 1 ? ',' : '';
+            return `"${text}"${comma}<br>`;
+        }).join('') : '';
+
+        const formattedTrivia = item.trivia ? item.trivia.map((text, index) => {
+            const comma = index < item.trivia.length - 1 ? ',' : '';
+            return `"${text}"${comma}<br>`;
+        }).join('') : '';
+
         const formattedBGM = item.BGM.map((bg, index) => {
             const comma = index < item.BGM.length - 1 ? ',' : '';
             bg[3] = bg[3].replace(/ver\./gi, "Version");
@@ -176,6 +186,8 @@ const mergeArrays = (episodes, episodesData) => {
         const endingSong = item.hasOwnProperty('closingSong') ? `endingSong: "${item.closingSong}", ` : '';
         const prevCase = item.hasOwnProperty('prevCase') ? `prevCase: "${item.prevCase}", ` : '';
         const nextCase = item.hasOwnProperty('nextCase') ? `nextCase: "${item.nextCase}", ` : '';
+        const mangaToAnimeChanges = item.hasOwnProperty('mangaToAnimeChanges') ? `mangaToAnimeChanges: [<br>${formattedMangaToAnimeChanges}],` : '';
+        const trivia = item.hasOwnProperty('trivia') ? `trivia: [<br>${formattedTrivia}],` : '';
         const BGM = item.hasOwnProperty('BGM') ? `BGM: [<br>${formattedBGM}]<br> ` : '';
 
         return `<div> 
@@ -210,6 +222,8 @@ const mergeArrays = (episodes, episodesData) => {
             ${endingSong}<br>
             ${prevCase}<br>
             ${nextCase}<br>
+            ${mangaToAnimeChanges}<br>
+            ${trivia}<br>
             ${BGM}
         },
         </div>`;

@@ -20,13 +20,14 @@
             display: flex;
             flex-direction: row-reverse;
         }
-    
+
         #fillerCheckbox {
             width: 100vw;
             height: 40px;
             cursor: pointer;
             margin: 0;
         }
+
         #parse {
             margin: 0;
         }
@@ -68,6 +69,8 @@
                 id: episodeId,
                 isFiller: fillerCheckbox,
                 cast: [],
+                mangaToAnimeChanges: [],
+                trivia: [],
                 episodeDescription: "",
                 inOtherLanguages: [],
                 BGM: []
@@ -161,6 +164,62 @@
                 }
             });
 
+            // Select the span element with the ID 'Trivia'
+            const mangaToAnimeChangesSpan = tempDiv.querySelector('span#Manga_to_anime_changes');
+            let mangaToAnimeChangesArray;
+
+            // Check if the mangaToAnimeChangesSpan exists
+            if (mangaToAnimeChangesSpan) {
+                // Select the h2 element that is the parent of the span
+                const h2Element = mangaToAnimeChangesSpan.closest('h2') || mangaToAnimeChangesSpan.closest('h3');
+
+                // Initialize a variable to hold the next sibling element
+                let nextElement = h2Element.nextElementSibling;
+
+                // Loop until a ul element is found or there are no more siblings
+                while (nextElement && nextElement.tagName.toLowerCase() !== 'ul') {
+                    nextElement = nextElement.nextElementSibling;
+                }
+
+                // Check if the next sibling is a ul element
+                if (nextElement && nextElement.tagName.toLowerCase() === 'ul') {
+                    // Select all the li elements within the ul element
+                    const liElements = nextElement.querySelectorAll('li');
+
+                    // Extract the text content of each li element and store it in an array
+                    mangaToAnimeChangesArray = Array.from(liElements, li => li.textContent.trim());
+                    result.mangaToAnimeChanges.push(mangaToAnimeChangesArray);
+                    // Output the array to the console (or use it as needed)
+                }
+            }
+            console.log(mangaToAnimeChangesArray);
+
+
+            // Select the span element with the ID 'Trivia'
+            const triviaSpan = tempDiv.querySelector('span#Trivia');
+            let TriviaArray;
+
+            // Check if the triviaSpan exists
+            if (triviaSpan) {
+                // Select the h2 element that is the parent of the span
+                const h2Element = triviaSpan.closest('h2');
+
+                // Select the ul element that is the next sibling of the h2 element
+                const nextElement = h2Element.nextElementSibling;
+
+                // Check if the next sibling is a ul element
+                if (nextElement && nextElement.tagName.toLowerCase() === 'ul') {
+                    // Select all the li elements within the ul element
+                    const liElements = nextElement.querySelectorAll('li');
+
+                    // Extract the text content of each li element and store it in an array
+                    TriviaArray = Array.from(liElements, li => li.textContent.trim());
+                    result.trivia.push(TriviaArray);
+                    // Output the array to the console (or use it as needed)
+                }
+            }
+            console.log(TriviaArray);
+
             // Extract BGM Table Data (Optional)
             const bgmSpan = tempDiv.querySelector('#BGM_listing');
             if (bgmSpan) {
@@ -189,11 +248,11 @@
                 }
             }
 
-            // Format Output String
-            let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n`;
+            // Format Output String                                                                 ${result.episodeDescription} description should be empty cuz they should be gotten from detectiveconanworld.com/wiki/Season_1
+            let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "",\n`;
 
             for (const [key, value] of Object.entries(result)) {
-                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== 'episodeDescription' && key !== 'inOtherLanguages' && key !== 'BGM') {
+                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
                     formattedOutput += ` ${formatPropertyName(key)} "${formatPropertyValue(value)}",\n`;
                 } else if (key === "cast") {
 
@@ -202,6 +261,24 @@
                 }
 
             }
+
+            if (result.mangaToAnimeChanges.length > 0) {
+                formattedOutput += ` mangaToAnimeChanges: [\n`;
+                result.mangaToAnimeChanges.forEach((entry) => {
+                    formattedOutput += `    "${entry.join('",\n    "')}"\n   ]`;
+                });
+                formattedOutput += `,\n`;
+            }
+
+            if (result.trivia.length > 0) {
+                formattedOutput += ` trivia: [\n`;
+                result.trivia.forEach((entry) => {
+                    formattedOutput += `    "${entry.join('",\n    "')}"\n   ]`;
+                });
+                formattedOutput += `,\n`;
+            }
+
+
             formattedOutput += ' inOtherLanguages: [\n';
             for (var i = 0; i < result.inOtherLanguages.length; i++) {
                 const { language, title, translatedTitle } = result.inOtherLanguages[i];
@@ -215,12 +292,12 @@
                 result.BGM.forEach((entry) => {
                     formattedOutput += `    ["${entry.join('", "')}"],\n`;
                 });
-                formattedOutput = formattedOutput.slice(0, -2) + `\n  ]\n`; // Remove trailing comma from last entry
+                formattedOutput = formattedOutput.slice(0, -2) + `\n  ]\n`; // remove comma from last entry
             }
 
             formattedOutput += `},\n`;
 
-            // Display Output and Enable Copying
+            // display output and enable Copying
             jsOutput.innerHTML = formattedOutput;
 
             const copyBtn = document.getElementById("copy");
@@ -267,7 +344,7 @@
                 } else if (value.toLowerCase().includes("collapsevoice cast:")) {
                     return value.replace(/collapsevoice cast:/gi, "").trim();
                 } else if (value.toLowerCase().includes("  ")) {
-                    return value.replace(/  /gi, ". ")
+                    return value.replace(/  /gi, "REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH")
                 } else {
                     return value.trim();
                 }

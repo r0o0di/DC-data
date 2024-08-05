@@ -186,6 +186,7 @@ const mergeArrays = (episodes, episodesData) => {
         const endingSong = item.hasOwnProperty('closingSong') ? `endingSong: "${item.closingSong}", ` : '';
         const prevCase = item.hasOwnProperty('prevCase') ? `prevCase: "${item.prevCase}", ` : '';
         const nextCase = item.hasOwnProperty('nextCase') ? `nextCase: "${item.nextCase}", ` : '';
+        const resolution = item.hasOwnProperty('resolution') ? `resolution: "${item.resolution}", ` : '';
         const mangaToAnimeChanges = item.hasOwnProperty('mangaToAnimeChanges') ? `mangaToAnimeChanges: [<br>${formattedMangaToAnimeChanges}],` : '';
         const trivia = item.hasOwnProperty('trivia') ? `trivia: [<br>${formattedTrivia}],` : '';
         const BGM = item.hasOwnProperty('BGM') ? `BGM: [<br>${formattedBGM}]<br> ` : '';
@@ -222,6 +223,7 @@ const mergeArrays = (episodes, episodesData) => {
             ${endingSong}<br>
             ${prevCase}<br>
             ${nextCase}<br>
+            ${resolution}<br>
             ${mangaToAnimeChanges}<br>
             ${trivia}<br>
             ${BGM}

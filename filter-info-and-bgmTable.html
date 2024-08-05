@@ -69,6 +69,7 @@
                 id: episodeId,
                 isFiller: fillerCheckbox,
                 cast: [],
+                resolution: "",
                 mangaToAnimeChanges: [],
                 trivia: [],
                 episodeDescription: "",
@@ -164,6 +165,36 @@
                 }
             });
 
+            // Function to get all text content from the element with the given ID
+            const getTextFromElement = (elementId) => {
+                // Select the element by ID
+                const element = tempDiv.querySelector(`${elementId}`);
+
+                // Check if the element exists
+                if (!element) {
+                    console.error(`Element with ID ${elementId} not found.`);
+                    return '';
+                }
+
+                // Get and return the text content of the element and its children
+                return element.innerText.trim()
+                .replace("Summary\n\n", "Summary: ")
+                .replace(/\n\n/gi, "\n")
+                .replace(/\nAftermath/, " The Aftermath:")
+                .replace(/\n/gi, " ")
+
+                // .replace("The Aftermath:", "\n\nThe Aftermath\n")
+                // .replace("The Aftermath\n ", "The Aftermath\n");
+            };
+                        
+            // const resolution = tempDiv.querySelector("#toggledisplay1");
+            // Use the function to get text from the element with ID "toggledisplay1"
+            const resolution = getTextFromElement("#toggledisplay1");
+            console.log(resolution);  // Log the text content to the console
+            result.resolution = resolution;
+
+
+
             // Select the span element with the ID 'Trivia'
             const mangaToAnimeChangesSpan = tempDiv.querySelector('span#Manga_to_anime_changes');
             let mangaToAnimeChangesArray;
@@ -220,7 +251,7 @@
             }
             console.log(TriviaArray);
 
-            // Extract BGM Table Data (Optional)
+            // Extract BGM Table Data
             const bgmSpan = tempDiv.querySelector('#BGM_listing');
             if (bgmSpan) {
                 let nextElement = bgmSpan.parentElement.nextElementSibling;
@@ -249,10 +280,10 @@
             }
 
             // Format Output String                                                                 ${result.episodeDescription} description should be empty cuz they should be gotten from detectiveconanworld.com/wiki/Season_1
-            let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "",\n`;
+            let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n`;
 
             for (const [key, value] of Object.entries(result)) {
-                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
+                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
                     formattedOutput += ` ${formatPropertyName(key)} "${formatPropertyValue(value)}",\n`;
                 } else if (key === "cast") {
 
@@ -261,6 +292,8 @@
                 }
 
             }
+
+            formattedOutput += ` resolution: "${result.resolution}",\n`;
 
             if (result.mangaToAnimeChanges.length > 0) {
                 formattedOutput += ` mangaToAnimeChanges: [\n`;

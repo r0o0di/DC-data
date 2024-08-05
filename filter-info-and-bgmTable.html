@@ -93,7 +93,7 @@
                 }
 
                 if (descriptionText) {
-                    result.episodeDescription = descriptionText;
+                    result.episodeDescription = descriptionText.replace(/"/gi, "'");
                 }
             }
 
@@ -111,9 +111,9 @@
                     trElements.forEach((trElement) => {
                         const tdElements = trElement.querySelectorAll('td');
                         if (tdElements.length === 3) {
-                            const language = tdElements[0].textContent.trim();
-                            const title = tdElements[1].textContent.trim();
-                            const translatedTitle = tdElements[2].textContent.trim();
+                            const language = tdElements[0].textContent.trim().replace(/"/gi, "'");
+                            const title = tdElements[1].textContent.trim().replace(/"/gi, "'");
+                            const translatedTitle = tdElements[2].textContent.trim().replace(/"/gi, "'");
                             result.inOtherLanguages.push({ language, title, translatedTitle });
                         }
                     });
@@ -165,7 +165,8 @@
                 }
             });
 
-            // Function to get all text content from the element with the given ID
+
+            // RESOLUTION
             const getTextFromElement = (elementId) => {
                 // Select the element by ID
                 const element = tempDiv.querySelector(`${elementId}`);
@@ -182,12 +183,12 @@
                 .replace(/\n\n/gi, "\n")
                 .replace(/\nAftermath/, " The Aftermath:")
                 .replace(/\n/gi, " ")
+                .replace(/"/gi, "'")
 
                 // .replace("The Aftermath:", "\n\nThe Aftermath\n")
                 // .replace("The Aftermath\n ", "The Aftermath\n");
             };
                         
-            // const resolution = tempDiv.querySelector("#toggledisplay1");
             // Use the function to get text from the element with ID "toggledisplay1"
             const resolution = getTextFromElement("#toggledisplay1");
             console.log(resolution);  // Log the text content to the console
@@ -267,11 +268,11 @@
                     trElements.forEach((trElement) => {
                         const tdElements = trElement.querySelectorAll('td');
                         if (tdElements.length > 0) {
-                            const timestamp = tdElements[0].innerText.trim().replace(/^\d+$/, "00:00");
-                            const jpnTitle = tdElements[1].innerText.trim();
-                            const rmjTitle = tdElements[2].innerText.trim();
-                            const enTitle = tdElements[3].innerText.trim();
-                            const ost = tdElements[4].innerText.trim();
+                            const timestamp = tdElements[0].innerText.trim().replace(/^\d+$/, "00:00").replace(/"/gi, "'");
+                            const jpnTitle = tdElements[1].innerText.trim().replace(/"/gi, "'");
+                            const rmjTitle = tdElements[2].innerText.trim().replace(/"/gi, "'");
+                            const enTitle = tdElements[3].innerText.trim().replace(/"/gi, "'");
+                            const ost = tdElements[4].innerText.trim().replace(/"/gi, "'");
 
                             result.BGM.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);
                         }

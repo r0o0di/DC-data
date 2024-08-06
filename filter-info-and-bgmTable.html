@@ -177,18 +177,27 @@
                     return '';
                 }
 
+                // Find all <b> tags and capitalize their text
+                const boldElements = element.querySelectorAll('b');
+                boldElements.forEach(boldElement => {
+                    boldElement.innerText = boldElement.innerText.toUpperCase();
+                });
+                
                 // Get and return the text content of the element and its children
                 return element.innerText.trim()
-                .replace("Summary\n\n", "Summary: ")
-                .replace(/\n\n/gi, "\n")
-                .replace(/\nAftermath/, " The Aftermath:")
-                .replace(/\n/gi, " ")
-                .replace(/"/gi, "'")
+                    .replace("Summary\n\n", "Summary: ")
+                    .replace("Evidence\n", "Evidence: ")
+                    .replace("Conclusion\n", "Conclusion: ")
+                    .replace("Motive\n", "Motive: ")
+                    .replace(/\n\n/gi, "\n")
+                    .replace(/\nAftermath/, " The Aftermath:")
+                    .replace(/\n/gi, " ")
+                    .replace(/"/gi, "'")
 
                 // .replace("The Aftermath:", "\n\nThe Aftermath\n")
                 // .replace("The Aftermath\n ", "The Aftermath\n");
             };
-                        
+
             // Use the function to get text from the element with ID "toggledisplay1"
             const resolution = getTextFromElement("#toggledisplay1");
             console.log(resolution);  // Log the text content to the console
@@ -245,7 +254,7 @@
                     const liElements = nextElement.querySelectorAll('li');
 
                     // Extract the text content of each li element and store it in an array
-                    TriviaArray = Array.from(liElements, li => li.textContent.trim());
+                    TriviaArray = Array.from(liElements, li => li.textContent.trim().replace(/"/gi, "'"));
                     result.trivia.push(TriviaArray);
                     // Output the array to the console (or use it as needed)
                 }

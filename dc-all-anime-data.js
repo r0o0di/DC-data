@@ -53,6 +53,7 @@ const allData = [
         nextCase: "Company President's Daughter Kidnapping Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:12", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery Version)", "Detective Conan Original Soundtrack 2"],
@@ -120,6 +121,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« Roller Coaster Murder Case",
         nextCase: "An Idol's Locked Room Murder Case »",
+
 
 
         BGM: [
@@ -199,6 +201,7 @@ const allData = [
         nextCase: "The Coded Map of the City Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
@@ -270,6 +273,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« An Idol's Locked Room Murder Case",
         nextCase: "The Shinkansen's Bomb Case »",
+
 
 
         BGM: [
@@ -346,6 +350,7 @@ const allData = [
         nextCase: "Valentine Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
@@ -413,6 +418,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« The Shinkansen's Bomb Case",
         nextCase: "Once-A-Month Present Threat Case »",
+
 
 
         BGM: [
@@ -483,6 +489,7 @@ const allData = [
         nextCase: "Art Museum Owner Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
@@ -547,6 +554,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« Once-A-Month Present Threat Case",
         nextCase: "Tenkaichi Night Festival Murder Case »",
+
 
 
         BGM: [
@@ -617,6 +625,7 @@ const allData = [
         nextCase: "Pro Soccer Player Blackmail Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
@@ -681,6 +690,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« Tenkaichi Night Festival Murder Case",
         nextCase: "Moonlight Sonata Murder Case »",
+
 
 
         BGM: [
@@ -753,6 +763,7 @@ const allData = [
         nextCase: "Ayumi-chan Kidnapping Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
@@ -822,6 +833,7 @@ const allData = [
         nextCase: "The Strange Person Hunt Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:45", "名探偵コナン・メインテーマ (タイトルver.)", "Meitantei Konan・Mein Tēma (Taitoru ver.)", "Detective Conan Main Theme (Title Version)", "Unreleased"],
@@ -889,6 +901,7 @@ const allData = [
         nextCase: "The Mysterious Shooting Message Case »",
 
 
+
         BGM: [
             ["0:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:17", "小さな巨人", "Chiisana Kyojin", "A Small Giant", "Detective Conan Original Soundtrack 1"],
@@ -953,6 +966,7 @@ const allData = [
         nextCase: "Missing Corpse Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:54", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1013,6 +1027,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« The Mysterious Shooting Message Case",
         nextCase: "The Antique Collector Murder Case »",
+
 
 
         BGM: [
@@ -1077,6 +1092,7 @@ const allData = [
         nextCase: "Hijacked Department Store Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["05:24", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -1138,6 +1154,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« The Antique Collector Murder Case",
         nextCase: "A June Bride Murder Case »",
+
 
 
         BGM: [
@@ -1207,6 +1224,7 @@ const allData = [
         nextCase: "An Elevator Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:53", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1270,6 +1288,7 @@ const allData = [
         nextCase: "A Haunted Mansion Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:46", "(Unreleased BGM 1)", "", "", ""],
@@ -1330,6 +1349,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« An Elevator Murder Case",
         nextCase: "On Location, TV Drama Murder Case »",
+
 
 
         BGM: [
@@ -1400,6 +1420,7 @@ const allData = [
         nextCase: "Luxury Liner Serial Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:26", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1467,6 +1488,7 @@ const allData = [
         nextCase: "The Mysterious Woman With Amnesia Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:07", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 2"],
@@ -1531,6 +1553,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« On Location, TV Drama Murder Case",
         nextCase: "The Mysterious Woman With Amnesia Case »",
+
 
 
         BGM: [
@@ -1600,6 +1623,7 @@ const allData = [
         nextCase: "The False Kidnapping and Hostage Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:16", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 2"],
@@ -1667,6 +1691,7 @@ const allData = [
         nextCase: "Pet Dog John Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["02:12", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
@@ -1730,6 +1755,7 @@ const allData = [
         endingSong: "STEP BY STEP",
         prevCase: "« The False Kidnapping and Hostage Case",
         nextCase: "Kogoro's Class Reunion Murder Case »",
+
 
 
         BGM: [
@@ -1798,6 +1824,7 @@ const allData = [
         nextCase: "Computer Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:52", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1859,6 +1886,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Pet Dog John Murder Case",
         nextCase: "Computer Murder Case »",
+
 
 
         BGM: [
@@ -1928,6 +1956,7 @@ const allData = [
         nextCase: "Alibi Testimony Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:52", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -1994,6 +2023,7 @@ const allData = [
         nextCase: "TV Station Murder Case »",
 
 
+
         BGM: [
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
             ["01:52", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -2054,6 +2084,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Alibi Testimony Murder Case",
         nextCase: "Coffee Shop Murder Case »",
+
 
 
         BGM: [
@@ -2124,6 +2155,7 @@ const allData = [
         nextCase: "Detective Boys Survival Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -2188,6 +2220,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Coffee Shop Murder Case",
         nextCase: "Mountain Villa Bandaged Man Murder Case »",
+
 
 
         BGM: [
@@ -2255,6 +2288,7 @@ const allData = [
         nextCase: "Monday Night 7:30 p.m. Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -2314,6 +2348,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Detective Boys Survival Case",
         nextCase: "Monday Night 7:30 p.m. Murder Case »",
+
 
 
         BGM: [
@@ -2378,6 +2413,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Mountain Villa Bandaged Man Murder Case",
         nextCase: "Cactus's Flower Murder Case »",
+
 
 
         BGM: [
@@ -2445,6 +2481,7 @@ const allData = [
         nextCase: "Akaoni Village Fire Festival Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -2505,6 +2542,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Cactus's Flower Murder Case",
         nextCase: "Wealthy Daughter Murder Case »",
+
 
 
         BGM: [
@@ -2570,6 +2608,7 @@ const allData = [
         nextCase: "Victory Flag Tearing Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "想い出", "Omoide", "Memories", "Detective Conan Original Soundtrack 3"],
@@ -2627,6 +2666,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Akaoni Village Fire Festival Murder Case",
         nextCase: "Victory Flag Tearing Case »",
+
 
 
         BGM: [
@@ -2695,6 +2735,7 @@ const allData = [
         nextCase: "Karaoke Box Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -2754,6 +2795,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Victory Flag Tearing Case",
         nextCase: "Conan Edogawa Kidnapping Case »",
+
 
 
         BGM: [
@@ -2826,6 +2868,7 @@ const allData = [
         nextCase: "Three Hotta Siblings Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "事件現場２", "Jiken Genba 2", "Scene of the Case 2", "Detective Conan Original Soundtrack 2"],
@@ -2889,6 +2932,7 @@ const allData = [
         nextCase: "Facial Mask Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -2948,6 +2992,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Three Hotta Siblings Murder Case",
         nextCase: "Alpine Hut in the Snowy Mountain Murder Case »",
+
 
 
         BGM: [
@@ -3014,6 +3059,7 @@ const allData = [
         nextCase: "Sports Club Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -3075,6 +3121,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Alpine Hut in the Snowy Mountain Murder Case",
         nextCase: "Diplomat Murder Case »",
+
 
 
         BGM: [
@@ -3142,6 +3189,7 @@ const allData = [
         nextCase: "Library Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -3207,6 +3255,7 @@ const allData = [
         nextCase: "Library Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "名探偵コナン～新メイン・テーマ", "Meitantei Konan ~ Shin Mein・Tēma", "Detective Conan ~ New Main Theme", "Detective Conan Original Soundtrack 3"],
@@ -3269,6 +3318,7 @@ const allData = [
         endingSong: "Meikyū no Lovers",
         prevCase: "« Diplomat Murder Case",
         nextCase: "The Golf Driving Range Murder Case »",
+
 
 
         BGM: [
@@ -3338,6 +3388,7 @@ const allData = [
         nextCase: "The Mist Goblin Legend Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart", "Feel Your Heart"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -3400,6 +3451,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Golf Driving Range Murder Case",
         nextCase: "The Mystery Weapon Murder Case »",
+
 
 
         BGM: [
@@ -3475,6 +3527,7 @@ const allData = [
         nextCase: "Game Company Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
@@ -3536,6 +3589,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Mystery Weapon Murder Case",
         nextCase: "The Train Trick Murder Case »",
+
 
 
         BGM: [
@@ -3605,6 +3659,7 @@ const allData = [
         nextCase: "The Ojamanbou Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -3667,6 +3722,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Train Trick Murder Case",
         nextCase: "Holmes Freak Murder Case »",
+
 
 
         BGM: [
@@ -3734,6 +3790,7 @@ const allData = [
         nextCase: "The First Errand Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -3792,6 +3849,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Ojamanbou Murder Case",
         nextCase: "The First Errand Murder Case »",
+
 
 
         BGM: [
@@ -3856,6 +3914,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Holmes Freak Murder Case",
         nextCase: "An Illustrator Murder Case »",
+
 
 
         BGM: [
@@ -3930,6 +3989,7 @@ const allData = [
         nextCase: "A Ghost Ship Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -3994,6 +4054,7 @@ const allData = [
         nextCase: "Big Monster Gomera Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "怪人包帯男２", "Kaijin Hōtai Otoko 2", "The Mysterious Bandaged Man 2", "Detective Conan Original Soundtrack 3"],
@@ -4051,6 +4112,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« An Illustrator Murder Case",
         nextCase: "Big Monster Gomera Murder Case »",
+
 
 
         BGM: [
@@ -4116,6 +4178,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« A Ghost Ship Murder Case",
         nextCase: "The Third Fingerprint Murder Case »",
+
 
 
         BGM: [
@@ -4185,6 +4248,7 @@ const allData = [
         nextCase: "A Crab and Whale Kidnapping Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -4249,6 +4313,7 @@ const allData = [
         nextCase: "Night Road Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -4311,6 +4376,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« A Crab and Whale Kidnapping Case",
         nextCase: "Stage Actress Murder Case »",
+
 
 
         BGM: [
@@ -4379,6 +4445,7 @@ const allData = [
         nextCase: "Night Baron Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "英国風館", "Eikoku Fūkan", "English Style Mansion", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -4445,6 +4512,7 @@ const allData = [
         nextCase: "A Stalker's Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -4505,6 +4573,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Stage Actress Murder Case",
         nextCase: "A Stalker's Murder Case »",
+
 
 
         BGM: [
@@ -4569,6 +4638,7 @@ const allData = [
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Stage Actress Murder Case",
         nextCase: "A Stalker's Murder Case »",
+
 
 
         BGM: [
@@ -4639,6 +4709,7 @@ const allData = [
         nextCase: "The Triplet's Country Home Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -4704,6 +4775,7 @@ const allData = [
         nextCase: "The Detective Boys' Disaster Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -4766,6 +4838,7 @@ const allData = [
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Triplet's Country Home Murder Case",
         nextCase: "The Death God Jinnai Murder Case »",
+
 
 
         BGM: [
@@ -4835,6 +4908,7 @@ const allData = [
         nextCase: "Loan Company President's Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -4897,6 +4971,7 @@ const allData = [
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Death God Jinnai Murder Case",
         nextCase: "Conan vs. Kaitou Kid »",
+
 
 
         BGM: [
@@ -4962,6 +5037,7 @@ const allData = [
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Loan Company President's Murder Case",
         nextCase: "Distinguished Family's Consecutive Accidental Death Case »",
+
 
 
         BGM: [
@@ -5040,6 +5116,7 @@ const allData = [
         nextCase: "The Bank Heist Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5102,6 +5179,7 @@ const allData = [
         nextCase: "The Bank Heist Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5161,6 +5239,7 @@ const allData = [
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Distinguished Family's Consecutive Accidental Death Case",
         nextCase: "The Wandering Artist Murder Case »",
+
 
 
         BGM: [
@@ -5226,6 +5305,7 @@ const allData = [
         nextCase: "The Kidnapping of a Popular Artist Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
@@ -5288,6 +5368,7 @@ const allData = [
         nextCase: "General Hospital Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "胸がドキドキ", "Mune ga Dokidoki", "The Pounding of My Heart", "Mune ga Dokidoki"],
@@ -5348,6 +5429,7 @@ const allData = [
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Wandering Artist Murder Case",
         nextCase: "General Hospital Murder Case »",
+
 
 
         BGM: [
@@ -5414,6 +5496,7 @@ const allData = [
         nextCase: "Ski Lodge Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5477,6 +5560,7 @@ const allData = [
         nextCase: "The Kidnapping Location Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5533,6 +5617,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« General Hospital Murder Case",
         nextCase: "The Kidnapping Location Case »",
+
 
 
         BGM: [
@@ -5595,6 +5680,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Ski Lodge Murder Case",
         nextCase: "The Crane's Return of a Favor Murder Case »",
+
 
 
         BGM: [
@@ -5663,6 +5749,7 @@ const allData = [
         nextCase: "Dracula's Villa Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5723,6 +5810,7 @@ const allData = [
         nextCase: "The Flower Scent Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5777,6 +5865,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Crane's Return of a Favor Murder Case",
         nextCase: "The Flower Scent Murder Case »",
+
 
 
         BGM: [
@@ -5844,6 +5933,7 @@ const allData = [
         nextCase: "The Bank Robber's Hospitalization Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -5908,6 +5998,7 @@ const allData = [
         nextCase: "The Fearful Traversing Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -5970,6 +6061,7 @@ const allData = [
         nextCase: "Snow Woman's Legend Murder Case »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "爆破犯人のテーマ", "Bakuha Hannin no Tēma", "Bomber's Theme", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -6027,6 +6119,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Bank Robber's Hospitalization Case",
         nextCase: "Snow Woman's Legend Murder Case »",
+
 
 
         BGM: [
@@ -6087,6 +6180,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Fearful Traversing Murder Case",
         nextCase: "Kogoro's Date Murder Case »",
+
 
 
         BGM: [
@@ -6150,6 +6244,7 @@ const allData = [
         nextCase: "The Cornered Famous Detective! Two Big Murder Cases »",
 
 
+
         BGM: [
             ["00:00", "謎", "Nazo", "Mystery", "Nazo"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
@@ -6207,6 +6302,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Kogoro's Date Murder Case",
         nextCase: "The Farewell Wine Murder Case »",
+
 
 
         BGM: [
@@ -6307,6 +6403,7 @@ const allData = [
         nextCase: "The Famous Potter Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
@@ -6371,6 +6468,7 @@ const allData = [
         nextCase: "The Memories of First Love Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -6427,6 +6525,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Farewell Wine Murder Case",
         nextCase: "The Memories of First Love Case »",
+
 
 
         BGM: [
@@ -6493,6 +6592,7 @@ const allData = [
         nextCase: "The Historical Actor Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -6556,6 +6656,7 @@ const allData = [
         nextCase: "The Historical Actor Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "名探偵コナン・メインテーマ （摩天楼ヴァージョン）", "Meitantei Konan・Mein Tēma (Mantenrō Vājon)", "Detective Conan Main Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -6617,6 +6718,7 @@ const allData = [
         nextCase: "The Mysterious Mansion of a Band of Thieves Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -6672,6 +6774,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Memories of First Love Case",
         nextCase: "The Mysterious Mansion of a Band of Thieves Case »",
+
 
 
         BGM: [
@@ -6733,6 +6836,7 @@ const allData = [
         nextCase: "Scoop Picture Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -6786,6 +6890,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Historical Actor Murder Case",
         nextCase: "Scoop Picture Murder Case »",
+
 
 
         BGM: [
@@ -6848,6 +6953,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Mysterious Mansion of a Band of Thieves Case",
         nextCase: "The Mysterious Mole Alien Case »",
+
 
 
         BGM: [
@@ -6915,6 +7021,7 @@ const allData = [
         nextCase: "Detective Club Pursuit Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -6970,6 +7077,7 @@ const allData = [
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Scoop Picture Murder Case",
         nextCase: "Detective Club Pursuit Case »",
+
 
 
         BGM: [
@@ -7036,6 +7144,7 @@ const allData = [
         nextCase: "Cooking Classroom Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
@@ -7098,6 +7207,7 @@ const allData = [
         nextCase: "The Seven Mysteries of Teitan Elementary School Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -7155,6 +7265,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« Detective Club Pursuit Case",
         nextCase: "The Seven Mysteries of Teitan Elementary School Case »",
+
 
 
         BGM: [
@@ -7218,6 +7329,7 @@ const allData = [
         nextCase: "The White Sandy Beach Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "新一の名推理", "Shin'ichi no Meisuiri", "Shinichi's Great Deduction", "Detective Conan Original Soundtrack 3"],
@@ -7276,6 +7388,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Seven Mysteries of Teitan Elementary School Case",
         nextCase: "Scuba Diving Murder Case »",
+
 
 
         BGM: [
@@ -7338,6 +7451,7 @@ const allData = [
         nextCase: "The Mystery Writer Disappearance Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -7394,6 +7508,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The White Sandy Beach Murder Case",
         nextCase: "The Mystery Writer Disappearance Case »",
+
 
 
         BGM: [
@@ -7457,6 +7572,7 @@ const allData = [
         nextCase: "The Naniwa Serial Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -7517,6 +7633,7 @@ const allData = [
         nextCase: "The Naniwa Serial Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "ひらめき", "Hirameki", "Flash", "Detective Conan Original Soundtrack 3"],
@@ -7567,6 +7684,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Mystery Writer Disappearance Case",
         nextCase: "The Kamen Yaiba Murder Case »",
+
 
 
         BGM: [
@@ -7656,6 +7774,7 @@ const allData = [
         nextCase: "A Honey Cocktail Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -7719,6 +7838,7 @@ const allData = [
         nextCase: "The Locked Bathroom Murder Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -7778,6 +7898,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« A Honey Cocktail Murder Case",
         nextCase: "The Weather Girl Kidnapping Case »",
+
 
 
         BGM: [
@@ -7843,6 +7964,7 @@ const allData = [
         nextCase: "The Weather Girl Kidnapping Case »",
 
 
+
         BGM: [
             ["00:00", "運命のルーレット廻して", "Unmei no Roulette Mawashite", "Spinning the Roulette of Destiny", "Unmei no Roulette Mawashite"],
             ["00:00", "ひらめき", "Hirameki", "Flash", "Detective Conan Original Soundtrack 3"],
@@ -7902,6 +8024,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Locked Bathroom Murder Case",
         nextCase: "A Mysterious Sniper Murder Case »",
+
 
 
         BGM: [
@@ -7965,6 +8088,7 @@ const allData = [
         nextCase: "The Traveling Drama Troupe Murder Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "想い出 （摩天楼ヴァージョン）", "Omoide (Mantenrō Vājon)", "Memories (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -8024,6 +8148,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Weather Girl Kidnapping Case",
         nextCase: "The Traveling Drama Troupe Murder Case »",
+
 
 
         BGM: [
@@ -8093,6 +8218,7 @@ const allData = [
         nextCase: "The Black Organization: One Billion Yen Robbery Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -8151,6 +8277,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« A Mysterious Sniper Murder Case",
         nextCase: "The Black Organization: One Billion Yen Robbery Case »",
+
 
 
         BGM: [
@@ -8212,6 +8339,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Traveling Drama Troupe Murder Case",
         nextCase: "The Girl from the Black Organization and the University Professor Murder Case »",
+
 
 
         BGM: [
@@ -8277,6 +8405,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Black Organization: One Billion Yen Robbery Case",
         nextCase: "The Indiscriminate Stadium Threatening Case »",
+
 
 
         BGM: [
@@ -8378,6 +8507,7 @@ const allData = [
         nextCase: "Magic Lover's Murder Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
@@ -8439,6 +8569,7 @@ const allData = [
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Girl from the Black Organization and the University Professor Murder Case",
         nextCase: "Magic Lover's Murder Case »",
+
 
 
         BGM: [
@@ -8506,6 +8637,7 @@ const allData = [
         nextCase: "The Disappearing Weapon Search Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -8566,6 +8698,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Indiscriminate Stadium Threatening Case",
         nextCase: "The Disappearing Weapon Search Case »",
+
 
 
         BGM: [
@@ -8630,6 +8763,7 @@ const allData = [
         nextCase: "The Disappearing Weapon Search Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -8688,6 +8822,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« Magic Lover's Murder Case",
         nextCase: "The Old Blue Castle Investigation Case »",
+
 
 
         BGM: [
@@ -8754,6 +8889,7 @@ const allData = [
         nextCase: "The Final Screening Murder Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -8812,6 +8948,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Disappearing Weapon Search Case",
         nextCase: "The Final Screening Murder Case »",
+
 
 
         BGM: [
@@ -8876,6 +9013,7 @@ const allData = [
         nextCase: "SOS! Messages from Ayumi »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -8931,6 +9069,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Old Blue Castle Investigation Case",
         nextCase: "SOS! Messages from Ayumi »",
+
 
 
         BGM: [
@@ -8995,6 +9134,7 @@ const allData = [
         nextCase: "The Night Before the Wedding Locked Room Case »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -9056,6 +9196,7 @@ const allData = [
         nextCase: "The Suspicious Astronomical Observation »",
 
 
+
         BGM: [
             ["00:00", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~", "TRUTH ~A Great Detective of Love~"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -9110,6 +9251,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« SOS! Messages from Ayumi",
         nextCase: "The Suspicious Astronomical Observation »",
+
 
 
         BGM: [
@@ -9168,6 +9310,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Night Before the Wedding Locked Room Case",
         nextCase: "The North Star No.3 Express Leaving Ueno »",
+
 
 
         BGM: [
@@ -9230,6 +9373,7 @@ const allData = [
         nextCase: "Metropolitan Police Detective Love Story »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -9285,6 +9429,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Suspicious Astronomical Observation",
         nextCase: "Metropolitan Police Detective Love Story »",
+
 
 
         BGM: [
@@ -9344,6 +9489,7 @@ const allData = [
         nextCase: "The Streetcar's Sudden Stopping Case »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -9400,6 +9546,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The North Star No.3 Express Leaving Ueno",
         nextCase: "The Streetcar's Sudden Stopping Case »",
+
 
 
         BGM: [
@@ -9464,6 +9611,7 @@ const allData = [
         nextCase: "The Amusement Park Bungee Jumping Case »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -9522,6 +9670,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Streetcar's Sudden Stopping Case",
         nextCase: "The Truth Behind the Car Explosion Case »",
+
 
 
         BGM: [
@@ -9587,6 +9736,7 @@ const allData = [
         nextCase: "The Mysterious Old Man Disappearance Case »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -9643,6 +9793,7 @@ const allData = [
         endingSong: "Still for your love",
         prevCase: "« The Amusement Park Bungee Jumping Case",
         nextCase: "The Mysterious Old Man Disappearance Case »",
+
 
 
         BGM: [
@@ -9706,6 +9857,7 @@ const allData = [
         nextCase: "Sonoko's Dangerous Summer Story »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -9765,6 +9917,7 @@ const allData = [
         nextCase: "Underwater Key in the Locked Room Case »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"],
@@ -9822,6 +9975,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Mysterious Old Man Disappearance Case",
         nextCase: "Underwater Key in the Locked Room Case »",
+
 
 
         BGM: [
@@ -9884,6 +10038,7 @@ const allData = [
         nextCase: "Metropolitan Police Detective Love Story 2 »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -9944,6 +10099,7 @@ const allData = [
         nextCase: "The Silent Loop Line »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
@@ -9999,6 +10155,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« Underwater Key in the Locked Room Case",
         nextCase: "The Silent Loop Line »",
+
 
 
         BGM: [
@@ -10064,6 +10221,7 @@ const allData = [
         nextCase: "The Legend of the Mysterious Five Storied Pagoda »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme", "Detective Conan Original Soundtrack 1"],
@@ -10124,6 +10282,7 @@ const allData = [
         nextCase: "The Murder Floating in the Water Stream Restaurant »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -10180,6 +10339,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Silent Loop Line",
         nextCase: "The Murder Floating in the Water Stream Restaurant »",
+
 
 
         BGM: [
@@ -10244,6 +10404,7 @@ const allData = [
         nextCase: "The Locked Room in the Sky: Shinichi Kudo's First Case »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
@@ -10301,6 +10462,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Murder Floating in the Water Stream Restaurant",
         nextCase: "The Secret of the Moon, the Star, and the Sun »",
+
 
 
         BGM: [
@@ -10372,6 +10534,7 @@ const allData = [
         nextCase: "The Disappearing Detective Boys Case »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -10429,6 +10592,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Locked Room in the Sky: Shinichi Kudo's First Case",
         nextCase: "The Disappearing Detective Boys Case »",
+
 
 
         BGM: [
@@ -10493,6 +10657,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Secret of the Moon, the Star, and the Sun",
         nextCase: "Tottori Spider Mansion Demon »",
+
 
 
         BGM: [
@@ -10560,6 +10725,7 @@ const allData = [
         nextCase: "Venus' Kiss »",
 
 
+
         BGM: [
             ["00:00", "ギリギリchop", "Girigiri chop", "On the edge chop", "Girigiri chop"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -10615,6 +10781,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Disappearing Detective Boys Case",
         nextCase: "Venus' Kiss »",
+
 
 
         BGM: [
@@ -10678,6 +10845,7 @@ const allData = [
         nextCase: "Venus' Kiss »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -10736,6 +10904,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« Tottori Spider Mansion Demon",
         nextCase: "The Blind Spot in the Darkness »",
+
 
 
         BGM: [
@@ -10798,6 +10967,7 @@ const allData = [
         nextCase: "The Revival of the Dying Message »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
@@ -10854,6 +11024,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« Venus' Kiss",
         nextCase: "The Revival of the Dying Message »",
+
 
 
         BGM: [
@@ -10919,6 +11090,7 @@ const allData = [
         nextCase: "The Twenty Year Old Murderous Intent: The Symphony Serial Murder Case »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -10976,6 +11148,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Blind Spot in the Darkness",
         nextCase: "The Twenty Year Old Murderous Intent: The Symphony Serial Murder Case »",
+
 
 
         BGM: [
@@ -11041,6 +11214,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Revival of the Dying Message",
         nextCase: "The Man Who Was Killed Four Times »",
+
 
 
         BGM: [
@@ -11131,6 +11305,7 @@ const allData = [
         nextCase: "Reunion with the Black Organization »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "犯人からの電話", "Hannin Kara no Denwa", "Phone Call From the Culprit", "Detective Conan 'The Time - Bombed Skyscraper' Original Soundtrack"],
@@ -11191,6 +11366,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Man Who Was Killed Four Times",
         nextCase: "The Coffee Shop Truck's Wild Entrance Case »",
+
 
 
         BGM: [
@@ -11256,6 +11432,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« The Man Who Was Killed Four Times",
         nextCase: "The Coffee Shop Truck's Wild Entrance Case »",
+
 
 
         BGM: [
@@ -11324,6 +11501,7 @@ const allData = [
         nextCase: "The Coffee Shop Truck's Wild Entrance Case »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -11385,6 +11563,7 @@ const allData = [
         endingSong: "Free Magic",
         prevCase: "« Reunion with the Black Organization",
         nextCase: "The Nocturne of Red Murderous Intent »",
+
 
 
         BGM: [
@@ -11450,6 +11629,7 @@ const allData = [
         nextCase: "The Big Investigation of the Nine Doors »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
@@ -11510,6 +11690,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Coffee Shop Truck's Wild Entrance Case",
         nextCase: "The Big Investigation of the Nine Doors »",
+
 
 
         BGM: [
@@ -11574,6 +11755,7 @@ const allData = [
         nextCase: "A Dangerous Recipe »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -11635,6 +11817,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Big Investigation of the Nine Doors",
         nextCase: "A Cursed Mask Coldly Laughs »",
+
 
 
         BGM: [
@@ -11701,6 +11884,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« A Dangerous Recipe",
         nextCase: "The Murdered Famous Detective »",
+
 
 
         BGM: [
@@ -11781,6 +11965,7 @@ const allData = [
         nextCase: "The Unknown Gunshot That Rings in the Dark »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
@@ -11844,6 +12029,7 @@ const allData = [
         nextCase: "The Unknown Gunshot That Rings in the Dark »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -11905,6 +12091,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Murdered Famous Detective",
         nextCase: "The Desperate Revival »",
+
 
 
         BGM: [
@@ -11971,6 +12158,7 @@ const allData = [
         nextCase: "The Significant Music Box »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "イースターエッグの謎", "Iisutā Eggu no Nazo", "Mystery of the Easter Egg", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
@@ -12032,6 +12220,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
+
 
 
         BGM: [
@@ -12100,6 +12289,7 @@ const allData = [
         nextCase: "The Significant Music Box »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -12163,6 +12353,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
+
 
 
         BGM: [
@@ -12230,6 +12421,7 @@ const allData = [
         nextCase: "The Significant Music Box »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -12292,6 +12484,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
+
 
 
         BGM: [
@@ -12361,6 +12554,7 @@ const allData = [
         nextCase: "The Invisible Weapon, Ran's First Investigation »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -12424,6 +12618,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Desperate Revival",
         nextCase: "The Invisible Weapon, Ran's First Investigation »",
+
 
 
         BGM: [
@@ -12491,6 +12686,7 @@ const allData = [
         nextCase: "The Super Car's Trap »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
@@ -12555,6 +12751,7 @@ const allData = [
         nextCase: "Kogoro Mouri, Suspect »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -12613,6 +12810,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Invisible Weapon, Ran's First Investigation",
         nextCase: "Kogoro Mouri, Suspect »",
+
 
 
         BGM: [
@@ -12683,6 +12881,7 @@ const allData = [
         nextCase: "The Tenth Passenger »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "コナンのRock＆Roll （アナザーver.）", "Konan no Rock & Roll (Anazā ver.)", "Conan's Rock & Roll (Another Version)", "Detective Conan Original Soundtrack 2"],
@@ -12751,6 +12950,7 @@ const allData = [
         nextCase: "The Tenth Passenger »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -12817,6 +13017,7 @@ const allData = [
         nextCase: "The Black Wings of Icarus »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -12878,6 +13079,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« Kogoro Mouri, Suspect",
         nextCase: "The Black Wings of Icarus »",
+
 
 
         BGM: [
@@ -12946,6 +13148,7 @@ const allData = [
         endingSong: "Secret of my heart",
         prevCase: "« The Tenth Passenger",
         nextCase: "Metropolitan Police Detective Love Story 3 »",
+
 
 
         BGM: [
@@ -13018,6 +13221,7 @@ const allData = [
         nextCase: "Metropolitan Police Detective Love Story 3 »",
 
 
+
         BGM: [
             ["00:00", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes", "Mysterious Eyes"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -13085,6 +13289,7 @@ const allData = [
         nextCase: "The Deduction That Was Too Good »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "犯人の謎", "Hannin no Nazo", "The Mystery of the Culprit", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
@@ -13150,6 +13355,7 @@ const allData = [
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Black Wings of Icarus",
         nextCase: "The Deduction That Was Too Good »",
+
 
 
         BGM: [
@@ -13224,6 +13430,7 @@ const allData = [
         nextCase: "The Entrance to the Maze: The Anger of the Colossus »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "毛利小五郎のテーマ （ファンキーver.）", "Mōri Kogorō no Tēma (Fankii ver.)", "Kogoro Mouri's Theme (Funky Version)", "Detective Conan Original Soundtrack 2"],
@@ -13287,6 +13494,7 @@ const allData = [
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Deduction That Was Too Good",
         nextCase: "The Falling from Mt. Ryujin Case »",
+
 
 
         BGM: [
@@ -13369,6 +13577,7 @@ const allData = [
         nextCase: "The Water Palace of Five Colors Legend »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -13435,6 +13644,7 @@ const allData = [
         nextCase: "Mushrooms, Bears, and the Detective Boys »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -13498,6 +13708,7 @@ const allData = [
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Falling from Mt. Ryujin Case",
         nextCase: "Mushrooms, Bears, and the Detective Boys »",
+
 
 
         BGM: [
@@ -13569,6 +13780,7 @@ const allData = [
         nextCase: "The Mysterious Retro Room Case »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "事件一件落着", "Jiken Ikken Rakuchaku", "The End of a Case", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
@@ -13638,6 +13850,7 @@ const allData = [
         nextCase: "The Mysterious Retro Room Case »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -13703,6 +13916,7 @@ const allData = [
         endingSong: "Natsu no Maboroshi",
         prevCase: "« Mushrooms, Bears, and the Detective Boys",
         nextCase: "The Bay of Revenge »",
+
 
 
         BGM: [
@@ -13772,6 +13986,7 @@ const allData = [
         nextCase: "Megure's Sealed Secret »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "別れ", "Wakare", "Parting", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
@@ -13836,6 +14051,7 @@ const allData = [
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Mysterious Retro Room Case",
         nextCase: "Megure's Sealed Secret »",
+
 
 
         BGM: [
@@ -13903,6 +14119,7 @@ const allData = [
         nextCase: "The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "古城の探索", "Kojō no Tansaku", "Exploration of the Old Castle", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
@@ -13967,6 +14184,7 @@ const allData = [
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Bay of Revenge",
         nextCase: "The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid »",
+
 
 
         BGM: [
@@ -14037,6 +14255,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« Megure's Sealed Secret",
         nextCase: "The Client Full of Lies »",
+
 
 
         BGM: [
@@ -14153,6 +14372,7 @@ const allData = [
         nextCase: "And Then There Were No Mermaids »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "毛利小五郎のテーマ", "Mōri Kogorō no Tēma", "Kogoro Mouri's Theme", "Detective Conan Original Soundtrack 1"],
@@ -14217,6 +14437,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid",
         nextCase: "And Then There Were No Mermaids »",
+
 
 
         BGM: [
@@ -14289,6 +14510,7 @@ const allData = [
         nextCase: "The Secret of the High Sales »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "夜の探索", "Yoru no Tansaku", "Night Search", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
@@ -14349,6 +14571,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« The Client Full of Lies",
         nextCase: "The Secret of the High Sales »",
+
 
 
         BGM: [
@@ -14419,6 +14642,7 @@ const allData = [
         nextCase: "The Secret of the High Sales »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -14483,6 +14707,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« And Then There Were No Mermaids",
         nextCase: "The Battle Game Trap »",
+
 
 
         BGM: [
@@ -14552,6 +14777,7 @@ const allData = [
         nextCase: "The Murderous Pottery Class »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -14615,6 +14841,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« The Secret of the High Sales",
         nextCase: "The Murderous Pottery Class »",
+
 
 
         BGM: [
@@ -14683,6 +14910,7 @@ const allData = [
         nextCase: "The Mysterious Passenger »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -14745,6 +14973,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« The Battle Game Trap",
         nextCase: "The Mysterious Passenger »",
+
 
 
         BGM: [
@@ -14817,6 +15046,7 @@ const allData = [
         nextCase: "The Falling from the Condo Case »",
 
 
+
         BGM: [
             ["00:00", "恋はスリル、ショック、サスペンス", "Koi wa Suriru, Shokku, Sasupensu", "Love is Thrill, Shock, Suspense", "Koi wa Thrill, Shock, Suspense"],
             ["00:00", "古城のテーマ", "Kojō no Tēma", "The Old Castle's Theme", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
@@ -14878,6 +15108,7 @@ const allData = [
         endingSong: "Start in my life",
         prevCase: "« The Murderous Pottery Class",
         nextCase: "The Falling from the Condo Case »",
+
 
 
         BGM: [
@@ -14946,6 +15177,7 @@ const allData = [
         nextCase: "The Evidence That Didn't Disappear »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
@@ -15007,6 +15239,7 @@ const allData = [
         nextCase: "The Locked Wine Cellar »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -15065,6 +15298,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« The Falling from the Condo Case",
         nextCase: "The Locked Wine Cellar »",
+
 
 
         BGM: [
@@ -15128,6 +15362,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« The Evidence That Didn't Disappear",
         nextCase: "The Nanki Shirahama Mystery Tour »",
+
 
 
         BGM: [
@@ -15194,6 +15429,7 @@ const allData = [
         nextCase: "The 3 'K's of Osaka Case »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -15258,6 +15494,7 @@ const allData = [
         nextCase: "The 3 'K's of Osaka Case »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -15320,6 +15557,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« The Nanki Shirahama Mystery Tour",
         nextCase: "The Shinkansen Transport Case »",
+
 
 
         BGM: [
@@ -15387,6 +15625,7 @@ const allData = [
         nextCase: "The Shinkansen Transport Case »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -15448,6 +15687,7 @@ const allData = [
         nextCase: "Boy Genta's Misfortune »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -15506,6 +15746,7 @@ const allData = [
         nextCase: "Boy Genta's Misfortune »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -15555,6 +15796,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« The Shinkansen Transport Case",
         nextCase: "Kogoro Mouri's Imposter »",
+
 
 
         BGM: [
@@ -15620,6 +15862,7 @@ const allData = [
         nextCase: "The Gunshot at the Sunflower Estate »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -15677,6 +15920,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« Boy Genta's Misfortune",
         nextCase: "The Gunshot at the Sunflower Estate »",
+
 
 
         BGM: [
@@ -15737,6 +15981,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« Kogoro Mouri's Imposter",
         nextCase: "The Mystery in the Net »",
+
 
 
         BGM: [
@@ -15805,6 +16050,7 @@ const allData = [
         nextCase: "The Alibi of the Soothing Forest »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -15864,6 +16110,7 @@ const allData = [
         endingSong: "always",
         prevCase: "« The Gunshot at the Sunflower Estate",
         nextCase: "The Alibi of the Soothing Forest »",
+
 
 
         BGM: [
@@ -15928,6 +16175,7 @@ const allData = [
         nextCase: "The Celebrities' Secret »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -15986,6 +16234,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Alibi of the Soothing Forest",
         nextCase: "The Tragedy at the OK Corral »",
+
 
 
         BGM: [
@@ -16051,6 +16300,7 @@ const allData = [
         nextCase: "The Tragedy at the OK Corral »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -16113,6 +16363,7 @@ const allData = [
         nextCase: "The Kidnapper in the Picture »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
@@ -16172,6 +16423,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Tragedy at the OK Corral",
         nextCase: "Metropolitan Police Detective Love Story 4 »",
+
 
 
         BGM: [
@@ -16236,6 +16488,7 @@ const allData = [
         nextCase: "The 14th Round of the Matsue Tamatsukuri Linked Verse Contest »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -16295,6 +16548,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Kidnapper in the Picture",
         nextCase: "The 14th Round of the Matsue Tamatsukuri Linked Verse Contest »",
+
 
 
         BGM: [
@@ -16358,6 +16612,7 @@ const allData = [
         nextCase: "The Mysterious Punishment From Heaven »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "はずむ蘭", "Hazumu Ran", "Bouncing Ran", "Detective Conan Original Soundtrack 1"],
@@ -16416,6 +16671,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« Metropolitan Police Detective Love Story 4",
         nextCase: "The Mysterious Punishment From Heaven »",
+
 
 
         BGM: [
@@ -16482,6 +16738,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The 14th Round of the Matsue Tamatsukuri Linked Verse Contest",
         nextCase: "The Man from Chicago »",
+
 
 
         BGM: [
@@ -16551,6 +16808,7 @@ const allData = [
         nextCase: "The Shaking Restaurant »",
 
 
+
         BGM: [
             ["00:00", "destiny", "destiny", "destiny", "destiny"],
             ["00:00", "コナン組曲－Captured In Her Eyes", "Konan Kumikyoku - Captured in Her Eyes", "Conan Suite - Captured in Her Eyes", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
@@ -16615,6 +16873,7 @@ const allData = [
         nextCase: "The Shaking Restaurant »",
 
 
+
         BGM: [
             ["00:00", "Winter Bells", "Winter Bells", "Winter Bells", "Winter Bells"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -16673,6 +16932,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Man from Chicago",
         nextCase: "The Fearful Legend of the Snowy Night »",
+
 
 
         BGM: [
@@ -16737,6 +16997,7 @@ const allData = [
         nextCase: "The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle »",
 
 
+
         BGM: [
             ["00:00", "Winter Bells", "Winter Bells", "Winter Bells", "Winter Bells"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -16793,6 +17054,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Shaking Restaurant",
         nextCase: "The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle »",
+
 
 
         BGM: [
@@ -16854,6 +17116,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Fearful Legend of the Snowy Night",
         nextCase: "Courtroom Confrontation: Kisaki vs. Kogoro »",
+
 
 
         BGM: [
@@ -16962,6 +17225,7 @@ const allData = [
         nextCase: "The Truth Behind Valentine's »",
 
 
+
         BGM: [
             ["00:00", "Winter Bells", "Winter Bells", "Winter Bells", "Winter Bells"],
             ["00:00", "昼下がりの天使たち （摩天楼ヴァージョン）", "Hirusagari no Tenshitachi (Mantenrō Vājon)", "Early Afternoon Angels (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
@@ -17022,6 +17286,7 @@ const allData = [
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle",
         nextCase: "The Truth Behind Valentine's »",
+
 
 
         BGM: [
@@ -17086,6 +17351,7 @@ const allData = [
         nextCase: "The Forgotten Memento from the Crime »",
 
 
+
         BGM: [
             ["00:00", "Winter Bells", "Winter Bells", "Winter Bells", "Winter Bells"],
             ["00:00", "１０年後の歩美", "10 Nengo no Ayumi", "Ayumi 10 Years Later", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
@@ -17144,6 +17410,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« Courtroom Confrontation: Kisaki vs. Kogoro",
         nextCase: "The Forgotten Memento from the Crime »",
+
 
 
         BGM: [
@@ -17211,6 +17478,7 @@ const allData = [
         nextCase: "The Forgotten Memento from the Crime »",
 
 
+
         BGM: [
             ["00:00", "Winter Bells", "Winter Bells", "Winter Bells", "Winter Bells"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -17269,6 +17537,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Truth Behind Valentine's",
         nextCase: "The Secret Rushed Omission »",
+
 
 
         BGM: [
@@ -17334,6 +17603,7 @@ const allData = [
         nextCase: "The Secret Rushed Omission »",
 
 
+
         BGM: [
             ["00:00", "Winter Bells", "Winter Bells", "Winter Bells", "Winter Bells"],
             ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
@@ -17395,6 +17665,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Truth Behind Valentine's",
         nextCase: "The Secret Rushed Omission »",
+
 
 
         BGM: [
@@ -17459,6 +17730,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Forgotten Memento from the Crime",
         nextCase: "Riddle Granny Disappearance Case »",
+
 
 
         BGM: [
@@ -17526,6 +17798,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Forgotten Memento from the Crime",
         nextCase: "Riddle Granny Disappearance Case »",
+
 
 
         BGM: [
@@ -17596,6 +17869,7 @@ const allData = [
         nextCase: "The Truth of the Haunted House »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "新少年探偵団のテーマ", "Shin Shōnen Tanteidan no Tēma", "The New Detective Boys' Theme", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
@@ -17661,6 +17935,7 @@ const allData = [
         nextCase: "The Policeman's Missing Notebook Case »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "哀のサスペンス～ジンのテーマＢ", "Ai no Sasupensu ~ Jin no Tēma B", "Ai's Suspense ~ Gin's Theme B", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
@@ -17722,6 +17997,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« Riddle Granny Disappearance Case",
         nextCase: "The Policeman's Missing Notebook Case »",
+
 
 
         BGM: [
@@ -17788,6 +18064,7 @@ const allData = [
         nextCase: "English Teacher vs. Great Western Detective »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "暗号トリックの解読", "Angō Torikku no Kaidoku", "The Trick to Deciphering the Code", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
@@ -17850,6 +18127,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Policeman's Missing Notebook Case",
         nextCase: "Hooligan's Labyrinth »",
+
 
 
         BGM: [
@@ -17915,6 +18193,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Policeman's Missing Notebook Case",
         nextCase: "Hooligan's Labyrinth »",
+
 
 
         BGM: [
@@ -17983,6 +18262,7 @@ const allData = [
         nextCase: "The Small Eye-Witnesses »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "ドライブ気分", "Doraibu Kibun", "Driving Feeling", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
@@ -18046,6 +18326,7 @@ const allData = [
         nextCase: "The Small Eye-Witnesses »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "ドライブ気分", "Doraibu Kibun", "Driving Feeling", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
@@ -18106,6 +18387,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« Hooligan's Labyrinth",
         nextCase: "The Mystery of the Water-Flowing Stone Garden »",
+
 
 
         BGM: [
@@ -18176,6 +18458,7 @@ const allData = [
         nextCase: "Chinatown Deja Vu in the Rain »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
@@ -18242,6 +18525,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Small Eye-Witnesses",
         nextCase: "Chinatown Deja Vu in the Rain »",
+
 
 
         BGM: [
@@ -18312,6 +18596,7 @@ const allData = [
         nextCase: "Shinichi Kudo's New York Case »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -18372,6 +18657,7 @@ const allData = [
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Mystery of the Water-Flowing Stone Garden",
         nextCase: "Shinichi Kudo's New York Case »",
+
 
 
         BGM: [
@@ -18440,6 +18726,7 @@ const allData = [
         nextCase: "Mitsuhiko's Mystifying Forest »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "ジンのテーマＣ", "Jin no Tēma C", "Gin's Theme C", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
@@ -18501,6 +18788,7 @@ const allData = [
         nextCase: "Mitsuhiko's Mystifying Forest »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -18560,6 +18848,7 @@ const allData = [
         endingSong: "Yume Mita Ato de Mushoku",
         prevCase: "« Chinatown Deja Vu in the Rain",
         nextCase: "Mitsuhiko's Mystifying Forest »",
+
 
 
         BGM: [
@@ -18624,6 +18913,7 @@ const allData = [
         nextCase: "Solitary Island of the Princess and the Dragon King's Palace »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "ラジオ体操 第一", "Rajio Taisō Daiichi", "Radio Gymnastics Number One", ""],
@@ -18684,6 +18974,7 @@ const allData = [
         endingSong: "Mushoku",
         prevCase: "« Shinichi Kudo's New York Case",
         nextCase: "Solitary Island of the Princess and the Dragon King's Palace »",
+
 
 
         BGM: [
@@ -18747,6 +19038,7 @@ const allData = [
         nextCase: "The Smash of Determination and Love »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
@@ -18802,6 +19094,7 @@ const allData = [
         endingSong: "Mushoku",
         prevCase: "« Mitsuhiko's Mystifying Forest",
         nextCase: "The Smash of Determination and Love »",
+
 
 
         BGM: [
@@ -18862,6 +19155,7 @@ const allData = [
         nextCase: "The Smash of Determination and Love »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -18920,6 +19214,7 @@ const allData = [
         endingSong: "Mushoku",
         prevCase: "« Solitary Island of the Princess and the Dragon King's Palace",
         nextCase: "Houseboat Fishing Shock »",
+
 
 
         BGM: [
@@ -18983,6 +19278,7 @@ const allData = [
         nextCase: "Houseboat Fishing Shock »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
@@ -19040,6 +19336,7 @@ const allData = [
         endingSong: "Mushoku",
         prevCase: "« The Smash of Determination and Love",
         nextCase: "Courtroom Confrontation II: Kisaki vs. Kujo »",
+
 
 
         BGM: [
@@ -19102,6 +19399,7 @@ const allData = [
         nextCase: "The Kanmon Strait of Friendship and Murderous Intent »",
 
 
+
         BGM: [
             ["00:00", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥", "I can't stop my love for you♥"],
             ["00:00", "昼下がりの天使たち", "Hirusagari no Tenshitachi", "Early Afternoon Angels", "Detective Conan Original Soundtrack 3"],
@@ -19159,6 +19457,7 @@ const allData = [
         endingSong: "Mushoku",
         prevCase: "« Houseboat Fishing Shock",
         nextCase: "The Kanmon Strait of Friendship and Murderous Intent »",
+
 
 
         BGM: [
@@ -19220,6 +19519,7 @@ const allData = [
         endingSong: "Mushoku Overture",
         prevCase: "« Courtroom Confrontation II: Kisaki vs. Kujo",
         nextCase: "Parade of Malice and Saint »",
+
 
 
         BGM: [
@@ -19284,6 +19584,7 @@ const allData = [
         endingSong: "Mushoku Overture",
         prevCase: "« Courtroom Confrontation II: Kisaki vs. Kujo",
         nextCase: "Parade of Malice and Saint »",
+
 
 
         BGM: [
@@ -19351,6 +19652,7 @@ const allData = [
         endingSong: "Overture",
         prevCase: "« The Kanmon Strait of Friendship and Murderous Intent",
         nextCase: "The Victim Who Came Back »",
+
         mangaToAnimeChanges: [
             "After the scene where Sato informs Takagi that they need to talk later, the anime follows on with Conan reflecting on who the murderer could be, the motive and whether or not he/she was caught on tape."
         ],
@@ -19425,6 +19727,7 @@ const allData = [
         endingSong: "Overture",
         prevCase: "« The Kanmon Strait of Friendship and Murderous Intent",
         nextCase: "The Victim Who Came Back »",
+
         mangaToAnimeChanges: [
             "After the scene where Sato informs Takagi that they need to talk later, the anime follows on with Conan reflecting on who the murderer could be, the motive and whether or not he/she was caught on tape."
         ],
@@ -19497,6 +19800,7 @@ const allData = [
         prevCase: "« Parade of Malice and Saint",
         nextCase: "The Trembling Police Headquarters: 12 Million Hostages »",
 
+
         trivia: [
             "Toshimichi Hirose's truck is a 1993 Mitsubishi Fuso Canter.",
             "One of the paintings in the recycle shop reappears in Kaitou Kid and the Four Masterpieces and Metropolitan Police Detective Love Story 8: The Left Hand's Ring Finger. Open spoiler box to see images."
@@ -19562,6 +19866,7 @@ const allData = [
         endingSong: "Overture",
         prevCase: "« The Victim Who Came Back",
         nextCase: "The Unseen Suspect »",
+
         mangaToAnimeChanges: [
             "In the manga version, not much is known about the bombing case that happened 7 years ago. Kenji Hagiwara also doesn't receive any specific character design like he does in the anime version, as he is only mentioned by name.",
             "In the manga, Sato recalled Matsuda when she saw the date on her phone while checking the crime scene of the previous case with the Detective Boys. In the anime, she recalls Matsuda when she see Haido Shopping Mall ferris wheel, while the Detective Boys are riding on it. After they finish riding, they see Sato and approach her.",
@@ -19682,6 +19987,7 @@ const allData = [
         prevCase: "« The Trembling Police Headquarters: 12 Million Hostages",
         nextCase: "On the Trail of a Silent Witness »",
 
+
         trivia: [
             "In the second part of the case, the opening was changed to Kaze no Lalala."
         ],
@@ -19749,6 +20055,7 @@ const allData = [
         prevCase: "« The Trembling Police Headquarters: 12 Million Hostages",
         nextCase: "On the Trail of a Silent Witness »",
 
+
         trivia: [
             "In the second part of the case, the opening was changed to Kaze no Lalala."
         ],
@@ -19815,6 +20122,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Unseen Suspect",
         nextCase: "Contact with the Black Organization »",
+
 
         trivia: [
             "In the beginning of episode 307, Kogoro gives an interview to the media, where he talks about the previous case, The Unseen Suspect, which is a rare case that he solved, while awake.",
@@ -19885,6 +20193,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Unseen Suspect",
         nextCase: "Contact with the Black Organization »",
+
 
         trivia: [
             "In the beginning of episode 307, Kogoro gives an interview to the media, where he talks about the previous case, The Unseen Suspect, which is a rare case that he solved, while awake.",
@@ -19957,6 +20266,7 @@ const allData = [
         prevCase: "« On the Trail of a Silent Witness",
         nextCase: "Festival Dolls Dyed in the Setting Sun »",
 
+
         trivia: [
             "In this encounter, reading the files from Itakura's diary, Conan only manages to figure out a hint that the organization may be trying to 'raise the dead'.",
             "The jewel robbers' car is a 1998 Beige BMW 3 [E46].",
@@ -20023,6 +20333,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« On the Trail of a Silent Witness",
         nextCase: "Festival Dolls Dyed in the Setting Sun »",
+
 
         trivia: [
             "In this encounter, reading the files from Itakura's diary, Conan only manages to figure out a hint that the organization may be trying to 'raise the dead'.",
@@ -20092,6 +20403,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« On the Trail of a Silent Witness",
         nextCase: "Festival Dolls Dyed in the Setting Sun »",
+
 
         trivia: [
             "In this encounter, reading the files from Itakura's diary, Conan only manages to figure out a hint that the organization may be trying to 'raise the dead'.",
@@ -20163,6 +20475,7 @@ const allData = [
         prevCase: "« Contact with the Black Organization",
         nextCase: "The Scenic Lookout with the Broken Fence »",
 
+
         trivia: [
             "The original airdate for part one was March 3, 2003, and the date on the fax stated 03-Mar-03, which happens to be the original airdate.",
             "In this case, Conan told Inspector Momose that he loves to study ancient history books."
@@ -20229,6 +20542,7 @@ const allData = [
         prevCase: "« Contact with the Black Organization",
         nextCase: "The Scenic Lookout with the Broken Fence »",
 
+
         trivia: [
             "The original airdate for part one was March 3, 2003, and the date on the fax stated 03-Mar-03, which happens to be the original airdate.",
             "In this case, Conan told Inspector Momose that he loves to study ancient history books."
@@ -20293,6 +20607,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Festival Dolls Dyed in the Setting Sun",
         nextCase: "Place Exposed to the Sun »",
+
 
         trivia: [
             "The Nishi Tokyo Bus B001 from Shin Hachioji Station to Mt. Kotengu is the same in The Tenth Passenger. The license plate number is 西多摩 22 • か 23-79 (Nishitama 22 • Ka 23-79)."
@@ -20361,6 +20676,7 @@ const allData = [
         nextCase: "The Sullied Masked Hero »",
 
 
+
         BGM: [
             ["00:00", "風のららら", "Kaze no Lalala", "The Wind's Lalala", "Kaze no Lalala"],
             ["00:00", "蘭のテーマ （優しさver.）", "Ran no Tēma (Yasashisa ver.)", "Ran's Theme (Gentle Version)", "Detective Conan Original Soundtrack 2"],
@@ -20427,6 +20743,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Place Exposed to the Sun",
         nextCase: "The Lucky Cigar Case »",
+
         mangaToAnimeChanges: [
             "In the manga, when Ushigome was choking Conan, he had him pinned to the ground rather than in air like in the anime."
         ],
@@ -20496,6 +20813,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Place Exposed to the Sun",
         nextCase: "The Lucky Cigar Case »",
+
         mangaToAnimeChanges: [
             "In the manga, when Ushigome was choking Conan, he had him pinned to the ground rather than in air like in the anime."
         ],
@@ -20567,6 +20885,7 @@ const allData = [
         prevCase: "« The Sullied Masked Hero",
         nextCase: "The Art of Ninja Alibi Craft »",
 
+
         trivia: [
             "Eigo Kasahara's car is a black Jaguar XJ [X300]. The license plate number is 静 300, い 31-19 (Shizu 300, I 31-19).",
             "Haruo Nakano's car is a 1998 Gray Volkswagen New Beetle [Type 9C].",
@@ -20634,6 +20953,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Sullied Masked Hero",
         nextCase: "The Art of Ninja Alibi Craft »",
+
 
         trivia: [
             "Eigo Kasahara's car is a black Jaguar XJ [X300]. The license plate number is 静 300, い 31-19 (Shizu 300, I 31-19).",
@@ -20704,6 +21024,7 @@ const allData = [
         nextCase: "The Kidnapper's Disappearing Getaway Car »",
 
 
+
         BGM: [
             ["00:00", "風のららら", "Kaze no Lalala", "The Wind's Lalala", "Kaze no Lalala"],
             ["00:00", "暗号トリックの解読", "Angō Torikku no Kaidoku", "The Trick to Deciphering the Code", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
@@ -20768,6 +21089,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Art of Ninja Alibi Craft",
         nextCase: "Heiji Hattori's Desperate Situation! »",
+
 
         trivia: [
             "Ogane is most likely a reference to the high school of the same name from 3rd Base Fourth.",
@@ -20834,6 +21156,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Art of Ninja Alibi Craft",
         nextCase: "Heiji Hattori's Desperate Situation! »",
+
 
         trivia: [
             "Ogane is most likely a reference to the high school of the same name from 3rd Base Fourth.",
@@ -20910,6 +21233,7 @@ const allData = [
         prevCase: "« The Kidnapper's Disappearing Getaway Car",
         nextCase: "The Red Horse within the Flames »",
 
+
         trivia: [
             "Misari Ito's vehicle is a silver Toyota Crown [S140]."
         ],
@@ -20973,6 +21297,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Kidnapper's Disappearing Getaway Car",
         nextCase: "The Red Horse within the Flames »",
+
 
         trivia: [
             "Misari Ito's vehicle is a silver Toyota Crown [S140]."
@@ -21041,6 +21366,7 @@ const allData = [
         prevCase: "« Heiji Hattori's Desperate Situation!",
         nextCase: "The Birthday Wine Mystery »",
 
+
         trivia: [
             "The kissing scene between Ryoko and Misao in the manga original was censored.",
             "This case is like the plot of Agatha Christie's Murder Case with Hercule Poirot."
@@ -21105,6 +21431,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Heiji Hattori's Desperate Situation!",
         nextCase: "The Birthday Wine Mystery »",
+
 
         trivia: [
             "The kissing scene between Ryoko and Misao in the manga original was censored.",
@@ -21173,6 +21500,7 @@ const allData = [
         prevCase: "« Heiji Hattori's Desperate Situation!",
         nextCase: "The Birthday Wine Mystery »",
 
+
         trivia: [
             "The kissing scene between Ryoko and Misao in the manga original was censored.",
             "This case is like the plot of Agatha Christie's Murder Case with Hercule Poirot."
@@ -21236,6 +21564,7 @@ const allData = [
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Red Horse within the Flames",
         nextCase: "A Friendship That Can't Be Bought »",
+
 
 
         BGM: [
@@ -21302,6 +21631,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Birthday Wine Mystery",
         nextCase: "The Suspicious Spicy Curry »",
+
 
         trivia: [
             "The camp car driven by the four college students (Reiji Fukuura, Yasumi Shirafuji, Haruka Tendo, and Takuto Meshiai) is a 2001 Toyota Camroad Leo."
@@ -21371,6 +21701,7 @@ const allData = [
         prevCase: "« The Birthday Wine Mystery",
         nextCase: "The Suspicious Spicy Curry »",
 
+
         trivia: [
             "The camp car driven by the four college students (Reiji Fukuura, Yasumi Shirafuji, Haruka Tendo, and Takuto Meshiai) is a 2001 Toyota Camroad Leo."
         ],
@@ -21437,6 +21768,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« A Friendship That Can't Be Bought",
         nextCase: "The Similar Princesses »",
+
 
         trivia: [
             "The tennis court in this case is the same tennis court that appears in Conan in a Locked Room.",
@@ -21508,6 +21840,7 @@ const allData = [
         prevCase: "« A Friendship That Can't Be Bought",
         nextCase: "The Similar Princesses »",
 
+
         trivia: [
             "The tennis court in this case is the same tennis court that appears in Conan in a Locked Room.",
             "This is the first case that mentioned the owner of Cafe Poirot, who apparently volunteered to take care of an unwell Conan for that day.",
@@ -21578,6 +21911,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Suspicious Spicy Curry",
         nextCase: "Secret of the Tohto Film Development Studio »",
+
         mangaToAnimeChanges: [
             "In the manga, Yukiko wears a cross necklace as an accessory. This is changed to a silver 'l' in the anime to avoid doing any religious reference."
         ],
@@ -21649,6 +21983,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Suspicious Spicy Curry",
         nextCase: "Secret of the Tohto Film Development Studio »",
+
         mangaToAnimeChanges: [
             "In the manga, Yukiko wears a cross necklace as an accessory. This is changed to a silver 'l' in the anime to avoid doing any religious reference."
         ],
@@ -21720,6 +22055,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Similar Princesses",
         nextCase: "Hidden Circumstances of the Falling Incident »",
+
         mangaToAnimeChanges: [
             "In Manga the moon are Waning crescent but in Anime moon are Waning gibbous."
         ],
@@ -21795,6 +22131,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Similar Princesses",
         nextCase: "Hidden Circumstances of the Falling Incident »",
+
         mangaToAnimeChanges: [
             "In Manga the moon are Waning crescent but in Anime moon are Waning gibbous."
         ],
@@ -21874,6 +22211,7 @@ const allData = [
         prevCase: "« Secret of the Tohto Film Development Studio",
         nextCase: "The Four Porsches »",
 
+
         trivia: [
             "Keisuke Furuta vehicle crash Sugimoto's girlfriend in past is a Black Volkswagen Polo Mk.3 [Typ 6N].",
             "This is the case that Kogoro voices why Conan has to go to the bathroom so often, because he is always drinking juice."
@@ -21942,6 +22280,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Hidden Circumstances of the Falling Incident",
         nextCase: "Hidden Bathroom Secret »",
+
 
         trivia: [
             "Four Porsche in scene from left to right are Dark Green Porsche 356 A (Hotei), White 1965 Porsche 911 [901] (Kureko), Guards Red 1978 Porsche 928 (Banba), and Porsche Cobalt Blue Metallic 1997 Porsche Boxster [986] (Taiyama).",
@@ -22015,6 +22354,7 @@ const allData = [
         prevCase: "« Hidden Circumstances of the Falling Incident",
         nextCase: "Hidden Bathroom Secret »",
 
+
         trivia: [
             "Four Porsche in scene from left to right are Dark Green Porsche 356 A (Hotei), White 1965 Porsche 911 [901] (Kureko), Guards Red 1978 Porsche 928 (Banba), and Porsche Cobalt Blue Metallic 1997 Porsche Boxster [986] (Taiyama).",
             "Taiyama's brother Vehicle in past battle is Giallo Modena 1994 Ferrari F355 Berlinetta.",
@@ -22087,6 +22427,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Four Porsches",
         nextCase: "The Bride of Huis ten Bosch »",
+
         mangaToAnimeChanges: [
             "Atsushi Miyano wasn't shown in any flashback in the original manga version, where his true appearance remains unknown until file 1011.",
             "There is a scene where Haibara visualise a shadow figure who ressembles Dr. Araide turning into Vermouth. While in the manga there is only a panel of her thinking about Vermouth."
@@ -22156,6 +22497,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Four Porsches",
         nextCase: "The Bride of Huis ten Bosch »",
+
         mangaToAnimeChanges: [
             "Atsushi Miyano wasn't shown in any flashback in the original manga version, where his true appearance remains unknown until file 1011.",
             "There is a scene where Haibara visualise a shadow figure who ressembles Dr. Araide turning into Vermouth. While in the manga there is only a panel of her thinking about Vermouth."
@@ -22226,6 +22568,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Hidden Bathroom Secret",
         nextCase: "The Convenience Store Trap »",
+
 
         trivia: [
             "The real world locations at Huis Ten Bosch spotlighted in this episode are, in order of appearance: Hotel Europe, Carillon Synphonica (now called Carillon Fantasia), Stud House, Domtoren, and Huis Ten Bosch Palace."
@@ -22312,6 +22655,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Bride of Huis ten Bosch",
         nextCase: "Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night »",
+
         mangaToAnimeChanges: [
             "The anime failed to draw the irregular borders of Jodie's pictures correctly for a second time after the first omission in English Teacher vs. Great Western Detective. This time, Araide's face was hidden completely under other pictures, making this clue, once again, useless."
         ],
@@ -22383,6 +22727,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Bride of Huis ten Bosch",
         nextCase: "Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night »",
+
         mangaToAnimeChanges: [
             "The anime failed to draw the irregular borders of Jodie's pictures correctly for a second time after the first omission in English Teacher vs. Great Western Detective. This time, Araide's face was hidden completely under other pictures, making this clue, once again, useless."
         ],
@@ -22455,6 +22800,7 @@ const allData = [
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Convenience Store Trap",
         nextCase: "Find the Buttock's Mark »",
+
         mangaToAnimeChanges: [
             "In the anime, in the flashback to Vermouth killing Jodie's father Vermouth has a bruise/or dirt/or a scratch of some kind on one side of her face that is consistent across several frames looking like a defensive mark. This mark is not present in the manga at all.",
             "Akai is shown to cock and fire the shotgun singlehandedly, having his other hand in his pocket, in the manga and in the anime they show him using both hands."
@@ -22531,6 +22877,1385 @@ const allData = [
             ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
             ["00:00", "君という光", "Kimi to Iu Hikari", "The Light Called 'You'", "Kimi to Iu Hikari"],
             ["00:00", "愛はいつも （歌：伊織）", "Ai wa Itsumo (Uta: Iori)", "Love is Always (Sung By: Iori)", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"]
+        ]
+    },
+    {
+        id: "346", isFiller: false, title: "346: Find the Buttock's Mark (Part 1)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Jodie Starling", "Ran Mouri", "Sonoko Suzuki", "James Black", "Miwako Sato", "Wataru Takagi", "Juzo Megure", "Kazunobu Chiba", "Hiroshi Agasa", "Yukiko Kudo", "Vermouth"],
+        episodeDescription: "After the confrontation with Black Organization, Jodie Starling offers Ai Haibara to join the Witness Protection Program, which allows Haibara to escape the Black Organization by faking her name and cutting ties with her friends.",
+        japaneseTitle: "お尻のマークを探せREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Oshiri no Māku o Sagase)",
+        titleInOtherLanguages: [
+            ["Arabic", "مفتاح السيارة المفقود", "The Missing Car Key"],
+            ["Catalan (Catalan dub)", "A la recerca de la marca del cul", "Searching the bottom's mark"],
+            ["Catalan (Valencian dub)", "Buscant la marca del cul!", "Searching the bottom's mark!"],
+            ["French", "Retrouvez la marque sur les fesses", "Find the mark on the buttocks"],
+            ["German", "Das Zeichen auf dem Hintern", "The mark at the bottom"],
+            ["Italian", "La chiave del mistero", "The mystery crux"],
+            ["Spanish (Castilian dub)", "Buscando la marca de los pantalones", "Searching the mark on the pants"],
+            ["Thai", "ค้นหาเครื่องหมายที่ติดอยู่ที่ก้น", "Searching the mark on the buttock"],
+            ["Vietnamese", "Truy tìm dấu vết", "Find the Buttock's Mark"]
+        ],
+        season: "12",
+        originalAirdate: "January 12, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJanuary 19, 2004 (Part 2)",
+
+        broadcastRating: "12.5%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH14.7%",
+
+
+        mangaCase: "#126",
+        mangaSource: "Volume 42: File 11 (435) ~REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHVolume 43: File 2 (437)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Emblem (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKey cylinder (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "346 Katsuyoshi YatabeREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Nana Harada",
+        animationDirector: "346 Takashi YamamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Atsushi Aono",
+
+        storyboard: "346 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Nana Harada",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Sumi Shimamoto as Yukiko Kudo Mami Koyama as Vermouth Chafurin as Juzo Megure Atsuko Yuya as Miwako Sato Hiroaki Yoshida as Forensics Isshin Chiba as Kazunobu Chiba Iemasa Kayumi as James Black Miyuki Ichijou as Jodie Saintemillion Jun Hazumi as Toshiaki Degawa Katsuya Shiga as Hiroshi Enomoto Hisao Egawa as Naokazu Fukuchi Hiroshi Kawaguchi as Salaryman Chisato Nakajima as Woman",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Kimi to Iu Hikari",
+        prevCase: "« Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night",
+        nextCase: "Love, Ghosts, and World Heritage »",
+        resolution: "Naokazu Fukuchi is the Culprit Based on the testimonies, the Detective Boys realize that culprit is Naokazu Fukuchi. Among the three suspects, Fukuchi's testimony contradicts with his actions at the time of murder: a unskilled driver would never test drive their car in a location full of people or on the day with poor visibility due to rain. In additional to that, he parked his car in an extremely close distance with the nearby car and did it very neatly, meaning that he is in fact a very good driver. Despite the fact that the culprit might have disposed of the key, there would still be presence of blood in the keyhole, so Conan asked Takagi to bring in the forensics to perform a Luminol spray test. Though initially there was no reaction, Conan is able to sever the lock cylinder and reveal that the exterior of the keyhole was replaced by another one in order to remove the incriminating evidence. Moreover, the police can check the key lock with the one near the wheel to confirm whether or not they belong to the same car. Additionally, Fukuchi is unlikely to have replaced the key hole near the steering wheel, which means that there must still be a bloodstain from his victim there from when he inserted his key to start up the car. Fukuchi attempts to escape while pretending to let the police confirm the key lock, but is knocked out by Conan's dart. After intense interrogation, he reveals he was slashing random victims to become famous and gain attention, a change to his mundane life. The Aftermath: Moved by Ayumi's courage, Haibara decides to decline in participating in the Witness Protection Program, knowing that she cannot fully trust the FBI and that she herself no longer wants to keep running away from the Black Organization forever. Though Jodie is initially against this, she accepts Haibara's decision and ask her to always remember the courage of this day. After Haibara left, James comments that Haibara was like Jodie long ago, as Jodie herself also refused to participate in the program unless they let her join the FBI to chase after her father's murderer. However, Jodie replies that both of them are different, as Haibara has the warmth of her friends by her side, giving her the courage to fight on no matter what the future may bring.",
+
+        trivia: [
+            "Hiroshi Enomoto vehicle in left side is a Dirty Innocent Blue Mica Mazda RX-7 (FD) Spirit R Type A with the License Plate of 1-20.",
+            "Naokazu Fukuchi vehicle in the middle is a Silver Stone Metallic Clearcoat Mazda RX-7 (FD) Type-R with the License Plate of 76-01.",
+            "Toshiaki Degawa vehicle in right side is a Clean Neat Green Mica Clearcoat 1991 Ẽfini MS-6 (Mazda 626) [GE] with the License Plate of 43-13."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "暗号トリックの解読", "Angō Torikku no Kaidoku", "The Trick to Deciphering the Code", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "シンドラーのサスペンス", "Shindorā no Sasupensu", "Schindler's Suspense", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "迫りくる悪", "Semari Kuru Aku", "Imminent Evil", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "追跡スリリング", "Tsuiseki Suriringu", "Thrilling Pursuit", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "サスペンス～危機感", "Sasupensu ~ Kikikan", "Suspense ~ Impending Crisis", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "新一の事件解明", "Shin'ichi no Jiken Kaimei", "Shinichi's Case Clarification", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "君という光", "Kimi to Iu Hikari", "The Light Called 'You'", "Kimi to Iu Hikari"]
+        ]
+    },
+    {
+        id: "347", isFiller: false, title: "347: Find the Buttock's Mark (Part 2)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Jodie Starling", "Ran Mouri", "Sonoko Suzuki", "James Black", "Miwako Sato", "Wataru Takagi", "Juzo Megure", "Kazunobu Chiba", "Hiroshi Agasa", "Yukiko Kudo", "Vermouth"],
+        episodeDescription: "After the confrontation with Black Organization, Jodie Starling offers Ai Haibara to join the Witness Protection Program, which allows Haibara to escape the Black Organization by faking her name and cutting ties with her friends.",
+        japaneseTitle: "お尻のマークを探せREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Oshiri no Māku o Sagase)",
+        titleInOtherLanguages: [
+            ["Arabic", "مفتاح السيارة المفقود", "The Missing Car Key"],
+            ["Catalan (Catalan dub)", "A la recerca de la marca del cul", "Searching the bottom's mark"],
+            ["Catalan (Valencian dub)", "Buscant la marca del cul!", "Searching the bottom's mark!"],
+            ["French", "Retrouvez la marque sur les fesses", "Find the mark on the buttocks"],
+            ["German", "Das Zeichen auf dem Hintern", "The mark at the bottom"],
+            ["Italian", "La chiave del mistero", "The mystery crux"],
+            ["Spanish (Castilian dub)", "Buscando la marca de los pantalones", "Searching the mark on the pants"],
+            ["Thai", "ค้นหาเครื่องหมายที่ติดอยู่ที่ก้น", "Searching the mark on the buttock"],
+            ["Vietnamese", "Truy tìm dấu vết", "Find the Buttock's Mark"]
+        ],
+        season: "12",
+        originalAirdate: "January 12, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJanuary 19, 2004 (Part 2)",
+
+        broadcastRating: "12.5%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH14.7%",
+
+
+        mangaCase: "#126",
+        mangaSource: "Volume 42: File 11 (435) ~REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHVolume 43: File 2 (437)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Emblem (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKey cylinder (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "346 Katsuyoshi YatabeREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Nana Harada",
+        animationDirector: "346 Takashi YamamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Atsushi Aono",
+
+        storyboard: "346 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Nana Harada",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Sumi Shimamoto as Yukiko Kudo Mami Koyama as Vermouth Chafurin as Juzo Megure Atsuko Yuya as Miwako Sato Hiroaki Yoshida as Forensics Isshin Chiba as Kazunobu Chiba Iemasa Kayumi as James Black Miyuki Ichijou as Jodie Saintemillion Jun Hazumi as Toshiaki Degawa Katsuya Shiga as Hiroshi Enomoto Hisao Egawa as Naokazu Fukuchi Hiroshi Kawaguchi as Salaryman Chisato Nakajima as Woman",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Kimi to Iu Hikari",
+        prevCase: "« Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night",
+        nextCase: "Love, Ghosts, and World Heritage »",
+        resolution: "Naokazu Fukuchi is the Culprit Based on the testimonies, the Detective Boys realize that culprit is Naokazu Fukuchi. Among the three suspects, Fukuchi's testimony contradicts with his actions at the time of murder: a unskilled driver would never test drive their car in a location full of people or on the day with poor visibility due to rain. In additional to that, he parked his car in an extremely close distance with the nearby car and did it very neatly, meaning that he is in fact a very good driver. Despite the fact that the culprit might have disposed of the key, there would still be presence of blood in the keyhole, so Conan asked Takagi to bring in the forensics to perform a Luminol spray test. Though initially there was no reaction, Conan is able to sever the lock cylinder and reveal that the exterior of the keyhole was replaced by another one in order to remove the incriminating evidence. Moreover, the police can check the key lock with the one near the wheel to confirm whether or not they belong to the same car. Additionally, Fukuchi is unlikely to have replaced the key hole near the steering wheel, which means that there must still be a bloodstain from his victim there from when he inserted his key to start up the car. Fukuchi attempts to escape while pretending to let the police confirm the key lock, but is knocked out by Conan's dart. After intense interrogation, he reveals he was slashing random victims to become famous and gain attention, a change to his mundane life. The Aftermath: Moved by Ayumi's courage, Haibara decides to decline in participating in the Witness Protection Program, knowing that she cannot fully trust the FBI and that she herself no longer wants to keep running away from the Black Organization forever. Though Jodie is initially against this, she accepts Haibara's decision and ask her to always remember the courage of this day. After Haibara left, James comments that Haibara was like Jodie long ago, as Jodie herself also refused to participate in the program unless they let her join the FBI to chase after her father's murderer. However, Jodie replies that both of them are different, as Haibara has the warmth of her friends by her side, giving her the courage to fight on no matter what the future may bring.",
+
+        trivia: [
+            "Hiroshi Enomoto vehicle in left side is a Dirty Innocent Blue Mica Mazda RX-7 (FD) Spirit R Type A with the License Plate of 1-20.",
+            "Naokazu Fukuchi vehicle in the middle is a Silver Stone Metallic Clearcoat Mazda RX-7 (FD) Type-R with the License Plate of 76-01.",
+            "Toshiaki Degawa vehicle in right side is a Clean Neat Green Mica Clearcoat 1991 Ẽfini MS-6 (Mazda 626) [GE] with the License Plate of 43-13."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "顛末（TENMATSU）", "Tenmatsu (TENMATSU)", "The Facts (TENMATSU)", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「何だこの痕跡は？」 （未収録ヴァージョン）", "'Nanda Kono Konseki wa?' (Mi Shūroku Vājon)", "'What Is This a Trace Of?' (Unreleased Version)", ""],
+            ["00:00", "映画BGM", "Eiga BGM", "Movie BGM", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "トリック", "Torikku", "Trick", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "テーブルの下に爆弾～急げ （音響調整バージョン）", "Tēburu no Shita ni Bakudan ~ Isoge (Onkyō Chōsei Vājon)", "Bomb Under the Table ~ Hurry (Acoustic Tuning Version)", ""],
+            ["00:00", "事件解明 （スローver.）", "Jiken Kaimei (Surō ver.)", "Case Clarification (Slow Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "過去のあやまち", "Kako no Ayamachi", "Error of the Past", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "君という光", "Kimi to Iu Hikari", "The Light Called 'You'", "Kimi to Iu Hikari"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"]
+        ]
+    },
+    {
+        id: "348", isFiller: true, title: "348: Love, Ghosts, and World Heritage (Part 1)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa"],
+        episodeDescription: "Kogoro, Ran, Conan, Haibara, and the Detective Boys are visiting an old-fashioned village that has a very dark past. While there, a man is nearly murdered, and by his body was what seemed to be a ghost. Is there a trick to this murder case, and could the murder have anything to do with the village's dark past? Also, who was the ghost?",
+        japaneseTitle: "愛と幽霊と地球遺産REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ai to Yūrei to Chikyū Isan)",
+        titleInOtherLanguages: [
+            ["Arabic", "جريمة في القرية", "Crime in the Village"],
+            ["Bahasa Melayu", "Cerita Hantu Dan Warisan Bumi", "Ghosts story and World Heritage"],
+            ["Catalan (Catalan dub)", "L'amor, els fantasmes i el Patrimoni de la Humanitat", "Love, ghosts and World Heritage Site"],
+            ["Catalan (Valencian dub)", "L'amor, el fantasma i el Patrimoni de la Humanitat", "Love, ghost and World Heritage Site"],
+            ["German", "Die Liebe, der Geist und das Welterbe", "Love, ghost and World Heritage"],
+            ["French", "Amour, Fantôme et Patrimoine mondial", "Love, Ghost and World Heritage"],
+            ["Italian", "Fantasmi e turisti", "Ghosts and Tourists"],
+            ["Spanish (Castilian dub)", "Amor y fantasmas en el Patrimonio de la Humanidad", "Love and ghost in World Heritage Site"],
+            ["Thai", "ความรัก วิญญาณและมรดกโลก", "Love, a Ghost, and a Wordly Inheritance"],
+            ["Vietnamese", "Tình yêu, bóng ma và di sản thế giới", "Love, Ghosts, and World Heritage"]
+        ],
+        season: "12",
+        originalAirdate: "January 26, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHFebruary 4, 2004 (Part 2)",
+
+        broadcastRating: "13.5%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.4%",
+
+        fillerCase: "#111",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Seal (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMagnifying glass (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "348 Katsuyoshi YatabeREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH349 Hideaki Oba",
+        animationDirector: "348 Hirobi MuranakaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH349 Izumi Shimura",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Yasumi Mikamoto",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Koji Totani as Kensaku Kawaji Eiji Maruyama as Shokichi Sakaki Nobuo Tobita as Kazuaki Kuwashima Makiko Ohmoto as Rumiko Yoshii Chiharu Tezuka as Kanako Kinoshita Rumi Ochiai as Keiko Tayama Hiroshi Tsuchida as Akira Hiroi Yuzuru Fujimoto as Iwao Nagakura Tamie Kubota as Kimiko Nagakura Takeharu Onishi as Leader, Villager 1 Kumiko Nishihara as Mami Otozawa Shinobu Sato as Landlady Anna Kobayashi as Tourist Hiroshi Okamoto as Villager 2 Keiji Hirai as Villager 3 Ryohei Nakao as Villager 4 Keisuke Baba as Villager 5 Hitoshi Horimoto as Tamekichi Matsushiro",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Kimi to Iu Hikari",
+        prevCase: "« Find the Buttock's Mark",
+        nextCase: "The Forgotten Cell Phone »",
+        resolution: "The true culprit behind all these cases is Shokichi Sakaki. One month ago, he planned a jewel heist at the shop he worked at and tricked Eiji into working with him. After that, he killed Eiji (thrown off a cliff) to make it seem like he committed suicide, and then hid the jewels in the house next to the Nagakuras. He returned here to find the jewels, except that the hiding place was 'moved' so he couldn't find it and was discovered by Nagakura so he stabbed him. The evidence is that he has an inflammation from a plant that can only be found at the crime scene, which tore apart his supposed alibi. Attemped Murder Location: Onizawa Village Victim: Detective Boys Attack type: Stabbing Culprit: Shokichi Sakaki Sakaki tries to stab the Detective Boys before escaping only to be stopped by 'Mami's spirit' who keeps him from doing so. Sakaki tries to flee but is haunted by Ayumi, who 'dressed up' as Mami's spirit, and is stunned by Conan down the window. He is then arrested. The next day, Ayumi stands alone on the bridge and wishes that she could see Mami once more. The river reflection then shows Mami and Eiji walked happily away together, as Mami's way of thanking Ayumi for helping to prove Eiji's innocence. Even Conan who doesn't believe in supernatural things can't find a way to disprove this event. After two mnths The Onizawa Village is the UNESCO World Heritage Site.",
+
+        trivia: [
+            "The cultural property in shown consists of three historic mountain villages Historic Villages of Shirakawa-gō and Gokayama. All Gifu police cars have indeed 'Shirakawa' (白川) as license plate.",
+            "Professor Agasa is preparing his tea or coffee in the same cup that he used in The Convenience Store Trap."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "ほのぼの気分", "Honobono Kibun", "Heartwarming Feeling", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "少年探偵団のテーマ", "Shōnen Tanteidan no Tēma", "The Detective Boys' Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "ヒロキの生い立ち", "Hiroki no Oitachi", "Hiroki's Upbringing", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "事件解明 （オリジナルver.）", "Jiken Kaimei (Orijinaru ver.)", "Case Clarification (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "オセンチな歩美 （未収録ヴァージョン）", "Osenchina Ayumi (Mi Shūroku Vājon)", "Sentimental Ayumi (Unreleased Version)", ""],
+            ["00:00", "二世・三世の子供達", "Nisei・Sansei no Kodomotachi", "The Second and Third Generation Children", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "脅迫 （パート２）", "Kyōhaku (Pāto 2)", "Threat (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "君という光", "Kimi to Iu Hikari", "The Light Called 'You'", "Kimi to Iu Hikari"]
+        ]
+    },
+    {
+        id: "349", isFiller: true, title: "349: Love, Ghosts, and World Heritage (Part 2)",
+        appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa"],
+        episodeDescription: "Kogoro, Ran, Conan, Haibara, and the Detective Boys are visiting an old-fashioned village that has a very dark past. While there, a man is nearly murdered, and by his body was what seemed to be a ghost. Is there a trick to this murder case, and could the murder have anything to do with the village's dark past? Also, who was the ghost?",
+        japaneseTitle: "愛と幽霊と地球遺産REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ai to Yūrei to Chikyū Isan)",
+        titleInOtherLanguages: [
+            ["Arabic", "جريمة في القرية", "Crime in the Village"],
+            ["Bahasa Melayu", "Cerita Hantu Dan Warisan Bumi", "Ghosts story and World Heritage"],
+            ["Catalan (Catalan dub)", "L'amor, els fantasmes i el Patrimoni de la Humanitat", "Love, ghosts and World Heritage Site"],
+            ["Catalan (Valencian dub)", "L'amor, el fantasma i el Patrimoni de la Humanitat", "Love, ghost and World Heritage Site"],
+            ["German", "Die Liebe, der Geist und das Welterbe", "Love, ghost and World Heritage"],
+            ["French", "Amour, Fantôme et Patrimoine mondial", "Love, Ghost and World Heritage"],
+            ["Italian", "Fantasmi e turisti", "Ghosts and Tourists"],
+            ["Spanish (Castilian dub)", "Amor y fantasmas en el Patrimonio de la Humanidad", "Love and ghost in World Heritage Site"],
+            ["Thai", "ความรัก วิญญาณและมรดกโลก", "Love, a Ghost, and a Wordly Inheritance"],
+            ["Vietnamese", "Tình yêu, bóng ma và di sản thế giới", "Love, Ghosts, and World Heritage"]
+        ],
+        season: "12",
+        originalAirdate: "January 26, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHFebruary 4, 2004 (Part 2)",
+
+        broadcastRating: "13.5%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.4%",
+
+        fillerCase: "#111",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Seal (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMagnifying glass (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "348 Katsuyoshi YatabeREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH349 Hideaki Oba",
+        animationDirector: "348 Hirobi MuranakaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH349 Izumi Shimura",
+        screenplay: "Junichi Miyashita",
+        storyboard: "Yasumi Mikamoto",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Koji Totani as Kensaku Kawaji Eiji Maruyama as Shokichi Sakaki Nobuo Tobita as Kazuaki Kuwashima Makiko Ohmoto as Rumiko Yoshii Chiharu Tezuka as Kanako Kinoshita Rumi Ochiai as Keiko Tayama Hiroshi Tsuchida as Akira Hiroi Yuzuru Fujimoto as Iwao Nagakura Tamie Kubota as Kimiko Nagakura Takeharu Onishi as Leader, Villager 1 Kumiko Nishihara as Mami Otozawa Shinobu Sato as Landlady Anna Kobayashi as Tourist Hiroshi Okamoto as Villager 2 Keiji Hirai as Villager 3 Ryohei Nakao as Villager 4 Keisuke Baba as Villager 5 Hitoshi Horimoto as Tamekichi Matsushiro",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Kimi to Iu Hikari",
+        prevCase: "« Find the Buttock's Mark",
+        nextCase: "The Forgotten Cell Phone »",
+        resolution: "The true culprit behind all these cases is Shokichi Sakaki. One month ago, he planned a jewel heist at the shop he worked at and tricked Eiji into working with him. After that, he killed Eiji (thrown off a cliff) to make it seem like he committed suicide, and then hid the jewels in the house next to the Nagakuras. He returned here to find the jewels, except that the hiding place was 'moved' so he couldn't find it and was discovered by Nagakura so he stabbed him. The evidence is that he has an inflammation from a plant that can only be found at the crime scene, which tore apart his supposed alibi. Attemped Murder Location: Onizawa Village Victim: Detective Boys Attack type: Stabbing Culprit: Shokichi Sakaki Sakaki tries to stab the Detective Boys before escaping only to be stopped by 'Mami's spirit' who keeps him from doing so. Sakaki tries to flee but is haunted by Ayumi, who 'dressed up' as Mami's spirit, and is stunned by Conan down the window. He is then arrested. The next day, Ayumi stands alone on the bridge and wishes that she could see Mami once more. The river reflection then shows Mami and Eiji walked happily away together, as Mami's way of thanking Ayumi for helping to prove Eiji's innocence. Even Conan who doesn't believe in supernatural things can't find a way to disprove this event. After two mnths The Onizawa Village is the UNESCO World Heritage Site.",
+
+        trivia: [
+            "The cultural property in shown consists of three historic mountain villages Historic Villages of Shirakawa-gō and Gokayama. All Gifu police cars have indeed 'Shirakawa' (白川) as license plate.",
+            "Professor Agasa is preparing his tea or coffee in the same cup that he used in The Convenience Store Trap."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "(Unreleased BGM 1)", "", "", ""],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "迷路", "Meiro", "Labyrinth", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "映画BGM", "Eiga BGM", "Movie BGM", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "トリック", "Torikku", "Trick", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "コナン推理", "Konan Suiri", "Conan's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "陰謀 （摩天楼ヴァージョン）", "Inbō (Mantenrō Vājon)", "Conspiracy (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "対決のテーマ （摩天楼ヴァージョン）", "Taiketsu no Tēma (Mantenrō Vājon)", "Showdown Theme (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "君という光", "Kimi to Iu Hikari", "The Light Called 'You'", "Kimi to Iu Hikari"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"]
+        ]
+    },
+    {
+        id: "350", isFiller: false, title: "350: The Forgotten Cell Phone (Part 1)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Yumi Miyamoto", "Azusa Enomoto", "Ran Mouri", "Vermouth", "Officer Numata"],
+        episodeDescription: "While Kogoro and Conan were taking break in a coffee shop below the Detective Agency, Azusa Enomoto asked for Kogoro's help. A customer left his cellphone two days ago and Azusa wanted to return it. While searching for clues about the customer's whereabouts, Yumi, a police officer, came and they found out that they were investigating about the same person. They later found out that the man they were looking for died in a car accident.",
+        japaneseTitle: "忘れられた携帯電話REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Wasurerareta Keitai Denwa)",
+        titleInOtherLanguages: [
+            ["Arabic", "الهاتف المحمول", "The Mobile Phone"],
+            ["Catalan (Catalan dub)", "El telèfon mòbil descuidat", "The forgotten cell phone"],
+            ["Catalan (Valencian dub)", "El telèfon mòbil oblidat", "The forgotten cell phone"],
+            ["French", "Oubli de téléphone portable", "Forgotten cell phone"],
+            ["German", "Das vergessene Handy", "The forgotten cell phone"],
+            ["Italian", "Il cellulare dimenticato", "The forgotten cell phone"],
+            ["Spanish (Castilian dub)", "El móvil olvidado", "The forgotten cell phone"],
+            ["Thai", "โทรศัพท์มือถือที่ถูกลืมไว้", ""],
+            ["Vietnamese", "Chiếc điện thoại bị bỏ quên", ""]
+        ],
+        season: "12",
+        originalAirdate: "February 9, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHFebruary 16, 2004 (Part 2)",
+
+        broadcastRating: "14.1%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH12.2%",
+
+
+        mangaCase: "#127",
+        mangaSource: "Volume 43: Files 3-5 (438-440)",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Telephone number (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHA loud sound (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "350 Yukio OkazakiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH351 Shinji Ushiro",
+        animationDirector: "350 Tsutomu MurakamiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH351 Atsushi Aono",
+
+        storyboard: "Masayuki Miyaji",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Yuu Sugimoto as Yumi Miyamoto Mikiko Enomoto as Azusa Enomoto Wakana Yamazaki as Ran Mouri Takehiko Murozono as Police officer Junko Noda as Officer Numata Junichi Kanemaru as Café Poirot Master Yusaku Yara as Sunglasses man Yonehiko Kitagawa as Shuhei Baishou Yuu Shimaka as Columbo Restaurant chef Yukiko Mizuochi as Yuka Naoki Makishima as Fat man Takayuki Okada as Student Isshin Chiba as Apollo Sports employee Katsumi Toriumi as Station employee",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Love, Ghosts, and World Heritage",
+        nextCase: "The Fishing Tournament Tragedy »",
+        resolution: "The culprit is the man wearing sunglasses. The numbers in the cell phone are really information concerning the diet member Shuhei Baishou. The fat man intended on using this information to blackmail the diet member and the phone was meant as proof that he had that information. But he got the wrong location, when he was trying to pass over the phone, and died when he realized that and tried to correct it. Conan tricks the man wearing sunglasses to give up the number to the phone. With it the police track down the identity of the fat man, who was a reporter, and in his apartment, they found the evidence to arrest the Diet member.",
+
+        trivia: [
+            "The truck crash cell-phone owner is a 2002 Toyota Dyna.",
+            "This is the first case with Azusa Enomoto since The Client Full of Lies. She has been given another major makeover in design and this is her first official canon appearance.",
+            "This appears to be the first case, where Kogoro uses the honorific '-kun' when addressing Conan. Most of the characters refer to him as 'Conan-kun'; Kogoro uses no honorific.",
+            "This is one of the first cases where Kogoro begins and ends the case with a narrative.",
+            "This case marks one of the first encounters that Kogoro has with Yumi. When he sees her, he remarks how she's always with Takagi, so he may be unaware that she is traffic and not homicide.",
+            "In this case, Azusa reveals that the owner of Cafe Poirot coffee shop is a fan of mystery novels, and Hercule Poirot.",
+            "This is the first case that features Azusa and Yumi for any length of time.",
+            "This is the first case that takes place primarily at Cafe Poirot. Until this case, the cafe has only appeared in a short scene. This fact is interesting due to this coffee shop being located directly underneath the Mouri Detective Agency, and supposedly frequented by Kogoro, Ran, and Conan."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "(Unreleased BGM 3)", "", "", ""],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「何だこの痕跡は？」 （未収録ヴァージョン）", "'Nanda Kono Konseki wa?' (Mi Shūroku Vājon)", "'What Is This a Trace Of?' (Unreleased Version)", ""],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "351", isFiller: false, title: "351: The Forgotten Cell Phone (Part 2)",
+        appearances: ["Conan Edogawa", "Kogoro Mouri", "Yumi Miyamoto", "Azusa Enomoto", "Ran Mouri", "Vermouth", "Officer Numata"],
+        episodeDescription: "While Kogoro and Conan were taking break in a coffee shop below the Detective Agency, Azusa Enomoto asked for Kogoro's help. A customer left his cellphone two days ago and Azusa wanted to return it. While searching for clues about the customer's whereabouts, Yumi, a police officer, came and they found out that they were investigating about the same person. They later found out that the man they were looking for died in a car accident.",
+        japaneseTitle: "忘れられた携帯電話REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Wasurerareta Keitai Denwa)",
+        titleInOtherLanguages: [
+            ["Arabic", "الهاتف المحمول", "The Mobile Phone"],
+            ["Catalan (Catalan dub)", "El telèfon mòbil descuidat", "The forgotten cell phone"],
+            ["Catalan (Valencian dub)", "El telèfon mòbil oblidat", "The forgotten cell phone"],
+            ["French", "Oubli de téléphone portable", "Forgotten cell phone"],
+            ["German", "Das vergessene Handy", "The forgotten cell phone"],
+            ["Italian", "Il cellulare dimenticato", "The forgotten cell phone"],
+            ["Spanish (Castilian dub)", "El móvil olvidado", "The forgotten cell phone"],
+            ["Thai", "โทรศัพท์มือถือที่ถูกลืมไว้", ""],
+            ["Vietnamese", "Chiếc điện thoại bị bỏ quên", ""]
+        ],
+        season: "12",
+        originalAirdate: "February 9, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHFebruary 16, 2004 (Part 2)",
+
+        broadcastRating: "14.1%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH12.2%",
+
+
+        mangaCase: "#127",
+        mangaSource: "Volume 43: Files 3-5 (438-440)",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Telephone number (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHA loud sound (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "350 Yukio OkazakiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH351 Shinji Ushiro",
+        animationDirector: "350 Tsutomu MurakamiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH351 Atsushi Aono",
+
+        storyboard: "Masayuki Miyaji",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Yuu Sugimoto as Yumi Miyamoto Mikiko Enomoto as Azusa Enomoto Wakana Yamazaki as Ran Mouri Takehiko Murozono as Police officer Junko Noda as Officer Numata Junichi Kanemaru as Café Poirot Master Yusaku Yara as Sunglasses man Yonehiko Kitagawa as Shuhei Baishou Yuu Shimaka as Columbo Restaurant chef Yukiko Mizuochi as Yuka Naoki Makishima as Fat man Takayuki Okada as Student Isshin Chiba as Apollo Sports employee Katsumi Toriumi as Station employee",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Love, Ghosts, and World Heritage",
+        nextCase: "The Fishing Tournament Tragedy »",
+        resolution: "The culprit is the man wearing sunglasses. The numbers in the cell phone are really information concerning the diet member Shuhei Baishou. The fat man intended on using this information to blackmail the diet member and the phone was meant as proof that he had that information. But he got the wrong location, when he was trying to pass over the phone, and died when he realized that and tried to correct it. Conan tricks the man wearing sunglasses to give up the number to the phone. With it the police track down the identity of the fat man, who was a reporter, and in his apartment, they found the evidence to arrest the Diet member.",
+
+        trivia: [
+            "The truck crash cell-phone owner is a 2002 Toyota Dyna.",
+            "This is the first case with Azusa Enomoto since The Client Full of Lies. She has been given another major makeover in design and this is her first official canon appearance.",
+            "This appears to be the first case, where Kogoro uses the honorific '-kun' when addressing Conan. Most of the characters refer to him as 'Conan-kun'; Kogoro uses no honorific.",
+            "This is one of the first cases where Kogoro begins and ends the case with a narrative.",
+            "This case marks one of the first encounters that Kogoro has with Yumi. When he sees her, he remarks how she's always with Takagi, so he may be unaware that she is traffic and not homicide.",
+            "In this case, Azusa reveals that the owner of Cafe Poirot coffee shop is a fan of mystery novels, and Hercule Poirot.",
+            "This is the first case that features Azusa and Yumi for any length of time.",
+            "This is the first case that takes place primarily at Cafe Poirot. Until this case, the cafe has only appeared in a short scene. This fact is interesting due to this coffee shop being located directly underneath the Mouri Detective Agency, and supposedly frequented by Kogoro, Ran, and Conan."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "映画BGM", "Eiga BGM", "Movie BGM", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "「何だこの痕跡は？」 （未収録ヴァージョン）", "'Nanda Kono Konseki wa?' (Mi Shūroku Vājon)", "'What Is This a Trace Of?' (Unreleased Version)", ""],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "少年探偵団のテーマ （摩天楼ヴァージョン）", "Shōnen Tanteidan no Tēma (Mantenrō Vājon)", "The Detective Boys' Theme (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"]
+        ]
+    },
+    {
+        id: "352", isFiller: true, title: "352: The Fishing Tournament Tragedy (Part 1)",
+        appearances: ["Conan Edogawa", "Detective Boys", "Jugo Yokomizo", "Ran Mouri", "Sonoko Suzuki", "Makoto Kyogoku"],
+        episodeDescription: "Ran and Conan were invited to a fishing tournament in Lake Okutani, Kanagawa Prefecture, that was being sponsored by Sonoko's father's company. After hearing that, Genta, Ayumi and Mitsuhiko wanted to come along as well. During the tournament, they met Ayukawa Saori and Masubuchi Takuya, both participants, and Funaki Toshihiko, a freelance writer. On the second day of the tournament, Funaki was found dead by Ran and Sonoko near the lake.",
+        japaneseTitle: "フィッシング大会の悲劇REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Fisshingu Taikai no Higeki)",
+        titleInOtherLanguages: [
+            ["Arabic", "مسابقة صيد السمك", "The Fishing Tournament"],
+            ["Catalan (Catalan dub)", "La tragèdia del torneig de pesca", "Fishing tournament tragedy"],
+            ["Catalan (Valencian dub)", "La tragèdia del torneig de pesca", "Fishing tournament tragedy"],
+            ["French", "La tragédie du concours de pêche", "The tragedy of the fishing competition"],
+            ["German", "Tragödie beim Angelwettbewerb", "Tragedy in fishing tournament"],
+            ["Italian", "Una tragedia alla gara di pesca", "A Fishing Tournament Tragedy"],
+            ["Spanish (Castilian dub)", "Tragedia en el torneo de pesca", "Tragedy in fishing tournament"],
+            ["Thai", "โศกนาฏกรรมของการแข่งตกปลา", ""],
+            ["Vietnamese", "Thảm kịch trong cuộc thi câu cá", ""]
+        ],
+        season: "12",
+        originalAirdate: "February 23, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMarch 1, 2004 (Part 2)",
+
+        broadcastRating: "13.6%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.8%",
+
+        fillerCase: "#112",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Track (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHLatest fishing rod model (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "352 Minoru TozawaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Kazuyoshi Yokota",
+        animationDirector: "352 Rei MasunagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Akiko Kawashima",
+        screenplay: "Toyoto Kogiso",
+        storyboard: "352 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Katsumi Endo",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Akio Otsuka as Jugo Yokomizo Sayuri as Saori Ayukawa Takahiro Sakurai as Takuya Masubuchi Shinya Otaki as Toshihiko Funaki Shinobu Satouchi as Junichi Mizui Kisho Taniyama as Kensuke Kanie Nobuyuki Furuta as Forensics officer Takeharu Onishi as Detective A Hiroaki Yoshida as Detective B Shinichi Namiki as Fisherman Yu Kobayashi as Announcer Akimitsu Takase as Security guard",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« The Forgotten Cell Phone",
+        nextCase: "A Small Client »",
+        resolution: "Saori Ayukawa turned out to be the one who murdered Funaki. She killed him because she was being blackmailed by Funaki-san for witnessing her accidentally pushing Kanie-san that led to his death. On the other hand, Conan was convinced that Ayukawa-san was the one who committed the well-thought out murder of Funaki-san. After acquiring evidence that will prove Ayukawa-san's crime, Conan shot Sonoko with his tranquilizer watch and presented his deduction through her. She had positioned a wooden plank on the bridge above the train tracks and had a rock, and her handkerchief tied to it as well. While Funaki-San was busy taking pictures of the train, she used her skills as a pro fisherman and hurled her lure onto the handkerchief. Then she yanked with all her might and caused the plank and rock to fall hitting him on the head, at the same time he fell on top of the train and was carried all the way to where he was found. The evidence of her guilt is the photos of the train that Funaki-San was taking and the stain that was found on his vest. Which turned out to be from the train when he rode on top of it, and finally the wooden plank with her handkerchief tied to it. Earlier she had used it to clean Ayumi's knees after she scrapped them while playing near the rocks, proving that the handkerchief belonged to her and no one else as Ayumi's blood is still on it. Her motive was that she had been talking to a fellow fisherman Kensuke Kanie, he had feelings for her but was too forward. When he tried to hug her, she pushed him away, which accidentally caused him to landed on top of a passing train that carried him off to his death. Funaki-San had witnessed this and rather then tell the police, he saw this as a opportunity to blackmail her every now and again. He did so every chance he got, eventually the amount of money he had continually asked for kept increasing. As a result Saori Ayukawa decided to kill him the same way she killed Kanie in the past. Accident (Past) Location: Mountain Victim: Kensuke Kanie Cause of death: Blunt trauma to head after falling on train Kanie gets accident fell on train pass.",
+
+
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "のんびり気分（アナザーver.）", "Nonbiri Kibun (Anazā ver.)", "Carefree Feeling (Another Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "ほのぼの気分", "Honobono Kibun", "Heartwarming Feeling", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "恋のトランプゲーム占い", "Koi no Toranpu Gēmu Uranai", "Love's Fortune-Telling Card Game", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "夜の探索", "Yoru no Tansaku", "Night Search", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "急げ！少年探偵団", "Isoge! Shōnen Tanteidan", "Hurry! The Detective Boys", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "(Unreleased BGM 3)", "", "", ""],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "陽気な仲間", "Yōki na Nakama", "Cheerful Friends", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "蘭のお姉さんぶり", "Ran no Onēsan Buri", "Ran's Elder Sister Style", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "友情", "Yūjou", "Friendship", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "赤い光のスナイパー１", "Akai Hikari no Sunaipā 1", "The Sniper's Red Light 1", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "353", isFiller: true, title: "353: The Fishing Tournament Tragedy (Part 2)",
+        appearances: ["Conan Edogawa", "Detective Boys", "Jugo Yokomizo", "Ran Mouri", "Sonoko Suzuki", "Makoto Kyogoku"],
+        episodeDescription: "Ran and Conan were invited to a fishing tournament in Lake Okutani, Kanagawa Prefecture, that was being sponsored by Sonoko's father's company. After hearing that, Genta, Ayumi and Mitsuhiko wanted to come along as well. During the tournament, they met Ayukawa Saori and Masubuchi Takuya, both participants, and Funaki Toshihiko, a freelance writer. On the second day of the tournament, Funaki was found dead by Ran and Sonoko near the lake.",
+        japaneseTitle: "フィッシング大会の悲劇REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Fisshingu Taikai no Higeki)",
+        titleInOtherLanguages: [
+            ["Arabic", "مسابقة صيد السمك", "The Fishing Tournament"],
+            ["Catalan (Catalan dub)", "La tragèdia del torneig de pesca", "Fishing tournament tragedy"],
+            ["Catalan (Valencian dub)", "La tragèdia del torneig de pesca", "Fishing tournament tragedy"],
+            ["French", "La tragédie du concours de pêche", "The tragedy of the fishing competition"],
+            ["German", "Tragödie beim Angelwettbewerb", "Tragedy in fishing tournament"],
+            ["Italian", "Una tragedia alla gara di pesca", "A Fishing Tournament Tragedy"],
+            ["Spanish (Castilian dub)", "Tragedia en el torneo de pesca", "Tragedy in fishing tournament"],
+            ["Thai", "โศกนาฏกรรมของการแข่งตกปลา", ""],
+            ["Vietnamese", "Thảm kịch trong cuộc thi câu cá", ""]
+        ],
+        season: "12",
+        originalAirdate: "February 23, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMarch 1, 2004 (Part 2)",
+
+        broadcastRating: "13.6%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.8%",
+
+        fillerCase: "#112",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Track (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHLatest fishing rod model (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "352 Minoru TozawaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Kazuyoshi Yokota",
+        animationDirector: "352 Rei MasunagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Akiko Kawashima",
+        screenplay: "Toyoto Kogiso",
+        storyboard: "352 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Katsumi Endo",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Akio Otsuka as Jugo Yokomizo Sayuri as Saori Ayukawa Takahiro Sakurai as Takuya Masubuchi Shinya Otaki as Toshihiko Funaki Shinobu Satouchi as Junichi Mizui Kisho Taniyama as Kensuke Kanie Nobuyuki Furuta as Forensics officer Takeharu Onishi as Detective A Hiroaki Yoshida as Detective B Shinichi Namiki as Fisherman Yu Kobayashi as Announcer Akimitsu Takase as Security guard",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« The Forgotten Cell Phone",
+        nextCase: "A Small Client »",
+        resolution: "Saori Ayukawa turned out to be the one who murdered Funaki. She killed him because she was being blackmailed by Funaki-san for witnessing her accidentally pushing Kanie-san that led to his death. On the other hand, Conan was convinced that Ayukawa-san was the one who committed the well-thought out murder of Funaki-san. After acquiring evidence that will prove Ayukawa-san's crime, Conan shot Sonoko with his tranquilizer watch and presented his deduction through her. She had positioned a wooden plank on the bridge above the train tracks and had a rock, and her handkerchief tied to it as well. While Funaki-San was busy taking pictures of the train, she used her skills as a pro fisherman and hurled her lure onto the handkerchief. Then she yanked with all her might and caused the plank and rock to fall hitting him on the head, at the same time he fell on top of the train and was carried all the way to where he was found. The evidence of her guilt is the photos of the train that Funaki-San was taking and the stain that was found on his vest. Which turned out to be from the train when he rode on top of it, and finally the wooden plank with her handkerchief tied to it. Earlier she had used it to clean Ayumi's knees after she scrapped them while playing near the rocks, proving that the handkerchief belonged to her and no one else as Ayumi's blood is still on it. Her motive was that she had been talking to a fellow fisherman Kensuke Kanie, he had feelings for her but was too forward. When he tried to hug her, she pushed him away, which accidentally caused him to landed on top of a passing train that carried him off to his death. Funaki-San had witnessed this and rather then tell the police, he saw this as a opportunity to blackmail her every now and again. He did so every chance he got, eventually the amount of money he had continually asked for kept increasing. As a result Saori Ayukawa decided to kill him the same way she killed Kanie in the past. Accident (Past) Location: Mountain Victim: Kensuke Kanie Cause of death: Blunt trauma to head after falling on train Kanie gets accident fell on train pass.",
+
+
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "謎解き （その１）", "Nazotoki (Sono 1)", "Riddle Solution (Part 1)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "トリック", "Torikku", "Trick", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "忍び寄る危機", "Shinobiyoru Kiki", "Incoming Crisis", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "Need not to know.", "Need not to know.", "Need not to know.", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "コナンのテーマ （バラード・ヴァージョン)", "Konan no Tēma (Barādo・Vājon)", "Conan's Theme (Ballad Version)", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "蘭のテーマ （摩天楼ヴァージョン）", "Ran no Tēma (Mantenrō Vājon)", "Ran's Theme (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"]
+        ]
+    },
+    {
+        id: "354", isFiller: false, title: "354: A Small Client (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yoko Okino", "Eri Kisaki", "Sango Yokomizo"],
+        episodeDescription: "A seven year old movie star by the name of Kazuki Kinukawa comes to the Mouri Detective Agency to try and find his mother who abandoned him at a church. His reasons are to tell his mother he will not give her any money now that he is famous. Conan is able to deduce Kazuki's mother is a hotel employee in Atami due to the old dirty postcards she sent him. Kazuki reveals that he remembered that his mother had a beauty mark near her breast. The trio and Kazuki travels to Atami to track down the hotel. They manage to find the hotel that sells the postcards and an employee there comfirms that the leftovers get divided between them. However they don't have one named Atsuko working here, but Kazuki's mother might have use another name. A freelance writer named Yasuhiro Kamoshita checks into the hotel as he plans to find Kazuki's mother and interview her to confirm whether Kazuki's father was truly a murderer. Later that day, Kamoshita is strangled to death but managed to take a picture on his cellphone during the attack.",
+        japaneseTitle: "小さな依頼者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chiisana Iraisha)",
+        titleInOtherLanguages: [
+            ["Arabic", "الموكل الصغير", "The Small Client"],
+            ["Bahasa Melayu", "kelien kecil", "Small Client"],
+            ["Catalan (Catalan dub)", "El petit client", "The Small Client"],
+            ["Catalan (Valencian dub)", "El client menut", "The Small Client"],
+            ["French", "Un petit client", "A little customer"],
+            ["German", "Der kleine Auftraggeber", "The small client"],
+            ["Italian", "Segreti e ricatti", "Secrets and Blackmails"],
+            ["Spanish (Castilian dub)", "El pequeño cliente", "The Small Client"],
+            ["Vietnamese", "Vị khách hàng nhí", "A small client"],
+            ["Thai", "ผู้จ้างวานตัวน้อย", "A Small Client"]
+        ],
+        season: "13",
+        originalAirdate: "March 8, 2004REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMarch 15, 2004 (Part 2)",
+
+        broadcastRating: "14.1%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.0%",
+
+
+        mangaCase: "#116",
+        mangaSource: "Volume 39: Files 9-11 (401-403)",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Facial mole (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHVideo tapes (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "Hideaki Oba",
+        animationDirector: "354 Katsunori EnomotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH355 Izumi Shimura",
+
+        storyboard: "Hideaki Oba",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Miki Nagasawa as Yoko Okino Akio Otsuka as Sango Yokomizo Yūko Mita as Kazuki Kinukawa Isamu Sugaya as Yasuhiro Kamoshita Rumiko Ukai as Tomoka Saegusa Ako Mayama as Mitsu Kusano Megumi Urawa as Toshiko Bessho Kiyonobu Suzuki as Izumiya Kiyomitsu Mizuuchi as Kanichi Hazama Chie Sato as Female employer Masahiko Horio as Detective Kubota Hidenari Ugaki as Chef Keiichi Sonobe as Forensics",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« The Fishing Tournament Tragedy",
+        nextCase: "Kaitou Kid's Miraculous Midair Walk »",
+        resolution: "Conan tranquilizes Kogoro and uses his voice changing bowtie to impersonate him. The murder weapon used to strangle Kamoshita is in fact the video tape, evidenced by that the movie started earlier by one minute missing the company logo and prologue. The culprit first entered the bath room, lured Kamoshita inside then beat him with the shower head. After killing him, she threw his body into the bathtub to conceal the fact that the tape was used as a murder weapon. Conan reveals that the beauty mark on the murderer was actually a blood stain and that the culprit is revealed to be Toshiko Bessho as evidenced by the small blood stain near her collar which she covers with her clothes. Toshiko confesses to the murder and explains that she decided to play a joke on Kazuki's production company by threatening to reveal Kazuki's father is a murderer unless they pay her ¥20 million. Her only goal was to make them stop giving postcards to Kazuki from his mother. However, they actually paid her which sparked Kamoshita's investigation. Kamoshita upon finding the truth, blackmails Toshiko for money which motivated her for murder. Toshiko had also lied about being Kazuki's mother, but this is because she cannot have children and has a deep envy of one of her fellow hosts who had a child but gave him away, the real mother of Kazuki, who also had told the details of him which Toshiko used in the blackmail. Said woman turns out to be Tomoka Saegusa. Conan later confirms to Ran that Tomoka is the mother because she used to carry Kazuki on her back with a sling while doing household chores, until she gave him up; this is why Kazuki, who had very good memory for a little kid yet couldn't recall all details, mistakenly recalled his mom's mole to be on her breast instead of on the back of her neck, where it actually is. He suggest at Kazuki might have mixed his memories from his time at the church. The following day, Kazuki gives Tomoka a package of post cards and tells her she has to continue to send her monthly post cards or he will visit her again. As Kazuki leaves, Tomoka breaks down in guilt for abandoning her son those many years ago.",
+        mangaToAnimeChanges: [
+            "The anime added an extra scene that Kazuki bumped into Saegusa which she helped him and Kazuki noticed a mole on the back of her neck.",
+            "The female criminal's entire figure is obscured unlike in manga which the female criminal's figure is naked and only her face is obscured.",
+            "In the anime, Conan simply hides under Kogoro's outer shirt while in the manga he hides in Kogoro's yukata."
+        ],
+        trivia: [
+            "The spa in the two inns posters is that from The 14th Round of the Matsue Tamatsukuri Linked Verse Contest. Open spoiler box to see images."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "オセンチな歩美 （未収録ヴァージョン）", "Osenchina Ayumi (Mi Shūroku Vājon)", "Sentimental Ayumi (Unreleased Version)", ""],
+            ["00:00", "新少年探偵団のテーマ", "Shin Shōnen Tanteidan no Tēma", "The New Detective Boys' Theme", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "神秘 （未収録ヴァージョン）", "Shinpi (Mi Shūroku Vājon)", "Mystery (Unreleased Version)", ""],
+            ["00:00", "とっておきクイズ", "Totte Oki Kuizu", "Take the Quiz", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "(Unreleased BGM 3)", "", "", ""],
+            ["00:00", "事件一件落着", "Jiken Ikken Rakuchaku", "The End of a Case", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "暗号トリックの解読", "Angō Torikku no Kaidoku", "The Trick to Deciphering the Code", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "ほのぼの", "Honobono", "Heartwarming", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "古城のテーマ", "Kojō no Tēma", "The Old Castle's Theme", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "沈む夕陽 （アコースティックver.）", "Shizumu Yūhi (Akōsutikku ver.)", "Depressing Sunset (Acoustic Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "記憶喪失（影）", "Kiokusōshitsu (Kage)", "Amnesia (Shadow)", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "355", isFiller: false, title: "355: A Small Client (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yoko Okino", "Eri Kisaki", "Sango Yokomizo"],
+        episodeDescription: "A seven year old movie star by the name of Kazuki Kinukawa comes to the Mouri Detective Agency to try and find his mother who abandoned him at a church. His reasons are to tell his mother he will not give her any money now that he is famous. Conan is able to deduce Kazuki's mother is a hotel employee in Atami due to the old dirty postcards she sent him. Kazuki reveals that he remembered that his mother had a beauty mark near her breast. The trio and Kazuki travels to Atami to track down the hotel. They manage to find the hotel that sells the postcards and an employee there comfirms that the leftovers get divided between them. However they don't have one named Atsuko working here, but Kazuki's mother might have use another name. A freelance writer named Yasuhiro Kamoshita checks into the hotel as he plans to find Kazuki's mother and interview her to confirm whether Kazuki's father was truly a murderer. Later that day, Kamoshita is strangled to death but managed to take a picture on his cellphone during the attack.",
+        japaneseTitle: "小さな依頼者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chiisana Iraisha)",
+        titleInOtherLanguages: [
+            ["Arabic", "الموكل الصغير", "The Small Client"],
+            ["Bahasa Melayu", "kelien kecil", "Small Client"],
+            ["Catalan (Catalan dub)", "El petit client", "The Small Client"],
+            ["Catalan (Valencian dub)", "El client menut", "The Small Client"],
+            ["French", "Un petit client", "A little customer"],
+            ["German", "Der kleine Auftraggeber", "The small client"],
+            ["Italian", "Segreti e ricatti", "Secrets and Blackmails"],
+            ["Spanish (Castilian dub)", "El pequeño cliente", "The Small Client"],
+            ["Vietnamese", "Vị khách hàng nhí", "A small client"],
+            ["Thai", "ผู้จ้างวานตัวน้อย", "A Small Client"]
+        ],
+        season: "13",
+        originalAirdate: "March 8, 2004REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMarch 15, 2004 (Part 2)",
+
+        broadcastRating: "14.1%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.0%",
+
+
+        mangaCase: "#116",
+        mangaSource: "Volume 39: Files 9-11 (401-403)",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Facial mole (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHVideo tapes (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "Hideaki Oba",
+        animationDirector: "354 Katsunori EnomotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH355 Izumi Shimura",
+
+        storyboard: "Hideaki Oba",
+        characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Miki Nagasawa as Yoko Okino Akio Otsuka as Sango Yokomizo Yūko Mita as Kazuki Kinukawa Isamu Sugaya as Yasuhiro Kamoshita Rumiko Ukai as Tomoka Saegusa Ako Mayama as Mitsu Kusano Megumi Urawa as Toshiko Bessho Kiyonobu Suzuki as Izumiya Kiyomitsu Mizuuchi as Kanichi Hazama Chie Sato as Female employer Masahiko Horio as Detective Kubota Hidenari Ugaki as Chef Keiichi Sonobe as Forensics",
+        openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« The Fishing Tournament Tragedy",
+        nextCase: "Kaitou Kid's Miraculous Midair Walk »",
+        resolution: "Conan tranquilizes Kogoro and uses his voice changing bowtie to impersonate him. The murder weapon used to strangle Kamoshita is in fact the video tape, evidenced by that the movie started earlier by one minute missing the company logo and prologue. The culprit first entered the bath room, lured Kamoshita inside then beat him with the shower head. After killing him, she threw his body into the bathtub to conceal the fact that the tape was used as a murder weapon. Conan reveals that the beauty mark on the murderer was actually a blood stain and that the culprit is revealed to be Toshiko Bessho as evidenced by the small blood stain near her collar which she covers with her clothes. Toshiko confesses to the murder and explains that she decided to play a joke on Kazuki's production company by threatening to reveal Kazuki's father is a murderer unless they pay her ¥20 million. Her only goal was to make them stop giving postcards to Kazuki from his mother. However, they actually paid her which sparked Kamoshita's investigation. Kamoshita upon finding the truth, blackmails Toshiko for money which motivated her for murder. Toshiko had also lied about being Kazuki's mother, but this is because she cannot have children and has a deep envy of one of her fellow hosts who had a child but gave him away, the real mother of Kazuki, who also had told the details of him which Toshiko used in the blackmail. Said woman turns out to be Tomoka Saegusa. Conan later confirms to Ran that Tomoka is the mother because she used to carry Kazuki on her back with a sling while doing household chores, until she gave him up; this is why Kazuki, who had very good memory for a little kid yet couldn't recall all details, mistakenly recalled his mom's mole to be on her breast instead of on the back of her neck, where it actually is. He suggest at Kazuki might have mixed his memories from his time at the church. The following day, Kazuki gives Tomoka a package of post cards and tells her she has to continue to send her monthly post cards or he will visit her again. As Kazuki leaves, Tomoka breaks down in guilt for abandoning her son those many years ago.",
+        mangaToAnimeChanges: [
+            "The anime added an extra scene that Kazuki bumped into Saegusa which she helped him and Kazuki noticed a mole on the back of her neck.",
+            "The female criminal's entire figure is obscured unlike in manga which the female criminal's figure is naked and only her face is obscured.",
+            "In the anime, Conan simply hides under Kogoro's outer shirt while in the manga he hides in Kogoro's yukata."
+        ],
+        trivia: [
+            "The spa in the two inns posters is that from The 14th Round of the Matsue Tamatsukuri Linked Verse Contest. Open spoiler box to see images."
+        ],
+        BGM: [
+            ["00:00", "君と約束した優しいあの場所まで", "Kimi to Yakusoku Shita Yasashii Ano Basho Made", "Until I Get You Gently to That Promised Place", "Kimi to Yakusoku Shita Yasashii Ano Basho Made"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "THE END（あれまぁ～）", "THE END (Aremā~)", "THE END ('Good Heavens!')", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "(Unreleased BGM 3)", "", "", ""],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "殺意", "Satsui", "Murderous Intent", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "トリック", "Torikku", "Trick", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "コナン推理", "Konan Suiri", "Conan's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "新一の事件解明", "Shin'ichi no Jiken Kaimei", "Shinichi's Case Clarification", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "対決のテーマ （落ち着きver.）", "Taiketsu no Tēma (Ochitsuki ver.)", "Showdown Theme (Calm Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "飛び立つ鳩　（歌：菅井えり）", "Tobitatsu Hato (Uta: Sugai Eri)", "Flying Doves (Sung By: Eri Sugai)", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "陽気な仲間", "Yōki na Nakama", "Cheerful Friends", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"]
+        ]
+    },
+    {
+        id: "356", isFiller: false, title: "356: Kaitou Kid's Miraculous Midair Walk (1 Hour Special)",
+        appearances: ["Conan Edogawa", "Kaitou Kid", "Ginzo Nakamori", "Jirokichi Suzuki", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Konosuke Jii", "Makoto Kyogoku", "Naomichi Mugikura", "Detective Konno", "Kamen Yaiba"],
+        episodeDescription: "Sonoko's uncle named Jirokichi Suzuki wants to capture Kaitou Kid to improve his fame, by Kaitou Kid to see if he can steal the jewel called, 'Blue Wonder', in reality Jirokichi wants to use it as bait. He sent a message to Kid saying, 'Attention Kaitou Kid. I challenge you: I've put the priceless artifact Blue Wonder atop my museum in the city. Come and take it if you can.' Later, Kaitou Kid accepts Jirokichi's challenge and will steal the Blue Wonder.",
+        japaneseTitle: "怪盗キッドの驚異空中歩行REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kaitō Kiddo no Kyōi Kūchū Hokō)",
+        titleInOtherLanguages: [
+            ["Arabic", "خدعة المشي على الهواء", "The Walking on Air Trick"],
+            ["Catalan (Catalan dub)", "El prodigiós caminar aeri d'en Kaito Kid", "Kaito Kid's prodigious aerial walking"],
+            ["Catalan (Valencian dub)", "El maravellós passeig aeri de Kaito Kid", "Kaito Kid's wonderful aerial walk"],
+            ["French", "Le miracle de la promenade en plein air de l'Insaisissable Kid", "The miracle of the Elusive Kid's outdoor walk"],
+            ["German", "Kaito Kids wundersamer Freiluftspaziergang", "Kaito Kid's wondrous outdoors walk"],
+            ["Italian", "Ladro Kid e la passeggiata nel cielo", "Kaitou Kid and the Midair Walk"],
+            ["Spanish (Castilian dub)", "El ladrón que caminaba por el aire", "The thief who walked in the air"],
+            ["Vietnamese", "Kaitou Kid và màn đi dạo trên không trung", ""],
+            ["Thai", "มายากลกลางหาวของจอมโจรคิด", "Kaito Kid's Midair Magic Trick"]
+        ],
+        season: "13",
+        originalAirdate: "April 12, 2004 *REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHDecember 22, 2008 (Remastered version) *",
+
+        broadcastRating: "13.7%",
+        remasteredRating: "9.3%",
+
+        mangaCase: "#131",
+        mangaSource: "Volume 44: Files 7-10 (453-456)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "WindREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHSuspension (Remastered version)",
+        director: "Masato Sato",
+        episodeDirector: "Minoru Tozawa",
+        animationDirector: "Mari Tominaga (Chief)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHRei MasunagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHAtsushi AonoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKatsunori Enomoto",
+
+        storyboard: "Katsumi EndoYasumi Mikamoto",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kappei Yamaguchi as Kaitou Kid, Kaito Kuroba Naoko Matsui as Sonoko Suzuki Ichiro Nagai as Jirokichi Suzuki Unsho Ishizuka as Ginzo Nakamori Akira Kamiya as Kogoro Mouri Wataru Takagi as Lupin Isshin Chiba as Detective Konno Kaori Shimizu as CM Voice Mari Maruta as Woman Yosuke Akimoto as Helicopter pilot A Seitaro Mukai as Helicopter pilot B Takuhiro Kimura as Security guard Kiyomitsu Mizuuchi as Staff A Tomoya Kawai as Staff B Keiji Hirai as Staff C Kazuaki Ito as Manager Kosuke Meguro as Naomichi Mugikura Kenji Nojima as Riot policeman Masayuki Nakata as Police officer",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« A Small Client",
+        nextCase: "Sweetheart is an Illusion of Spring »",
+        resolution: "Jirokichi Suzuki got the jewel from indoors and is riding on a motorcycle while laughing until sudden, Conan is found to be on the passenger seat. Conan reveals that Jirokichi Suzuki is Kid in disguise. Conan already knew his identity since Kid came on his bike. It's the same as now: Jirokichi is not wearing any goggles. Kid took Jirokichi's dog to Shirou Park and used on sleeping pills to keep it there. If someone with contact lenses rides a bike without goggles, the wind's force will damage their eyes. Kaitou Kid manages to lose Conan and escape once again.",
+
+        trivia: [
+            "At the beginning of the episode, the movie that Ran and Sonoko were watching is a parody of Ocean's Eleven. The movie also features an easter egg where Minoru Tozawa and Hiroaki Kobayashi (Episode director and producer of the anime, respectively.) were listed among the cast.",
+            "This is the first episode to use the new character designs provided by Mari Tominaga.",
+            "Takuhiro Kimura and Seitaro Mukai of comedy duo Tenshin voiced Security guard and Helicopter pilot B respectively in the episode."
+        ],
+        BGM: [
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "トロピカルランドの想い出", "Toropikaru Rando no Omoide", "Memories of Tropical Land", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "闇の男爵ナイトバロンのテーマ", "Yami no Danshaku Naito Baron no Tēma", "Baron of the Darkness, The Night Baron's Theme", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "迷路", "Meiro", "Labyrinth", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "(Unreleased BGM 3)", "", "", ""],
+            ["00:00", "空飛ぶ怪盗キッド", "Soratobu Kaitō Kiddo", "Kaitou Kid Takes Flight", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "迫りくる悪", "Semari Kuru Aku", "Imminent Evil", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "時計じかけの摩天楼", "Tokei Jikake no Mantenrō", "The Time-Bombed Skyscraper", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "とっておきクイズ", "Totte Oki Kuizu", "Take the Quiz", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "元太のテーマ", "Genta no Tēma", "Genta's Theme", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "顛末（TENMATSU）", "Tenmatsu (TENMATSU)", "The Facts (TENMATSU)", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "映画BGM", "Eiga BGM", "Movie BGM", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "次のターゲット！", "Tsugi no Tāgetto!", "The Next Target!", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "トリック", "Torikku", "Trick", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "新一の事件解明", "Shin'ichi no Jiken Kaimei", "Shinichi's Case Clarification", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "怪盗キッドの予告状１", "Kaitō Kiddo no Yokokujō 1", "Kaitou Kid's Manifesto 1", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "陽気な仲間", "Yōki na Nakama", "Cheerful Friends", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"]
+        ]
+    },
+    {
+        id: "357", isFiller: true, title: "357: Sweetheart is an Illusion of Spring",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Wataru Takagi", "Kazunobu Chiba"],
+        episodeDescription: "Ran and Conan run into Sachiko, an acquaintance of Ran's, while shopping. She says she is buying steak and wine for dinner with her lover who's visiting. Ran is impressed that Sachiko has someone she wants to cook for. The next day Ran and Conan find that Sachiko is murdered. Kogoro gets permission to take a look, since Sachiko was a friend of Ran.",
+        japaneseTitle: "恋人は春のまぼろしREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Koibito wa Haru no Maboroshi)",
+        titleInOtherLanguages: [
+            ["Arabic", "خدعة الخيال", ""],
+            ["Catalan (Catalan dub)", "L'amant és una il·lusió de la primavera", "Sweetheart is a spring illusion"],
+            ["Catalan (Valencian dub)", "L'amant és una il·lusió de la primavera", "Sweetheart is a spring illusion"],
+            ["German", "Ihr Freund ist eine Frühlingsillusion", "His sweetheart is a spring illusion"],
+            ["Italian", "Un fidanzato misterioso", "A Mysterious Boyfriend"],
+            ["Spanish (Castilian dub)", "El falso novio de primavera", "The spring fake boyfriend"],
+            ["Vietnamese", "Tình nhân ảo của mùa xuân", ""],
+            ["Thai", "คนรักคือภาพลวงตาของฤดูใบไม้ผลิ", "Sweetheart is an Illusion of Spring"]
+        ],
+        season: "13",
+        originalAirdate: "April 26, 2004",
+
+        broadcastRating: "12.4%",
+
+        fillerCase: "#113",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Wataru TakagiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHConan EdogawaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHRan Mouri",
+        nextConansHint: "Two-person portion meal",
+        director: "Masato Sato",
+        episodeDirector: "Katsuyoshi Yatabe",
+        animationDirector: "Katsunori Enomoto",
+        screenplay: "Nobuo Ogizawa",
+        storyboard: "Masahiro Hosoda",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba Michiyo Yanagisawa as Sachiko Nishimura Junko Midori as Mrs. Henmi Naomi Kusumi as Hiroyuki Henmi Yasuhiko Kawazu as Muramatsu Chika Okuhara as Kyoko Kawamura Tomoko Ishimura as Shigeko Takezumi Nishimura as Izaki Mitsuaki Madono as Kenji Suenaga",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Kaitou Kid's Miraculous Midair Walk",
+        nextCase: "Metropolitan Police Detective Love Story 5 »",
+        resolution: "It's later revealed that Sachiko's lover died in a tragic climbing accident, and every month on the 25th for the last year and a half she has honored his memory with making dinner for them both, because the lover had, before he went away, promised to come back on 25th. The mother of the lover had given Sachiko pictures, that had been found, on the 25th an year and a half ago, which Sachiko took as a sign that her lover had come back. The murderer, KENJI SUENAGA is confronted by Takagi, Ran and Conan; he eventually admits to killing Sachiko for rejecting him. He thought at she made up the lover to reject him and killed her in anger. He then stole her money and jewel to make it look like money was the motive for the murder and gave a false testimony to the police to mislead them. And the evidence? Kenji gave the stolen money to a friend, who he had borrowed money from. The money still had the fingerprints from both him and Sachiko. The friend also informed Takagi that Kenji had asked Sachiko out, but was rejected, and that he has complained about it for the last month. When the killer insults the victim, Conan points out that if Sachiko only intended to reject Kenji with this 'lover', then there had been no need for buying the wine and make the dinner for two. Ran explains the story of Sachiko's late lover to Kenji's shock.",
+
+
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "蘭のテーマ （涙ver.）", "Ran no Tēma (Namida ver.)", "Ran's Theme (Tearful Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "前話回想", "Zenwa Kaisō", "Previous Story Recollection", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "コナンの直感", "Konan no Chokkan", "Conan's Intuition", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "「名探偵コナン」メイン・テーマ （バラードver.）", "'Meitantei Konan' Mein・Tēma (Barādo ver.)", "'Detective Conan' Main Theme (Ballad Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "THE END（あれまぁ～）", "THE END (Aremā~)", "THE END ('Good Heavens!')", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"]
+        ]
+    },
+    {
+        id: "358", isFiller: false, title: "358: Metropolitan Police Detective Love Story 5 (Part 1)",
+        appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ai Haibara", "Detective Boys", "Ninzaburo Shiratori", "Hiroshi Agasa", "Kazunobu Chiba", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Jinpei Matsuda", "Manabu Fujimaki", "Detective Fukui", "Detective Horita", "Detective Kawanaka", "Detective Miyazaki", "Detective Nakamura", "Detective Oda", "Detective Saitoh", "Detective Sogawa", "Detective Takano", "Detective Takikawa", "Detective Okumura", "Detective Sugita", "Unnamed officer", "Unnamed officer"],
+        episodeDescription: "Takagi and Sato are on a date at Tropical Land. Meanwhile, Shiratori, along with several other officers, are at the park in a surveillance van investigating a rumored drug deal involving a dealer in hiding named Asakichi Yakura. Shiratori also plans to intentionally interfere with Takagi's date. Shiratori has one of the officers bring the Detective Boys to the park and put them in Takagi and Sato's care. Takagi plans to present Sato with a ring inside his green backpack and discovers a bag of heroin inside. He realizes that he picked up the wrong backpack during the roller coaster ride. They return to the ride and learn from the attendant that no one returned asking for the backpack. Conan discerns the bag's owner was delivering the drugs without knowing what was inside, causing Sato to suspect Yakura's involvement. The backpack's strap reveals that the owner wore it on his left shoulder, suggesting he is left handed. They proceed to a photo-booth to examine the passengers who were with them on the roller coaster. Meanwhile, the officers misunderstand Sato's conversation, believing Kekkon (血痕?, lit. 'Bloodstain') to mean Kekkon (結婚?, lit. 'Marriage') and Heroin to mean Hirōen (披露宴?, lit. 'Reception') which causes them to believe that Takagi proposed. This allures them to seek out Takagi's backpack with the ring. At the photo booth, the four suspects are a golfer, a baseball player, soccer player, and swimmer. The golfer's writing reveals him to be left handed due to the ink smearing to the right.",
+        japaneseTitle: "本庁の刑事恋物語5(ファイブ)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honchō no Keiji Koi-monogatari Faibu)",
+        titleInOtherLanguages: [
+            ["Arabic", "قضيَّةٌ غيرُ متوقَّعة", "An Unexpected Case"],
+            ["Catalan (Catalan dub)", "Cinquè episodi de la història d'amor dels policies", "Fifth episode of the policeman love story"],
+            ["Catalan (Valencian dub)", "Cinquè episodi de la història d'amor entre detectius", "Fifth episode of the love story between detectives"],
+            ["German", "Love-Story im Polizeihauptquartier 5", "Love story in the police headquarter 5"],
+            ["Italian", "Appuntamento al luna park", "Meet at the Amusement Park"],
+            ["Spanish (Castilian dub)", "Historia de amor entre detectives 5", "Love story between detectives 5"],
+            ["Thai", "นิยายรักตำรวจนครบาล ภาค 5", "Metropolitan Police Love Story - Part 5"],
+            ["Vietnamese", "Câu chuyện tình yêu ở trụ sở cảnh sát 5", ""]
+        ],
+        season: "13",
+        originalAirdate: "May 3, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMay 10, 2004 (Part 2)",
+
+        broadcastRating: "8.8%12.8%",
+
+
+        mangaCase: "#117",
+        mangaSource: "Volume 40: Files 1-3 (404-406)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Daypack (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHSports player (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "Nana Harada",
+        animationDirector: "358 Izumi ShimuraREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH359 Hirobi Muranaka",
+
+        storyboard: "Yuzo Aoki",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wataru Takagi as Wataru Takagi, Genta Kojima Atsuko Yuya as Miwako Sato Megumi Hayashibara as Ai Haibara Isshin Chiba as Kazunobu Chiba, Penguin presenter Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kazuhiko Inoue as Ninzaburo Shiratori Tomohiro Nishimura as Asakichi Yakura Takashi Nagasako as Noboru Takagi Kousuke Okano as Baseball player Banjo Ginga as Manabu Fujimaki Shinya Otaki as Detective Takikawa Dai Matsumoto as Detective Miyazaki, Detective Saito Yasuhiko Kawazu as Detective Fukui, Detective Nakamura Hisao Egawa as Detective Horita Koji Ishii as Detective Takano Tomoya Kawai as Detective Sogawa Takehiro Murozono as Detective Oda Yuko Nagashima as Announcement Asako Dodo as Receptionist Misa Kimura as Guide",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Sweetheart is an Illusion of Spring",
+        nextCase: "A Mysterious Spring Beetle »",
+        resolution: "Conan investigates the backpack's contents and upon sniffing oil from a rag, reveals the owner to be the BASEBALL PLAYER. Conan explains that out of the other three athletes, the baseball player uses the oil for his baseball glove. They then search for the baseball player and upon finding him, follow him to the aquatic show. When Sato discovers the baseball player is meeting with Yakura, she attempts to apprehend him. Yakura manages to escape Sato's grip and flees towards the ferris wheel. The fireworks and ferris wheel cause Sato to remember a traumatic moment, halting her to a standstill. ROBBERY AND ESCAPE 290px Location: Tropical Land Culprit: Asakichi Yakura Yakura Get to stolen the Ship to Escape but conan Kick the soccer Knock the Dealer into the ocean. Conan manages to knock Yakura into the ocean. Takagi's backpack falls in as well, meaning that it and the ring are lost forever. The police apprehend Yakura and, satisfied with Takagi's loss, leave. Takagi comforts Sato and promises her that he will not leave her.",
+
+        trivia: [
+            "The stakeout police van used by the detectives spying on Sato and Takagi is a 2003 Chevrolet Express. It appears that the stickers on it show a parody of Tom and Jerry, and had the license plate of 23-26.",
+            "In Parade of Malice and Saint, it was revealed that talk was going around the precinct about Miwako Sato's upcoming date with Wataru Takagi at the New Tropical Marine Land. In fact, Shiratori notified Sato that the other police officers actually interrogated Takagi, and are planning a stake-out to spy on their date, and notified Yumi that he is the overseeing director of the stake out.",
+            "That date had been postponed due to various things however this case covers Takagi and Sato's date at Tropical Marine Land, and it is (INDEED) heavily staked out by the Lovestruck Tokyo Police Force, and Shiratori is definitely the overseeing director of this stake out, and Takagi had a severe grilling in the opening scene by the police department.",
+            "That date had been postponed due to various things however this case covers Takagi and Sato's date at Tropical Marine Land, and it is (INDEED) heavily staked out by the Lovestruck Tokyo Police Force, and Shiratori is definitely the overseeing director of this stake out, and Takagi had a severe grilling in the opening scene by the police department.",
+            "This is the first case with two different people with the Takagi surname: Detective Wataru Takagi and Noboru Takagi, although it is hard to know if they spell their surname with the same Kanji or different Kanji.",
+            "The serial bombing case is revisited, after Sato was reminded of such after seeing the exact same Ferris wheel that Matsuda had been killed on."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "のんびり気分", "Nonbiri Kibun", "Carefree Feeling", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "蘭・愛のテーマ", "Ran・Ai no Tēma", "Ran's Love Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "ターゲット サスペンスＡ", "Tāgetto Sasupensu A", "Target Suspense A", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "陰謀", "Inbō", "Conspiracy", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "阿笠博士のクイズ", "Agasa Hakase no Kuizu", "Professor Agasa's Quiz", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "359", isFiller: false, title: "359: Metropolitan Police Detective Love Story 5 (Part 2)",
+        appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ai Haibara", "Detective Boys", "Ninzaburo Shiratori", "Hiroshi Agasa", "Kazunobu Chiba", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Jinpei Matsuda", "Manabu Fujimaki", "Detective Fukui", "Detective Horita", "Detective Kawanaka", "Detective Miyazaki", "Detective Nakamura", "Detective Oda", "Detective Saitoh", "Detective Sogawa", "Detective Takano", "Detective Takikawa", "Detective Okumura", "Detective Sugita", "Unnamed officer", "Unnamed officer"],
+        episodeDescription: "Takagi and Sato are on a date at Tropical Land. Meanwhile, Shiratori, along with several other officers, are at the park in a surveillance van investigating a rumored drug deal involving a dealer in hiding named Asakichi Yakura. Shiratori also plans to intentionally interfere with Takagi's date. Shiratori has one of the officers bring the Detective Boys to the park and put them in Takagi and Sato's care. Takagi plans to present Sato with a ring inside his green backpack and discovers a bag of heroin inside. He realizes that he picked up the wrong backpack during the roller coaster ride. They return to the ride and learn from the attendant that no one returned asking for the backpack. Conan discerns the bag's owner was delivering the drugs without knowing what was inside, causing Sato to suspect Yakura's involvement. The backpack's strap reveals that the owner wore it on his left shoulder, suggesting he is left handed. They proceed to a photo-booth to examine the passengers who were with them on the roller coaster. Meanwhile, the officers misunderstand Sato's conversation, believing Kekkon (血痕?, lit. 'Bloodstain') to mean Kekkon (結婚?, lit. 'Marriage') and Heroin to mean Hirōen (披露宴?, lit. 'Reception') which causes them to believe that Takagi proposed. This allures them to seek out Takagi's backpack with the ring. At the photo booth, the four suspects are a golfer, a baseball player, soccer player, and swimmer. The golfer's writing reveals him to be left handed due to the ink smearing to the right.",
+        japaneseTitle: "本庁の刑事恋物語5(ファイブ)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honchō no Keiji Koi-monogatari Faibu)",
+        titleInOtherLanguages: [
+            ["Arabic", "قضيَّةٌ غيرُ متوقَّعة", "An Unexpected Case"],
+            ["Catalan (Catalan dub)", "Cinquè episodi de la història d'amor dels policies", "Fifth episode of the policeman love story"],
+            ["Catalan (Valencian dub)", "Cinquè episodi de la història d'amor entre detectius", "Fifth episode of the love story between detectives"],
+            ["German", "Love-Story im Polizeihauptquartier 5", "Love story in the police headquarter 5"],
+            ["Italian", "Appuntamento al luna park", "Meet at the Amusement Park"],
+            ["Spanish (Castilian dub)", "Historia de amor entre detectives 5", "Love story between detectives 5"],
+            ["Thai", "นิยายรักตำรวจนครบาล ภาค 5", "Metropolitan Police Love Story - Part 5"],
+            ["Vietnamese", "Câu chuyện tình yêu ở trụ sở cảnh sát 5", ""]
+        ],
+        season: "13",
+        originalAirdate: "May 3, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMay 10, 2004 (Part 2)",
+
+        broadcastRating: "8.8%12.8%",
+
+
+        mangaCase: "#117",
+        mangaSource: "Volume 40: Files 1-3 (404-406)",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Daypack (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHSports player (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "Nana Harada",
+        animationDirector: "358 Izumi ShimuraREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH359 Hirobi Muranaka",
+
+        storyboard: "Yuzo Aoki",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wataru Takagi as Wataru Takagi, Genta Kojima Atsuko Yuya as Miwako Sato Megumi Hayashibara as Ai Haibara Isshin Chiba as Kazunobu Chiba, Penguin presenter Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kazuhiko Inoue as Ninzaburo Shiratori Tomohiro Nishimura as Asakichi Yakura Takashi Nagasako as Noboru Takagi Kousuke Okano as Baseball player Banjo Ginga as Manabu Fujimaki Shinya Otaki as Detective Takikawa Dai Matsumoto as Detective Miyazaki, Detective Saito Yasuhiko Kawazu as Detective Fukui, Detective Nakamura Hisao Egawa as Detective Horita Koji Ishii as Detective Takano Tomoya Kawai as Detective Sogawa Takehiro Murozono as Detective Oda Yuko Nagashima as Announcement Asako Dodo as Receptionist Misa Kimura as Guide",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Sweetheart is an Illusion of Spring",
+        nextCase: "A Mysterious Spring Beetle »",
+        resolution: "Conan investigates the backpack's contents and upon sniffing oil from a rag, reveals the owner to be the BASEBALL PLAYER. Conan explains that out of the other three athletes, the baseball player uses the oil for his baseball glove. They then search for the baseball player and upon finding him, follow him to the aquatic show. When Sato discovers the baseball player is meeting with Yakura, she attempts to apprehend him. Yakura manages to escape Sato's grip and flees towards the ferris wheel. The fireworks and ferris wheel cause Sato to remember a traumatic moment, halting her to a standstill. ROBBERY AND ESCAPE 290px Location: Tropical Land Culprit: Asakichi Yakura Yakura Get to stolen the Ship to Escape but conan Kick the soccer Knock the Dealer into the ocean. Conan manages to knock Yakura into the ocean. Takagi's backpack falls in as well, meaning that it and the ring are lost forever. The police apprehend Yakura and, satisfied with Takagi's loss, leave. Takagi comforts Sato and promises her that he will not leave her.",
+
+        trivia: [
+            "The stakeout police van used by the detectives spying on Sato and Takagi is a 2003 Chevrolet Express. It appears that the stickers on it show a parody of Tom and Jerry, and had the license plate of 23-26.",
+            "In Parade of Malice and Saint, it was revealed that talk was going around the precinct about Miwako Sato's upcoming date with Wataru Takagi at the New Tropical Marine Land. In fact, Shiratori notified Sato that the other police officers actually interrogated Takagi, and are planning a stake-out to spy on their date, and notified Yumi that he is the overseeing director of the stake out.",
+            "That date had been postponed due to various things however this case covers Takagi and Sato's date at Tropical Marine Land, and it is (INDEED) heavily staked out by the Lovestruck Tokyo Police Force, and Shiratori is definitely the overseeing director of this stake out, and Takagi had a severe grilling in the opening scene by the police department.",
+            "That date had been postponed due to various things however this case covers Takagi and Sato's date at Tropical Marine Land, and it is (INDEED) heavily staked out by the Lovestruck Tokyo Police Force, and Shiratori is definitely the overseeing director of this stake out, and Takagi had a severe grilling in the opening scene by the police department.",
+            "This is the first case with two different people with the Takagi surname: Detective Wataru Takagi and Noboru Takagi, although it is hard to know if they spell their surname with the same Kanji or different Kanji.",
+            "The serial bombing case is revisited, after Sato was reminded of such after seeing the exact same Ferris wheel that Matsuda had been killed on."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "事件現場 （謎ver.）", "Jiken Genba (Nazo ver.)", "Scene of the Case (Mystery Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "阿笠博士のテーマ", "Agasa Hakase no Tēma", "Professor Agasa's Theme", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "(Unreleased BGM 3)", "", "", ""],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "二世・三世の子供達", "Nisei・Sansei no Kodomotachi", "The Second and Third Generation Children", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （いよいよver.）", "Hannin no Ajito (Iyoiyo ver.)", "The Culprit's Hideout (More and More Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "迫りくる悪", "Semari Kuru Aku", "Imminent Evil", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "西の名探偵 （摩天楼ヴァージョン）", "Nishi no Meitantei (Mantenrō Vājon)", "The Great Detective of the West (Skyscraper Version)", "Detective Conan 'The Time-Bombed Skyscraper' Original Soundtrack"],
+            ["00:00", "(Unreleased Sound Effect/BGM)", "", "", ""],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "行き止まり", "Ikidomari", "Dead End", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "スケボー大作戦", "Sukebō Daisakusen", "Big Skateboard Battle", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "エレベーターからの脱出", "Erebētā Kara no Dasshutsu", "Escaping From the Elevator", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"]
+        ]
+    },
+    {
+        id: "360", isFiller: true, title: "360: A Mysterious Spring Beetle",
+        appearances: ["Conan Edogawa", "Detective Boys", "Miwako Sato", "Wataru Takagi", "Misao Yamamura", "Detective Terashima"],
+        episodeDescription: "The Detective Boys, with Genta's persuasion, decide to visit a pet shop where they find the owner, Minoru Shirai, dead.",
+        japaneseTitle: "不思議な春のかぶと虫REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Fushigi na Haru no Kabutomushi)",
+        titleInOtherLanguages: [
+            ["Arabic", "خنفساء الربيع الغامضة", "The Mysterious Spring Beetle"],
+            ["Catalan (Catalan dub)", "El misteriós escarabat de la primavera", "The mysterious spring beetle"],
+            ["Catalan (Valencian dub)", "El misteriós escarabat de la primavera", "The mysterious spring beetle"],
+            ["German", "Ein mysteriöser Hirschkäfer im Frühling", "A mysterious beetle in spring"],
+            ["Italian", "Il mistero dello scarabeo", "The Mysterious Beetle"],
+            ["Spanish (Castilian dub)", "El misterioso escarabajo de primavera", "The mysterious spring beetle"],
+            ["Thai", "ตัวด้วงแห่งฤดูใบไม้ผลิอันน่าฉงน", "A mysterious spring beetle"],
+            ["Vietnamese", "Bọ cánh cứng mùa xuân bí ẩn", ""]
+        ],
+        season: "13",
+        originalAirdate: "May 17, 2004",
+
+        broadcastRating: "13.7%",
+
+        fillerCase: "#114",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Misao Yamamura (via Conan)",
+        nextConansHint: "Mobile phone strap",
+        director: "Masato Sato",
+        episodeDirector: "Akihiko Nishiyama",
+        animationDirector: "Akiko Kawashima",
+        screenplay: "Yuko Okabe",
+        storyboard: "Katsumi Endo",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Wataru Takagi, Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Toshio Furukawa as Misao Yamamura Atsuko Yuya as Miwako Sato Kōichi Tōchika as Detective Terashima Masaya Taki as Saburo Haruna Takehito Koyasu as Yutaka Araki Yūsuke Numata as Toshiya Ninomiya Katsuhisa Hōki as Minoru Shirai Hikaru Midorikawa as Takashi Ishida",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Metropolitan Police Detective Love Story 5",
+        nextCase: "Teitan High School's Ghost Story »",
+        resolution: "Deducing from his investigation that the accomplice is one of the employees at the museum, Conan tranquilizes Yamamura and reveals TAKASHI ISHIDA to be the culprit. Conan explains that evidence on Shirai's body suggested he was murdered in the van and was strangled by a neck strap from the museum. MURDER Location: Inside truck Victim: Minoru Shirai Age: 41 years old Cause of death: Strangulation Culprit: Takashi Ishida As further evidence, Conan reveals that he saw a message from Ishida's phone that proves he was selling the stolen Rhinoceros beetles. Ishida confesses to the murder and explains that Shirai was always insulting him.",
+
+        trivia: [
+            "The bus is a 1999 Nissan Civilian.",
+            "Takagi drives in a 1966 Light Blue Toyota Publica De Luxe [UP20-D]."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "事件一件落着", "Jiken Ikken Rakuchaku", "The End of a Case", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "何かが起きる…", "Nanika ga Okiru...", "Something Happened...", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "夜の探索", "Yoru no Tansaku", "Night Search", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "コナンのRock&Roll", "Konan no Rock & Roll", "Conan's Rock & Roll", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "西の名探偵", "Nishi no Meitantei", "The Great Detective of the West", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "容疑者は？", "Yōgisha wa?", "The Suspect Is?", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "のんびり気分（アナザーver.）", "Nonbiri Kibun (Anazā ver.)", "Carefree Feeling (Another Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "ターゲット サスペンスＤ", "Tāgetto Sasupensu D", "Target Suspense D", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "コナン組曲－Captured In Her Eyes", "Konan Kumikyoku - Captured in Her Eyes", "Conan Suite - Captured in Her Eyes", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "事情聴取", "Jijōchōshu", "Police Interrogation", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "１０年後の歩美", "10 Nengo no Ayumi", "Ayumi 10 Years Later", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "ゲームスタート～ピッタリ賞", "Gēmu Sutāto ~ Pittari Shō", "Game Start ~ Exact Prize", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "陽気な仲間", "Yōki na Nakama", "Cheerful Friends", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"]
+        ]
+    },
+    {
+        id: "361", isFiller: false, title: "361: Teitan High School's Ghost Story (Part 1)",
+        appearances: ["Conan Edogawa", "Tomoaki Araide", "Sonoko Suzuki", "Ran Mouri", "Kazumi Tsukamoto", "Nakamichi", "Eisuke Aizawa", "Tashiro", "Hidaka", "Kogoro Mouri", "Jodie Starling", "Vermouth", "Shinichi Kudo", "Ai Haibara", "Gin", "Vodka"],
+        episodeDescription: "Sonoko, Ran, and Conan go to Teitan High School to investigate mysterious events supposedly caused by the grudge of a dead student named Hideaki Hosaka. Ran and Sonoko greet some friends and introduce Conan to them; the friends tease Conan and Ran by saying Shinichi and Conan rather alike. Conan then runs into the real Dr. Araide, who has returned. He informs Conan of that he had been hiding overseas with his family, and told him that Jodie told him to tell Conan everything. Ran asks Dr. Araide to help investigate the ghost story with them.",
+        japaneseTitle: "帝丹高校学校怪談REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Teitan Koukō Gakkou Kaidan)",
+        titleInOtherLanguages: [
+            ["Arabic", "طيف ثانوية تيتان", "Teitan High School’s Ghost"],
+            ["Catalan (Catalan dub)", "La història de fantasmes de l'Institut Teitan", "Teitan high school’s ghost stories"],
+            ["Catalan (Valencian dub)", "La història de fantasmes de l'institut Teitan", "Teitan high school’s ghost stories"],
+            ["Chinese (Simplified)", "帝丹高中校园怪谈", "Teitan high school's strange story"],
+            ["German", "Die Spukgeschichte der Teitan-Oberschule", "Teitan high School's ghost story"],
+            ["Italian", "Il fantasma del liceo Teitan", "Teitan High School's Ghost"],
+            ["Spanish (Castilian dub)", "La historia de terror del instituto Teitan", "Teitan high school's terror story"],
+            ["Thai", "เรื่องอาถรรพ์ของโรงเรียนเทตัน", "Teitan High School's Ghost Story"],
+            ["Vietnamese", "Bóng ma trường trung học Teitan", ""]
+        ],
+        season: "13",
+        originalAirdate: "May 24, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMay 31, 2004 (Part 2)",
+
+        broadcastRating: "14%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.1%",
+
+
+        mangaCase: "#132",
+        mangaSource: "Volume 44: File 11 (457) ~REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHVolume 45: File 2 (459)",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Desk (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHUmbrella (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "Hideaki Oba",
+        animationDirector: "361 Katsunori EnomotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH362 Atsushi Aono",
+
+        storyboard: "Hideaki Oba",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Hideyuki Hori as Tomoaki Araide Megumi Hayashibara as Ai Haibara Miyuki Ichijou as Jodie Starling Hōko Kuwashima as Kazumi Tsukamoto Ken Narita as Masao Monobe Tomokazu Seki as Eisuke Aizawa Takumi Yamazaki as Nakamichi Yukana as Tashiro Rikako Aikawa as Hidaka Kōji Yada as Principal Shōtarō Morikubo as Kunishige Seko",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« A Mysterious Spring Beetle",
+        nextCase: "The City Crows »",
+        resolution: "Conan, using Sonoko, solves the case and reveals the culprit was KUNISHIGE SEKO, a close friend to the dead student Hideaki Hosaka. Kunishige reveals that he found his friend's desk in the storage room with a name on it, thinking he was bullied and then murdered. Masao Monobe reveals the true story of events, Hosaka died saving him from falling backwards down the stairs while holding a heavy sculpture. The sculpture crushed Hosaka. Kazumi Tsukamoto explains that Hosaka's desk was put in the storage room so that it could be brought out for graduation in memory of Hosaka and was not to hide evidence. Dr. Araide, who was the first doctor on the scene, concocts a white lie about Hosaka's last words to say held no grudges when he died in order to soothe the third years. After the case, Dr. Araide receives a call from Jodie who is checking on his reintegration into Teitan High. Dr. Araide says it went smoothly but asks Jodie if Vermouth was really an evil person because all the students and teachers had nothing but praise for the disguised Vermouth's kindness and compassion. Jodie angrily hangs up on Araide after yelling, 'How in the world can someone be kind if she kills people with a smile!?'",
+        mangaToAnimeChanges: [
+            "The anime adds the scene in the beginning where Ran had a nightmare about seeing a ghost at the school."
+        ],
+        trivia: [
+            "While The Seven Mysteries of Teitan Elementary School Case took place primarily in Teitan Elementary School, this case takes place primarily in Teitan High School.",
+            "This case is the first real appearance of Tomoaki Araide, since his first appearance in The Blind Spot in the Darkness, when he was most likely already replaced by Vermouth in his second appearance in The Desperate Revival.",
+            "It is most likely safe for Dr. Araide to return to Teitan High School, and to his clinic, since Vermouth is no longer pretending to be him since she was outed in Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night.",
+            "The trial from Dr. Araide's case in The Blind Spot in the Darkness had taken place already off-screen, since Ran and Sonoko heard that after the trial he was to go somewhere else. They are both surprised to see him at school, while Conan is shock, as he remembered Vermouth disguising as him, and wondered if she is nearby.",
+            "The English dub debuted on Adult Swim on the same day the first part of this case aired in Japan."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "いよいよゲームステージへ", "Iyoiyo Gēmu Sutēji e", "To the Game Stage At Last", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "迷路", "Meiro", "Labyrinth", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "オセンチな歩美", "Osenchina Ayumi", "Sentimental Ayumi", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "いよいよゲームステージへ", "Iyoiyo Gēmu Sutēji e", "To the Game Stage At Last", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "いよいよゲームステージへ", "Iyoiyo Gēmu Sutēji e", "To the Game Stage At Last", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "迫りくる悪", "Semari Kuru Aku", "Imminent Evil", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "(Unreleased BGM 1)", "", "", ""],
+            ["00:00", "ノアズ・アーク悪のテーマ", "Noazu・Āku Aku no Tēma", "Noah's Ark Evil Theme", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "迫りくる悪", "Semari Kuru Aku", "Imminent Evil", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "ジャック・ザ・リッパーの考察", "Jakku・Za・Rippā no Kōsatsu", "Jack the Ripper's Consideration", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "362", isFiller: false, title: "362: Teitan High School's Ghost Story (Part 2)",
+        appearances: ["Conan Edogawa", "Tomoaki Araide", "Sonoko Suzuki", "Ran Mouri", "Kazumi Tsukamoto", "Nakamichi", "Eisuke Aizawa", "Tashiro", "Hidaka", "Kogoro Mouri", "Jodie Starling", "Vermouth", "Shinichi Kudo", "Ai Haibara", "Gin", "Vodka"],
+        episodeDescription: "Sonoko, Ran, and Conan go to Teitan High School to investigate mysterious events supposedly caused by the grudge of a dead student named Hideaki Hosaka. Ran and Sonoko greet some friends and introduce Conan to them; the friends tease Conan and Ran by saying Shinichi and Conan rather alike. Conan then runs into the real Dr. Araide, who has returned. He informs Conan of that he had been hiding overseas with his family, and told him that Jodie told him to tell Conan everything. Ran asks Dr. Araide to help investigate the ghost story with them.",
+        japaneseTitle: "帝丹高校学校怪談REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Teitan Koukō Gakkou Kaidan)",
+        titleInOtherLanguages: [
+            ["Arabic", "طيف ثانوية تيتان", "Teitan High School’s Ghost"],
+            ["Catalan (Catalan dub)", "La història de fantasmes de l'Institut Teitan", "Teitan high school’s ghost stories"],
+            ["Catalan (Valencian dub)", "La història de fantasmes de l'institut Teitan", "Teitan high school’s ghost stories"],
+            ["Chinese (Simplified)", "帝丹高中校园怪谈", "Teitan high school's strange story"],
+            ["German", "Die Spukgeschichte der Teitan-Oberschule", "Teitan high School's ghost story"],
+            ["Italian", "Il fantasma del liceo Teitan", "Teitan High School's Ghost"],
+            ["Spanish (Castilian dub)", "La historia de terror del instituto Teitan", "Teitan high school's terror story"],
+            ["Thai", "เรื่องอาถรรพ์ของโรงเรียนเทตัน", "Teitan High School's Ghost Story"],
+            ["Vietnamese", "Bóng ma trường trung học Teitan", ""]
+        ],
+        season: "13",
+        originalAirdate: "May 24, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMay 31, 2004 (Part 2)",
+
+        broadcastRating: "14%REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH13.1%",
+
+
+        mangaCase: "#132",
+        mangaSource: "Volume 44: File 11 (457) ~REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHVolume 45: File 2 (459)",
+
+
+        caseSolvedBy: "Sonoko Suzuki (via Conan)",
+        nextConansHint: "Desk (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHUmbrella (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "Hideaki Oba",
+        animationDirector: "361 Katsunori EnomotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH362 Atsushi Aono",
+
+        storyboard: "Hideaki Oba",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Hideyuki Hori as Tomoaki Araide Megumi Hayashibara as Ai Haibara Miyuki Ichijou as Jodie Starling Hōko Kuwashima as Kazumi Tsukamoto Ken Narita as Masao Monobe Tomokazu Seki as Eisuke Aizawa Takumi Yamazaki as Nakamichi Yukana as Tashiro Rikako Aikawa as Hidaka Kōji Yada as Principal Shōtarō Morikubo as Kunishige Seko",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« A Mysterious Spring Beetle",
+        nextCase: "The City Crows »",
+        resolution: "Conan, using Sonoko, solves the case and reveals the culprit was KUNISHIGE SEKO, a close friend to the dead student Hideaki Hosaka. Kunishige reveals that he found his friend's desk in the storage room with a name on it, thinking he was bullied and then murdered. Masao Monobe reveals the true story of events, Hosaka died saving him from falling backwards down the stairs while holding a heavy sculpture. The sculpture crushed Hosaka. Kazumi Tsukamoto explains that Hosaka's desk was put in the storage room so that it could be brought out for graduation in memory of Hosaka and was not to hide evidence. Dr. Araide, who was the first doctor on the scene, concocts a white lie about Hosaka's last words to say held no grudges when he died in order to soothe the third years. After the case, Dr. Araide receives a call from Jodie who is checking on his reintegration into Teitan High. Dr. Araide says it went smoothly but asks Jodie if Vermouth was really an evil person because all the students and teachers had nothing but praise for the disguised Vermouth's kindness and compassion. Jodie angrily hangs up on Araide after yelling, 'How in the world can someone be kind if she kills people with a smile!?'",
+        mangaToAnimeChanges: [
+            "The anime adds the scene in the beginning where Ran had a nightmare about seeing a ghost at the school."
+        ],
+        trivia: [
+            "While The Seven Mysteries of Teitan Elementary School Case took place primarily in Teitan Elementary School, this case takes place primarily in Teitan High School.",
+            "This case is the first real appearance of Tomoaki Araide, since his first appearance in The Blind Spot in the Darkness, when he was most likely already replaced by Vermouth in his second appearance in The Desperate Revival.",
+            "It is most likely safe for Dr. Araide to return to Teitan High School, and to his clinic, since Vermouth is no longer pretending to be him since she was outed in Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night.",
+            "The trial from Dr. Araide's case in The Blind Spot in the Darkness had taken place already off-screen, since Ran and Sonoko heard that after the trial he was to go somewhere else. They are both surprised to see him at school, while Conan is shock, as he remembered Vermouth disguising as him, and wondered if she is nearby.",
+            "The English dub debuted on Adult Swim on the same day the first part of this case aired in Japan."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト", "Hannin no Ajito", "The Culprit's Hideout", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "夜の探索 （未収録ヴァージョン）", "Yoru no Tansaku (Mi Shūroku Vājon)", "Night Search (Unreleased Version)", ""],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "迷路", "Meiro", "Labyrinth", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "とっておきクイズ", "Totte Oki Kuizu", "Take the Quiz", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "キーワードの謎解き", "Kiiwādo no Nazotoki", "Keyword to the Riddle Solution", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "殺意", "Satsui", "Murderous Intent", "Detective Conan 'The Fourteenth Target' Original Soundtrack"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "コナン組曲－Captured In Her Eyes", "Konan Kumikyoku - Captured in Her Eyes", "Conan Suite - Captured in Her Eyes", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "蘭・愛のテーマ （ギターver.）", "Ran・Ai no Tēma (Gitā ver.)", "Ran's Love Theme (Guitar Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "コナンの勝利 （夜空ver.）", "Konan no Shōri (Yozora ver.)", "Conan's Victory (Night Sky Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "古城の探索", "Kojō no Tansaku", "Exploration of the Old Castle", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"]
+        ]
+    },
+    {
+        id: "363", isFiller: true, title: "363: The City Crows",
+        appearances: ["Conan Edogawa", "Detective Boys", "Kazunobu Chiba", "Detective Terashima"],
+        episodeDescription: "An old lady is found dead after a pot falls on her from the top of a building where she lived alone.",
+        japaneseTitle: "都会のカラスREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Tokai no Karasu)",
+        titleInOtherLanguages: [
+            ["Arabic", "غربان المدينة", "The City Crows"],
+            ["Catalan (Catalan dub)", "Els corbs de la ciutat", "The city crows"],
+            ["Catalan (Valencian dub)", "Els corbs de la ciutat", "The city crows"],
+            ["German", "Großstadtkrähen", "Crows from the big city"],
+            ["Italian", "La nonna dei corvi", "The Grandma Crow"],
+            ["Spanish (Castilian dub)", "Los cuervos urbanos", "The urban crows"],
+            ["Thai", "อีกาในเมืองหลวง", "Crows in the capital city"],
+            ["Vietnamese", "Những con quạ trong thành phố", ""]
+        ],
+        season: "13",
+        originalAirdate: "June 7, 2004",
+
+        broadcastRating: "11.5",
+
+        fillerCase: "#115",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Conan Edogawa",
+        nextConansHint: "Lottery ticket",
+        director: "Masato Sato",
+        episodeDirector: "Roko Ogiwara",
+        animationDirector: "Akira Watanabe",
+        screenplay: "Nobuo Ogizawa",
+        storyboard: "Yuzo Aoki",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba Kōichi Tōchika as Detective Terashima Takeharu Onishi as Resident Yoshiaki Takagi as Worker Keiko Yamamoto as Tatsue Egami Ginka Sakura as Housewife Miho Kashiwao as Housewife Misuzu Sasaki as Housewife Nozomu Sasaki as Noriko's lover Junko Iwao as Noriko Imai",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« Teitan High School's Ghost Story",
+        nextCase: "The Synchronicity Case »",
+        resolution: "They then confronted NORIKO IMAI, where Conan says Egami was not killed by the flower pot on accident but it was only her who could that since she is the only one living above the victim. She fished Egami's flower pot up, then she dropped the fishing line down to the floor, circled the string behind the broken refrigerator and taped the lottery ticket to it. Finally, putting the lottery ticket on the front step, she waited for Tatsue to return. When Tatsue tried to pick up the lottery ticket, she pulled the line, that way, she can position her at exactly where she was needed. However, she couldn't aim for Tatsue's head, since the refrigerator was to big and it probably blocked her view of her. After dropping the pot, she pulled the lottery ticket back to complete the trick, where she then put the 500 yen coin there before hand to explain the strange position of Tatsue. To incriminate her, Conan saw strange marks under the refrigerator when the garbage-men collected it, along with a torn piece of the lottery ticket that ripped when she was pulling it back up. Imai confesses where she reveals that Tatsue Egami humiliated her in her own shop by bringing a letter that she picked up. This letter was actually the ripped break-up letter (divorce certificate) that her boyfriend wrote to her. RIPPED BREAK-UP (PAST) Location: Pastry shop Victim: Noriko Imai Culprit: Tatsue Egami The 'Grandma Crow' is made the broken heart of Noriko's boyfriend from divorce certificate. Tatsue Egami had found the letter which was ripped up and in pieces from the garbage can where she then proceeded to repair it in order to humiliate Noriko in her shop, while Noriko herself was trying to forget the sorrowful memory. With Ayumi's persuasion, she turns herself in.",
+
+        trivia: [
+            "The lottery ticket is 363, as this episode.",
+            "The pastry shop at Beika Station reappears in The Synchronicity Case and Running Away in a Game."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "哀のサスペンス～ジンのテーマＢ", "Ai no Sasupensu ~ Jin no Tēma B", "Ai's Suspense ~ Gin's Theme B", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "犯人現わる！", "Hannin Arawaru!", "The Culprit is Revealed!", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "迷路", "Meiro", "Labyrinth", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "カギを探せ！", "Kagi o Sagase!", "Search for the Key!", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "「何だこの痕跡は？」", "'Nanda Kono Konseki wa?'", "'What Is This a Trace Of?'", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "オセンチな歩美 （未収録ヴァージョン）", "Osenchina Ayumi (Mi Shūroku Vājon)", "Sentimental Ayumi (Unreleased Version)", ""],
+            ["00:00", "小五郎の推理", "Kogorō no Suiri", "Kogoro's Deduction", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "哀のテーマＢ （ピアノ・ヴァージョン）", "Ai no Tēma B (Piano Vājon)", "Ai's Theme B (Piano Version)", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "哀のテーマＣ", "Ai no Tēma C", "Ai's Theme C", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "364", isFiller: true, title: "364: The Synchronicity Case (Part 1)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+        episodeDescription: "Kogoro goes undercover at Beika Sports Center: stalking a man named Shoichiro Hitomi who is negotiating with a rich man by the swimming pool. After the negotiation failed, the man enters the sport club's restroom while Kogoro receives a call from Ran and Conan. The two informs him that since he won't be back for the lunch, they decide to go and have 'cheap and unlimited buffet' by themselves at Viking which causes Kogoro's stomach to growl. At the same time, the target exits the restroom with a serious expression, worrying Kogoro. He follows Mr. Hitomi to Beika Hotel and witnesses him calling someone with a payphone. However, he runs into Ran and Conan who informs him that they are having lunch at the hotel. The three spy on Mr.Hitomi who repeatedly glances at the reception when a young woman asks the employee if he has a package from a man named Manabu Anzai. Later, as Ran and Conan are eating in the restaurant, they witness Mr.Hitomi falling off the building.",
+        japaneseTitle: "シンクロにシティ事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Shinkuronishiti Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "قضية المصادفة", ""],
+            ["Catalan (Catalan dub)", "Un cas de sincronicitat", "A synchronicity case"],
+            ["Catalan (Valencian dub)", "Un cas de sincronicitat", "A synchronicity case"],
+            ["German", "Der Synchronizitäts-Fall", "The synchronicity case"],
+            ["Italian", "Coincidenze", "Coincidences"],
+            ["Spanish (Castilian dub)", "Un caso de sincronía", "A synchronicity case"],
+            ["Thai", "คดีซิงโครนิซิตี้", "The synchronicity case"],
+            ["Vietnamese", "Vụ án đồng phương tương tính", "A synchronicity case"]
+        ],
+        season: "13",
+        originalAirdate: "June 14, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJune 21, 2004 (Part 2)",
+
+        broadcastRating: "13.1%14%",
+
+        fillerCase: "#116",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Twins (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKogoro's investigation (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "364 Minoru TozawaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH365 Yukio Okazaki",
+        animationDirector: "364 Rei MasunagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH365 Katsunori Enomoto",
+        screenplay: "Hiro Masaki",
+        storyboard: "Yuzo Aoki",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Hochu Otsuka as Shoichiro Hitomi and Takehiko Hitomi Yuriko Yamamoto as Kanako Hitomi Hideyuki Umezu as Yasuharu Endo Satsuki Yukino as Kaoru Minamizato Isshin Chiba as Announcer, Employee Naoki Makishima as Officer Tetsu Inada as Receptionist Hiromi Ishikawa as Woman Takeshi Kusao as Manabu Anzai",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« The City Crows",
+        nextCase: "The Tragedy of the Pier in Plain Sight »",
+        resolution: "The murder of Takehiko was committed by MANABU ANZAI, whose real name is later revealed to be CHIEZO NEGURA in a newspaper, who coerced Shoichiro into an exchange murder. The plan was for Shoichiro to call Kanako's outside to create an alibi for himself after he murdered Minamizato, while Anzai used Takehiko's house key received from Shoichiro to enter the house and kill him. Afterwards, he broke the window in the study to conceal the crime as a robbery. However, Shoichiro relented and failed in his part which forced him to carry out the act himself. His motive is to silence Minamizato before his gold digger history is exposed.",
+
+        trivia: [
+            "Manabu Anzai car driving with lady is a Red 2000 Ford Mustang Cobra GT [SN95] convertible.",
+            "The pastry shop at Beika Station from The City Crows reappears in the first part.",
+            "The idea of murder exchange is based on the movie Strangers on a Train, which is a 1951 American psychological thriller film noir. The story concerns two strangers who meet on a train, a young tennis player and a charming psychopath. The psychopath suggests that because they each want to 'get rid' of someone, they should 'exchange' murders, and that way neither will be caught. The psychopath commits the first murder, then tries to force the tennis player to complete the bargain."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート２）", "Aku no Tēma (Pāto 2)", "Theme of Evil (Part 2)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （不気味ver.）", "Suiri (Bukimi ver.)", "Deduction (Ominous Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "犯人のアジト （忍び込みver.）", "Hannin no Ajito (Shinobikomi ver.)", "The Culprit's Hideout (Creeping In Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "赤い光のスナイパー２", "Akai Hikari no Sunaipā 2", "The Sniper's Red Light 2", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "忍び寄る影", "Shinobiyoru Kage", "Creeping Shadow", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "モリアーティ教授の元へ", "Moriāti Kyōju no Moto e", "The Return of Professor Moriarty", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "迫りくる悪", "Semari Kuru Aku", "Imminent Evil", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "優作の推理", "Yūsaku no Suiri", "Yusaku's Deduction", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "ノアズ・アーク悪のテーマ", "Noazu・Āku Aku no Tēma", "Noah's Ark Evil Theme", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "ジャック・ザ・リッパーの考察", "Jakku・Za・Rippā no Kōsatsu", "Jack the Ripper's Consideration", "Detective Conan 'The Phantom of Baker Street' Original Soundtrack"],
+            ["00:00", "尋問", "Jinmon", "Interrogation", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "事件現場 （オリジナルver.）", "Jiken Genba (Orijinaru ver.)", "Scene of the Case (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "古城のテーマ", "Kojō no Tēma", "The Old Castle's Theme", "Detective Conan 'The Last Wizard of the Century' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"]
+        ]
+    },
+    {
+        id: "365", isFiller: true, title: "365: The Synchronicity Case (Part 2)",
+        appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+        episodeDescription: "Kogoro goes undercover at Beika Sports Center: stalking a man named Shoichiro Hitomi who is negotiating with a rich man by the swimming pool. After the negotiation failed, the man enters the sport club's restroom while Kogoro receives a call from Ran and Conan. The two informs him that since he won't be back for the lunch, they decide to go and have 'cheap and unlimited buffet' by themselves at Viking which causes Kogoro's stomach to growl. At the same time, the target exits the restroom with a serious expression, worrying Kogoro. He follows Mr. Hitomi to Beika Hotel and witnesses him calling someone with a payphone. However, he runs into Ran and Conan who informs him that they are having lunch at the hotel. The three spy on Mr.Hitomi who repeatedly glances at the reception when a young woman asks the employee if he has a package from a man named Manabu Anzai. Later, as Ran and Conan are eating in the restaurant, they witness Mr.Hitomi falling off the building.",
+        japaneseTitle: "シンクロにシティ事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Shinkuronishiti Jiken)",
+        titleInOtherLanguages: [
+            ["Arabic", "قضية المصادفة", ""],
+            ["Catalan (Catalan dub)", "Un cas de sincronicitat", "A synchronicity case"],
+            ["Catalan (Valencian dub)", "Un cas de sincronicitat", "A synchronicity case"],
+            ["German", "Der Synchronizitäts-Fall", "The synchronicity case"],
+            ["Italian", "Coincidenze", "Coincidences"],
+            ["Spanish (Castilian dub)", "Un caso de sincronía", "A synchronicity case"],
+            ["Thai", "คดีซิงโครนิซิตี้", "The synchronicity case"],
+            ["Vietnamese", "Vụ án đồng phương tương tính", "A synchronicity case"]
+        ],
+        season: "13",
+        originalAirdate: "June 14, 2004 (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJune 21, 2004 (Part 2)",
+
+        broadcastRating: "13.1%14%",
+
+        fillerCase: "#116",
+
+        mangaSource: "TV Original",
+
+
+        caseSolvedBy: "Kogoro Mouri (via Conan)",
+        nextConansHint: "Twins (Part 1)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKogoro's investigation (Part 2)",
+        director: "Masato Sato",
+        episodeDirector: "364 Minoru TozawaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH365 Yukio Okazaki",
+        animationDirector: "364 Rei MasunagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH365 Katsunori Enomoto",
+        screenplay: "Hiro Masaki",
+        storyboard: "Yuzo Aoki",
+        characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
+        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Hochu Otsuka as Shoichiro Hitomi and Takehiko Hitomi Yuriko Yamamoto as Kanako Hitomi Hideyuki Umezu as Yasuharu Endo Satsuki Yukino as Kaoru Minamizato Isshin Chiba as Announcer, Employee Naoki Makishima as Officer Tetsu Inada as Receptionist Hiromi Ishikawa as Woman Takeshi Kusao as Manabu Anzai",
+        openingSong: "START",
+        endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
+        prevCase: "« The City Crows",
+        nextCase: "The Tragedy of the Pier in Plain Sight »",
+        resolution: "The murder of Takehiko was committed by MANABU ANZAI, whose real name is later revealed to be CHIEZO NEGURA in a newspaper, who coerced Shoichiro into an exchange murder. The plan was for Shoichiro to call Kanako's outside to create an alibi for himself after he murdered Minamizato, while Anzai used Takehiko's house key received from Shoichiro to enter the house and kill him. Afterwards, he broke the window in the study to conceal the crime as a robbery. However, Shoichiro relented and failed in his part which forced him to carry out the act himself. His motive is to silence Minamizato before his gold digger history is exposed.",
+
+        trivia: [
+            "Manabu Anzai car driving with lady is a Red 2000 Ford Mustang Cobra GT [SN95] convertible.",
+            "The pastry shop at Beika Station from The City Crows reappears in the first part.",
+            "The idea of murder exchange is based on the movie Strangers on a Train, which is a 1951 American psychological thriller film noir. The story concerns two strangers who meet on a train, a young tennis player and a charming psychopath. The psychopath suggests that because they each want to 'get rid' of someone, they should 'exchange' murders, and that way neither will be caught. The psychopath commits the first murder, then tries to force the tennis player to complete the bargain."
+        ],
+        BGM: [
+            ["00:00", "START", "START", "START", "START"],
+            ["00:00", "謎解き （その２）", "Nazotoki (Sono 2)", "Riddle Solution (Part 2)", "Detective Conan Original Soundtrack 3"],
+            ["00:00", "哀のサスペンス～ジンのテーマＢ", "Ai no Sasupensu ~ Jin no Tēma B", "Ai's Suspense ~ Gin's Theme B", "Detective Conan 'Countdown to Heaven' Original Soundtrack"],
+            ["00:00", "記憶喪失（影）", "Kiokusōshitsu (Kage)", "Amnesia (Shadow)", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "驚愕の真実", "Kyōgaku no Shinjitsu", "Surprising Truth", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "犯人（スナイパー）の正体", "Hannin (Sunaipā) no Shōtai", "The Culprit's (Sniper's) Identity", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "推理 （オリジナルver.）", "Suiri (Orijinaru ver.)", "Deduction (Original Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "迷路", "Meiro", "Labyrinth", "Detective Conan Original Soundtrack 4 ~Isoge! Shōnen Tanteidan~"],
+            ["00:00", "緊迫", "Kinpaku", "Tension", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "事件現場 （ショートver.）", "Jiken Genba (Shōto ver.)", "Scene of the Case (Short Version)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "悪のテーマ （パート１）", "Aku no Tēma (Pāto 1)", "Theme of Evil (Part 1)", "Detective Conan Original Soundtrack 2"],
+            ["00:00", "沈む夕陽", "Shizumu Yūhi", "Depressing Sunset", "Detective Conan Original Soundtrack 1"],
+            ["00:00", "漆黒の殺意", "Shikkoku no Satsui", "Jet Black Murderous Intent", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "暗殺者のテーマ─忍び寄る魔手", "Ansatsusha no Tēma - Shinobiyoru Mashu", "Assassin's Theme - The Devil's Hand Approaches", "Detective Conan 'Captured in Her Eyes' Original Soundtrack"],
+            ["00:00", "眠る君の横顔に微笑みを", "Nemuru Kimi no Yokogao ni Hohoemi o", "The Feeling When I See Your Smile While Sleeping", "Nemuru Kimi no Yokogao ni Hohoemi o"],
+            ["00:00", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "Detective Conan Original Soundtrack 1"]
         ]
     },
 ];

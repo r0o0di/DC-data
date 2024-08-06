@@ -63,10 +63,10 @@
                     // Replace numbers with "00:00" for the timestamp
                     var timestamp = tdElements[0].innerText.trim();
                     timestamp = /^\d+$/.test(timestamp) ? "00:00" : timestamp;
-                    var jpnTitle = tdElements[1].innerText.trim();
-                    var rmjTitle = tdElements[2].innerText.trim();
-                    var enTitle = tdElements[3].innerText.trim();
-                    var ost = tdElements[4].innerText.trim();
+                    var jpnTitle = tdElements[1].innerText.trim().replace(/"/gi, "'");
+                    var rmjTitle = tdElements[2].innerText.trim().replace(/"/gi, "'");
+                    var enTitle = tdElements[3].innerText.trim().replace(/"/gi, "'");
+                    var ost = tdElements[4].innerText.trim().replace(/"/gi, "'");
 
                     // Add the filtered data to the result
                     filteredData.data.push([timestamp, jpnTitle, rmjTitle, enTitle, ost]);

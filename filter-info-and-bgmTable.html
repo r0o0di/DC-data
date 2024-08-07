@@ -69,6 +69,7 @@
                 id: episodeId,
                 isFiller: fillerCheckbox,
                 cast: [],
+                people: [],
                 resolution: "",
                 mangaToAnimeChanges: [],
                 trivia: [],
@@ -166,6 +167,46 @@
             });
 
 
+
+
+            // PEOPLE
+            function extractPeopleData(tempDiv) {
+                // Find the parent element of the span with id "People"
+                const peopleParent = tempDiv.querySelector('#People').parentElement;
+                // Get the next element, which is the div containing the people list
+                const peopleListDiv = peopleParent.nextElementSibling;
+
+                // Extract people data
+                const people = [];
+                const personListItems = peopleListDiv.querySelectorAll('li');
+
+                personListItems.forEach(personItem => {
+                    const person = {};
+                    const names = personItem.querySelectorAll('th');
+                    names.forEach(name => {
+                        person.name = name.textContent.trim().replace(/\n/gi, "");
+                    })
+                    // Extract info
+                    const infoList = personItem.querySelector('tr:last-child td:last-child ul');
+                    const info = [];
+                    if (infoList) {
+                        infoList.querySelectorAll('li').forEach(infoItem => {
+                            info.push(infoItem.textContent?.trim() || '');
+                        });
+                    }
+                    person.info = info;
+                    people.push(person);
+                });
+                const filteredPeople = people.filter(person => person.hasOwnProperty('name'));
+                result.people = filteredPeople;
+                return filteredPeople;
+            }
+            console.log(extractPeopleData(tempDiv));
+            // extractPeopleData(tempDiv)
+
+
+
+
             // RESOLUTION
             const getTextFromElement = (elementId) => {
                 // Select the element by ID
@@ -182,12 +223,14 @@
                 boldElements.forEach(boldElement => {
                     boldElement.innerText = boldElement.innerText.toUpperCase();
                 });
-                
+
                 // Get and return the text content of the element and its children
                 return element.innerText.trim()
                     .replace("Summary\n\n", "Summary: ")
                     .replace("Evidence\n", "Evidence: ")
                     .replace("Conclusion\n", "Conclusion: ")
+                    .replace("The only suspect\n", "The only suspect: ")
+                    .replace("The dying messages' meaning\n", "The dying messages' meaning: ")
                     .replace("Motive\n", "Motive: ")
                     .replace(/\n\n/gi, "\n")
                     .replace(/\nAftermath/, " The Aftermath:")
@@ -293,7 +336,7 @@
             let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n`;
 
             for (const [key, value] of Object.entries(result)) {
-                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
+                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "people" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
                     formattedOutput += ` ${formatPropertyName(key)} "${formatPropertyValue(value)}",\n`;
                 } else if (key === "cast") {
 
@@ -329,6 +372,14 @@
             }
 
             formattedOutput += '  ],\n';
+
+            formattedOutput += ' people: [\n';
+            for (var i = 0; i < result.people.length; i++) {
+                const person = result.people[i];
+                formattedOutput += `    { name: "${person.name}", info: ["${person.info.join('", "')}"] },\n`;
+            }
+            formattedOutput += '  ],\n';
+
 
             if (result.BGM.length > 0) {
                 formattedOutput += ` BGM: [\n`;

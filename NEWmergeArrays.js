@@ -186,11 +186,16 @@ const mergeArrays = (episodes, episodesData) => {
         const endingSong = item.hasOwnProperty('closingSong') ? `endingSong: "${item.closingSong}", ` : '';
         const prevCase = item.hasOwnProperty('prevCase') ? `prevCase: "${item.prevCase}", ` : '';
         const nextCase = item.hasOwnProperty('nextCase') ? `nextCase: "${item.nextCase}", ` : '';
+        const people = item.hasOwnProperty('people') ? `people: ${formatPeople(item.people)}, ` : '';
         const resolution = item.hasOwnProperty('resolution') ? `resolution: "${item.resolution}", ` : '';
         const mangaToAnimeChanges = item.hasOwnProperty('mangaToAnimeChanges') ? `mangaToAnimeChanges: [<br>${formattedMangaToAnimeChanges}],` : '';
         const trivia = item.hasOwnProperty('trivia') ? `trivia: [<br>${formattedTrivia}],` : '';
         const BGM = item.hasOwnProperty('BGM') ? `BGM: [<br>${formattedBGM}]<br> ` : '';
-
+        // console.log(`people: ${JSON.stringify(item.people)}, `)
+        function formatPeople(peopleArray) {
+            const jsonString = JSON.stringify(peopleArray, null); // Indent by 2 spaces
+            return jsonString.replace(/\{/, '<br>{').replace(/\},/g, '},<br>').replace(/"name"/gi, "name").replace(/"info"/gi, "info");
+          }
         return `<div> 
         { <br>
             ${id}
@@ -223,6 +228,7 @@ const mergeArrays = (episodes, episodesData) => {
             ${endingSong}<br>
             ${prevCase}<br>
             ${nextCase}<br>
+            ${people}<br>
             ${resolution}<br>
             ${mangaToAnimeChanges}<br>
             ${trivia}<br>

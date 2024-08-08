@@ -69,6 +69,8 @@
                 id: episodeId,
                 isFiller: fillerCheckbox,
                 cast: [],
+                characters: [],
+                gadgets: [],
                 people: [],
                 resolution: "",
                 mangaToAnimeChanges: [],
@@ -169,8 +171,35 @@
 
 
 
+            // CHARACTERS
+            // Find the parent element of the span with id "People"
+            const charactersParent = tempDiv.querySelector('#Cast').parentElement;
+            // Get the next element, which is the div containing the characters list
+            const charactersListDiv = charactersParent.nextElementSibling;
+            const characters =  charactersListDiv.querySelectorAll(".thumbcaption");
+            characters.forEach(character => {
+                console.log(character.textContent)
+                result.characters.push(`"${character.textContent}"`);
+            });
+            
+
+            
+            
+            // GADGETS
+            const gadgetsParent = tempDiv.querySelector('#Gadgets').parentElement;
+            // Get the next element, which is the div containing the gadgets list
+            const gadgetsListDiv = gadgetsParent.nextElementSibling;
+            const gadgets =  gadgetsListDiv.querySelectorAll(".thumbcaption");
+            gadgets.forEach(gadget => {
+                console.log(gadget.textContent)
+                result.gadgets.push(`"${gadget.textContent}"`);
+            });
+
+
+
+
+
             // PEOPLE
-            function extractPeopleData(tempDiv) {
                 // Find the parent element of the span with id "People"
                 const peopleParent = tempDiv.querySelector('#People').parentElement;
                 // Get the next element, which is the div containing the people list
@@ -199,10 +228,7 @@
                 });
                 const filteredPeople = people.filter(person => person.hasOwnProperty('name'));
                 result.people = filteredPeople;
-                return filteredPeople;
-            }
-            console.log(extractPeopleData(tempDiv));
-            // extractPeopleData(tempDiv)
+           
 
 
 
@@ -336,7 +362,7 @@
             let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n`;
 
             for (const [key, value] of Object.entries(result)) {
-                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "people" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
+                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "characters" && key !== "gadgets" && key !== "people" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
                     formattedOutput += ` ${formatPropertyName(key)} "${formatPropertyValue(value)}",\n`;
                 } else if (key === "cast") {
 
@@ -346,6 +372,8 @@
 
             }
 
+            formattedOutput += ` characters: [${result.characters}],\n`;
+            formattedOutput += ` gadgets: [${result.gadgets}],\n`;
             formattedOutput += ` resolution: "${result.resolution}",\n`;
 
             if (result.mangaToAnimeChanges.length > 0) {

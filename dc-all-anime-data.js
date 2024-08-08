@@ -3,6 +3,9 @@ const allData = [
     {
         id: "1", isFiller: false, title: "1: Roller Coaster Murder Case",
         appearances: ["Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Gin", "Vodka", "Detective Boys", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "The episode starts in a mansion where a party has been interrupted by a murder: one of the guests, President Yamazaki of Yatsubishi Bank, was found dead with a bullet in his heart. The police, led by Inspector Megure, have been investigating the crime scene, but have no conclusive evidence as to who the killer is. However, Shinichi makes his grand entrance and claims that he has figured out the case.",
         japaneseTitle: "ジェットコースター殺人事件. (Jetto Kōsutā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -46,12 +49,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima (Uncredited: Police officer, Security guard B, Next Conan's Hint) Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Takeshi Watabe as Mansion owner Yukitoshi Hori as Man in black A Fumihiko Tachiki as Man in black B Shinpachi Tsuji as CEO Yumi Hikita as Hitomi Mari Maruta as Aiko Naomi Nagasawa as Reiko Isshin Chiba as Kishida (Uncredited: Security guard A)",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima (Uncredited: Police officer, Security guard B, Next Conan's Hint)", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Takeshi Watabe as Mansion owner", "Yukitoshi Hori as Man in black A", "Fumihiko Tachiki as Man in black B", "Shinpachi Tsuji as CEO", "Yumi Hikita as Hitomi", "Mari Maruta as Aiko", "Naomi Nagasawa as Reiko", "Isshin Chiba as Kishida (Uncredited: Security guard A)"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
 
         nextCase: "Company President's Daughter Kidnapping Case »",
-
 
 
 
@@ -77,6 +79,9 @@ const allData = [
     {
         id: "2", isFiller: false, title: "2: Company President's Daughter Kidnapping Case",
         appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Hiroshi Agasa", "Gin", "Vodka", "Detective Boys", "Toya"],
+
+
+
         episodeDescription: "Shinichi realizes that the poison shrunk him, and after making it home, asks Professor Agasa for help. Agasa warns that to stay safely hidden from the men in black, Shinichi can tell no one else, even Ran - who coincidentally shows up, intending to check on Shinichi. Agasa convinces her to look after Shinichi, who tells her his name is Conan Edogawa. On the way to her house, Ran confides to Conan that she really likes Shinichi, but Conan's reply is interrupted by Ran's father rushing outside on the trail of a case. He brags that he's been hired to find a CEO's daughter, who was kidnapped by a 'man in black'. Conan sneaks along in case it is a lead, followed by Ran, who explains Conan's situation to Kogoro. Kogoro can't kick them out of a moving taxi, so simply orders them to stay out of the way.",
         japaneseTitle: "社長令嬢誘拐事件. (Shachō Reijō Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -117,12 +122,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Yuzuru Fujimoto as Tani Hochu Otsuka as Kidnapper Yukitoshi Hori as Man in black Kae Araki as Akiko Tani Hiroshi Naka as Aso Yoshiko Okamoto as Maid Isshin Chiba as Police officer A Wataru Takagi as Police officer B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Yuzuru Fujimoto as Tani", "Hochu Otsuka as Kidnapper", "Yukitoshi Hori as Man in black", "Kae Araki as Akiko Tani", "Hiroshi Naka as Aso", "Yoshiko Okamoto as Maid", "Isshin Chiba as Police officer A", "Wataru Takagi as Police officer B, Next Conan's Hint"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Roller Coaster Murder Case",
         nextCase: "An Idol's Locked Room Murder Case »",
-
 
 
 
@@ -156,6 +160,9 @@ const allData = [
     {
         id: "3", isFiller: false, title: "3: An Idol's Locked Room Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Hiroshi Agasa", "Gin", "Vodka", "Detective Boys", "Juzo Megure", "Eiichi Yamagishi", "Shinichi Kudo", "Officer Tome"],
+
+
+
         episodeDescription: "Conan declines to walk home from school with classmates Ayumi, Genta, and Mitsuhiko. He arrives at the Mouri Detective Agency to see that without work, Kogoro spent all day drinking beer and watching his favorite popstar, Yoko Okino, on TV. When a client arrives during one of her shows, Kogoro even tries to make them return later, until he realizes that the client is Yoko Okino herself, accompanied by her manager. Kogoro quickly makes himself presentable and hears her concerns about a recent stalker. He agrees to investigate at her apartment, and Ran and Conan tag along. Ayumi, Genta, and Mitsuhiko were watching the agency and also follow, so when the front door opens everyone sees the body on the floor inside.",
         japaneseTitle: "アイドル密室殺人事件. (Aidoru Misshitsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -196,12 +203,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Yuri Amano as Yoko Okino Asako Dodo as Yuko Ikezawa Kazuya Ichijo as Eiichi Yamagishi Hitoshi Horimoto as Forensics officer Isshin Chiba as Police officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida", "Yuri Amano as Yoko Okino", "Asako Dodo as Yuko Ikezawa", "Kazuya Ichijo as Eiichi Yamagishi", "Hitoshi Horimoto as Forensics officer", "Isshin Chiba as Police officer"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Company President's Daughter Kidnapping Case",
         nextCase: "The Coded Map of the City Case »",
-
 
 
 
@@ -232,6 +238,9 @@ const allData = [
     {
         id: "4", isFiller: false, title: "4: The Coded Map of the City Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "After visiting an exhibit on hidden treasures Conan and his friends find a piece of paper with symbols and the word 'Oro' written on it. A treasure hunt ensues but does not discover much. Conan, initially not interested in the children's treasure hunt finally realizes that the paper is a treasure map after learning that 'Oro' means gold in Italian. That night, Conan determines that the symbols refer to neon light signs on buildings.",
         japaneseTitle: "大都会暗号マップ事件. (Daitokai Angou Mappu Jiken)",
         titleInOtherLanguages: [
@@ -271,12 +280,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Masaharu Sato as Kawana Konami Yoshida as Reporter Isshin Chiba as Shop owner A Naoki Makishima as Shop owner B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Masaharu Sato as Kawana", "Konami Yoshida as Reporter", "Isshin Chiba as Shop owner A", "Naoki Makishima as Shop owner B"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« An Idol's Locked Room Murder Case",
         nextCase: "The Shinkansen's Bomb Case »",
-
 
 
 
@@ -308,6 +316,9 @@ const allData = [
     {
         id: "5", isFiller: false, title: "5: The Shinkansen's Bomb Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "A remastered version of this case was aired on December 3, 2016.",
         japaneseTitle: "新幹線大爆破事件. (Shinkansen Dai Bakuha Jiken)",
         titleInOtherLanguages: [
@@ -347,12 +358,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Kiyoyuki Yanada as Ueda Naoki Makishima as Shimoda Isshin Chiba as Conductor Sayuri as Woman Minoru Inaba as Man A Takumi Yamazaki as Man B Masa'aki Tsukada as Old man",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Kiyoyuki Yanada as Ueda", "Naoki Makishima as Shimoda", "Isshin Chiba as Conductor", "Sayuri as Woman", "Minoru Inaba as Man A", "Takumi Yamazaki as Man B", "Masa'aki Tsukada as Old man"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The Coded Map of the City Case",
         nextCase: "Valentine Murder Case »",
-
 
 
 
@@ -379,6 +389,9 @@ const allData = [
     {
         id: "6", isFiller: true, title: "6: Valentine Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Hiroshi Agasa", "Detective Boys", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Ran is invited to attend a Valentine's party by a young man and a jealous Conan follows her. During the party, Katsuhiko, the party host, is poisoned.",
         japaneseTitle: "バレンタイン殺人事件. (Barentain Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -418,12 +431,11 @@ const allData = [
         screenplay: "Toshiki Inoue",
         storyboard: "Shigeru Morikawa",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ryo Horikawa as Katsuhiko Minagawa Tomoyuki Dan as Toshihide Wakamatsu Nobuo Tobita as Naomichi Tanaka Sakiko Tamagawa as Yoshimi Watanabe Naoko Matsui as Sonoko Suzuki Kazue Ikura as Kaori Sekiya Chiyoko Kawashima as Sayuri Minagawa Chiaki Morita as Susumu Minagawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ryo Horikawa as Katsuhiko Minagawa", "Tomoyuki Dan as Toshihide Wakamatsu", "Nobuo Tobita as Naomichi Tanaka", "Sakiko Tamagawa as Yoshimi Watanabe", "Naoko Matsui as Sonoko Suzuki", "Kazue Ikura as Kaori Sekiya", "Chiyoko Kawashima as Sayuri Minagawa", "Chiaki Morita as Susumu Minagawa"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The Shinkansen's Bomb Case",
         nextCase: "Once-A-Month Present Threat Case »",
-
 
 
 
@@ -450,6 +462,9 @@ const allData = [
     {
         id: "7", isFiller: false, title: "7: Once-A-Month Present Threat Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Detective Boys", "Shinichi Kudo", "Gin", "Vodka", "Hitomi", "Reiko", "Yuko Ikezawa", "Jumbo", "Yaiba Kurogane", "Takeshi Onimaru"],
+
+
+
         episodeDescription: "For the past two years, surgeon Masayuki Ogawa has been receiving anonymous toys and money once a month. He asks Kogoro to determine who's the one sending the gifts. During the investigation, Ran begins to suspect that Conan is actually Shinichi.",
         japaneseTitle: "月いちプレゼント脅迫事件. (Tsukiichi Purezento Kyouhaku Jiken)",
         titleInOtherLanguages: [
@@ -488,12 +503,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Shin Aomori as Ogawa Mugihito as Ogino Kumiko Watanabe as Yuta Ogawa Yoshiko Okamoto as Mrs. Ogawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Shin Aomori as Ogawa", "Mugihito as Ogino", "Kumiko Watanabe as Yuta Ogawa", "Yoshiko Okamoto as Mrs. Ogawa"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Valentine Murder Case",
         nextCase: "Art Museum Owner Murder Case »",
-
 
 
 
@@ -518,6 +532,9 @@ const allData = [
     {
         id: "8", isFiller: false, title: "8: Art Museum Owner Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Detective Boys"],
+
+
+
         episodeDescription: "Two security guards at the Beika Art Museum see a medieval suit of armor moving on its own. Ran hears the rumor and wants to visit the museum; when Conan and Kogoro mock her for believing it might be true, she forces them to come along after her fearsome display of smashing Kogoro's deck with her fist. While admiring a painting, Ran meets Ochiai, the curator of the museum, who explains his love for the art and then berates a museum worker named Kubota for not handling a painting properly. Another worker, Iijima, takes over the job before they are interrupted by the museum's new owner, Manaka, arriving with an architect. The museum will be demolished soon to make a casino, despite the sale having hinged on the promise to keep the museum open. After Kubota accidentally drops a helmet, Manaka mentions his plans to sell all the museum pieces, which frustrates Kubota enough to throw it down after, but Conan notices that Ochiai doesn't lecture Kubota this time.",
         japaneseTitle: "美術館オーナー殺人事件. (Bijutsukan Ōnā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -556,12 +573,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Ryo Yasumura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Tamio Oki as Ochiai Yuji Fujishiro as Kubota Kazuya Ichijo as Iijima Hajime Koseki as Manaka Isshin Chiba as Guard A Takumi Yamazaki as Guard B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Tamio Oki as Ochiai", "Yuji Fujishiro as Kubota", "Kazuya Ichijo as Iijima", "Hajime Koseki as Manaka", "Isshin Chiba as Guard A", "Takumi Yamazaki as Guard B"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Once-A-Month Present Threat Case",
         nextCase: "Tenkaichi Night Festival Murder Case »",
-
 
 
 
@@ -588,6 +604,9 @@ const allData = [
     {
         id: "9", isFiller: false, title: "9: Tenkaichi Night Festival Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo"],
+
+
+
         episodeDescription: "During the night of the Tenkaichi Festival at the Okeyama Hotel, the author named Satoru Imatake is brushing his teeth in the bathroom and his friend named Norikazu Sasai is making a mess. When he checked what Sasai's doing, he's confused that Sasai dressed up weird and saw that the hotel room was a big mess. Sasai raises his gun to aim at Imatake's forehead and fired. He also took the rest of the money from his wallet.",
         japaneseTitle: "天下一夜祭殺人事件. (Tenkaichi Yomatsuri Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -626,12 +645,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Takeshi Aono as Norikazu Sasai Yu Shimaka as Satoru Imatake Kiyonobu Suzuki as Yamada Wataru Takagi as Middle aged man, Next Conan's Hint Isshin Chiba as Male announcer Konami Yoshida as Female announcer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Takeshi Aono as Norikazu Sasai", "Yu Shimaka as Satoru Imatake", "Kiyonobu Suzuki as Yamada", "Wataru Takagi as Middle aged man, Next Conan's Hint", "Isshin Chiba as Male announcer", "Konami Yoshida as Female announcer"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Art Museum Owner Murder Case",
         nextCase: "Pro Soccer Player Blackmail Case »",
-
 
 
 
@@ -656,6 +674,9 @@ const allData = [
     {
         id: "10", isFiller: false, title: "10: Pro Soccer Player Blackmail Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Hideo Akagi", "Naoki Uemura", "Takeshi Onimaru"],
+
+
+
         episodeDescription: "When Conan get to home, he find a student girl who looks hesitent in front of Mouri Detective Agency. He asks her to come inside the agency, seeing she want to take with Kogoro. The girl in question, named Ryoko Akagi, ask Kogoro to find a missing person.",
         japaneseTitle: "プロサッカー選手脅迫事件. (Puro Sakkā Senshu Kyōhaku Jiken)",
         titleInOtherLanguages: [
@@ -694,12 +715,11 @@ const allData = [
         screenplay: "Toshiki Inoue",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Akiko Hiramatsu as Ryoko Kazuki Yao as Naoki Uemura Koji Tsujitani as Hideo Akagi Mari Maruta as Mamoru Akagi Takumi Yamazaki as Announcer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Akiko Hiramatsu as Ryoko", "Kazuki Yao as Naoki Uemura", "Koji Tsujitani as Hideo Akagi", "Mari Maruta as Mamoru Akagi", "Takumi Yamazaki as Announcer"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Tenkaichi Night Festival Murder Case",
         nextCase: "Moonlight Sonata Murder Case »",
-
 
 
 
@@ -727,6 +747,9 @@ const allData = [
     {
         id: "11", isFiller: false, title: "11: Moonlight Sonata Murder Case (1 Hour Special)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Kogoro Mouri received a strange cut-and-paste letter from a client called Keiji Asoh asking him investigate something on Tsukikage Island, in the Izu coast, which is part of the Tokyo Division, according to Megure. He then found out that the man requesting for the investigation, Keiji Asoh, has been dead for twelve years. He was a world-renowned pianist who suddenly killed his family, set his house on fire, and played Beethoven's Moonlight Sonata as his house burnt around him.",
         japaneseTitle: "ピアノソナタ「月光」殺人事件. (Piano Sonata 'Gekkō' Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -766,12 +789,11 @@ const allData = [
 
         storyboard: "Kenji Kodama. Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Shozo Iizuka as Tatsuji Kuroiwa Shigezo Sasaoka as Hideo Kawashima Ikuya Sawaki as Masato Shimizu Atsushi Ii as Kazuaki Hirata Ai Orikasa as Narumi Asai Kei Hayami as Reiko Kuroiwa Hidetoshi Nakamura as Ken Nishimoto Masuo Amada as Shuichi Murasawa Yukimasa Natori as Manager Yasuhiro Takato as Clerk Yuichi Nagashima as Police officer Yukiko Iwai as Election car Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Shozo Iizuka as Tatsuji Kuroiwa", "Shigezo Sasaoka as Hideo Kawashima", "Ikuya Sawaki as Masato Shimizu", "Atsushi Ii as Kazuaki Hirata", "Ai Orikasa as Narumi Asai", "Kei Hayami as Reiko Kuroiwa", "Hidetoshi Nakamura as Ken Nishimoto", "Masuo Amada as Shuichi Murasawa", "Yukimasa Natori as Manager", "Yasuhiro Takato as Clerk", "Yuichi Nagashima as Police officer", "Yukiko Iwai as Election car", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Pro Soccer Player Blackmail Case",
         nextCase: "Ayumi-chan Kidnapping Case »",
-
 
 
 
@@ -800,6 +822,9 @@ const allData = [
     {
         id: "12", isFiller: false, title: "12: Ayumi-chan Kidnapping Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
+
+
+
         episodeDescription: "On June 27, 2009, a remastered version of the case was aired.",
         japaneseTitle: "歩美ちゃん誘拐事件. (Ayumi-chan Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -837,12 +862,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Masashi Hirose as Man A Ginzo Matsuo as Man B Konami Yoshida as Newscaster Takumi Yamazaki as Shopkeeper Kaoru Shimamura as Yotsubishi Gas clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Masashi Hirose as Man A", "Ginzo Matsuo as Man B", "Konami Yoshida as Newscaster", "Takumi Yamazaki as Shopkeeper", "Kaoru Shimamura as Yotsubishi Gas clerk"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Moonlight Sonata Murder Case",
         nextCase: "The Strange Person Hunt Murder Case »",
-
 
 
 
@@ -869,6 +893,9 @@ const allData = [
     {
         id: "13", isFiller: false, title: "13: The Strange Person Hunt Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Hiroshi Agasa", "Akemi Miyano"],
+
+
+
         episodeDescription: "A woman named Masami Hirota shows up at Kogoro's Detective Agency and asks him to find her father, Kenzo Hirota. She is reunited with her father when they located him in a horse racing track. The next day, Kenzo is found dead and Masami missing. Meanwhile, another detective is tracking Kenzo down for his client, Akira Hirota.",
         japaneseTitle: "奇妙な人捜し殺人事件. (Kimyō na Hitosagashi Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -906,12 +933,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Masako Katsuki as Masami Hirota Hideaki Tezuka as Akira Hirota Kan Tokumaru as Detective Ryuzaburo Otomo as Okita Rin Mizuhara as Landlady Isshin Chiba as Cloak checker Takumi Yamazaki as TV announcer Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Masako Katsuki as Masami Hirota", "Hideaki Tezuka as Akira Hirota", "Kan Tokumaru as Detective", "Ryuzaburo Otomo as Okita", "Rin Mizuhara as Landlady", "Isshin Chiba as Cloak checker", "Takumi Yamazaki as TV announcer", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Ayumi-chan Kidnapping Case",
         nextCase: "The Mysterious Shooting Message Case »",
-
 
 
 
@@ -936,6 +962,9 @@ const allData = [
     {
         id: "14", isFiller: true, title: "14: The Mysterious Shooting Message Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "While fishing, Conan and with the Detective Boys spot a sniper shooting a balloon tied to a remote controlled boat on the river. This sniper is held at gunpoint by other men.",
         japaneseTitle: "謎のメッセージ狙撃事件. (Nazo no Messēji Sogeki Jiken)",
         titleInOtherLanguages: [
@@ -972,12 +1001,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Joji Nakata as Koichi Yamabe Keiko Onodera as Eri Kiyomitsu Mizuuchi as Helicopter pilot Keiji Fujiwara as Man A Naoki Makishima as Man B Isshin Chiba as Man C",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Joji Nakata as Koichi Yamabe", "Keiko Onodera as Eri", "Kiyomitsu Mizuuchi as Helicopter pilot", "Keiji Fujiwara as Man A", "Naoki Makishima as Man B", "Isshin Chiba as Man C"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The Strange Person Hunt Murder Case",
         nextCase: "Missing Corpse Murder Case »",
-
 
 
 
@@ -1000,6 +1028,9 @@ const allData = [
     {
         id: "15", isFiller: false, title: "15: Missing Corpse Murder Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kamen Yaiba"],
+
+
+
         episodeDescription: "The Detective Boys are commissioned by a classmate to find his missing cat, Akira. When they do finally find Akira, the cat has just emerged from a house's window, covered in blood. The Detective Boys immediately investigate, and see a bloody corpse face-down in the house's bathtub.",
         japaneseTitle: "消えた死体殺人事件. (Kieta Shitai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1036,12 +1067,11 @@ const allData = [
         screenplay: "Toshiki Inoue",
         storyboard: "Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Kinpei Azusa as Tomofumi Tanaka Kazuhiko Kishino as Kazuyoshi Tanaka Urara Takano as Hiroki Keiji Fujiwara as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Kinpei Azusa as Tomofumi Tanaka", "Kazuhiko Kishino as Kazuyoshi Tanaka", "Urara Takano as Hiroki", "Keiji Fujiwara as Policeman"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The Mysterious Shooting Message Case",
         nextCase: "The Antique Collector Murder Case »",
-
 
 
 
@@ -1064,6 +1094,9 @@ const allData = [
     {
         id: "16", isFiller: false, title: "16: The Antique Collector Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Officer Tome"],
+
+
+
         episodeDescription: "Because this one episode case was adapted from four manga chapters, several scenes were shortened or removed.",
         japaneseTitle: "骨董品コレクター殺人事件. (Kottōhin Korekutā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1100,12 +1133,11 @@ const allData = [
         screenplay: "Yasushi Hirano",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Kiyoshi Kobayashi as Yuji Suwa Ryuji Nakagi as Makoto Akutsu Shigeru Ushiyama as Ikuya Hatano Saburo Kamei as Denjiro Maru Naoko Kouda as Ineko Maru Rin Mizuhara as Saori Yukiko Iwai as Kumi Wataru Takagi as Police officer, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Kiyoshi Kobayashi as Yuji Suwa", "Ryuji Nakagi as Makoto Akutsu", "Shigeru Ushiyama as Ikuya Hatano", "Saburo Kamei as Denjiro Maru", "Naoko Kouda as Ineko Maru", "Rin Mizuhara as Saori", "Yukiko Iwai as Kumi", "Wataru Takagi as Police officer, Next Conan's Hint"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Missing Corpse Murder Case",
         nextCase: "Hijacked Department Store Case »",
-
 
 
 
@@ -1128,6 +1160,9 @@ const allData = [
     {
         id: "17", isFiller: true, title: "17: Hijacked Department Store Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "デパートジャック事件. (Depāto Jakku Jiken)",
         titleInOtherLanguages: [
@@ -1165,12 +1200,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Yuko Sasaki as Ryoko Daiki Nakamura as Man A Ginzo Matsuo as Man B Takumi Yamazaki as Man C Naoki Makishima as Man D Isshin Chiba as Security guard",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Yuko Sasaki as Ryoko", "Daiki Nakamura as Man A", "Ginzo Matsuo as Man B", "Takumi Yamazaki as Man C", "Naoki Makishima as Man D", "Isshin Chiba as Security guard"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The Antique Collector Murder Case",
         nextCase: "A June Bride Murder Case »",
-
 
 
 
@@ -1198,6 +1232,9 @@ const allData = [
     {
         id: "18", isFiller: false, title: "18: A June Bride Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Kiyonaga Matsumoto", "Shinichi Kudo", "Officer Tome"],
+
+
+
         episodeDescription: "Conan, Ran, and Sonoko visit their old middle school music teacher, Sayuri Matsumoto, as she prepares for her wedding to Toshihiko Takasugi. Sayuri teases Conan because he reminds her of a boy she once taught. Conan manages to escape suspicion before too many parallels to Shinichi are noticed.",
         japaneseTitle: "6月の花嫁殺人事件. (Rokugatsu no Hanayome Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1234,12 +1271,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki Yu Mizushima as Toshihiko Takasugi Maya Okamoto as Sayuri Matsumoto Seizo Kato as Kiyonaga Matsumoto Urara Takano as Kazumi Takenaka Dai Matsumoto as Atsushi Umemiya Takumi Yamazaki as Friend Wataru Takagi as Police officer, Next Conan's Hint Naoki Makishima as Officer Tome",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Naoko Matsui as Sonoko Suzuki", "Yu Mizushima as Toshihiko Takasugi", "Maya Okamoto as Sayuri Matsumoto", "Seizo Kato as Kiyonaga Matsumoto", "Urara Takano as Kazumi Takenaka", "Dai Matsumoto as Atsushi Umemiya", "Takumi Yamazaki as Friend", "Wataru Takagi as Police officer, Next Conan's Hint", "Naoki Makishima as Officer Tome"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Hijacked Department Store Case",
         nextCase: "An Elevator Murder Case »",
-
 
 
 
@@ -1263,6 +1299,9 @@ const allData = [
     {
         id: "19", isFiller: true, title: "19: An Elevator Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "What began as an enjoyable day for Kogoro, Ran, and Conan, who is being interviewed for a potential job as a fashion model, soon turns deadly as a beautiful young lady is found dead. All signs point to a simple break in, but Conan knows that not all is as it seems.",
         japaneseTitle: "エレベーター殺人事件. (Erebētā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1299,12 +1338,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Rihoko Yoshida as Eiko Ashiya Rika Fukami as Miki Taniguchi Yosuke Akimoto as Eda Wataru Takagi as Forensic officer, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Rihoko Yoshida as Eiko Ashiya", "Rika Fukami as Miki Taniguchi", "Yosuke Akimoto as Eda", "Wataru Takagi as Forensic officer, Next Conan's Hint"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« A June Bride Murder Case",
         nextCase: "A Haunted Mansion Murder Case »",
-
 
 
 
@@ -1327,6 +1365,9 @@ const allData = [
     {
         id: "20", isFiller: false, title: "20: A Haunted Mansion Murder Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Hiroshi Agasa", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "幽霊屋敷殺人事件. (Yūrei Yashiki Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1363,12 +1404,11 @@ const allData = [
 
         storyboard: "Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Wataru Takagi as Genta Kojima, Next Conan's Hint Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Hiroshi Yanaka as Akio Reiko Yamada as Akio's mother Tomomichi Nishimura as Akio's father",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Hiroshi Yanaka as Akio", "Reiko Yamada as Akio's mother", "Tomomichi Nishimura as Akio's father"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« An Elevator Murder Case",
         nextCase: "On Location, TV Drama Murder Case »",
-
 
 
 
@@ -1395,6 +1435,9 @@ const allData = [
     {
         id: "21", isFiller: true, title: "21: On Location, TV Drama Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Juzo Megure", "Wataru Takagi", "Eiichi Yamagishi"],
+
+
+
         episodeDescription: "Yoko Okino is starring in 'The Stalker Who Laughted at the Darkness', a Tuesday Suspense Drama with Nichiuri TV as filming script, and she invites Kogoro, Ran, and Conan to watch the filming at the Beika Shrine. The cameraman named Morio Anzai is murdered and his dying message in kanji spells 'Shrine god'.",
         japaneseTitle: "TVドラマロケ殺人事件. (Terebi Dorama Roke Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1433,12 +1476,11 @@ const allData = [
         screenplay: "Hirohito Ochi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Yuri Amano as Yoko Okino Chafurin as Juzo Megure Takehito Koyasu as Shingo Nachi Hikaru Miyata as Taketoshi Gondo Mitsuki Yayoi as Taeko Mamegaki Etsuo Yokobori as Yuji Shimazaki Issei Futamata as Morio Anzai Eiji Maruyama as Kyusaku Mamegaki Kazuya Ichijo as Eiichi Yamagishi Wataru Takagi as Forensics officer (Uncredited: Wataru Takagi, Next Conan's Hint) Yukiko Iwai as Mrs. Nakai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Yuri Amano as Yoko Okino", "Chafurin as Juzo Megure", "Takehito Koyasu as Shingo Nachi", "Hikaru Miyata as Taketoshi Gondo", "Mitsuki Yayoi as Taeko Mamegaki", "Etsuo Yokobori as Yuji Shimazaki", "Issei Futamata as Morio Anzai", "Eiji Maruyama as Kyusaku Mamegaki", "Kazuya Ichijo as Eiichi Yamagishi", "Wataru Takagi as Forensics officer (Uncredited: Wataru Takagi, Next Conan's Hint)", "Yukiko Iwai as Mrs. Nakai"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« A Haunted Mansion Murder Case",
         nextCase: "Luxury Liner Serial Murder Case »",
-
 
 
 
@@ -1464,6 +1506,9 @@ const allData = [
     {
         id: "22", isFiller: false, title: "22: Luxury Liner Serial Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Joji Hatamoto", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Ran and Conan enjoy the view from a luxury cruise ship, whose owners are charitably giving them a ride back to Tokyo since Kogoro forgot the departure time of their original boat. Ran and Conan notice another passenger, Natsue Hatamoto, who just married her husband, Takeshi, on the island they just left. Natsue's grandfather, Gozo, the head of the Hatamoto family and businesses, rants at his son-in-law, Kitarou, for allowing non-family members onto the ship. Natsue's uncle, Joji Hatamoto, muses that Gozo's bad mood is likely from Joji cooking Western rather than traditional food. Gozo also belittles Kitarou's son, Ichirou, for being an artist and pursuing a hopeless dream. Gozo then orders Takeshi to come visit his room before dinner, and leaves.",
         japaneseTitle: "豪華客船連続殺人事件. (Gōka Kyakusen Renzoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1502,12 +1547,11 @@ const allData = [
 
         storyboard: "22 Kenji Kodama. 23 Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yuri Aso as Natsue Hatamoto Shigeru Nakahara as Takeshi Hatamoto Yonehiko Kitagawa as Gozo Hatamoto Yasuo Muramatsu as Kitaro Hatamoto Kinryuu Arimoto as Joji Hatamoto Akira Ishida as Ichiro Hatamoto Tomie Kataoka as Mariko Hatamoto Masumi Tsuda as Akie Hatamoto Wataru Takagi as Tatsuo Hatamoto, Next Conan's Hint Kousei Yagi as Kenji Suzuki",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Yuri Aso as Natsue Hatamoto", "Shigeru Nakahara as Takeshi Hatamoto", "Yonehiko Kitagawa as Gozo Hatamoto", "Yasuo Muramatsu as Kitaro Hatamoto", "Kinryuu Arimoto as Joji Hatamoto", "Akira Ishida as Ichiro Hatamoto", "Tomie Kataoka as Mariko Hatamoto", "Masumi Tsuda as Akie Hatamoto", "Wataru Takagi as Tatsuo Hatamoto, Next Conan's Hint", "Kousei Yagi as Kenji Suzuki"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« On Location, TV Drama Murder Case",
         nextCase: "The Mysterious Woman With Amnesia Case »",
-
 
 
 
@@ -1532,6 +1576,9 @@ const allData = [
     {
         id: "23", isFiller: false, title: "23: Luxury Liner Serial Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Joji Hatamoto", "Shinichi Kudo"],
+
+
+
         episodeDescription: "After reviewing the crime, Kogoro suggests they should gather for the rest of the night together in the dining hall, to keep Takeshi from murdering anyone else. Akie and Mariko blame Natsue for giving Takeshi access to the family, but Conan interjects that Takeshi's guilt isn't proven, because the room had to be opened from the outside, as it was a sliding lock, not one that required a key and therefore could be lock-picked. Someone had to let Takeshi out of the room, otherwise he would still have been in there.",
         japaneseTitle: "豪華客船連続殺人事件. (Gōka Kyakusen Renzoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1570,12 +1617,11 @@ const allData = [
 
         storyboard: "22 Kenji Kodama. 23 Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yuri Aso as Natsue Hatamoto Shigeru Nakahara as Takeshi Hatamoto Yonehiko Kitagawa as Gozo Hatamoto Yasuo Muramatsu as Kitaro Hatamoto Kinryuu Arimoto as Joji Hatamoto Akira Ishida as Ichiro Hatamoto Tomie Kataoka as Mariko Hatamoto Masumi Tsuda as Akie Hatamoto Wataru Takagi as Tatsuo Hatamoto, Next Conan's Hint Kousei Yagi as Kenji Suzuki",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Yuri Aso as Natsue Hatamoto", "Shigeru Nakahara as Takeshi Hatamoto", "Yonehiko Kitagawa as Gozo Hatamoto", "Yasuo Muramatsu as Kitaro Hatamoto", "Kinryuu Arimoto as Joji Hatamoto", "Akira Ishida as Ichiro Hatamoto", "Tomie Kataoka as Mariko Hatamoto", "Masumi Tsuda as Akie Hatamoto", "Wataru Takagi as Tatsuo Hatamoto, Next Conan's Hint", "Kousei Yagi as Kenji Suzuki"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« On Location, TV Drama Murder Case",
         nextCase: "The Mysterious Woman With Amnesia Case »",
-
 
 
 
@@ -1602,6 +1648,9 @@ const allData = [
     {
         id: "24", isFiller: true, title: "24: The Mysterious Woman With Amnesia Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Just as Kogoro's luck seems to be running out after a bad day at the horse races with a revenge fueled escaped con bearing down on him, a beautiful woman practically falls into his arms. The only problem is, she can't remember a thing about herself, except her name. Can Kogoro help this woman regain her memory and, if so, will it only get him into more trouble than he's already in?",
         japaneseTitle: "謎の美女記憶喪失事件. (Nazo no Bijo Kioku Sōshitsu Jiken)",
         titleInOtherLanguages: [
@@ -1639,12 +1688,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Youko Matsuoka as Maya Tachibana Yuji Mikimoto as Hitoshi Yuda Toshihiko Kojima as Doctor Wataru Takagi as Police officer, Next Conan's Hint Katsumi Suzuki as Doorman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Youko Matsuoka as Maya Tachibana", "Yuji Mikimoto as Hitoshi Yuda", "Toshihiko Kojima as Doctor", "Wataru Takagi as Police officer, Next Conan's Hint", "Katsumi Suzuki as Doorman"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« Luxury Liner Serial Murder Case",
         nextCase: "The False Kidnapping and Hostage Case »",
-
 
 
 
@@ -1671,6 +1719,9 @@ const allData = [
     {
         id: "25", isFiller: true, title: "25: The False Kidnapping and Hostage Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Kogoro and Megure are tasked with a critical case that involves the kidnapping of a girl named Naoko Takei, who is being held hostage in a van near a warehouse by the harbor. When the group plus Ran, Conan and Naoko's father, Katsuhiko Takei, approach the van, however, the kidnapper panics and drives the van into the sea itself, killing both Naoko and themself. It turns out Naoko was a classmate of Shinichi and Ran, and as Megure asks Ran about her, Conan thinks of how she was an awkward and quiet 'lonely rich kid'.",
         japaneseTitle: "偽りの身代金誘拐事件. (Itsuwari no Minoshirokin Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -1708,12 +1759,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Osamu Saka as Katsuhiko Takei Mami Koyama as Akiko Hanai Yukiko Iwai as Naoko Takei Hidetoshi Nakamura as Captain Isshin Chiba as Detective A Wataru Takagi as Detective B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Osamu Saka as Katsuhiko Takei", "Mami Koyama as Akiko Hanai", "Yukiko Iwai as Naoko Takei", "Hidetoshi Nakamura as Captain", "Isshin Chiba as Detective A", "Wataru Takagi as Detective B, Next Conan's Hint"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The Mysterious Woman With Amnesia Case",
         nextCase: "Pet Dog John Murder Case »",
-
 
 
 
@@ -1738,6 +1788,9 @@ const allData = [
     {
         id: "26", isFiller: true, title: "26: Pet Dog John Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "愛犬ジョン殺人事件. (Aiken Jon Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1775,12 +1828,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima (Uncredited: Wataru Takagi, Next Conan's Hint) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Masaru Ikeda as Masayoshi Sakaguchi Masamichi Sato as Takeshi Maehara Narumi Hidaka as Sanae Sugita Isshin Chiba as Teacher",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima (Uncredited: Wataru Takagi, Next Conan's Hint)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Masaru Ikeda as Masayoshi Sakaguchi", "Masamichi Sato as Takeshi Maehara", "Narumi Hidaka as Sanae Sugita", "Isshin Chiba as Teacher"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "STEP BY STEP",
         prevCase: "« The False Kidnapping and Hostage Case",
         nextCase: "Kogoro's Class Reunion Murder Case »",
-
 
 
 
@@ -1807,6 +1859,9 @@ const allData = [
     {
         id: "27", isFiller: false, title: "27: Kogoro's Class Reunion Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Jun Omura"],
+
+
+
         episodeDescription: "After Kogoro and Conan take down a would-be bank robber, they head off to Kogoro's 15-year class reunion with Ran in Tochigi Prefecture. Kogoro's old friends were all on the state-winning Judo team together, but when the beautiful Yumi Horikoshi turns up in her room dead of an apparent suicide, the fun is abruptly ended.",
         japaneseTitle: "小五郎の同窓会殺人事件. (Kogoro no Dōsōkai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1843,12 +1898,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kazuhiro Yamaji as Yukio Ayashiro Takaya Hashi as Jun Omura Tomoko Miyadera as Yumi Horikoshi Mayumi Kitagawa as Noriko Ayashiro Tesshō Genda as Kazushi Nakamichi Isshin Chiba as Policeman Wataru Takagi as Robber, Next Conan's Hint Fumihiko Tsuburaya as Master of the inn Miya Sakita as Waitress",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kazuhiro Yamaji as Yukio Ayashiro Takaya Hashi as Jun Omura", "Tomoko Miyadera as Yumi Horikoshi", "Mayumi Kitagawa as Noriko Ayashiro", "Tesshō Genda as Kazushi Nakamichi", "Isshin Chiba as Policeman", "Wataru Takagi as Robber, Next Conan's Hint", "Fumihiko Tsuburaya as Master of the inn", "Miya Sakita as Waitress"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Pet Dog John Murder Case",
         nextCase: "Computer Murder Case »",
-
 
 
 
@@ -1872,6 +1926,9 @@ const allData = [
     {
         id: "28", isFiller: false, title: "28: Kogoro's Class Reunion Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Jun Omura"],
+
+
+
         episodeDescription: "Kogoro's class reunion continues, but all the catching up has finally caught up to the classmates leaving one of them dead. Is the killer still among them, and if so, can Conan apprehend him in time? Everyone's a suspect in this exciting episode.",
         japaneseTitle: "小五郎の同窓会殺人事件. (Kogoro no Dōsōkai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1908,12 +1965,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kazuhiro Yamaji as Yukio Ayashiro Takaya Hashi as Jun Omura Tomoko Miyadera as Yumi Horikoshi Mayumi Kitagawa as Noriko Ayashiro Tesshō Genda as Kazushi Nakamichi Isshin Chiba as Policeman Wataru Takagi as Robber, Next Conan's Hint Fumihiko Tsuburaya as Master of the inn Miya Sakita as Waitress",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kazuhiro Yamaji as Yukio Ayashiro Takaya Hashi as Jun Omura", "Tomoko Miyadera as Yumi Horikoshi", "Mayumi Kitagawa as Noriko Ayashiro", "Tesshō Genda as Kazushi Nakamichi", "Isshin Chiba as Policeman", "Wataru Takagi as Robber, Next Conan's Hint", "Fumihiko Tsuburaya as Master of the inn", "Miya Sakita as Waitress"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Pet Dog John Murder Case",
         nextCase: "Computer Murder Case »",
-
 
 
 
@@ -1941,6 +1997,9 @@ const allData = [
     {
         id: "29", isFiller: true, title: "29: Computer Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Juzo Megure", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "コンピューター殺人事件. (Konpyūtā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -1977,12 +2036,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Clerk, Next Conan's Hint Masato Yamanouchi as Okida Kazuhiro Yamaga as Tokito Norio Murata as Miura",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Clerk, Next Conan's Hint", "Masato Yamanouchi as Okida", "Kazuhiro Yamaga as Tokito", "Norio Murata as Miura"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Kogoro's Class Reunion Murder Case",
         nextCase: "Alibi Testimony Murder Case »",
-
 
 
 
@@ -2009,6 +2067,9 @@ const allData = [
     {
         id: "30", isFiller: true, title: "30: Alibi Testimony Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are meeting Souhei Tatsumi, a well-known lawyer with many large corporations as clients, who's office is in a luxury hotel. While there, Conan picks up a phone call from Souhei's wife, Kazumi Tatsumi. During the phone call, a musical melody is heard from Kazumi's side. Souhei takes over the phone call and tells his wife he will call later and asks Conan and Ran to leave so he may talk with Kogoro. Kogoro returns telling Ran and Conan he took Souhei's request to spy on Kazumi and her affair. On the way home, they spot police cars in front of a house and decide to investigate. They found out it is Souhei Tatsumi's house. Inside they learn that Kazumi was found dead in the bathtub.",
         japaneseTitle: "アリバイ証言殺人事件. (Aribai Shōgen Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2045,12 +2106,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Unsho Ishizuka as Souhei Tatsumi Kayoko Fujii as Kazumi Tatsumi Hideaki Tezuka as Shunzou Hirose Wataru Takagi as Policeman, Next Conan's Hint Isshin Chiba as Worker",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Unsho Ishizuka as Souhei Tatsumi", "Kayoko Fujii as Kazumi Tatsumi", "Hideaki Tezuka as Shunzou Hirose", "Wataru Takagi as Policeman, Next Conan's Hint", "Isshin Chiba as Worker"],
         openingSong: "Mune ga Dokidoki",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Computer Murder Case",
         nextCase: "TV Station Murder Case »",
-
 
 
 
@@ -2073,6 +2133,9 @@ const allData = [
     {
         id: "31", isFiller: false, title: "31: TV Station Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ayumi Yoshida", "Yoko Okino", "Mrs. Yoshida", "George Kirishima"],
+
+
+
         episodeDescription: "The TV presenter Takashi Matsuo calls his colleague, Michihiko Suwa, and tells him that he wants to meet him after the show in the conference room. Matsuo hangs a photo of himself and Suwa, throws it across the room, and shoots it with a gun.",
         japaneseTitle: "テレビ局殺人事件. (Terebi-kyoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2109,12 +2172,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Norio Wakamoto as Michihiko Suwa Megumi Ogata as Ayako Nagai Yuri Amano as Yoko Okino Yukiko Iwai as Ayumi Yoshida Hirohiko Kakegawa as Kuroshima Takashi Naka as Studio executive Wataru Takagi as Staff (Uncredited: Wataru Takagi, Next Conan's Hint) Takumi Yamazaki as Police detective Naoki Makishima as AD Takashi Matsuo as Himself",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Norio Wakamoto as Michihiko Suwa", "Megumi Ogata as Ayako Nagai", "Yuri Amano as Yoko Okino", "Yukiko Iwai as Ayumi Yoshida", "Hirohiko Kakegawa as Kuroshima", "Takashi Naka as Studio executive", "Wataru Takagi as Staff (Uncredited: Wataru Takagi, Next Conan's Hint)", "Takumi Yamazaki as Police detective", "Naoki Makishima as AD", "Takashi Matsuo as Himself"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Alibi Testimony Murder Case",
         nextCase: "Coffee Shop Murder Case »",
-
 
 
 
@@ -2143,6 +2205,9 @@ const allData = [
     {
         id: "32", isFiller: false, title: "32: Coffee Shop Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Eri Kisaki", "Juzo Megure", "Sonoko Suzuki", "Kogoro Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "In a lazy Sunday, Conan catches Ran getting out early from home and asks her where is she going. She tells him that she's in a date with Shinichi and Conan at first lets her go. but then realizes that this cannot be true because he is Shinichi. He tries to convince himself that it doesn't matter, but then he decides to tag along anyway.",
         japaneseTitle: "コーヒーショップ殺人事件. (Kōhī Shoppu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2179,12 +2244,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Yoko Fuchino as Yayoi Himeno Hiroshi Ishida as Yuichi Sumeragi Gara Takashima as Eri Kisaki Daisuke Gouri as Juzo Tonoyama Kazuya Ichijo as Shiro Wakaoji Wataru Takagi as Forensics officer (Uncredited: Next Conan's Hint) Isshin Chiba as Detective Hiroshi Nagahata as Master Yukiko Iwai as Waitress",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Yoko Fuchino as Yayoi Himeno", "Hiroshi Ishida as Yuichi Sumeragi", "Gara Takashima as Eri Kisaki", "Daisuke Gouri as Juzo Tonoyama", "Kazuya Ichijo as Shiro Wakaoji", "Wataru Takagi as Forensics officer (Uncredited: Next Conan's Hint)", "Isshin Chiba as Detective", "Hiroshi Nagahata as Master", "Yukiko Iwai as Waitress"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« TV Station Murder Case",
         nextCase: "Detective Boys Survival Case »",
-
 
 
 
@@ -2211,6 +2275,9 @@ const allData = [
     {
         id: "33", isFiller: true, title: "33: Detective Boys Survival Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo", "Juzo Megure"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "探偵団サバイバル事件. (Tantei-dan Sabaibaru Jiken)",
         titleInOtherLanguages: [
@@ -2247,12 +2314,11 @@ const allData = [
         screenplay: "Ryoko Nabewari",
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Next Conan's Hint Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kappei Yamaguchi as Shinichi Kudo Kazuhiro Nakata as Robber A Tetsuo Mizutori as Robber B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Kappei Yamaguchi as Shinichi Kudo", "Kazuhiro Nakata as Robber A", "Tetsuo Mizutori as Robber B"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Coffee Shop Murder Case",
         nextCase: "Mountain Villa Bandaged Man Murder Case »",
-
 
 
 
@@ -2277,6 +2343,9 @@ const allData = [
     {
         id: "34", isFiller: false, title: "34: Mountain Villa Bandaged Man Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki"],
+
+
+
         episodeDescription: "Conan and Ran are invited by Sonoko to her family's mountain villa in Gunma Prefecture to see the autumn leaves and meet up with Sonoko's sister Ayako and some old friends of hers. At first they get lost thanks to Ran's lack of direction sense, but they find their way and see themselves in front of a bridge. On the way to the front they see a strange bandaged man in a dark cloak crossing the bridge. When they see him he turns around, shocking them with his face and eye contact as he quickly makes a retreat around the side of the house.",
         japaneseTitle: "山荘包帯男殺人事件. (Sansō Hōtai Otoko Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2314,12 +2383,11 @@ const allData = [
 
         storyboard: "34 Yasuichiro Yamamoto. 35 Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Norihiro Inoue as Masaru Ohta Tetsuo Goto as Hiroki Sumiya Man Katou as Ryoichi Takahashi Sumiko Motoi as Ayako Suzuki Jun Karasawa as Chikako Ikeda Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Norihiro Inoue as Masaru Ohta", "Tetsuo Goto as Hiroki Sumiya", "Man Katou as Ryoichi Takahashi", "Sumiko Motoi as Ayako Suzuki", "Jun Karasawa as Chikako Ikeda", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Detective Boys Survival Case",
         nextCase: "Monday Night 7:30 p.m. Murder Case »",
-
 
 
 
@@ -2340,6 +2408,9 @@ const allData = [
     {
         id: "35", isFiller: false, title: "35: Mountain Villa Bandaged Man Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki"],
+
+
+
         episodeDescription: "Everyone decides to stay up for the night and keep together to throw off the murderous man in bandages. Conan sees that Ayako has a choker that belonged to the dead Chikako. She says she found it a short while ago, but Conan recalls that she had it on when she was abducted. This means that yes, the 'bandaged man' is someone in the group.",
         japaneseTitle: "山荘包帯男殺人事件. (Sansō Hōtai Otoko Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2377,12 +2448,11 @@ const allData = [
 
         storyboard: "34 Yasuichiro Yamamoto. 35 Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Norihiro Inoue as Masaru Ohta Tetsuo Goto as Hiroki Sumiya Man Katou as Ryoichi Takahashi Sumiko Motoi as Ayako Suzuki Jun Karasawa as Chikako Ikeda Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Norihiro Inoue as Masaru Ohta", "Tetsuo Goto as Hiroki Sumiya", "Man Katou as Ryoichi Takahashi", "Sumiko Motoi as Ayako Suzuki", "Jun Karasawa as Chikako Ikeda", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Detective Boys Survival Case",
         nextCase: "Monday Night 7:30 p.m. Murder Case »",
-
 
 
 
@@ -2407,6 +2477,9 @@ const allData = [
     {
         id: "36", isFiller: true, title: "36: Monday Night 7:30 p.m. Murder Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Kamen Yaiba"],
+
+
+
         episodeDescription: "When Katsuhiko Nakamoto, a seedy real estate agent, is murdered in his condominium, the police suspect Yoko Sawaki, a well-known dentist in town. They believe that she was getting back at Nakamoto for a crime that he committed twenty-six years ago in a village of East Kofu, Yamanashi Prefecture. Will Conan's investigation vindicate the beautiful dentist or debunk her perfect alibi?",
         japaneseTitle: "月曜夜7時30分殺人事件. (Getsuyō Yoru Shichiji Sanjuppun Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2443,12 +2516,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima (Uncredited: Kamen Yaiba, Next Conan's Hint) Chafurin as Juzo Megure Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Rie Ishizuka as Yoko Sawaki Nobuaki Sekine as Katsuhiko Nakamoto",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima (Uncredited: Kamen Yaiba, Next Conan's Hint)", "Chafurin as Juzo Megure", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Rie Ishizuka as Yoko Sawaki", "Nobuaki Sekine as Katsuhiko Nakamoto"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Mountain Villa Bandaged Man Murder Case",
         nextCase: "Cactus's Flower Murder Case »",
-
 
 
 
@@ -2473,6 +2545,9 @@ const allData = [
     {
         id: "37", isFiller: true, title: "37: Cactus's Flower Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys"],
+
+
+
         episodeDescription: "When a pretty girl hires Kogoro to help her find an old flame, it seems like a routine case. But when Conan finds out that the man she is looking for was responsible for the death of her fiancé, he realizes that romance is the farthest thing from her mind. What is she planning to do?",
         japaneseTitle: "サボテンの花殺人事件. (Saboten no Hana Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2510,12 +2585,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Kuchiru Kazehara",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Next Conan's Hint Emi Shinohara as Noriko Okaya Rintaro Nishi as Tsuyoshi Kitagawa Jurota Kosugi as Saeki Hirohiko Kakegawa as Detective",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Emi Shinohara as Noriko Okaya", "Rintaro Nishi as Tsuyoshi Kitagawa", "Jurota Kosugi as Saeki", "Hirohiko Kakegawa as Detective"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Monday Night 7:30 p.m. Murder Case",
         nextCase: "Akaoni Village Fire Festival Murder Case »",
-
 
 
 
@@ -2538,6 +2612,9 @@ const allData = [
     {
         id: "38", isFiller: false, title: "38: Akaoni Village Fire Festival Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "When a body is discovered in a bonfire at a ritual Fire Festival by a tourist, the murder investigation begins.",
         japaneseTitle: "赤鬼村火祭殺人事件. (Akaoni Mura Himatsuri Sastujin Jiken)",
         titleInOtherLanguages: [
@@ -2574,12 +2651,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Katsunosuke Hori as Yutaka Abe Takkou Ishimori as Masaki Negishi Isshin Chiba as Announcer Wataru Takagi as Male clerk, Next Conan's Hint Yukiko Iwai as Female clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Kenichi Ogata as Hiroshi Agasa", "Katsunosuke Hori as Yutaka Abe", "Takkou Ishimori as Masaki Negishi", "Isshin Chiba as Announcer", "Wataru Takagi as Male clerk, Next Conan's Hint", "Yukiko Iwai as Female clerk"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Cactus's Flower Murder Case",
         nextCase: "Wealthy Daughter Murder Case »",
-
 
 
 
@@ -2603,6 +2679,9 @@ const allData = [
     {
         id: "39", isFiller: false, title: "39: Wealthy Daughter Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Takuya Mifune", "Shinichi Kudo"],
+
+
+
         episodeDescription: "A billionaire hosts a birthday gala for his daughter Reika and the famous detective Mouri is the celebrity guest of honor. But when one of Reika's handsome young suitors turns up dead, the remaining guests are suspects for murder.",
         japaneseTitle: "資産家令嬢殺人事件. (Shisanka Reijō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2639,12 +2718,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Rieko Takahashi as Reika Yotsui Hiroshi Nakano as Takashi Ichieda Takumi Tsutsui as Yuji Nikaido Hitoshi Ooya as Takuya Mifune Shirou Ishimoda as Osamu Gojo Ryuzaburo Otomo as Masashi Rokuda Reiko Suzuki as Yone Nanao Jinshou Hirao as Chairman Yotsui Wataru Takagi as Driver, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Rieko Takahashi as Reika Yotsui", "Hiroshi Nakano as Takashi Ichieda", "Takumi Tsutsui as Yuji Nikaido", "Hitoshi Ooya as Takuya Mifune", "Shirou Ishimoda as Osamu Gojo", "Ryuzaburo Otomo as Masashi Rokuda", "Reiko Suzuki as Yone Nanao", "Jinshou Hirao as Chairman Yotsui", "Wataru Takagi as Driver, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Akaoni Village Fire Festival Murder Case",
         nextCase: "Victory Flag Tearing Case »",
-
 
 
 
@@ -2664,6 +2742,9 @@ const allData = [
     {
         id: "40", isFiller: false, title: "40: Wealthy Daughter Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Takuya Mifune", "Shinichi Kudo"],
+
+
+
         episodeDescription: "When a beautiful heiress is murdered on her birthday, Conan springs into action to solve the baffling crime. The painful past of every suspect must be brought to light. Opening these old wounds is the only way to bring the killer to justice.",
         japaneseTitle: "資産家令嬢殺人事件. (Shisanka Reijō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2700,12 +2781,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Rieko Takahashi as Reika Yotsui Hiroshi Nakano as Takashi Ichieda Takumi Tsutsui as Yuji Nikaido Hitoshi Ooya as Takuya Mifune Shirou Ishimoda as Osamu Gojo Ryuzaburo Otomo as Masashi Rokuda Reiko Suzuki as Yone Nanao Jinshou Hirao as Chairman Yotsui Wataru Takagi as Driver, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Rieko Takahashi as Reika Yotsui", "Hiroshi Nakano as Takashi Ichieda", "Takumi Tsutsui as Yuji Nikaido", "Hitoshi Ooya as Takuya Mifune", "Shirou Ishimoda as Osamu Gojo", "Ryuzaburo Otomo as Masashi Rokuda", "Reiko Suzuki as Yone Nanao", "Jinshou Hirao as Chairman Yotsui", "Wataru Takagi as Driver, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Akaoni Village Fire Festival Murder Case",
         nextCase: "Victory Flag Tearing Case »",
-
 
 
 
@@ -2732,6 +2812,9 @@ const allData = [
     {
         id: "41", isFiller: true, title: "41: Victory Flag Tearing Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "優勝旗切り裂き事件. (Yūshōki Kirisaki Jiken)",
         titleInOtherLanguages: [
@@ -2768,12 +2851,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Takehiro Murozono as Kenya Kaji Ken Narita as Etou Mizuka Arima as Mie Kaji Minoru Inaba as Principal Hiroshi Naka as Caretaker Isshin Chiba as Chief referee Wataru Takagi as Backup catcher, Next Conan's Hint Yukiko Iwai as Girl",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Takehiro Murozono as Kenya Kaji", "Ken Narita as Etou", "Mizuka Arima as Mie Kaji", "Minoru Inaba as Principal", "Hiroshi Naka as Caretaker", "Isshin Chiba as Chief referee", "Wataru Takagi as Backup catcher, Next Conan's Hint", "Yukiko Iwai as Girl"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Wealthy Daughter Murder Case",
         nextCase: "Karaoke Box Murder Case »",
-
 
 
 
@@ -2796,6 +2878,9 @@ const allData = [
     {
         id: "42", isFiller: false, title: "42: Karaoke Box Murder Case",
         appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "When Sonoko's father uses his connections, Ran and Sonoko find themselves in a Karaoke Bar having dinner with the hottest band in the land! It seems like a dream come true until the lead singer, Tatsuya Kimura, is poisoned right in front of their eyes. The brash super-star had plenty of enemies (he constantly fought for nothing with Mari, Mieko had her love confession to him rejected, Katsumi was angry at him because he was about to go solo and that put the band's career on hold, Go was in his previous band till he left and he was very rude towards the whole band), but which of them hated him enough to commit murder? It's up to Conan to find out.",
         japaneseTitle: "カラオケボックス殺人事件. (Karaoke Bokkusu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2831,12 +2916,11 @@ const allData = [
         screenplay: "Toshiki Inoue",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko SuzukiChafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Kenichi Ogata as Hiroshi Agasa Tomoyuki Inoue as Tatsuya Kimura Masahiro Kobayashi as Katsumi Yamada Akiko Matsukuma as Mieko Shibazaki Ginzo Matsuo as Go Sumii Urara Takano as Mari Terahara",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko SuzukiChafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Kenichi Ogata as Hiroshi Agasa", "Tomoyuki Inoue as Tatsuya Kimura", "Masahiro Kobayashi as Katsumi Yamada", "Akiko Matsukuma as Mieko Shibazaki", "Ginzo Matsuo as Go Sumii", "Urara Takano as Mari Terahara"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Victory Flag Tearing Case",
         nextCase: "Conan Edogawa Kidnapping Case »",
-
 
 
 
@@ -2865,6 +2949,9 @@ const allData = [
     {
         id: "43", isFiller: false, title: "43: Conan Edogawa Kidnapping Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Yusaku Kudo", "Yukiko Kudo", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "After realizing that Conan's parents have not contacted them (Kogoro and Ran Mouri) for a long stretch of time, Ran asks when his parents will be returning from overseas. Suddenly, a woman by the name of Fumiyo Edogawa enters the Mouri Detective Agency and admits to the group that she is Conan's mother and wishes to take Conan home. Soon after, Conan revels on the idea and absolute truth that this person is indeed not his mother, as Conan does not really exist, and begins to grow anxious. Worrying that she might harm his new found 'family', he goes along with Fumiyo, planning to get away and figure out the mess he's gotten himself into. En route, Fumiyo reveals in Conan's horror that she knows Conan's identity as Shinichi Kudo, together with his family's background. Conan escapes from her car and rushes to Professor Agasa' house, but is kidnapped again by Fumiyo before he has a chance to contact him.",
         japaneseTitle: "江戸川コナン誘拐事件. (Edogawa Konan Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -2903,12 +2990,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Atsuko Takahata as Fumiyo Edogawa Yasuhiro Takato as Bellboy Ikue Otani as Cloakroom clerk Yukiko Iwai as Customer A Isshin Chiba as Customer B Mika Watanabe as Masao Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Yukiko Kudo Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Atsuko Takahata as Fumiyo Edogawa", "Yasuhiro Takato as Bellboy", "Ikue Otani as Cloakroom clerk", "Yukiko Iwai as Customer A", "Isshin Chiba as Customer B", "Mika Watanabe as Masao", "Hideyuki Tanaka as Yusaku Kudo", "Sumi Shimamoto as Yukiko Kudo", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Karaoke Box Murder Case",
         nextCase: "Three Hotta Siblings Murder Case »",
-
 
 
 
@@ -2933,6 +3019,9 @@ const allData = [
     {
         id: "44", isFiller: true, title: "44: Three Hotta Siblings Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "A lazy drive through Chiyoda mountain, Tokyo, lands Kogoro, Ran, and Conan in the middle of a murder mystery surrounding the death of billionaire industrialist, Kosaku Hotta. As Conan tries to unravel the clues before the killer can strike again, he faces one disturbing reality. The prime suspects are the victim's children. It's an explosive whodunit you won't want to miss.",
         japaneseTitle: "堀田三兄弟殺人事件. (Hotta Sankyōdai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -2968,12 +3057,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Shozo Iizuka as Kosaku Hotta Masato Sako as Masahiro Yamauchi Hideaki Ishii as Koichi Hotta Sayoko Nasu as Harumi Hotta Masaki Aizawa as Ryoji Hotta Mikiko Miki as Fumiko Hotta Wataru Takagi as Kentaro, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Shozo Iizuka as Kosaku Hotta", "Masato Sako as Masahiro Yamauchi", "Hideaki Ishii as Koichi Hotta", "Sayoko Nasu as Harumi Hotta", "Masaki Aizawa as Ryoji Hotta", "Mikiko Miki as Fumiko Hotta", "Wataru Takagi as Kentaro, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Conan Edogawa Kidnapping Case",
         nextCase: "Facial Mask Murder Case »",
-
 
 
 
@@ -2996,6 +3084,9 @@ const allData = [
     {
         id: "45", isFiller: true, title: "45: Facial Mask Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Another day, another case as Kogoro stumbles upon the death of the President of a popular apparel company. Just why would the President be wearing an unflattering facial mask if she had been expecting company? It's just one of the many perplexing elements of a most unusual case.",
         japaneseTitle: "顔パック殺人事件. (Kaopakku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3031,12 +3122,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Zen Ishikawa as Takeo Izumi Chikako Akimoto as Ikuko Kojima Shino Oyamada as Chihiro Kojima Nobuaki Fukuda as Juro Yoshioka Isshin Chiba as Chiba (credited as Guard A) Wataru Takagi as Guard B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Zen Ishikawa as Takeo Izumi", "Chikako Akimoto as Ikuko Kojima", "Shino Oyamada as Chihiro Kojima", "Nobuaki Fukuda as Juro Yoshioka", "Isshin Chiba as Chiba (credited as Guard A) Wataru Takagi as Guard B, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Three Hotta Siblings Murder Case",
         nextCase: "Alpine Hut in the Snowy Mountain Murder Case »",
-
 
 
 
@@ -3062,6 +3152,9 @@ const allData = [
     {
         id: "46", isFiller: false, title: "46: Alpine Hut in the Snowy Mountain Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "Conan and the gang's ski-trip turns deadly when a medical professor is murdered right under their noses. A secret message left by the victim points to one of his students as being the killer. However, unraveling the secret proves one of the greatest challenges the pint-sized sleuth has ever faced.",
         japaneseTitle: "雪山山荘殺人事件. (Yukiyama Sansō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3097,12 +3190,11 @@ const allData = [
 
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yuzuru Fujimoto as Masashi Oyama Eiko Yamada as Kaori Nakahara Daisaku Shinohara as Tomoyasu Kanazawa Koji Yusa as Ginji Tobita Kumiko Ishizuka as Kaho Ezumi Yukiko Iwai as Mitsue (credited as Woman on TV) Wataru Takagi as Tsutomu (credited as Man on TV), Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Yuzuru Fujimoto as Masashi Oyama", "Eiko Yamada as Kaori Nakahara", "Daisaku Shinohara as Tomoyasu Kanazawa", "Koji Yusa as Ginji Tobita", "Kumiko Ishizuka as Kaho Ezumi", "Yukiko Iwai as Mitsue (credited as Woman on TV)", "Wataru Takagi as Tsutomu (credited as Man on TV), Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Facial Mask Murder Case",
         nextCase: "Sports Club Murder Case »",
-
 
 
 
@@ -3127,6 +3219,9 @@ const allData = [
     {
         id: "47", isFiller: true, title: "47: Sports Club Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Officer Tome"],
+
+
+
         episodeDescription: "The bitter rivalry between two world-class high divers boils over as the reigning champion is found dead. Due to the nature of the injuries and eye witness testimony, it seems as if this death was nothing more than a tragic accident. But nothing is ever as it seems as the brilliant mind of Conan soon reveals.",
         japaneseTitle: "スポーツクラブ殺人事件. (Supōtsu Kurabu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3162,12 +3257,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Mika Doi as Reiko Saeki Rintaro Nishi as Naoya Saijo Manabu Ino as Keiichi Naruse Toshiyuki Morikawa as Hisashi Kijima Masaaki Tsukada as Old man Isshin Chiba as Policeman A Wataru Takagi as Policeman B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Mika Doi as Reiko Saeki", "Rintaro Nishi as Naoya Saijo", "Manabu Ino as Keiichi Naruse", "Toshiyuki Morikawa as Hisashi Kijima", "Masaaki Tsukada as Old man", "Isshin Chiba as Policeman A", "Wataru Takagi as Policeman B, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Alpine Hut in the Snowy Mountain Murder Case",
         nextCase: "Diplomat Murder Case »",
-
 
 
 
@@ -3193,6 +3287,9 @@ const allData = [
     {
         id: "48", isFiller: false, title: "48: Diplomat Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Heiji Hattori", "Shinichi Kudo", "Juzo Megure", "Detective Boys", "Yukiko Katsuragi", "Takayoshi Tsujimura", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "Conan has to deal with some stiff competition when Heiji Hattori, heralded as the 'Great Detective of the West', comes looking for Shinichi Kudo to prove which of them is the best detective. He shows up all of a sudden in the Mouri Agency (since he suspects Shinichi has a hand on Kogoro's recent success and Sonoko told him where it was located), bringing a nice Osakan liquor as a gift to Kogoro (so he'll let him stay overnight), and delivers the challenge, which will take place regarding the request coming from a rich woman: to make a background check on her future daughter-in-law, a young woman who's simply too good to be true so she could actually be a bitch in sheep's clothing or a gold digger in disguise.",
         japaneseTitle: "外交官殺人事件. (Gaikōkan Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3229,12 +3326,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Kappei Yamaguchi as Shinichi Kudo Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Policeman, Next Conan's Hint Mari Arita as Kimie Tsujimura Aruno Tahara as Fumio Koike Yoshinobu Yamada as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Eiji Maruyama as Toshimitsu Tsujimura Saburo Kamei as Isao Tsujimura",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Chafurin as Juzo Megure", "Kappei Yamaguchi as Shinichi Kudo", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Policeman, Next Conan's Hint", "Mari Arita as Kimie Tsujimura", "Aruno Tahara as Fumio Koike", "Yoshinobu Yamada as Takayoshi Tsujimura", "Hirono Matsubara as Yukiko Katsuragi", "Eiji Maruyama as Toshimitsu Tsujimura", "Saburo Kamei as Isao Tsujimura"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Sports Club Murder Case",
         nextCase: "Library Murder Case »",
-
 
 
 
@@ -3260,6 +3356,9 @@ const allData = [
     {
         id: "49", isFiller: false, title: "49: Diplomat Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Heiji Hattori", "Shinichi Kudo", "Juzo Megure", "Detective Boys", "Yukiko Katsuragi", "Takayoshi Tsujimura", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "Heiji Hattori believes that the murder of the diplomat Isao Tsujimura is a locked room one, and he's also sure of who the killer is. But almost at the same time, Conan collapses due to his illness, and then Shinichi Kudo returns to the surprise of everyone, especially himself. As Shinichi tries to expose the real secret behind the perfectly sealed room, the rivalry between he and Heiji Hattori heats up. Deceit and treachery are revealed, as Isao Tsujimura's killer is finally unmasked and their reasons to commit the crime are explained.",
         japaneseTitle: "外交官殺人事件. (Gaikōkan Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3296,12 +3395,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Kappei Yamaguchi as Shinichi Kudo Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Policeman, Next Conan's Hint Mari Arita as Kimie Tsujimura Aruno Tahara as Fumio Koike Yoshinobu Yamada as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Eiji Maruyama as Toshimitsu Tsujimura Saburo Kamei as Isao Tsujimura",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Chafurin as Juzo Megure", "Kappei Yamaguchi as Shinichi Kudo", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Policeman, Next Conan's Hint", "Mari Arita as Kimie Tsujimura", "Aruno Tahara as Fumio Koike", "Yoshinobu Yamada as Takayoshi Tsujimura", "Hirono Matsubara as Yukiko Katsuragi", "Eiji Maruyama as Toshimitsu Tsujimura", "Saburo Kamei as Isao Tsujimura"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Sports Club Murder Case",
         nextCase: "Library Murder Case »",
-
 
 
 
@@ -3327,6 +3425,9 @@ const allData = [
     {
         id: "50", isFiller: false, title: "50: Library Murder Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa", "Shinichi Kudo"],
+
+
+
         episodeDescription: "A routine afternoon at the library turns into the hunt for a corpse after an attendant turns up missing. When Conan and the Detective Boys try to solve the mystery by staying after-hours, they find themselves trapped, in the dark, and not alone. Will they catch the killer before he catches them?",
         japaneseTitle: "図書館殺人事件. (Toshokan Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3362,12 +3463,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Isshin Chiba as Police detective Ichiro Nagai as Shuji Tsugawa Kaoru Morota as Clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Kenichi Ogata as Hiroshi Agasa", "Isshin Chiba as Police detective", "Ichiro Nagai as Shuji Tsugawa", "Kaoru Morota as Clerk"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Diplomat Murder Case",
         nextCase: "The Golf Driving Range Murder Case »",
-
 
 
 
@@ -3396,6 +3496,9 @@ const allData = [
     {
         id: "51", isFiller: true, title: "51: The Golf Driving Range Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Juzo Megure", "Ran Mouri", "Yoko Okino", "Officer Tome"],
+
+
+
         episodeDescription: "A relaxing day at the driving range leads Kogoro, Ran, and Conan to their next explosive case, as the president of a leading electronics manufacturer meets an untimely end. With many suspects and few clues, will Conan unravel the mystery in time to catch a killer?",
         japaneseTitle: "ゴルフ練習場殺人事件. (Gorufu Renshūjō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3431,12 +3534,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Yuri Amano as Yoko Okino Takeshi Watabe as Eisuke TachibanaShinya Sakaguchi as Minoru Yasui Yukihiro Yoshida as Tatsuya Okubo Hiroaki Hirata as Tomofumi Minami Katsumi Chou as Katsuta Toshihiko Nakajima as Officer Tome Hideyuki Nakayama as Policeman Kuniko Asagi as Keiko Katsuta Wataru Takagi as Presenter, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Yuri Amano as Yoko Okino", "Takeshi Watabe as Eisuke TachibanaShinya Sakaguchi as Minoru Yasui", "Yukihiro Yoshida as Tatsuya Okubo", "Hiroaki Hirata as Tomofumi Minami", "Katsumi Chou as Katsuta", "Toshihiko Nakajima as Officer Tome", "Hideyuki Nakayama as Policeman", "Kuniko Asagi as Keiko Katsuta", "Wataru Takagi as Presenter, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Meikyū no Lovers",
         prevCase: "« Library Murder Case",
         nextCase: "The Mist Goblin Legend Murder Case »",
-
 
 
 
@@ -3461,6 +3563,9 @@ const allData = [
     {
         id: "52", isFiller: false, title: "52: The Mist Goblin Legend Murder Case (1 Hour Special)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo", "Juzo Megure", "Hiroshi Agasa", "Gin", "Vodka", "Seiji Asoh"],
+
+
+
         episodeDescription: "A baffling and seemingly impossible murder is committed at a secluded Mount Takao temple. Luckily Conan and Kogoro are on the scene. It is believed that the terrible Mist Goblin (Kiritengu), a creature with super strength, haunts the temple. Conan doesn't believe in goblins, but he may have to change his tune as the evidence suggests that the Mist Goblin may be more than just a legend.",
         japaneseTitle: "霧天狗伝説殺人事件. (Kiri-tengu Densetsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3497,12 +3602,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Kazuo Nogami. Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Jouji Yanami as Priest Tenei Kihachiro Uemura as Kannen Naoki Makishima as Tonnen Shunsuke Sakuya as Mokunen Masaki Kawanabe as Shunen Yukiko Iwai as Kikuno Isshin Chiba as Policeman A Wataru Takagi as Policeman B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Kenichi Ogata as Hiroshi Agasa", "Jouji Yanami as Priest Tenei", "Kihachiro Uemura as Kannen", "Naoki Makishima as Tonnen", "Shunsuke Sakuya as Mokunen", "Masaki Kawanabe as Shunen", "Yukiko Iwai as Kikuno", "Isshin Chiba as Policeman A", "Wataru Takagi as Policeman B, Next Conan's Hint"],
         openingSong: "Feel Your Heart",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Golf Driving Range Murder Case",
         nextCase: "The Mystery Weapon Murder Case »",
-
 
 
 
@@ -3538,6 +3642,9 @@ const allData = [
     {
         id: "53", isFiller: true, title: "53: The Mystery Weapon Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "After finding a wounded bird on the ground Conan, Kogoro, and Ran hear a loud scream coming from the building next to them. Once upon entering the building they find a terrified woman in the hall, screaming about how she has just found her husband dead. The murder victim on the balcony, believed to have been killed by a plant pot.",
         japaneseTitle: "謎の凶器殺人事件. (Nazo no Kyōki Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3572,12 +3679,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Hanae Otani",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Inspector Megure Masahiko Tanaka as Ryuusuke Imoto Yorie Terauchi as Takako Imoto Toshiya Ueda as Tetsuo Dobashi Yutaka Nakano as Norio Terasawa Toshihiko Nakajima as Tsuji Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Inspector Megure", "Masahiko Tanaka as Ryuusuke Imoto", "Yorie Terauchi as Takako Imoto", "Toshiya Ueda as Tetsuo Dobashi", "Yutaka Nakano as Norio Terasawa", "Toshihiko Nakajima as Tsuji", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Mist Goblin Legend Murder Case",
         nextCase: "Game Company Murder Case »",
-
 
 
 
@@ -3603,6 +3709,9 @@ const allData = [
     {
         id: "54", isFiller: false, title: "54: Game Company Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Tequila", "Gin", "Vodka"],
+
+
+
         episodeDescription: "Kogoro is invited to a party for the release of a game which stars himself. While there, Conan runs into a man who uses the alias Tequila and learns that he plans to meet with Gin and Vodka. Conan follows Tequila to the bathroom where an explosion occurs and kills the man. Conan investigates the explosion and realizes that it was a murder attempt but the wrong person was killed.",
         japaneseTitle: "ゲーム会社殺人事件. (Gēmu-gaisha Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3637,12 +3746,11 @@ const allData = [
 
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Takashi Hyodo (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Shuntaro Tanigawa as Hideaki Nakajima Yoshinobu Yamada as Koji Ueda Jin Horikawa as Hironobu Takeshita Yoshito Ishinami as Ishikawa Kousei Hirota as Tequila Yukiko Iwai as Attendant A Kaoru Morota as Attendant B Saeko Yoshizawa as Attendant C Isshin Chiba as Forensics officer A Wataru Takagi as Forensics officer B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Shuntaro Tanigawa as Hideaki Nakajima", "Yoshinobu Yamada as Koji Ueda", "Jin Horikawa as Hironobu Takeshita", "Yoshito Ishinami as Ishikawa", "Kousei Hirota as Tequila", "Yukiko Iwai as Attendant A", "Kaoru Morota as Attendant B", "Saeko Yoshizawa as Attendant C", "Isshin Chiba as Forensics officer A", "Wataru Takagi as Forensics officer B, Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Mystery Weapon Murder Case",
         nextCase: "The Train Trick Murder Case »",
-
 
 
 
@@ -3672,6 +3780,9 @@ const allData = [
     {
         id: "55", isFiller: true, title: "55: The Train Trick Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "As Kogoro, Ran, and Conan are on their way home from a hot spring in Komono, Mie Prefecture, they boarded a train together with a pair of doctors. They arrived at a station where one may change trains to another line, but no one could possibly change trains since the two lines are scheduled differently by a mere five-minute difference. At the station where the trio are to change trains to one going to Tokyo, a murder is discovered. The only suspect rides in the train with Conan's group while the victim rides on a train from a different line.",
         japaneseTitle: "列車トリック殺人事件. (Ressha Torikku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3706,12 +3817,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Susumu Ishizaki",
         characterDesign: "Masatomo Sudo. Mari Tominaga (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yoku Shioya as Taizo Sato Kazuhiko Inoue as Takashi Date Masaya Onosaka as Yosuke Kobayashi Isshin Chiba as Conductor Wataru Takagi Station attendant A, Next Conan's Hint Yukiko Iwai as Salesperson Takumi Yamazaki as Station announcement",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Yoku Shioya as Taizo Sato", "Kazuhiko Inoue as Takashi Date", "Masaya Onosaka as Yosuke Kobayashi", "Isshin Chiba as Conductor", "Wataru Takagi Station attendant A, Next Conan's Hint", "Yukiko Iwai as Salesperson", "Takumi Yamazaki as Station announcement"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Game Company Murder Case",
         nextCase: "The Ojamanbou Murder Case »",
-
 
 
 
@@ -3738,6 +3848,9 @@ const allData = [
     {
         id: "56", isFiller: true, title: "56: The Ojamanbou Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are out jogging when they are attracted to a scene of a murder. One of the owners of the Ojamanbou Cleaning Company has been killed by a falling beam.",
         japaneseTitle: "おじゃマンボウ殺人事件. (Ojamanbō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3772,12 +3885,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Yasuhiro Matsumura",
         characterDesign: "Masatomo Sudo. Takashi Hyodo (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Tsunehisa Fujii as Tsunehisa Fujii Hideyuki Nakayama as Hideyuki Nakayama Kuniko Asagi as Kuniko Asagi Kumiko Tsunoda as Kumiko Nakayama Isshin Chiba as Forensics officer Eiji Ooki as Cleaning staff Wataru Takagi as Detective, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Tsunehisa Fujii as Tsunehisa Fujii", "Hideyuki Nakayama as Hideyuki Nakayama", "Kuniko Asagi as Kuniko Asagi", "Kumiko Tsunoda as Kumiko Nakayama", "Isshin Chiba as Forensics officer", "Eiji Ooki as Cleaning staff", "Wataru Takagi as Detective, Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Train Trick Murder Case",
         nextCase: "Holmes Freak Murder Case »",
-
 
 
 
@@ -3805,6 +3917,9 @@ const allData = [
     {
         id: "57", isFiller: false, title: "57: Holmes Freak Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Conan enters a Sherlock Holmes contest to win a rare first-edition book and persuades Ran Mouri and Kogoro to attend. Once at the place of the contest, everyone must take a 1000-question test about Sherlock Holmes. Heiji also attends and reveals to Ran that he thought he would meet Shinichi there. Later that day, Hiroyuki Kanaya, the host, is seen driving his car off a cliff and into the ocean.",
         japaneseTitle: "ホームズフリーク殺人事件. (Hōmuzu Furīku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3839,12 +3954,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Kazuhiko Kishino as Toshiaki Fujisawa Shinobu Sato as Nanako Shimizu Hidenari Ugaki as Ikuo Kawatsu Yukiko Iwai as Hitomi Iwai Kiyoshi Kawakubo as Hiroyuki Kanaya Miyuki Ichijou as Maria Toda Katsumi Toriumi as Kento Togano Yurika Hino as Ayako Oki Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Kazuhiko Kishino as Toshiaki Fujisawa", "Shinobu Sato as Nanako Shimizu", "Hidenari Ugaki as Ikuo Kawatsu", "Yukiko Iwai as Hitomi Iwai", "Kiyoshi Kawakubo as Hiroyuki Kanaya", "Miyuki Ichijou as Maria Toda", "Katsumi Toriumi as Kento Togano", "Yurika Hino as Ayako Oki", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Ojamanbou Murder Case",
         nextCase: "The First Errand Murder Case »",
-
 
 
 
@@ -3867,6 +3981,9 @@ const allData = [
     {
         id: "58", isFiller: false, title: "58: Holmes Freak Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "After Conan reveals his insight, Heiji believes Conan is actually Shinichi Kudo. Heiji reveals that, when Kanaya was in the car, his body had already undergone rigor mortis. At that moment, Conan and Heiji realize who the murderer is. Heiji decides to wait for Conan to solve the case in order to see if he really is Shinichi. Conan tranquilizes Heiji and makes his deduction.",
         japaneseTitle: "ホームズフリーク殺人事件. (Hōmuzu Furīku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3901,12 +4018,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Kazuhiko Kishino as Toshiaki Fujisawa Shinobu Sato as Nanako Shimizu Hidenari Ugaki as Ikuo Kawatsu Yukiko Iwai as Hitomi Iwai Kiyoshi Kawakubo as Hiroyuki Kanaya Miyuki Ichijou as Maria Toda Katsumi Toriumi as Kento Togano Yurika Hino as Ayako Oki Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Kazuhiko Kishino as Toshiaki Fujisawa", "Shinobu Sato as Nanako Shimizu", "Hidenari Ugaki as Ikuo Kawatsu", "Yukiko Iwai as Hitomi Iwai", "Kiyoshi Kawakubo as Hiroyuki Kanaya", "Miyuki Ichijou as Maria Toda", "Katsumi Toriumi as Kento Togano", "Yurika Hino as Ayako Oki", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Ojamanbou Murder Case",
         nextCase: "The First Errand Murder Case »",
-
 
 
 
@@ -3933,6 +4049,9 @@ const allData = [
     {
         id: "59", isFiller: true, title: "59: The First Errand Murder Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Shinichi Kudo", "Kamen Yaiba"],
+
+
+
         episodeDescription: "The Detective Boys are back on the case when a young boy finds himself the unknowing target of a killer. Conan and his friends must use all their deductive powers to protect the tiny tot and bring a murderer to justice before he strikes again.",
         japaneseTitle: "初めてのお使い殺人事件. (Hajimete no Otsukai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -3967,12 +4086,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Shinichi Kudo (young) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Tetsuo Kanao as Murase Isshin Chiba as Liquor store clerk Shoko Kikuchi as Izumi Yasuhiro Takato as Driver Mika Watanabe as Hiroshi",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Shinichi Kudo (young)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Tetsuo Kanao as Murase", "Isshin Chiba as Liquor store clerk", "Shoko Kikuchi as Izumi", "Yasuhiro Takato as Driver", "Mika Watanabe as Hiroshi"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Holmes Freak Murder Case",
         nextCase: "An Illustrator Murder Case »",
-
 
 
 
@@ -4007,6 +4125,9 @@ const allData = [
     {
         id: "60", isFiller: false, title: "60: An Illustrator Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure"],
+
+
+
         episodeDescription: "Kenjin Hanaoka is a popular painter who seems to have everything that a man could want: his own design firm, best selling books, and untold wealth. But when he decides to eat the forbidden fruit and have an affair with one of his pretty, young illustrators his life starts to come apart at the seams. But rather than face the consequences of his mistakes, Hanaoka tries to cover them up in a brutal and bloody manner. Can Conan see through his ingenious plot and expose Hanaoka for what he really is?",
         japaneseTitle: "イラストレーター殺人事件. (Irasutorētā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4041,12 +4162,11 @@ const allData = [
 
         storyboard: "Masashi Abe",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Jun Hazumi as Kenjin Hanaoka Sanae Noguchi as Izumi Chono Takashi Yanase as Man A Masahito Yabe as Tanaka Wataru Takagi as Bike courier, Next Conan's Hint Isshin Chiba as Forensics officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Jun Hazumi as Kenjin Hanaoka", "Sanae Noguchi as Izumi Chono", "Takashi Yanase as Man A", "Masahito Yabe as Tanaka", "Wataru Takagi as Bike courier, Next Conan's Hint", "Isshin Chiba as Forensics officer"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The First Errand Murder Case",
         nextCase: "A Ghost Ship Murder Case »",
-
 
 
 
@@ -4073,6 +4193,9 @@ const allData = [
     {
         id: "61", isFiller: true, title: "61: A Ghost Ship Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "Ran and Conan accompany Kogoro to Shiki Island, a very superstitious island, where many of the residents believe in local legends. Kogoro was invited here to make a speech about a ghost ship that had been lost at sea seven years before. Kogoro arrives on stage completely drunk. A miniature bomb explodes, nearly killing him.",
         japaneseTitle: "幽霊船殺人事件. (Yūreisen Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4107,12 +4230,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "61 Hirohito Ochi. 62 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Eisuke Yoda as Goro Kinoshita Kosei Tomita as Takeo Mikami Chisa Yokoyama as Suzu Mikami Hidetoshi Nakamura as Yasuo Uehara Kazuaki Ito as Kouji Hamada Toshihiko Nakajima as Resident Isshin Chiba as Farmer A, Youth 1 Wataru Takagi as Farmer B, Youth 2, Next Conan's Hint Yasuhiro Takato as Villager",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Eisuke Yoda as Goro Kinoshita", "Kosei Tomita as Takeo Mikami", "Chisa Yokoyama as Suzu Mikami", "Hidetoshi Nakamura as Yasuo Uehara", "Kazuaki Ito as Kouji Hamada", "Toshihiko Nakajima as Resident", "Isshin Chiba as Farmer A, Youth 1", "Wataru Takagi as Farmer B, Youth 2, Next Conan's Hint", "Yasuhiro Takato as Villager"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« An Illustrator Murder Case",
         nextCase: "Big Monster Gomera Murder Case »",
-
 
 
 
@@ -4134,6 +4256,9 @@ const allData = [
     {
         id: "62", isFiller: true, title: "62: A Ghost Ship Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "Conan proves that Kogoro did not kill the caretaker. Next, Conan enters the cave to show that the sounds were from the wind in the tunnels. But before he can Suzu finds him and threatens to tell, unless conan kisses her that is. So after a quick peck on the cheek they both head into the cave. Conan finds a staircase which breaks away to reveal another dead man and the killer. Conan deduces that the ghost ship was stuck in this part of the cave for seven years due to a cave-in. Conan finds the gold hidden in the bricks of the staircase covered in moss. Another cave-in occurs, forcing Conan and the killer to leave. The gold is sealed inside the cave.",
         japaneseTitle: "幽霊船殺人事件. (Yūreisen Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4168,12 +4293,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "61 Hirohito Ochi. 62 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Eisuke Yoda as Goro Kinoshita Kosei Tomita as Takeo Mikami Chisa Yokoyama as Suzu Mikami Hidetoshi Nakamura as Yasuo Uehara Kazuaki Ito as Kouji Hamada Toshihiko Nakajima as Resident Isshin Chiba as Farmer A, Youth 1 Wataru Takagi as Farmer B, Youth 2, Next Conan's Hint Yasuhiro Takato as Villager",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Eisuke Yoda as Goro Kinoshita", "Kosei Tomita as Takeo Mikami", "Chisa Yokoyama as Suzu Mikami", "Hidetoshi Nakamura as Yasuo Uehara", "Kazuaki Ito as Kouji Hamada", "Toshihiko Nakajima as Resident", "Isshin Chiba as Farmer A, Youth 1", "Wataru Takagi as Farmer B, Youth 2, Next Conan's Hint", "Yasuhiro Takato as Villager"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« An Illustrator Murder Case",
         nextCase: "Big Monster Gomera Murder Case »",
-
 
 
 
@@ -4201,6 +4325,9 @@ const allData = [
     {
         id: "63", isFiller: false, title: "63: Big Monster Gomera Murder Case",
         appearances: ["Conan Edogawa", "Hiroshi Agasa", "Detective Boys", "Juzo Megure", "Ran Mouri", "Tomomi Sakaguchi"],
+
+
+
         episodeDescription: "Conan and the Detective Boys visit the film set of their favorite monster, Gomera, and stumble onto a real-life murder. The most puzzling aspect of the case is the prime suspect: Gomera. The kids must uncover the truth behind the grizzly killing before the death toll rises higher.",
         japaneseTitle: "大怪獣ゴメラ殺人事件. (Ōkaijū Gomera Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4235,12 +4362,11 @@ const allData = [
 
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Chafurin as Juzo Megure Fumito Yamano as Daisuke Mikami Katsuhisa Houki as Ryota Adachi Katsuhiro Kitagawa as Shugo Matsui Atsuko Yuya as Tomomi Sakaguchi Takehiro Koyama as Osamu Kamei Isshin Chiba as AD Yasuhiro Takato as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Chafurin as Juzo Megure", "Fumito Yamano as Daisuke Mikami", "Katsuhisa Houki as Ryota Adachi", "Katsuhiro Kitagawa as Shugo Matsui", "Atsuko Yuya as Tomomi Sakaguchi", "Takehiro Koyama as Osamu Kamei", "Isshin Chiba as AD", "Yasuhiro Takato as Policeman"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« A Ghost Ship Murder Case",
         nextCase: "The Third Fingerprint Murder Case »",
-
 
 
 
@@ -4270,6 +4396,9 @@ const allData = [
     {
         id: "64", isFiller: true, title: "64: The Third Fingerprint Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "第3の指紋殺人事件. (Daisan no Shimon Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4304,12 +4433,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Hidekatsu Shibata as Inspector Teraoka Seiko Fujiki as Misako Teraoka Wataru Takagi as Kamen Yaiba, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Hidekatsu Shibata as Inspector Teraoka", "Seiko Fujiki as Misako Teraoka", "Wataru Takagi as Kamen Yaiba, Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Big Monster Gomera Murder Case",
         nextCase: "A Crab and Whale Kidnapping Case »",
-
 
 
 
@@ -4336,6 +4464,9 @@ const allData = [
     {
         id: "65", isFiller: true, title: "65: A Crab and Whale Kidnapping Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Kamen Yaiba"],
+
+
+
         episodeDescription: "A relaxing night out turns into the search for a kidnapped little boy, as Kogoro Ran, and Conan come to the aide of a desperate father in his hour of need. As they search to find the truth, nothing is certain, except the kidnapper's deadly ultimatum: No police, no mercy, no time.",
         japaneseTitle: "カニとクジラ誘拐事件. (Kani to Kujira Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -4370,12 +4501,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Masashi Abe",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Masashi Ebara as Keigo Endo Yumi Fukamizu as Keita Endo Shinya Otaki as Komuro Emiko Matsuoka as Naomi Wataru Takagi as Taxi driver, Next Conan's Hint Isshin Chiba as Aquarium staff",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Masashi Ebara as Keigo Endo", "Yumi Fukamizu as Keita Endo", "Shinya Otaki as Komuro", "Emiko Matsuoka as Naomi", "Wataru Takagi as Taxi driver, Next Conan's Hint", "Isshin Chiba as Aquarium staff"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« The Third Fingerprint Murder Case",
         nextCase: "Night Road Murder Case »",
-
 
 
 
@@ -4402,6 +4532,9 @@ const allData = [
     {
         id: "66", isFiller: true, title: "66: Night Road Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Jun Omura", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan ate at the restaurant until they met an old friend, Jun Omura.",
         japaneseTitle: "暗闇の道殺人事件. (Kurayami no Michi Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4436,12 +4569,11 @@ const allData = [
         screenplay: "Yutaka Yamada",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Takaya Hashi as Jun Omura Gou Aoba as Yoshiro Ikuta Fumiya Yazaki as Masami Kusaka Shigeru Sakano as Yoichi Shimizu Mitsuru Miyamoto as Kouji Takeno Seiji Sasaki as Hidenori Nakamura Isshin Chiba as Forensics officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Takaya Hashi as Jun Omura", "Gou Aoba as Yoshiro Ikuta", "Fumiya Yazaki as Masami Kusaka", "Shigeru Sakano as Yoichi Shimizu", "Mitsuru Miyamoto as Kouji Takeno", "Seiji Sasaki as Hidenori Nakamura", "Isshin Chiba as Forensics officer"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« A Crab and Whale Kidnapping Case",
         nextCase: "Stage Actress Murder Case »",
-
 
 
 
@@ -4470,6 +4602,9 @@ const allData = [
     {
         id: "67", isFiller: true, title: "67: Stage Actress Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Kogoro is given a case to solve the sender of a threat note. His teacher Heihachiro Shiota appears at his house and decides to go to the theater, too. Conan and Ran tag along. Kogoro's case turns into a murder, but he soon breaks his backbone before Conan can solve it.",
         japaneseTitle: "舞台女優殺人事件. (Butai Joyū Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4504,12 +4639,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Takkou Ishimori as Heihachiro Shiota Masaharu Satou as Kazuo Motoki Yumi Touma as Hitomi Sasaki Ai Uchikawa as Shoko Oide Kaya Matsutani as Eiko Nakayama Yu Shimaka as Junichi Tateoka Kenichi Ono as Yuuichi Uda Kujira as Mrs. Shiota Isshin Chiba as Forensics officer Yukiko Iwai as Female group member A Miwa Yanagihara as Female group member B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Takkou Ishimori as Heihachiro Shiota", "Masaharu Satou as Kazuo Motoki", "Yumi Touma as Hitomi Sasaki", "Ai Uchikawa as Shoko Oide", "Kaya Matsutani as Eiko Nakayama", "Yu Shimaka as Junichi Tateoka", "Kenichi Ono as Yuuichi Uda", "Kujira as Mrs. Shiota", "Isshin Chiba as Forensics officer", "Yukiko Iwai as Female group member A", "Miwa Yanagihara as Female group member B"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Night Road Murder Case",
         nextCase: "Night Baron Murder Case »",
-
 
 
 
@@ -4537,6 +4671,9 @@ const allData = [
     {
         id: "68", isFiller: false, title: "68: Night Baron Murder Case (The Case)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
+
+
+
         episodeDescription: "At a beach in Izu, Conan mentally grumbles about being stuck outside of Tokyo when he should be looking for Gin and Vodka until Ran, with her voluptuous figure, convinces him to come swimming with her. However, when they check into their hotel, the reservations Agasa turned over to them has a catch. It's only half paid for. Agasa signed up for a 'mystery tour'. If Conan can figure out who of the ten guests in the tour is the sponsor, the other half of the reservation will be covered and he will also receive a certain computer program. Before Conan can remember what Agasa said was the sponsor's name, Kogoro is asked by another hotel patron if he is the 'Night Baron', a character from Yusaku Kudo's novels. Kogoro reacts with confusion, and the man records the reaction as part of his dataset for determining who is the Night Baron, the alias the tour sponsor.",
         japaneseTitle: "闇の男爵(ナイトバロン)殺人事件. (Naito Baron Satsujin Jiken). 68 事件編 (Jiken-hen). 69 疑惑編 (Giwaku-hen). 70 解決編 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -4572,12 +4709,11 @@ const allData = [
 
         storyboard: "68 Masato Sato. 69 Masato Sato. 70 Akio Kawamura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Akio Otsuka as Sango Yokomizo Sho Hayami as Shiro Konno Shigezo Sasaoka as Tokio Ebara Hiroshi Ito as Genichirou Kaneshiro Rin Mizuhara as Shizue Hayashi Chieko Enomoto as Hideko Kamijo Taro Arakawa as Satoru Maeda Chieko Honda as Akiko Sayama Isshin Chiba as Manager, Policeman A, Forensics officer A Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint Yukiko Iwai as Customer, Waitress Yasuhiro Takato as Officer Misawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Akio Otsuka as Sango Yokomizo", "Sho Hayami as Shiro Konno", "Shigezo Sasaoka as Tokio Ebara", "Hiroshi Ito as Genichirou Kaneshiro", "Rin Mizuhara as Shizue Hayashi", "Chieko Enomoto as Hideko Kamijo", "Taro Arakawa as Satoru Maeda", "Chieko Honda as Akiko Sayama", "Isshin Chiba as Manager, Policeman A, Forensics officer A", "Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint", "Yukiko Iwai as Customer, Waitress", "Yasuhiro Takato as Officer Misawa"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Stage Actress Murder Case",
         nextCase: "A Stalker's Murder Case »",
-
 
 
 
@@ -4601,6 +4737,9 @@ const allData = [
     {
         id: "69", isFiller: false, title: "69: Night Baron Murder Case (The Suspicion)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
+
+
+
         episodeDescription: "Conan and Ran hear about the death of someone 'in a mask' and go to look. Conan slips through the police barrier only to be stopped by Inspector Yokomizo, who was recently transferred from Saitama to Shizuoka. While Yokomizo explains this to Ran, Conan sneaks the mask off to reveal Ebara. Ran recognizes him and explain the tour to Yokomizo while Conan discovers Ebara only has one glove on, and his costume's tie tied backwards. Yokomizo assumes Ebara was the sponsor but wonders whether the death is suicide or accident and asks where Kogoro is. Hideko tells them he's still in the bar, but stays to look at the body. Conan realizes that behind her sunglasses, she is crying.",
         japaneseTitle: "闇の男爵(ナイトバロン)殺人事件. (Naito Baron Satsujin Jiken). 68 事件編 (Jiken-hen). 69 疑惑編 (Giwaku-hen). 70 解決編 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -4636,12 +4775,11 @@ const allData = [
 
         storyboard: "68 Masato Sato. 69 Masato Sato. 70 Akio Kawamura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Akio Otsuka as Sango Yokomizo Sho Hayami as Shiro Konno Shigezo Sasaoka as Tokio Ebara Hiroshi Ito as Genichirou Kaneshiro Rin Mizuhara as Shizue Hayashi Chieko Enomoto as Hideko Kamijo Taro Arakawa as Satoru Maeda Chieko Honda as Akiko Sayama Isshin Chiba as Manager, Policeman A, Forensics officer A Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint Yukiko Iwai as Customer, Waitress Yasuhiro Takato as Officer Misawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Akio Otsuka as Sango Yokomizo", "Sho Hayami as Shiro Konno", "Shigezo Sasaoka as Tokio Ebara", "Hiroshi Ito as Genichirou Kaneshiro", "Rin Mizuhara as Shizue Hayashi", "Chieko Enomoto as Hideko Kamijo", "Taro Arakawa as Satoru Maeda", "Chieko Honda as Akiko Sayama", "Isshin Chiba as Manager, Policeman A, Forensics officer A", "Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint", "Yukiko Iwai as Customer, Waitress", "Yasuhiro Takato as Officer Misawa"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Stage Actress Murder Case",
         nextCase: "A Stalker's Murder Case »",
-
 
 
 
@@ -4667,6 +4805,9 @@ const allData = [
     {
         id: "70", isFiller: false, title: "70: Night Baron Murder Case (The Resolution)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Night Baron", "Gin", "Vodka", "Satoru Maeda"],
+
+
+
         episodeDescription: "In their hotel room, Ran sits miserably on the bed with the knowledge that only a certain person could have blocked her kick the way Night Baron did. Unsure what to do with the knowledge, she wishes for Shinichi to tell her what to do. A knock on the door interrupts her; she opens the door as far as the anti-theft lock allows to find Conan, who declares his experiment successful because she didn't close the lock herself. He notices her face and asks if she was crying, but she passes it off as yawning and Conan runs off again. He ends up in the same elevator as the two policeman, and as he ponders the suspects he overhears that the officer who was guarding Ebara's body and overpowered was himself a strong practitioner of karate. Like Ran earlier, Conan suddenly wonders if the identity of Night Baron may, in fact, be karate champion Satoru Maeda. But Ran confirms that Maeda has a perfect alibi because he was giving autographs to his fans. So Conan dismisses him as a killer and still wonders who did it. Talking to one of the hotel maids, Conan learns that the wind that blows in this time of the year is a famous one named 'Himekaze' aka 'Princess Wind', and it blows in a very special direction. Thanks to that, he finally figures out who the killer is.",
         japaneseTitle: "闇の男爵(ナイトバロン)殺人事件. (Naito Baron Satsujin Jiken). 68 事件編 (Jiken-hen). 69 疑惑編 (Giwaku-hen). 70 解決編 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -4702,12 +4843,11 @@ const allData = [
 
         storyboard: "68 Masato Sato. 69 Masato Sato. 70 Akio Kawamura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Akio Otsuka as Sango Yokomizo Sho Hayami as Shiro Konno Shigezo Sasaoka as Tokio Ebara Hiroshi Ito as Genichirou Kaneshiro Rin Mizuhara as Shizue Hayashi Chieko Enomoto as Hideko Kamijo Taro Arakawa as Satoru Maeda Chieko Honda as Akiko Sayama Isshin Chiba as Manager, Policeman A, Forensics officer A Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint Yukiko Iwai as Customer, Waitress Yasuhiro Takato as Officer Misawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Akio Otsuka as Sango Yokomizo", "Sho Hayami as Shiro Konno", "Shigezo Sasaoka as Tokio Ebara", "Hiroshi Ito as Genichirou Kaneshiro", "Rin Mizuhara as Shizue Hayashi", "Chieko Enomoto as Hideko Kamijo", "Taro Arakawa as Satoru Maeda", "Chieko Honda as Akiko Sayama", "Isshin Chiba as Manager, Policeman A, Forensics officer A", "Wataru Takagi as Customer, Policeman B, Forensics officer B, Next Conan's Hint", "Yukiko Iwai as Customer, Waitress", "Yasuhiro Takato as Officer Misawa"],
         openingSong: "Nazo",
         endingSong: "Hikari to Kage no Roman",
         prevCase: "« Stage Actress Murder Case",
         nextCase: "A Stalker's Murder Case »",
-
 
 
 
@@ -4736,6 +4876,9 @@ const allData = [
     {
         id: "71", isFiller: true, title: "71: A Stalker's Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Detective Boys"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan go on a hiking trip. While walking, Kogoro noticed a vending machine and decided to buy a bottle of 'Guts-man' as he was suffering from a lack of sleep. He found an extra bottle in the machine and decided to take it. After careful examination of the bottle, he decided to drink it. While he was drinking the extra bottle a passing woman screams.",
         japaneseTitle: "ストーカー殺人事件. (Sutōkā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4772,12 +4915,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Miki Itō as Miho Nishitani Isshin Chiba as Policeman Naoki Makishima as Forensics officer Toshihiko Nakajima as Middle-aged man",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Miki Itō as Miho Nishitani", "Isshin Chiba as Policeman", "Naoki Makishima as Forensics officer", "Toshihiko Nakajima as Middle-aged man"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Night Baron Murder Case",
         nextCase: "The Triplet's Country Home Murder Case »",
-
 
 
 
@@ -4805,6 +4947,9 @@ const allData = [
     {
         id: "72", isFiller: false, title: "72: The Triplet's Country Home Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Ayako Suzuki", "Sango Yokomizo", "Yuzo Tomizawa"],
+
+
+
         episodeDescription: "Ran and Conan are at Sonoko's place for her big sister, Ayako. Ayako is getting married so she’s there to meet her new dad-in-law. However, when they are at their house, they witness a murder outside in the rain. The victim is the dad-in-law, Tetsuharu Tomizawa. The killer at first looks like Ayako's fiancé, but then they find out he's the younger of triplet sons, and nevermind their more or less different looks they all have the same eyes, the only part of the killer that Ayako, Sonoko, Ran, and Conan saw. Which of the triplets is the real murderer: eldest son Taichi, second son Tatsuji, or youngest son Yuzo?",
         japaneseTitle: "三つ子別荘殺人事件. (Mitsugo Bessō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4839,12 +4984,11 @@ const allData = [
 
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chiharu Suzuka as Ayako Suzuki Akio Otsuka as Sango Yokomizo Hirotaka Suzuoki as Taichi Tomizawa Keiichi Nanba as Tatsuji Tomizawa Yasunori Matsumoto as Yuzo Tomizawa Hikaru Miyata as Tetsuharu Tomizawa Isshin Chiba as TV announcer, Officer Chiba Wataru Takagi as TV announcer, Next Conan's Hint Yukiko Iwai as Answering machine voice",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Chiharu Suzuka as Ayako Suzuki", "Akio Otsuka as Sango Yokomizo", "Hirotaka Suzuoki as Taichi Tomizawa", "Keiichi Nanba as Tatsuji Tomizawa", "Yasunori Matsumoto as Yuzo Tomizawa", "Hikaru Miyata as Tetsuharu Tomizawa", "Isshin Chiba as TV announcer, Officer Chiba", "Wataru Takagi as TV announcer, Next Conan's Hint", "Yukiko Iwai as Answering machine voice"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« A Stalker's Murder Case",
         nextCase: "The Detective Boys' Disaster Case »",
-
 
 
 
@@ -4871,6 +5015,9 @@ const allData = [
     {
         id: "73", isFiller: true, title: "73: The Detective Boys' Disaster Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Detective Boys"],
+
+
+
         episodeDescription: "The Detective Boys and the Mouri family go to a water park and witness the dysfunctional interaction of a girl named Shinobu and her fiancée Kasuga. Some time later the kids discovers an S.O.S. which Teruhiko Kasuga claims is false, but Shinobu is nowhere to be found. What is he trying to hide, and can the Detective Boys save whoever the victim is, or will they meet their tragic fate?",
         japaneseTitle: "少年探偵団遭難事件. (Shōnen Tantei-dan Sōnan Jiken)",
         titleInOtherLanguages: [
@@ -4905,12 +5052,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Toshihiko Seki as Teruhiko Kasuga Waka Kanda as Shinobu Masaaki Tsukada as Old man",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Toshihiko Seki as Teruhiko Kasuga", "Waka Kanda as Shinobu", "Masaaki Tsukada as Old man"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Triplet's Country Home Murder Case",
         nextCase: "The Death God Jinnai Murder Case »",
-
 
 
 
@@ -4940,6 +5086,9 @@ const allData = [
     {
         id: "74", isFiller: true, title: "74: The Death God Jinnai Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Officer Tome"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are at a movie premier of Jinnai King of Death VIII. After the show they see Hayato Nanjo greeting fans, he plays Jinnai in the movie. Then Kogoro is spotted by Hayato's wife who shows him a death threat that says Hayato will die at midnight just like in the movie. His wife is worried but Hayato brushes it off. Reporters and Kogoro have a stake out when Jinnai appears and makes for Hayato's room. They arrive by elevator and when Kogoro comes out he trips on vinyl tape. They hear a scream and Hayato's dead with a bullet to the head.",
         japaneseTitle: "死神陣内殺人事件. (Shinigami Jin'nai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -4974,12 +5123,11 @@ const allData = [
         screenplay: "Masahiro Yokotani",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Toshihiko Nakajima as Officer Tome Yoshizou Yamaguchi as Hayato Nanjo Naoko Kouda as Miyuki Nanjo Rei Sakuma as Satomi Yoshino Yutaka Nakano as Tadao Ohno Isshin Chiba as Hiroyuki Kitano Yasuhiro Takato as AD Shinichi Kotani as Cameraman Wataru Takagi as Policeman, Next Conan's Hint Yukiko Iwai as Female reporter",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Toshihiko Nakajima as Officer Tome", "Yoshizou Yamaguchi as Hayato Nanjo", "Naoko Kouda as Miyuki Nanjo", "Rei Sakuma as Satomi Yoshino", "Yutaka Nakano as Tadao Ohno", "Isshin Chiba as Hiroyuki Kitano", "Yasuhiro Takato as AD", "Shinichi Kotani as Cameraman", "Wataru Takagi as Policeman, Next Conan's Hint", "Yukiko Iwai as Female reporter"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Detective Boys' Disaster Case",
         nextCase: "Loan Company President's Murder Case »",
-
 
 
 
@@ -5006,6 +5154,9 @@ const allData = [
     {
         id: "75", isFiller: false, title: "75: Loan Company President's Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Forensic member"],
+
+
+
         episodeDescription: "Kogoro, Ran, Conan, and some of Kogoro's friends are at a Mahjong hall. One of his friends leave so now they're missing a player. They call Hida who says he'll be there in half an hour. He doesn't show so the gang goes to investigate. They run into Minamizawa who says he forgot his cell phone. They go to check on Hida who's dead.",
         japaneseTitle: "金融会社社長殺人事件. (Kinyū Kaisha Shachō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5040,12 +5191,11 @@ const allData = [
 
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Saburo Kamei as Mitsuhiro Hida Shigeru Ushiyama as Hisayoshi Minamizawa Yūko Kobayashi as Takako Fujii Koji Ishii as Hiroshi Iino Hitoshi Hirao as Okano Katsumi Suzuki as Hasegawa Toshihiko Nakajima as Forensics officer A Isshin Chiba as Forensics officer B Yukiko Iwai as Game audio",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Saburo Kamei as Mitsuhiro Hida", "Shigeru Ushiyama as Hisayoshi Minamizawa", "Yūko Kobayashi as Takako Fujii", "Koji Ishii as Hiroshi Iino", "Hitoshi Hirao as Okano", "Katsumi Suzuki as Hasegawa", "Toshihiko Nakajima as Forensics officer A", "Isshin Chiba as Forensics officer B", "Yukiko Iwai as Game audio"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Death God Jinnai Murder Case",
         nextCase: "Conan vs. Kaitou Kid »",
-
 
 
 
@@ -5072,6 +5222,9 @@ const allData = [
     {
         id: "76", isFiller: false, title: "76: Conan vs. Kaitou Kid (1 Hour Special)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Hiroshi Agasa", "Kaitou Kid", "Kaito Kuroba", "Ginzo Nakamori", "Shintaro Chaki", "Ayako Suzuki", "Aoko Nakamori", "Joji Hatamoto", "Takuya Mifune", "Yuzo Tomizawa", "Kazumi Sanada", "Shiro Suzuki", "Tomoko Suzuki", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Sonoko's family wants Kogoro to protect their priceless piece of jewelry called the Black Star from the Phantom Thief. The necklace along with other valuables will be on display at a museum where people are sure the Phantom will strike. The Phantom left a coded letter to Sonoko's father and its the first clue.",
         japaneseTitle: "コナンVS怪盗キッド. (Konan VS Kaitō Kiddo)",
         titleInOtherLanguages: [
@@ -5107,12 +5260,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai. Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki Kappei Yamaguchi as Kaitou Kid, Kaito Kuroba Fumio Matsuoka as Shiro Suzuki Nobuo Tanaka as Shintaro Chaki Unsho Ishizuka as Ginzo Nakamori Miru Hitotsuyanagi as Tomoko Suzuki Chiharu Suzuka as Ayako Suzuki Kinryuu Arimoto as Joji Hatamoto Hitoshi Ooya as Takuya Mifune Yasunori Matsumoto as Yuzo Tomizawa Ryotaro Okiayu as Kazumi Sanada Wataru Takagi as Detective A, Next Conan's Hint Masaki Aizawa as Detective B Isshin Chiba as Helicopter pilot Yukiko Iwai as Aoko Nakamori",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Naoko Matsui as Sonoko Suzuki", "Kappei Yamaguchi as Kaitou Kid, Kaito Kuroba", "Fumio Matsuoka as Shiro Suzuki", "Nobuo Tanaka as Shintaro Chaki", "Unsho Ishizuka as Ginzo Nakamori", "Miru Hitotsuyanagi as Tomoko Suzuki", "Chiharu Suzuka as Ayako Suzuki", "Kinryuu Arimoto as Joji Hatamoto", "Hitoshi Ooya as Takuya Mifune", "Yasunori Matsumoto as Yuzo Tomizawa", "Ryotaro Okiayu as Kazumi Sanada", "Wataru Takagi as Detective A, Next Conan's Hint", "Masaki Aizawa as Detective B", "Isshin Chiba as Helicopter pilot", "Yukiko Iwai as Aoko Nakamori"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Loan Company President's Murder Case",
         nextCase: "Distinguished Family's Consecutive Accidental Death Case »",
-
 
 
 
@@ -5149,6 +5301,9 @@ const allData = [
     {
         id: "77", isFiller: false, title: "77: Distinguished Family's Consecutive Accidental Death Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Juzo Megure", "Wataru Takagi", "Heizo Hattori", "Seiji Asoh", "Shinichi Kudo", "Yamada"],
+
+
+
         episodeDescription: "Kogoro is recommended by someone to a wealthy family for a routine assignment: the very old and sickly leader of the clan, Dousan Nagato, wishes to find his first love before he dies. With the police roaming around the house, though, Conan begins to wonder if that's really all there is to it. His answer comes when suddenly, Heiji Hattori joins the group alongside his father Heizo, an old friend of the chairman who was supposed to take up the case, but recomended Kogoro instead. Bad thing, Heiji calls out to Conan by his actual name of 'Shinichi Kudo' (not knowing that Conan hasn't told Ran and Kogoro about his identity), and they have to make up a quick lie to cover up.",
         japaneseTitle: "名家連続変死事件. (Meika Renzoku Henshi Jiken)",
         titleInOtherLanguages: [
@@ -5185,12 +5340,11 @@ const allData = [
 
         storyboard: "77 Kenji Kodama. 78 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Cook, Next Conan's Hint Takehiro Koyama as Heizo Hattori Yonehiko Kitagawa as Dosan Nagato Kaoru Matsuno as Nobuko Nagato Keiko Aizawa as Yasue Nagato Kousei Hirota as Hideomi Nagato Ryoichi Tanaka as Mitsuaki Nagato Kousei Yagi as Kuranosuke Take Rica Fukami as Miyuki Hyuga Isshin Chiba as Medical examiner, Security guard A Yasuhiro Takato as Policeman, Security guard B Yukiko Iwai as Maid Naoki Makishima as Yamada",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Cook, Next Conan's Hint", "Takehiro Koyama as Heizo Hattori", "Yonehiko Kitagawa as Dosan Nagato", "Kaoru Matsuno as Nobuko Nagato", "Keiko Aizawa as Yasue Nagato", "Kousei Hirota as Hideomi Nagato", "Ryoichi Tanaka as Mitsuaki Nagato", "Kousei Yagi as Kuranosuke Take", "Rica Fukami as Miyuki Hyuga", "Isshin Chiba as Medical examiner, Security guard A", "Yasuhiro Takato as Policeman, Security guard B", "Yukiko Iwai as Maid", "Naoki Makishima as Yamada"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Conan vs. Kaitou Kid",
         nextCase: "The Bank Heist Murder Case »",
-
 
 
 
@@ -5213,6 +5367,9 @@ const allData = [
     {
         id: "78", isFiller: false, title: "78: Distinguished Family's Consecutive Accidental Death Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Juzo Megure", "Wataru Takagi", "Heizo Hattori", "Seiji Asoh", "Shinichi Kudo", "Yamada"],
+
+
+
         episodeDescription: "Hideomi's corpse is pulled out of the water, and Yasue mourns him heavily. The forensic expert says Hideomi's been dead for at least two days, so Megure thinks that he might have killed Mitsuaki and drowned himself immediately afterwards. There's a flaw in that theory, however: Hideomi's death was caused by poisoning, NOT by drowning. Since there were many stones in his pockets, they wonder if Hideomi first took poison and then threw himself in the pond, the stones pulling his body to the bottom so he wouldn't found. Nobuko adds that, by the time Mitsuaki married Yasue, Hideomi never managed to see him as his brother-in-law, even when he didn't openly object to their marriage.",
         japaneseTitle: "名家連続変死事件. (Meika Renzoku Henshi Jiken)",
         titleInOtherLanguages: [
@@ -5249,12 +5406,11 @@ const allData = [
 
         storyboard: "77 Kenji Kodama. 78 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Cook, Next Conan's Hint Takehiro Koyama as Heizo Hattori Yonehiko Kitagawa as Dosan Nagato Kaoru Matsuno as Nobuko Nagato Keiko Aizawa as Yasue Nagato Kousei Hirota as Hideomi Nagato Ryoichi Tanaka as Mitsuaki Nagato Kousei Yagi as Kuranosuke Take Rica Fukami as Miyuki Hyuga Isshin Chiba as Medical examiner, Security guard A Yasuhiro Takato as Policeman, Security guard B Yukiko Iwai as Maid Naoki Makishima as Yamada",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Cook, Next Conan's Hint", "Takehiro Koyama as Heizo Hattori", "Yonehiko Kitagawa as Dosan Nagato", "Kaoru Matsuno as Nobuko Nagato", "Keiko Aizawa as Yasue Nagato", "Kousei Hirota as Hideomi Nagato", "Ryoichi Tanaka as Mitsuaki Nagato", "Kousei Yagi as Kuranosuke Take", "Rica Fukami as Miyuki Hyuga", "Isshin Chiba as Medical examiner, Security guard A", "Yasuhiro Takato as Policeman, Security guard B", "Yukiko Iwai as Maid", "Naoki Makishima as Yamada"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Conan vs. Kaitou Kid",
         nextCase: "The Bank Heist Murder Case »",
-
 
 
 
@@ -5278,6 +5434,9 @@ const allData = [
     {
         id: "79", isFiller: true, title: "79: The Bank Heist Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Forensic member"],
+
+
+
         episodeDescription: "After bowling, Ran, Sonoko, and Conan head to the bank to cash a check. While there, an armed bank robbery happens. After some struggle, one man is shot by the robber but survives. After being shot, another man struggles with the robber and ends up shooting and killing the robber. It all seems normal but Conan finds it strange. After figuring out the robber had an accomplice, Conan, using Sonoko, reveals the robber's accomplice.",
         japaneseTitle: "銀行強盗殺人事件. (Ginkō Gōtō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5312,12 +5471,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Junichi Sugawara as Saburou Tsuji Yuji Fujishiro as Kazuo Ebisawa Hiroshi Naka as Takashi Nagai Kazuhiro Yamaji as Noboru Taniguchi Tomoyuki Dan as Tetsuya Maejima Kazuya Ichijou as Touru Saeki Isshin Chiba as Forensics officer Yukiko Iwai as Female clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Junichi Sugawara as Saburou Tsuji", "Yuji Fujishiro as Kazuo Ebisawa", "Hiroshi Naka as Takashi Nagai", "Kazuhiro Yamaji as Noboru Taniguchi", "Tomoyuki Dan as Tetsuya Maejima", "Kazuya Ichijou as Touru Saeki", "Isshin Chiba as Forensics officer", "Yukiko Iwai as Female clerk"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« Distinguished Family's Consecutive Accidental Death Case",
         nextCase: "The Wandering Artist Murder Case »",
-
 
 
 
@@ -5343,6 +5501,9 @@ const allData = [
     {
         id: "80", isFiller: true, title: "80: The Wandering Artist Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Ninzaburo Shiratori"],
+
+
+
         episodeDescription: "While at a painting exhibit in Beika Art Museum, Conan notices a man in rag examining a picture. The next day while playing baseball with his friends, he notices the man again. After being asked about his drawings of a home, the man realizes he has been drawing unconsciously, and holds his head in pain. In the hospital, he was revealed to have been affected by amnesia and the pain was his returning memories. Later that day, the man runs away from the hospital. The next day while playing baseball, Genta finds the man dead.",
         japaneseTitle: "放浪画家殺人事件. (Hōrō Gaka Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5377,12 +5538,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Yousuke Akimoto as Tatsuo Hayase Kayoko Fujii as Kimie Hayase Isshin Chiba as Security guard Masaki Aizawa as Doctor",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Yousuke Akimoto as Tatsuo Hayase", "Kayoko Fujii as Kimie Hayase", "Isshin Chiba as Security guard", "Masaki Aizawa as Doctor"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Bank Heist Murder Case",
         nextCase: "The Kidnapping of a Popular Artist Case »",
-
 
 
 
@@ -5407,6 +5567,9 @@ const allData = [
     {
         id: "81", isFiller: false, title: "81: The Kidnapping of a Popular Artist Case (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "TWO-MIX", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "Ran and Sonoko are getting ready to attend a huge concert by the very popular J-Pop band Two-Mix. Some hours before that, Conan and the Detective Boys go to a coffee parlor and meet a lady with sunglasses and a cap, who turns out to be the singer of the group, a woman named Minami Takayama whose voice is rather similar to Conan's.",
         japaneseTitle: "人気アーティスト誘拐事件. (Ninki Ātisuto Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -5441,12 +5604,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Minami Takayama (Two-Mix) Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Shiina Nagano as Shiina Nagano (Two-Mix) Norio Wakamoto as Satoshi Miyahara Katsuhisa Houki as Subordinate Hiroshi Naka as Budokan staff B Toshihiko Nakajima as Yama, Concert staff A Takehiro Murozono as Manager, Concert staff B Yasuhiro Takato as Security guard, Concert staff C Isshin Chiba as Budokan staff A, Concert staff D Mikiko Enomoto as Waitress, Female customer",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Minami Takayama (Two-Mix)", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Shiina Nagano as Shiina Nagano (Two-Mix)", "Norio Wakamoto as Satoshi Miyahara", "Katsuhisa Houki as Subordinate", "Hiroshi Naka as Budokan staff B", "Toshihiko Nakajima as Yama, Concert staff A", "Takehiro Murozono as Manager, Concert staff B", "Yasuhiro Takato as Security guard, Concert staff C", "Isshin Chiba as Budokan staff A, Concert staff D", "Mikiko Enomoto as Waitress, Female customer"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Wandering Artist Murder Case",
         nextCase: "General Hospital Murder Case »",
-
 
 
 
@@ -5471,6 +5633,9 @@ const allData = [
     {
         id: "82", isFiller: false, title: "82: The Kidnapping of a Popular Artist Case (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "TWO-MIX", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "Ayumi, Mitsuhiko, and Genta tell Inspector Megure everything except how to find Conan. They decide to ignore Conan's instructions to give the tracking glasses to the police, instead they decide to track down two-mix themselves to get some of the glory. They decide to track him down with the glasses and they learn who the kidnapper is and why the crime was committed.",
         japaneseTitle: "人気アーティスト誘拐事件. (Ninki Ātisuto Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -5505,12 +5670,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Minami Takayama (Two-Mix) Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Shiina Nagano as Shiina Nagano (Two-Mix) Norio Wakamoto as Satoshi Miyahara Katsuhisa Houki as Subordinate Hiroshi Naka as Budokan staff B Toshihiko Nakajima as Yama, Concert staff A Takehiro Murozono as Manager, Concert staff B Yasuhiro Takato as Security guard, Concert staff C Isshin Chiba as Budokan staff A, Concert staff D Mikiko Enomoto as Waitress, Female customer",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Minami Takayama (Two-Mix)", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Shiina Nagano as Shiina Nagano (Two-Mix)", "Norio Wakamoto as Satoshi Miyahara", "Katsuhisa Houki as Subordinate", "Hiroshi Naka as Budokan staff B", "Toshihiko Nakajima as Yama, Concert staff A", "Takehiro Murozono as Manager, Concert staff B", "Yasuhiro Takato as Security guard, Concert staff C", "Isshin Chiba as Budokan staff A, Concert staff D", "Mikiko Enomoto as Waitress, Female customer"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Wandering Artist Murder Case",
         nextCase: "General Hospital Murder Case »",
-
 
 
 
@@ -5537,6 +5701,9 @@ const allData = [
     {
         id: "83", isFiller: true, title: "83: General Hospital Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Forensic member"],
+
+
+
         episodeDescription: "Kogoro is in the hospital after his leg injured by a criminal he was chasing down. While there, he witnesses a silhouette of one person stabbing another person in the back. He notifies the nurses immediately, only to find out that the room in which the murder took place is empty. This happens continuously for three nights in a row, before an actual murder has taken place on the 4th night. Even worse, Kogoro is found passed out next to the corpse and mistaken to be the killer, and now Conan will have to clear his name.",
         japaneseTitle: "総合病院殺人事件. (Sōgō Byōin Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5571,12 +5738,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi[1], Next Conan's Hint Kaoru Morota as Kazumi Nakayama Shinji Ogawa as Mitsuo Shirai Nobuaki Fukuda as Katsutoshi Eto Yukiko Iwai as Keiko Okita Yoshiko Okamoto as Nurse Isshin Chiba as Forensics officer B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi[1], Next Conan's Hint", "Kaoru Morota as Kazumi Nakayama", "Shinji Ogawa as Mitsuo Shirai", "Nobuaki Fukuda as Katsutoshi Eto", "Yukiko Iwai as Keiko Okita", "Yoshiko Okamoto as Nurse", "Isshin Chiba as Forensics officer B"],
         openingSong: "Nazo",
         endingSong: "Kimi ga Inai Natsu",
         prevCase: "« The Kidnapping of a Popular Artist Case",
         nextCase: "Ski Lodge Murder Case »",
-
 
 
 
@@ -5602,6 +5768,9 @@ const allData = [
     {
         id: "84", isFiller: false, title: "84: Ski Lodge Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "Ran, Sonoko, and Conan run into their old third grade teacher, Akiko Yonehara, who invites them to spend the night at a Nagano Prefecture mountain villa with her co-workers, who are taking a small weekend trip. A mysterious journalist arrives and tells them that a massacre similar to three years before will happen that night, and true to the man's words, people are attacked with different results. Can Conan help find the clues before too much damage occurs?",
         japaneseTitle: "スキーロッジ殺人事件. (Sukii Rojji Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5636,12 +5805,11 @@ const allData = [
 
         storyboard: "84 Kazuo Nogami. 85 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Kenichi Ogata as Hiroshi Agasa Kappei Yamaguchi as Shinichi Kudo Mikiko Miki as Akiko Yonehara Ryuji Mizuno as Kohei Shimoda Ryuichi Nakamura as Ryuichi Sakai Miki Yamazaki as Minori Nakamura Ryuzaburo Otomo as Atsushi Mori Wataru Takagi as Local man, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Kenichi Ogata as Hiroshi Agasa", "Kappei Yamaguchi as Shinichi Kudo", "Mikiko Miki as Akiko Yonehara", "Ryuji Mizuno as Kohei Shimoda", "Ryuichi Nakamura as Ryuichi Sakai", "Miki Yamazaki as Minori Nakamura", "Ryuzaburo Otomo as Atsushi Mori", "Wataru Takagi as Local man, Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« General Hospital Murder Case",
         nextCase: "The Kidnapping Location Case »",
-
 
 
 
@@ -5662,6 +5830,9 @@ const allData = [
     {
         id: "85", isFiller: false, title: "85: Ski Lodge Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "Conan is unable to figure out how a piece of rope disappeared, but when he figures out who is wearing something VERY special in his/her person, he realizes that the person has killed two people on the same night. Using Ran to reveal the secret by using his own voice, Shinichi reveals the information to everyone present, but the revelation will shock everyone involved, especially Ran and Sonoko.",
         japaneseTitle: "スキーロッジ殺人事件. (Sukii Rojji Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5696,12 +5867,11 @@ const allData = [
 
         storyboard: "84 Kazuo Nogami. 85 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Kenichi Ogata as Hiroshi Agasa Kappei Yamaguchi as Shinichi Kudo Mikiko Miki as Akiko Yonehara Ryuji Mizuno as Kohei Shimoda Ryuichi Nakamura as Ryuichi Sakai Miki Yamazaki as Minori Nakamura Ryuzaburo Otomo as Atsushi Mori Wataru Takagi as Local man, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Kenichi Ogata as Hiroshi Agasa", "Kappei Yamaguchi as Shinichi Kudo", "Mikiko Miki as Akiko Yonehara", "Ryuji Mizuno as Kohei Shimoda", "Ryuichi Nakamura as Ryuichi Sakai", "Miki Yamazaki as Minori Nakamura", "Ryuzaburo Otomo as Atsushi Mori", "Wataru Takagi as Local man, Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« General Hospital Murder Case",
         nextCase: "The Kidnapping Location Case »",
-
 
 
 
@@ -5726,6 +5896,9 @@ const allData = [
     {
         id: "86", isFiller: false, title: "86: The Kidnapping Location Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "Mitsuhiko has a new radio transceiver that intercepts other peoples conversations, but when it intercepts a kidnap case, Conan must figure out the hidden location before a young daughter loses her life.",
         japaneseTitle: "誘拐現場特定事件. (Yūkai Genba Tokutei Jiken)",
         titleInOtherLanguages: [
@@ -5760,12 +5933,11 @@ const allData = [
         screenplay: "Shunsuke Ozawa",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima (Uncredited: Audience B, Next Conan's Hint) Kazuhiro Nakata as Tomidokoro Kouichi Hashimoto as Junko's father Chinami Nishimura as Junko Kaoru Morota as Female announcement Isshin Chiba as Audience A",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima (Uncredited: Audience B, Next Conan's Hint)", "Kazuhiro Nakata as Tomidokoro", "Kouichi Hashimoto as Junko's father", "Chinami Nishimura as Junko", "Kaoru Morota as Female announcement", "Isshin Chiba as Audience A"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Ski Lodge Murder Case",
         nextCase: "The Crane's Return of a Favor Murder Case »",
-
 
 
 
@@ -5794,6 +5966,9 @@ const allData = [
     {
         id: "87", isFiller: true, title: "87: The Crane's Return of a Favor Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan take a trip to Kushiro marshland, Hokkaido Prefecture, to see the red-crowned cranes. They run into an old man who takes care of the cranes and he invites them to his house. His daughter and son rush into the room demanding the reason why he is donating his life savings to the city. The group is allowed to soak in the hot spring near the house, but they are called when they find out the old man has been murdered.",
         japaneseTitle: "鶴の恩返し殺人事件. (Tsuru no Ongaeshi Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5828,12 +6003,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Masaaki Okabe as Shuzo Machida Michihiro Ikemizu as Tamotsu Machida Kei Hayami as Noriko Machida Hiroshi Takahashi as Hiroshi Machida Hiroshi Naka as Tatsuo Yamagami Ryuji Nakagi as Detective Ezomatsu Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Masaaki Okabe as Shuzo Machida", "Michihiro Ikemizu as Tamotsu Machida", "Kei Hayami as Noriko Machida", "Hiroshi Takahashi as Hiroshi Machida", "Hiroshi Naka as Tatsuo Yamagami", "Ryuji Nakagi as Detective Ezomatsu", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Kidnapping Location Case",
         nextCase: "Dracula's Villa Murder Case »",
-
 
 
 
@@ -5856,6 +6030,9 @@ const allData = [
     {
         id: "88", isFiller: true, title: "88: Dracula's Villa Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "A famous vampire writer who used to be a romance writer, and whom Kogoro reads, invites Kogoro to his estate outside Tokyo, an old Western building called 'Dracula's Manor', for discussion on his next vampire novel and to spy on his wife. However, when the writer ends up dead and snow prevents the cops from coming Kogoro is forced to re-evaluate the possibilities of vampires being real.",
         japaneseTitle: "ドラキュラ荘殺人事件. (Dorakyura-sō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5890,12 +6067,11 @@ const allData = [
         screenplay: "Hirohito Ochi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (sub-character). Yasuhiro Moriki and Chizuko Kusunoki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Jun Hazumi as Daisuke Torakura Koji Yusa as Toshiya Tadokoro Yorie Terauchi as Etsuko Torakura Yasuo Muramatsu as Fumio Doi Sho Hayami as Shuichi Hamura Yukiko Iwai as Female voice",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Jun Hazumi as Daisuke Torakura", "Koji Yusa as Toshiya Tadokoro", "Yorie Terauchi as Etsuko Torakura", "Yasuo Muramatsu as Fumio Doi", "Sho Hayami as Shuichi Hamura", "Yukiko Iwai as Female voice"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Crane's Return of a Favor Murder Case",
         nextCase: "The Flower Scent Murder Case »",
-
 
 
 
@@ -5914,6 +6090,9 @@ const allData = [
     {
         id: "89", isFiller: true, title: "89: Dracula's Villa Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "With no footprints to reveal the killer and Kogoro's absurd deduction, Conan must think of how the door was locked and then find enough evidence to solve the case or else a killer and his hidden secret will walk free with a vampire receiving the blame.",
         japaneseTitle: "ドラキュラ荘殺人事件. (Dorakyura-sō Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -5948,12 +6127,11 @@ const allData = [
         screenplay: "Hirohito Ochi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (sub-character). Yasuhiro Moriki and Chizuko Kusunoki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Jun Hazumi as Daisuke Torakura Koji Yusa as Toshiya Tadokoro Yorie Terauchi as Etsuko Torakura Yasuo Muramatsu as Fumio Doi Sho Hayami as Shuichi Hamura Yukiko Iwai as Female voice",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Jun Hazumi as Daisuke Torakura", "Koji Yusa as Toshiya Tadokoro", "Yorie Terauchi as Etsuko Torakura", "Yasuo Muramatsu as Fumio Doi", "Sho Hayami as Shuichi Hamura", "Yukiko Iwai as Female voice"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Crane's Return of a Favor Murder Case",
         nextCase: "The Flower Scent Murder Case »",
-
 
 
 
@@ -5981,6 +6159,9 @@ const allData = [
     {
         id: "90", isFiller: true, title: "90: The Flower Scent Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "A threat on a flower show artist causes Kogoro Mouri to be hired during a local flower show, but when one of the guests is murdered.",
         japaneseTitle: "花の香り殺人事件. (Hana no Kaori Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6015,12 +6196,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Tomoko Shiota as Rika Okano Saeko Shimazu as Midori Ozaki Yutaka Nakano as Daisuke Shiraki Kiyomitsu Mizuuchi as Katagiri Anaconda Isshin Chiba as Cloak room clerk Naoki Makishima as Boy",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Tomoko Shiota as Rika Okano", "Saeko Shimazu as Midori Ozaki", "Yutaka Nakano as Daisuke Shiraki", "Kiyomitsu Mizuuchi as Katagiri Anaconda", "Isshin Chiba as Cloak room clerk", "Naoki Makishima as Boy"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Dracula's Villa Murder Case",
         nextCase: "The Bank Robber's Hospitalization Case »",
-
 
 
 
@@ -6047,6 +6227,9 @@ const allData = [
     {
         id: "91", isFiller: false, title: "91: The Bank Robber's Hospitalization Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys", "Yoko Okino"],
+
+
+
         episodeDescription: "On a quest to get to a Yoko Okino concert Kogoro breaks his foot, while the Detective Boys visit the hospital, they are unaware that a patient in Kogoro's room is one of the bank robbers. Along the way, a visiting father is separated from his daughter by the remaining robbers, and the only way he can get her back is by murdering the robber.",
         japaneseTitle: "強盗犯人入院事件. (Gōtō Hannin Nyūin Jiken)",
         titleInOtherLanguages: [
@@ -6081,12 +6264,11 @@ const allData = [
         screenplay: "Shunsuke Ozawa",
         storyboard: "Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Seiji Muta (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Ikuo Nishikawa as Yoshio Sekiguchi Sayuri Yoshida as Yumiko Sekiguchi Eiji Maruyama as Daizaburo Sekiguchi Masahiko Tanaka as Goemon Akabane Jinshou Hirao as Yamamoto Asako Dodo as Eiko Katsuhisa Houki as Takagaki Kousei Hirota as Policeman Isshin Chiba as Emergency personnel",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Ikuo Nishikawa as Yoshio Sekiguchi", "Sayuri Yoshida as Yumiko Sekiguchi", "Eiji Maruyama as Daizaburo Sekiguchi", "Masahiko Tanaka as Goemon Akabane", "Jinshou Hirao as Yamamoto", "Asako Dodo as Eiko", "Katsuhisa Houki as Takagaki", "Kousei Hirota as Policeman", "Isshin Chiba as Emergency personnel"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Flower Scent Murder Case",
         nextCase: "The Fearful Traversing Murder Case »",
-
 
 
 
@@ -6111,6 +6293,9 @@ const allData = [
     {
         id: "92", isFiller: true, title: "92: The Fearful Traversing Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "Several years ago, the Fox known as the best assassin in the country had killed a president of a major company. However this assassination took place while his target was driving as a result, his car swerved into the path of a school bus carrying elementary school children. This caused a collision, that claimed the life of the young 5 year old Chisato Ushio, due to this unintended casualty The Fox went into hiding.",
         japaneseTitle: "恐怖のトラヴァース殺人事件. (Kyōfu no Toravāsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6145,12 +6330,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Michiyo Sakurai and Izumi Shimura (sub-charcater). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Osamu Saka as Bunzo Ushio Mitsuru Ogata as Kenichi Hirai Toshihiko Kojima as Wataru Takanashi Masahiko Tanaka as Shingo Nose Kaori Yamagata as Kyoko Saegusa Mitsuaki Hoshino as Akira Kawabe Masaaki Tsukada as Juukichi Iwata Isshin Chiba as Announcer, Radio news",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Osamu Saka as Bunzo Ushio", "Mitsuru Ogata as Kenichi Hirai", "Toshihiko Kojima as Wataru Takanashi", "Masahiko Tanaka as Shingo Nose", "Kaori Yamagata as Kyoko Saegusa", "Mitsuaki Hoshino as Akira Kawabe", "Masaaki Tsukada as Juukichi Iwata", "Isshin Chiba as Announcer, Radio news"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Bank Robber's Hospitalization Case",
         nextCase: "Snow Woman's Legend Murder Case »",
-
 
 
 
@@ -6172,6 +6356,9 @@ const allData = [
     {
         id: "93", isFiller: true, title: "93: The Fearful Traversing Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "The others rush to the cabin and are relieved to see Ran unharmed, she apologizes saying that there is trouble and directs them toward Kyoko Saegusa who is dead with a knife in her back. Akira Kawabe is mourning her death apologizing for not being able to protect her. Shingo Nose asks what is going on, as it is obvious that Kogoro knows more then he’s letting on.",
         japaneseTitle: "恐怖のトラヴァース殺人事件. (Kyōfu no Toravāsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6206,12 +6393,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Michiyo Sakurai and Izumi Shimura (sub-charcater). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Osamu Saka as Bunzo Ushio Mitsuru Ogata as Kenichi Hirai Toshihiko Kojima as Wataru Takanashi Masahiko Tanaka as Shingo Nose Kaori Yamagata as Kyoko Saegusa Mitsuaki Hoshino as Akira Kawabe Masaaki Tsukada as Juukichi Iwata Isshin Chiba as Announcer, Radio news",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Osamu Saka as Bunzo Ushio", "Mitsuru Ogata as Kenichi Hirai", "Toshihiko Kojima as Wataru Takanashi", "Masahiko Tanaka as Shingo Nose", "Kaori Yamagata as Kyoko Saegusa", "Mitsuaki Hoshino as Akira Kawabe", "Masaaki Tsukada as Juukichi Iwata", "Isshin Chiba as Announcer, Radio news"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Bank Robber's Hospitalization Case",
         nextCase: "Snow Woman's Legend Murder Case »",
-
 
 
 
@@ -6234,6 +6420,9 @@ const allData = [
     {
         id: "94", isFiller: true, title: "94: Snow Woman's Legend Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "A famous movie Yuki-onna star and her body double show up at the same cabin Kogoro and family are spending vacation time at Miyagi Prefecture, but when a note and a mysterious illness seem to overcome the star, then Kogoro decides to begin searching it as a case. Is there something more than a mysterious suicide note though that could indicate murder?",
         japaneseTitle: "雪女伝説殺人事件. (Yuki-on'na Densetsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6268,12 +6457,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Shōsei Suzuki as Genbee Kitamura Chieko Aioi as Kayo Kitamura Atsuko Tanaka as Akiko Kinoshita Youko Asagami as Yoko Asanuma Yuji Mikimoto as Detective Kawada",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Shōsei Suzuki as Genbee Kitamura", "Chieko Aioi as Kayo Kitamura", "Atsuko Tanaka as Akiko Kinoshita", "Youko Asagami as Yoko Asanuma", "Yuji Mikimoto as Detective Kawada"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Fearful Traversing Murder Case",
         nextCase: "Kogoro's Date Murder Case »",
-
 
 
 
@@ -6297,6 +6485,9 @@ const allData = [
     {
         id: "95", isFiller: true, title: "95: Kogoro's Date Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Boys"],
+
+
+
         episodeDescription: "After drinking with a friend who hasn't met for ten years, Kogoro falls asleep on a train and awakens to find himself a person that is willing to go on a date with him. When she stops at home though, she finds a person murdered and causes Kogoro and Conan to start seeking out whether she's guilty or if someone else is involved.",
         japaneseTitle: "小五郎のデート殺人事件. (Kogorō no Dēto Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6331,12 +6522,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Junichi Sakata",
         characterDesign: "Masatomo Sudo. Izumi Shimura (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Yoko Soumi as Sachiko Shimamura Kazuyuki Ishikawa as Friend Isshin Chiba as Station announcement Rika Iwamoto as Grade school student",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Yoko Soumi as Sachiko Shimamura", "Kazuyuki Ishikawa as Friend", "Isshin Chiba as Station announcement", "Rika Iwamoto as Grade school student"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Snow Woman's Legend Murder Case",
         nextCase: "The Cornered Famous Detective! Two Big Murder Cases »",
-
 
 
 
@@ -6358,6 +6548,9 @@ const allData = [
     {
         id: "96", isFiller: false, title: "96: The Cornered Famous Detective! Two Big Murder Cases (2 Hour Special)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yukiko Kudo", "Yusaku Kudo", "Juzo Megure", "Misao Yamamura", "Wataru Takagi", "Eri Kisaki", "Hiroshi Agasa", "Kazumi Sanada", "Shinichi Kudo", "Kamen Yaiba"],
+
+
+
         episodeDescription: "When Conan's glasses are taken off while he's asleep, Ran sees his face clearly and begins to suspect that he might be Shinichi. Her suspicions become stronger when she finds an old picture of them as children with a famous magician named Motoyasu Tsukumo. However, she cannot confront Conan right away, Tsukumo's wife suddenly arrives to Kogoro's office and tells him, Ran and Conan that her husband has been murdered! She also has some suspects in mind: specifically, his three disciples and prospect successors.",
         japaneseTitle: "追いつめられた名探偵! 連続2大殺人事件. (Oitsumerareta Meitantei! Renzoku Nidai Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6392,12 +6585,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Gara Takashima as Eri Kisaki Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Yukiko Kudo Toshio Furukawa as Misao Yamamura Tamie Kubota as Nanae Tsukumo Konami Yoshida as Ayano Tsukumo Ryotaro Okiayu as Kazumi Sanada Yurika Hino as Mako Miyoshi Sousuke Komori as Yuji Momochi Masaaki Tsukada as Yoshichika Yabuuchi Seiko Fujimoto as Machiko Yabuuchi Yuzuru Fujimoto as Yoshifusa Yabuuchi Chieko Enomoto as Hiromi Yabuuchi Yoshizou Yamaguchi as Hidekazu Yabuuchi Akihiko Shimizu as Yoshiyuki Yabuuchi Masasumi Tsuda as Keiko Yabuuchi Hiroshi Naka as Lawyer Isshin Chiba as Policeman A Wataru Takagi as Policeman B, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Gara Takashima as Eri Kisaki", "Hideyuki Tanaka as Yusaku Kudo", "Sumi Shimamoto as Yukiko Kudo", "Toshio Furukawa as Misao Yamamura", "Tamie Kubota as Nanae Tsukumo", "Konami Yoshida as Ayano Tsukumo", "Ryotaro Okiayu as Kazumi Sanada", "Yurika Hino as Mako Miyoshi", "Sousuke Komori as Yuji Momochi", "Masaaki Tsukada as Yoshichika Yabuuchi", "Seiko Fujimoto as Machiko Yabuuchi", "Yuzuru Fujimoto as Yoshifusa Yabuuchi", "Chieko Enomoto as Hiromi Yabuuchi", "Yoshizou Yamaguchi as Hidekazu Yabuuchi", "Akihiko Shimizu as Yoshiyuki Yabuuchi", "Masasumi Tsuda as Keiko Yabuuchi", "Hiroshi Naka as Lawyer", "Isshin Chiba as Policeman A", "Wataru Takagi as Policeman B, Next Conan's Hint"],
         openingSong: "Nazo",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Kogoro's Date Murder Case",
         nextCase: "The Farewell Wine Murder Case »",
-
 
 
 
@@ -6458,6 +6650,9 @@ const allData = [
     {
         id: "97", isFiller: true, title: "97: The Farewell Wine Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "A wealthy company president hires Kogoro after hearing one of his daughters is going to attempt to kill him. If Kogoro can solve the case, he will be given 1 million yen. When Conan goes to the toilet, he sees Kazue Ichikawa go to wine storehouse with a syringe that Conan suspects contains poison. In a moment of distraction, Conan is kidnapped by an unknown person and imprisoned in the basement.",
         japaneseTitle: "別れのワイン殺人事件. (Wakare no Wain Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6492,12 +6687,11 @@ const allData = [
         screenplay: "Yuichi Higurashi",
         storyboard: "Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Seizo Kato as Kotaro Ichikawa Kei Hayami as Kazue Ichikawa Shinobu Sato as Mizue Ichikawa Motomu Kiyokawa as Toshiaki Imamura Hiroshi Yanaka as Hitoshi Okano Isshin Chiba as Relative 1 Wataru Takagi as Relative 2, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Seizo Kato as Kotaro Ichikawa", "Kei Hayami as Kazue Ichikawa", "Shinobu Sato as Mizue Ichikawa", "Motomu Kiyokawa as Toshiaki Imamura", "Hiroshi Yanaka as Hitoshi Okano", "Isshin Chiba as Relative 1", "Wataru Takagi as Relative 2, Next Conan's Hint"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Cornered Famous Detective! Two Big Murder Cases",
         nextCase: "The Famous Potter Murder Case »",
-
 
 
 
@@ -6524,6 +6718,9 @@ const allData = [
     {
         id: "98", isFiller: false, title: "98: The Famous Potter Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Hiroshi Agasa", "Kikuemon"],
+
+
+
         episodeDescription: "When a fan of Kogoro, who works as a famous potter, invites the Mouri family out to his place for the weekend, Kogoro wins an valuable cup of pottery. After a long night of drinking, the group awakes and finds that a suicide has taken place. Inspector Megure thinks it may be more than a coincidence, but what is the real truth behind this mystery?",
         japaneseTitle: "名陶芸家殺人事件. (Meitōgeika Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6558,12 +6755,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "98 Junichi Sakata. 99 Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Izumi Shimura (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Mahito Tsujimura as Kikuemon Masako Isobe as Masuko Tsuchiya Matsuo Matsuo as Yoshihiko Arita Wataru Takagi as Ryuichi Seto, Next Conan's Hint Mitsuo Iwata as Kaoru Otani Naoki Makishima as Officer Tome Takayuki Inoue as Policeman Isshin Chiba as Policeman A Yasuhiro Takato as Policeman B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Mahito Tsujimura as Kikuemon", "Masako Isobe as Masuko Tsuchiya", "Matsuo Matsuo as Yoshihiko Arita", "Wataru Takagi as Ryuichi Seto, Next Conan's Hint", "Mitsuo Iwata as Kaoru Otani", "Naoki Makishima as Officer Tome", "Takayuki Inoue as Policeman", "Isshin Chiba as Policeman A", "Yasuhiro Takato as Policeman B"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Farewell Wine Murder Case",
         nextCase: "The Memories of First Love Case »",
-
 
 
 
@@ -6584,6 +6780,9 @@ const allData = [
     {
         id: "99", isFiller: false, title: "99: The Famous Potter Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Hiroshi Agasa", "Kikuemon"],
+
+
+
         episodeDescription: "Despite most proof pointing to a suicide, Conan is convinced that a murder has taken place. He begins looking for additional proof that someone killed Masuko.",
         japaneseTitle: "名陶芸家殺人事件. (Meitōgeika Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6618,12 +6817,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "98 Junichi Sakata. 99 Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Izumi Shimura (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Mahito Tsujimura as Kikuemon Masako Isobe as Masuko Tsuchiya Matsuo Matsuo as Yoshihiko Arita Wataru Takagi as Ryuichi Seto, Next Conan's Hint Mitsuo Iwata as Kaoru Otani Naoki Makishima as Officer Tome Takayuki Inoue as Policeman Isshin Chiba as Policeman A Yasuhiro Takato as Policeman B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Mahito Tsujimura as Kikuemon", "Masako Isobe as Masuko Tsuchiya", "Matsuo Matsuo as Yoshihiko Arita", "Wataru Takagi as Ryuichi Seto, Next Conan's Hint", "Mitsuo Iwata as Kaoru Otani", "Naoki Makishima as Officer Tome", "Takayuki Inoue as Policeman", "Isshin Chiba as Policeman A", "Yasuhiro Takato as Policeman B"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Farewell Wine Murder Case",
         nextCase: "The Memories of First Love Case »",
-
 
 
 
@@ -6650,6 +6848,9 @@ const allData = [
     {
         id: "100", isFiller: false, title: "100: The Memories of First Love Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Conan, Ran, and Sonoko are cleaning up Shinchi's house, and their chat goes from Sonoko complaining about doing this in summer break to Ran wondering who could have been Shinichi's first love and Sonoko speculating whether Ran was his first love or not. Almost as if on cue, an old classmate stops by to check on Shinichi's well-being, then joins the group in their cleaning: her name is Asami Uchida, she used to be the student council president of Teitan Middle School when Ran Sonoko and Shinichi were in the Grade 7 and she now attends a local art-centered university as a literature major.",
         japaneseTitle: "初恋の人想い出事件. (Hatsukoi no Hito Omoide no Jiken)",
         titleInOtherLanguages: [
@@ -6684,12 +6885,11 @@ const allData = [
 
         storyboard: "100 Hirohito Ochi. 101 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Akio Kawamura (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki Yukari Shin as Asami Uchida Naoya Uchida as Manabu Sawai Takako Fuji as Tomoko Hayasaka Toshiharu Sakurai as Yoshinobu Morimoto Yuji Ueda as Shigehisa Noguchi Romi Park as Chika Miyazaki Isshin Chiba as Firefighter A Wataru Takagi as Firefighter B, Next Conan's Hint (Part 2) Hiroshi Naka as Convenience store manager",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Naoko Matsui as Sonoko Suzuki", "Yukari Shin as Asami Uchida", "Naoya Uchida as Manabu Sawai", "Takako Fuji as Tomoko Hayasaka", "Toshiharu Sakurai as Yoshinobu Morimoto", "Yuji Ueda as Shigehisa Noguchi", "Romi Park as Chika Miyazaki", "Isshin Chiba as Firefighter A", "Wataru Takagi as Firefighter B, Next Conan's Hint (Part 2)", "Hiroshi Naka as Convenience store manager"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Famous Potter Murder Case",
         nextCase: "The Historical Actor Murder Case »",
-
 
 
 
@@ -6715,6 +6915,9 @@ const allData = [
     {
         id: "101", isFiller: false, title: "101: The Memories of First Love Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Ran passes out almost immediately after rescuing Asami, both from the smoke inhalation and the huge effort. She wakes up in the nearby hospital and is fine, but Asami is still unconscious. She tells Sonoko that the helmet idea came from Conan, who gave it to her so she'd have extra protection, and mentions that he did something incredible.",
         japaneseTitle: "初恋の人想い出事件. (Hatsukoi no Hito Omoide no Jiken)",
         titleInOtherLanguages: [
@@ -6749,12 +6952,11 @@ const allData = [
 
         storyboard: "100 Hirohito Ochi. 101 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Akio Kawamura (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki Yukari Shin as Asami Uchida Naoya Uchida as Manabu Sawai Takako Fuji as Tomoko Hayasaka Toshiharu Sakurai as Yoshinobu Morimoto Yuji Ueda as Shigehisa Noguchi Romi Park as Chika Miyazaki Isshin Chiba as Firefighter A Wataru Takagi as Firefighter B, Next Conan's Hint (Part 2) Hiroshi Naka as Convenience store manager",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Naoko Matsui as Sonoko Suzuki", "Yukari Shin as Asami Uchida", "Naoya Uchida as Manabu Sawai", "Takako Fuji as Tomoko Hayasaka", "Toshiharu Sakurai as Yoshinobu Morimoto", "Yuji Ueda as Shigehisa Noguchi", "Romi Park as Chika Miyazaki", "Isshin Chiba as Firefighter A", "Wataru Takagi as Firefighter B, Next Conan's Hint (Part 2)", "Hiroshi Naka as Convenience store manager"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Famous Potter Murder Case",
         nextCase: "The Historical Actor Murder Case »",
-
 
 
 
@@ -6779,6 +6981,9 @@ const allData = [
     {
         id: "102", isFiller: false, title: "102: The Historical Actor Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Forensic member"],
+
+
+
         episodeDescription: "When a famous samurai movie star, Kozaburo Hijikata, hires Kogoro for some consultations, the group is led to believe that he wants to learn about detective work for an upcoming TV series where he is to star as a detective. However, rumors of an affair between his beautiful and much younger wife Isami Nagakura and stunt actor Hajime Okita can't help but lead Conan to doubt the reason. When Isami is found dead on Okita's balcony, the group believes it is an open and shut case, but Conan doubts the authenticity when he sees a big smile form on Hijikata's face. Which side is truly right?",
         japaneseTitle: "時代劇俳優殺人事件. (Jidaigeki Haiyū Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6812,12 +7017,11 @@ const allData = [
 
         storyboard: "102 Johei Matsuura. 103 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B Kenji Utsumi as Kozaburo Hijikata Sachi Asakura as Isami Nagakura Kihachiro Uemura as Hajime Okita Isshin Chiba as Forensics officer, Reporter A Yasuhiro Takato as Reporter C Naoki Makishima as Reporter D",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B", "Kenji Utsumi as Kozaburo Hijikata", "Sachi Asakura as Isami Nagakura", "Kihachiro Uemura as Hajime Okita", "Isshin Chiba as Forensics officer, Reporter A", "Yasuhiro Takato as Reporter C", "Naoki Makishima as Reporter D"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Memories of First Love Case",
         nextCase: "The Mysterious Mansion of a Band of Thieves Case »",
-
 
 
 
@@ -6838,6 +7042,9 @@ const allData = [
     {
         id: "103", isFiller: false, title: "103: The Historical Actor Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Forensic member"],
+
+
+
         episodeDescription: "Kogoro tells the media all of the current suspicions so Inspector Megure and Detective Takagi can sneak Hijikata and Okita out the backdoor for questioning, but before doing so Conan goes up to the sixth floor to try and find some evidence that his suspicion of Hijikata being the killer is accurate. In the end one truth as always will prevail, but which side is truly innocent here?",
         japaneseTitle: "時代劇俳優殺人事件. (Jidaigeki Haiyū Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -6871,12 +7078,11 @@ const allData = [
 
         storyboard: "102 Johei Matsuura. 103 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B Kenji Utsumi as Kozaburo Hijikata Sachi Asakura as Isami Nagakura Kihachiro Uemura as Hajime Okita Isshin Chiba as Forensics officer, Reporter A Yasuhiro Takato as Reporter C Naoki Makishima as Reporter D",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Toshihiko Nakajima as Officer Tome, Receptionist, Reporter B", "Kenji Utsumi as Kozaburo Hijikata", "Sachi Asakura as Isami Nagakura", "Kihachiro Uemura as Hajime Okita", "Isshin Chiba as Forensics officer, Reporter A", "Yasuhiro Takato as Reporter C", "Naoki Makishima as Reporter D"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Memories of First Love Case",
         nextCase: "The Mysterious Mansion of a Band of Thieves Case »",
-
 
 
 
@@ -6899,6 +7105,9 @@ const allData = [
     {
         id: "104", isFiller: false, title: "104: The Mysterious Mansion of a Band of Thieves Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "When Kogoro gets a letter from a person named Misao Nakamura, he automatically assumes it's a female and decides to run to the rescue. When he arrives though, he finds two men claiming to be related and a bunch of clocks simultaneously going off. What makes things even more complicated though is a clock with a goblin statue instead of a cuckoo in it. What's really going on at Nakamura Manor?",
         japaneseTitle: "盗賊団謎の洋館事件. (Tōzoku-dan Nazo no Yōkan Jiken)",
         titleInOtherLanguages: [
@@ -6932,12 +7141,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Wataru Takagi as Next Conan's Hint Masahiko Tanaka as Misao Nakamura Osamu Kato as Mr. Nakamura Kaori Yamagata as Real Misao Nakamura",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Wataru Takagi as Next Conan's Hint", "Masahiko Tanaka as Misao Nakamura", "Osamu Kato as Mr. Nakamura", "Kaori Yamagata as Real Misao Nakamura"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Historical Actor Murder Case",
         nextCase: "Scoop Picture Murder Case »",
-
 
 
 
@@ -6956,6 +7164,9 @@ const allData = [
     {
         id: "105", isFiller: false, title: "105: The Mysterious Mansion of a Band of Thieves Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "The Goblins remind Kogoro and Conan of the gang known as the Goblin Gang, and using a flash light Conan begins to realize the two gentlemen claiming to be Nakamura's could actually be after something much more valuable. If they are indeed impostors, then what happened to the real Misao Nakamura? Can Conan solve this before times runs out for them all?",
         japaneseTitle: "盗賊団謎の洋館事件. (Tōzoku-dan Nazo no Yōkan Jiken)",
         titleInOtherLanguages: [
@@ -6989,12 +7200,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Wataru Takagi as Next Conan's Hint Masahiko Tanaka as Misao Nakamura Osamu Kato as Mr. Nakamura Kaori Yamagata as Real Misao Nakamura",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Wataru Takagi as Next Conan's Hint", "Masahiko Tanaka as Misao Nakamura", "Osamu Kato as Mr. Nakamura", "Kaori Yamagata as Real Misao Nakamura"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Historical Actor Murder Case",
         nextCase: "Scoop Picture Murder Case »",
-
 
 
 
@@ -7020,6 +7230,9 @@ const allData = [
     {
         id: "106", isFiller: true, title: "106: Scoop Picture Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa", "Juzo Megure"],
+
+
+
         episodeDescription: "In Angel City Hotel, the photographer named Ryuuichi Yanase wins the 35th Yomikiri Photography Award in the award ceremony and he also receives a brand new watch. He was nominated by the crime news department. Yanase's award winning photographs of various incidents are also shown as a slideshow.",
         japaneseTitle: "スクープ写真殺人事件. (Sukūpu Shashin Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7053,12 +7266,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Hiroshi Takahashi as Ryuuichi Yanase Nobuaki Fukuda as Atsushi Nakai Wataru Takagi as Director, Next Conan's Hint Isshin Chiba as Presenter Hiroshi Naka as Driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Hiroshi Takahashi as Ryuuichi Yanase", "Nobuaki Fukuda as Atsushi Nakai", "Wataru Takagi as Director, Next Conan's Hint", "Isshin Chiba as Presenter", "Hiroshi Naka as Driver"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« The Mysterious Mansion of a Band of Thieves Case",
         nextCase: "The Mysterious Mole Alien Case »",
-
 
 
 
@@ -7087,6 +7299,9 @@ const allData = [
     {
         id: "107", isFiller: true, title: "107: The Mysterious Mole Alien Case (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Kamen Yaiba"],
+
+
+
         episodeDescription: "Conan and the Detective Boys are playing baseball at the construction site. When Mitsuhiko throws the ball, Genta hits it so hard that it went away to someone's yard. When they go there, they rang the door bell, and the mysterious man named Yoshikazu Watanuki appears to them. Conan asks if he could have the ball back from Watanuki's yard. Watanuki refuses and won't give the ball back. He then tells Conan and the Detective Boys to go away. The Detective Boys think that he's really mean. When Conan and the Detective Boys went to the Mouri detective agency, they see a man named Masao Kouda from Saku City, Nagano Prefecture, which is famous for the cosmos flowers. Conan asks him if he's meeting Kogoro. After that, they went inside, and Kouda asks Kogoro if he could find his missing younger sister, Sanae Kouda. He claims Watanuki has killed his sister and has buried her in his yard.",
         japaneseTitle: "モグラ星人謎の事件. (Mogura Seijin Nazo no Jiken)",
         titleInOtherLanguages: [
@@ -7120,12 +7335,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kosei Tomita as Yoshikazu Watanuki Shigeru Chiba as Masao Kouda Yuko Kato as Sanae Kouda Satoru Yanase as Shinichi Mochida Hiroshi Yanaka as Detective Shimizu Isshin Chiba as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kosei Tomita as Yoshikazu Watanuki", "Shigeru Chiba as Masao Kouda", "Yuko Kato as Sanae Kouda", "Satoru Yanase as Shinichi Mochida", "Hiroshi Yanaka as Detective Shimizu", "Isshin Chiba as Policeman"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Scoop Picture Murder Case",
         nextCase: "Detective Club Pursuit Case »",
-
 
 
 
@@ -7146,6 +7360,9 @@ const allData = [
     {
         id: "108", isFiller: true, title: "108: The Mysterious Mole Alien Case (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Ran Mouri", "Kamen Yaiba"],
+
+
+
         episodeDescription: "Kouda hides stolen jewelry in Watanuki's yard to force the police department to dig it up, but unbeknown to him is that Mother Nature has caused an optical illusion to fool witness Shinichi Mochida. Can Conan prove Masao's innocence before a guilty man gets away permanently?",
         japaneseTitle: "モグラ星人謎の事件. (Mogura Seijin Nazo no Jiken)",
         titleInOtherLanguages: [
@@ -7179,12 +7396,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kosei Tomita as Yoshikazu Watanuki Shigeru Chiba as Masao Kouda Yuko Kato as Sanae Kouda Satoru Yanase as Shinichi Mochida Hiroshi Yanaka as Detective Shimizu Isshin Chiba as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kosei Tomita as Yoshikazu Watanuki", "Shigeru Chiba as Masao Kouda", "Yuko Kato as Sanae Kouda", "Satoru Yanase as Shinichi Mochida", "Hiroshi Yanaka as Detective Shimizu", "Isshin Chiba as Policeman"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Negai Goto Hitotsu Dake",
         prevCase: "« Scoop Picture Murder Case",
         nextCase: "Detective Club Pursuit Case »",
-
 
 
 
@@ -7211,6 +7427,9 @@ const allData = [
     {
         id: "109", isFiller: true, title: "109: Detective Club Pursuit Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Conan is chasing the robber with the skateboard. While chasing, Conan contacts the Detective Boys with their badges to get ready to trap the robber. When the robber is trapped, Conan kicks the can to knock the robber into the trap successfully capturing him. The police thank them for their great help and are awarded for their efforts. A sinister shadow reads the newspaper about Conan and the kids latest triumph and smiles menacingly.",
         japaneseTitle: "探偵団大追跡事件. (Tantei-dan Daitsuiseki Jiken)",
         titleInOtherLanguages: [
@@ -7245,12 +7464,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kazuki Yao as Kenichi Shishido Rin Mizuhara as Old lady Isshin Chiba as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kazuki Yao as Kenichi Shishido", "Rin Mizuhara as Old lady", "Isshin Chiba as Policeman"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Mysterious Mole Alien Case",
         nextCase: "Cooking Classroom Murder Case »",
-
 
 
 
@@ -7276,6 +7494,9 @@ const allData = [
     {
         id: "110", isFiller: true, title: "110: Cooking Classroom Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Sonoko tricks Ran into attending a cooking class by famous French chef Michi Uemori, and in order to go she invites her father and Conan. When the group arrives, they met several other people: Uemori's assistant, Yuko Komiyama, Michi's daughter-in-law Kaoru, and the cooking students Kazue Yashiro and Hiroaki Nishitani. Finally, the cooking class teacher Michi Uemori shows up. Conan, Ran, and Kogoro learn everyone seems to have something against the instructor, who is also a very unpleasant person. At some point the lights go out, then Uemori gets stabbed in the back and her lung is punctured, causing her to die. Now Conan and Kogoro have to decipher four suspects's agendas against her, but can they find the killer?",
         japaneseTitle: "料理教室殺人事件. (Ryōri Kyōshitsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7309,12 +7530,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "110 Masato Sato. 111 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi (Uncredited: Announcer, Next Conan's Hint) Hiroko Takahashi as Michi Uemori Rumi Ochiai as Yuko Komiyama Kazuko Yanaga as Kazue Yashiro Emi Shinohara as Kaoru Uemori Shigeru Nakahara as Hiroaki Nishitani Isshin Chiba as Forensics officer Mikiko Enomoto as Female officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi (Uncredited: Announcer, Next Conan's Hint)", "Hiroko Takahashi as Michi Uemori", "Rumi Ochiai as Yuko Komiyama", "Kazuko Yanaga as Kazue Yashiro", "Emi Shinohara as Kaoru Uemori", "Shigeru Nakahara as Hiroaki Nishitani", "Isshin Chiba as Forensics officer", "Mikiko Enomoto as Female officer"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« Detective Club Pursuit Case",
         nextCase: "The Seven Mysteries of Teitan Elementary School Case »",
-
 
 
 
@@ -7337,6 +7557,9 @@ const allData = [
     {
         id: "111", isFiller: true, title: "111: Cooking Classroom Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "All four students are found to be suspects in Uemori's murder, and it appears a needle or another small object is to be to blame. Conan begins to search for locations that could hide a needle. Can any person be proven to be the culprit?",
         japaneseTitle: "料理教室殺人事件. (Ryōri Kyōshitsu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7370,12 +7593,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "110 Masato Sato. 111 Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi (Uncredited: Announcer, Next Conan's Hint) Hiroko Takahashi as Michi Uemori Rumi Ochiai as Yuko Komiyama Kazuko Yanaga as Kazue Yashiro Emi Shinohara as Kaoru Uemori Shigeru Nakahara as Hiroaki Nishitani Isshin Chiba as Forensics officer Mikiko Enomoto as Female officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi (Uncredited: Announcer, Next Conan's Hint)", "Hiroko Takahashi as Michi Uemori", "Rumi Ochiai as Yuko Komiyama", "Kazuko Yanaga as Kazue Yashiro", "Emi Shinohara as Kaoru Uemori", "Shigeru Nakahara as Hiroaki Nishitani", "Isshin Chiba as Forensics officer", "Mikiko Enomoto as Female officer"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« Detective Club Pursuit Case",
         nextCase: "The Seven Mysteries of Teitan Elementary School Case »",
-
 
 
 
@@ -7400,6 +7622,9 @@ const allData = [
     {
         id: "112", isFiller: false, title: "112: The Seven Mysteries of Teitan Elementary School Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Sumiko Kobayashi", "Ryujiro Uematsu", "Toya"],
+
+
+
         episodeDescription: "The elementary school has had strange things going on at night. The anatomy figure running around, statues appearing to move, dolls showing up in the hall with the students' names, and a missing Vice Principal. The Detective Boys decide they need to sneak in at night to uncover these mysteries, but what they learn could lead to a laugh and to a horrible nightmare.",
         japaneseTitle: "帝丹小7不思議事件. (Teitan-shō Nana-Fushigi Jiken)",
         titleInOtherLanguages: [
@@ -7433,12 +7658,11 @@ const allData = [
 
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Wataru Takagi as Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Yuko Kobayashi as Sumiko Kobayashi Shigeru Ushiyama as Masayuki Ohata Toshihiko Nakajima as Asst. principal Motomu Kiyokawa as Ryujiro Uematsu Mikiko Enomoto as Fukumoto",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Yuko Kobayashi as Sumiko Kobayashi", "Shigeru Ushiyama as Masayuki Ohata", "Toshihiko Nakajima as Asst. principal", "Motomu Kiyokawa as Ryujiro Uematsu", "Mikiko Enomoto as Fukumoto"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« Cooking Classroom Murder Case",
         nextCase: "The White Sandy Beach Murder Case »",
-
 
 
 
@@ -7461,6 +7685,9 @@ const allData = [
     {
         id: "113", isFiller: false, title: "113: The White Sandy Beach Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "A young and beautiful woman named Mitsuko Sekine is found by a reef drowned in what appears to be a suicide. When information that the town's doctor had been intimate with her in the past is revealed, and Mitsuko's best friend Tomoko insists it was murder, both Conan and Kogoro suspect she is right and that suicide is impossible. Now the two must find the clues before his drinking alibi fully comes through, but what to do when Tanaka was actually drinking with Kogoro himself?",
         japaneseTitle: "白い砂浜殺人事件. (Shiroi Sunahama Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7495,12 +7722,11 @@ const allData = [
         screenplay: "Yutaka Yamada",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kazusa Murai as Tomoko Yamada Akimasa Ohmori as Tanaka Yuzuru Fujimoto as Old detective Isshin Chiba as Customer Yoshiko Okamoto as Lady Eiji Maruyama as Old man Wataru Takagi as Barkeeper, Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kazusa Murai as Tomoko Yamada", "Akimasa Ohmori as Tanaka", "Yuzuru Fujimoto as Old detective", "Isshin Chiba as Customer", "Yoshiko Okamoto as Lady", "Eiji Maruyama as Old man", "Wataru Takagi as Barkeeper, Next Conan's Hint"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Seven Mysteries of Teitan Elementary School Case",
         nextCase: "Scuba Diving Murder Case »",
-
 
 
 
@@ -7523,6 +7749,9 @@ const allData = [
     {
         id: "114", isFiller: false, title: "114: Scuba Diving Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Eri Kisaki", "Ran Mouri"],
+
+
+
         episodeDescription: "Ran secretly plans for her parents to meet at the beach in hopes of reuniting them. While there, they come upon Kiwako and Masahiko, who are childhood sweethearts and are engaged. When Kiwako gets bitten by a sea snake it appears a freakish accident has taken place, but Conan suspects there is more than what the regular eye can see.",
         japaneseTitle: "スキューバダイビング殺人事件. (Sukyūba Daibingu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7557,12 +7786,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "114 Kenji Kodama. 115 Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki Kikuko Inoue as Kiwako Toda Yuko Minaguchi as Harumi Matsuzaki Yoku Shioya as Kunio Kawazu Masaru Hachinohe as Masahiko Matsuzaki Moichi Saito as Hiroshi Ito Wataru Takagi as Emergency personnel, Next Conan's Hint (Part 1) Isshin Chiba as Employee Toshihiko Nakajima as Receptionist Naoki Makishima as Hotel man Mitsuki Saiga as Nurse Mikiko Enomoto as Hospital broadcast",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Gara Takashima as Eri Kisaki", "Kikuko Inoue as Kiwako Toda", "Yuko Minaguchi as Harumi Matsuzaki", "Yoku Shioya as Kunio Kawazu", "Masaru Hachinohe as Masahiko Matsuzaki", "Moichi Saito as Hiroshi Ito", "Wataru Takagi as Emergency personnel, Next Conan's Hint (Part 1)", "Isshin Chiba as Employee", "Toshihiko Nakajima as Receptionist", "Naoki Makishima as Hotel man", "Mitsuki Saiga as Nurse", "Mikiko Enomoto as Hospital broadcast"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The White Sandy Beach Murder Case",
         nextCase: "The Mystery Writer Disappearance Case »",
-
 
 
 
@@ -7583,6 +7811,9 @@ const allData = [
     {
         id: "115", isFiller: false, title: "115: Scuba Diving Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Eri Kisaki", "Ran Mouri"],
+
+
+
         episodeDescription: "Conan knows a love triangle is involved in Kiwako's attack, but is Kawazu or is Harumi the culprit?",
         japaneseTitle: "スキューバダイビング殺人事件. (Sukyūba Daibingu Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7617,12 +7848,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "114 Kenji Kodama. 115 Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki Kikuko Inoue as Kiwako Toda Yuko Minaguchi as Harumi Matsuzaki Yoku Shioya as Kunio Kawazu Masaru Hachinohe as Masahiko Matsuzaki Moichi Saito as Hiroshi Ito Wataru Takagi as Emergency personnel, Next Conan's Hint (Part 1) Isshin Chiba as Employee Toshihiko Nakajima as Receptionist Naoki Makishima as Hotel man Mitsuki Saiga as Nurse Mikiko Enomoto as Hospital broadcast",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Gara Takashima as Eri Kisaki", "Kikuko Inoue as Kiwako Toda", "Yuko Minaguchi as Harumi Matsuzaki", "Yoku Shioya as Kunio Kawazu", "Masaru Hachinohe as Masahiko Matsuzaki", "Moichi Saito as Hiroshi Ito", "Wataru Takagi as Emergency personnel, Next Conan's Hint (Part 1)", "Isshin Chiba as Employee", "Toshihiko Nakajima as Receptionist", "Naoki Makishima as Hotel man", "Mitsuki Saiga as Nurse", "Mikiko Enomoto as Hospital broadcast"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The White Sandy Beach Murder Case",
         nextCase: "The Mystery Writer Disappearance Case »",
-
 
 
 
@@ -7647,6 +7877,9 @@ const allData = [
     {
         id: "116", isFiller: false, title: "116: The Mystery Writer Disappearance Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Heiji Hattori", "Kaori Shinmei", "Police detective", "Shinichi Kudo", "Yamada"],
+
+
+
         episodeDescription: "One evening, Kogoro, Ran, and Conan watch the latest episode of a drama based on the mystery novel series Detective Samonji, written by Nintaro Shinmei. Ran then talk about how the novel is continuing after it ended ten years ago.",
         japaneseTitle: "ミステリー作家失踪事件. (Misuterii Sakka Shissō Jiken)",
         titleInOtherLanguages: [
@@ -7680,12 +7913,11 @@ const allData = [
 
         storyboard: "116 Johei Matsuura. 117 Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Fumiko Osaka as Kaori Shinmei Yuzuru Fujimoto as Nintaro Shinmei Chikako Akimoto as Kaori's mother Eiichiro Suzuki as Samonji Matsuda Toshihiko Nakajima as Editor A Isshin Chiba as Editor B Naoki Makishima as Editor C Ikkei Seta as Comedian A Nobuaki Kanemitsu as Comedian B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Ryo Horikawa as Heiji Hattori", "Fumiko Osaka as Kaori Shinmei", "Yuzuru Fujimoto as Nintaro Shinmei", "Chikako Akimoto as Kaori's mother", "Eiichiro Suzuki as Samonji Matsuda", "Toshihiko Nakajima as Editor A", "Isshin Chiba as Editor B", "Naoki Makishima as Editor C", "Ikkei Seta as Comedian A", "Nobuaki Kanemitsu as Comedian B"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« Scuba Diving Murder Case",
         nextCase: "The Naniwa Serial Murder Case »",
-
 
 
 
@@ -7709,6 +7941,9 @@ const allData = [
     {
         id: "117", isFiller: false, title: "117: The Mystery Writer Disappearance Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Heiji Hattori", "Kaori Shinmei", "Police detective", "Shinichi Kudo", "Yamada"],
+
+
+
         episodeDescription: "Due to the fact Mr. Shinmei's signature from chapter seven onward were copy of his. It was determined he and his wife is in danger. Heiji Hattori later calls in and explain how he deciphered the text in the first new chapter, and with this information Conan manages to solve the rest of the hidden riddles, but can him and the cops get to the place Mr. and Mrs. Shinmei live before it was too late?",
         japaneseTitle: "ミステリー作家失踪事件. (Misuterii Sakka Shissō Jiken)",
         titleInOtherLanguages: [
@@ -7742,12 +7977,11 @@ const allData = [
 
         storyboard: "116 Johei Matsuura. 117 Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Fumiko Osaka as Kaori Shinmei Yuzuru Fujimoto as Nintaro Shinmei Chikako Akimoto as Kaori's mother Eiichiro Suzuki as Samonji Matsuda Toshihiko Nakajima as Editor A Isshin Chiba as Editor B Naoki Makishima as Editor C Ikkei Seta as Comedian A Nobuaki Kanemitsu as Comedian B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Ryo Horikawa as Heiji Hattori", "Fumiko Osaka as Kaori Shinmei", "Yuzuru Fujimoto as Nintaro Shinmei", "Chikako Akimoto as Kaori's mother", "Eiichiro Suzuki as Samonji Matsuda", "Toshihiko Nakajima as Editor A", "Isshin Chiba as Editor B", "Naoki Makishima as Editor C", "Ikkei Seta as Comedian A", "Nobuaki Kanemitsu as Comedian B"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« Scuba Diving Murder Case",
         nextCase: "The Naniwa Serial Murder Case »",
-
 
 
 
@@ -7774,6 +8008,9 @@ const allData = [
     {
         id: "118", isFiller: false, title: "118: The Naniwa Serial Murder Case (1 Hour Special)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Heiji Hattori", "Ran Mouri", "Kazuha Toyama", "Heizo Hattori", "Ginshiro Toyama", "Goro Otaki", "Ki'ichiro Numabuchi", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Heiji invites Conan, Ran, and Kogoro to visit him in Osaka, taking them on a sightseeing tour. In a restaurant, they run into Kazuha Toyama, Heiji's childhood friend, who appears to be jealous of Ran, asking her if she's 'that Kudo girl' that Heiji keeps talking about and telling Ran to back off, because Heiji and her have been 'joined by steel' for ages. Ran laughs and explains herself and the two girls hit it off. After finishing their meal, Kazuha joins them on their exploration of the city, but, as they leave the restaurant, a dead body falls from the roof of the building, hitting Kogoro's rental car.",
         japaneseTitle: "浪花の連続殺人事件. (Naniwa no Renzoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7796,12 +8033,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's HintAkira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Takehiro Koyama as Heizo Hattori Masato Sako as Ginshiro Toyama Norio Wakamoto as Goro Otaki Kazuya Ichijou as Yusuke Sakata Yukiko Hattori as Sumie Okazaki Takaya Hashi as Sotaro Goshi Naoki Tatsuta as Ki'ichiro Numabuchi Yukimasa Natori as Teahouse owner Hitoshi Horimoto as Secretary Katsumi Suzuki as Newscaster Kazunari Tanaka as Policeman A Nobuaki Kanemitsu as Policeman B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's HintAkira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Takehiro Koyama as Heizo Hattori", "Masato Sako as Ginshiro Toyama", "Norio Wakamoto as Goro Otaki", "Kazuya Ichijou as Yusuke Sakata", "Yukiko Hattori as Sumie Okazaki", "Takaya Hashi as Sotaro Goshi", "Naoki Tatsuta as Ki'ichiro Numabuchi", "Yukimasa Natori as Teahouse owner", "Hitoshi Horimoto as Secretary", "Katsumi Suzuki as Newscaster", "Kazunari Tanaka as Policeman A", "Nobuaki Kanemitsu as Policeman B"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Mystery Writer Disappearance Case",
         nextCase: "The Kamen Yaiba Murder Case »",
-
 
 
 
@@ -7852,6 +8088,9 @@ const allData = [
     {
         id: "119", isFiller: true, title: "119: The Kamen Yaiba Murder Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Kamen Yaiba"],
+
+
+
         episodeDescription: "While on the way to dinner, Conan and the group come across a bunch of people dressed as Kamen Yaiba fans. They are invited to the party where an attempted murder and suicide appears to occur, but Conan begins to wonder if there is more than meets the eye to this.",
         japaneseTitle: "仮面ヤイバー殺人事件. (Kamen Yaibā Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7885,12 +8124,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Izumi Shimura (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Toshihiko Nakajima as Officer Tome Takeshi Kusao as Osamu Honda Takehiro Murozono as Yasuyuki Tsutsumi Yuka Imai as Madoka Saotome Takashi Nagasako as Katsuji Mishima Mikiko Enomoto as Hiroshi Honda",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Toshihiko Nakajima as Officer Tome", "Takeshi Kusao as Osamu Honda", "Takehiro Murozono as Yasuyuki Tsutsumi", "Yuka Imai as Madoka Saotome", "Takashi Nagasako as Katsuji Mishima", "Mikiko Enomoto as Hiroshi Honda"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Naniwa Serial Murder Case",
         nextCase: "A Honey Cocktail Murder Case »",
-
 
 
 
@@ -7917,6 +8155,9 @@ const allData = [
     {
         id: "120", isFiller: true, title: "120: A Honey Cocktail Murder Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "A woman Kogoro helped in an earlier case, Hiromi Yamazaki, invites Conan, Ran, and Kogoro to a new planned mountain estate in Iwami Town, Tottori Prefecture, hoping to get Kogoro to be their propganda model for their new Hotspring their going to bulid. Later, when Kogoro, Ran, Conan, the mayor, and the caretaker are enjoying a cocktail, the presidents falls from the balcony and fells on the cliff rocks.",
         japaneseTitle: "ハニーカクテル殺人事件. (Hanī Kakuteru Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -7950,12 +8191,11 @@ const allData = [
         screenplay: "Masaaki Sakurai",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Takashi Hyodo (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akiko Takeguchi as Hiromi Yamazaki Rei Igarashi as Eri Nakamura Kinryuu Arimoto as Shingo Aihara Masaaki Okabe as Hachibe Hachimaki Hideyuki Umezu as Ichiro Suzuki",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akiko Takeguchi as Hiromi Yamazaki", "Rei Igarashi as Eri Nakamura", "Kinryuu Arimoto as Shingo Aihara", "Masaaki Okabe as Hachibe Hachimaki", "Hideyuki Umezu as Ichiro Suzuki"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Kamen Yaiba Murder Case",
         nextCase: "The Locked Bathroom Murder Case »",
-
 
 
 
@@ -7980,6 +8220,9 @@ const allData = [
     {
         id: "121", isFiller: false, title: "121: The Locked Bathroom Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Yoko Okino", "Asuka Anzai", "Terumi Hoshino"],
+
+
+
         episodeDescription: "While on the way to a Yoko Okino concert Kogoro loses his ticket. Luck seems to be on his side when a young lady named Masayo Aoshima has an extra ticket, but the concert ends up being the last thing on their minds when they walk into her sister Mina's house and comes upon an apparent suicide.",
         japaneseTitle: "バスルーム密室事件. (Basurūmu Misshitsu Jiken)",
         titleInOtherLanguages: [
@@ -8013,12 +8256,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Yuri Amano as Yoko Okino Yukari Tamura as Mina Aoshima Aya Hisakawa as Masayo Aoshima Kunihiko Yasui as Kenji Isshin Chiba as Forensics officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Yuri Amano as Yoko Okino", "Yukari Tamura as Mina Aoshima", "Aya Hisakawa as Masayo Aoshima", "Kunihiko Yasui as Kenji", "Isshin Chiba as Forensics officer"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« A Honey Cocktail Murder Case",
         nextCase: "The Weather Girl Kidnapping Case »",
-
 
 
 
@@ -8045,6 +8287,9 @@ const allData = [
     {
         id: "122", isFiller: false, title: "122: The Locked Bathroom Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Yoko Okino", "Asuka Anzai", "Terumi Hoshino"],
+
+
+
         episodeDescription: "Just as it appears the perfect crime has been committed, Detective Takagi returns with news that could show Mina cared more for her sister than anyone realized. When a spot of Mina's blood is also found on the door, it is all the clues Conan needs to prove Masayo murdered her sister.",
         japaneseTitle: "バスルーム密室事件. (Basurūmu Misshitsu Jiken)",
         titleInOtherLanguages: [
@@ -8078,12 +8323,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Yuri Amano as Yoko Okino Yukari Tamura as Mina Aoshima Aya Hisakawa as Masayo Aoshima Kunihiko Yasui as Kenji Isshin Chiba as Forensics officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Yuri Amano as Yoko Okino", "Yukari Tamura as Mina Aoshima", "Aya Hisakawa as Masayo Aoshima", "Kunihiko Yasui as Kenji", "Isshin Chiba as Forensics officer"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« A Honey Cocktail Murder Case",
         nextCase: "The Weather Girl Kidnapping Case »",
-
 
 
 
@@ -8108,6 +8352,9 @@ const allData = [
     {
         id: "123", isFiller: true, title: "123: The Weather Girl Kidnapping Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Ran Mouri"],
+
+
+
         episodeDescription: "While Kogoro is sleeping from drinking too much, the Detective Boys listen to one of his messages and end up talking to Nichiuri TV newswoman Aki Asano. When she goes missing though, it's up to the Detective Boys to solve the clues she is sending them on Conan's pager.",
         japaneseTitle: "お天気お姉さん誘拐事件. (Otenki Onēsan Yūkai Jiken)",
         titleInOtherLanguages: [
@@ -8141,12 +8388,11 @@ const allData = [
         screenplay: "Manabu Harada",
         storyboard: "Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Kishiko Yonekura as Aki Asano Yoshiko Sakakibara as Kazumi Tsukumo Hiroyuki Yokoo as Kobayashi Yasuhiro Takato as Staff Isshin Chiba as AD",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Kishiko Yonekura as Aki Asano", "Yoshiko Sakakibara as Kazumi Tsukumo", "Hiroyuki Yokoo as Kobayashi", "Yasuhiro Takato as Staff", "Isshin Chiba as AD"],
         openingSong: "Unmei no Roulette Mawashite",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Locked Bathroom Murder Case",
         nextCase: "A Mysterious Sniper Murder Case »",
-
 
 
 
@@ -8170,6 +8416,9 @@ const allData = [
     {
         id: "124", isFiller: true, title: "124: A Mysterious Sniper Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+
+
+
         episodeDescription: "Seiji Ishimoto, president of an electronic company, claims he has been receiving threat letters and hires Kogoro as a bodyguard. As a House of Representatives member gets on stage at the banquet where they're at, he is shot and Seiji's shoulder is grazed.",
         japaneseTitle: "謎の狙撃者殺人事件. (Nazo no Sogekisha Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -8204,12 +8453,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara",
         storyboard: "124 Kenji Kodama. 125 Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Kiyoshi Kawakubo as Seiji Ishimoto Yumi Hikita as Yukiko Tanaka Hiroshi Naka as Masao Takada Banjou Ginga as Tsuneaki Niikura Ryuzaburo Otomo as Shiro Hiraoka Masamichi Sato as Kenichi Shibata Ginzo Matsuo as Iwato Kaze Isshin Chiba as Presenter Yoshiko Okamoto as Lady Nao Takamori as Companion Mitsuki Saiga as Beautiful client",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Kiyoshi Kawakubo as Seiji Ishimoto", "Yumi Hikita as Yukiko Tanaka", "Hiroshi Naka as Masao Takada", "Banjou Ginga as Tsuneaki Niikura", "Ryuzaburo Otomo as Shiro Hiraoka", "Masamichi Sato as Kenichi Shibata", "Ginzo Matsuo as Iwato Kaze", "Isshin Chiba as Presenter", "Yoshiko Okamoto as Lady", "Nao Takamori as Companion", "Mitsuki Saiga as Beautiful client"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Weather Girl Kidnapping Case",
         nextCase: "The Traveling Drama Troupe Murder Case »",
-
 
 
 
@@ -8233,6 +8481,9 @@ const allData = [
     {
         id: "125", isFiller: true, title: "125: A Mysterious Sniper Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+
+
+
         episodeDescription: "Seiji tells the police about the threat letters after he's approached by the victim's secretary, Tsuneaki Niikura. When everyone leaves the hotel room, Conan does a search, but he is interrupted by an unknown man who finds something. Inspector Megure questions Kogoro about Seiji's secretary and reveals she has a motive and shows a picture of her boyfriend who Kogoro recognizes as the person he bumped into as he left the hotel room.",
         japaneseTitle: "謎の狙撃者殺人事件. (Nazo no Sogekisha Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -8267,12 +8518,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara",
         storyboard: "124 Kenji Kodama. 125 Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Kiyoshi Kawakubo as Seiji Ishimoto Yumi Hikita as Yukiko Tanaka Hiroshi Naka as Masao Takada Banjou Ginga as Tsuneaki Niikura Ryuzaburo Otomo as Shiro Hiraoka Masamichi Sato as Kenichi Shibata Ginzo Matsuo as Iwato Kaze Isshin Chiba as Presenter Yoshiko Okamoto as Lady Nao Takamori as Companion Mitsuki Saiga as Beautiful client",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Kiyoshi Kawakubo as Seiji Ishimoto", "Yumi Hikita as Yukiko Tanaka", "Hiroshi Naka as Masao Takada", "Banjou Ginga as Tsuneaki Niikura", "Ryuzaburo Otomo as Shiro Hiraoka", "Masamichi Sato as Kenichi Shibata", "Ginzo Matsuo as Iwato Kaze", "Isshin Chiba as Presenter", "Yoshiko Okamoto as Lady", "Nao Takamori as Companion", "Mitsuki Saiga as Beautiful client"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Weather Girl Kidnapping Case",
         nextCase: "The Traveling Drama Troupe Murder Case »",
-
 
 
 
@@ -8303,6 +8553,9 @@ const allData = [
     {
         id: "126", isFiller: true, title: "126: The Traveling Drama Troupe Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Tamanosuke Ito", "Megumi Ito"],
+
+
+
         episodeDescription: "While in the classroom one day, several female Teitan High School students, including Ran and Sonoko, gather around the new transfer student, Tamanosuke Ito, as he answers questions about his drama troupe. Sonoko shows everyone a flyer advertising the troupe's production and reads aloud that the show will be the first public performance run by Tamanosuke since becoming the troupe's second ringleader. Tamanosuke confirms this, later explaining that his troupe travels around the entire country and was previously in Beika two years prior when his father was the ringleader. When Ran mentions that she heard his father passed away, Tamanosuke confirms that the previous ringleader died of a disease the previous year. When his father died, half the troupe subsequently left, making transition very challenging. Sonoko volunteers herself and Ran to distribute the troupe's flyers so that Tamanosuke can concentrate on practicing for the big show.",
         japaneseTitle: "旅芝居一座殺人事件. (Tabi Shibai Ichiza Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -8336,12 +8589,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Naoko Matsui as Sonoko Suzuki Soichiro Hoshi as Tamanosuke Ito Runa Akiyama as Megumi Ito Ken Narita as Ryuichi Muraki Sayaka Ohara as Yuri Shirai Kazue Ikura as Itoe Ogiwara Nobuaki Fukuda as Tetsuo Chikaishi Taimei Suzuki as Kenzo Tajima Isshin Chiba as Theatre staff Mikiko Enomoto as Woman Hitoshi Hirao as Male innkeeper Yoshiko Okamoto as Female innkeeper",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Naoko Matsui as Sonoko Suzuki", "Soichiro Hoshi as Tamanosuke Ito", "Runa Akiyama as Megumi Ito", "Ken Narita as Ryuichi Muraki", "Sayaka Ohara as Yuri Shirai", "Kazue Ikura as Itoe Ogiwara", "Nobuaki Fukuda as Tetsuo Chikaishi", "Taimei Suzuki as Kenzo Tajima", "Isshin Chiba as Theatre staff", "Mikiko Enomoto as Woman", "Hitoshi Hirao as Male innkeeper", "Yoshiko Okamoto as Female innkeeper"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« A Mysterious Sniper Murder Case",
         nextCase: "The Black Organization: One Billion Yen Robbery Case »",
-
 
 
 
@@ -8365,6 +8617,9 @@ const allData = [
     {
         id: "127", isFiller: true, title: "127: The Traveling Drama Troupe Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Tamanosuke Ito", "Megumi Ito"],
+
+
+
         episodeDescription: "The Detective Boys and Megumi are watching a news report from the troupe’s hotel room on Chikaishi’s death, with the reporter stationed right outside the building. When the reporter mentions the ringleader, Tamanosuke, was currently being questioned at the station, Megumi turns off the television out of frustration. Coincidently, Yuri excitedly opens the door to the room with the children to give Megumi good news: Tamanosuke had returned. As Megumi runs out to greet her brother, Tamanosuke walks down the hallway with support from Tajima, least he fall to the ground again.",
         japaneseTitle: "旅芝居一座殺人事件. (Tabi Shibai Ichiza Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -8398,12 +8653,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Naoko Matsui as Sonoko Suzuki Soichiro Hoshi as Tamanosuke Ito Runa Akiyama as Megumi Ito Ken Narita as Ryuichi Muraki Sayaka Ohara as Yuri Shirai Kazue Ikura as Itoe Ogiwara Nobuaki Fukuda as Tetsuo Chikaishi Taimei Suzuki as Kenzo Tajima Isshin Chiba as Theatre staff Mikiko Enomoto as Woman Hitoshi Hirao as Male innkeeper Yoshiko Okamoto as Female innkeeper",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Naoko Matsui as Sonoko Suzuki", "Soichiro Hoshi as Tamanosuke Ito", "Runa Akiyama as Megumi Ito", "Ken Narita as Ryuichi Muraki", "Sayaka Ohara as Yuri Shirai", "Kazue Ikura as Itoe Ogiwara", "Nobuaki Fukuda as Tetsuo Chikaishi", "Taimei Suzuki as Kenzo Tajima", "Isshin Chiba as Theatre staff", "Mikiko Enomoto as Woman", "Hitoshi Hirao as Male innkeeper", "Yoshiko Okamoto as Female innkeeper"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« A Mysterious Sniper Murder Case",
         nextCase: "The Black Organization: One Billion Yen Robbery Case »",
-
 
 
 
@@ -8428,6 +8682,9 @@ const allData = [
     {
         id: "128", isFiller: false, title: "128: The Black Organization: One Billion Yen Robbery Case",
         appearances: ["Conan Edogawa", "Akemi Miyano", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Gin", "Vodka", "Police detective", "Kamen Yaiba"],
+
+
+
         episodeDescription: "While at the bank, Conan witnesses bank robbers driving away with the 1 billion yen in a truck. The police finds the abandoned truck under the bridge and come upon a mask used for the robbery.",
         japaneseTitle: "黒の組織10億円強奪事件. (Kuro no Soshiki Jūoku En Gōdatsu Jiken)",
         titleInOtherLanguages: [
@@ -8461,12 +8718,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Toshihiko Nakajima as Officer Tome Sakiko Tamagawa as Masami Hirota (Akemi Miyano) Isshin Chiba as Kishii Hiroshi Naka as Shiro Kaizuka Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Toshihiko Nakajima as Officer Tome", "Sakiko Tamagawa as Masami Hirota (Akemi Miyano)", "Isshin Chiba as Kishii", "Hiroshi Naka as Shiro Kaizuka", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Traveling Drama Troupe Murder Case",
         nextCase: "The Girl from the Black Organization and the University Professor Murder Case »",
-
 
 
 
@@ -8492,6 +8748,9 @@ const allData = [
     {
         id: "129", isFiller: false, title: "129: The Girl from the Black Organization and the University Professor Murder Case (2 Hour Special)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Sumiko Kobayashi", "Hiroshi Agasa", "Sango Yokomizo", "Akemi Miyano", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Gin", "Vodka", "Shinichi Kudo"],
+
+
+
         episodeDescription: "A new girl named Ai Haibara transfers into Conan's class. Conan is apathetic, but the rest of the Detective Boys are excited. She acts rather cold and reserved when the Detective Boys try to befriend her, and Genta notices she's looking at Conan suspiciously. She tells them she lives at Beika 2-chōme, 22-banchi, which Conan deduces is right near his house, but can't think of any candidate houses or apartments where a Haibara family has lived.",
         japaneseTitle: "黒の組織から来た女 大学教授殺人事件. (Kuro no Soshiki Kara Kita Onna Daigaku Kyōju Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -8528,12 +8787,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima Megumi Hayashibara as Ai Haibara, Shiho Miyano Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Akio Otsuka as Sango Yokomizo Yuko Kato as Sumiko Kobayashi Motoko Kumai as Toshiya Kousuke Okano as Toshiya's brother Yukiko Hattori as Toshiya's mother Mitsuki Saiga as Clerk Toshihiko Nakajima as Man Yoshizou Yamaguchi as Real estate agent Isshin Chiba as Policeman Yasuhiro Takato as Policeman Jun Karasawa as Lady in black Koji Ishii as Black hat man Jin Hirao as Inuyama Hiroshi Naka as Masami Hirota Sachi Asakura as Toshiko Hirota Takehito Koyasu as Akira Shirakura Katsuhisa Houki as Michio Morioka Yuji Fujishiro as Kazuhiro Hosoya Sakiko Tamagawa as Akemi Miyano Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Megumi Hayashibara as Ai Haibara, Shiho Miyano", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Akio Otsuka as Sango Yokomizo", "Yuko Kato as Sumiko Kobayashi", "Motoko Kumai as Toshiya", "Kousuke Okano as Toshiya's brother", "Yukiko Hattori as Toshiya's mother", "Mitsuki Saiga as Clerk", "Toshihiko Nakajima as Man", "Yoshizou Yamaguchi as Real estate agent", "Isshin Chiba as Policeman", "Yasuhiro Takato as Policeman", "Jun Karasawa as Lady in black", "Koji Ishii as Black hat man", "Jin Hirao as Inuyama", "Hiroshi Naka as Masami Hirota", "Sachi Asakura as Toshiko Hirota", "Takehito Koyasu as Akira Shirakura", "Katsuhisa Houki as Michio Morioka", "Yuji Fujishiro as Kazuhiro Hosoya", "Sakiko Tamagawa as Akemi Miyano", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Black Organization: One Billion Yen Robbery Case",
         nextCase: "The Indiscriminate Stadium Threatening Case »",
-
 
 
 
@@ -8596,6 +8854,9 @@ const allData = [
     {
         id: "130", isFiller: false, title: "130: The Indiscriminate Stadium Threatening Case (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Ran Mouri", "Kogoro Mouri", "Hideo Akagi", "Naoki Uemura", "Gin", "Vodka"],
+
+
+
         episodeDescription: "Conan and the Detective Boys are watching a soccer game when someone calls the television station covering the game. This person demands that 50 million yen be given to him, or he will indiscriminately shoot someone in the stands.",
         japaneseTitle: "競技場無差別脅迫事件. (Kyougijou Musabetsu Kyouhaku Jiken)",
         titleInOtherLanguages: [
@@ -8629,12 +8890,11 @@ const allData = [
 
         storyboard: "130 Hirohito Ochi. 131 Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Atsuko Yuya as Miwako Sato Ryo Kamon as Kaneko Susumu Chiba as Detective Tamiya Junichi Sugawara as Observer, Detective A Isshin Chiba as Announcer Yasuhiro Takato as Staff A, Detective B Naoki Nakashima as Staff B Yoko Gendai as Herself Kazuhiro Yamaki as Himself Ryuzaburo Otomo as Hiruta",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Atsuko Yuya as Miwako Sato", "Ryo Kamon as Kaneko", "Susumu Chiba as Detective Tamiya", "Junichi Sugawara as Observer, Detective A", "Isshin Chiba as Announcer", "Yasuhiro Takato as Staff A, Detective B", "Naoki Nakashima as Staff B", "Yoko Gendai as Herself", "Kazuhiro Yamaki as Himself", "Ryuzaburo Otomo as Hiruta"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Girl from the Black Organization and the University Professor Murder Case",
         nextCase: "Magic Lover's Murder Case »",
-
 
 
 
@@ -8661,6 +8921,9 @@ const allData = [
     {
         id: "131", isFiller: false, title: "131: The Indiscriminate Stadium Threatening Case (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Ran Mouri", "Kogoro Mouri", "Hideo Akagi", "Naoki Uemura", "Gin", "Vodka"],
+
+
+
         episodeDescription: "When the money is being picked up, the police attempt to capture the culprit. However, it turns out that this person was just an accomplice and the real shooter is in the stands, and will shoot someone unless this person is set free. The police are forced to let him go, and he makes an impossible demand: 1 billion yen must be delivered before the end of the match. Conan realizes with this plan that the culprit had aimed to kill someone from the start, and he has to find out who the shooter who is still in the stadium is before he murders someone before his eyes.",
         japaneseTitle: "競技場無差別脅迫事件. (Kyougijou Musabetsu Kyouhaku Jiken)",
         titleInOtherLanguages: [
@@ -8694,12 +8957,11 @@ const allData = [
 
         storyboard: "130 Hirohito Ochi. 131 Johei Matsuura",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Atsuko Yuya as Miwako Sato Ryo Kamon as Kaneko Susumu Chiba as Detective Tamiya Junichi Sugawara as Observer, Detective A Isshin Chiba as Announcer Yasuhiro Takato as Staff A, Detective B Naoki Nakashima as Staff B Yoko Gendai as Herself Kazuhiro Yamaki as Himself Ryuzaburo Otomo as Hiruta",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Atsuko Yuya as Miwako Sato", "Ryo Kamon as Kaneko", "Susumu Chiba as Detective Tamiya", "Junichi Sugawara as Observer, Detective A", "Isshin Chiba as Announcer", "Yasuhiro Takato as Staff A, Detective B", "Naoki Nakashima as Staff B", "Yoko Gendai as Herself", "Kazuhiro Yamaki as Himself", "Ryuzaburo Otomo as Hiruta"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Kōri no Ue ni Tatsu Yō ni",
         prevCase: "« The Girl from the Black Organization and the University Professor Murder Case",
         nextCase: "Magic Lover's Murder Case »",
-
 
 
 
@@ -8726,6 +8988,9 @@ const allData = [
     {
         id: "132", isFiller: false, title: "132: Magic Lover's Murder Case (The Case)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kaitou Kid", "Shinichi Kudo", "Kazumi Sanada"],
+
+
+
         episodeDescription: "Sonoko invites Ran, to attend a meeting full of avid magic fans she met online. After dropping her off at the snowy lodge, Conan and Kogoro return home. During the ride, they hear on the radio that one of the members, Tsutomu Nishiyama, is found dead in his home and that his dying message was the name Dark Master, one of the members of the club.",
         japaneseTitle: "奇術愛好家殺人事件. (Kijutsu Aikōka Satsujin Jiken). 132 事件篇 (Jiken-hen). 133 疑惑篇 (Giwaku-hen). 134 解決篇 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -8761,12 +9026,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Natsuo Tokuhiro as Yoshinori Ara Kanji Watanabe as Katsuki Doito Hiroko Fukuda as Kikue Tanaka Renshi Fukuyama as Toshiya Hamano Maki Tamura as Naoko Kuroda Kenji Hamada as Tsutomu Nishiyama Tousei Tanaka as Kiyohiro Sugama Isshin Chiba as Radio Kappei Yamaguchi as Kaitou Kid",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3)", "Natsuo Tokuhiro as Yoshinori Ara", "Kanji Watanabe as Katsuki Doito", "Hiroko Fukuda as Kikue Tanaka", "Renshi Fukuyama as Toshiya Hamano", "Maki Tamura as Naoko Kuroda", "Kenji Hamada as Tsutomu Nishiyama", "Tousei Tanaka as Kiyohiro Sugama", "Isshin Chiba as Radio", "Kappei Yamaguchi as Kaitou Kid"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Indiscriminate Stadium Threatening Case",
         nextCase: "The Disappearing Weapon Search Case »",
-
 
 
 
@@ -8790,6 +9054,9 @@ const allData = [
     {
         id: "133", isFiller: false, title: "133: Magic Lover's Murder Case (The Suspicion)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kaitou Kid", "Shinichi Kudo", "Kazumi Sanada"],
+
+
+
         episodeDescription: "The members of the lodge decide to leave the Hamano's body untouched to preserve the crime scene and retreat back into the lodge. They discuss among themselves and believe that the club member with the Username Dark Master is the murderer.",
         japaneseTitle: "奇術愛好家殺人事件. (Kijutsu Aikōka Satsujin Jiken). 132 事件篇 (Jiken-hen). 133 疑惑篇 (Giwaku-hen). 134 解決篇 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -8825,12 +9092,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Natsuo Tokuhiro as Yoshinori Ara Kanji Watanabe as Katsuki Doito Hiroko Fukuda as Kikue Tanaka Renshi Fukuyama as Toshiya Hamano Maki Tamura as Naoko Kuroda Kenji Hamada as Tsutomu Nishiyama Tousei Tanaka as Kiyohiro Sugama Isshin Chiba as Radio Kappei Yamaguchi as Kaitou Kid",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3)", "Natsuo Tokuhiro as Yoshinori Ara", "Kanji Watanabe as Katsuki Doito", "Hiroko Fukuda as Kikue Tanaka", "Renshi Fukuyama as Toshiya Hamano", "Maki Tamura as Naoko Kuroda", "Kenji Hamada as Tsutomu Nishiyama", "Tousei Tanaka as Kiyohiro Sugama", "Isshin Chiba as Radio", "Kappei Yamaguchi as Kaitou Kid"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Indiscriminate Stadium Threatening Case",
         nextCase: "The Disappearing Weapon Search Case »",
-
 
 
 
@@ -8854,6 +9120,9 @@ const allData = [
     {
         id: "134", isFiller: false, title: "134: Magic Lover's Murder Case (The Resolution)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kaitou Kid", "Shinichi Kudo", "Kazumi Sanada"],
+
+
+
         episodeDescription: "Conan recreates the crossbow attack on the top floor and lures everyone outside.",
         japaneseTitle: "奇術愛好家殺人事件. (Kijutsu Aikōka Satsujin Jiken). 132 事件篇 (Jiken-hen). 133 疑惑篇 (Giwaku-hen). 134 解決篇 (Kaiketsu-hen)",
         titleInOtherLanguages: [
@@ -8889,12 +9158,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Natsuo Tokuhiro as Yoshinori Ara Kanji Watanabe as Katsuki Doito Hiroko Fukuda as Kikue Tanaka Renshi Fukuyama as Toshiya Hamano Maki Tamura as Naoko Kuroda Kenji Hamada as Tsutomu Nishiyama Tousei Tanaka as Kiyohiro Sugama Isshin Chiba as Radio Kappei Yamaguchi as Kaitou Kid",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1/Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3)", "Natsuo Tokuhiro as Yoshinori Ara", "Kanji Watanabe as Katsuki Doito", "Hiroko Fukuda as Kikue Tanaka", "Renshi Fukuyama as Toshiya Hamano", "Maki Tamura as Naoko Kuroda", "Kenji Hamada as Tsutomu Nishiyama", "Tousei Tanaka as Kiyohiro Sugama", "Isshin Chiba as Radio", "Kappei Yamaguchi as Kaitou Kid"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Indiscriminate Stadium Threatening Case",
         nextCase: "The Disappearing Weapon Search Case »",
-
 
 
 
@@ -8918,6 +9186,9 @@ const allData = [
     {
         id: "135", isFiller: true, title: "135: The Disappearing Weapon Search Case",
         appearances: ["Conan Edogawa", "Juzo Megure", "Wataru Takagi", "Ai Haibara", "Detective Boys", "Officer Tome"],
+
+
+
         episodeDescription: "The Detective Boys are walking to a beauty salon, because Ayumi wants to get a haircut from her favorite hairdresser. However, they see her hairdresser, Mika Mitsui, arguing with the owner of the salon, Midori Goto, an argument that gets heated. Mitsui wants to leave the salon, and join a different one. However, the owner keeps begging for her to stay, because she believes that the hairdresser is the best one in the salon. Mitsui tells Ayumi that even though she is leaving the salon, that she can still get her hair done anytime she wants. She tells Ayumi to visit her apartment on Saturday morning, to get her hair done. The next Saturday, the Detective Boys go to the hairdresser's apartment, but find that she has been murdered.",
         japaneseTitle: "消えた凶器捜索事件. (Kieta Kyōki Sōsaku Jiken)",
         titleInOtherLanguages: [
@@ -8951,12 +9222,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Toshihiko Nakajima as Officer Tome Takumi Kurebayashi as Midori Goto Masami Toyoshima as Mika Mitsui Isshin Chiba as Worker Mitsuaki Hoshino as Manager Nao Takamori as Hairdresser A",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Toshihiko Nakajima as Officer Tome", "Takumi Kurebayashi as Midori Goto", "Masami Toyoshima as Mika Mitsui", "Isshin Chiba as Worker", "Mitsuaki Hoshino as Manager", "Nao Takamori as Hairdresser A"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« Magic Lover's Murder Case",
         nextCase: "The Old Blue Castle Investigation Case »",
-
 
 
 
@@ -8983,6 +9253,9 @@ const allData = [
     {
         id: "136", isFiller: false, title: "136: The Old Blue Castle Investigation Case (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure"],
+
+
+
         episodeDescription: "The Detective Boys are on a camping trip but Professor Agasa forgot the tent. They then wander to a castle owned by an old mistress and learn that there's a secret treasure in the castle. Mitsuru Mamiya is actually the second husband of the eldest Mamiya daughter.",
         japaneseTitle: "青の古城探索事件. (Ao no Kojō Tansaku Jiken)",
         titleInOtherLanguages: [
@@ -9017,12 +9290,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Hisako Kyouda as Masuyo Mamiya Yoshisada Sakaguchi as Mitsuru Mamiya Jin Yamanoi as Takahito Mamiya Naoki Tatsuta as Katsuo Tabata Isshin Chiba as Servant Nao Takamori as Housekeeper",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Hisako Kyouda as Masuyo Mamiya", "Yoshisada Sakaguchi as Mitsuru Mamiya", "Jin Yamanoi as Takahito Mamiya", "Naoki Tatsuta as Katsuo Tabata", "Isshin Chiba as Servant", "Nao Takamori as Housekeeper"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Disappearing Weapon Search Case",
         nextCase: "The Final Screening Murder Case »",
-
 
 
 
@@ -9045,6 +9317,9 @@ const allData = [
     {
         id: "137", isFiller: false, title: "137: The Old Blue Castle Investigation Case (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure"],
+
+
+
         episodeDescription: "When nighttime comes, Haibara investigates freely and is accompanied by the Detective Boys. They enter the same secret passage as Conan did and wander out of another secret entrance. Genta remains trapped in the passage and captured by the culprit.",
         japaneseTitle: "青の古城探索事件. (Ao no Kojō Tansaku Jiken)",
         titleInOtherLanguages: [
@@ -9079,12 +9354,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Hisako Kyouda as Masuyo Mamiya Yoshisada Sakaguchi as Mitsuru Mamiya Jin Yamanoi as Takahito Mamiya Naoki Tatsuta as Katsuo Tabata Isshin Chiba as Servant Nao Takamori as Housekeeper",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Hisako Kyouda as Masuyo Mamiya", "Yoshisada Sakaguchi as Mitsuru Mamiya", "Jin Yamanoi as Takahito Mamiya", "Naoki Tatsuta as Katsuo Tabata", "Isshin Chiba as Servant", "Nao Takamori as Housekeeper"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Disappearing Weapon Search Case",
         nextCase: "The Final Screening Murder Case »",
-
 
 
 
@@ -9110,6 +9384,9 @@ const allData = [
     {
         id: "138", isFiller: false, title: "138: The Final Screening Murder Case (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Hiroshi Agasa", "Wataru Takagi", "Kazunobu Chiba"],
+
+
+
         episodeDescription: "The Detective Boys attend the final opening day of a theatre as it is about to be demolished. They plan to watch three films of Gomera, a parody of Godzilla. During the second film, the man who bought and planned the demolishing of the theatre is found hanged.",
         japaneseTitle: "最後の上映殺人事件. (Saigo no Jouei Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -9143,12 +9420,11 @@ const allData = [
 
         storyboard: "138 Koichi Sasaki. 139 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba Eiji Maruyama as Akio Muramatsu Yusaku Yara as Minoru Furuhashi Yuki Kaida as Yuriko Tomosato Akio Suyama as Toshiyuki Ide Nobutaka Masutomi as Seiji Haruta Nao Takamori as Woman Kendo Kobayashi as Investigator A Shuuji Murakoshi as Investigator B Ai Kobayashi as Fairy Emera Hiroshi Naka as Professor Serizawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba", "Eiji Maruyama as Akio Muramatsu", "Yusaku Yara as Minoru Furuhashi", "Yuki Kaida as Yuriko Tomosato", "Akio Suyama as Toshiyuki Ide", "Nobutaka Masutomi as Seiji Haruta", "Nao Takamori as Woman", "Kendo Kobayashi as Investigator A", "Shuuji Murakoshi as Investigator B", "Ai Kobayashi as Fairy Emera", "Hiroshi Naka as Professor Serizawa"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Old Blue Castle Investigation Case",
         nextCase: "SOS! Messages from Ayumi »",
-
 
 
 
@@ -9169,6 +9445,9 @@ const allData = [
     {
         id: "139", isFiller: false, title: "139: The Final Screening Murder Case (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Hiroshi Agasa", "Wataru Takagi", "Kazunobu Chiba"],
+
+
+
         episodeDescription: "The clerk went to fix her contact lenses. Takagi comes in explaining that the Victim owed a large sum of money. Agasa comes by to pick up the children, but Ayumi, Haibara, and Conan were still inside with the girls going to the bathroom while Conan walked around. Conan comes to an conclusion while looking in the bathroom mirror after Haibara parted some words, he runs into the theater and finds a clue in the pile of cigarettes' where Haruta was sitting as well as a footprint. Conan goes to Agasa and explains what he has discovered, though it is never said to the viewer. When Conan goes to whisper to Agasa the kids come in saying how rude he is (how about how rude they are for eavesdropping?) Tagaki tells Megure about what Haruta's neighbors had to say, that he was in a bad mood because of his debts and that he was arguing with the bank. Its revealed that the theater hasn't been sold yet. As the suspects keep saying that it was a suicide, the lights go dark and Agasa appears in the window, having repeated the 'trick the murderer has conspired today'.",
         japaneseTitle: "最後の上映殺人事件. (Saigo no Jouei Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -9202,12 +9481,11 @@ const allData = [
 
         storyboard: "138 Koichi Sasaki. 139 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba Eiji Maruyama as Akio Muramatsu Yusaku Yara as Minoru Furuhashi Yuki Kaida as Yuriko Tomosato Akio Suyama as Toshiyuki Ide Nobutaka Masutomi as Seiji Haruta Nao Takamori as Woman Kendo Kobayashi as Investigator A Shuuji Murakoshi as Investigator B Ai Kobayashi as Fairy Emera Hiroshi Naka as Professor Serizawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba", "Eiji Maruyama as Akio Muramatsu", "Yusaku Yara as Minoru Furuhashi", "Yuki Kaida as Yuriko Tomosato", "Akio Suyama as Toshiyuki Ide", "Nobutaka Masutomi as Seiji Haruta", "Nao Takamori as Woman", "Kendo Kobayashi as Investigator A", "Shuuji Murakoshi as Investigator B", "Ai Kobayashi as Fairy Emera", "Hiroshi Naka as Professor Serizawa"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Old Blue Castle Investigation Case",
         nextCase: "SOS! Messages from Ayumi »",
-
 
 
 
@@ -9233,6 +9511,9 @@ const allData = [
     {
         id: "140", isFiller: true, title: "140: SOS! Messages from Ayumi",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Sumiko Kobayashi", "Mrs. Yoshida", "Kamen Yaiba"],
+
+
+
         episodeDescription: "One day, Ayumi is sick. She takes a day off from school and while she naps, her mother nips out from their apartment to do some shopping. When Ayumi wakes up, she hears noises from the front door. Excitedly, she runs to the door to surprise her mother as she comes in, but when she peeks through the peep hole, she finds that it isn't her mother at all, but a strange man with a ponytail fiddling with the lock. Terrified, she runs for the phone and tries to call the police, but her fingers are too slow, and as the door handle turns, in a frenzy of motion, she dives for a hiding spot and drops the phone in the process.",
         japaneseTitle: "SOS! 歩美からのメッセージ. (SOS! Ayumi kara no Messēji)",
         titleInOtherLanguages: [
@@ -9266,12 +9547,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Yuko Kato as Sumiko Kobayashi Shinobu Sato as Mrs. Yoshida Hikaru Hanada as Minoru Nakagawa Mitsuki Saiga as Day shift Isshin Chiba as Kamen Yaiba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Yuko Kato as Sumiko Kobayashi", "Shinobu Sato as Mrs. Yoshida", "Hikaru Hanada as Minoru Nakagawa", "Mitsuki Saiga as Day shift", "Isshin Chiba as Kamen Yaiba"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« The Final Screening Murder Case",
         nextCase: "The Night Before the Wedding Locked Room Case »",
-
 
 
 
@@ -9297,6 +9577,9 @@ const allData = [
     {
         id: "141", isFiller: false, title: "141: The Night Before the Wedding Locked Room Case (Part 1)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Kazuha Toyama", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Detective Yama", "Shizuka Hattori", "Reporter"],
+
+
+
         episodeDescription: "Heiji and Kazuha visit Tokyo accompanied by Kogoro, Ran, and Conan. They run into the butler of Heiji's mother's late friend's family and are invited to their mansion. The son of the friend is getting married the next day. There a murder occurs and the butler is found dead in a locked room. It seems he was dragged to another room after being stabbed in the heart.",
         japaneseTitle: "結婚前夜の密室事件. (Kekkon Zenya no Misshitsu Jiken)",
         titleInOtherLanguages: [
@@ -9329,12 +9612,11 @@ const allData = [
 
         storyboard: "141 Yoshio Suzuki. 142 Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Toshihiko Nakajima as Officer Tome Takao Ohyama as Mikio Morizono Keiko Fukushima as Yurie Morizono Yuji Takada as Kikuhito Morizono Ayako Kurosaki as Kaede Katagiri Ryuichi Horibe as Akio Shigematsu Naochika Hayashida as Yuji Sakuraba Sadao Nunome as Reporter A Takayuki Inoue as Reporter B Isshin Chiba as Servant, detective",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Toshihiko Nakajima as Officer Tome", "Takao Ohyama as Mikio Morizono", "Keiko Fukushima as Yurie Morizono", "Yuji Takada as Kikuhito Morizono", "Ayako Kurosaki as Kaede Katagiri", "Ryuichi Horibe as Akio Shigematsu", "Naochika Hayashida as Yuji Sakuraba", "Sadao Nunome as Reporter A", "Takayuki Inoue as Reporter B", "Isshin Chiba as Servant, detective"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« SOS! Messages from Ayumi",
         nextCase: "The Suspicious Astronomical Observation »",
-
 
 
 
@@ -9355,6 +9637,9 @@ const allData = [
     {
         id: "142", isFiller: false, title: "142: The Night Before the Wedding Locked Room Case (Part 2)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Kazuha Toyama", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Detective Yama", "Shizuka Hattori", "Reporter"],
+
+
+
         episodeDescription: "Continuing the investigation, Heiji proclaims the family servant was the murderer and he is taken away, screaming his innocence.",
         japaneseTitle: "結婚前夜の密室事件. (Kekkon Zenya no Misshitsu Jiken)",
         titleInOtherLanguages: [
@@ -9387,12 +9672,11 @@ const allData = [
 
         storyboard: "141 Yoshio Suzuki. 142 Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Toshihiko Nakajima as Officer Tome Takao Ohyama as Mikio Morizono Keiko Fukushima as Yurie Morizono Yuji Takada as Kikuhito Morizono Ayako Kurosaki as Kaede Katagiri Ryuichi Horibe as Akio Shigematsu Naochika Hayashida as Yuji Sakuraba Sadao Nunome as Reporter A Takayuki Inoue as Reporter B Isshin Chiba as Servant, detective",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Toshihiko Nakajima as Officer Tome", "Takao Ohyama as Mikio Morizono", "Keiko Fukushima as Yurie Morizono", "Yuji Takada as Kikuhito Morizono", "Ayako Kurosaki as Kaede Katagiri", "Ryuichi Horibe as Akio Shigematsu", "Naochika Hayashida as Yuji Sakuraba", "Sadao Nunome as Reporter A", "Takayuki Inoue as Reporter B", "Isshin Chiba as Servant, detective"],
         openingSong: "TRUTH ~A Great Detective of Love~",
         endingSong: "Still for your love",
         prevCase: "« SOS! Messages from Ayumi",
         nextCase: "The Suspicious Astronomical Observation »",
-
 
 
 
@@ -9415,6 +9699,9 @@ const allData = [
     {
         id: "143", isFiller: true, title: "143: The Suspicious Astronomical Observation",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "Ran, Sonoko, and Conan go to watch the stars. Sonoko is especially hoping that she will see a shooting star. Ran has a friend at the observatory that helps her use a telescope. He introduces his sempais that work at the observatory. One of them just won an award known as the 'Star Pioneer', while the other one seems angered. However, that same night, that same person falls from the higher level of the observatory. Conan knows it isn't an accident, but how can he prove it?",
         japaneseTitle: "疑惑の天体観測. (Giwaku no Tentaikansoku)",
         titleInOtherLanguages: [
@@ -9447,12 +9734,11 @@ const allData = [
         screenplay: "Manabu Harada",
         storyboard: "Johei Matsuura",
         characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Hirohito Torihata as Koichi Nonaka Tohru Furuya as Hiroshi Akimoto Nozomu Sasaki as Kazuhiko Eda Masahiko Tanaka as Detective Yamada Isshin Chiba as Policeman Junichi Sugawara as Forensics officer Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Hirohito Torihata as Koichi Nonaka", "Tohru Furuya as Hiroshi Akimoto", "Nozomu Sasaki as Kazuhiko Eda", "Masahiko Tanaka as Detective Yamada", "Isshin Chiba as Policeman", "Junichi Sugawara as Forensics officer", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Night Before the Wedding Locked Room Case",
         nextCase: "The North Star No.3 Express Leaving Ueno »",
-
 
 
 
@@ -9477,6 +9763,9 @@ const allData = [
     {
         id: "144", isFiller: false, title: "144: The North Star No.3 Express Leaving Ueno (Part 1)",
         appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Yukiko Kudo", "Yusaku Kudo", "Kyohei Nishimura", "Detective Tamura"],
+
+
+
         episodeDescription: "Conan, Kogoro, and Ran take the overnight North Star Express to Hokkaido to meet a former client. On the train, they meet up with a series of people. However, in the night, a murder case occurs when a burglar seemingly kills a jewelry trader, and escapes through the window.",
         japaneseTitle: "上野発北斗星3号. (Ueno-hatsu Hokutosei Sangō)",
         titleInOtherLanguages: [
@@ -9509,12 +9798,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1) Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Fumiyo Akechi, Yukiko Kudo Hikaru Hanada as Kyohei Nishimura Takashi Nagasako as Detective Tamura Shigeru Ushiyama as Keitaro Izumo Takashi Taniguchi as Toshinori Kaetsu Yuzuru Fujimoto as Akishige Ishizuchi Seiko Fujiki as Azusa Izumo Tsutomu Tsuji as Yasuji Asama Kouichi Nagano as Toru Aoba Yasuyuki Kase as Conductor Isshin Chiba as Waiter, Announcement Hiromichi Kogami as Passenger A Mari Tomokawa as Passenger B Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1)", "Hideyuki Tanaka as Yusaku Kudo", "Sumi Shimamoto as Fumiyo Akechi, Yukiko Kudo", "Hikaru Hanada as Kyohei Nishimura", "Takashi Nagasako as Detective Tamura", "Shigeru Ushiyama as Keitaro Izumo", "Takashi Taniguchi as Toshinori Kaetsu", "Yuzuru Fujimoto as Akishige Ishizuchi", "Seiko Fujiki as Azusa Izumo", "Tsutomu Tsuji as Yasuji Asama", "Kouichi Nagano as Toru Aoba", "Yasuyuki Kase as Conductor", "Isshin Chiba as Waiter, Announcement", "Hiromichi Kogami as Passenger A", "Mari Tomokawa as Passenger B", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Suspicious Astronomical Observation",
         nextCase: "Metropolitan Police Detective Love Story »",
-
 
 
 
@@ -9536,6 +9824,9 @@ const allData = [
     {
         id: "145", isFiller: false, title: "145: The North Star No.3 Express Leaving Ueno (Part 2)",
         appearances: ["Conan Edogawa", "Shinichi Kudo", "Ran Mouri", "Kogoro Mouri", "Natsue Hatamoto", "Takeshi Hatamoto", "Yukiko Kudo", "Yusaku Kudo", "Kyohei Nishimura", "Detective Tamura"],
+
+
+
         episodeDescription: "Conan reveals to the suspicious woman that he knows her identity - it is Yukiko Kudo, his mother, in disguise. As they discuss the case, Kogoro calls all the passengers to witness his inaccurate deduction, enabling Conan to figure out the trick. However, a worried Conan recalls that in the novel, the detective boy who solved the case was murdered by the trap he set for the criminal. Yukiko volunteers to act as a decoy to help him find the proof.",
         japaneseTitle: "上野発北斗星3号. (Ueno-hatsu Hokutosei Sangō)",
         titleInOtherLanguages: [
@@ -9568,12 +9859,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Keiko Sasaki (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1) Hideyuki Tanaka as Yusaku Kudo Sumi Shimamoto as Fumiyo Akechi, Yukiko Kudo Hikaru Hanada as Kyohei Nishimura Takashi Nagasako as Detective Tamura Shigeru Ushiyama as Keitaro Izumo Takashi Taniguchi as Toshinori Kaetsu Yuzuru Fujimoto as Akishige Ishizuchi Seiko Fujiki as Azusa Izumo Tsutomu Tsuji as Yasuji Asama Kouichi Nagano as Toru Aoba Yasuyuki Kase as Conductor Isshin Chiba as Waiter, Announcement Hiromichi Kogami as Passenger A Mari Tomokawa as Passenger B Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1)", "Hideyuki Tanaka as Yusaku Kudo", "Sumi Shimamoto as Fumiyo Akechi, Yukiko Kudo", "Hikaru Hanada as Kyohei Nishimura", "Takashi Nagasako as Detective Tamura", "Shigeru Ushiyama as Keitaro Izumo", "Takashi Taniguchi as Toshinori Kaetsu", "Yuzuru Fujimoto as Akishige Ishizuchi", "Seiko Fujiki as Azusa Izumo", "Tsutomu Tsuji as Yasuji Asama", "Kouichi Nagano as Toru Aoba", "Yasuyuki Kase as Conductor", "Isshin Chiba as Waiter, Announcement", "Hiromichi Kogami as Passenger A", "Mari Tomokawa as Passenger B", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Suspicious Astronomical Observation",
         nextCase: "Metropolitan Police Detective Love Story »",
-
 
 
 
@@ -9594,6 +9884,9 @@ const allData = [
     {
         id: "146", isFiller: false, title: "146: Metropolitan Police Detective Love Story (Part 1)",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ninzaburo Shiratori", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Kiyonaga Matsumoto", "Detective Kobayashi", "Detective Yokoyama", "Detective Kojima", "Police detective", "Police detective", "Detective Tamiya", "Man"],
+
+
+
         episodeDescription: "The Detective Boys are called to the police station to make a statement about the Blue Castle Investigation Case, when they learn that the police are busy trying to figure out who robbed a nearby bank. The man who owns the bank Keizo Masuo has just arrived is wondering if his wife has already arrived to the police station, but Takagi and Sato say she hasn’t.",
         japaneseTitle: "本庁の刑事恋物語. (Honchō no Keiji Koi-monogatari)",
         titleInOtherLanguages: [
@@ -9627,12 +9920,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Seizo Kato as Kiyonaga Matsumoto Kaneto Shiozawa as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Sadao Nunome as Detective Kobayashi Takayuki Inoue as Detective Yokoyama Yasuo Muramatsu as Keizo Masuo Kei Hayami as Kayo Masuo Isshin Chiba as Police detective Toshihiko Nakajima as Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Seizo Kato as Kiyonaga Matsumoto", "Kaneto Shiozawa as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Yuu Sugimoto as Yumi Miyamoto", "Sadao Nunome as Detective Kobayashi", "Takayuki Inoue as Detective Yokoyama", "Yasuo Muramatsu as Keizo Masuo", "Kei Hayami as Kayo Masuo", "Isshin Chiba as Police detective", "Toshihiko Nakajima as Detective Kojima"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The North Star No.3 Express Leaving Ueno",
         nextCase: "The Streetcar's Sudden Stopping Case »",
-
 
 
 
@@ -9654,6 +9946,9 @@ const allData = [
     {
         id: "147", isFiller: false, title: "147: Metropolitan Police Detective Love Story (Part 2)",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ninzaburo Shiratori", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Kiyonaga Matsumoto", "Detective Kobayashi", "Detective Yokoyama", "Detective Kojima", "Police detective", "Police detective", "Detective Tamiya", "Man"],
+
+
+
         episodeDescription: "Conan gives the police small clues and they eventually find out the culprit who killed the wife. They also found out that a robbery took place days ago in Tohto bank, where Keizo is working as the manager.",
         japaneseTitle: "本庁の刑事恋物語. (Honchō no Keiji Koi-monogatari)",
         titleInOtherLanguages: [
@@ -9687,12 +9982,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Miwa Oshima (sub-character). Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Seizo Kato as Kiyonaga Matsumoto Kaneto Shiozawa as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Sadao Nunome as Detective Kobayashi Takayuki Inoue as Detective Yokoyama Yasuo Muramatsu as Keizo Masuo Kei Hayami as Kayo Masuo Isshin Chiba as Police detective Toshihiko Nakajima as Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Seizo Kato as Kiyonaga Matsumoto", "Kaneto Shiozawa as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Yuu Sugimoto as Yumi Miyamoto", "Sadao Nunome as Detective Kobayashi", "Takayuki Inoue as Detective Yokoyama", "Yasuo Muramatsu as Keizo Masuo", "Kei Hayami as Kayo Masuo", "Isshin Chiba as Police detective", "Toshihiko Nakajima as Detective Kojima"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The North Star No.3 Express Leaving Ueno",
         nextCase: "The Streetcar's Sudden Stopping Case »",
-
 
 
 
@@ -9718,6 +10012,9 @@ const allData = [
     {
         id: "148", isFiller: true, title: "148: The Streetcar's Sudden Stopping Case",
         appearances: ["Conan Edogawa", "Detective Boys"],
+
+
+
         episodeDescription: "Conan and the Detective Boys wake up at 5:30 am in the morning to go get in line for a roller coaster ride in Beika Land. There are only three other people on the train at that time, and they plan on going there in order to take pictures of the train. One of the photographers waits outside so he can take pictures of the train coming towards him. Suddenly, the ladder underneath him tips over and he falls onto the track.",
         japaneseTitle: "路面電車急停止事件. (Rōmen Densha Kyūteishi Jiken)",
         titleInOtherLanguages: [
@@ -9751,12 +10048,11 @@ const allData = [
         screenplay: "Masaaki Sakurai",
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Koji Yusa as Tetsuya Kawasaki Ai Kobayashi as Rumi Shimizu Keiichi Sonobe as Masao Horii Ikuya Sawaki as Kenji Wakai Takashi Nagasako as Driver Isshin Chiba as Station announcement",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Koji Yusa as Tetsuya Kawasaki", "Ai Kobayashi as Rumi Shimizu", "Keiichi Sonobe as Masao Horii", "Ikuya Sawaki as Kenji Wakai", "Takashi Nagasako as Driver", "Isshin Chiba as Station announcement"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« Metropolitan Police Detective Love Story",
         nextCase: "The Amusement Park Bungee Jumping Case »",
-
 
 
 
@@ -9780,6 +10076,9 @@ const allData = [
     {
         id: "149", isFiller: true, title: "149: The Amusement Park Bungee Jumping Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Vodka", "Hitomi", "Reiko", "Kishida", "Aiko", "Kamen Yaiba"],
+
+
+
         episodeDescription: "Conan, Ran, Kogoro, are at the amusement park. Later, while Yaiba is jumping on a bungee jump, the ring around his feet and he falls into the river nearby.",
         japaneseTitle: "遊園地バンジー事件. (Yūenchi Banjī Jiken)",
         titleInOtherLanguages: [
@@ -9813,12 +10112,11 @@ const allData = [
         screenplay: "Hiroshi Kashiwabara. Tokihiro Kon",
         storyboard: "Takashi Iwama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Yuta Hosono, Kamen Yaiba Koji Ishii as Shinpei Okubo, Black Planet Man Kaori Saiki as Kanako Harukawa Junichi Sugawara as Akiyoshi Ishijima You Kitazawa as Wataru Otake Yuji Fujishiro as Seizou Fujita Ayumi Kida as Tomohiro Takata Mari Tomokawa as Woman Hiromichi Kogami as Staff A Toshitaka Shimizu as Staff B Toshiaki Kuwahara as Staff C",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Isshin Chiba as Yuta Hosono, Kamen Yaiba", "Koji Ishii as Shinpei Okubo, Black Planet Man", "Kaori Saiki as Kanako Harukawa", "Junichi Sugawara as Akiyoshi Ishijima", "You Kitazawa as Wataru Otake", "Yuji Fujishiro as Seizou Fujita", "Ayumi Kida as Tomohiro Takata", "Mari Tomokawa as Woman", "Hiromichi Kogami as Staff A", "Toshitaka Shimizu as Staff B", "Toshiaki Kuwahara as Staff C"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Streetcar's Sudden Stopping Case",
         nextCase: "The Truth Behind the Car Explosion Case »",
-
 
 
 
@@ -9845,6 +10143,9 @@ const allData = [
     {
         id: "150", isFiller: true, title: "150: The Truth Behind the Car Explosion Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+
+
+
         episodeDescription: "Kogoro reveals that he tutored in his youth, and resolves to meet up with one of his students. However, when they go see her, her car suddenly explodes as her sister drives it out of the driveway.",
         japaneseTitle: "自動車爆発事件の真相. (Jidōsha Bakuhatsu Jiken no Shinsō)",
         titleInOtherLanguages: [
@@ -9878,12 +10179,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "150 Michiyo Sakurai. 151 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint (Part 1) Atsuko Yuya as Miwako Sato Keiko Han as Megumi Sakihara Tohru Furusawa as Kazuo Sakihara Shigenori Soya as Hiromasa Takahashi Mari Tomokawa as Detective Tomokawa Isshin Chiba as Detective A",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint (Part 1)", "Atsuko Yuya as Miwako Sato", "Keiko Han as Megumi Sakihara", "Tohru Furusawa as Kazuo Sakihara", "Shigenori Soya as Hiromasa Takahashi", "Mari Tomokawa as Detective Tomokawa", "Isshin Chiba as Detective A"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Amusement Park Bungee Jumping Case",
         nextCase: "The Mysterious Old Man Disappearance Case »",
-
 
 
 
@@ -9905,6 +10205,9 @@ const allData = [
     {
         id: "151", isFiller: true, title: "151: The Truth Behind the Car Explosion Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Miwako Sato"],
+
+
+
         episodeDescription: "With some prodding by Conan, Kogoro finds the truth of the case himself.",
         japaneseTitle: "自動車爆発事件の真相. (Jidōsha Bakuhatsu Jiken no Shinsō)",
         titleInOtherLanguages: [
@@ -9938,12 +10241,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "150 Michiyo Sakurai. 151 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint (Part 1) Atsuko Yuya as Miwako Sato Keiko Han as Megumi Sakihara Tohru Furusawa as Kazuo Sakihara Shigenori Soya as Hiromasa Takahashi Mari Tomokawa as Detective Tomokawa Isshin Chiba as Detective A",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint (Part 1)", "Atsuko Yuya as Miwako Sato", "Keiko Han as Megumi Sakihara", "Tohru Furusawa as Kazuo Sakihara", "Shigenori Soya as Hiromasa Takahashi", "Mari Tomokawa as Detective Tomokawa", "Isshin Chiba as Detective A"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Amusement Park Bungee Jumping Case",
         nextCase: "The Mysterious Old Man Disappearance Case »",
-
 
 
 
@@ -9967,6 +10269,9 @@ const allData = [
     {
         id: "152", isFiller: true, title: "152: The Mysterious Old Man Disappearance Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kogoro Mouri", "Wataru Takagi", "Juzo Megure", "Miwako Sato", "Detective Kobayashi", "Detective Kojima", "Minor law enforcement#Police detective", "Azusa Enomoto", "Ninzaburo Shiratori", "Tatsuya Kimura", "Mieko Shibazaki", "Katsumi Yamada"],
+
+
+
         episodeDescription: "While on the bus home, Ran meets an old man who later disappears. Later she finds a MO disk in her purse with secret information about fraud involving several companies. Conan realizes the old man must've been followed and captured. Sonoko is kidnapped, in a case of mistaken identity for having Ran's bag at the time.",
         japaneseTitle: "謎の老人失踪事件. (Nazo no Rōjin Shissō Jiken)",
         titleInOtherLanguages: [
@@ -10001,12 +10306,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yoshio Suzuki",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Naoko Matsui as Sonoko Suzuki, Next Conan's Hint Nobuaki Sekine as Juukichi Shitara Isshin Chiba as Bus driver Mikiko Enomoto as Receptionist Kouichi Nagano as Cleaning staff Jin Hirao as Taxi driver Kazuhiro Nakata as Man in the coat A Takashi Nagasako as Man in the coat B Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint", "Nobuaki Sekine as Juukichi Shitara", "Isshin Chiba as Bus driver", "Mikiko Enomoto as Receptionist", "Kouichi Nagano as Cleaning staff", "Jin Hirao as Taxi driver", "Kazuhiro Nakata as Man in the coat A", "Takashi Nagasako as Man in the coat B", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Still for your love",
         prevCase: "« The Truth Behind the Car Explosion Case",
         nextCase: "Sonoko's Dangerous Summer Story »",
-
 
 
 
@@ -10029,6 +10333,9 @@ const allData = [
     {
         id: "153", isFiller: false, title: "153: Sonoko's Dangerous Summer Story (Part 1)",
         appearances: ["Conan Edogawa", "Sonoko Suzuki", "Ran Mouri", "Sango Yokomizo", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "Sonoko, Ran, and Conan go to Izu, Shizuoka Prefecture, because of Sonoko's schemes to get a man. At the beach, Sonoko takes a picture of Ran fixing her bathing suit and threatens to send the picture to Shinichi. Sonoko is upset about her lack of love life. However, a college student approaches the girls and asks Sonoko to lunch. He appears to be romantically interested and asks Sonoko to dinner as well. They agree to meet at their lodgings later that day. The college student tells the group a story about a brunette that was murdered a year ago and now haunts the restaurant he wants to dine at. Ran is frighten by the story and forbids Sonoko in using the camera to capture a ghost in it. Sonoko suggest that maybe they could show such a picture to Shinichi and see if he can figure something out, since she is going to show the other picture anyway. The group then finds out that another brunette was murdered in the woods recently in the same manner as the brunette from a year ago.",
         japaneseTitle: "園子のアブない夏物語. (Sonoko no Abunai Natsumonogatari)",
         titleInOtherLanguages: [
@@ -10062,12 +10369,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri, Next Conan's Hint Naoko Matsui as Sonoko Suzuki, Next Conan's Hint Akio Otsuka as Sango Yokomizo Nobuyuki Hiyama as Makoto Kyogoku Hiroaki Hirata as Tadahiko Michiwaki Katsuhisa Houki as Shoji Terabayashi Isshin Chiba as Detective A Naoki Makishima as Man A Keesuke as Waiter Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint", "Akio Otsuka as Sango Yokomizo", "Nobuyuki Hiyama as Makoto Kyogoku", "Hiroaki Hirata as Tadahiko Michiwaki", "Katsuhisa Houki as Shoji Terabayashi", "Isshin Chiba as Detective A", "Naoki Makishima as Man A", "Keesuke as Waiter", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Mysterious Old Man Disappearance Case",
         nextCase: "Underwater Key in the Locked Room Case »",
-
 
 
 
@@ -10090,6 +10396,9 @@ const allData = [
     {
         id: "154", isFiller: false, title: "154: Sonoko's Dangerous Summer Story (Part 2)",
         appearances: ["Conan Edogawa", "Sonoko Suzuki", "Ran Mouri", "Sango Yokomizo", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "Sonoko sleeps inside Michiwaki's Station Wagon, while Conan, Ran and Michiwaki are eating in the restaurant. Just then, Conan realizes that the car is moving and Sonoko is still in the car. Conan and Ran run to stop the car, and just when the car is about to fall into the cliff, Ran broke the window and saved Sonoko in time, and the car fell into the cliff. Conan believes the culprit was the serial killer who attacked Sonoko last night.",
         japaneseTitle: "園子のアブない夏物語. (Sonoko no Abunai Natsumonogatari)",
         titleInOtherLanguages: [
@@ -10123,12 +10432,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri, Next Conan's Hint Naoko Matsui as Sonoko Suzuki, Next Conan's Hint Akio Otsuka as Sango Yokomizo Nobuyuki Hiyama as Makoto Kyogoku Hiroaki Hirata as Tadahiko Michiwaki Katsuhisa Houki as Shoji Terabayashi Isshin Chiba as Detective A Naoki Makishima as Man A Keesuke as Waiter Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint", "Akio Otsuka as Sango Yokomizo", "Nobuyuki Hiyama as Makoto Kyogoku", "Hiroaki Hirata as Tadahiko Michiwaki", "Katsuhisa Houki as Shoji Terabayashi", "Isshin Chiba as Detective A", "Naoki Makishima as Man A", "Keesuke as Waiter", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Mysterious Old Man Disappearance Case",
         nextCase: "Underwater Key in the Locked Room Case »",
-
 
 
 
@@ -10152,6 +10460,9 @@ const allData = [
     {
         id: "155", isFiller: true, title: "155: Underwater Key in the Locked Room Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Yokoyama"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan pay a visit to an old woman, who had meet Kogoro when he was a student. She decides to take them to her grandson, but he's found dead when they get into the house. The front door is locked however. How could this have happened? Rather than use Sleeping Kogoro for the case, Conan solves this one as himself.",
         japaneseTitle: "水中の鍵密室事件. (Suichū no Kagi Misshitsu Jiken)",
         titleInOtherLanguages: [
@@ -10185,12 +10496,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Takashi Iwama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Takayuki Inoue as Detective Yokoyama Junko Hori as Mitsue Souda Susumu Chiba as Yoshihiko Kido",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Takayuki Inoue as Detective Yokoyama", "Junko Hori as Mitsue Souda", "Susumu Chiba as Yoshihiko Kido"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« Sonoko's Dangerous Summer Story",
         nextCase: "Metropolitan Police Detective Love Story 2 »",
-
 
 
 
@@ -10214,6 +10524,9 @@ const allData = [
     {
         id: "156", isFiller: false, title: "156: Metropolitan Police Detective Love Story 2 (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Miwako Sato", "Wataru Takagi", "Juzo Megure", "Ninzaburo Shiratori", "Hiroshi Agasa", "Ran Mouri", "Kogoro Mouri", "Detective Yokoyama", "Detective Kojima"],
+
+
+
         episodeDescription: "Sato is chasing a man named Higashida through the school building where the Detective Boys are in. The man is a murder suspect in the murder of his boss, in whose apartment he was found. After cornering him, she accidentally handcuffs him to her between a toilet handle, trapping them. The man proclaims he is innocent and that needs to get on a plane tomorrow to attend his daughter's wedding. She tells Takagi to solve the case before the time and not to inform the police. The Tokyo police department send out a massive manhunt for the suspect, Sato, and Takagi.",
         japaneseTitle: "本庁の刑事恋物語2. (Honchō no Keiji Koi-monogatari 2)",
         titleInOtherLanguages: [
@@ -10247,12 +10560,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kaneto Shiozawa as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Takayuki Inoue as Detective Yokoyama Yasuo Iwata as Higashida Hidetoshi Nakamura as Kitagawa Junichi Sugawara as Manager Yoshiko Okamoto as Pub landlady Isshin Chiba as Worker A Takashi Nagasako as Worker B Hiromichi Kogami as Worker C",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kaneto Shiozawa as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Takayuki Inoue as Detective Yokoyama", "Yasuo Iwata as Higashida", "Hidetoshi Nakamura as Kitagawa", "Junichi Sugawara as Manager", "Yoshiko Okamoto as Pub landlady", "Isshin Chiba as Worker A", "Takashi Nagasako as Worker B", "Hiromichi Kogami as Worker C"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« Underwater Key in the Locked Room Case",
         nextCase: "The Silent Loop Line »",
-
 
 
 
@@ -10273,6 +10585,9 @@ const allData = [
     {
         id: "157", isFiller: false, title: "157: Metropolitan Police Detective Love Story 2 (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Miwako Sato", "Wataru Takagi", "Juzo Megure", "Ninzaburo Shiratori", "Hiroshi Agasa", "Ran Mouri", "Kogoro Mouri", "Detective Yokoyama", "Detective Kojima"],
+
+
+
         episodeDescription: "Takagi and the Detective Boys discover the secret as to why Higashida was in Muranishi room.",
         japaneseTitle: "本庁の刑事恋物語2. (Honchō no Keiji Koi-monogatari 2)",
         titleInOtherLanguages: [
@@ -10306,12 +10621,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kaneto Shiozawa as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Takayuki Inoue as Detective Yokoyama Yasuo Iwata as Higashida Hidetoshi Nakamura as Kitagawa Junichi Sugawara as Manager Yoshiko Okamoto as Pub landlady Isshin Chiba as Worker A Takashi Nagasako as Worker B Hiromichi Kogami as Worker C",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kaneto Shiozawa as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Takayuki Inoue as Detective Yokoyama", "Yasuo Iwata as Higashida", "Hidetoshi Nakamura as Kitagawa", "Junichi Sugawara as Manager", "Yoshiko Okamoto as Pub landlady", "Isshin Chiba as Worker A", "Takashi Nagasako as Worker B", "Hiromichi Kogami as Worker C"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« Underwater Key in the Locked Room Case",
         nextCase: "The Silent Loop Line »",
-
 
 
 
@@ -10338,6 +10652,9 @@ const allData = [
     {
         id: "158", isFiller: true, title: "158: The Silent Loop Line",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are waiting for the train when they notice a group of people leaving work on a Sunday. Once they boarded the train, the group finds their co-worker dead in an empty train car.",
         japaneseTitle: "沈黙の環状線. (Chinmoku no Kanjō-sen)",
         titleInOtherLanguages: [
@@ -10371,12 +10688,11 @@ const allData = [
         screenplay: "Takeshi Mochizuki",
         storyboard: "Takashi Iwama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Akira Kanou as Seiji Kurata Yuriko Yamaguchi as Shizuka Kawai Isshin Chiba as Announcement Akiko Yajima as Yukiko Mori",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Akira Kanou as Seiji Kurata", "Yuriko Yamaguchi as Shizuka Kawai", "Isshin Chiba as Announcement", "Akiko Yajima as Yukiko Mori"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« Metropolitan Police Detective Love Story 2",
         nextCase: "The Legend of the Mysterious Five Storied Pagoda »",
-
 
 
 
@@ -10400,6 +10716,9 @@ const allData = [
     {
         id: "159", isFiller: true, title: "159: The Legend of the Mysterious Five Storied Pagoda (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Unnamed officer"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan win a sightseeing trip in Izu mountains, Shizuoka Prefecture, after Conan solved puzzles for a contest that Ran submitted. While there, Kogoro starts to smoke and is interrupted by Juukichi Okabe, the sexton of Genkai Temple. Ran impresses Okabe with her appreciative comments and is invited, along with Kogoro and Conan, to see the temple. Okabe tells them the legend of the pagoda during the Edo period, where those who have been bad or have evil souls are mysteriously punished by being found hanging from the top of the pagoda. The tour is interrupted by the angry chief priest, Tan Kai, who Okabe explains is upset because the ODA Company had deceived him into stealing his pagoda to tear it down and build an amusement park in its place. In the evening, Kogoro, Ran, and Conan are invited by Hideaki Oda to dinner since they are staying at Hotel Oda and because of Kogoro's famous reputation. Yousuke Kajimura is there as well, and introduces himself before he is made to leave for Tokyo for business. Shun Kai, Tan Kai's son training at Sōhonzan, visits Oda during their dinner and tells Oda he won't give up getting the pagoda back for his father. The next morning, Okabe wakes everyone up and takes them to the temple again, where Oda is found hanging from the roof as the legend foretold.",
         japaneseTitle: "怪奇五重塔伝説. (Kaiki Gojūnotō Densetsu)",
         titleInOtherLanguages: [
@@ -10433,12 +10752,11 @@ const allData = [
         screenplay: "Kenji Saito",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Yuji Fujishiro as Juukichi Okabe Takeshi Watabe as Tan Kai Tetsuo Kanao as Yousuke Kajimura Masayuki Omoro as Hideaki Oda Kiyoyuki Yanada as Shun Kai Takashi Nagasako as Unnamed officer Isshin Chiba as Policeman A, Policeman C Sadao Nunome as Hotel boy, Policeman B Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Yuji Fujishiro as Juukichi Okabe", "Takeshi Watabe as Tan Kai", "Tetsuo Kanao as Yousuke Kajimura", "Masayuki Omoro as Hideaki Oda", "Kiyoyuki Yanada as Shun Kai", "Takashi Nagasako as Unnamed officer", "Isshin Chiba as Policeman A, Policeman C", "Sadao Nunome as Hotel boy, Policeman B", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Silent Loop Line",
         nextCase: "The Murder Floating in the Water Stream Restaurant »",
-
 
 
 
@@ -10460,6 +10778,9 @@ const allData = [
     {
         id: "160", isFiller: true, title: "160: The Legend of the Mysterious Five Storied Pagoda (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Unnamed officer"],
+
+
+
         episodeDescription: "Conan discovers the trick used to commit the 'divine judgement' murder.",
         japaneseTitle: "怪奇五重塔伝説. (Kaiki Gojūnotō Densetsu)",
         titleInOtherLanguages: [
@@ -10493,12 +10814,11 @@ const allData = [
         screenplay: "Kenji Saito",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Yuji Fujishiro as Juukichi Okabe Takeshi Watabe as Tan Kai Tetsuo Kanao as Yousuke Kajimura Masayuki Omoro as Hideaki Oda Kiyoyuki Yanada as Shun Kai Takashi Nagasako as Unnamed officer Isshin Chiba as Policeman A, Policeman C Sadao Nunome as Hotel boy, Policeman B Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Yuji Fujishiro as Juukichi Okabe", "Takeshi Watabe as Tan Kai", "Tetsuo Kanao as Yousuke Kajimura", "Masayuki Omoro as Hideaki Oda", "Kiyoyuki Yanada as Shun Kai", "Takashi Nagasako as Unnamed officer", "Isshin Chiba as Policeman A, Policeman C", "Sadao Nunome as Hotel boy, Policeman B", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Silent Loop Line",
         nextCase: "The Murder Floating in the Water Stream Restaurant »",
-
 
 
 
@@ -10524,6 +10844,9 @@ const allData = [
     {
         id: "161", isFiller: true, title: "161: The Murder Floating in the Water Stream Restaurant",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Yokoyama", "Detective Kojima"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are waiting for their reservation at Riyu Stream Restaurant, a highly popular traditional Japanese restaurant of Blowfish Milt. While Kogoro is frustrated of waiting and being hungry, Conan looks around and sees computer controlled, miniature boats carrying food along a waterway. Anzai, the restaurant cashier, tells Conan that after the boats reach the guests' rooms, they push a button and the boat returns automatically. Kaneda and Arai, faculty of Joumon University, enter the restaurant to celebrate Kaneda's new employment as assistant professor of physics. Anzai knows that a person called Kaneda reserved room #8, which Kaneda denies after Arai asks him about it. Their professor, Iwama, comes out to meet them and remarks on how late they are. Arai wants Kaneda to apologize for delaying them since Iwama planned this event. Kaneda brushes this off rudely and Arai is offended, to which Kaneda tells Arai to address him formally: as assistant professor. They leave for the room Iwama made the reservation in, which is room #3, after Kaneda orders the most expensive thing on the menu: blowfish milt. Conan, Ran, and Kogoro go to room #2 when the time for their reservation comes and Conan notices Kaneda leaving room #3. During their meal, Kogoro enjoys his wine and Conan is pleased with the food, but the dinner is interrupted when they hear a woman scream. They rush to the scene to see Anzai terrified by Kaneda's body with a knife in his chest.",
         japaneseTitle: "流水亭に流れる殺意. (Ryūsuitei ni Nagareru Satsui)",
         titleInOtherLanguages: [
@@ -10557,12 +10880,11 @@ const allData = [
         screenplay: "Takao Isami",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Yukari Honma as Kyoko Anzai Toru Okawa as Ryuichi Arai Kiyomitsu Mizuuchi as Keizo Kaneda Hiroshi Masuoka as Nobuo Iwama Takashi Nagasako as Chef 1 Isshin Chiba as Chef 2 Hiroyuki Yokoo as Customer A Hiromichi Kogami as Customer B Akiko Koike as Female customer C",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Yukari Honma as Kyoko Anzai", "Toru Okawa as Ryuichi Arai", "Kiyomitsu Mizuuchi as Keizo Kaneda", "Hiroshi Masuoka as Nobuo Iwama", "Takashi Nagasako as Chef 1", "Isshin Chiba as Chef 2", "Hiroyuki Yokoo as Customer A", "Hiromichi Kogami as Customer B", "Akiko Koike as Female customer C"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Legend of the Mysterious Five Storied Pagoda",
         nextCase: "The Locked Room in the Sky: Shinichi Kudo's First Case »",
-
 
 
 
@@ -10585,6 +10907,9 @@ const allData = [
     {
         id: "162", isFiller: false, title: "162: The Locked Room in the Sky: Shinichi Kudo's First Case (1 Hour Special)",
         appearances: ["Shinichi Kudo", "Ran Mouri", "Conan Edogawa", "Juzo Megure", "Wataru Takagi", "Kogoro Mouri", "Detective Boys"],
+
+
+
         episodeDescription: "In Tokyo International Airport, Conan and the group are going to take a trip to Okinawa by taking a passenger plane. When Ran takes the glasses off Conan, who was sound asleep, she smiled, as it reminded her of Shinichi sleeping. Ran falls asleep as well and dreams about going to Los Angeles with Shinichi.",
         japaneseTitle: "空飛ぶ密室 工藤新一最初の事件. (Soratobu Misshitsu Kudō Shin'ichi Saisho no Jiken)",
         titleInOtherLanguages: [
@@ -10618,12 +10943,11 @@ const allData = [
 
         storyboard: "Kenji Kodama. Masato Sato",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Jouji Nakata as Noboru Saginuma Masuo Amada as Kazuhiro Otaka Takako Fuji as Chizuru Tachikawa Ryuichi Horibe as Tsuneo Ukai Andy Holyfield as Edward Crowe Takashi Nagasako as Passenger A Isshin Chiba as Passenger B Natsumi Asaoka as Stewardess A Akiko Koike as Stewardess B Miki Itō as Tsugumi Amano",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Jouji Nakata as Noboru Saginuma", "Masuo Amada as Kazuhiro Otaka", "Takako Fuji as Chizuru Tachikawa", "Ryuichi Horibe as Tsuneo Ukai", "Andy Holyfield as Edward Crowe", "Takashi Nagasako as Passenger A", "Isshin Chiba as Passenger B", "Natsumi Asaoka as Stewardess A", "Akiko Koike as Stewardess B", "Miki Itō as Tsugumi Amano"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Murder Floating in the Water Stream Restaurant",
         nextCase: "The Secret of the Moon, the Star, and the Sun »",
-
 
 
 
@@ -10656,6 +10980,9 @@ const allData = [
     {
         id: "163", isFiller: false, title: "163: The Secret of the Moon, the Star, and the Sun (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Kamen Yaiba"],
+
+
+
         episodeDescription: "Agasa takes the Detective Boys to his uncle's house which has been abandoned fifty years ago for a treasure hunt he had set up. Conan finds a 1 yen coin and reveals to Agasa that those coins were not produced until forty years ago and that someone had been living in the abandoned house. Conan investigates and finds evidence that an old man who spent his spare time carving coins lived in the house. Conan notices that someone has drawn strange codes on objects throughout the house. The codes are symbols consisting of the moon, star, and sun. The Detective Boys manage to find their treasure and realize that someone had destroyed them all. Conan deduces that an unknown culprit entered the house in search of some kind of treasure and was angered when Agasa's riddles lead him to a box of toys. Conan and the Detective Boys gather all the objects in the house with the strange codes on them and attempts to solve it. Agasa reveals that his aunt was receiving letters in the same code and that he had Yusaku Kudo decipher the message. He also reveals that when his aunt began receiving those letters, someone was looking through her mail. Conan realizes the symbols refer to Hiragana and that the culprit who was looking through Agasa's aunt's mail is the one who destroyed the toys and is searching for the treasure in the house.",
         japaneseTitle: "月と星と太陽の秘密. (Tsuki to Hoshi to Taiyō no Himitsu)",
         titleInOtherLanguages: [
@@ -10689,12 +11016,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Hideyuki Tanaka as Yusaku Kudo Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Ryuzaburo Otomo as Tomoaki Okuda",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Hideyuki Tanaka as Yusaku Kudo", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ryuzaburo Otomo as Tomoaki Okuda"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Locked Room in the Sky: Shinichi Kudo's First Case",
         nextCase: "The Disappearing Detective Boys Case »",
-
 
 
 
@@ -10717,6 +11043,9 @@ const allData = [
     {
         id: "164", isFiller: false, title: "164: The Secret of the Moon, the Star, and the Sun (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa", "Yusaku Kudo", "Shinichi Kudo", "Kamen Yaiba"],
+
+
+
         episodeDescription: "While they were investigating, there was a man who was lurking around the house. They found an attic and a dead man who become a skeleton. There's also a map beside his body.",
         japaneseTitle: "月と星と太陽の秘密. (Tsuki to Hoshi to Taiyō no Himitsu)",
         titleInOtherLanguages: [
@@ -10750,12 +11079,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Hideyuki Tanaka as Yusaku Kudo Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Ryuzaburo Otomo as Tomoaki Okuda",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Hideyuki Tanaka as Yusaku Kudo", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Ryuzaburo Otomo as Tomoaki Okuda"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Locked Room in the Sky: Shinichi Kudo's First Case",
         nextCase: "The Disappearing Detective Boys Case »",
-
 
 
 
@@ -10782,6 +11110,9 @@ const allData = [
     {
         id: "165", isFiller: true, title: "165: The Disappearing Detective Boys Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Ai Haibara", "Yoko Okino"],
+
+
+
         episodeDescription: "The Detective Boys, but not Haibara, are in a puppeteer camping trip in Kirigaoka, Kanagawa Prefecture, where they are practicing for a school puppet play. At the same time, a serial arsonist has been spotted near the areas of the camp. While at the camp, the students disappear with their puppets, leaving the Detective Boys alone. Mitsuhiko assumes that their teacher is the serial arsonist. After they disappear, even Conan is caught too, only Mitsuhiko remains alone.",
         japaneseTitle: "少年探偵団消失事件. (Shōnen Tantei-dan Shōshitsu Jiken)",
         titleInOtherLanguages: [
@@ -10816,12 +11147,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Masami Kikuchi as Hajime Kaifu Isshin Chiba as Man Maki Mizuma as Child A Nao Takamori as Child B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Masami Kikuchi as Hajime Kaifu", "Isshin Chiba as Man", "Maki Mizuma as Child A", "Nao Takamori as Child B"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Secret of the Moon, the Star, and the Sun",
         nextCase: "Tottori Spider Mansion Demon »",
-
 
 
 
@@ -10849,6 +11179,9 @@ const allData = [
     {
         id: "166", isFiller: false, title: "166: Tottori Spider Mansion Demon (The Case)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Kazuha Toyama", "Ran Mouri"],
+
+
+
         episodeDescription: "Heiji and Kazuha take a motorcycle ride to Karakuri Pass, in the Yonago mountains, Tottori Prefecture, but they get lost on their way there. Kazuha remarks on how they forgot their cellphones and have run out of gas, and Heiji yells at her for tagging along when it isn't needed. It turns out Heiji was hired for a nice amount of money by a rich Tottori family to investigate some odd things that have happened in their home, but didn't give him their phone number.",
         japaneseTitle: "鳥取クモ屋敷の怪. (Tottori Kumo-yashiki no Kai). 166 事件編. 167 疑惑編. 168 解決編",
         titleInOtherLanguages: [
@@ -10883,12 +11216,11 @@ const allData = [
 
         storyboard: "166 Yasuichiro Yamamoto. 167 Hiroshi Matsuzono. 168 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2/Part 3) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2/Part 3) Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1) Yuko Miyamura as Kazuha Toyama Yousuke Akimoto as Nobukazu Takeda Nobuyuki Furuta as Ryuji Takeda Katsuhisa Houki as Yuzo Takeda Mami Horikoshi as Yoko Takeda Toshihiko Nakajima as Akio Negishi Reiko Suzuki as Chie Takeda Satsuki Yukino as Miyuki Shioya Wataru Takagi as Next Conan's Hint Sayuri Yoshida as Sae Takeda Sachiko Kojima as Emi Takeda Shigeru Nakahara as Robert Taylor",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2/Part 3)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2/Part 3)", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1)", "Yuko Miyamura as Kazuha Toyama", "Yousuke Akimoto as Nobukazu Takeda", "Nobuyuki Furuta as Ryuji Takeda", "Katsuhisa Houki as Yuzo Takeda", "Mami Horikoshi as Yoko Takeda", "Toshihiko Nakajima as Akio Negishi", "Reiko Suzuki as Chie Takeda", "Satsuki Yukino as Miyuki Shioya", "Wataru Takagi as Next Conan's Hint", "Sayuri Yoshida as Sae Takeda", "Sachiko Kojima as Emi Takeda", "Shigeru Nakahara as Robert Taylor"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Disappearing Detective Boys Case",
         nextCase: "Venus' Kiss »",
-
 
 
 
@@ -10908,6 +11240,9 @@ const allData = [
     {
         id: "167", isFiller: false, title: "167: Tottori Spider Mansion Demon (The Suspicion)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Kazuha Toyama", "Ran Mouri"],
+
+
+
         episodeDescription: "Kazuha is attacked with a stun gun after discovering some BB pellets. While searching, Heiji notices that the warehouse door that he closed, was open and the criminal runs before Kazuha is killed. The twins claim that Robert wrote 'Die' on a note to Misa.",
         japaneseTitle: "鳥取クモ屋敷の怪. (Tottori Kumo-yashiki no Kai). 166 事件編. 167 疑惑編. 168 解決編",
         titleInOtherLanguages: [
@@ -10942,12 +11277,11 @@ const allData = [
 
         storyboard: "166 Yasuichiro Yamamoto. 167 Hiroshi Matsuzono. 168 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2/Part 3) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2/Part 3) Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1) Yuko Miyamura as Kazuha Toyama Yousuke Akimoto as Nobukazu Takeda Nobuyuki Furuta as Ryuji Takeda Katsuhisa Houki as Yuzo Takeda Mami Horikoshi as Yoko Takeda Toshihiko Nakajima as Akio Negishi Reiko Suzuki as Chie Takeda Satsuki Yukino as Miyuki Shioya Wataru Takagi as Next Conan's Hint Sayuri Yoshida as Sae Takeda Sachiko Kojima as Emi Takeda Shigeru Nakahara as Robert Taylor",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2/Part 3)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2/Part 3)", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1)", "Yuko Miyamura as Kazuha Toyama", "Yousuke Akimoto as Nobukazu Takeda", "Nobuyuki Furuta as Ryuji Takeda", "Katsuhisa Houki as Yuzo Takeda", "Mami Horikoshi as Yoko Takeda", "Toshihiko Nakajima as Akio Negishi", "Reiko Suzuki as Chie Takeda", "Satsuki Yukino as Miyuki Shioya", "Wataru Takagi as Next Conan's Hint", "Sayuri Yoshida as Sae Takeda", "Sachiko Kojima as Emi Takeda", "Shigeru Nakahara as Robert Taylor"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Disappearing Detective Boys Case",
         nextCase: "Venus' Kiss »",
-
 
 
 
@@ -10971,6 +11305,9 @@ const allData = [
     {
         id: "168", isFiller: false, title: "168: Tottori Spider Mansion Demon (The Resolution)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Kazuha Toyama", "Ran Mouri"],
+
+
+
         episodeDescription: "The trick used in the murder is revealed.",
         japaneseTitle: "鳥取クモ屋敷の怪. (Tottori Kumo-yashiki no Kai). 166 事件編. 167 疑惑編. 168 解決編",
         titleInOtherLanguages: [
@@ -11005,12 +11342,11 @@ const allData = [
 
         storyboard: "166 Yasuichiro Yamamoto. 167 Hiroshi Matsuzono. 168 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2/Part 3) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2/Part 3) Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1) Yuko Miyamura as Kazuha Toyama Yousuke Akimoto as Nobukazu Takeda Nobuyuki Furuta as Ryuji Takeda Katsuhisa Houki as Yuzo Takeda Mami Horikoshi as Yoko Takeda Toshihiko Nakajima as Akio Negishi Reiko Suzuki as Chie Takeda Satsuki Yukino as Miyuki Shioya Wataru Takagi as Next Conan's Hint Sayuri Yoshida as Sae Takeda Sachiko Kojima as Emi Takeda Shigeru Nakahara as Robert Taylor",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2/Part 3)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2/Part 3)", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1)", "Yuko Miyamura as Kazuha Toyama", "Yousuke Akimoto as Nobukazu Takeda", "Nobuyuki Furuta as Ryuji Takeda", "Katsuhisa Houki as Yuzo Takeda", "Mami Horikoshi as Yoko Takeda", "Toshihiko Nakajima as Akio Negishi", "Reiko Suzuki as Chie Takeda", "Satsuki Yukino as Miyuki Shioya", "Wataru Takagi as Next Conan's Hint", "Sayuri Yoshida as Sae Takeda", "Sachiko Kojima as Emi Takeda", "Shigeru Nakahara as Robert Taylor"],
         openingSong: "Girigiri chop",
         endingSong: "Free Magic",
         prevCase: "« The Disappearing Detective Boys Case",
         nextCase: "Venus' Kiss »",
-
 
 
 
@@ -11034,6 +11370,9 @@ const allData = [
     {
         id: "169", isFiller: true, title: "169: Venus' Kiss",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Kogoro is invited with Ran and Conan to an aquarium where an underwater play is to take place. They meet the man named Masato Hayashi who is a stage director. Next to him is the woman who plays as Venus named Michiko Oosawa. When Hayashi gives a tour around the aquarium, they meet two other people. There's Yasuyuki Murakawa, the head of staff. Finally, there's Yuriko Minegishi, she counts as another Venus in the group. Later during the show, Oosawa's dead body rises from the water when it's her cue to come out of a clam's shell in the play.",
         japaneseTitle: "ビーナスのキッス. (Biinasu no Kissu)",
         titleInOtherLanguages: [
@@ -11067,12 +11406,11 @@ const allData = [
         screenplay: "Takeshi Mochizuki",
         storyboard: "Takashi Iwama",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Masayuki Omoro as Masato Hayashi Ryoka Yuzuki as Michiko Osawa Takayuki Sugo as Yasuyuki Murakawa Yoshino Takamori as Yuriko Minegishi Isshin Chiba as Worker A Hiroyuki Yokoo as Worker B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Masayuki Omoro as Masato Hayashi", "Ryoka Yuzuki as Michiko Osawa", "Takayuki Sugo as Yasuyuki Murakawa", "Yoshino Takamori as Yuriko Minegishi", "Isshin Chiba as Worker A", "Hiroyuki Yokoo as Worker B"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« Tottori Spider Mansion Demon",
         nextCase: "The Blind Spot in the Darkness »",
-
 
 
 
@@ -11095,6 +11433,9 @@ const allData = [
     {
         id: "170", isFiller: false, title: "170: The Blind Spot in the Darkness (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Eri Kisaki", "Shinichi Kudo", "Tomoaki Araide", "Hikaru Yasumoto", "Detective Kojima", "Officer Tome"],
+
+
+
         episodeDescription: "Conan as Shinichi calls Ran but she's got something do and someplace to go. Conan muses that Ran must have something going on, something that's making her happy with anticipation.",
         japaneseTitle: "暗闇の中の死角. (Kurayami no Naka no Shikaku)",
         titleInOtherLanguages: [
@@ -11129,12 +11470,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Gara Takashima as Eri Kisaki Toshihiko Kojima as Yoshiteru Araide Kumiko Hironaka as Yoko Araide Hideyuki Hori as Tomoaki Araide Rin Mizuhara as Mitsu Araide Akiko Hiramatsu as Hikaru Yasumoto Keiko Sonoda as Masae Akiko Koike as Nurse Takashi Nagasako as Officer Tome, Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Gara Takashima as Eri Kisaki", "Toshihiko Kojima as Yoshiteru Araide", "Kumiko Hironaka as Yoko Araide", "Hideyuki Hori as Tomoaki Araide", "Rin Mizuhara as Mitsu Araide", "Akiko Hiramatsu as Hikaru Yasumoto", "Keiko Sonoda as Masae", "Akiko Koike as Nurse", "Takashi Nagasako as Officer Tome, Detective Kojima"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« Venus' Kiss",
         nextCase: "The Revival of the Dying Message »",
-
 
 
 
@@ -11155,6 +11495,9 @@ const allData = [
     {
         id: "171", isFiller: false, title: "171: The Blind Spot in the Darkness (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Eri Kisaki", "Shinichi Kudo", "Tomoaki Araide", "Hikaru Yasumoto", "Detective Kojima", "Officer Tome"],
+
+
+
         episodeDescription: "While Kogoro, Megure, and Takagi test all possible scenarios, Conan discovers several clues missed by the police and adds them up to the solution of the case. And as usual, he stuns Kogoro to use him as a mouthpiece to deliver his conclusions. But poor Tomoaki vehemently protests the questionings, claiming that none of his family could have done such a thing.",
         japaneseTitle: "暗闇の中の死角. (Kurayami no Naka no Shikaku)",
         titleInOtherLanguages: [
@@ -11189,12 +11532,11 @@ const allData = [
 
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Gara Takashima as Eri Kisaki Toshihiko Kojima as Yoshiteru Araide Kumiko Hironaka as Yoko Araide Hideyuki Hori as Tomoaki Araide Rin Mizuhara as Mitsu Araide Akiko Hiramatsu as Hikaru Yasumoto Keiko Sonoda as Masae Akiko Koike as Nurse Takashi Nagasako as Officer Tome, Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Gara Takashima as Eri Kisaki", "Toshihiko Kojima as Yoshiteru Araide", "Kumiko Hironaka as Yoko Araide", "Hideyuki Hori as Tomoaki Araide", "Rin Mizuhara as Mitsu Araide", "Akiko Hiramatsu as Hikaru Yasumoto", "Keiko Sonoda as Masae", "Akiko Koike as Nurse", "Takashi Nagasako as Officer Tome, Detective Kojima"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« Venus' Kiss",
         nextCase: "The Revival of the Dying Message »",
-
 
 
 
@@ -11221,6 +11563,9 @@ const allData = [
     {
         id: "172", isFiller: false, title: "172: The Revival of the Dying Message (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "Ran, Sonoko, and Conan are at Tropical Land ice skating. A murder occurs in the women's bathroom and there are what appear to be two dying messages, an S smeared in blood and the victim's phone, which reveals the letters KIX when the redial function is pressed.",
         japaneseTitle: "よみがえる死の伝言(ダイイング・メッセージ) (Yomigaeru Daīngu Messēji)",
         titleInOtherLanguages: [
@@ -11254,12 +11599,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Yuri Satou as Chihiro Itami Akiko Koike as Woman A Keiko Sonoda as Woman B Mari Yokoo as Yoriko Komatsu Yukimasa Kishino as Kunitomo Oda Hiroshi Watari as Yasuharu Misawa Nobuyuki Hiyama as Makoto Kyogoku Isshin Chiba as Kazunobu Chiba Rumiko Ukai as Izumi Sano",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Yuri Satou as Chihiro Itami", "Akiko Koike as Woman A", "Keiko Sonoda as Woman B", "Mari Yokoo as Yoriko Komatsu", "Yukimasa Kishino as Kunitomo Oda", "Hiroshi Watari as Yasuharu Misawa", "Nobuyuki Hiyama as Makoto Kyogoku", "Isshin Chiba as Kazunobu Chiba", "Rumiko Ukai as Izumi Sano"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Blind Spot in the Darkness",
         nextCase: "The Twenty Year Old Murderous Intent: The Symphony Serial Murder Case »",
-
 
 
 
@@ -11282,6 +11626,9 @@ const allData = [
     {
         id: "173", isFiller: false, title: "173: The Revival of the Dying Message (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "The murder trick is revealed.",
         japaneseTitle: "よみがえる死の伝言(ダイイング・メッセージ) (Yomigaeru Daīngu Messēji)",
         titleInOtherLanguages: [
@@ -11315,12 +11662,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Yuri Satou as Chihiro Itami Akiko Koike as Woman A Keiko Sonoda as Woman B Mari Yokoo as Yoriko Komatsu Yukimasa Kishino as Kunitomo Oda Hiroshi Watari as Yasuharu Misawa Nobuyuki Hiyama as Makoto Kyogoku Isshin Chiba as Kazunobu Chiba Rumiko Ukai as Izumi Sano",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Yuri Satou as Chihiro Itami", "Akiko Koike as Woman A", "Keiko Sonoda as Woman B", "Mari Yokoo as Yoriko Komatsu", "Yukimasa Kishino as Kunitomo Oda", "Hiroshi Watari as Yasuharu Misawa", "Nobuyuki Hiyama as Makoto Kyogoku", "Isshin Chiba as Kazunobu Chiba", "Rumiko Ukai as Izumi Sano"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Blind Spot in the Darkness",
         nextCase: "The Twenty Year Old Murderous Intent: The Symphony Serial Murder Case »",
-
 
 
 
@@ -11348,6 +11694,9 @@ const allData = [
     {
         id: "174", isFiller: false, title: "174: The Twenty Year Old Murderous Intent: The Symphony Serial Murder Case (2 Hour Special)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Eri Kisaki", "Heiji Hattori", "Hiroshi Agasa", "Ai Haibara", "Kazuha Toyama"],
+
+
+
         episodeDescription: "A man known as the Organizer of the Shadows is shot to death by his three subordinates. Twenty years later, Conan helps Ran and Kogoro solve a puzzle for which the prize is an all-expense-paid trip on a giant boat built for a small number of people. After eleven people have entered the boat, the boat sets sail. Kogoro meets an inspector that he used to work with on the boat and finds that Heij is on the boat as well. After a passenger is murdered, they learn that a man named Saizou Kanou, the Organizer of the Shadows, is on the boat.",
         japaneseTitle: "20年目の殺意 シンフォニー号連続殺人事件. (Nijūnenme no Satsui Shinfoniigō Renzoku Satsujin Jiken)",
         titleInOtherLanguages: [
@@ -11382,12 +11731,11 @@ const allData = [
 
         storyboard: "Hajime Kamegaki",
         characterDesign: "Masatomo Sudo",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Ryo Horikawa as Heiji Hattori Hidekatsu Shibata as Toji Samezaki Norio Wakamoto as Korehisa Kanie Yousuke Akimoto as Minoru Ebina Rika Fukami as Nagisa Isogai Jin Hirao as Teruyoshi Kameda Jin Yamanoi as Crew A Takayuki Inoue as Crew B Yukiko Iwai as Yoshimi Samezaki, Yamanaka Hiromichi Kogami as Crew D Junichi Sugawara as Sommelier Ruri Asano as Young woman Isshin Chiba as Baseball announcer Wataru Takagi as Next Conan's Hint Mugihito as Sadao Kujirai",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Ryo Horikawa as Heiji Hattori", "Hidekatsu Shibata as Toji Samezaki", "Norio Wakamoto as Korehisa Kanie", "Yousuke Akimoto as Minoru Ebina", "Rika Fukami as Nagisa Isogai", "Jin Hirao as Teruyoshi Kameda", "Jin Yamanoi as Crew A", "Takayuki Inoue as Crew B", "Yukiko Iwai as Yoshimi Samezaki, Yamanaka", "Hiromichi Kogami as Crew D", "Junichi Sugawara as Sommelier", "Ruri Asano as Young woman", "Isshin Chiba as Baseball announcer", "Wataru Takagi as Next Conan's Hint", "Mugihito as Sadao Kujirai"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Revival of the Dying Message",
         nextCase: "The Man Who Was Killed Four Times »",
-
 
 
 
@@ -11439,6 +11787,9 @@ const allData = [
     {
         id: "175", isFiller: true, title: "175: The Man Who Was Killed Four Times",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo"],
+
+
+
         episodeDescription: "Kogoro is called to investigate a suspicious murder where three people admit to killing a man for hitting him on the head. His posture showed the death to be a heart attack. They are all actors in an actor studio, their boss was the manager.",
         japaneseTitle: "四回殺された男. (Yonkai Korosareta Otoko)",
         titleInOtherLanguages: [
@@ -11472,12 +11823,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Takashi Iwama",
         characterDesign: "Masatomo Sudo. Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Shin Aomori as Taiji Komiyama Makoto Ataka as Kengo Katsumata Hisao Egawa as Haruyuki Hoshino Misa Watanabe as Yumiko Niikura Tomomichi Nishimura as Hideo Tsuda Minoru Inaba as Chief Yumi Nakatani as Atsuko Komiyama Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Shin Aomori as Taiji Komiyama", "Makoto Ataka as Kengo Katsumata", "Hisao Egawa as Haruyuki Hoshino", "Misa Watanabe as Yumiko Niikura", "Tomomichi Nishimura as Hideo Tsuda", "Minoru Inaba as Chief", "Yumi Nakatani as Atsuko Komiyama", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Twenty Year Old Murderous Intent: The Symphony Serial Murder Case",
         nextCase: "Reunion with the Black Organization »",
-
 
 
 
@@ -11502,6 +11852,9 @@ const allData = [
     {
         id: "176", isFiller: false, title: "176: Reunion with the Black Organization (Haibara)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Shiho Miyano", "Hiroshi Agasa", "Gin", "Vodka", "Sumiko Kobayashi", "Vermouth", "Kenzo Masuyama", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Detective Kobayashi", "Detective Yokoyama", "Detective Boys", "Shinichi Kudo", "Naomichi Mugikura", "Detective Kojima", "Police detective", "Police detective", "Unnamed officer"],
+
+
+
         episodeDescription: "Haibara has a dream that Gin finds her. Later, after school, Conan and Haibara find Gin's car by chance. Conan plants a tracker in his car before he and Vodka take off. He then learns that Gin and Vodka are planning to eliminate someone, and already has a member named Pisco in the area. Gin then finds the tracker and destroys it, believing Sherry placed it there. Using the info they already gathered, Conan and Haibara rush to stop Pisco's mission from succeeding. Though, when they arrive, the lights go out, and a chandelier falls down, crashing on the target.",
         japaneseTitle: "黒の組織との再会. (Kuro no Soshiki to no Saikai). 176 灰原編. 177 コナン編. 178 解決編",
         titleInOtherLanguages: [
@@ -11536,12 +11889,11 @@ const allData = [
 
         storyboard: "176 Hirohito Ochi. 177 Yasuichiro Yamamoto. 178 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Megumi Hayashibara as Ai Haibara, Shiho Miyano Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba, Man A Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Kaho Kouda as Mika Nanjo Nobuaki Fukuda as Yasuo Mihei Naoya Uchida as Naoya Tarumi Mami Koyama as Chris Vineyard Hajime Koseki as Yoshiharu Tawara Yasuo Muramatsu as Kenzo Masuyama Hideyuki Umezu as Naomichi Mugikura Yumiko Iwamoto as Janitor, Receptionist A Takashi Nagasako as Detective Kobayashi, Driver Wasei Chikada as Man B Osamu Hosoi as Detective A Takako Kodama as Reporter A, Receptionist B Junichi Sugawara as Reporter B Yuki Hamano as Female customer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara, Shiho Miyano", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba, Man A", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Kaho Kouda as Mika Nanjo", "Nobuaki Fukuda as Yasuo Mihei", "Naoya Uchida as Naoya Tarumi", "Mami Koyama as Chris Vineyard", "Hajime Koseki as Yoshiharu Tawara", "Yasuo Muramatsu as Kenzo Masuyama", "Hideyuki Umezu as Naomichi Mugikura", "Yumiko Iwamoto as Janitor, Receptionist A", "Takashi Nagasako as Detective Kobayashi, Driver", "Wasei Chikada as Man B", "Osamu Hosoi as Detective A", "Takako Kodama as Reporter A, Receptionist B", "Junichi Sugawara as Reporter B", "Yuki Hamano as Female customer"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Man Who Was Killed Four Times",
         nextCase: "The Coffee Shop Truck's Wild Entrance Case »",
-
 
 
 
@@ -11569,6 +11921,9 @@ const allData = [
     {
         id: "177", isFiller: false, title: "177: Reunion with the Black Organization (Conan)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Shiho Miyano", "Hiroshi Agasa", "Gin", "Vodka", "Sumiko Kobayashi", "Vermouth", "Kenzo Masuyama", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Detective Kobayashi", "Detective Yokoyama", "Detective Boys", "Shinichi Kudo", "Naomichi Mugikura", "Detective Kojima", "Police detective", "Police detective", "Unnamed officer"],
+
+
+
         episodeDescription: "The police question everyone, and unable to maintain everyone as a suspect, the guests rush out the door. In the turmoil, Haibara is kidnapped by someone and confined to a liquor storage room.",
         japaneseTitle: "黒の組織との再会. (Kuro no Soshiki to no Saikai). 176 灰原編. 177 コナン編. 178 解決編",
         titleInOtherLanguages: [
@@ -11603,12 +11958,11 @@ const allData = [
 
         storyboard: "176 Hirohito Ochi. 177 Yasuichiro Yamamoto. 178 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Megumi Hayashibara as Ai Haibara, Shiho Miyano Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba, Man A Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Kaho Kouda as Mika Nanjo Nobuaki Fukuda as Yasuo Mihei Naoya Uchida as Naoya Tarumi Mami Koyama as Chris Vineyard Hajime Koseki as Yoshiharu Tawara Yasuo Muramatsu as Kenzo Masuyama Hideyuki Umezu as Naomichi Mugikura Yumiko Iwamoto as Janitor, Receptionist A Takashi Nagasako as Detective Kobayashi, Driver Wasei Chikada as Man B Osamu Hosoi as Detective A Takako Kodama as Reporter A, Receptionist B Junichi Sugawara as Reporter B Yuki Hamano as Female customer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara, Shiho Miyano", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba, Man A", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Kaho Kouda as Mika Nanjo", "Nobuaki Fukuda as Yasuo Mihei", "Naoya Uchida as Naoya Tarumi", "Mami Koyama as Chris Vineyard", "Hajime Koseki as Yoshiharu Tawara", "Yasuo Muramatsu as Kenzo Masuyama", "Hideyuki Umezu as Naomichi Mugikura", "Yumiko Iwamoto as Janitor, Receptionist A", "Takashi Nagasako as Detective Kobayashi, Driver", "Wasei Chikada as Man B", "Osamu Hosoi as Detective A", "Takako Kodama as Reporter A, Receptionist B", "Junichi Sugawara as Reporter B", "Yuki Hamano as Female customer"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Man Who Was Killed Four Times",
         nextCase: "The Coffee Shop Truck's Wild Entrance Case »",
-
 
 
 
@@ -11637,6 +11991,9 @@ const allData = [
     {
         id: "178", isFiller: false, title: "178: Reunion with the Black Organization (The Resolution)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Shiho Miyano", "Hiroshi Agasa", "Gin", "Vodka", "Sumiko Kobayashi", "Vermouth", "Kenzo Masuyama", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Detective Kobayashi", "Detective Yokoyama", "Detective Boys", "Shinichi Kudo", "Naomichi Mugikura", "Detective Kojima", "Police detective", "Police detective", "Unnamed officer"],
+
+
+
         episodeDescription: "Gin and Vodka meet Shiho on the rooftop, already aware that she used the chimney to escape the wine cellar. There, the two shoot her down.",
         japaneseTitle: "黒の組織との再会. (Kuro no Soshiki to no Saikai). 176 灰原編. 177 コナン編. 178 解決編",
         titleInOtherLanguages: [
@@ -11671,12 +12028,11 @@ const allData = [
 
         storyboard: "176 Hirohito Ochi. 177 Yasuichiro Yamamoto. 178 Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Megumi Hayashibara as Ai Haibara, Shiho Miyano Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba, Man A Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Kaho Kouda as Mika Nanjo Nobuaki Fukuda as Yasuo Mihei Naoya Uchida as Naoya Tarumi Mami Koyama as Chris Vineyard Hajime Koseki as Yoshiharu Tawara Yasuo Muramatsu as Kenzo Masuyama Hideyuki Umezu as Naomichi Mugikura Yumiko Iwamoto as Janitor, Receptionist A Takashi Nagasako as Detective Kobayashi, Driver Wasei Chikada as Man B Osamu Hosoi as Detective A Takako Kodama as Reporter A, Receptionist B Junichi Sugawara as Reporter B Yuki Hamano as Female customer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara, Shiho Miyano", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba, Man A", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Kaho Kouda as Mika Nanjo", "Nobuaki Fukuda as Yasuo Mihei", "Naoya Uchida as Naoya Tarumi", "Mami Koyama as Chris Vineyard", "Hajime Koseki as Yoshiharu Tawara", "Yasuo Muramatsu as Kenzo Masuyama", "Hideyuki Umezu as Naomichi Mugikura", "Yumiko Iwamoto as Janitor, Receptionist A", "Takashi Nagasako as Detective Kobayashi, Driver", "Wasei Chikada as Man B", "Osamu Hosoi as Detective A", "Takako Kodama as Reporter A, Receptionist B", "Junichi Sugawara as Reporter B", "Yuki Hamano as Female customer"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« The Man Who Was Killed Four Times",
         nextCase: "The Coffee Shop Truck's Wild Entrance Case »",
-
 
 
 
@@ -11704,6 +12060,9 @@ const allData = [
     {
         id: "179", isFiller: true, title: "179: The Coffee Shop Truck's Wild Entrance Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "Conan and the Detective Boys go to a Beika coffee shop to meet up with Professor Agasa. Nearby, Ohara and Aida are having a meeting. Ohara gets up to go to the bathroom, and while he's gone, a truck slammed into the coffee shop and crushed Aida who is still seated. Conan realizes it wasn't the negligence of the driver but a murder.",
         japaneseTitle: "喫茶店トラック乱入事件. (Kissaten Torakku Ran'nyū Jiken)",
         titleInOtherLanguages: [
@@ -11736,12 +12095,11 @@ const allData = [
         screenplay: "Satoshi Kitagawa",
         storyboard: "Takashi Kobayashi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Hiroshi Takemura as Toru Aida Isshin Chiba as Jiro Kobayashi Yutaka Nakano as Chief Saito Katsumi Chou as Waiter Sayaka Ohara as Waitress Osamu Hosoi as Officer Miki Yoshiko Okamoto as Michiko Segawa Hiroyuki Yokoo as Forensics officer Motomu Kiyokawa as Kazuo Ohara",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Hiroshi Takemura as Toru Aida", "Isshin Chiba as Jiro Kobayashi", "Yutaka Nakano as Chief Saito", "Katsumi Chou as Waiter", "Sayaka Ohara as Waitress", "Osamu Hosoi as Officer Miki", "Yoshiko Okamoto as Michiko Segawa", "Hiroyuki Yokoo as Forensics officer", "Motomu Kiyokawa as Kazuo Ohara"],
         openingSong: "Mysterious Eyes",
         endingSong: "Free Magic",
         prevCase: "« Reunion with the Black Organization",
         nextCase: "The Nocturne of Red Murderous Intent »",
-
 
 
 
@@ -11768,6 +12126,9 @@ const allData = [
     {
         id: "180", isFiller: true, title: "180: The Nocturne of Red Murderous Intent (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Kobayashi"],
+
+
+
         episodeDescription: "A client arrives at Kogoro's detective agency, saying that his wife has received all sorts of anonymous gifts and mysterious notes. Kogoro is invited to investigate this unknown stalker at a party that the client is hosting. During the party, a blackout occurs and a mysterious figure is seen embracing the wife forcibly. Conan realizes these occurrences are related to the song Nocturne of Red.",
         japaneseTitle: "赤い殺意の夜想曲(ノクターン) (Akai Satsui no Nokutān)",
         titleInOtherLanguages: [
@@ -11801,12 +12162,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure, Next Conan's Hint (Part 2) Shinya Ohtaki as Yoshinori Kana Kayoko Fujii as Misaki Kana Takaya Hashi as Michel Anglade Taiten Kusunoki as Hideki Kana Mitsuaki Hoshino as Gerard Tenma Asako Dodo as Masayo Tokudaiji Hiroyuki Yokoo as Detective Kobayashi Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure, Next Conan's Hint (Part 2)", "Shinya Ohtaki as Yoshinori Kana", "Kayoko Fujii as Misaki Kana", "Takaya Hashi as Michel Anglade", "Taiten Kusunoki as Hideki Kana", "Mitsuaki Hoshino as Gerard Tenma", "Asako Dodo as Masayo Tokudaiji", "Hiroyuki Yokoo as Detective Kobayashi", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Coffee Shop Truck's Wild Entrance Case",
         nextCase: "The Big Investigation of the Nine Doors »",
-
 
 
 
@@ -11832,6 +12192,9 @@ const allData = [
     {
         id: "181", isFiller: true, title: "181: The Nocturne of Red Murderous Intent (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Detective Kobayashi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "赤い殺意の夜想曲(ノクターン) (Akai Satsui no Nokutān)",
         titleInOtherLanguages: [
@@ -11865,12 +12228,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Yasuhiro Moriki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure, Next Conan's Hint (Part 2) Shinya Ohtaki as Yoshinori Kana Kayoko Fujii as Misaki Kana Takaya Hashi as Michel Anglade Taiten Kusunoki as Hideki Kana Mitsuaki Hoshino as Gerard Tenma Asako Dodo as Masayo Tokudaiji Hiroyuki Yokoo as Detective Kobayashi Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure, Next Conan's Hint (Part 2)", "Shinya Ohtaki as Yoshinori Kana", "Kayoko Fujii as Misaki Kana", "Takaya Hashi as Michel Anglade", "Taiten Kusunoki as Hideki Kana", "Mitsuaki Hoshino as Gerard Tenma", "Asako Dodo as Masayo Tokudaiji", "Hiroyuki Yokoo as Detective Kobayashi", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Coffee Shop Truck's Wild Entrance Case",
         nextCase: "The Big Investigation of the Nine Doors »",
-
 
 
 
@@ -11896,6 +12258,9 @@ const allData = [
     {
         id: "182", isFiller: true, title: "182: The Big Investigation of the Nine Doors",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara"],
+
+
+
         episodeDescription: "The Detective Boys are on their way home (presumably after school), and, when they pass through the bottom of a building, they discover two S-Hooks and a wedding ring engraved with the initials M to A. They believe that this combination of items is an S.O.S. message, and therefore decide to investigate the building and its residents.",
         japaneseTitle: "大捜索9つのドア. (Daisōsaku no Kokonotsu no Doa)",
         titleInOtherLanguages: [
@@ -11929,12 +12294,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Rumi Ochiai as Yuko Sakurai Kihachiro Uemura as Masakazu Shima Mayumi Asano as Asuka Shima Ayako Kurosaki as Misato Uehara Chieko Enomoto as Fumiko Ishida Yoshiko Okamoto as Yasue Ishida Isshin Chiba as Policeman A Takayuki Inoue as Policeman B Michie Tomizawa as Ikuyo Hasegawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Rumi Ochiai as Yuko Sakurai", "Kihachiro Uemura as Masakazu Shima", "Mayumi Asano as Asuka Shima", "Ayako Kurosaki as Misato Uehara", "Chieko Enomoto as Fumiko Ishida", "Yoshiko Okamoto as Yasue Ishida", "Isshin Chiba as Policeman A", "Takayuki Inoue as Policeman B", "Michie Tomizawa as Ikuyo Hasegawa"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Nocturne of Red Murderous Intent",
         nextCase: "A Dangerous Recipe »",
-
 
 
 
@@ -11962,6 +12326,9 @@ const allData = [
     {
         id: "183", isFiller: true, title: "183: A Dangerous Recipe",
         appearances: ["Conan Edogawa", "Detective Boys", "Kaitou Kid"],
+
+
+
         episodeDescription: "One day, the Detective Boys are bored so they pick up receipts in a convenience store to guess what the people are buying for dinner. Genta picks up a weird receipt with food items, a dust bin, a container, a bike handle light, rechargeable batteries, thin latex gloves, and chlorine. Conan figures out the man is trying to make the same poisoned bait used to kill moles, but it's unlikely that he's having a mole problem in the middle of a city.",
         japaneseTitle: "危険なレシピ. (Kiken na Reshipi)",
         titleInOtherLanguages: [
@@ -11994,12 +12361,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Takashi Kobayashi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Narumi Hidaka as Masako Arai Keiko Aizawa as Tomoe Mitsuhashi Masako Isobe as Nobuko Toyota Yoshito Ishinami as Osugi Yasuo Iwata as Store manager Mayumi Asano as Hiromi Masamichi Sato as Yasuo Murakami",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Narumi Hidaka as Masako Arai", "Keiko Aizawa as Tomoe Mitsuhashi", "Masako Isobe as Nobuko Toyota", "Yoshito Ishinami as Osugi", "Yasuo Iwata as Store manager", "Mayumi Asano as Hiromi", "Masamichi Sato as Yasuo Murakami"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Big Investigation of the Nine Doors",
         nextCase: "A Cursed Mask Coldly Laughs »",
-
 
 
 
@@ -12028,6 +12394,9 @@ const allData = [
     {
         id: "184", isFiller: true, title: "184: A Cursed Mask Coldly Laughs (1 Hour Special)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Detective Kobayashi", "Honami Shimogasa", "Minaho Shimogasa", "Female forensics member"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are invited to stay at a mansion by Beniko Suo, the hostess of a car accident charity, in North Shinjuku forest. While driving, they find a message from the Phantom of the Cursed Masks, who tells them they should not go the place. Once there, they find other famous celebrities: a baseball player, a prophet, a rockstar, and a photographer who lost his wife in a 'Hit and Run' incident. The mansion is huge and divided into east and west sides, with the twin sisters Minaho and Honami Shimogasa taking care of each wings, and the only room connecting the two sides is the mask room. The mask room is locked at midnight each night due to Beniko's collection of Julio González's masks, a collection of 200 masks that are believed to be cursed. They were created by a famous man who lost everything and became engrossed in his masks; once he created 200 of them, he was found dead in his room surrounded with bloody masks. People who have owned his masks have suffered tragic fates. Suo, who now owns all 200 masks, had a priest place a seal on the curse, but the room is locked at midnight to prevent the masks from wandering. During their stay, Suo is murdered in a locked room, with Shobel's masks surrounding her and a dagger in her throat.",
         japaneseTitle: "呪いの仮面は冷たく笑う. (Noroi no Kamen wa Tsumetaku Warau)",
         titleInOtherLanguages: [
@@ -12062,12 +12431,11 @@ const allData = [
         screenplay: "Hirohito Ochi",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works). Layout checker: Mitsuru Soma",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Ikuko Tani as Beniko Suo Youko Matsuoka as Kazuyo Inaba Miki Nagasawa as Minaho Shimogasa Kyouko Iijima as Honami Shimogasa Akio Nojima as Masanori Katagiri Koji Ishii as Mamoru Matsudaira Yuu Asakawa as Haruka Nagara Toshihiko Nakajima as Officer Tome Sadao Nunome as Detective Kobayashi Hikaru Midorikawa as Touya Aikawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Ikuko Tani as Beniko Suo", "Youko Matsuoka as Kazuyo Inaba", "Miki Nagasawa as Minaho Shimogasa", "Kyouko Iijima as Honami Shimogasa", "Akio Nojima as Masanori Katagiri", "Koji Ishii as Mamoru Matsudaira", "Yuu Asakawa as Haruka Nagara", "Toshihiko Nakajima as Officer Tome", "Sadao Nunome as Detective Kobayashi", "Hikaru Midorikawa as Touya Aikawa"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« A Dangerous Recipe",
         nextCase: "The Murdered Famous Detective »",
-
 
 
 
@@ -12109,6 +12477,9 @@ const allData = [
     {
         id: "185", isFiller: true, title: "185: The Murdered Famous Detective (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Doctor"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan are driving through the forest when an arrow almost hits Kogoro. Afterwards, they stay at a hotel where an actor is found dead with a bullet in his head. All of the evidence suggests that it is the work of an outsider.",
         japaneseTitle: "殺された名探偵. (Korosareta Meitantei)",
         titleInOtherLanguages: [
@@ -12142,12 +12513,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Yuko Sasaki as Noe Tanigawa Koji Tsujitani as Kazuyoshi Sunaoka Yuji Fujishiro as Yusaku Akashi Nobuo Shimazaki as Katsuaki Nagatsuka Katsuyuki Konishi as Doctor Nao Takamori as Beautiful girl Takashi Nagasako as Detective A Isshin Chiba as Detective B Takashi Taniguchi as Toshiaki Tahara",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Yuko Sasaki as Noe Tanigawa", "Koji Tsujitani as Kazuyoshi Sunaoka", "Yuji Fujishiro as Yusaku Akashi", "Nobuo Shimazaki as Katsuaki Nagatsuka", "Katsuyuki Konishi as Doctor", "Nao Takamori as Beautiful girl", "Takashi Nagasako as Detective A", "Isshin Chiba as Detective B", "Takashi Taniguchi as Toshiaki Tahara"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« A Cursed Mask Coldly Laughs",
         nextCase: "The Unknown Gunshot That Rings in the Dark »",
-
 
 
 
@@ -12174,6 +12544,9 @@ const allData = [
     {
         id: "186", isFiller: true, title: "186: The Murdered Famous Detective (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Doctor"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "殺された名探偵. (Korosareta Meitantei)",
         titleInOtherLanguages: [
@@ -12207,12 +12580,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Michiyo Sakurai",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Yuko Sasaki as Noe Tanigawa Koji Tsujitani as Kazuyoshi Sunaoka Yuji Fujishiro as Yusaku Akashi Nobuo Shimazaki as Katsuaki Nagatsuka Katsuyuki Konishi as Doctor Nao Takamori as Beautiful girl Takashi Nagasako as Detective A Isshin Chiba as Detective B Takashi Taniguchi as Toshiaki Tahara",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Yuko Sasaki as Noe Tanigawa", "Koji Tsujitani as Kazuyoshi Sunaoka", "Yuji Fujishiro as Yusaku Akashi", "Nobuo Shimazaki as Katsuaki Nagatsuka", "Katsuyuki Konishi as Doctor", "Nao Takamori as Beautiful girl", "Takashi Nagasako as Detective A", "Isshin Chiba as Detective B", "Takashi Taniguchi as Toshiaki Tahara"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« A Cursed Mask Coldly Laughs",
         nextCase: "The Unknown Gunshot That Rings in the Dark »",
-
 
 
 
@@ -12239,6 +12611,9 @@ const allData = [
     {
         id: "187", isFiller: true, title: "187: The Unknown Gunshot That Rings in the Dark",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Officer Tome"],
+
+
+
         episodeDescription: "Kogoro is invited to a house as a way to impress a client's mother. The mother, a powerful finance trader, is murdered and the suspects are her second son, her first daughter, and the maid.",
         japaneseTitle: "闇に響く謎の銃声. (Yami ni Hibiku Nazo no Juusei)",
         titleInOtherLanguages: [
@@ -12272,12 +12647,11 @@ const allData = [
         screenplay: "Manabu Harada",
         storyboard: "Hiroshi Kurimoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Miho Yamada as Azusa Machida Nobutoshi Canna as Koji Furukawa Toshihiko Nakajima as Officer Tome Isshin Chiba as Kazunobu Chiba Aiko Konoshima as Etsuko Furukawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Miho Yamada as Azusa Machida", "Nobutoshi Canna as Koji Furukawa", "Toshihiko Nakajima as Officer Tome", "Isshin Chiba as Kazunobu Chiba", "Aiko Konoshima as Etsuko Furukawa"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Murdered Famous Detective",
         nextCase: "The Desperate Revival »",
-
 
 
 
@@ -12304,6 +12678,9 @@ const allData = [
     {
         id: "188", isFiller: false, title: "188: The Desperate Revival - The Cavern of the Detective Boys",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Ai Haibara", "Heiji Hattori", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Kogoro Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kazuha Toyama", "Tomoaki Araide", "Kazunobu Chiba", "Yusaku Kudo", "Yukiko Kudo", "Pisco", "Vermouth", "Detective Kobayashi", "Detective Kojima"],
+
+
+
         episodeDescription: "Ran is practicing for her princess role in a play that Sonoko wrote for their campus festival. Conan and her father object to who her partner is for the said play since she had to kiss someone. Just as Ran decides to take a quick shower for her practice, she is told that the shower is broken. Conan also wanted to take one so he asks Ran if she wants to go with him to Professor Agasa's house and take a shower there. When Ran comes over, Haibara goes to the basement for some important research and says she doesn't want to be bothered by anyone. Later, the Detective boys go to a camping site and find a limestone cavern. The gang decides to explore the cavern and Genta discovers a corpse and people disposing of it. One culprit notices them so he shoots and seriously wounds Conan.",
         japaneseTitle: "命がけの復活. (Inochigake no Fukkatsu). 188 洞窟の探偵団. 189 負傷した名探偵. 190 第三の選択. 191 黒衣の騎士. 192 帰ってきた新一…. 193 約束の場所",
         titleInOtherLanguages: [
@@ -12338,12 +12715,11 @@ const allData = [
 
         storyboard: "188 Hiroshi Matsuzono. 189 Hiroshi Matsuzono. 190 Kenji Kodama. 191 Yasuichiro Yamamoto. 192 Chika Ichimaru. 193 Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Keiko Sasaki and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hideyuki Hori as Tomoaki Araide Naoki Tatsuta as Man A Minoru Inaba as Man B Masaru Ikeda as Man C Isshin Chiba as Doctor, Principality servant, Staff B, Policeman Keiko Sonoda as Nurse, Staff C Kensaku Kobayashi as Kohei Kamata Naoki Yanagi as Rioter A Shuuma Shiratori as Rioter B, Student C Houko Kuwashima as Ayako Ninagawa Rie Tanaka as Yumemi Noda Tsuyoshi Koyama as Yota Mitani Hiroyuki Yokoo as Student A, Male student B Kiyomi Asai as Announcement, Student B Mayumi Sho as Mai Kogami Takehiro Koyama as Taiji Tatsumi Kenji Hamada as Staff A Akiko Koike as Waitress Kikuko Inoue as Sakurako Tatsumi Yayoi Kuroda as Staff D Hiromichi Kogami as Male student A, Staff E Kenyuu Horiuchi as Satoru Ooba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hideyuki Hori as Tomoaki Araide", "Naoki Tatsuta as Man A", "Minoru Inaba as Man B", "Masaru Ikeda as Man C", "Isshin Chiba as Doctor, Principality servant, Staff B, Policeman", "Keiko Sonoda as Nurse, Staff C", "Kensaku Kobayashi as Kohei Kamata", "Naoki Yanagi as Rioter A", "Shuuma Shiratori as Rioter B, Student C", "Houko Kuwashima as Ayako Ninagawa", "Rie Tanaka as Yumemi Noda", "Tsuyoshi Koyama as Yota Mitani", "Hiroyuki Yokoo as Student A, Male student B", "Kiyomi Asai as Announcement, Student B", "Mayumi Sho as Mai Kogami", "Takehiro Koyama as Taiji Tatsumi", "Kenji Hamada as Staff A", "Akiko Koike as Waitress", "Kikuko Inoue as Sakurako Tatsumi", "Yayoi Kuroda as Staff D", "Hiromichi Kogami as Male student A, Staff E", "Kenyuu Horiuchi as Satoru Ooba"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
-
 
 
 
@@ -12369,6 +12745,9 @@ const allData = [
     {
         id: "189", isFiller: false, title: "189: The Desperate Revival - The Wounded Great Detective",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Ai Haibara", "Heiji Hattori", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Kogoro Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kazuha Toyama", "Tomoaki Araide", "Kazunobu Chiba", "Yusaku Kudo", "Yukiko Kudo", "Pisco", "Vermouth", "Detective Kobayashi", "Detective Kojima"],
+
+
+
         episodeDescription: "The Detective Boys search for an exit while running away from the culprit, and they managed to outrun them, but get trapped in a dead end passage. They hear from the murderers that there is one exit, but all the other passages in the cavern are dead ends. The branches are arranged in an unusual fashion and their is a strange pedestal with a round shaped stone on it. Conan passes out from his injury, but manages to relay a final hint to the detective boys on which passage to take. As they rush the wounded Conan to the hospital, he is in need of a blood transfusion. Ran immediately offers her blood saying she has the same blood type as Conan does, and he thinks Ran already knows he is Shinichi. Recovering in the hospital from his bullet wound, Conan contemplates telling Ran his true identity, since, Ran was already certain of who he was as she knew Conan's blood-type when she donated her blood, the same as Shinichi's. Additionally, Heiji and Kazuha drop by to visit him and Heiji warns him that it's best to be true, so he should tell Ran everything.",
         japaneseTitle: "命がけの復活. (Inochigake no Fukkatsu). 188 洞窟の探偵団. 189 負傷した名探偵. 190 第三の選択. 191 黒衣の騎士. 192 帰ってきた新一…. 193 約束の場所",
         titleInOtherLanguages: [
@@ -12403,12 +12782,11 @@ const allData = [
 
         storyboard: "188 Hiroshi Matsuzono. 189 Hiroshi Matsuzono. 190 Kenji Kodama. 191 Yasuichiro Yamamoto. 192 Chika Ichimaru. 193 Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Keiko Sasaki and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hideyuki Hori as Tomoaki Araide Naoki Tatsuta as Man A Minoru Inaba as Man B Masaru Ikeda as Man C Isshin Chiba as Doctor, Principality servant, Staff B, Policeman Keiko Sonoda as Nurse, Staff C Kensaku Kobayashi as Kohei Kamata Naoki Yanagi as Rioter A Shuuma Shiratori as Rioter B, Student C Houko Kuwashima as Ayako Ninagawa Rie Tanaka as Yumemi Noda Tsuyoshi Koyama as Yota Mitani Hiroyuki Yokoo as Student A, Male student B Kiyomi Asai as Announcement, Student B Mayumi Sho as Mai Kogami Takehiro Koyama as Taiji Tatsumi Kenji Hamada as Staff A Akiko Koike as Waitress Kikuko Inoue as Sakurako Tatsumi Yayoi Kuroda as Staff D Hiromichi Kogami as Male student A, Staff E Kenyuu Horiuchi as Satoru Ooba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hideyuki Hori as Tomoaki Araide", "Naoki Tatsuta as Man A", "Minoru Inaba as Man B", "Masaru Ikeda as Man C", "Isshin Chiba as Doctor, Principality servant, Staff B, Policeman", "Keiko Sonoda as Nurse, Staff C", "Kensaku Kobayashi as Kohei Kamata", "Naoki Yanagi as Rioter A", "Shuuma Shiratori as Rioter B, Student C", "Houko Kuwashima as Ayako Ninagawa", "Rie Tanaka as Yumemi Noda", "Tsuyoshi Koyama as Yota Mitani", "Hiroyuki Yokoo as Student A, Male student B", "Kiyomi Asai as Announcement, Student B", "Mayumi Sho as Mai Kogami", "Takehiro Koyama as Taiji Tatsumi", "Kenji Hamada as Staff A", "Akiko Koike as Waitress", "Kikuko Inoue as Sakurako Tatsumi", "Yayoi Kuroda as Staff D", "Hiromichi Kogami as Male student A, Staff E", "Kenyuu Horiuchi as Satoru Ooba"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
-
 
 
 
@@ -12437,6 +12815,9 @@ const allData = [
     {
         id: "190", isFiller: false, title: "190: The Desperate Revival - The Third Choice",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Ai Haibara", "Heiji Hattori", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Kogoro Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kazuha Toyama", "Tomoaki Araide", "Kazunobu Chiba", "Yusaku Kudo", "Yukiko Kudo", "Pisco", "Vermouth", "Detective Kobayashi", "Detective Kojima"],
+
+
+
         episodeDescription: "Ai Haibara shows up and points a gun at him. She reveals that the Black Organization knew of her real identity and betrayal, but were willing to re-recruit her, as long as she kills Conan as well as the people who know who he is: his family, Agasa, Ran and Heiji. This was just an attempt to scare Conan. She wanted Conan to understand how terrifying the Black Organization is and how they would be willing to get rid of everyone who knows Conan's identity, including Ran. And so to get rid of Ran's suspicion about Conan being Shinichi, Haibara suggets an idea. Later Ran is cast in a school play, while discussing the play with her friends, Conan shows up wearing a face mask due to a cold he had. Ran is supposed to play a beautiful princess who is rescued and protected by a mysterious Black Knight. Sonoko was originally cast as the Knight but has injured her arm so she cannot act, so Dr. Araide (who works as an aidé for a sports club in the school) is supposed to be the Knight now. During the play Ran's 'princess' is abducted by bandits (causing Kazuha, who is in the audience, to start screaming at them to leave her alone), but then she's saved by the Black Knight. Said knight has his face shrouded, so at first everyone thinks it's Araide, but the Black Knight appears to go off script embracing her and is about to kiss her, much to the horror of Kogoro, but the romantic scene is disrupted when a man in the audience falls dead, seemingly by potassium cyanide poisoning in a drink.",
         japaneseTitle: "命がけの復活. (Inochigake no Fukkatsu). 188 洞窟の探偵団. 189 負傷した名探偵. 190 第三の選択. 191 黒衣の騎士. 192 帰ってきた新一…. 193 約束の場所",
         titleInOtherLanguages: [
@@ -12471,12 +12852,11 @@ const allData = [
 
         storyboard: "188 Hiroshi Matsuzono. 189 Hiroshi Matsuzono. 190 Kenji Kodama. 191 Yasuichiro Yamamoto. 192 Chika Ichimaru. 193 Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Keiko Sasaki and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hideyuki Hori as Tomoaki Araide Naoki Tatsuta as Man A Minoru Inaba as Man B Masaru Ikeda as Man C Isshin Chiba as Doctor, Principality servant, Staff B, Policeman Keiko Sonoda as Nurse, Staff C Kensaku Kobayashi as Kohei Kamata Naoki Yanagi as Rioter A Shuuma Shiratori as Rioter B, Student C Houko Kuwashima as Ayako Ninagawa Rie Tanaka as Yumemi Noda Tsuyoshi Koyama as Yota Mitani Hiroyuki Yokoo as Student A, Male student B Kiyomi Asai as Announcement, Student B Mayumi Sho as Mai Kogami Takehiro Koyama as Taiji Tatsumi Kenji Hamada as Staff A Akiko Koike as Waitress Kikuko Inoue as Sakurako Tatsumi Yayoi Kuroda as Staff D Hiromichi Kogami as Male student A, Staff E Kenyuu Horiuchi as Satoru Ooba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hideyuki Hori as Tomoaki Araide", "Naoki Tatsuta as Man A", "Minoru Inaba as Man B", "Masaru Ikeda as Man C", "Isshin Chiba as Doctor, Principality servant, Staff B, Policeman", "Keiko Sonoda as Nurse, Staff C", "Kensaku Kobayashi as Kohei Kamata", "Naoki Yanagi as Rioter A", "Shuuma Shiratori as Rioter B, Student C", "Houko Kuwashima as Ayako Ninagawa", "Rie Tanaka as Yumemi Noda", "Tsuyoshi Koyama as Yota Mitani", "Hiroyuki Yokoo as Student A, Male student B", "Kiyomi Asai as Announcement, Student B", "Mayumi Sho as Mai Kogami", "Takehiro Koyama as Taiji Tatsumi", "Kenji Hamada as Staff A", "Akiko Koike as Waitress", "Kikuko Inoue as Sakurako Tatsumi", "Yayoi Kuroda as Staff D", "Hiromichi Kogami as Male student A, Staff E", "Kenyuu Horiuchi as Satoru Ooba"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
-
 
 
 
@@ -12504,6 +12884,9 @@ const allData = [
     {
         id: "191", isFiller: false, title: "191: The Desperate Revival - The Black Knight",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Ai Haibara", "Heiji Hattori", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Kogoro Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kazuha Toyama", "Tomoaki Araide", "Kazunobu Chiba", "Yusaku Kudo", "Yukiko Kudo", "Pisco", "Vermouth", "Detective Kobayashi", "Detective Kojima"],
+
+
+
         episodeDescription: "As they are able to rule the death as a suicide, the still masked 'Black Knight' declares it was a murder. The Black Knight reveals his identity to be Shinichi. Shinichi reveals that the poison was placed in the ice cubes and that Kamata had a habit of eating ice.",
         japaneseTitle: "命がけの復活. (Inochigake no Fukkatsu). 188 洞窟の探偵団. 189 負傷した名探偵. 190 第三の選択. 191 黒衣の騎士. 192 帰ってきた新一…. 193 約束の場所",
         titleInOtherLanguages: [
@@ -12538,12 +12921,11 @@ const allData = [
 
         storyboard: "188 Hiroshi Matsuzono. 189 Hiroshi Matsuzono. 190 Kenji Kodama. 191 Yasuichiro Yamamoto. 192 Chika Ichimaru. 193 Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Keiko Sasaki and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hideyuki Hori as Tomoaki Araide Naoki Tatsuta as Man A Minoru Inaba as Man B Masaru Ikeda as Man C Isshin Chiba as Doctor, Principality servant, Staff B, Policeman Keiko Sonoda as Nurse, Staff C Kensaku Kobayashi as Kohei Kamata Naoki Yanagi as Rioter A Shuuma Shiratori as Rioter B, Student C Houko Kuwashima as Ayako Ninagawa Rie Tanaka as Yumemi Noda Tsuyoshi Koyama as Yota Mitani Hiroyuki Yokoo as Student A, Male student B Kiyomi Asai as Announcement, Student B Mayumi Sho as Mai Kogami Takehiro Koyama as Taiji Tatsumi Kenji Hamada as Staff A Akiko Koike as Waitress Kikuko Inoue as Sakurako Tatsumi Yayoi Kuroda as Staff D Hiromichi Kogami as Male student A, Staff E Kenyuu Horiuchi as Satoru Ooba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hideyuki Hori as Tomoaki Araide", "Naoki Tatsuta as Man A", "Minoru Inaba as Man B", "Masaru Ikeda as Man C", "Isshin Chiba as Doctor, Principality servant, Staff B, Policeman", "Keiko Sonoda as Nurse, Staff C", "Kensaku Kobayashi as Kohei Kamata", "Naoki Yanagi as Rioter A", "Shuuma Shiratori as Rioter B, Student C", "Houko Kuwashima as Ayako Ninagawa", "Rie Tanaka as Yumemi Noda", "Tsuyoshi Koyama as Yota Mitani", "Hiroyuki Yokoo as Student A, Male student B", "Kiyomi Asai as Announcement, Student B", "Mayumi Sho as Mai Kogami", "Takehiro Koyama as Taiji Tatsumi", "Kenji Hamada as Staff A", "Akiko Koike as Waitress", "Kikuko Inoue as Sakurako Tatsumi", "Yayoi Kuroda as Staff D", "Hiromichi Kogami as Male student A, Staff E", "Kenyuu Horiuchi as Satoru Ooba"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
-
 
 
 
@@ -12571,6 +12953,9 @@ const allData = [
     {
         id: "192", isFiller: false, title: "192: The Desperate Revival - Shinichi's Return",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Ai Haibara", "Heiji Hattori", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Kogoro Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kazuha Toyama", "Tomoaki Araide", "Kazunobu Chiba", "Yusaku Kudo", "Yukiko Kudo", "Pisco", "Vermouth", "Detective Kobayashi", "Detective Kojima"],
+
+
+
         episodeDescription: "The next day, Shinichi takes Ran to a fancy restaurant in order to confess his love. Meanwhile, a man named Satoru Ooba kisses his girlfriend. When the elevator opens up behind her, he shoots and murders, Taiji Tatsumi, his boss and his girlfriend's father.",
         japaneseTitle: "命がけの復活. (Inochigake no Fukkatsu). 188 洞窟の探偵団. 189 負傷した名探偵. 190 第三の選択. 191 黒衣の騎士. 192 帰ってきた新一…. 193 約束の場所",
         titleInOtherLanguages: [
@@ -12605,12 +12990,11 @@ const allData = [
 
         storyboard: "188 Hiroshi Matsuzono. 189 Hiroshi Matsuzono. 190 Kenji Kodama. 191 Yasuichiro Yamamoto. 192 Chika Ichimaru. 193 Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Keiko Sasaki and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hideyuki Hori as Tomoaki Araide Naoki Tatsuta as Man A Minoru Inaba as Man B Masaru Ikeda as Man C Isshin Chiba as Doctor, Principality servant, Staff B, Policeman Keiko Sonoda as Nurse, Staff C Kensaku Kobayashi as Kohei Kamata Naoki Yanagi as Rioter A Shuuma Shiratori as Rioter B, Student C Houko Kuwashima as Ayako Ninagawa Rie Tanaka as Yumemi Noda Tsuyoshi Koyama as Yota Mitani Hiroyuki Yokoo as Student A, Male student B Kiyomi Asai as Announcement, Student B Mayumi Sho as Mai Kogami Takehiro Koyama as Taiji Tatsumi Kenji Hamada as Staff A Akiko Koike as Waitress Kikuko Inoue as Sakurako Tatsumi Yayoi Kuroda as Staff D Hiromichi Kogami as Male student A, Staff E Kenyuu Horiuchi as Satoru Ooba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hideyuki Hori as Tomoaki Araide", "Naoki Tatsuta as Man A", "Minoru Inaba as Man B", "Masaru Ikeda as Man C", "Isshin Chiba as Doctor, Principality servant, Staff B, Policeman", "Keiko Sonoda as Nurse, Staff C", "Kensaku Kobayashi as Kohei Kamata", "Naoki Yanagi as Rioter A", "Shuuma Shiratori as Rioter B, Student C", "Houko Kuwashima as Ayako Ninagawa", "Rie Tanaka as Yumemi Noda", "Tsuyoshi Koyama as Yota Mitani", "Hiroyuki Yokoo as Student A, Male student B", "Kiyomi Asai as Announcement, Student B", "Mayumi Sho as Mai Kogami", "Takehiro Koyama as Taiji Tatsumi", "Kenji Hamada as Staff A", "Akiko Koike as Waitress", "Kikuko Inoue as Sakurako Tatsumi", "Yayoi Kuroda as Staff D", "Hiromichi Kogami as Male student A, Staff E", "Kenyuu Horiuchi as Satoru Ooba"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
-
 
 
 
@@ -12637,6 +13021,9 @@ const allData = [
     {
         id: "193", isFiller: false, title: "193: The Desperate Revival - The Promised Place",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Ai Haibara", "Heiji Hattori", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Miwako Sato", "Kogoro Mouri", "Sonoko Suzuki", "Hiroshi Agasa", "Kazuha Toyama", "Tomoaki Araide", "Kazunobu Chiba", "Yusaku Kudo", "Yukiko Kudo", "Pisco", "Vermouth", "Detective Kobayashi", "Detective Kojima"],
+
+
+
         episodeDescription: "Shinichi confirms Satoru Ooba to be the murderer and reveals that he used a glove and plastic bag so his clothes would not be stained with gunpowder. He reveals that the plastic bag was hid in a mascot costume and that it contains Ooba's fingerprints. Ooba counters stating that his co-workers also touched the plastic bag. Shinichi reveals that Ooba confessed to the crimes also since he said his girlfriend's earrings were pink yet color is not distinguishable in the dark and thus reveals that Ooba was with his girlfriend when the elevator doors opened. Ooba confesses and reveals that his father's company was destroyed by Tatsumi and prompted his father to suicide. Shinichi, who has resoved the case despite being under the effects of the cure wearing off, escapes to the bathroom and regresses back to Conan. Ai, who is still masquerading as Conan, shows up and tells him the time limit is almost over, and she returns him his smaller clothes. Conan says the words of Shinichi to Ran. Now fully shrunk, Conan returns to Ran's side in the restaurant. He tells her that Kogoro is waiting in the parking lot, and that Shinichi both left a credit card to pay for the meal *and* has left to resolve other cases. The heartbroken and tearful Ran covers her ears and says she doesn't want to hear any other excuses from Shinichi even if delivered by someone else, but Conan says Shinichi 'told him' that he will come back someday even if it costs him his own life, and asks Ran to wait for his return, as he wants to tell her something important when he does. When Ran calms down, both she and Conan eat ice-cream together. Ran asks Conan if Shinichi told him what's that 'important thing' he wants to tell her and then rants about Shinichi taking her to this expensive restaurant for 'nothing important', and Conan blushes and thinks to himself that this is the place where his dad proposed to his mom.",
         japaneseTitle: "命がけの復活. (Inochigake no Fukkatsu). 188 洞窟の探偵団. 189 負傷した名探偵. 190 第三の選択. 191 黒衣の騎士. 192 帰ってきた新一…. 193 約束の場所",
         titleInOtherLanguages: [
@@ -12671,12 +13058,11 @@ const allData = [
 
         storyboard: "188 Hiroshi Matsuzono. 189 Hiroshi Matsuzono. 190 Kenji Kodama. 191 Yasuichiro Yamamoto. 192 Chika Ichimaru. 193 Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Keiko Sasaki and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hideyuki Hori as Tomoaki Araide Naoki Tatsuta as Man A Minoru Inaba as Man B Masaru Ikeda as Man C Isshin Chiba as Doctor, Principality servant, Staff B, Policeman Keiko Sonoda as Nurse, Staff C Kensaku Kobayashi as Kohei Kamata Naoki Yanagi as Rioter A Shuuma Shiratori as Rioter B, Student C Houko Kuwashima as Ayako Ninagawa Rie Tanaka as Yumemi Noda Tsuyoshi Koyama as Yota Mitani Hiroyuki Yokoo as Student A, Male student B Kiyomi Asai as Announcement, Student B Mayumi Sho as Mai Kogami Takehiro Koyama as Taiji Tatsumi Kenji Hamada as Staff A Akiko Koike as Waitress Kikuko Inoue as Sakurako Tatsumi Yayoi Kuroda as Staff D Hiromichi Kogami as Male student A, Staff E Kenyuu Horiuchi as Satoru Ooba",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hideyuki Hori as Tomoaki Araide", "Naoki Tatsuta as Man A", "Minoru Inaba as Man B", "Masaru Ikeda as Man C", "Isshin Chiba as Doctor, Principality servant, Staff B, Policeman", "Keiko Sonoda as Nurse, Staff C", "Kensaku Kobayashi as Kohei Kamata", "Naoki Yanagi as Rioter A", "Shuuma Shiratori as Rioter B, Student C", "Houko Kuwashima as Ayako Ninagawa", "Rie Tanaka as Yumemi Noda", "Tsuyoshi Koyama as Yota Mitani", "Hiroyuki Yokoo as Student A, Male student B", "Kiyomi Asai as Announcement, Student B", "Mayumi Sho as Mai Kogami", "Takehiro Koyama as Taiji Tatsumi", "Kenji Hamada as Staff A", "Akiko Koike as Waitress", "Kikuko Inoue as Sakurako Tatsumi", "Yayoi Kuroda as Staff D", "Hiromichi Kogami as Male student A, Staff E", "Kenyuu Horiuchi as Satoru Ooba"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Unknown Gunshot That Rings in the Dark",
         nextCase: "The Significant Music Box »",
-
 
 
 
@@ -12707,6 +13093,9 @@ const allData = [
     {
         id: "194", isFiller: false, title: "194: The Significant Music Box (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo"],
+
+
+
         episodeDescription: "A girl named Haruna Yuki asks Kogoro to search for a man named Shuugo whom she texts with on her pager. She explains that Shuugo sent her a musical box to help pay for her tuition but she could not bring herself to sell something valuable and wants to return it. Conan notices the music box plays the song 'Haru Yo Koi' (春よ来い, lit. 'Come Dear Spring') and missed three notes 'La, Do, La'. After tracing the number on the pager, they visit the Ogata family who reveals that Shuugo was an elderly man who had recently died.",
         japaneseTitle: "意味深なオルゴール. (Imishin na Orugōru)",
         titleInOtherLanguages: [
@@ -12740,12 +13129,11 @@ const allData = [
 
         storyboard: "194 Hiroshi Kurimoto. 195 Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1) Nariko Fujieda as Haruna Yuki Masayuki Omoro as Tsuneo Ogata Hiroko Suzuki as Kazuko Ogata Katsuyuki Konishi as Minoru Ogata Daisuke Namikawa as Shiro Ogata Isshin Chiba as Policeman A Hiroyuki Yokoo as Policeman B Takayuki Inoue as Driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1)", "Nariko Fujieda as Haruna Yuki", "Masayuki Omoro as Tsuneo Ogata", "Hiroko Suzuki as Kazuko Ogata", "Katsuyuki Konishi as Minoru Ogata", "Daisuke Namikawa as Shiro Ogata", "Isshin Chiba as Policeman A", "Hiroyuki Yokoo as Policeman B", "Takayuki Inoue as Driver"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Desperate Revival",
         nextCase: "The Invisible Weapon, Ran's First Investigation »",
-
 
 
 
@@ -12774,6 +13162,9 @@ const allData = [
     {
         id: "195", isFiller: false, title: "195: The Significant Music Box (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Shinichi Kudo"],
+
+
+
         episodeDescription: "The police had check outside of the house and they were no footprints around the house. Conan investigates and realizes how the pranks were done and who is attempting to scare Haruna away.",
         japaneseTitle: "意味深なオルゴール. (Imishin na Orugōru)",
         titleInOtherLanguages: [
@@ -12807,12 +13198,11 @@ const allData = [
 
         storyboard: "194 Hiroshi Kurimoto. 195 Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1) Nariko Fujieda as Haruna Yuki Masayuki Omoro as Tsuneo Ogata Hiroko Suzuki as Kazuko Ogata Katsuyuki Konishi as Minoru Ogata Daisuke Namikawa as Shiro Ogata Isshin Chiba as Policeman A Hiroyuki Yokoo as Policeman B Takayuki Inoue as Driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1)", "Nariko Fujieda as Haruna Yuki", "Masayuki Omoro as Tsuneo Ogata", "Hiroko Suzuki as Kazuko Ogata", "Katsuyuki Konishi as Minoru Ogata", "Daisuke Namikawa as Shiro Ogata", "Isshin Chiba as Policeman A", "Hiroyuki Yokoo as Policeman B", "Takayuki Inoue as Driver"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Desperate Revival",
         nextCase: "The Invisible Weapon, Ran's First Investigation »",
-
 
 
 
@@ -12840,6 +13230,9 @@ const allData = [
     {
         id: "196", isFiller: true, title: "196: The Invisible Weapon, Ran's First Investigation",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Shinichi Kudo", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba"],
+
+
+
         episodeDescription: "Ran and Sonoko befriend a couple at a restaurant, but Ran finds the man's act suspicious. The next day Ran takes Conan and Sonoko to their house, Ran learns that the man's wife has an extremely expensive insurance and that he may be trying to wear her body out to kill her.",
         japaneseTitle: "見えない凶器 蘭の初推理. (Mienai Kyōki Ran no Hatsu-suiri)",
         titleInOtherLanguages: [
@@ -12874,12 +13267,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Yūko Kobayashi as Chie Yoshino Jurota Kosugi as Akio Yoshino Junichi Sugawara as Engineer Takayuki Inoue as Clerk A Isshin Chiba as Clerk B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Yūko Kobayashi as Chie Yoshino", "Jurota Kosugi as Akio Yoshino", "Junichi Sugawara as Engineer", "Takayuki Inoue as Clerk A", "Isshin Chiba as Clerk B"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Significant Music Box",
         nextCase: "The Super Car's Trap »",
-
 
 
 
@@ -12907,6 +13299,9 @@ const allData = [
     {
         id: "197", isFiller: true, title: "197: The Super Car's Trap (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Policeman", "Policeman", "Doctor"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan attend a car show in Izuku Oogen, Shizuoka Prefecture, and Kogoro is hired to find out who sent a threatening message. Teraizumi is later found dead in his car with full of fume.",
         japaneseTitle: "スーパーカーの罠. (Suupaa Kaa no Wana)",
         titleInOtherLanguages: [
@@ -12940,12 +13335,11 @@ const allData = [
         screenplay: "Toshiyuki Tabe",
         storyboard: "197 Kazuo Nogami. 198 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2) Ken Shiroyama as Daigo Teraizumi Katsumi Chou as Zenkichi Kuroiwa Koji Yusa as Hisashi Suguro Yoshizou Yamaguchi as Kazuo Noda Nobuo Shimazaki as Ichiro Otake Hikaru Hanada as Shinsuke Sagara Tetsuo Kanao as Jouji Kameoka Takayuki Inoue as Boy Isshin Chiba as Doctor Takashi Nagasako as Forensics officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2)", "Ken Shiroyama as Daigo Teraizumi", "Katsumi Chou as Zenkichi Kuroiwa", "Koji Yusa as Hisashi Suguro", "Yoshizou Yamaguchi as Kazuo Noda", "Nobuo Shimazaki as Ichiro Otake", "Hikaru Hanada as Shinsuke Sagara", "Tetsuo Kanao as Jouji Kameoka", "Takayuki Inoue as Boy", "Isshin Chiba as Doctor", "Takashi Nagasako as Forensics officer"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Invisible Weapon, Ran's First Investigation",
         nextCase: "Kogoro Mouri, Suspect »",
-
 
 
 
@@ -12969,6 +13363,9 @@ const allData = [
     {
         id: "198", isFiller: true, title: "198: The Super Car's Trap (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Policeman", "Policeman", "Doctor"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "スーパーカーの罠. (Suupaa Kaa no Wana)",
         titleInOtherLanguages: [
@@ -13002,12 +13399,11 @@ const allData = [
         screenplay: "Toshiyuki Tabe",
         storyboard: "197 Kazuo Nogami. 198 Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2) Ken Shiroyama as Daigo Teraizumi Katsumi Chou as Zenkichi Kuroiwa Koji Yusa as Hisashi Suguro Yoshizou Yamaguchi as Kazuo Noda Nobuo Shimazaki as Ichiro Otake Hikaru Hanada as Shinsuke Sagara Tetsuo Kanao as Jouji Kameoka Takayuki Inoue as Boy Isshin Chiba as Doctor Takashi Nagasako as Forensics officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2)", "Ken Shiroyama as Daigo Teraizumi", "Katsumi Chou as Zenkichi Kuroiwa", "Koji Yusa as Hisashi Suguro", "Yoshizou Yamaguchi as Kazuo Noda", "Nobuo Shimazaki as Ichiro Otake", "Hikaru Hanada as Shinsuke Sagara", "Tetsuo Kanao as Jouji Kameoka", "Takayuki Inoue as Boy", "Isshin Chiba as Doctor", "Takashi Nagasako as Forensics officer"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Invisible Weapon, Ran's First Investigation",
         nextCase: "Kogoro Mouri, Suspect »",
-
 
 
 
@@ -13038,6 +13434,9 @@ const allData = [
     {
         id: "199", isFiller: false, title: "199: Kogoro Mouri, Suspect (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Eri Kisaki", "Misao Yamamura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "容疑者·毛利小五郎. (Yōgisha Mōri Kogorō)",
         titleInOtherLanguages: [
@@ -13072,12 +13471,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki, Next Conan's Hint (Part 2) Toshio Furukawa as Misao Yamamura Rica Matsumoto as Ritsuko Usui Rikiya Koyama as Norifumi Saku Toshihiko Kojima as Kenzo Shiozawa Masashi Ebara as Yuji Mikasa Isshin Chiba as Policeman, Policeman A Takayuki Inoue as Policeman B Hiroyuki Yokoo as Policeman C",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Gara Takashima as Eri Kisaki, Next Conan's Hint (Part 2)", "Toshio Furukawa as Misao Yamamura", "Rica Matsumoto as Ritsuko Usui", "Rikiya Koyama as Norifumi Saku", "Toshihiko Kojima as Kenzo Shiozawa", "Masashi Ebara as Yuji Mikasa", "Isshin Chiba as Policeman, Policeman A", "Takayuki Inoue as Policeman B", "Hiroyuki Yokoo as Policeman C"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Super Car's Trap",
         nextCase: "The Tenth Passenger »",
-
 
 
 
@@ -13108,6 +13506,9 @@ const allData = [
     {
         id: "200", isFiller: false, title: "200: Kogoro Mouri, Suspect (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Eri Kisaki", "Misao Yamamura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "容疑者·毛利小五郎. (Yōgisha Mōri Kogorō)",
         titleInOtherLanguages: [
@@ -13142,12 +13543,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki, Next Conan's Hint (Part 2) Toshio Furukawa as Misao Yamamura Rica Matsumoto as Ritsuko Usui Rikiya Koyama as Norifumi Saku Toshihiko Kojima as Kenzo Shiozawa Masashi Ebara as Yuji Mikasa Isshin Chiba as Policeman, Policeman A Takayuki Inoue as Policeman B Hiroyuki Yokoo as Policeman C",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Gara Takashima as Eri Kisaki, Next Conan's Hint (Part 2)", "Toshio Furukawa as Misao Yamamura", "Rica Matsumoto as Ritsuko Usui", "Rikiya Koyama as Norifumi Saku", "Toshihiko Kojima as Kenzo Shiozawa", "Masashi Ebara as Yuji Mikasa", "Isshin Chiba as Policeman, Policeman A", "Takayuki Inoue as Policeman B", "Hiroyuki Yokoo as Policeman C"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Super Car's Trap",
         nextCase: "The Tenth Passenger »",
-
 
 
 
@@ -13176,6 +13576,9 @@ const allData = [
     {
         id: "201", isFiller: true, title: "201: The Tenth Passenger (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "10人目の乗客. (Jūninme no Jōkyaku)",
         titleInOtherLanguages: [
@@ -13210,12 +13613,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Koji Ishii as Takuro Yabe Mitsuaki Hoshino as Mamoru Kajita Kyoko Tsuruno as Toko Natsume Ryuichi Horibe as Takehiko Funaki Masaaki Tsukada as Sokichi Okumura Kei Hayami as Kinu Komai Hidetoshi Nakamura as Shohei Hino Nobuo Tobita as Hitoshi Shinkai Katsuyuki Konishi as Yoichi Tezuka Junichi Sugawara as Old husband, Villager A Takashi Nagasako as Villager A, C Isshin Chiba as Villager B Ruri Asano as Female college student A Yayoi Kuroda as Female college student B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Koji Ishii as Takuro Yabe", "Mitsuaki Hoshino as Mamoru Kajita", "Kyoko Tsuruno as Toko Natsume", "Ryuichi Horibe as Takehiko Funaki", "Masaaki Tsukada as Sokichi Okumura", "Kei Hayami as Kinu Komai", "Hidetoshi Nakamura as Shohei Hino", "Nobuo Tobita as Hitoshi Shinkai", "Katsuyuki Konishi as Yoichi Tezuka", "Junichi Sugawara as Old husband, Villager A", "Takashi Nagasako as Villager A, C", "Isshin Chiba as Villager B", "Ruri Asano as Female college student A", "Yayoi Kuroda as Female college student B"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« Kogoro Mouri, Suspect",
         nextCase: "The Black Wings of Icarus »",
-
 
 
 
@@ -13241,6 +13643,9 @@ const allData = [
     {
         id: "202", isFiller: true, title: "202: The Tenth Passenger (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "10人目の乗客. (Jūninme no Jōkyaku)",
         titleInOtherLanguages: [
@@ -13275,12 +13680,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Koji Ishii as Takuro Yabe Mitsuaki Hoshino as Mamoru Kajita Kyoko Tsuruno as Toko Natsume Ryuichi Horibe as Takehiko Funaki Masaaki Tsukada as Sokichi Okumura Kei Hayami as Kinu Komai Hidetoshi Nakamura as Shohei Hino Nobuo Tobita as Hitoshi Shinkai Katsuyuki Konishi as Yoichi Tezuka Junichi Sugawara as Old husband, Villager A Takashi Nagasako as Villager A, C Isshin Chiba as Villager B Ruri Asano as Female college student A Yayoi Kuroda as Female college student B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Koji Ishii as Takuro Yabe", "Mitsuaki Hoshino as Mamoru Kajita", "Kyoko Tsuruno as Toko Natsume", "Ryuichi Horibe as Takehiko Funaki", "Masaaki Tsukada as Sokichi Okumura", "Kei Hayami as Kinu Komai", "Hidetoshi Nakamura as Shohei Hino", "Nobuo Tobita as Hitoshi Shinkai", "Katsuyuki Konishi as Yoichi Tezuka", "Junichi Sugawara as Old husband, Villager A", "Takashi Nagasako as Villager A, C", "Isshin Chiba as Villager B", "Ruri Asano as Female college student A", "Yayoi Kuroda as Female college student B"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« Kogoro Mouri, Suspect",
         nextCase: "The Black Wings of Icarus »",
-
 
 
 
@@ -13311,6 +13715,9 @@ const allData = [
     {
         id: "203", isFiller: true, title: "203: The Black Wings of Icarus (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Honami Shimogasa", "Minaho Shimogasa", "Yoko Okino", "Shingo Nachi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "黒いイカロスの翼. (Kuroi Ikarosu no Tsubasa)",
         titleInOtherLanguages: [
@@ -13345,12 +13752,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Hiroto Torihata as Mitsuyuki Arimori Yuko Mizutani as Shinobu Shimon Miki Nagasawa as Minaho Shimogasa Kyouko Iijima as Honami Shimogasa Nobuaki Fukuda as Hidehiko Shiromoto Yoko Soumi as Chizuru Bizen Ryoichi Tanaka as Kouta Miyabe Masahiko Tanaka as Koichi Mito Isshin Chiba as Detective A Takashi Nagasako as Coroner Katsuyuki Konishi as Forensics officer Takayuki Inoue as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Hiroto Torihata as Mitsuyuki Arimori", "Yuko Mizutani as Shinobu Shimon", "Miki Nagasawa as Minaho Shimogasa", "Kyouko Iijima as Honami Shimogasa", "Nobuaki Fukuda as Hidehiko Shiromoto", "Yoko Soumi as Chizuru Bizen", "Ryoichi Tanaka as Kouta Miyabe", "Masahiko Tanaka as Koichi Mito", "Isshin Chiba as Detective A", "Takashi Nagasako as Coroner", "Katsuyuki Konishi as Forensics officer", "Takayuki Inoue as Policeman"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Tenth Passenger",
         nextCase: "Metropolitan Police Detective Love Story 3 »",
-
 
 
 
@@ -13383,6 +13789,9 @@ const allData = [
     {
         id: "204", isFiller: true, title: "204: The Black Wings of Icarus (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Honami Shimogasa", "Minaho Shimogasa", "Yoko Okino", "Shingo Nachi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "黒いイカロスの翼. (Kuroi Ikarosu no Tsubasa)",
         titleInOtherLanguages: [
@@ -13417,12 +13826,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Hiroto Torihata as Mitsuyuki Arimori Yuko Mizutani as Shinobu Shimon Miki Nagasawa as Minaho Shimogasa Kyouko Iijima as Honami Shimogasa Nobuaki Fukuda as Hidehiko Shiromoto Yoko Soumi as Chizuru Bizen Ryoichi Tanaka as Kouta Miyabe Masahiko Tanaka as Koichi Mito Isshin Chiba as Detective A Takashi Nagasako as Coroner Katsuyuki Konishi as Forensics officer Takayuki Inoue as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Hiroto Torihata as Mitsuyuki Arimori", "Yuko Mizutani as Shinobu Shimon", "Miki Nagasawa as Minaho Shimogasa", "Kyouko Iijima as Honami Shimogasa", "Nobuaki Fukuda as Hidehiko Shiromoto", "Yoko Soumi as Chizuru Bizen", "Ryoichi Tanaka as Kouta Miyabe", "Masahiko Tanaka as Koichi Mito", "Isshin Chiba as Detective A", "Takashi Nagasako as Coroner", "Katsuyuki Konishi as Forensics officer", "Takayuki Inoue as Policeman"],
         openingSong: "Mysterious Eyes",
         endingSong: "Secret of my heart",
         prevCase: "« The Tenth Passenger",
         nextCase: "Metropolitan Police Detective Love Story 3 »",
-
 
 
 
@@ -13452,6 +13860,9 @@ const allData = [
     {
         id: "205", isFiller: false, title: "205: Metropolitan Police Detective Love Story 3 (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Miwako Sato", "Wataru Takagi", "Ninzaburo Shiratori", "Juzo Megure", "Kazunobu Chiba", "Masayoshi Sato", "Mrs. Yoshida", "Mrs. Sato", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "本庁の刑事恋物語3(スリー). (Honchō no Keiji Koi-monogatari Surī)",
         titleInOtherLanguages: [
@@ -13486,12 +13897,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kazuhiko Inoue as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba, Voice on radio Toru Okawa as Masayoshi Sato Masayuki Omoro as Hidero Saruwatari Rokuro Naya as Shuji Kano Hajime Koseki as Mitsuo Inomata Masako Isobe as Choko Kandori Ryuzaburo Otomo as Arsonist Shinobu Sato as Mrs. Yoshida Junichi Sugawara as Shopkeeper",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kazuhiko Inoue as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba, Voice on radio", "Toru Okawa as Masayoshi Sato", "Masayuki Omoro as Hidero Saruwatari", "Rokuro Naya as Shuji Kano", "Hajime Koseki as Mitsuo Inomata", "Masako Isobe as Choko Kandori", "Ryuzaburo Otomo as Arsonist", "Shinobu Sato as Mrs. Yoshida", "Junichi Sugawara as Shopkeeper"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Black Wings of Icarus",
         nextCase: "The Deduction That Was Too Good »",
-
 
 
 
@@ -13521,6 +13931,9 @@ const allData = [
     {
         id: "206", isFiller: false, title: "206: Metropolitan Police Detective Love Story 3 (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Miwako Sato", "Wataru Takagi", "Ninzaburo Shiratori", "Juzo Megure", "Kazunobu Chiba", "Masayoshi Sato", "Mrs. Yoshida", "Mrs. Sato", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "本庁の刑事恋物語3(スリー). (Honchō no Keiji Koi-monogatari Surī)",
         titleInOtherLanguages: [
@@ -13555,12 +13968,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kazuhiko Inoue as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba, Voice on radio Toru Okawa as Masayoshi Sato Masayuki Omoro as Hidero Saruwatari Rokuro Naya as Shuji Kano Hajime Koseki as Mitsuo Inomata Masako Isobe as Choko Kandori Ryuzaburo Otomo as Arsonist Shinobu Sato as Mrs. Yoshida Junichi Sugawara as Shopkeeper",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kazuhiko Inoue as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba, Voice on radio", "Toru Okawa as Masayoshi Sato", "Masayuki Omoro as Hidero Saruwatari", "Rokuro Naya as Shuji Kano", "Hajime Koseki as Mitsuo Inomata", "Masako Isobe as Choko Kandori", "Ryuzaburo Otomo as Arsonist", "Shinobu Sato as Mrs. Yoshida", "Junichi Sugawara as Shopkeeper"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Black Wings of Icarus",
         nextCase: "The Deduction That Was Too Good »",
-
 
 
 
@@ -13595,6 +14007,9 @@ const allData = [
     {
         id: "207", isFiller: true, title: "207: The Deduction That Was Too Good",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Wataru Takagi", "Juzo Megure", "Azusa Enomoto", "Police detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "見事すぎた名推理. (Migoto-sugita Meisuiri)",
         titleInOtherLanguages: [
@@ -13629,12 +14044,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Mikiko Enomoto as Azusa Enomoto Isshin Chiba as Takayuki Irie Hiroshi Yanaka as Hiroshi Nakamoto Takayuki Inoue as Clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Mikiko Enomoto as Azusa Enomoto", "Isshin Chiba as Takayuki Irie", "Hiroshi Yanaka as Hiroshi Nakamoto", "Takayuki Inoue as Clerk"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« Metropolitan Police Detective Love Story 3",
         nextCase: "The Entrance to the Maze: The Anger of the Colossus »",
-
 
 
 
@@ -13663,6 +14077,9 @@ const allData = [
     {
         id: "208", isFiller: true, title: "208: The Entrance to the Maze: The Anger of the Colossus (1 Hour Special)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "迷宮への入り口 巨大神像の怒り. (Meikyū e no Iriguchi Kyodai Shinzō no Ikari)",
         titleInOtherLanguages: [
@@ -13696,12 +14113,11 @@ const allData = [
         screenplay: "Chiaki Hashiba",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Kiyoshi Kawakubo as Eizo Domoto Natsuo Tokuhiro as Yasunori Domoto Taro Arakawa as Junpei Domoto Rumi Ochiai as Rina Domoto Kikuko Inoue as Ayaka Yoshino Kihachiro Uemura as Tetsuya Aoyagi Reiko Suzuki as Shizuka Kamiyama Shigeru Ushiyama as Osamu Machida Naoki Makishima as Yoshihito Nakano Isshin Chiba as Presenter Takashi Nagasako as Stationmaster Wataru Takagi as Next Conan's Hint",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Kiyoshi Kawakubo as Eizo Domoto", "Natsuo Tokuhiro as Yasunori Domoto", "Taro Arakawa as Junpei Domoto", "Rumi Ochiai as Rina Domoto", "Kikuko Inoue as Ayaka Yoshino", "Kihachiro Uemura as Tetsuya Aoyagi", "Reiko Suzuki as Shizuka Kamiyama", "Shigeru Ushiyama as Osamu Machida", "Naoki Makishima as Yoshihito Nakano", "Isshin Chiba as Presenter", "Takashi Nagasako as Stationmaster", "Wataru Takagi as Next Conan's Hint"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Deduction That Was Too Good",
         nextCase: "The Falling from Mt. Ryujin Case »",
-
 
 
 
@@ -13746,6 +14162,9 @@ const allData = [
     {
         id: "209", isFiller: true, title: "209: The Falling from Mt. Ryujin Case",
         appearances: ["Conan Edogawa", "Hiroshi Agasa", "Detective Boys"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "龍神山転落事件. (Ryūjin'yama Tenraku Jiken)",
         titleInOtherLanguages: [
@@ -13778,12 +14197,11 @@ const allData = [
         screenplay: "Satoshi Kitagawa",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Hiroto Yokote (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Yutaka Nakano as Detective Junichi Sugawara as Policeman A Isshin Chiba as Policeman B Takayuki Inoue as Forensics officer A Takashi Nagasako as Forensics officer B Hiroyuki Yokoo as Forensics officer C Toshitaka Shimizu as Forensics officer D Kenji Hamada as Forensics officer E Kiyoyuki Yanada as Man",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Yutaka Nakano as Detective", "Junichi Sugawara as Policeman A", "Isshin Chiba as Policeman B", "Takayuki Inoue as Forensics officer A", "Takashi Nagasako as Forensics officer B", "Hiroyuki Yokoo as Forensics officer C", "Toshitaka Shimizu as Forensics officer D", "Kenji Hamada as Forensics officer E", "Kiyoyuki Yanada as Man"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Entrance to the Maze: The Anger of the Colossus",
         nextCase: "The Water Palace of Five Colors Legend »",
-
 
 
 
@@ -13812,6 +14230,9 @@ const allData = [
     {
         id: "210", isFiller: true, title: "210: The Water Palace of Five Colors Legend (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Policeman", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "五彩伝説の水御殿. (Gosai Densetsu no Mizu Goten)",
         titleInOtherLanguages: [
@@ -13846,12 +14267,11 @@ const allData = [
         screenplay: "Takeshi Mochizuki",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Keiko Sasaki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Masaaki Tsukada as Ryozo Aonogi Aruno Tahara as Morio Yakura Masako Katsuki as Yukari Mimura Kazuya Ichijou as Ryoichi Aonogi Ai Satou as Yoshiko Hanasaki Isshin Chiba as Detective 1 Katsuyuki Konishi as Detective 2",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Masaaki Tsukada as Ryozo Aonogi", "Aruno Tahara as Morio Yakura", "Masako Katsuki as Yukari Mimura", "Kazuya Ichijou as Ryoichi Aonogi", "Ai Satou as Yoshiko Hanasaki", "Isshin Chiba as Detective 1", "Katsuyuki Konishi as Detective 2"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Falling from Mt. Ryujin Case",
         nextCase: "Mushrooms, Bears, and the Detective Boys »",
-
 
 
 
@@ -13879,6 +14299,9 @@ const allData = [
     {
         id: "211", isFiller: true, title: "211: The Water Palace of Five Colors Legend (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Policeman", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "五彩伝説の水御殿. (Gosai Densetsu no Mizu Goten)",
         titleInOtherLanguages: [
@@ -13913,12 +14336,11 @@ const allData = [
         screenplay: "Takeshi Mochizuki",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Keiko Sasaki (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Masaaki Tsukada as Ryozo Aonogi Aruno Tahara as Morio Yakura Masako Katsuki as Yukari Mimura Kazuya Ichijou as Ryoichi Aonogi Ai Satou as Yoshiko Hanasaki Isshin Chiba as Detective 1 Katsuyuki Konishi as Detective 2",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Masaaki Tsukada as Ryozo Aonogi", "Aruno Tahara as Morio Yakura", "Masako Katsuki as Yukari Mimura", "Kazuya Ichijou as Ryoichi Aonogi", "Ai Satou as Yoshiko Hanasaki", "Isshin Chiba as Detective 1", "Katsuyuki Konishi as Detective 2"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Falling from Mt. Ryujin Case",
         nextCase: "Mushrooms, Bears, and the Detective Boys »",
-
 
 
 
@@ -13950,6 +14372,9 @@ const allData = [
     {
         id: "212", isFiller: false, title: "212: Mushrooms, Bears, and the Detective Boys (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "きのこと熊と探偵団. (Kinoko to Kuma to Tantei-dan)",
         titleInOtherLanguages: [
@@ -13984,12 +14409,11 @@ const allData = [
 
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Yousuke Akimoto as Kiyoshi Yasaka Yuzuru Fujimoto as Matasaburo Saika Masashi Sugawara as Tomoya Negoro Junichi Sugawara as Ryokan employee",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Yousuke Akimoto as Kiyoshi Yasaka", "Yuzuru Fujimoto as Matasaburo Saika", "Masashi Sugawara as Tomoya Negoro", "Junichi Sugawara as Ryokan employee"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Water Palace of Five Colors Legend",
         nextCase: "The Mysterious Retro Room Case »",
-
 
 
 
@@ -14021,6 +14445,9 @@ const allData = [
     {
         id: "213", isFiller: false, title: "213: Mushrooms, Bears, and the Detective Boys (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "きのこと熊と探偵団. (Kinoko to Kuma to Tantei-dan)",
         titleInOtherLanguages: [
@@ -14055,12 +14482,11 @@ const allData = [
 
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Yousuke Akimoto as Kiyoshi Yasaka Yuzuru Fujimoto as Matasaburo Saika Masashi Sugawara as Tomoya Negoro Junichi Sugawara as Ryokan employee",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Yousuke Akimoto as Kiyoshi Yasaka", "Yuzuru Fujimoto as Matasaburo Saika", "Masashi Sugawara as Tomoya Negoro", "Junichi Sugawara as Ryokan employee"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Water Palace of Five Colors Legend",
         nextCase: "The Mysterious Retro Room Case »",
-
 
 
 
@@ -14091,6 +14517,9 @@ const allData = [
     {
         id: "214", isFiller: true, title: "214: The Mysterious Retro Room Case",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Kazunobu Chiba", "Wataru Takagi", "Officer Tome", "Female forensics member"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "レトロルームの謎事件. (Retoro Rūmu no Nazo Jiken)",
         titleInOtherLanguages: [
@@ -14124,12 +14553,11 @@ const allData = [
         screenplay: "Takeshi Mochizuki",
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Kazunobu Chiba Toshihiko Nakajima as Officer Tome Hiromi Tsuru as Kuniko Yamamoto Urara Takano as Kaori Obayashi Michiyo Yanagisawa as Kanami Kaneda Yuu Sugimoto as Cleaning clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Isshin Chiba as Kazunobu Chiba", "Toshihiko Nakajima as Officer Tome", "Hiromi Tsuru as Kuniko Yamamoto", "Urara Takano as Kaori Obayashi", "Michiyo Yanagisawa as Kanami Kaneda", "Yuu Sugimoto as Cleaning clerk"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« Mushrooms, Bears, and the Detective Boys",
         nextCase: "The Bay of Revenge »",
-
 
 
 
@@ -14159,6 +14587,9 @@ const allData = [
     {
         id: "215", isFiller: true, title: "215: The Bay of Revenge (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "ベイ・オブ・ザ・リベンジ. (Bei obu za Ribenji)",
         titleInOtherLanguages: [
@@ -14193,12 +14624,11 @@ const allData = [
         screenplay: "Toyoto Kogiso",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Yuji Fujishiro as Kensuke Tachibana Seiko Fujiki as Yuki Tachibana Jin Horikawa as Yuuichi Sakuraba Jin Hirao as Fumio Fujisawa Naoko Kouda as Noriko Sugimura Yoshiko Matsuo as Yaeko Kamei Takashi Taguchi as Hiroshi Inuyama Jurota Kosugi as Detective Inoki Toku Nishio as Detective Baba Isshin Chiba as Policeman A, Young man Yoshiko Okamoto as Old woman Yuki Hamano as Housewife",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Yuji Fujishiro as Kensuke Tachibana", "Seiko Fujiki as Yuki Tachibana", "Jin Horikawa as Yuuichi Sakuraba", "Jin Hirao as Fumio Fujisawa", "Naoko Kouda as Noriko Sugimura", "Yoshiko Matsuo as Yaeko Kamei", "Takashi Taguchi as Hiroshi Inuyama", "Jurota Kosugi as Detective Inoki", "Toku Nishio as Detective Baba", "Isshin Chiba as Policeman A, Young man", "Yoshiko Okamoto as Old woman", "Yuki Hamano as Housewife"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Mysterious Retro Room Case",
         nextCase: "Megure's Sealed Secret »",
-
 
 
 
@@ -14227,6 +14657,9 @@ const allData = [
     {
         id: "216", isFiller: true, title: "216: The Bay of Revenge (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "ベイ・オブ・ザ・リベンジ. (Bei obu za Ribenji)",
         titleInOtherLanguages: [
@@ -14261,12 +14694,11 @@ const allData = [
         screenplay: "Toyoto Kogiso",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Yuji Fujishiro as Kensuke Tachibana Seiko Fujiki as Yuki Tachibana Jin Horikawa as Yuuichi Sakuraba Jin Hirao as Fumio Fujisawa Naoko Kouda as Noriko Sugimura Yoshiko Matsuo as Yaeko Kamei Takashi Taguchi as Hiroshi Inuyama Jurota Kosugi as Detective Inoki Toku Nishio as Detective Baba Isshin Chiba as Policeman A, Young man Yoshiko Okamoto as Old woman Yuki Hamano as Housewife",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Yuji Fujishiro as Kensuke Tachibana", "Seiko Fujiki as Yuki Tachibana", "Jin Horikawa as Yuuichi Sakuraba", "Jin Hirao as Fumio Fujisawa", "Naoko Kouda as Noriko Sugimura", "Yoshiko Matsuo as Yaeko Kamei", "Takashi Taguchi as Hiroshi Inuyama", "Jurota Kosugi as Detective Inoki", "Toku Nishio as Detective Baba", "Isshin Chiba as Policeman A, Young man", "Yoshiko Okamoto as Old woman", "Yuki Hamano as Housewife"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Mysterious Retro Room Case",
         nextCase: "Megure's Sealed Secret »",
-
 
 
 
@@ -14293,6 +14725,9 @@ const allData = [
     {
         id: "217", isFiller: false, title: "217: Megure's Sealed Secret (Part 1)",
         appearances: ["Conan Edogawa", "Juzo Megure", "Sonoko Suzuki", "Ran Mouri", "Wataru Takagi", "Miwako Sato", "Kiyonaga Matsumoto", "Kogoro Mouri", "Midori Megure", "Makoto Kyogoku", "Shinichi Kudo", "Kazunobu Chiba", "Detective Kojima", "Police detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "封印された目暮の秘密. (Fuuin-sareta Megure no Himitsu)",
         titleInOtherLanguages: [
@@ -14328,12 +14763,11 @@ const allData = [
 
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Seizo Kato as Kiyonaga Matsumoto Atsuko Yuya as Miwako Sato Yoko Asada as Michiko Ishiguro Kunihiko Yasui as Noriyuki Shirakawa Kotono Mitsuishi as Yuri Konno Masato Sako as Yoshio Sadakane Hajime Koseki as Haruyoshi Shirakawa Ai Orikasa as Midori Megure Isshin Chiba as Policeman A Takayuki Inoue as Policeman B Nao Takamori as Broadcasting facilities",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Seizo Kato as Kiyonaga Matsumoto", "Atsuko Yuya as Miwako Sato", "Yoko Asada as Michiko Ishiguro", "Kunihiko Yasui as Noriyuki Shirakawa", "Kotono Mitsuishi as Yuri Konno", "Masato Sako as Yoshio Sadakane", "Hajime Koseki as Haruyoshi Shirakawa", "Ai Orikasa as Midori Megure", "Isshin Chiba as Policeman A", "Takayuki Inoue as Policeman B", "Nao Takamori as Broadcasting facilities"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Bay of Revenge",
         nextCase: "The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid »",
-
 
 
 
@@ -14361,6 +14795,9 @@ const allData = [
     {
         id: "218", isFiller: false, title: "218: Megure's Sealed Secret (Part 2)",
         appearances: ["Conan Edogawa", "Juzo Megure", "Sonoko Suzuki", "Ran Mouri", "Wataru Takagi", "Miwako Sato", "Kiyonaga Matsumoto", "Kogoro Mouri", "Midori Megure", "Makoto Kyogoku", "Shinichi Kudo", "Kazunobu Chiba", "Detective Kojima", "Police detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "封印された目暮の秘密. (Fuuin-sareta Megure no Himitsu)",
         titleInOtherLanguages: [
@@ -14396,12 +14833,11 @@ const allData = [
 
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Seizo Kato as Kiyonaga Matsumoto Atsuko Yuya as Miwako Sato Yoko Asada as Michiko Ishiguro Kunihiko Yasui as Noriyuki Shirakawa Kotono Mitsuishi as Yuri Konno Masato Sako as Yoshio Sadakane Hajime Koseki as Haruyoshi Shirakawa Ai Orikasa as Midori Megure Isshin Chiba as Policeman A Takayuki Inoue as Policeman B Nao Takamori as Broadcasting facilities",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Seizo Kato as Kiyonaga Matsumoto", "Atsuko Yuya as Miwako Sato", "Yoko Asada as Michiko Ishiguro", "Kunihiko Yasui as Noriyuki Shirakawa", "Kotono Mitsuishi as Yuri Konno", "Masato Sako as Yoshio Sadakane", "Hajime Koseki as Haruyoshi Shirakawa", "Ai Orikasa as Midori Megure", "Isshin Chiba as Policeman A", "Takayuki Inoue as Policeman B", "Nao Takamori as Broadcasting facilities"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Natsu no Maboroshi",
         prevCase: "« The Bay of Revenge",
         nextCase: "The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid »",
-
 
 
 
@@ -14433,6 +14869,9 @@ const allData = [
     {
         id: "219", isFiller: false, title: "219: The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid (2 Hour Special)",
         appearances: ["Conan Edogawa", "Shinichi Kudo", "Kaito Kuroba", "Kaitou Kid", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Aoko Nakamori", "Ginzo Nakamori", "Juzo Megure", "Akako Koizumi", "Konosuke Jii", "Toichi Kuroba", "Keiko Momoi", "Saguru Hakuba", "Renya Karasuma", "Akako's assistant"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "集められた名探偵!工藤新一VS怪盗キッド. (Atsumerareta Meitantei! Kudō Shin'ichi VS Kaitō Kiddo)",
         titleInOtherLanguages: [
@@ -14468,12 +14907,11 @@ const allData = [
 
         storyboard: "Yasuichiro Yamamoto. Masato Sato",
         characterDesign: "Masatomo Sudo. Mari Tominaga. Hiroyuki Horiuchi (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Aoko Nakamori Kappei Yamaguchi as Shinichi Kudo, Kaito Kuroba, Kaitou Kid, Next Conan's Hint Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki Kenyuu Horiuchi as Harufumi Mogi Masako Nozawa as Furuyo Senma Emi Shinohara as Ikumi Soda Takaya Hashi as Shukuzen Ogami Akira Ishida as Saguru Hakuba Akiko Hiramatsu as Aki Ishihara Tamio Oki as Masked man Megumi Hayashibara as Akako Koizumi Yukiko Iwai as Keiko Momoi Unsho Ishizuka as Ginzo Nakamori Shin Aomori as Futoshi Takarada Katsumi Suzuki as Sujio Hosokawa Takehiro Murozono as Yoichi Sensui Katsuyuki Konishi as Officer Nakamura Daiki Nakamura as Detective Konno Junichi Sugawara as Detective B Jin Yamanoi as Detective C Hiromichi Kogami as Detective D Takashi Nagasako as Officer Kawata Kaneta Kimotsuki as Konosuke Jii",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Aoko Nakamori", "Kappei Yamaguchi as Shinichi Kudo, Kaito Kuroba, Kaitou Kid, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Naoko Matsui as Sonoko Suzuki", "Kenyuu Horiuchi as Harufumi Mogi", "Masako Nozawa as Furuyo Senma", "Emi Shinohara as Ikumi Soda", "Takaya Hashi as Shukuzen Ogami", "Akira Ishida as Saguru Hakuba", "Akiko Hiramatsu as Aki Ishihara", "Tamio Oki as Masked man", "Megumi Hayashibara as Akako Koizumi", "Yukiko Iwai as Keiko Momoi", "Unsho Ishizuka as Ginzo Nakamori", "Shin Aomori as Futoshi Takarada", "Katsumi Suzuki as Sujio Hosokawa", "Takehiro Murozono as Yoichi Sensui", "Katsuyuki Konishi as Officer Nakamura", "Daiki Nakamura as Detective Konno", "Junichi Sugawara as Detective B", "Jin Yamanoi as Detective C", "Hiromichi Kogami as Detective D", "Takashi Nagasako as Officer Kawata", "Kaneta Kimotsuki as Konosuke Jii"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« Megure's Sealed Secret",
         nextCase: "The Client Full of Lies »",
-
 
 
 
@@ -14549,6 +14987,9 @@ const allData = [
     {
         id: "220", isFiller: false, title: "220: The Client Full of Lies (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Shizuka Ikenami", "Eri Kisaki", "Azusa Enomoto", "Shinichi Kudo", "Gin", "Vodka", "Sango Yokomizo", "Heiji Hattori", "Kazuha Toyama", "Policeman", "Policeman", "Michiko Kurogane"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "偽りだらけの依頼人. (Itsuwari Darake no Irainin)",
         titleInOtherLanguages: [
@@ -14584,12 +15025,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Mikiko Enomoto as Azusa Enomoto Masako Katsuki as Shizuka Ikenami Ryo Horikawa as Heiji Hattori Yoko Matsuoka as Kyoko Shibata Takao Ohyama as Takezo Yoshikawa Isshin Chiba as Detective Takashi Nagasako as Forensics officer A Junichi Sugawara as Forensics officer B Kazuyuki Ishikawa as Medical examiner",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Mikiko Enomoto as Azusa Enomoto", "Masako Katsuki as Shizuka Ikenami", "Ryo Horikawa as Heiji Hattori", "Yoko Matsuoka as Kyoko Shibata", "Takao Ohyama as Takezo Yoshikawa", "Isshin Chiba as Detective", "Takashi Nagasako as Forensics officer A", "Junichi Sugawara as Forensics officer B", "Kazuyuki Ishikawa as Medical examiner"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid",
         nextCase: "And Then There Were No Mermaids »",
-
 
 
 
@@ -14617,6 +15057,9 @@ const allData = [
     {
         id: "221", isFiller: false, title: "221: The Client Full of Lies (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Shizuka Ikenami", "Eri Kisaki", "Azusa Enomoto", "Shinichi Kudo", "Gin", "Vodka", "Sango Yokomizo", "Heiji Hattori", "Kazuha Toyama", "Policeman", "Policeman", "Michiko Kurogane"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "偽りだらけの依頼人. (Itsuwari Darake no Irainin)",
         titleInOtherLanguages: [
@@ -14652,12 +15095,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo Mikiko Enomoto as Azusa Enomoto Masako Katsuki as Shizuka Ikenami Ryo Horikawa as Heiji Hattori Yoko Matsuoka as Kyoko Shibata Takao Ohyama as Takezo Yoshikawa Isshin Chiba as Detective Takashi Nagasako as Forensics officer A Junichi Sugawara as Forensics officer B Kazuyuki Ishikawa as Medical examiner",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo", "Mikiko Enomoto as Azusa Enomoto", "Masako Katsuki as Shizuka Ikenami", "Ryo Horikawa as Heiji Hattori", "Yoko Matsuoka as Kyoko Shibata", "Takao Ohyama as Takezo Yoshikawa", "Isshin Chiba as Detective", "Takashi Nagasako as Forensics officer A", "Junichi Sugawara as Forensics officer B", "Kazuyuki Ishikawa as Medical examiner"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Gathering of the Detectives! Shinichi Kudo vs. Kaitou Kid",
         nextCase: "And Then There Were No Mermaids »",
-
 
 
 
@@ -14689,6 +15131,9 @@ const allData = [
     {
         id: "222", isFiller: false, title: "222: And Then There Were No Mermaids (The Case)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Kazuha Toyama", "Shinichi Kudo", "Ai Haibara", "Yukiko Katsuragi", "Takayoshi Tsujimura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "そして人魚はいなくなった. (Soshite Ningyo wa Inakunatta)",
         titleInOtherLanguages: [
@@ -14724,12 +15169,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1, Part 3) Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2) Michiru Wada as Saori Kadowaki Yayoi Kazuki as Naoko Kuroe Miki Takahashi as Kimie Shimabukuro Takako Fuji as Toshimi Ebihara Nobutoshi Canna as Rokuro Fukuyama Yousuke Akimoto as Benzo Kadowaki Chie Kitagawa as Mikoto Shimabukuro Isshin Chiba as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Hiroshi Naka as Deputy mayor Keiko Sonoda as Staff Yoshiko Okamoto as Shopkeeper, Woman Junichi Sugawara as Old man, Man B Kenji Hamada as Tourist, Man E Takashi Nagasako as Man A Kazuyuki Ishikawa as Man A Jin Hirao as Man C Toshiaki Doi as Man D Kagomi Iwai as Woman Ryuji Nakagi as Inspector",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1, Part 3)", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint", "Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2)", "Michiru Wada as Saori Kadowaki", "Yayoi Kazuki as Naoko Kuroe", "Miki Takahashi as Kimie Shimabukuro", "Takako Fuji as Toshimi Ebihara", "Nobutoshi Canna as Rokuro Fukuyama", "Yousuke Akimoto as Benzo Kadowaki", "Chie Kitagawa as Mikoto Shimabukuro", "Isshin Chiba as Takayoshi Tsujimura", "Hirono Matsubara as Yukiko Katsuragi", "Hiroshi Naka as Deputy mayor", "Keiko Sonoda as Staff", "Yoshiko Okamoto as Shopkeeper, Woman", "Junichi Sugawara as Old man, Man B", "Kenji Hamada as Tourist, Man E", "Takashi Nagasako as Man A", "Kazuyuki Ishikawa as Man A", "Jin Hirao as Man C", "Toshiaki Doi as Man D", "Kagomi Iwai as Woman", "Ryuji Nakagi as Inspector"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Client Full of Lies",
         nextCase: "The Secret of the High Sales »",
-
 
 
 
@@ -14753,6 +15197,9 @@ const allData = [
     {
         id: "223", isFiller: false, title: "223: And Then There Were No Mermaids (The Deduction)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Kazuha Toyama", "Shinichi Kudo", "Ai Haibara", "Yukiko Katsuragi", "Takayoshi Tsujimura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "そして人魚はいなくなった. (Soshite Ningyo wa Inakunatta)",
         titleInOtherLanguages: [
@@ -14788,12 +15235,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1, Part 3) Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2) Michiru Wada as Saori Kadowaki Yayoi Kazuki as Naoko Kuroe Miki Takahashi as Kimie Shimabukuro Takako Fuji as Toshimi Ebihara Nobutoshi Canna as Rokuro Fukuyama Yousuke Akimoto as Benzo Kadowaki Chie Kitagawa as Mikoto Shimabukuro Isshin Chiba as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Hiroshi Naka as Deputy mayor Keiko Sonoda as Staff Yoshiko Okamoto as Shopkeeper, Woman Junichi Sugawara as Old man, Man B Kenji Hamada as Tourist, Man E Takashi Nagasako as Man A Kazuyuki Ishikawa as Man A Jin Hirao as Man C Toshiaki Doi as Man D Kagomi Iwai as Woman Ryuji Nakagi as Inspector",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1, Part 3)", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint", "Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2)", "Michiru Wada as Saori Kadowaki", "Yayoi Kazuki as Naoko Kuroe", "Miki Takahashi as Kimie Shimabukuro", "Takako Fuji as Toshimi Ebihara", "Nobutoshi Canna as Rokuro Fukuyama", "Yousuke Akimoto as Benzo Kadowaki", "Chie Kitagawa as Mikoto Shimabukuro", "Isshin Chiba as Takayoshi Tsujimura", "Hirono Matsubara as Yukiko Katsuragi", "Hiroshi Naka as Deputy mayor", "Keiko Sonoda as Staff", "Yoshiko Okamoto as Shopkeeper, Woman", "Junichi Sugawara as Old man, Man B", "Kenji Hamada as Tourist, Man E", "Takashi Nagasako as Man A", "Kazuyuki Ishikawa as Man A", "Jin Hirao as Man C", "Toshiaki Doi as Man D", "Kagomi Iwai as Woman", "Ryuji Nakagi as Inspector"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Client Full of Lies",
         nextCase: "The Secret of the High Sales »",
-
 
 
 
@@ -14823,6 +15269,9 @@ const allData = [
     {
         id: "224", isFiller: false, title: "224: And Then There Were No Mermaids (The Resolution)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Heiji Hattori", "Kazuha Toyama", "Shinichi Kudo", "Ai Haibara", "Yukiko Katsuragi", "Takayoshi Tsujimura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "そして人魚はいなくなった. (Soshite Ningyo wa Inakunatta)",
         titleInOtherLanguages: [
@@ -14858,12 +15307,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1, Part 3) Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2) Michiru Wada as Saori Kadowaki Yayoi Kazuki as Naoko Kuroe Miki Takahashi as Kimie Shimabukuro Takako Fuji as Toshimi Ebihara Nobutoshi Canna as Rokuro Fukuyama Yousuke Akimoto as Benzo Kadowaki Chie Kitagawa as Mikoto Shimabukuro Isshin Chiba as Takayoshi Tsujimura Hirono Matsubara as Yukiko Katsuragi Hiroshi Naka as Deputy mayor Keiko Sonoda as Staff Yoshiko Okamoto as Shopkeeper, Woman Junichi Sugawara as Old man, Man B Kenji Hamada as Tourist, Man E Takashi Nagasako as Man A Kazuyuki Ishikawa as Man A Jin Hirao as Man C Toshiaki Doi as Man D Kagomi Iwai as Woman Ryuji Nakagi as Inspector",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1, Part 3)", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint", "Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2)", "Michiru Wada as Saori Kadowaki", "Yayoi Kazuki as Naoko Kuroe", "Miki Takahashi as Kimie Shimabukuro", "Takako Fuji as Toshimi Ebihara", "Nobutoshi Canna as Rokuro Fukuyama", "Yousuke Akimoto as Benzo Kadowaki", "Chie Kitagawa as Mikoto Shimabukuro", "Isshin Chiba as Takayoshi Tsujimura", "Hirono Matsubara as Yukiko Katsuragi", "Hiroshi Naka as Deputy mayor", "Keiko Sonoda as Staff", "Yoshiko Okamoto as Shopkeeper, Woman", "Junichi Sugawara as Old man, Man B", "Kenji Hamada as Tourist, Man E", "Takashi Nagasako as Man A", "Kazuyuki Ishikawa as Man A", "Jin Hirao as Man C", "Toshiaki Doi as Man D", "Kagomi Iwai as Woman", "Ryuji Nakagi as Inspector"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Client Full of Lies",
         nextCase: "The Secret of the High Sales »",
-
 
 
 
@@ -14891,6 +15339,9 @@ const allData = [
     {
         id: "225", isFiller: true, title: "225: The Secret of the High Sales",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "商売繁盛のヒミツ. (Shōbai Hanjō no Himitsu)",
         titleInOtherLanguages: [
@@ -14926,12 +15377,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Motoko Kumai as Rintaro Koizumi Minoru Inaba as Kotaro Koizumi Chieko Aioi as Sadako Koizumi Masako Isobe as Masako Koizumi Hiroaki Hirata as Yuji Kamekura Masaharu Satou as Store manager",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Motoko Kumai as Rintaro Koizumi", "Minoru Inaba as Kotaro Koizumi", "Chieko Aioi as Sadako Koizumi", "Masako Isobe as Masako Koizumi", "Hiroaki Hirata as Yuji Kamekura", "Masaharu Satou as Store manager"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« And Then There Were No Mermaids",
         nextCase: "The Battle Game Trap »",
-
 
 
 
@@ -14962,6 +15412,9 @@ const allData = [
     {
         id: "226", isFiller: false, title: "226: The Battle Game Trap (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Jodie Saintemillion", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Makoto Kyogoku", "Tomoaki Araide"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "バトルゲームの罠. (Batoru Gēmu no Wana)",
         titleInOtherLanguages: [
@@ -14995,12 +15448,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Miyuki Ichijou as Jodie Saintemillion Hisao Egawa as Kengo Bito Naoya Uchida as Takayasu Shimizu Kousuke Okano as Hitoshi Dejima Takao Ohyama as Toshitsugu Emori Isshin Chiba as Man A Naoki Makishima as Man B Takayuki Inoue as Man C Junichi Sugawara as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Miyuki Ichijou as Jodie Saintemillion", "Hisao Egawa as Kengo Bito", "Naoya Uchida as Takayasu Shimizu", "Kousuke Okano as Hitoshi Dejima", "Takao Ohyama as Toshitsugu Emori", "Isshin Chiba as Man A", "Naoki Makishima as Man B", "Takayuki Inoue as Man C", "Junichi Sugawara as Policeman"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Secret of the High Sales",
         nextCase: "The Murderous Pottery Class »",
-
 
 
 
@@ -15029,6 +15481,9 @@ const allData = [
     {
         id: "227", isFiller: false, title: "227: The Battle Game Trap (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Jodie Saintemillion", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Makoto Kyogoku", "Tomoaki Araide"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "バトルゲームの罠. (Batoru Gēmu no Wana)",
         titleInOtherLanguages: [
@@ -15062,12 +15517,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Miyuki Ichijou as Jodie Saintemillion Hisao Egawa as Kengo Bito Naoya Uchida as Takayasu Shimizu Kousuke Okano as Hitoshi Dejima Takao Ohyama as Toshitsugu Emori Isshin Chiba as Man A Naoki Makishima as Man B Takayuki Inoue as Man C Junichi Sugawara as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Miyuki Ichijou as Jodie Saintemillion", "Hisao Egawa as Kengo Bito", "Naoya Uchida as Takayasu Shimizu", "Kousuke Okano as Hitoshi Dejima", "Takao Ohyama as Toshitsugu Emori", "Isshin Chiba as Man A", "Naoki Makishima as Man B", "Takayuki Inoue as Man C", "Junichi Sugawara as Policeman"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Secret of the High Sales",
         nextCase: "The Murderous Pottery Class »",
-
 
 
 
@@ -15098,6 +15552,9 @@ const allData = [
     {
         id: "228", isFiller: false, title: "228: The Murderous Pottery Class (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Makoto Kyogoku", "Kikuemon", "Shinichi Kudo", "Kogoro Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "殺意の陶芸教室. (Satsui no Tōgei Kyōshitsu)",
         titleInOtherLanguages: [
@@ -15130,12 +15587,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Takeshi Aono as Muneyuki Mino Ayako Kurosaki as Muneyuki's daughter Mitsuaki Hoshino as Motoo Mino Rei Sakuma as Kikuyo Kasama Asako Dodo as Widow Jin Yamanoi as Medical examiner Isshin Chiba as Forensics officer Junichi Sugawara as Policeman Keiko Sonoda as Housewife A Yuko Tachibana as Housewife B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Takeshi Aono as Muneyuki Mino", "Ayako Kurosaki as Muneyuki's daughter", "Mitsuaki Hoshino as Motoo Mino", "Rei Sakuma as Kikuyo Kasama", "Asako Dodo as Widow", "Jin Yamanoi as Medical examiner", "Isshin Chiba as Forensics officer", "Junichi Sugawara as Policeman", "Keiko Sonoda as Housewife A", "Yuko Tachibana as Housewife B"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Battle Game Trap",
         nextCase: "The Mysterious Passenger »",
-
 
 
 
@@ -15164,6 +15620,9 @@ const allData = [
     {
         id: "229", isFiller: false, title: "229: The Murderous Pottery Class (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Wataru Takagi", "Makoto Kyogoku", "Kikuemon", "Shinichi Kudo", "Kogoro Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "殺意の陶芸教室. (Satsui no Tōgei Kyōshitsu)",
         titleInOtherLanguages: [
@@ -15196,12 +15655,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Takeshi Aono as Muneyuki Mino Ayako Kurosaki as Muneyuki's daughter Mitsuaki Hoshino as Motoo Mino Rei Sakuma as Kikuyo Kasama Asako Dodo as Widow Jin Yamanoi as Medical examiner Isshin Chiba as Forensics officer Junichi Sugawara as Policeman Keiko Sonoda as Housewife A Yuko Tachibana as Housewife B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Takeshi Aono as Muneyuki Mino", "Ayako Kurosaki as Muneyuki's daughter", "Mitsuaki Hoshino as Motoo Mino", "Rei Sakuma as Kikuyo Kasama", "Asako Dodo as Widow", "Jin Yamanoi as Medical examiner", "Isshin Chiba as Forensics officer", "Junichi Sugawara as Policeman", "Keiko Sonoda as Housewife A", "Yuko Tachibana as Housewife B"],
         openingSong: "Koi wa Thrill, Shock, Suspense",
         endingSong: "Start in my life",
         prevCase: "« The Battle Game Trap",
         nextCase: "The Mysterious Passenger »",
-
 
 
 
@@ -15232,6 +15690,9 @@ const allData = [
     {
         id: "230", isFiller: false, title: "230: The Mysterious Passenger (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara", "Hiroshi Agasa", "Tomoaki Araide", "Jodie Starling", "Shuichi Akai", "Miwako Sato", "Juzo Megure", "Kazunobu Chiba", "Ninzaburo Shiratori", "Wataru Takagi", "Detective Kobayashi", "Detective Kojima", "Police detective", "Akemi Miyano", "Gin", "Vodka", "Vermouth", "Pisco"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "謎めいた乗客. (Nazomeita Jōkyaku)",
         titleInOtherLanguages: [
@@ -15268,12 +15729,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kazuhiko Inoue as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba, Boy Hideyuki Hori as Tomoaki Araide Miyuki Ichijou as Jodie Starling Katsumi Chou as Kunio Yashima Shuichi Ikeda as Shuichi Akai Junichi Sugawara as Yasuhiko Machida Sayuri Sadaoka as Miharu Tomino Kazuhiro Nakata as Criminal A Masuo Amada as Criminal B Hiroshi Takemura as Kobayashi Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Mami Koyama as Vermouth",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kazuhiko Inoue as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba, Boy", "Hideyuki Hori as Tomoaki Araide", "Miyuki Ichijou as Jodie Starling", "Katsumi Chou as Kunio Yashima", "Shuichi Ikeda as Shuichi Akai", "Junichi Sugawara as Yasuhiko Machida", "Sayuri Sadaoka as Miharu Tomino", "Kazuhiro Nakata as Criminal A", "Masuo Amada as Criminal B", "Hiroshi Takemura as Kobayashi", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Mami Koyama as Vermouth"],
         openingSong: "Koi wa Thrill, Shock, Suspense destiny",
         endingSong: "Start in my life",
         prevCase: "« The Murderous Pottery Class",
         nextCase: "The Falling from the Condo Case »",
-
 
 
 
@@ -15297,6 +15757,9 @@ const allData = [
     {
         id: "231", isFiller: false, title: "231: The Mysterious Passenger (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara", "Hiroshi Agasa", "Tomoaki Araide", "Jodie Starling", "Shuichi Akai", "Miwako Sato", "Juzo Megure", "Kazunobu Chiba", "Ninzaburo Shiratori", "Wataru Takagi", "Detective Kobayashi", "Detective Kojima", "Police detective", "Akemi Miyano", "Gin", "Vodka", "Vermouth", "Pisco"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "謎めいた乗客. (Nazomeita Jōkyaku)",
         titleInOtherLanguages: [
@@ -15333,12 +15796,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kazuhiko Inoue as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba, Boy Hideyuki Hori as Tomoaki Araide Miyuki Ichijou as Jodie Starling Katsumi Chou as Kunio Yashima Shuichi Ikeda as Shuichi Akai Junichi Sugawara as Yasuhiko Machida Sayuri Sadaoka as Miharu Tomino Kazuhiro Nakata as Criminal A Masuo Amada as Criminal B Hiroshi Takemura as Kobayashi Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Mami Koyama as Vermouth",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kazuhiko Inoue as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba, Boy", "Hideyuki Hori as Tomoaki Araide", "Miyuki Ichijou as Jodie Starling", "Katsumi Chou as Kunio Yashima", "Shuichi Ikeda as Shuichi Akai", "Junichi Sugawara as Yasuhiko Machida", "Sayuri Sadaoka as Miharu Tomino", "Kazuhiro Nakata as Criminal A", "Masuo Amada as Criminal B", "Hiroshi Takemura as Kobayashi", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Mami Koyama as Vermouth"],
         openingSong: "Koi wa Thrill, Shock, Suspense destiny",
         endingSong: "Start in my life",
         prevCase: "« The Murderous Pottery Class",
         nextCase: "The Falling from the Condo Case »",
-
 
 
 
@@ -15367,6 +15829,9 @@ const allData = [
     {
         id: "232", isFiller: true, title: "232: The Falling from the Condo Case",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Juzo Megure", "Kazunobu Chiba", "Wataru Takagi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "マンション転落事件. (Manshon Tenraku Jiken)",
         titleInOtherLanguages: [
@@ -15401,12 +15866,11 @@ const allData = [
         screenplay: "Satoshi Kitagawa",
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Kazunobu Chiba Toshiyuki Morikawa as Joji Ueda Takashi Onozuka as Mitsuo Yoshimura Yasuo Muramatsu as Ryoji Hara Shinichiro Miki as Umemoto Mie Akagi as Waitress",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Isshin Chiba as Kazunobu Chiba", "Toshiyuki Morikawa as Joji Ueda", "Takashi Onozuka as Mitsuo Yoshimura", "Yasuo Muramatsu as Ryoji Hara", "Shinichiro Miki as Umemoto", "Mie Akagi as Waitress"],
         openingSong: "destiny",
         endingSong: "Start in my life",
         prevCase: "« The Mysterious Passenger",
         nextCase: "The Evidence That Didn't Disappear »",
-
 
 
 
@@ -15431,6 +15895,9 @@ const allData = [
     {
         id: "233", isFiller: false, title: "233: The Evidence That Didn't Disappear (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "消えなかった証拠. (Kienakatta Shouko)",
         titleInOtherLanguages: [
@@ -15464,12 +15931,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Keiichi Nanba as Teruya Kanou Yuko Nagashima as Shino Hasuki Iemasa Kayumi as Yoshio Tsunashima Tomoko Shiota as Aki Tosabayashi",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Keiichi Nanba as Teruya Kanou", "Yuko Nagashima as Shino Hasuki", "Iemasa Kayumi as Yoshio Tsunashima", "Tomoko Shiota as Aki Tosabayashi"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Falling from the Condo Case",
         nextCase: "The Locked Wine Cellar »",
-
 
 
 
@@ -15493,6 +15959,9 @@ const allData = [
     {
         id: "234", isFiller: false, title: "234: The Evidence That Didn't Disappear (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "消えなかった証拠. (Kienakatta Shouko)",
         titleInOtherLanguages: [
@@ -15526,12 +15995,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Keiichi Nanba as Teruya Kanou Yuko Nagashima as Shino Hasuki Iemasa Kayumi as Yoshio Tsunashima Tomoko Shiota as Aki Tosabayashi",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Keiichi Nanba as Teruya Kanou", "Yuko Nagashima as Shino Hasuki", "Iemasa Kayumi as Yoshio Tsunashima", "Tomoko Shiota as Aki Tosabayashi"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Falling from the Condo Case",
         nextCase: "The Locked Wine Cellar »",
-
 
 
 
@@ -15558,6 +16026,9 @@ const allData = [
     {
         id: "235", isFiller: true, title: "235: The Locked Wine Cellar",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Officer Tome", "Detective Kojima"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "密室のワインセラー. (Misshitsu no Wain Serā)",
         titleInOtherLanguages: [
@@ -15591,12 +16062,11 @@ const allData = [
         screenplay: "Kenji Saito",
         storyboard: "Yasuichiro Yamamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Kazunobu Chiba Toshihiko Nakajima as Officer Tome Tomomichi Nishimura as Shohei Kusaka Tamae Oonishi as Toshiko Kusaka Nobuaki Fukuda as Takeo Nonaka Atsushi Miyauchi as Jyokichi Tonomura Yukie Itou as Yukari Takano",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Isshin Chiba as Kazunobu Chiba", "Toshihiko Nakajima as Officer Tome", "Tomomichi Nishimura as Shohei Kusaka", "Tamae Oonishi as Toshiko Kusaka", "Nobuaki Fukuda as Takeo Nonaka", "Atsushi Miyauchi as Jyokichi Tonomura", "Yukie Itou as Yukari Takano"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Evidence That Didn't Disappear",
         nextCase: "The Nanki Shirahama Mystery Tour »",
-
 
 
 
@@ -15624,6 +16094,9 @@ const allData = [
     {
         id: "236", isFiller: true, title: "236: The Nanki Shirahama Mystery Tour (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "南紀白浜ミステリーツアー. (Nanki Shirahama Misuterii Tsuā)",
         titleInOtherLanguages: [
@@ -15657,12 +16130,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Harumi Asai as Maki Shinjou Ryotaro Okiayu as Tatsuhiko Yura Konomi Maeda as Madoka Mitsui Yukie Maeda as Kanako Miyahara Tarou Masuoka as Kouta Fuji Masahiko Tanaka as Detective Oura Koji Ishii as Detective Andou Mai Katagiri as Lady Niina Kumagaya as Mother Sachi Matsumoto as Attendant Akemi Adachi as Trainer",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Harumi Asai as Maki Shinjou", "Ryotaro Okiayu as Tatsuhiko Yura", "Konomi Maeda as Madoka Mitsui", "Yukie Maeda as Kanako Miyahara", "Tarou Masuoka as Kouta Fuji", "Masahiko Tanaka as Detective Oura", "Koji Ishii as Detective Andou", "Mai Katagiri as Lady", "Niina Kumagaya as Mother", "Sachi Matsumoto as Attendant", "Akemi Adachi as Trainer"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Locked Wine Cellar",
         nextCase: "The 3 'K's of Osaka Case »",
-
 
 
 
@@ -15690,6 +16162,9 @@ const allData = [
     {
         id: "237", isFiller: true, title: "237: The Nanki Shirahama Mystery Tour (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "南紀白浜ミステリーツアー. (Nanki Shirahama Misuterii Tsuā)",
         titleInOtherLanguages: [
@@ -15723,12 +16198,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Harumi Asai as Maki Shinjou Ryotaro Okiayu as Tatsuhiko Yura Konomi Maeda as Madoka Mitsui Yukie Maeda as Kanako Miyahara Tarou Masuoka as Kouta Fuji Masahiko Tanaka as Detective Oura Koji Ishii as Detective Andou Mai Katagiri as Lady Niina Kumagaya as Mother Sachi Matsumoto as Attendant Akemi Adachi as Trainer",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Harumi Asai as Maki Shinjou", "Ryotaro Okiayu as Tatsuhiko Yura", "Konomi Maeda as Madoka Mitsui", "Yukie Maeda as Kanako Miyahara", "Tarou Masuoka as Kouta Fuji", "Masahiko Tanaka as Detective Oura", "Koji Ishii as Detective Andou", "Mai Katagiri as Lady", "Niina Kumagaya as Mother", "Sachi Matsumoto as Attendant", "Akemi Adachi as Trainer"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Locked Wine Cellar",
         nextCase: "The 3 'K's of Osaka Case »",
-
 
 
 
@@ -15755,6 +16229,9 @@ const allData = [
     {
         id: "238", isFiller: false, title: "238: The 3 'K's of Osaka Case (Part 1)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Kazuha Toyama", "Goro Otaki", "Yoko Okino", "TWO-MIX", "Shinichi Kudo", "Mai Kuraki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "大阪“3つのK”事件. (Ōsaka 'Mittsu no K' Jiken)",
         titleInOtherLanguages: [
@@ -15789,12 +16266,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1) Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2) Norio Wakamoto as Goro Otaki Guy Perryman as Ricardo Barreira Michael Naishtut as Mike Norwood Charles Glover as Ray Curtis Jeff Manning as Ed McCay Osamu Hosokawa as Presenter Isshin Chiba as Forensics officer Naoki Makishima as Customer Katsuyuki Konishi as Staff A Hiroyuki Yokoo as Staff B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1)", "Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2)", "Norio Wakamoto as Goro Otaki", "Guy Perryman as Ricardo Barreira", "Michael Naishtut as Mike Norwood", "Charles Glover as Ray Curtis", "Jeff Manning as Ed McCay", "Osamu Hosokawa as Presenter", "Isshin Chiba as Forensics officer", "Naoki Makishima as Customer", "Katsuyuki Konishi as Staff A", "Hiroyuki Yokoo as Staff B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Nanki Shirahama Mystery Tour",
         nextCase: "The Shinkansen Transport Case »",
-
 
 
 
@@ -15822,6 +16298,9 @@ const allData = [
     {
         id: "239", isFiller: false, title: "239: The 3 'K's of Osaka Case (Part 2)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kogoro Mouri", "Ran Mouri", "Kazuha Toyama", "Goro Otaki", "Yoko Okino", "TWO-MIX", "Shinichi Kudo", "Mai Kuraki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "大阪“3つのK”事件. (Ōsaka 'Mittsu no K' Jiken)",
         titleInOtherLanguages: [
@@ -15856,12 +16335,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1) Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2) Norio Wakamoto as Goro Otaki Guy Perryman as Ricardo Barreira Michael Naishtut as Mike Norwood Charles Glover as Ray Curtis Jeff Manning as Ed McCay Osamu Hosokawa as Presenter Isshin Chiba as Forensics officer Naoki Makishima as Customer Katsuyuki Konishi as Staff A Hiroyuki Yokoo as Staff B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 1)", "Yuko Miyamura as Kazuha Toyama, Next Conan's Hint (Part 2)", "Norio Wakamoto as Goro Otaki", "Guy Perryman as Ricardo Barreira", "Michael Naishtut as Mike Norwood", "Charles Glover as Ray Curtis", "Jeff Manning as Ed McCay", "Osamu Hosokawa as Presenter", "Isshin Chiba as Forensics officer", "Naoki Makishima as Customer", "Katsuyuki Konishi as Staff A", "Hiroyuki Yokoo as Staff B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Nanki Shirahama Mystery Tour",
         nextCase: "The Shinkansen Transport Case »",
-
 
 
 
@@ -15886,6 +16364,9 @@ const allData = [
     {
         id: "240", isFiller: false, title: "240: The Shinkansen Transport Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Wataru Takagi", "Miwako Sato", "Yumi Miyamoto", "Heiji Hattori", "Kazuha Toyama", "Juzo Megure", "Ninzaburo Shiratori", "Sonoko Suzuki", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "新幹線護送事件. (Shinkansen Gosō Jiken)",
         titleInOtherLanguages: [
@@ -15919,12 +16400,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Masashi Hirose as Senzo Ogura Hideaki Tezuka as Tatsuro Iwakuni Ryuichi Horibe as Norio Tokuyama Daiki Nakamura as Akira Akashi Isshin Chiba as Conductor Rie Kanda as Crew A Natsumi Yanase as Crew B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Atsuko Yuya as Miwako Sato", "Yuu Sugimoto as Yumi Miyamoto", "Masashi Hirose as Senzo Ogura", "Hideaki Tezuka as Tatsuro Iwakuni", "Ryuichi Horibe as Norio Tokuyama", "Daiki Nakamura as Akira Akashi", "Isshin Chiba as Conductor", "Rie Kanda as Crew A", "Natsumi Yanase as Crew B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The 3 'K's of Osaka Case",
         nextCase: "Boy Genta's Misfortune »",
-
 
 
 
@@ -15946,6 +16426,9 @@ const allData = [
     {
         id: "241", isFiller: false, title: "241: The Shinkansen Transport Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Wataru Takagi", "Miwako Sato", "Yumi Miyamoto", "Heiji Hattori", "Kazuha Toyama", "Juzo Megure", "Ninzaburo Shiratori", "Sonoko Suzuki", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "新幹線護送事件. (Shinkansen Gosō Jiken)",
         titleInOtherLanguages: [
@@ -15979,12 +16462,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Masashi Hirose as Senzo Ogura Hideaki Tezuka as Tatsuro Iwakuni Ryuichi Horibe as Norio Tokuyama Daiki Nakamura as Akira Akashi Isshin Chiba as Conductor Rie Kanda as Crew A Natsumi Yanase as Crew B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Atsuko Yuya as Miwako Sato", "Yuu Sugimoto as Yumi Miyamoto", "Masashi Hirose as Senzo Ogura", "Hideaki Tezuka as Tatsuro Iwakuni", "Ryuichi Horibe as Norio Tokuyama", "Daiki Nakamura as Akira Akashi", "Isshin Chiba as Conductor", "Rie Kanda as Crew A", "Natsumi Yanase as Crew B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The 3 'K's of Osaka Case",
         nextCase: "Boy Genta's Misfortune »",
-
 
 
 
@@ -16010,6 +16492,9 @@ const allData = [
     {
         id: "242", isFiller: false, title: "242: Boy Genta's Misfortune",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara", "Sumiko Kobayashi", "Miwako Sato", "Wataru Takagi", "Kazunobu Chiba", "Gin", "Mrs. Kojima", "Shiho Miyano", "Detective Kojima", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "元太少年の災難. (Genta Shōnen no Sainan)",
         titleInOtherLanguages: [
@@ -16032,12 +16517,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima Atsuko Yuya as Miwako Sato, Next Conan's Hint Yuko Kato as Sumiko Kobayashi Junichi Sugawara as Shopkeeper Isshin Chiba as Man Erina Yamazaki as Boy Nana Mizuki as Clothing store clerk Taiten Kusunoki as Kamiyo Someda",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima", "Atsuko Yuya as Miwako Sato, Next Conan's Hint", "Yuko Kato as Sumiko Kobayashi", "Junichi Sugawara as Shopkeeper", "Isshin Chiba as Man", "Erina Yamazaki as Boy", "Nana Mizuki as Clothing store clerk", "Taiten Kusunoki as Kamiyo Someda"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Shinkansen Transport Case",
         nextCase: "Kogoro Mouri's Imposter »",
-
 
 
 
@@ -16064,6 +16548,9 @@ const allData = [
     {
         id: "243", isFiller: false, title: "243: Kogoro Mouri's Imposter (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Misao Yamamura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "毛利小五郎のニセ者. (Mōri Kogorō no Nisemono)",
         titleInOtherLanguages: [
@@ -16097,12 +16584,11 @@ const allData = [
 
         storyboard: "Mashu Ito",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Toshio Furukawa as Misao Yamamura Yasuo Muramatsu as Yoshiro Onda Kozo Shioya as Eiji Urakawa Junichi Kagaya as Masao Jinbo Kan Tokumaru as Tatsuo Mori Shinichi Kotani as Voice on phone Isshin Chiba as Forensics officer Naoki Makishima as Employee Fumiko Miyashita as Waitress Saeko Chiba as Girl A Akiko Kobayashi as Girl B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Toshio Furukawa as Misao Yamamura", "Yasuo Muramatsu as Yoshiro Onda", "Kozo Shioya as Eiji Urakawa", "Junichi Kagaya as Masao Jinbo", "Kan Tokumaru as Tatsuo Mori", "Shinichi Kotani as Voice on phone", "Isshin Chiba as Forensics officer", "Naoki Makishima as Employee", "Fumiko Miyashita as Waitress", "Saeko Chiba as Girl A", "Akiko Kobayashi as Girl B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« Boy Genta's Misfortune",
         nextCase: "The Gunshot at the Sunflower Estate »",
-
 
 
 
@@ -16125,6 +16611,9 @@ const allData = [
     {
         id: "244", isFiller: false, title: "244: Kogoro Mouri's Imposter (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Misao Yamamura"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "毛利小五郎のニセ者. (Mōri Kogorō no Nisemono)",
         titleInOtherLanguages: [
@@ -16158,12 +16647,11 @@ const allData = [
 
         storyboard: "Mashu Ito",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Toshio Furukawa as Misao Yamamura Yasuo Muramatsu as Yoshiro Onda Kozo Shioya as Eiji Urakawa Junichi Kagaya as Masao Jinbo Kan Tokumaru as Tatsuo Mori Shinichi Kotani as Voice on phone Isshin Chiba as Forensics officer Naoki Makishima as Employee Fumiko Miyashita as Waitress Saeko Chiba as Girl A Akiko Kobayashi as Girl B",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Toshio Furukawa as Misao Yamamura", "Yasuo Muramatsu as Yoshiro Onda", "Kozo Shioya as Eiji Urakawa", "Junichi Kagaya as Masao Jinbo", "Kan Tokumaru as Tatsuo Mori", "Shinichi Kotani as Voice on phone", "Isshin Chiba as Forensics officer", "Naoki Makishima as Employee", "Fumiko Miyashita as Waitress", "Saeko Chiba as Girl A", "Akiko Kobayashi as Girl B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« Boy Genta's Misfortune",
         nextCase: "The Gunshot at the Sunflower Estate »",
-
 
 
 
@@ -16187,6 +16675,9 @@ const allData = [
     {
         id: "245", isFiller: true, title: "245: The Gunshot at the Sunflower Estate",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Wataru Takagi", "Miwako Sato", "Ninzaburo Shiratori", "Detective Yama", "Juzo Megure", "Policeman", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "ヒマワリ館の銃声. (Himawari-kan no Jūsei)",
         titleInOtherLanguages: [
@@ -16220,12 +16711,11 @@ const allData = [
         screenplay: "Sozo Tonami",
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Akio Otsuka as Sango Yokomizo, Next Conan's Hint Hideaki Matsunaga as Ryuichiro Kanazawa Chikako Hara as Mitsuko Kanazawa Koji Ishii as Makoto Hayashida Hiroyuki Shibamoto as Masaya Amamori Masafumi Kimura as Detective A Isshin Chiba as Detective B Junichi Sugawara as Detective C",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint", "Hideaki Matsunaga as Ryuichiro Kanazawa", "Chikako Hara as Mitsuko Kanazawa", "Koji Ishii as Makoto Hayashida", "Hiroyuki Shibamoto as Masaya Amamori", "Masafumi Kimura as Detective A", "Isshin Chiba as Detective B", "Junichi Sugawara as Detective C"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« Kogoro Mouri's Imposter",
         nextCase: "The Mystery in the Net »",
-
 
 
 
@@ -16253,6 +16743,9 @@ const allData = [
     {
         id: "246", isFiller: false, title: "246: The Mystery in the Net (Part 1)",
         appearances: ["Conan Edogawa", "Sango Yokomizo", "Detective Boys", "Ai Haibara", "Hiroshi Agasa", "Ran Mouri", "Sonoko Suzuki", "Unnamed detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "網にかかった謎. (Ami ni Kakatta Nazo)",
         titleInOtherLanguages: [
@@ -16288,12 +16781,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 1) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Kenichi Ogata as Hiroshi Agasa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Hiroshi Takahashi as Noboru Shimojo Hiroshi Takemura as Yuta Yoshizawa Akio Shindou as Nobutsugu Nezu Takeshi Watabe as Giichi Aramaki Isshin Chiba as Forensics officer, Policeman Hiromichi Kogami as Unnamed detective Masayo Hosono as Girl A Risa Tsubaki as Girl B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 1)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Kenichi Ogata as Hiroshi Agasa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Hiroshi Takahashi as Noboru Shimojo", "Hiroshi Takemura as Yuta Yoshizawa", "Akio Shindou as Nobutsugu Nezu", "Takeshi Watabe as Giichi Aramaki", "Isshin Chiba as Forensics officer, Policeman", "Hiromichi Kogami as Unnamed detective", "Masayo Hosono as Girl A", "Risa Tsubaki as Girl B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Gunshot at the Sunflower Estate",
         nextCase: "The Alibi of the Soothing Forest »",
-
 
 
 
@@ -16316,6 +16808,9 @@ const allData = [
     {
         id: "247", isFiller: false, title: "247: The Mystery in the Net (Part 2)",
         appearances: ["Conan Edogawa", "Sango Yokomizo", "Detective Boys", "Ai Haibara", "Hiroshi Agasa", "Ran Mouri", "Sonoko Suzuki", "Unnamed detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "網にかかった謎. (Ami ni Kakatta Nazo)",
         titleInOtherLanguages: [
@@ -16351,12 +16846,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 1) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Kenichi Ogata as Hiroshi Agasa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Hiroshi Takahashi as Noboru Shimojo Hiroshi Takemura as Yuta Yoshizawa Akio Shindou as Nobutsugu Nezu Takeshi Watabe as Giichi Aramaki Isshin Chiba as Forensics officer, Policeman Hiromichi Kogami as Unnamed detective Masayo Hosono as Girl A Risa Tsubaki as Girl B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 1)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Kenichi Ogata as Hiroshi Agasa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Hiroshi Takahashi as Noboru Shimojo", "Hiroshi Takemura as Yuta Yoshizawa", "Akio Shindou as Nobutsugu Nezu", "Takeshi Watabe as Giichi Aramaki", "Isshin Chiba as Forensics officer, Policeman", "Hiromichi Kogami as Unnamed detective", "Masayo Hosono as Girl A", "Risa Tsubaki as Girl B"],
         openingSong: "destiny",
         endingSong: "always",
         prevCase: "« The Gunshot at the Sunflower Estate",
         nextCase: "The Alibi of the Soothing Forest »",
-
 
 
 
@@ -16383,6 +16877,9 @@ const allData = [
     {
         id: "248", isFiller: true, title: "248: The Alibi of the Soothing Forest",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "癒しの森のアリバイ. (Iyashi no Mori no Aribai)",
         titleInOtherLanguages: [
@@ -16415,12 +16912,11 @@ const allData = [
         screenplay: "Yasue Sasano",
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Takehito Koyasu as Shiro Murakami Kazunari Tanaka as Kinji Tateshiba Yuzuru Fujimoto as Ryuzo Murakami Sayaka Ohara as Aiko Misawa Masaaki Tsukada as Yoji Midorikawa Isshin Chiba as Liquor store clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Takehito Koyasu as Shiro Murakami", "Kazunari Tanaka as Kinji Tateshiba", "Yuzuru Fujimoto as Ryuzo Murakami", "Sayaka Ohara as Aiko Misawa", "Masaaki Tsukada as Yoji Midorikawa", "Isshin Chiba as Liquor store clerk"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Mystery in the Net",
         nextCase: "The Celebrities' Secret »",
-
 
 
 
@@ -16444,6 +16940,9 @@ const allData = [
     {
         id: "249", isFiller: false, title: "249: The Celebrities' Secret (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Juzo Megure", "Wataru Takagi", "Osamu Kenzaki", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "アイドル達の秘密. (Aidoru-tachi no Himitsu)",
         titleInOtherLanguages: [
@@ -16477,12 +16976,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Miki Nagasawa as Yoko Okino Akeno Watanabe as Kaoru Kusano Maaya Sakamoto as Yuki Takeno Yuu Asakawa as Terumi Hoshino Hisao Egawa as Osamu Kenzaki Shigeru Nakahara as Atsushi Makuma Masafumi Kimura as Detective A Isshin Chiba as Detective B Fumiko Miyashita as Female officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Miki Nagasawa as Yoko Okino", "Akeno Watanabe as Kaoru Kusano", "Maaya Sakamoto as Yuki Takeno", "Yuu Asakawa as Terumi Hoshino", "Hisao Egawa as Osamu Kenzaki", "Shigeru Nakahara as Atsushi Makuma", "Masafumi Kimura as Detective A", "Isshin Chiba as Detective B", "Fumiko Miyashita as Female officer"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Alibi of the Soothing Forest",
         nextCase: "The Tragedy at the OK Corral »",
-
 
 
 
@@ -16509,6 +17007,9 @@ const allData = [
     {
         id: "250", isFiller: false, title: "250: The Celebrities' Secret (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Yoko Okino", "Juzo Megure", "Wataru Takagi", "Osamu Kenzaki", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "アイドル達の秘密. (Aidoru-tachi no Himitsu)",
         titleInOtherLanguages: [
@@ -16542,12 +17043,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Miki Nagasawa as Yoko Okino Akeno Watanabe as Kaoru Kusano Maaya Sakamoto as Yuki Takeno Yuu Asakawa as Terumi Hoshino Hisao Egawa as Osamu Kenzaki Shigeru Nakahara as Atsushi Makuma Masafumi Kimura as Detective A Isshin Chiba as Detective B Fumiko Miyashita as Female officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Miki Nagasawa as Yoko Okino", "Akeno Watanabe as Kaoru Kusano", "Maaya Sakamoto as Yuki Takeno", "Yuu Asakawa as Terumi Hoshino", "Hisao Egawa as Osamu Kenzaki", "Shigeru Nakahara as Atsushi Makuma", "Masafumi Kimura as Detective A", "Isshin Chiba as Detective B", "Fumiko Miyashita as Female officer"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Alibi of the Soothing Forest",
         nextCase: "The Tragedy at the OK Corral »",
-
 
 
 
@@ -16573,6 +17073,9 @@ const allData = [
     {
         id: "251", isFiller: true, title: "251: The Tragedy at the OK Corral",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "OK牧場の悲劇. (OK-Bokujō no Higeki)",
         titleInOtherLanguages: [
@@ -16606,12 +17109,11 @@ const allData = [
         screenplay: "Hiro Masaki",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Kenji Utsumi as Tomoyuki Okusu Toshihiko Kojima as Kanenari Mochizuki Masumi Asano as Sanae Takeuchi Masahiko Tanaka as Moto Sugiyama Eiji Maruyama as Doctor Isshin Chiba as Policeman Mitsuru Miyamoto as Hirohito Ninomiya",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Kenji Utsumi as Tomoyuki Okusu", "Toshihiko Kojima as Kanenari Mochizuki", "Masumi Asano as Sanae Takeuchi", "Masahiko Tanaka as Moto Sugiyama", "Eiji Maruyama as Doctor", "Isshin Chiba as Policeman", "Mitsuru Miyamoto as Hirohito Ninomiya"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Celebrities' Secret",
         nextCase: "The Kidnapper in the Picture »",
-
 
 
 
@@ -16636,6 +17138,9 @@ const allData = [
     {
         id: "252", isFiller: false, title: "252: The Kidnapper in the Picture",
         appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "絵の中の誘拐犯. (E no Naka no Yūkaihan)",
         titleInOtherLanguages: [
@@ -16669,12 +17174,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Ichiro Nagai as Kenzo Tsubakuro Sachiko Kojima as Akio Tsubakuro Yousuke Akimoto as Jukichi Sakai Masayo Hosono as Kindergarten teacher Jin Yamanoi as Yuuji Kisaki",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Ichiro Nagai as Kenzo Tsubakuro", "Sachiko Kojima as Akio Tsubakuro", "Yousuke Akimoto as Jukichi Sakai", "Masayo Hosono as Kindergarten teacher", "Jin Yamanoi as Yuuji Kisaki"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Tragedy at the OK Corral",
         nextCase: "Metropolitan Police Detective Love Story 4 »",
-
 
 
 
@@ -16701,6 +17205,9 @@ const allData = [
     {
         id: "253", isFiller: false, title: "253: Metropolitan Police Detective Love Story 4 (Part 1)",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Yumi Miyamoto", "Kazunobu Chiba", "Ninzaburo Shiratori", "Ran Mouri", "Sonoko Suzuki", "Tomoaki Araide", "Shuichi Akai", "Shinichi Kudo", "Mrs. Sato", "Isokichi Kamoi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "本庁の刑事恋物語4(フォー). (Honchō no Keiji Koi-monogatari Fō)",
         titleInOtherLanguages: [
@@ -16733,12 +17240,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba Kazuhiko Inoue as Ninzaburo Shiratori Yuu Sugimoto as Yumi Miyamoto Hideyuki Hori as Tomoaki Araide Chikako Akimoto as Mrs. Sato Katsumi Chou as Isokichi Kamoi Ryuuzo Hasuike as Hiroshi Zama Kei Hayami as Eiko Koshimizu Yasuhiko Kawazu as Yasuo Kamieda Masafumi Kimura as Mamehara Junichi Sugawara as Old man Fumiko Miyashita as Waitress Ritsuko Kasai as High school girl",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba", "Kazuhiko Inoue as Ninzaburo Shiratori", "Yuu Sugimoto as Yumi Miyamoto", "Hideyuki Hori as Tomoaki Araide", "Chikako Akimoto as Mrs. Sato", "Katsumi Chou as Isokichi Kamoi", "Ryuuzo Hasuike as Hiroshi Zama", "Kei Hayami as Eiko Koshimizu", "Yasuhiko Kawazu as Yasuo Kamieda", "Masafumi Kimura as Mamehara", "Junichi Sugawara as Old man", "Fumiko Miyashita as Waitress", "Ritsuko Kasai as High school girl"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Kidnapper in the Picture",
         nextCase: "The 14th Round of the Matsue Tamatsukuri Linked Verse Contest »",
-
 
 
 
@@ -16764,6 +17270,9 @@ const allData = [
     {
         id: "254", isFiller: false, title: "254: Metropolitan Police Detective Love Story 4 (Part 2)",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Yumi Miyamoto", "Kazunobu Chiba", "Ninzaburo Shiratori", "Ran Mouri", "Sonoko Suzuki", "Tomoaki Araide", "Shuichi Akai", "Shinichi Kudo", "Mrs. Sato", "Isokichi Kamoi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "本庁の刑事恋物語4(フォー). (Honchō no Keiji Koi-monogatari Fō)",
         titleInOtherLanguages: [
@@ -16796,12 +17305,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba Kazuhiko Inoue as Ninzaburo Shiratori Yuu Sugimoto as Yumi Miyamoto Hideyuki Hori as Tomoaki Araide Chikako Akimoto as Mrs. Sato Katsumi Chou as Isokichi Kamoi Ryuuzo Hasuike as Hiroshi Zama Kei Hayami as Eiko Koshimizu Yasuhiko Kawazu as Yasuo Kamieda Masafumi Kimura as Mamehara Junichi Sugawara as Old man Fumiko Miyashita as Waitress Ritsuko Kasai as High school girl",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba", "Kazuhiko Inoue as Ninzaburo Shiratori", "Yuu Sugimoto as Yumi Miyamoto", "Hideyuki Hori as Tomoaki Araide", "Chikako Akimoto as Mrs. Sato", "Katsumi Chou as Isokichi Kamoi", "Ryuuzo Hasuike as Hiroshi Zama", "Kei Hayami as Eiko Koshimizu", "Yasuhiko Kawazu as Yasuo Kamieda", "Masafumi Kimura as Mamehara", "Junichi Sugawara as Old man", "Fumiko Miyashita as Waitress", "Ritsuko Kasai as High school girl"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Kidnapper in the Picture",
         nextCase: "The 14th Round of the Matsue Tamatsukuri Linked Verse Contest »",
-
 
 
 
@@ -16827,6 +17335,9 @@ const allData = [
     {
         id: "255", isFiller: true, title: "255: The 14th Round of the Matsue Tamatsukuri Linked Verse Contest (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "松江玉造連句14番勝負. (Matsue Tamatsukuri Renku Jūyonban Shōbu)",
         titleInOtherLanguages: [
@@ -16859,12 +17370,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "255 Yasuichiro Yamamoto. 256 Murazou Sugisawa",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Chiharu Suzuka as Reiko Ando Masahiko Tanaka as Takumi Yagisawa Koji Yusa as Ryosuke Shiina Konami Yoshida as Mizuki Kawaguchi Masashi Hirose as Kozo Ushikubo Junichi Sugawara as Hisatoshi Tomonaga Fumiko Miyashita as Receptionist Hidenari Ugaki as Detective Yasugi Kenta Miyake as Detective Tsubaki Isshin Chiba as Detective Hirose",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Chiharu Suzuka as Reiko Ando", "Masahiko Tanaka as Takumi Yagisawa", "Koji Yusa as Ryosuke Shiina", "Konami Yoshida as Mizuki Kawaguchi", "Masashi Hirose as Kozo Ushikubo", "Junichi Sugawara as Hisatoshi Tomonaga", "Fumiko Miyashita as Receptionist", "Hidenari Ugaki as Detective Yasugi", "Kenta Miyake as Detective Tsubaki", "Isshin Chiba as Detective Hirose"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« Metropolitan Police Detective Love Story 4",
         nextCase: "The Mysterious Punishment From Heaven »",
-
 
 
 
@@ -16889,6 +17399,9 @@ const allData = [
     {
         id: "256", isFiller: true, title: "256: The 14th Round of the Matsue Tamatsukuri Linked Verse Contest (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "松江玉造連句14番勝負. (Matsue Tamatsukuri Renku Jūyonban Shōbu)",
         titleInOtherLanguages: [
@@ -16921,12 +17434,11 @@ const allData = [
         screenplay: "Kazunari Kouchi",
         storyboard: "255 Yasuichiro Yamamoto. 256 Murazou Sugisawa",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Chiharu Suzuka as Reiko Ando Masahiko Tanaka as Takumi Yagisawa Koji Yusa as Ryosuke Shiina Konami Yoshida as Mizuki Kawaguchi Masashi Hirose as Kozo Ushikubo Junichi Sugawara as Hisatoshi Tomonaga Fumiko Miyashita as Receptionist Hidenari Ugaki as Detective Yasugi Kenta Miyake as Detective Tsubaki Isshin Chiba as Detective Hirose",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Chiharu Suzuka as Reiko Ando", "Masahiko Tanaka as Takumi Yagisawa", "Koji Yusa as Ryosuke Shiina", "Konami Yoshida as Mizuki Kawaguchi", "Masashi Hirose as Kozo Ushikubo", "Junichi Sugawara as Hisatoshi Tomonaga", "Fumiko Miyashita as Receptionist", "Hidenari Ugaki as Detective Yasugi", "Kenta Miyake as Detective Tsubaki", "Isshin Chiba as Detective Hirose"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« Metropolitan Police Detective Love Story 4",
         nextCase: "The Mysterious Punishment From Heaven »",
-
 
 
 
@@ -16957,6 +17469,9 @@ const allData = [
     {
         id: "257", isFiller: true, title: "257: The Mysterious Punishment From Heaven",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Detective Boys", "Juzo Megure"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "世にも奇妙な天罰. (Yonimo Kimyō na Tenbatsu)",
         titleInOtherLanguages: [
@@ -16989,12 +17504,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Kazuo Nogami",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Taro Arakawa as Rokusuke Urasawa Masaaki Tsukada as Shinto priest Hiroshi Yanaka as Takeo Takenaka Kazue Ikura as Yuki Togawa Kouki Miyata as Officer Otani",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Taro Arakawa as Rokusuke Urasawa", "Masaaki Tsukada as Shinto priest", "Hiroshi Yanaka as Takeo Takenaka", "Kazue Ikura as Yuki Togawa", "Kouki Miyata as Officer Otani"],
         openingSong: "destiny",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The 14th Round of the Matsue Tamatsukuri Linked Verse Contest",
         nextCase: "The Man from Chicago »",
-
 
 
 
@@ -17024,6 +17538,9 @@ const allData = [
     {
         id: "258", isFiller: false, title: "258: The Man from Chicago (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "James Black", "Wataru Takagi", "Miwako Sato", "Yumi Miyamoto", "Shuichi Akai"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "シカゴから来た男. (Shikago Kara Kita Otoko)",
         titleInOtherLanguages: [
@@ -17058,12 +17575,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Iemasa Kayumi as James Black Kan Tokumaru as Fake detective A Hidetoshi Nakamura as Fake detective B Junichi Sugawara as Fake policeman Masafumi Kimura as Detective Isshin Chiba as Policeman A Naoki Makishima as Policeman B Masako Joh as Child Fumiko Miyashita as Reporter Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Atsuko Yuya as Miwako Sato", "Yuu Sugimoto as Yumi Miyamoto", "Iemasa Kayumi as James Black", "Kan Tokumaru as Fake detective A", "Hidetoshi Nakamura as Fake detective B", "Junichi Sugawara as Fake policeman", "Masafumi Kimura as Detective", "Isshin Chiba as Policeman A", "Naoki Makishima as Policeman B", "Masako Joh as Child", "Fumiko Miyashita as Reporter", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "destiny Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Mysterious Punishment From Heaven",
         nextCase: "The Shaking Restaurant »",
-
 
 
 
@@ -17090,6 +17606,9 @@ const allData = [
     {
         id: "259", isFiller: false, title: "259: The Man from Chicago (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "James Black", "Wataru Takagi", "Miwako Sato", "Yumi Miyamoto", "Shuichi Akai"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "シカゴから来た男. (Shikago Kara Kita Otoko)",
         titleInOtherLanguages: [
@@ -17124,12 +17643,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint Atsuko Yuya as Miwako Sato Yuu Sugimoto as Yumi Miyamoto Iemasa Kayumi as James Black Kan Tokumaru as Fake detective A Hidetoshi Nakamura as Fake detective B Junichi Sugawara as Fake policeman Masafumi Kimura as Detective Isshin Chiba as Policeman A Naoki Makishima as Policeman B Masako Joh as Child Fumiko Miyashita as Reporter Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Wataru Takagi, Next Conan's Hint", "Atsuko Yuya as Miwako Sato", "Yuu Sugimoto as Yumi Miyamoto", "Iemasa Kayumi as James Black", "Kan Tokumaru as Fake detective A", "Hidetoshi Nakamura as Fake detective B", "Junichi Sugawara as Fake policeman", "Masafumi Kimura as Detective", "Isshin Chiba as Policeman A", "Naoki Makishima as Policeman B", "Masako Joh as Child", "Fumiko Miyashita as Reporter", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "destiny Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Mysterious Punishment From Heaven",
         nextCase: "The Shaking Restaurant »",
-
 
 
 
@@ -17153,6 +17671,9 @@ const allData = [
     {
         id: "260", isFiller: true, title: "260: The Shaking Restaurant",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "揺れるレストラン. (Yureru Resutoran)",
         titleInOtherLanguages: [
@@ -17186,12 +17707,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "Mashu Ito",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Takaya Hashi as Shigeru Hanaoka Keiko Aizawa as Reiko Hanaoka Takeharu Onishi as Minoru Wada Yutaka Aoyama as Koichi Yamamoto Mamiko Noto as Saki Yoshizawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Takaya Hashi as Shigeru Hanaoka", "Keiko Aizawa as Reiko Hanaoka", "Takeharu Onishi as Minoru Wada", "Yutaka Aoyama as Koichi Yamamoto", "Mamiko Noto as Saki Yoshizawa"],
         openingSong: "Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Man from Chicago",
         nextCase: "The Fearful Legend of the Snowy Night »",
-
 
 
 
@@ -17218,6 +17738,9 @@ const allData = [
     {
         id: "261", isFiller: true, title: "261: The Fearful Legend of the Snowy Night (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "雪の夜の恐怖伝説. (Yuki no Yoru no Kyōfu Densetsu)",
         titleInOtherLanguages: [
@@ -17250,12 +17773,11 @@ const allData = [
         screenplay: "Chiaki Hashiba. Fumiko Komatsuzaki",
         storyboard: "Takaaki Ishiyama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri, Next Conan's Hint Yasuo Muramatsu as Genichiro Daimon Hideyuki Umezu as Kazuki Daimon Junichi Sugawara as Organizer Akiko Takeguchi as Tatsuko Daimon Dai Matsumoto as Yoshiro Daimon Yoko Soumi as Kayoko Daimon Miki Itō as Hatsuho Hojo",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Yasuo Muramatsu as Genichiro Daimon", "Hideyuki Umezu as Kazuki Daimon", "Junichi Sugawara as Organizer", "Akiko Takeguchi as Tatsuko Daimon", "Dai Matsumoto as Yoshiro Daimon", "Yoko Soumi as Kayoko Daimon", "Miki Itō as Hatsuho Hojo"],
         openingSong: "Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Shaking Restaurant",
         nextCase: "The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle »",
-
 
 
 
@@ -17278,6 +17800,9 @@ const allData = [
     {
         id: "262", isFiller: true, title: "262: The Fearful Legend of the Snowy Night (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "雪の夜の恐怖伝説. (Yuki no Yoru no Kyōfu Densetsu)",
         titleInOtherLanguages: [
@@ -17310,12 +17835,11 @@ const allData = [
         screenplay: "Chiaki Hashiba. Fumiko Komatsuzaki",
         storyboard: "Takaaki Ishiyama",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri, Next Conan's Hint Yasuo Muramatsu as Genichiro Daimon Hideyuki Umezu as Kazuki Daimon Junichi Sugawara as Organizer Akiko Takeguchi as Tatsuko Daimon Dai Matsumoto as Yoshiro Daimon Yoko Soumi as Kayoko Daimon Miki Itō as Hatsuho Hojo",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Yasuo Muramatsu as Genichiro Daimon", "Hideyuki Umezu as Kazuki Daimon", "Junichi Sugawara as Organizer", "Akiko Takeguchi as Tatsuko Daimon", "Dai Matsumoto as Yoshiro Daimon", "Yoko Soumi as Kayoko Daimon", "Miki Itō as Hatsuho Hojo"],
         openingSong: "Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Shaking Restaurant",
         nextCase: "The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle »",
-
 
 
 
@@ -17342,6 +17866,9 @@ const allData = [
     {
         id: "263", isFiller: false, title: "263: The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle (2 Hour Special)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Goro Otaki", "Ran Mouri", "Kogoro Mouri", "Shizuka Hattori", "Ginshiro Toyama", "Heizo Hattori", "Hiroshi Agasa", "Soshi Okita", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "大阪ダブルミステリー 浪花剣士と太閤の城. (Ōsaka Daburu Misuterii: Naniwa Kenshi to Taikō no Shiro)",
         titleInOtherLanguages: [
@@ -17373,12 +17900,11 @@ const allData = [
 
         storyboard: "Kenji Kodama",
         characterDesign: "Masatomo Sudo. Mari Tominaga",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Takehiro Koyama as Heizo Hattori Shinji Ogawa as Ginshiro Toyama Norio Wakamoto as Goro Otaki Masako Katsuki as Shizuka Hattori Tomoyuki Inoue as Atsushi Tarumi Naohiro Yamamoto as Mineo Omotani Kazunari Tanaka as Noriyuki Doguchi Masuo Amada as Masamachi Hakamada Kazuya Nakai as Takashi Kotegawa Naoya Uchida as Toshiaki Fukushima Rin Mizuhara as Maho Katagiri Yasuhiko Kawazu as Yuji Kato Bin Shimada as Shigehiko Wakisaka Takkou Ishimori as Arihiro Kasuya Masafumi Kimura as Referee Jun Fukuyama as Kendo club member A Ryuuzo Hasuike as Kendo club member B Hiroyuki Yokoo as Kendo club member C Akemi Adachi as Receptionist Yoshiko Okamoto as Lady in the store Junichi Sugawara as Man",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Takehiro Koyama as Heizo Hattori", "Shinji Ogawa as Ginshiro Toyama", "Norio Wakamoto as Goro Otaki", "Masako Katsuki as Shizuka Hattori", "Tomoyuki Inoue as Atsushi Tarumi", "Naohiro Yamamoto as Mineo Omotani", "Kazunari Tanaka as Noriyuki Doguchi", "Masuo Amada as Masamachi Hakamada", "Kazuya Nakai as Takashi Kotegawa", "Naoya Uchida as Toshiaki Fukushima", "Rin Mizuhara as Maho Katagiri", "Yasuhiko Kawazu as Yuji Kato", "Bin Shimada as Shigehiko Wakisaka", "Takkou Ishimori as Arihiro Kasuya", "Masafumi Kimura as Referee", "Jun Fukuyama as Kendo club member A", "Ryuuzo Hasuike as Kendo club member B", "Hiroyuki Yokoo as Kendo club member C", "Akemi Adachi as Receptionist", "Yoshiko Okamoto as Lady in the store", "Junichi Sugawara as Man"],
         openingSong: "Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Fearful Legend of the Snowy Night",
         nextCase: "Courtroom Confrontation: Kisaki vs. Kogoro »",
-
 
 
 
@@ -17449,6 +17975,9 @@ const allData = [
     {
         id: "264", isFiller: true, title: "264: Courtroom Confrontation: Kisaki vs. Kogoro (Part 1)",
         appearances: ["Conan Edogawa", "Eri Kisaki", "Reiko Kujo", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Officer Tome", "Midori Kuriyama", "Sasaki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "法廷の対決 妃VS小五郎. (Hōtei no Taiketsu: Kisaki tai Kogoro)",
         titleInOtherLanguages: [
@@ -17481,12 +18010,11 @@ const allData = [
         screenplay: "Yutaka Kaneko",
         storyboard: "264 Kooji Kobayashi. 265 Yasumi Mikamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki Asako Dodo as Midori Kuriyama Rica Matsumoto as Reiko Kujo Jouji Nakata as Shinji Usami Ai Satou as Masako Kameda Masaki Aizawa as Tsuyoshi Hirasawa Isshin Chiba as Sasaki Hiroshi Naka as Presiding judge Yoshiko Okamoto as Mrs. Okada Ryuuzo Hasuike as Terumitsu Okada",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Gara Takashima as Eri Kisaki", "Asako Dodo as Midori Kuriyama", "Rica Matsumoto as Reiko Kujo", "Jouji Nakata as Shinji Usami", "Ai Satou as Masako Kameda", "Masaki Aizawa as Tsuyoshi Hirasawa", "Isshin Chiba as Sasaki", "Hiroshi Naka as Presiding judge", "Yoshiko Okamoto as Mrs. Okada", "Ryuuzo Hasuike as Terumitsu Okada"],
         openingSong: "Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle",
         nextCase: "The Truth Behind Valentine's »",
-
 
 
 
@@ -17513,6 +18041,9 @@ const allData = [
     {
         id: "265", isFiller: true, title: "265: Courtroom Confrontation: Kisaki vs. Kogoro (Part 2)",
         appearances: ["Conan Edogawa", "Eri Kisaki", "Reiko Kujo", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Officer Tome", "Midori Kuriyama", "Sasaki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "法廷の対決 妃VS小五郎. (Hōtei no Taiketsu: Kisaki tai Kogoro)",
         titleInOtherLanguages: [
@@ -17545,12 +18076,11 @@ const allData = [
         screenplay: "Yutaka Kaneko",
         storyboard: "264 Kooji Kobayashi. 265 Yasumi Mikamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Gara Takashima as Eri Kisaki Asako Dodo as Midori Kuriyama Rica Matsumoto as Reiko Kujo Jouji Nakata as Shinji Usami Ai Satou as Masako Kameda Masaki Aizawa as Tsuyoshi Hirasawa Isshin Chiba as Sasaki Hiroshi Naka as Presiding judge Yoshiko Okamoto as Mrs. Okada Ryuuzo Hasuike as Terumitsu Okada",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Gara Takashima as Eri Kisaki", "Asako Dodo as Midori Kuriyama", "Rica Matsumoto as Reiko Kujo", "Jouji Nakata as Shinji Usami", "Ai Satou as Masako Kameda", "Masaki Aizawa as Tsuyoshi Hirasawa", "Isshin Chiba as Sasaki", "Hiroshi Naka as Presiding judge", "Yoshiko Okamoto as Mrs. Okada", "Ryuuzo Hasuike as Terumitsu Okada"],
         openingSong: "Winter Bells",
         endingSong: "Aoi Aoi Kono Hoshi ni",
         prevCase: "« The Osaka Double Mystery - The Naniwa Swordsman and Toyotomi's Castle",
         nextCase: "The Truth Behind Valentine's »",
-
 
 
 
@@ -17576,6 +18106,9 @@ const allData = [
     {
         id: "266", isFiller: false, title: "266: The Truth Behind Valentine's (The Case)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Makoto Kyogoku", "Ai Haibara", "Detective Boys", "James Black", "Shuichi Akai", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "バレンタインの真実. (Barentain no Shinjitsu)",
         titleInOtherLanguages: [
@@ -17609,12 +18142,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 & 3) Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1) Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Nobuyuki Hiyama as Makoto Kyogoku Tomie Kataoka as Chiyoko Yuasa Tomoyuki Dan as Yoshitaka Nigaki Aya Hisakawa as Ako Amari Yuko Sasaki as Mika Konakawa Mugihito as Yuzo Sakami Tetsuo Kanao as Hajime Itakura",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 & 3)", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1)", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3)", "Nobuyuki Hiyama as Makoto Kyogoku", "Tomie Kataoka as Chiyoko Yuasa", "Tomoyuki Dan as Yoshitaka Nigaki", "Aya Hisakawa as Ako Amari", "Yuko Sasaki as Mika Konakawa", "Mugihito as Yuzo Sakami", "Tetsuo Kanao as Hajime Itakura"],
         openingSong: "Winter Bells",
         endingSong: "Yume Mita Ato de",
         prevCase: "« Courtroom Confrontation: Kisaki vs. Kogoro",
         nextCase: "The Forgotten Memento from the Crime »",
-
 
 
 
@@ -17638,6 +18170,9 @@ const allData = [
     {
         id: "267", isFiller: false, title: "267: The Truth Behind Valentine's (The Deduction)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Makoto Kyogoku", "Ai Haibara", "Detective Boys", "James Black", "Shuichi Akai", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "バレンタインの真実. (Barentain no Shinjitsu)",
         titleInOtherLanguages: [
@@ -17671,12 +18206,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 & 3) Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1) Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Nobuyuki Hiyama as Makoto Kyogoku Tomie Kataoka as Chiyoko Yuasa Tomoyuki Dan as Yoshitaka Nigaki Aya Hisakawa as Ako Amari Yuko Sasaki as Mika Konakawa Mugihito as Yuzo Sakami Tetsuo Kanao as Hajime Itakura",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 & 3)", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1)", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3)", "Nobuyuki Hiyama as Makoto Kyogoku", "Tomie Kataoka as Chiyoko Yuasa", "Tomoyuki Dan as Yoshitaka Nigaki", "Aya Hisakawa as Ako Amari", "Yuko Sasaki as Mika Konakawa", "Mugihito as Yuzo Sakami", "Tetsuo Kanao as Hajime Itakura"],
         openingSong: "Winter Bells",
         endingSong: "Yume Mita Ato de",
         prevCase: "« Courtroom Confrontation: Kisaki vs. Kogoro",
         nextCase: "The Forgotten Memento from the Crime »",
-
 
 
 
@@ -17705,6 +18239,9 @@ const allData = [
     {
         id: "268", isFiller: false, title: "268: The Truth Behind Valentine's (The Resolution)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Kogoro Mouri", "Makoto Kyogoku", "Ai Haibara", "Detective Boys", "James Black", "Shuichi Akai", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "バレンタインの真実. (Barentain no Shinjitsu)",
         titleInOtherLanguages: [
@@ -17738,12 +18275,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 & 3) Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1) Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3) Nobuyuki Hiyama as Makoto Kyogoku Tomie Kataoka as Chiyoko Yuasa Tomoyuki Dan as Yoshitaka Nigaki Aya Hisakawa as Ako Amari Yuko Sasaki as Mika Konakawa Mugihito as Yuzo Sakami Tetsuo Kanao as Hajime Itakura",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 & 3)", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint (Part 1)", "Naoko Matsui as Sonoko Suzuki, Next Conan's Hint (Part 3)", "Nobuyuki Hiyama as Makoto Kyogoku", "Tomie Kataoka as Chiyoko Yuasa", "Tomoyuki Dan as Yoshitaka Nigaki", "Aya Hisakawa as Ako Amari", "Yuko Sasaki as Mika Konakawa", "Mugihito as Yuzo Sakami", "Tetsuo Kanao as Hajime Itakura"],
         openingSong: "Winter Bells",
         endingSong: "Yume Mita Ato de",
         prevCase: "« Courtroom Confrontation: Kisaki vs. Kogoro",
         nextCase: "The Forgotten Memento from the Crime »",
-
 
 
 
@@ -17768,6 +18304,9 @@ const allData = [
     {
         id: "269", isFiller: false, title: "The Forgotten Memento from the Crime",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Ran Mouri", "Kogoro Mouri", "Shuichi Akai", "Detective Kojima", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "犯罪の忘れ形見. (Hanzai no Wasuregatami)",
         titleInOtherLanguages: [
@@ -17800,12 +18339,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara, Next Conan's Hint (Part 2) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba, Forensics officer Nobuaki Fukuda as Hideo Morita Hiroko Takahashi as Eiko Idetsuki Hiromichi Kogami as Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara, Next Conan's Hint (Part 2)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba, Forensics officer", "Nobuaki Fukuda as Hideo Morita", "Hiroko Takahashi as Eiko Idetsuki", "Hiromichi Kogami as Detective Kojima"],
         openingSong: "Winter Bells",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Truth Behind Valentine's",
         nextCase: "The Secret Rushed Omission »",
-
 
 
 
@@ -17833,6 +18371,9 @@ const allData = [
     {
         id: "269", isFiller: false, title: "269: The Forgotten Memento from the Crime (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Ran Mouri", "Kogoro Mouri", "Shuichi Akai", "Detective Kojima", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "犯罪の忘れ形見. (Hanzai no Wasuregatami)",
         titleInOtherLanguages: [
@@ -17865,12 +18406,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara, Next Conan's Hint (Part 2) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba, Forensics officer Nobuaki Fukuda as Hideo Morita Hiroko Takahashi as Eiko Idetsuki Hiromichi Kogami as Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara, Next Conan's Hint (Part 2)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba, Forensics officer", "Nobuaki Fukuda as Hideo Morita", "Hiroko Takahashi as Eiko Idetsuki", "Hiromichi Kogami as Detective Kojima"],
         openingSong: "Winter Bells",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Truth Behind Valentine's",
         nextCase: "The Secret Rushed Omission »",
-
 
 
 
@@ -17898,6 +18438,9 @@ const allData = [
     {
         id: "270", isFiller: false, title: "270: The Forgotten Memento from the Crime (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Ran Mouri", "Kogoro Mouri", "Shuichi Akai", "Detective Kojima", "Shinichi Kudo", "Gin", "Vodka"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "犯罪の忘れ形見. (Hanzai no Wasuregatami)",
         titleInOtherLanguages: [
@@ -17930,12 +18473,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara, Next Conan's Hint (Part 2) Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba, Forensics officer Nobuaki Fukuda as Hideo Morita Hiroko Takahashi as Eiko Idetsuki Hiromichi Kogami as Detective Kojima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara, Next Conan's Hint (Part 2)", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba, Forensics officer", "Nobuaki Fukuda as Hideo Morita", "Hiroko Takahashi as Eiko Idetsuki", "Hiromichi Kogami as Detective Kojima"],
         openingSong: "Winter Bells",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Truth Behind Valentine's",
         nextCase: "The Secret Rushed Omission »",
-
 
 
 
@@ -17963,6 +18505,9 @@ const allData = [
     {
         id: "271", isFiller: false, title: "271: The Secret Rushed Omission (Part 1)",
         appearances: ["Conan Edogawa", "Sonoko Suzuki", "Ran Mouri", "Jodie Saintemillion", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Vermouth", "Shuichi Akai", "Shinichi Kudo", "Yukiko Kudo", "Shiho Miyano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "隠して急いで省略. (Kakushite Isoide Shōryaku)",
         titleInOtherLanguages: [
@@ -17996,12 +18541,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Isshin Chiba as Kazunobu Chiba, Staff B Miyuki Ichijou as Jodie Saintemillion Mami Koyama as Vermouth Yuji Fujishiro as Norihisa Kisugi Yutaka Nakano as Katsunori Chujo Tetsu Inada as Forensics officer Fumiko Miyashita as Woman Hiroyuki Yokoo as Staff A Matsuo Matsuo as Culprit (Bunta Kuniyoshi)",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Isshin Chiba as Kazunobu Chiba, Staff B", "Miyuki Ichijou as Jodie Saintemillion", "Mami Koyama as Vermouth", "Yuji Fujishiro as Norihisa Kisugi", "Yutaka Nakano as Katsunori Chujo", "Tetsu Inada as Forensics officer", "Fumiko Miyashita as Woman", "Hiroyuki Yokoo as Staff A", "Matsuo Matsuo as Culprit (Bunta Kuniyoshi)"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Forgotten Memento from the Crime",
         nextCase: "Riddle Granny Disappearance Case »",
-
 
 
 
@@ -18032,6 +18576,9 @@ const allData = [
     {
         id: "272", isFiller: false, title: "272: The Secret Rushed Omission (Part 2)",
         appearances: ["Conan Edogawa", "Sonoko Suzuki", "Ran Mouri", "Jodie Saintemillion", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Vermouth", "Shuichi Akai", "Shinichi Kudo", "Yukiko Kudo", "Shiho Miyano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "隠して急いで省略. (Kakushite Isoide Shōryaku)",
         titleInOtherLanguages: [
@@ -18065,12 +18612,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Isshin Chiba as Kazunobu Chiba, Staff B Miyuki Ichijou as Jodie Saintemillion Mami Koyama as Vermouth Yuji Fujishiro as Norihisa Kisugi Yutaka Nakano as Katsunori Chujo Tetsu Inada as Forensics officer Fumiko Miyashita as Woman Hiroyuki Yokoo as Staff A Matsuo Matsuo as Culprit (Bunta Kuniyoshi)",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Isshin Chiba as Kazunobu Chiba, Staff B", "Miyuki Ichijou as Jodie Saintemillion", "Mami Koyama as Vermouth", "Yuji Fujishiro as Norihisa Kisugi", "Yutaka Nakano as Katsunori Chujo", "Tetsu Inada as Forensics officer", "Fumiko Miyashita as Woman", "Hiroyuki Yokoo as Staff A", "Matsuo Matsuo as Culprit (Bunta Kuniyoshi)"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Forgotten Memento from the Crime",
         nextCase: "Riddle Granny Disappearance Case »",
-
 
 
 
@@ -18102,6 +18648,9 @@ const allData = [
     {
         id: "273", isFiller: true, title: "273: Riddle Granny Disappearance Case",
         appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Detective Kobayashi", "Detective Yokoyama", "Detective Kojima", "Police detective", "Police detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "クイズ婆さんの失踪事件. (Kuizu-bāsan no Shissō Jiken)",
         titleInOtherLanguages: [
@@ -18135,12 +18684,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Akiko Takamura as Shizuka Omori Kenichi Ono as Joji Yabuki Reiko Suzuki as Setsuko Nishiyoma Kazuhiko Kishino as Toshio Mochizuki Masayuki Omoro as Hayakawa",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Akiko Takamura as Shizuka Omori", "Kenichi Ono as Joji Yabuki", "Reiko Suzuki as Setsuko Nishiyoma", "Kazuhiko Kishino as Toshio Mochizuki", "Masayuki Omoro as Hayakawa"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Secret Rushed Omission",
         nextCase: "The Truth of the Haunted House »",
-
 
 
 
@@ -18169,6 +18717,9 @@ const allData = [
     {
         id: "274", isFiller: false, title: "274: The Truth of the Haunted House (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki", "Tomoaki Araide"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "幽霊屋敷の真実. (Yūrei-yashiki no Shinjitsu)",
         titleInOtherLanguages: [
@@ -18202,12 +18753,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Hideyuki Hori as Tomoaki Araide Mahito Tsujimura as Hoichi Otonashi Hochu Otsuka as Kikuji Banchou Naoki Makishima as Iwahisa Yotsuya Koji Tsujitani as Tsuyuhiko Botan Fumiko Miyashita as TV voice Yukiko Iwai as Next Conan's Hint (Part 2) Ikue Otani as Next Conan's Hint (Part 2)",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Hideyuki Hori as Tomoaki Araide", "Mahito Tsujimura as Hoichi Otonashi", "Hochu Otsuka as Kikuji Banchou", "Naoki Makishima as Iwahisa Yotsuya", "Koji Tsujitani as Tsuyuhiko Botan", "Fumiko Miyashita as TV voice", "Yukiko Iwai as Next Conan's Hint (Part 2)", "Ikue Otani as Next Conan's Hint (Part 2)"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« Riddle Granny Disappearance Case",
         nextCase: "The Policeman's Missing Notebook Case »",
-
 
 
 
@@ -18234,6 +18784,9 @@ const allData = [
     {
         id: "275", isFiller: false, title: "275: The Truth of the Haunted House (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki", "Tomoaki Araide"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "幽霊屋敷の真実. (Yūrei-yashiki no Shinjitsu)",
         titleInOtherLanguages: [
@@ -18267,12 +18820,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1) Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1) Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Hideyuki Hori as Tomoaki Araide Mahito Tsujimura as Hoichi Otonashi Hochu Otsuka as Kikuji Banchou Naoki Makishima as Iwahisa Yotsuya Koji Tsujitani as Tsuyuhiko Botan Fumiko Miyashita as TV voice Yukiko Iwai as Next Conan's Hint (Part 2) Ikue Otani as Next Conan's Hint (Part 2)",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 1)", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 1)", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Hideyuki Hori as Tomoaki Araide", "Mahito Tsujimura as Hoichi Otonashi", "Hochu Otsuka as Kikuji Banchou", "Naoki Makishima as Iwahisa Yotsuya", "Koji Tsujitani as Tsuyuhiko Botan", "Fumiko Miyashita as TV voice", "Yukiko Iwai as Next Conan's Hint (Part 2)", "Ikue Otani as Next Conan's Hint (Part 2)"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« Riddle Granny Disappearance Case",
         nextCase: "The Policeman's Missing Notebook Case »",
-
 
 
 
@@ -18301,6 +18853,9 @@ const allData = [
     {
         id: "276", isFiller: true, title: "276: The Policeman's Missing Notebook Case",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Detective Boys", "Ai Haibara", "Juzo Megure"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "警察手帳紛失事件. (Keisatsu Techō Funshitsu Jiken)",
         titleInOtherLanguages: [
@@ -18333,12 +18888,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Mitsuaki Hoshino as Jiro Hanzaki Minoru Inaba as Seiichi Sugiyama Isshin Chiba as Delivery boy Fumiko Miyashita as Housewife",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Mitsuaki Hoshino as Jiro Hanzaki", "Minoru Inaba as Seiichi Sugiyama", "Isshin Chiba as Delivery boy", "Fumiko Miyashita as Housewife"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Truth of the Haunted House",
         nextCase: "English Teacher vs. Great Western Detective »",
-
 
 
 
@@ -18366,6 +18920,9 @@ const allData = [
     {
         id: "277", isFiller: false, title: "277: English Teacher vs. Great Western Detective (Part 1)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Hiroshi Agasa", "Ai Haibara", "Jodie Saintemillion", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Kazuha Toyama", "Kogoro Mouri", "Gin", "Vodka", "Vermouth", "Pisco", "Naomichi Mugikura", "Shinichi Kudo", "Ran Mouri", "Tomoaki Araide"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "英語教師VS西の名探偵. (Eigo-kyōshi tai Nishi no Meitantei)",
         titleInOtherLanguages: [
@@ -18399,12 +18956,11 @@ const allData = [
 
         storyboard: "277 Yasumi Mikamoto. 278 Hideaki Oba",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Kazunobu Chiba Megumi Hayashibara as Ai Haibara Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Miyuki Ichijou as Jodie Saintemillion Kaori Yamagata as Chika Shimoda Toshiharu Sakurai as Michiya Nakamachi Hiroshi Takemura as Noboru Kawakami",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Isshin Chiba as Kazunobu Chiba", "Megumi Hayashibara as Ai Haibara", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Miyuki Ichijou as Jodie Saintemillion", "Kaori Yamagata as Chika Shimoda", "Toshiharu Sakurai as Michiya Nakamachi", "Hiroshi Takemura as Noboru Kawakami"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Policeman's Missing Notebook Case",
         nextCase: "Hooligan's Labyrinth »",
-
 
 
 
@@ -18433,6 +18989,9 @@ const allData = [
     {
         id: "278", isFiller: false, title: "278: English Teacher vs. Great Western Detective (Part 2)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Hiroshi Agasa", "Ai Haibara", "Jodie Saintemillion", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Kazuha Toyama", "Kogoro Mouri", "Gin", "Vodka", "Vermouth", "Pisco", "Naomichi Mugikura", "Shinichi Kudo", "Ran Mouri", "Tomoaki Araide"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "英語教師VS西の名探偵. (Eigo-kyōshi tai Nishi no Meitantei)",
         titleInOtherLanguages: [
@@ -18466,12 +19025,11 @@ const allData = [
 
         storyboard: "277 Yasumi Mikamoto. 278 Hideaki Oba",
         characterDesign: "Masatomo Sudo. Junko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Next Conan's Hint Isshin Chiba as Kazunobu Chiba Megumi Hayashibara as Ai Haibara Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Miyuki Ichijou as Jodie Saintemillion Kaori Yamagata as Chika Shimoda Toshiharu Sakurai as Michiya Nakamachi Hiroshi Takemura as Noboru Kawakami",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Next Conan's Hint", "Isshin Chiba as Kazunobu Chiba", "Megumi Hayashibara as Ai Haibara", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Miyuki Ichijou as Jodie Saintemillion", "Kaori Yamagata as Chika Shimoda", "Toshiharu Sakurai as Michiya Nakamachi", "Hiroshi Takemura as Noboru Kawakami"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Policeman's Missing Notebook Case",
         nextCase: "Hooligan's Labyrinth »",
-
 
 
 
@@ -18502,6 +19060,9 @@ const allData = [
     {
         id: "279", isFiller: false, title: "279: Hooligan's Labyrinth (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Hideo Akagi", "Naoki Uemura", "Ryusuke Higo", "Rikuo Endo", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Vermouth", "Yukiko Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "迷宮のフーリガンREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Meikyū no Fūrigan)",
         titleInOtherLanguages: [
@@ -18534,12 +19095,11 @@ const allData = [
 
         storyboard: "279 Toru KitahataREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH280 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Junichi Sugawara as Kadotake Akano Mayumi Asano as Hasue Kira Shiro Saito as Mitsuaki Funato Mitsuru Miyamoto as Etsutoshi Oba Isshin Chiba as TV narration Yasuhiko Kawazu as Nakata Ryuuzo Hasuike as Passenger Mami Koyama as Chris Vineyard",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Junichi Sugawara as Kadotake Akano", "Mayumi Asano as Hasue Kira", "Shiro Saito as Mitsuaki Funato", "Mitsuru Miyamoto as Etsutoshi Oba", "Isshin Chiba as TV narration", "Yasuhiko Kawazu as Nakata", "Ryuuzo Hasuike as Passenger", "Mami Koyama as Chris Vineyard"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« English Teacher vs. Great Western Detective",
         nextCase: "The Small Eye-Witnesses »",
-
 
 
 
@@ -18567,6 +19127,9 @@ const allData = [
     {
         id: "280", isFiller: false, title: "280: Hooligan's Labyrinth (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Hideo Akagi", "Naoki Uemura", "Ryusuke Higo", "Rikuo Endo", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Vermouth", "Yukiko Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "迷宮のフーリガンREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Meikyū no Fūrigan)",
         titleInOtherLanguages: [
@@ -18599,12 +19162,11 @@ const allData = [
 
         storyboard: "279 Toru KitahataREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH280 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Junichi Sugawara as Kadotake Akano Mayumi Asano as Hasue Kira Shiro Saito as Mitsuaki Funato Mitsuru Miyamoto as Etsutoshi Oba Isshin Chiba as TV narration Yasuhiko Kawazu as Nakata Ryuuzo Hasuike as Passenger Mami Koyama as Chris Vineyard",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima, Next Conan's Hint", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Junichi Sugawara as Kadotake Akano", "Mayumi Asano as Hasue Kira", "Shiro Saito as Mitsuaki Funato", "Mitsuru Miyamoto as Etsutoshi Oba", "Isshin Chiba as TV narration", "Yasuhiko Kawazu as Nakata", "Ryuuzo Hasuike as Passenger", "Mami Koyama as Chris Vineyard"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« English Teacher vs. Great Western Detective",
         nextCase: "The Small Eye-Witnesses »",
-
 
 
 
@@ -18630,6 +19192,9 @@ const allData = [
     {
         id: "281", isFiller: true, title: "281: The Small Eye-Witnesses",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Detective Boys", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "小さな目撃者たちREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chiisana Mokugekisha-tachi)",
         titleInOtherLanguages: [
@@ -18663,12 +19228,11 @@ const allData = [
         screenplay: "Michiru Shimada",
         storyboard: "Masakazu Amiya",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Shin Aomori as Eizo Kurata Aruno Tahara as Tatsuo Suzuki Yurika Hino as Kaori Yamagishi Sayaka Ohara as Megumi Ota Isshin Chiba as TV narration",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Shin Aomori as Eizo Kurata", "Aruno Tahara as Tatsuo Suzuki", "Yurika Hino as Kaori Yamagishi", "Sayaka Ohara as Megumi Ota", "Isshin Chiba as TV narration"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« Hooligan's Labyrinth",
         nextCase: "The Mystery of the Water-Flowing Stone Garden »",
-
 
 
 
@@ -18700,6 +19264,9 @@ const allData = [
     {
         id: "282", isFiller: true, title: "282: The Mystery of the Water-Flowing Stone Garden (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "水流るる石庭の怪REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mizu Nagaruru Sekitei no Kai)",
         titleInOtherLanguages: [
@@ -18733,12 +19300,11 @@ const allData = [
         screenplay: "Yoshifumi Fukushima",
         storyboard: "282 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH283 Takaaki Ishiyama",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1) Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2) Takeshi Watabe as Michiyoshi Majima Takashi Matsuyama as Masayuki Hashimoto Takashi Taguchi as Nobuaki Endo Rikiya Koyama as Tomonori Kiyama Ai Uchikawa as Ayaka Honjo Isshin Chiba as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1)", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2)", "Takeshi Watabe as Michiyoshi Majima", "Takashi Matsuyama as Masayuki Hashimoto", "Takashi Taguchi as Nobuaki Endo", "Rikiya Koyama as Tomonori Kiyama", "Ai Uchikawa as Ayaka Honjo", "Isshin Chiba as Policeman"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Small Eye-Witnesses",
         nextCase: "Chinatown Deja Vu in the Rain »",
-
 
 
 
@@ -18770,6 +19336,9 @@ const allData = [
     {
         id: "283", isFiller: true, title: "283: The Mystery of the Water-Flowing Stone Garden (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Sango Yokomizo", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "水流るる石庭の怪REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mizu Nagaruru Sekitei no Kai)",
         titleInOtherLanguages: [
@@ -18803,12 +19372,11 @@ const allData = [
         screenplay: "Yoshifumi Fukushima",
         storyboard: "282 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH283 Takaaki Ishiyama",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1) Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2) Takeshi Watabe as Michiyoshi Majima Takashi Matsuyama as Masayuki Hashimoto Takashi Taguchi as Nobuaki Endo Rikiya Koyama as Tomonori Kiyama Ai Uchikawa as Ayaka Honjo Isshin Chiba as Policeman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri, Next Conan's Hint (Part 1)", "Akio Otsuka as Sango Yokomizo, Next Conan's Hint (Part 2)", "Takeshi Watabe as Michiyoshi Majima", "Takashi Matsuyama as Masayuki Hashimoto", "Takashi Taguchi as Nobuaki Endo", "Rikiya Koyama as Tomonori Kiyama", "Ai Uchikawa as Ayaka Honjo", "Isshin Chiba as Policeman"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Small Eye-Witnesses",
         nextCase: "Chinatown Deja Vu in the Rain »",
-
 
 
 
@@ -18841,6 +19409,9 @@ const allData = [
     {
         id: "284", isFiller: false, title: "284: Chinatown Deja Vu in the Rain (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Jugo Yokomizo", "Shuichi Akai", "Sharon Vineyard", "Yukiko Kudo", "Sango Yokomizo", "Shinichi Kudo", "Police detective", "Police detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "中華街 雨のデジャビュREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chūkagai Ame no Deja Byu)",
         titleInOtherLanguages: [
@@ -18873,12 +19444,11 @@ const allData = [
 
         storyboard: "284 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH285 Shuichi Hirokawa",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Akio Otsuka as Jugo Yokomizo, Next Conan's Hint (Part 1) Takaya Hashi as Kaizo Isogami Tetsuo Goto as Motohiro Ito Kazuhiro Yamaji as Keigo Kitaura Katsuhisa Houki as Shiro Kawabata Masatoshi Nagase as Mike Hama Isshin Chiba as Police detective Naoki Makishima as Police detective Hiromichi Kogami as Forensics officer A, Boy Masafumi Kimura as Forensics officer B, Clerk Mami Koyama as Sharon Vineyard Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Jugo Yokomizo, Next Conan's Hint (Part 1)", "Takaya Hashi as Kaizo Isogami", "Tetsuo Goto as Motohiro Ito", "Kazuhiro Yamaji as Keigo Kitaura", "Katsuhisa Houki as Shiro Kawabata", "Masatoshi Nagase as Mike Hama", "Isshin Chiba as Police detective", "Naoki Makishima as Police detective", "Hiromichi Kogami as Forensics officer A, Boy", "Masafumi Kimura as Forensics officer B, Clerk", "Mami Koyama as Sharon Vineyard", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Mystery of the Water-Flowing Stone Garden",
         nextCase: "Shinichi Kudo's New York Case »",
-
 
 
 
@@ -18905,6 +19475,9 @@ const allData = [
     {
         id: "285", isFiller: false, title: "285: Chinatown Deja Vu in the Rain (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Jugo Yokomizo", "Shuichi Akai", "Sharon Vineyard", "Yukiko Kudo", "Sango Yokomizo", "Shinichi Kudo", "Police detective", "Police detective"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "中華街 雨のデジャビュREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chūkagai Ame no Deja Byu)",
         titleInOtherLanguages: [
@@ -18937,12 +19510,11 @@ const allData = [
 
         storyboard: "284 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH285 Shuichi Hirokawa",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2) Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2) Akira Kamiya as Kogoro Mouri Akio Otsuka as Jugo Yokomizo, Next Conan's Hint (Part 1) Takaya Hashi as Kaizo Isogami Tetsuo Goto as Motohiro Ito Kazuhiro Yamaji as Keigo Kitaura Katsuhisa Houki as Shiro Kawabata Masatoshi Nagase as Mike Hama Isshin Chiba as Police detective Naoki Makishima as Police detective Hiromichi Kogami as Forensics officer A, Boy Masafumi Kimura as Forensics officer B, Clerk Mami Koyama as Sharon Vineyard Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint (Part 2)", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2)", "Akira Kamiya as Kogoro Mouri", "Akio Otsuka as Jugo Yokomizo, Next Conan's Hint (Part 1)", "Takaya Hashi as Kaizo Isogami", "Tetsuo Goto as Motohiro Ito", "Kazuhiro Yamaji as Keigo Kitaura", "Katsuhisa Houki as Shiro Kawabata", "Masatoshi Nagase as Mike Hama", "Isshin Chiba as Police detective", "Naoki Makishima as Police detective", "Hiromichi Kogami as Forensics officer A, Boy", "Masafumi Kimura as Forensics officer B, Clerk", "Mami Koyama as Sharon Vineyard", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de",
         prevCase: "« The Mystery of the Water-Flowing Stone Garden",
         nextCase: "Shinichi Kudo's New York Case »",
-
 
 
 
@@ -18974,6 +19546,9 @@ const allData = [
     {
         id: "286", isFiller: false, title: "286: Shinichi Kudo's New York Case (The Case)",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Yukiko Kudo", "Kogoro Mouri", "Sharon Vineyard", "Shuichi Akai", "Jugo Yokomizo", "Yusaku Kudo", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "工藤新一NYの事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kudō Shin'ichi Nyūyōku no Jiken)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH286 事件編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH287 推理編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH288 解決編",
         titleInOtherLanguages: [
@@ -19005,12 +19580,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Sumi Shimamoto as Yukiko Kudo, Next Conan's Hint (Part 1) Akio Otsuka as Jugo Yokomizo Tarô Ishida as Radish Redwood Mabuki Andou as Lilas Sanchez Mariko Hayashi as Akane Neilson Masako Yamamoto as Rose Hewitt Yukari Nozawa as Iberis Hamilton Isshin Chiba as Heath Flockhart Renshi Fukuyama as Policeman, Taxi driver Takashi Nagasako as Detective Mami Koyama as Sharon Vineyard Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Sumi Shimamoto as Yukiko Kudo, Next Conan's Hint (Part 1)", "Akio Otsuka as Jugo Yokomizo", "Tarô Ishida as Radish Redwood", "Mabuki Andou as Lilas Sanchez", "Mariko Hayashi as Akane Neilson", "Masako Yamamoto as Rose Hewitt", "Yukari Nozawa as Iberis Hamilton", "Isshin Chiba as Heath Flockhart", "Renshi Fukuyama as Policeman, Taxi driver", "Takashi Nagasako as Detective", "Mami Koyama as Sharon Vineyard", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de Mushoku",
         prevCase: "« Chinatown Deja Vu in the Rain",
         nextCase: "Mitsuhiko's Mystifying Forest »",
-
 
 
 
@@ -19037,6 +19611,9 @@ const allData = [
     {
         id: "287", isFiller: false, title: "287: Shinichi Kudo's New York Case (The Deduction)",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Yukiko Kudo", "Kogoro Mouri", "Sharon Vineyard", "Shuichi Akai", "Jugo Yokomizo", "Yusaku Kudo", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "工藤新一NYの事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kudō Shin'ichi Nyūyōku no Jiken)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH286 事件編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH287 推理編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH288 解決編",
         titleInOtherLanguages: [
@@ -19068,12 +19645,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Sumi Shimamoto as Yukiko Kudo, Next Conan's Hint (Part 1) Akio Otsuka as Jugo Yokomizo Tarô Ishida as Radish Redwood Mabuki Andou as Lilas Sanchez Mariko Hayashi as Akane Neilson Masako Yamamoto as Rose Hewitt Yukari Nozawa as Iberis Hamilton Isshin Chiba as Heath Flockhart Renshi Fukuyama as Policeman, Taxi driver Takashi Nagasako as Detective Mami Koyama as Sharon Vineyard Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Sumi Shimamoto as Yukiko Kudo, Next Conan's Hint (Part 1)", "Akio Otsuka as Jugo Yokomizo", "Tarô Ishida as Radish Redwood", "Mabuki Andou as Lilas Sanchez", "Mariko Hayashi as Akane Neilson", "Masako Yamamoto as Rose Hewitt", "Yukari Nozawa as Iberis Hamilton", "Isshin Chiba as Heath Flockhart", "Renshi Fukuyama as Policeman, Taxi driver", "Takashi Nagasako as Detective", "Mami Koyama as Sharon Vineyard", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de Mushoku",
         prevCase: "« Chinatown Deja Vu in the Rain",
         nextCase: "Mitsuhiko's Mystifying Forest »",
-
 
 
 
@@ -19100,6 +19676,9 @@ const allData = [
     {
         id: "288", isFiller: false, title: "288: Shinichi Kudo's New York Case (The Resolution)",
         appearances: ["Shinichi Kudo", "Conan Edogawa", "Ran Mouri", "Yukiko Kudo", "Kogoro Mouri", "Sharon Vineyard", "Shuichi Akai", "Jugo Yokomizo", "Yusaku Kudo", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "工藤新一NYの事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kudō Shin'ichi Nyūyōku no Jiken)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH286 事件編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH287 推理編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH288 解決編",
         titleInOtherLanguages: [
@@ -19131,12 +19710,11 @@ const allData = [
 
         storyboard: "Masato Sato",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Sumi Shimamoto as Yukiko Kudo, Next Conan's Hint (Part 1) Akio Otsuka as Jugo Yokomizo Tarô Ishida as Radish Redwood Mabuki Andou as Lilas Sanchez Mariko Hayashi as Akane Neilson Masako Yamamoto as Rose Hewitt Yukari Nozawa as Iberis Hamilton Isshin Chiba as Heath Flockhart Renshi Fukuyama as Policeman, Taxi driver Takashi Nagasako as Detective Mami Koyama as Sharon Vineyard Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Sumi Shimamoto as Yukiko Kudo, Next Conan's Hint (Part 1)", "Akio Otsuka as Jugo Yokomizo", "Tarô Ishida as Radish Redwood", "Mabuki Andou as Lilas Sanchez", "Mariko Hayashi as Akane Neilson", "Masako Yamamoto as Rose Hewitt", "Yukari Nozawa as Iberis Hamilton", "Isshin Chiba as Heath Flockhart", "Renshi Fukuyama as Policeman, Taxi driver", "Takashi Nagasako as Detective", "Mami Koyama as Sharon Vineyard", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Yume Mita Ato de Mushoku",
         prevCase: "« Chinatown Deja Vu in the Rain",
         nextCase: "Mitsuhiko's Mystifying Forest »",
-
 
 
 
@@ -19163,6 +19741,9 @@ const allData = [
     {
         id: "289", isFiller: false, title: "289: Mitsuhiko's Mystifying Forest (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Hiroshi Agasa", "Detective Boys", "Asami Tsuburaya", "Misao Yamamura", "Ki'ichiro Numabuchi", "Mrs. Tsuburaya", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "迷いの森の光彦REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mayoi no Mori no Mitsuhiko)",
         titleInOtherLanguages: [
@@ -19195,12 +19776,11 @@ const allData = [
 
         storyboard: "289 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH290 Masakazu Amiya",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya, Asami Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Toshio Furukawa as Misao Yamamura Norio Wakamoto as Goro Otaki MAI as Mrs. Tsuburaya Yuki Matsuoka as Fujiwara Naoki Tatsuta as Ki'ichiro Numabuchi Junichi Sugawara as Senior detective Isshin Chiba as Driver Hiromichi Kogami as Station attendant",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya, Asami Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Toshio Furukawa as Misao Yamamura", "Norio Wakamoto as Goro Otaki", "MAI as Mrs. Tsuburaya", "Yuki Matsuoka as Fujiwara", "Naoki Tatsuta as Ki'ichiro Numabuchi", "Junichi Sugawara as Senior detective", "Isshin Chiba as Driver", "Hiromichi Kogami as Station attendant"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Shinichi Kudo's New York Case",
         nextCase: "Solitary Island of the Princess and the Dragon King's Palace »",
-
 
 
 
@@ -19227,6 +19807,9 @@ const allData = [
     {
         id: "290", isFiller: false, title: "290: Mitsuhiko's Mystifying Forest (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Hiroshi Agasa", "Detective Boys", "Asami Tsuburaya", "Misao Yamamura", "Ki'ichiro Numabuchi", "Mrs. Tsuburaya", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "迷いの森の光彦REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mayoi no Mori no Mitsuhiko)",
         titleInOtherLanguages: [
@@ -19259,12 +19842,11 @@ const allData = [
 
         storyboard: "289 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH290 Masakazu Amiya",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya, Asami Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Toshio Furukawa as Misao Yamamura Norio Wakamoto as Goro Otaki MAI as Mrs. Tsuburaya Yuki Matsuoka as Fujiwara Naoki Tatsuta as Ki'ichiro Numabuchi Junichi Sugawara as Senior detective Isshin Chiba as Driver Hiromichi Kogami as Station attendant",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya, Asami Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Toshio Furukawa as Misao Yamamura", "Norio Wakamoto as Goro Otaki", "MAI as Mrs. Tsuburaya", "Yuki Matsuoka as Fujiwara", "Naoki Tatsuta as Ki'ichiro Numabuchi", "Junichi Sugawara as Senior detective", "Isshin Chiba as Driver", "Hiromichi Kogami as Station attendant"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Shinichi Kudo's New York Case",
         nextCase: "Solitary Island of the Princess and the Dragon King's Palace »",
-
 
 
 
@@ -19291,6 +19873,9 @@ const allData = [
     {
         id: "291", isFiller: false, title: "291: Solitary Island of the Princess and the Dragon King's Palace (The Case)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "孤島の姫と龍宮城REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kotō no Hime to Ryūgū-jō)",
         titleInOtherLanguages: [
@@ -19322,12 +19907,11 @@ const allData = [
 
         storyboard: "291 Masakazu AmiyaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH292 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH293 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 and 3) Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 2) Yuko Miyamura as Kazuha Toyama Shinya Ohtaki as Masao Taketomi Katsumi Chou as Hyogo Kaneshiro Tetsuo Kanao as Mikihiko Daito Tetsuya Iwanaga as Yoshitsugu Kume Junko Minagawa as Yoshie Taira Daisuke Kishio as Noburo Ikema Isshin Chiba as Reporter",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 and 3)", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 2)", "Yuko Miyamura as Kazuha Toyama", "Shinya Ohtaki as Masao Taketomi", "Katsumi Chou as Hyogo Kaneshiro", "Tetsuo Kanao as Mikihiko Daito", "Tetsuya Iwanaga as Yoshitsugu Kume", "Junko Minagawa as Yoshie Taira", "Daisuke Kishio as Noburo Ikema", "Isshin Chiba as Reporter"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Mitsuhiko's Mystifying Forest",
         nextCase: "The Smash of Determination and Love »",
-
 
 
 
@@ -19350,6 +19934,9 @@ const allData = [
     {
         id: "292", isFiller: false, title: "292: Solitary Island of the Princess and the Dragon King's Palace (The Pursuit)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "孤島の姫と龍宮城REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kotō no Hime to Ryūgū-jō)",
         titleInOtherLanguages: [
@@ -19381,12 +19968,11 @@ const allData = [
 
         storyboard: "291 Masakazu AmiyaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH292 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH293 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 and 3) Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 2) Yuko Miyamura as Kazuha Toyama Shinya Ohtaki as Masao Taketomi Katsumi Chou as Hyogo Kaneshiro Tetsuo Kanao as Mikihiko Daito Tetsuya Iwanaga as Yoshitsugu Kume Junko Minagawa as Yoshie Taira Daisuke Kishio as Noburo Ikema Isshin Chiba as Reporter",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 and 3)", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 2)", "Yuko Miyamura as Kazuha Toyama", "Shinya Ohtaki as Masao Taketomi", "Katsumi Chou as Hyogo Kaneshiro", "Tetsuo Kanao as Mikihiko Daito", "Tetsuya Iwanaga as Yoshitsugu Kume", "Junko Minagawa as Yoshie Taira", "Daisuke Kishio as Noburo Ikema", "Isshin Chiba as Reporter"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Mitsuhiko's Mystifying Forest",
         nextCase: "The Smash of Determination and Love »",
-
 
 
 
@@ -19410,6 +19996,9 @@ const allData = [
     {
         id: "293", isFiller: false, title: "293: Solitary Island of the Princess and the Dragon King's Palace (The Resolution)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Ran Mouri", "Kogoro Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "孤島の姫と龍宮城REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kotō no Hime to Ryūgū-jō)",
         titleInOtherLanguages: [
@@ -19441,12 +20030,11 @@ const allData = [
 
         storyboard: "291 Masakazu AmiyaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH292 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH293 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 and 3) Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 2) Yuko Miyamura as Kazuha Toyama Shinya Ohtaki as Masao Taketomi Katsumi Chou as Hyogo Kaneshiro Tetsuo Kanao as Mikihiko Daito Tetsuya Iwanaga as Yoshitsugu Kume Junko Minagawa as Yoshie Taira Daisuke Kishio as Noburo Ikema Isshin Chiba as Reporter",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint (Part 2 and 3)", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Ryo Horikawa as Heiji Hattori, Next Conan's Hint (Part 2)", "Yuko Miyamura as Kazuha Toyama", "Shinya Ohtaki as Masao Taketomi", "Katsumi Chou as Hyogo Kaneshiro", "Tetsuo Kanao as Mikihiko Daito", "Tetsuya Iwanaga as Yoshitsugu Kume", "Junko Minagawa as Yoshie Taira", "Daisuke Kishio as Noburo Ikema", "Isshin Chiba as Reporter"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Mitsuhiko's Mystifying Forest",
         nextCase: "The Smash of Determination and Love »",
-
 
 
 
@@ -19472,6 +20060,9 @@ const allData = [
     {
         id: "294", isFiller: true, title: "294: The Smash of Determination and Love (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Ran Mouri", "Sonoko Suzuki", "Detective Boys", "Kogoro Mouri", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "愛と決断のスマッシュREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ai to Ketsudan no Sumasshu)",
         titleInOtherLanguages: [
@@ -19503,12 +20094,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "294 Yasuichiro YamamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH295 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Takeshi Watabe as Kenzo Narimasu Jin Yamanoi as Akira Doi Nobuo Tobita as Hideki Mamiya Nobutoshi Canna as Masato Tachikawa Yutaka Nakano as Inspector Tamana Kousuke Okano as Sergeant Kato MAI as TV announcer Naoko Nakamura as Sonoko Kakei Junichi Sugawara as Staff Isshin Chiba as Announcer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Takeshi Watabe as Kenzo Narimasu", "Jin Yamanoi as Akira Doi", "Nobuo Tobita as Hideki Mamiya", "Nobutoshi Canna as Masato Tachikawa", "Yutaka Nakano as Inspector Tamana", "Kousuke Okano as Sergeant Kato", "MAI as TV announcer", "Naoko Nakamura as Sonoko Kakei", "Junichi Sugawara as Staff", "Isshin Chiba as Announcer"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Solitary Island of the Princess and the Dragon King's Palace",
         nextCase: "Houseboat Fishing Shock »",
-
 
 
 
@@ -19535,6 +20125,9 @@ const allData = [
     {
         id: "295", isFiller: true, title: "295: The Smash of Determination and Love (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Ran Mouri", "Sonoko Suzuki", "Detective Boys", "Kogoro Mouri", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "愛と決断のスマッシュREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ai to Ketsudan no Sumasshu)",
         titleInOtherLanguages: [
@@ -19566,12 +20159,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "294 Yasuichiro YamamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH295 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima, Next Conan's Hint Naoko Matsui as Sonoko Suzuki Takeshi Watabe as Kenzo Narimasu Jin Yamanoi as Akira Doi Nobuo Tobita as Hideki Mamiya Nobutoshi Canna as Masato Tachikawa Yutaka Nakano as Inspector Tamana Kousuke Okano as Sergeant Kato MAI as TV announcer Naoko Nakamura as Sonoko Kakei Junichi Sugawara as Staff Isshin Chiba as Announcer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima, Next Conan's Hint", "Naoko Matsui as Sonoko Suzuki", "Takeshi Watabe as Kenzo Narimasu", "Jin Yamanoi as Akira Doi", "Nobuo Tobita as Hideki Mamiya", "Nobutoshi Canna as Masato Tachikawa", "Yutaka Nakano as Inspector Tamana", "Kousuke Okano as Sergeant Kato", "MAI as TV announcer", "Naoko Nakamura as Sonoko Kakei", "Junichi Sugawara as Staff", "Isshin Chiba as Announcer"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Solitary Island of the Princess and the Dragon King's Palace",
         nextCase: "Houseboat Fishing Shock »",
-
 
 
 
@@ -19596,6 +20188,9 @@ const allData = [
     {
         id: "296", isFiller: true, title: "296: Houseboat Fishing Shock",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "屋形船 釣りショックREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yakatabune Tsuri Shokku)",
         titleInOtherLanguages: [
@@ -19627,12 +20222,11 @@ const allData = [
         screenplay: "Masaaki SakuraiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMasataka Tsukimawashi",
         storyboard: "Masakazu Amiya",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa, Next Conan's Hint Wakana Yamazaki as Ran Mouri, Next Conan's Hint Akira Kamiya as Kogoro Mouri Tomomichi Nishimura as Fukuo Unabara Romi Park as Sayori Unabara Yu Shimaka as Tsuneo Yamazaki Junichi Sugawara as Takeshi Ushio Isshin Chiba as Officer Sakurai Yousuke Akimoto as Kazuyuki Kawai",
+        voiceCast: ["Minami Takayama as Conan Edogawa, Next Conan's Hint", "Wakana Yamazaki as Ran Mouri, Next Conan's Hint", "Akira Kamiya as Kogoro Mouri", "Tomomichi Nishimura as Fukuo Unabara", "Romi Park as Sayori Unabara", "Yu Shimaka as Tsuneo Yamazaki", "Junichi Sugawara as Takeshi Ushio", "Isshin Chiba as Officer Sakurai", "Yousuke Akimoto as Kazuyuki Kawai"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« The Smash of Determination and Love",
         nextCase: "Courtroom Confrontation II: Kisaki vs. Kujo »",
-
 
 
 
@@ -19658,6 +20252,9 @@ const allData = [
     {
         id: "297", isFiller: true, title: "297: Courtroom Confrontation II: Kisaki vs. Kujo (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Eri Kisaki", "Reiko Kujo", "Midori Kuriyama", "Sasaki", "Presiding judge A", "Side judge A", "Side judge B"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "法廷の対決Ⅱ 妃VS九条REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hōtei no Taiketsu Tsū: Kisaki Tai Kujō)",
         titleInOtherLanguages: [
@@ -19689,12 +20286,11 @@ const allData = [
         screenplay: "Yutaka Kaneko",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Gara Takashima as Eri Kisaki Asako Dodo as Midori Kuriyama Rica Matsumoto as Reiko Kujo Shozo Iizuka as Takashi Inoue Machiko Toyoshima as Noriko Endou Takashi Taguchi as Takuya Akiyama Yasuo Muramatsu as Presiding judge Shinpachi Tsuji as Toshiyuki Ootsu Isshin Chiba as Sasaki Hiroshi Takemura as Masahiko Arima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Gara Takashima as Eri Kisaki", "Asako Dodo as Midori Kuriyama", "Rica Matsumoto as Reiko Kujo", "Shozo Iizuka as Takashi Inoue", "Machiko Toyoshima as Noriko Endou", "Takashi Taguchi as Takuya Akiyama", "Yasuo Muramatsu as Presiding judge", "Shinpachi Tsuji as Toshiyuki Ootsu", "Isshin Chiba as Sasaki", "Hiroshi Takemura as Masahiko Arima"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Houseboat Fishing Shock",
         nextCase: "The Kanmon Strait of Friendship and Murderous Intent »",
-
 
 
 
@@ -19719,6 +20315,9 @@ const allData = [
     {
         id: "298", isFiller: true, title: "298: Courtroom Confrontation II: Kisaki vs. Kujo (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Eri Kisaki", "Reiko Kujo", "Midori Kuriyama", "Sasaki", "Presiding judge A", "Side judge A", "Side judge B"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "法廷の対決Ⅱ 妃VS九条REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hōtei no Taiketsu Tsū: Kisaki Tai Kujō)",
         titleInOtherLanguages: [
@@ -19750,12 +20349,11 @@ const allData = [
         screenplay: "Yutaka Kaneko",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Gara Takashima as Eri Kisaki Asako Dodo as Midori Kuriyama Rica Matsumoto as Reiko Kujo Shozo Iizuka as Takashi Inoue Machiko Toyoshima as Noriko Endou Takashi Taguchi as Takuya Akiyama Yasuo Muramatsu as Presiding judge Shinpachi Tsuji as Toshiyuki Ootsu Isshin Chiba as Sasaki Hiroshi Takemura as Masahiko Arima",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Gara Takashima as Eri Kisaki", "Asako Dodo as Midori Kuriyama", "Rica Matsumoto as Reiko Kujo", "Shozo Iizuka as Takashi Inoue", "Machiko Toyoshima as Noriko Endou", "Takashi Taguchi as Takuya Akiyama", "Yasuo Muramatsu as Presiding judge", "Shinpachi Tsuji as Toshiyuki Ootsu", "Isshin Chiba as Sasaki", "Hiroshi Takemura as Masahiko Arima"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku",
         prevCase: "« Houseboat Fishing Shock",
         nextCase: "The Kanmon Strait of Friendship and Murderous Intent »",
-
 
 
 
@@ -19781,6 +20379,9 @@ const allData = [
     {
         id: "299", isFiller: true, title: "299: The Kanmon Strait of Friendship and Murderous Intent (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "友情と殺意の関門海峡REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yūjō to Satsui no Kanmon-kaikyō)",
         titleInOtherLanguages: [
@@ -19813,12 +20414,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Hiroyuki Tanaka as Keisuke Otsubo Chieko Honda as Akane Isaka Mami Kingetsu as Eiko Nojima Hideyuki Umezu as Seiji Hario Minoru Inaba as Detective Kusuda Isshin Chiba as Detective Anzai Hajime Koseki as Observer Kouzou Mito as Matsukawa Chie Koujiro as Sea Symphony Hall staff Hiroshi Kawaguchi as Touru Akitaya",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Hiroyuki Tanaka as Keisuke Otsubo", "Chieko Honda as Akane Isaka", "Mami Kingetsu as Eiko Nojima", "Hideyuki Umezu as Seiji Hario", "Minoru Inaba as Detective Kusuda", "Isshin Chiba as Detective Anzai", "Hajime Koseki as Observer", "Kouzou Mito as Matsukawa", "Chie Koujiro as Sea Symphony Hall staff", "Hiroshi Kawaguchi as Touru Akitaya"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku Overture",
         prevCase: "« Courtroom Confrontation II: Kisaki vs. Kujo",
         nextCase: "Parade of Malice and Saint »",
-
 
 
 
@@ -19847,6 +20447,9 @@ const allData = [
     {
         id: "300", isFiller: true, title: "300: The Kanmon Strait of Friendship and Murderous Intent (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "友情と殺意の関門海峡REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yūjō to Satsui no Kanmon-kaikyō)",
         titleInOtherLanguages: [
@@ -19879,12 +20482,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Hiroshi Matsuzono",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Hiroyuki Tanaka as Keisuke Otsubo Chieko Honda as Akane Isaka Mami Kingetsu as Eiko Nojima Hideyuki Umezu as Seiji Hario Minoru Inaba as Detective Kusuda Isshin Chiba as Detective Anzai Hajime Koseki as Observer Kouzou Mito as Matsukawa Chie Koujiro as Sea Symphony Hall staff Hiroshi Kawaguchi as Touru Akitaya",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Hiroyuki Tanaka as Keisuke Otsubo", "Chieko Honda as Akane Isaka", "Mami Kingetsu as Eiko Nojima", "Hideyuki Umezu as Seiji Hario", "Minoru Inaba as Detective Kusuda", "Isshin Chiba as Detective Anzai", "Hajime Koseki as Observer", "Kouzou Mito as Matsukawa", "Chie Koujiro as Sea Symphony Hall staff", "Hiroshi Kawaguchi as Touru Akitaya"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Mushoku Overture",
         prevCase: "« Courtroom Confrontation II: Kisaki vs. Kujo",
         nextCase: "Parade of Malice and Saint »",
-
 
 
 
@@ -19915,6 +20517,9 @@ const allData = [
     {
         id: "301", isFiller: false, title: "301: Parade of Malice and Saint (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara", "Hiroshi Agasa", "Miwako Sato", "Yumi Miyamoto", "Ninzaburo Shiratori", "Wataru Takagi", "Juzo Megure", "Kazunobu Chiba", "Hideo Akagi", "Naoki Uemura", "Jinpei Matsuda"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "悪意と聖者の行進REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Akui to Seija no Kōshin)",
         titleInOtherLanguages: [
@@ -19948,12 +20553,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Atsuko Yuya as Miwako Sato Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kazuhiko Inoue as Ninzaburo Shiratori Yuu Sugimoto as Yumi Miyamoto Yasunori Matsumoto as Tsutsumi Katsuhisa Hōki as Postal worker Takashi Nagasako as Detective Yasuhiko Kawazu as Criminal",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Atsuko Yuya as Miwako Sato", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Kazuhiko Inoue as Ninzaburo Shiratori", "Yuu Sugimoto as Yumi Miyamoto", "Yasunori Matsumoto as Tsutsumi", "Katsuhisa Hōki as Postal worker", "Takashi Nagasako as Detective", "Yasuhiko Kawazu as Criminal"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Overture",
         prevCase: "« The Kanmon Strait of Friendship and Murderous Intent",
         nextCase: "The Victim Who Came Back »",
-
 
         mangaToAnimeChanges: [
             "After the scene where Sato informs Takagi that they need to talk later, the anime follows on with Conan reflecting on who the murderer could be, the motive and whether or not he/she was caught on tape."
@@ -19991,6 +20595,9 @@ const allData = [
     {
         id: "302", isFiller: false, title: "302: Parade of Malice and Saint (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "Ai Haibara", "Hiroshi Agasa", "Miwako Sato", "Yumi Miyamoto", "Ninzaburo Shiratori", "Wataru Takagi", "Juzo Megure", "Kazunobu Chiba", "Hideo Akagi", "Naoki Uemura", "Jinpei Matsuda"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "悪意と聖者の行進REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Akui to Seija no Kōshin)",
         titleInOtherLanguages: [
@@ -20024,12 +20631,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Atsuko Yuya as Miwako Sato Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kazuhiko Inoue as Ninzaburo Shiratori Yuu Sugimoto as Yumi Miyamoto Yasunori Matsumoto as Tsutsumi Katsuhisa Hōki as Postal worker Takashi Nagasako as Detective Yasuhiko Kawazu as Criminal",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Atsuko Yuya as Miwako Sato", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Kazuhiko Inoue as Ninzaburo Shiratori", "Yuu Sugimoto as Yumi Miyamoto", "Yasunori Matsumoto as Tsutsumi", "Katsuhisa Hōki as Postal worker", "Takashi Nagasako as Detective", "Yasuhiko Kawazu as Criminal"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Overture",
         prevCase: "« The Kanmon Strait of Friendship and Murderous Intent",
         nextCase: "The Victim Who Came Back »",
-
 
         mangaToAnimeChanges: [
             "After the scene where Sato informs Takagi that they need to talk later, the anime follows on with Conan reflecting on who the murderer could be, the motive and whether or not he/she was caught on tape."
@@ -20065,6 +20671,9 @@ const allData = [
     {
         id: "303", isFiller: true, title: "303: The Victim Who Came Back",
         appearances: ["Conan Edogawa", "Detective Boys", "Wataru Takagi", "Juzo Megure"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "戻って来た被害者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Modotte Kita Higaisha)",
         titleInOtherLanguages: [
@@ -20097,12 +20706,11 @@ const allData = [
         screenplay: "Nobuo OgizawaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMasataka Tsukimawashi",
         storyboard: "Kazuhito Kikuchi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Wataru Takagi, Genta Kojima Chafurin as Juzo Megure Keiko Han as Sanae Hosono Kozo Shioya as Masateru Hino Masaharu Satō as Toshimichi Hirose Katsumi Toriumi as Hisashi Makimura Chisato Nakajima as Housewife A Asako Dodo as Housewife B Motomu Kiyokawa as Kazuhiro Tokunaga",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Chafurin as Juzo Megure", "Keiko Han as Sanae Hosono", "Kozo Shioya as Masateru Hino", "Masaharu Satō as Toshimichi Hirose", "Katsumi Toriumi as Hisashi Makimura", "Chisato Nakajima as Housewife A", "Asako Dodo as Housewife B", "Motomu Kiyokawa as Kazuhiro Tokunaga"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Overture",
         prevCase: "« Parade of Malice and Saint",
         nextCase: "The Trembling Police Headquarters: 12 Million Hostages »",
-
 
 
         trivia: [
@@ -20131,6 +20739,9 @@ const allData = [
     {
         id: "304", isFiller: false, title: "304: The Trembling Police Headquarters: 12 Million Hostages (2 Hour Special)",
         appearances: ["Conan Edogawa", "Miwako Sato", "Juzo Megure", "Wataru Takagi", "Jinpei Matsuda", "Masayoshi Sato", "Detective Boys", "Ai Haibara", "Ninzaburo Shiratori", "Hiroshi Agasa", "Kiyonaga Matsumoto", "Kazunobu Chiba", "Kogoro Mouri", "Ran Mouri", "Yumi Miyamoto", "Sonoko Suzuki", "Shinichi Kudo", "Makoto Kyogoku", "Yoko Okino", "Detective Konno", "Unnamed officer", "Unnamed officer", "Professor"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "揺れる警視庁 1200万人の人質REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yureru Keishichō Sennihyakumannin no Hitojichi)",
         titleInOtherLanguages: [
@@ -20165,12 +20776,11 @@ const allData = [
 
         storyboard: "Hirohito OchiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMashu ItoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHMasato Sato",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Naoko Matsui as Sonoko Suzuki Seizo Kato as Kiyonaga Matsumoto Kazuhiko Inoue as Ninzaburo Shiratori Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba Yuu Sugimoto as Yumi Miyamoto Nobutoshi Canna as Jinpei Matsuda Shin'ichiro Miki as Kenji Hagiwara Yasunori Matsumoto as Detective A Hiroshi Matsumoto as Detective B Minoru Inaba as Detective C Daiki Nakamura as Member Takashi Nagasako as Policeman Shinpachi Tsuji as Older man Katsumi Toriumi as Staff member Chieko Honda as Female TV announcer Mari Maruta as Akemi's mother Mika Kanai as Akemi Machiko Toyoshima as Young woman Joji Nakata as Serial bomber A Masaharu Sato as Serial bomber B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Naoko Matsui as Sonoko Suzuki", "Seizo Kato as Kiyonaga Matsumoto", "Kazuhiko Inoue as Ninzaburo Shiratori", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba", "Yuu Sugimoto as Yumi Miyamoto", "Nobutoshi Canna as Jinpei Matsuda", "Shin'ichiro Miki as Kenji Hagiwara", "Yasunori Matsumoto as Detective A", "Hiroshi Matsumoto as Detective B", "Minoru Inaba as Detective C", "Daiki Nakamura as Member", "Takashi Nagasako as Policeman", "Shinpachi Tsuji as Older man", "Katsumi Toriumi as Staff member", "Chieko Honda as Female TV announcer", "Mari Maruta as Akemi's mother", "Mika Kanai as Akemi", "Machiko Toyoshima as Young woman", "Joji Nakata as Serial bomber A", "Masaharu Sato as Serial bomber B"],
         openingSong: "I can't stop my love for you♥",
         endingSong: "Overture",
         prevCase: "« The Victim Who Came Back",
         nextCase: "The Unseen Suspect »",
-
 
         mangaToAnimeChanges: [
             "In the manga version, not much is known about the bombing case that happened 7 years ago. Kenji Hagiwara also doesn't receive any specific character design like he does in the anime version, as he is only mentioned by name.",
@@ -20254,6 +20864,9 @@ const allData = [
     {
         id: "305", isFiller: false, title: "305: The Unseen Suspect (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Eri Kisaki", "Jugo Yokomizo", "Policeman", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "見えない容疑者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mienai Yōgisha)",
         titleInOtherLanguages: [
@@ -20286,12 +20899,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Akio Otsuka as Sango Yokomizo, Jugo Yokomizo Gara Takashima as Eri Kisaki Katsuji Mori as Yoshiki Kazami Ken Shiroyama as Director Takashi Nagasaki as Detective Saeko Shimazu as Ruri Ujo Ken Narita as Nobuharu Nagumo Haruna Ikezawa as Kasumi Namihara Toshiharu Sakurai as Cameraman, Staff 1 Junichi Sugawara as Assistant director, Staff 2 Isshin Chiba as Forensics officer Shunsuke Shima as Akira Nagumo",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Akio Otsuka as Sango Yokomizo, Jugo Yokomizo", "Gara Takashima as Eri Kisaki", "Katsuji Mori as Yoshiki Kazami", "Ken Shiroyama as Director", "Takashi Nagasaki as Detective", "Saeko Shimazu as Ruri Ujo", "Ken Narita as Nobuharu Nagumo", "Haruna Ikezawa as Kasumi Namihara", "Toshiharu Sakurai as Cameraman, Staff 1", "Junichi Sugawara as Assistant director, Staff 2", "Isshin Chiba as Forensics officer", "Shunsuke Shima as Akira Nagumo"],
         openingSong: "I can't stop my love for you♥ Kaze no Lalala",
         endingSong: "Overture",
         prevCase: "« The Trembling Police Headquarters: 12 Million Hostages",
         nextCase: "On the Trail of a Silent Witness »",
-
 
 
         trivia: [
@@ -20323,6 +20935,9 @@ const allData = [
     {
         id: "306", isFiller: false, title: "306: The Unseen Suspect (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Eri Kisaki", "Jugo Yokomizo", "Policeman", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "見えない容疑者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mienai Yōgisha)",
         titleInOtherLanguages: [
@@ -20355,12 +20970,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Akio Otsuka as Sango Yokomizo, Jugo Yokomizo Gara Takashima as Eri Kisaki Katsuji Mori as Yoshiki Kazami Ken Shiroyama as Director Takashi Nagasaki as Detective Saeko Shimazu as Ruri Ujo Ken Narita as Nobuharu Nagumo Haruna Ikezawa as Kasumi Namihara Toshiharu Sakurai as Cameraman, Staff 1 Junichi Sugawara as Assistant director, Staff 2 Isshin Chiba as Forensics officer Shunsuke Shima as Akira Nagumo",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Akio Otsuka as Sango Yokomizo, Jugo Yokomizo", "Gara Takashima as Eri Kisaki", "Katsuji Mori as Yoshiki Kazami", "Ken Shiroyama as Director", "Takashi Nagasaki as Detective", "Saeko Shimazu as Ruri Ujo", "Ken Narita as Nobuharu Nagumo", "Haruna Ikezawa as Kasumi Namihara", "Toshiharu Sakurai as Cameraman, Staff 1", "Junichi Sugawara as Assistant director, Staff 2", "Isshin Chiba as Forensics officer", "Shunsuke Shima as Akira Nagumo"],
         openingSong: "I can't stop my love for you♥ Kaze no Lalala",
         endingSong: "Overture",
         prevCase: "« The Trembling Police Headquarters: 12 Million Hostages",
         nextCase: "On the Trail of a Silent Witness »",
-
 
 
         trivia: [
@@ -20393,6 +21007,9 @@ const allData = [
     {
         id: "307", isFiller: false, title: "307: On the Trail of a Silent Witness (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Shuichi Akai", "Tequila", "Gin", "Vodka", "Suguru Itakura", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "残された声なき証言REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Nokosareta Koenaki Shōgen)",
         titleInOtherLanguages: [
@@ -20424,12 +21041,11 @@ const allData = [
 
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Ryuzaburo Otomo as Suguru Itakura Isshin Chiba as Kazunobu Chiba Kaneomi Oya as Johei Naito Yasunori Matsumoto as Katsumichi Sugai Shinya Otaki as Medical examiner Osamu Saka as Ryusuke Soma",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Ryuzaburo Otomo as Suguru Itakura", "Isshin Chiba as Kazunobu Chiba", "Kaneomi Oya as Johei Naito", "Yasunori Matsumoto as Katsumichi Sugai", "Shinya Otaki as Medical examiner", "Osamu Saka as Ryusuke Soma"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Unseen Suspect",
         nextCase: "Contact with the Black Organization »",
-
 
 
         trivia: [
@@ -20465,6 +21081,9 @@ const allData = [
     {
         id: "308", isFiller: false, title: "308: On the Trail of a Silent Witness (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Shuichi Akai", "Tequila", "Gin", "Vodka", "Suguru Itakura", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "残された声なき証言REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Nokosareta Koenaki Shōgen)",
         titleInOtherLanguages: [
@@ -20496,12 +21115,11 @@ const allData = [
 
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Ryuzaburo Otomo as Suguru Itakura Isshin Chiba as Kazunobu Chiba Kaneomi Oya as Johei Naito Yasunori Matsumoto as Katsumichi Sugai Shinya Otaki as Medical examiner Osamu Saka as Ryusuke Soma",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Ryuzaburo Otomo as Suguru Itakura", "Isshin Chiba as Kazunobu Chiba", "Kaneomi Oya as Johei Naito", "Yasunori Matsumoto as Katsumichi Sugai", "Shinya Otaki as Medical examiner", "Osamu Saka as Ryusuke Soma"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Unseen Suspect",
         nextCase: "Contact with the Black Organization »",
-
 
 
         trivia: [
@@ -20538,6 +21156,9 @@ const allData = [
     {
         id: "309", isFiller: false, title: "309: Contact with the Black Organization (The Negotiation)",
         appearances: ["Conan Edogawa", "Hiroshi Agasa", "Ai Haibara", "Ran Mouri", "Misao Yamamura", "Juzo Megure", "Kazunobu Chiba", "Shuichi Akai", "Vodka", "Gin", "Tequila", "Suguru Itakura", "Shinichi Kudo", "Vermouth"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "黒の組織との接触REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kuro no Soshiki to no Sesshoku)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH309 交渉編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH310 追跡編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH311 決死編",
         titleInOtherLanguages: [
@@ -20569,12 +21190,11 @@ const allData = [
 
         storyboard: "309 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH310 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH311 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Toshio Furukawa as Misao Yamamura Chafurin as Juzo Megure Isshin Chiba as Kazunobu Chiba Shuichi Ikeda as Shuichi Akai Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Ryuzaburo Otomo as Suguru Itakura Takashi Nagasako as Radio voice Masashi Sugawara as Workman Masashi Hirose as Man Roko Takizawa as Woman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Toshio Furukawa as Misao Yamamura", "Chafurin as Juzo Megure", "Isshin Chiba as Kazunobu Chiba", "Shuichi Ikeda as Shuichi Akai", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Ryuzaburo Otomo as Suguru Itakura", "Takashi Nagasako as Radio voice", "Masashi Sugawara as Workman", "Masashi Hirose as Man", "Roko Takizawa as Woman"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« On the Trail of a Silent Witness",
         nextCase: "Festival Dolls Dyed in the Setting Sun »",
-
 
 
         trivia: [
@@ -20607,6 +21227,9 @@ const allData = [
     {
         id: "310", isFiller: false, title: "310: Contact with the Black Organization (The Pursuit)",
         appearances: ["Conan Edogawa", "Hiroshi Agasa", "Ai Haibara", "Ran Mouri", "Misao Yamamura", "Juzo Megure", "Kazunobu Chiba", "Shuichi Akai", "Vodka", "Gin", "Tequila", "Suguru Itakura", "Shinichi Kudo", "Vermouth"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "黒の組織との接触REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kuro no Soshiki to no Sesshoku)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH309 交渉編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH310 追跡編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH311 決死編",
         titleInOtherLanguages: [
@@ -20638,12 +21261,11 @@ const allData = [
 
         storyboard: "309 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH310 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH311 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Toshio Furukawa as Misao Yamamura Chafurin as Juzo Megure Isshin Chiba as Kazunobu Chiba Shuichi Ikeda as Shuichi Akai Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Ryuzaburo Otomo as Suguru Itakura Takashi Nagasako as Radio voice Masashi Sugawara as Workman Masashi Hirose as Man Roko Takizawa as Woman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Toshio Furukawa as Misao Yamamura", "Chafurin as Juzo Megure", "Isshin Chiba as Kazunobu Chiba", "Shuichi Ikeda as Shuichi Akai", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Ryuzaburo Otomo as Suguru Itakura", "Takashi Nagasako as Radio voice", "Masashi Sugawara as Workman", "Masashi Hirose as Man", "Roko Takizawa as Woman"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« On the Trail of a Silent Witness",
         nextCase: "Festival Dolls Dyed in the Setting Sun »",
-
 
 
         trivia: [
@@ -20678,6 +21300,9 @@ const allData = [
     {
         id: "311", isFiller: false, title: "311: Contact with the Black Organization (Desperation)",
         appearances: ["Conan Edogawa", "Hiroshi Agasa", "Ai Haibara", "Ran Mouri", "Misao Yamamura", "Juzo Megure", "Kazunobu Chiba", "Shuichi Akai", "Vodka", "Gin", "Tequila", "Suguru Itakura", "Shinichi Kudo", "Vermouth"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "黒の組織との接触REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kuro no Soshiki to no Sesshoku)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH309 交渉編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH310 追跡編REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH311 決死編",
         titleInOtherLanguages: [
@@ -20709,12 +21334,11 @@ const allData = [
 
         storyboard: "309 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH310 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH311 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Toshio Furukawa as Misao Yamamura Chafurin as Juzo Megure Isshin Chiba as Kazunobu Chiba Shuichi Ikeda as Shuichi Akai Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Ryuzaburo Otomo as Suguru Itakura Takashi Nagasako as Radio voice Masashi Sugawara as Workman Masashi Hirose as Man Roko Takizawa as Woman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Toshio Furukawa as Misao Yamamura", "Chafurin as Juzo Megure", "Isshin Chiba as Kazunobu Chiba", "Shuichi Ikeda as Shuichi Akai", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Ryuzaburo Otomo as Suguru Itakura", "Takashi Nagasako as Radio voice", "Masashi Sugawara as Workman", "Masashi Hirose as Man", "Roko Takizawa as Woman"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« On the Trail of a Silent Witness",
         nextCase: "Festival Dolls Dyed in the Setting Sun »",
-
 
 
         trivia: [
@@ -20750,6 +21374,9 @@ const allData = [
     {
         id: "312", isFiller: false, title: "312: Festival Dolls Dyed in the Setting Sun (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Inspector Momose"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "夕陽に染まった雛人形REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yūhi ni Somatta Hinaningyō)",
         titleInOtherLanguages: [
@@ -20781,12 +21408,11 @@ const allData = [
 
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Kozo Shioya as Inspector Momose Tamio Oki as Yoshiharu Mie Tetsuo Mizutori as Mizutaka Tsumagari Junko Hagimori as Setsuko Kanno Naoki Imamura as Detective Miyoko Asō as Yayoi Kanno",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Kozo Shioya as Inspector Momose", "Tamio Oki as Yoshiharu Mie", "Tetsuo Mizutori as Mizutaka Tsumagari", "Junko Hagimori as Setsuko Kanno", "Naoki Imamura as Detective", "Miyoko Asō as Yayoi Kanno"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Contact with the Black Organization",
         nextCase: "The Scenic Lookout with the Broken Fence »",
-
 
 
         trivia: [
@@ -20818,6 +21444,9 @@ const allData = [
     {
         id: "313", isFiller: false, title: "313: Festival Dolls Dyed in the Setting Sun (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Inspector Momose"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "夕陽に染まった雛人形REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yūhi ni Somatta Hinaningyō)",
         titleInOtherLanguages: [
@@ -20849,12 +21478,11 @@ const allData = [
 
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Kozo Shioya as Inspector Momose Tamio Oki as Yoshiharu Mie Tetsuo Mizutori as Mizutaka Tsumagari Junko Hagimori as Setsuko Kanno Naoki Imamura as Detective Miyoko Asō as Yayoi Kanno",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Kozo Shioya as Inspector Momose", "Tamio Oki as Yoshiharu Mie", "Tetsuo Mizutori as Mizutaka Tsumagari", "Junko Hagimori as Setsuko Kanno", "Naoki Imamura as Detective", "Miyoko Asō as Yayoi Kanno"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Contact with the Black Organization",
         nextCase: "The Scenic Lookout with the Broken Fence »",
-
 
 
         trivia: [
@@ -20884,6 +21512,9 @@ const allData = [
     {
         id: "314", isFiller: true, title: "314: The Scenic Lookout with the Broken Fence",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "壊れた柵の展望台REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kowareta Saku no Tenbōdai)",
         titleInOtherLanguages: [
@@ -20916,12 +21547,11 @@ const allData = [
         screenplay: "Hiro Masaki",
         storyboard: "Masakazu Amiya",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Dai Matsumoto as Takaya Hirai Masashi Sugawara as Eeichiro Kondo Isshin Chiba as Police officer Takeharu Onishi as Paramedic",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Dai Matsumoto as Takaya Hirai", "Masashi Sugawara as Eeichiro Kondo", "Isshin Chiba as Police officer", "Takeharu Onishi as Paramedic"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Festival Dolls Dyed in the Setting Sun",
         nextCase: "Place Exposed to the Sun »",
-
 
 
         trivia: [
@@ -20952,6 +21582,9 @@ const allData = [
     {
         id: "315", isFiller: true, title: "315: Place Exposed to the Sun",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "陽のあたる場所REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hi no Ataru Basho)",
         titleInOtherLanguages: [
@@ -20984,12 +21617,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Eisuke Yoda as Seizan Hayakawa Kazuo Oka as Officer Daimatsu Chie Koujiro as Noriko Yamamoto Junko Shimakata as Kenichi Yamamoto Kazunari Tanaka as Jiro Kuroki",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Eisuke Yoda as Seizan Hayakawa", "Kazuo Oka as Officer Daimatsu", "Chie Koujiro as Noriko Yamamoto", "Junko Shimakata as Kenichi Yamamoto", "Kazunari Tanaka as Jiro Kuroki"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Scenic Lookout with the Broken Fence",
         nextCase: "The Sullied Masked Hero »",
-
 
 
 
@@ -21022,6 +21654,9 @@ const allData = [
     {
         id: "316", isFiller: false, title: "316: The Sullied Masked Hero (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Naomichi Mugikura", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Sonoko Suzuki", "Osamu Machida", "Yoshihito Nakano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "汚れた覆面ヒーローREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yogoreta Fukumen Hiirō)",
         titleInOtherLanguages: [
@@ -21054,12 +21689,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba, Young wrestler 1 Naoko Matsui as Sonoko Suzuki Toshihiko Seki as Takaharu Ogami Mitsuaki Madono as Hyota Nagase Kiyomitsu Mizuuchi as Iwao Ushigome Masayuki Nakata as Hiroyuki Sakuma Masahiko Tanaka as Leonardo Rossi Joji Nakata as Kiba Hidenari Ugaki as Kayama Toru Okawa as Naomichi Mugikura Takuya Hayasaka as Young wrestler 2 Takahiro Yoshinaga as Ring announcer Sachi Matsumoto as Female fan 1 Akiko Ashida as Female fan 2 Akimitsu Takase as Reporter",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Isshin Chiba as Kazunobu Chiba, Young wrestler 1", "Naoko Matsui as Sonoko Suzuki", "Toshihiko Seki as Takaharu Ogami", "Mitsuaki Madono as Hyota Nagase", "Kiyomitsu Mizuuchi as Iwao Ushigome", "Masayuki Nakata as Hiroyuki Sakuma", "Masahiko Tanaka as Leonardo Rossi", "Joji Nakata as Kiba", "Hidenari Ugaki as Kayama", "Toru Okawa as Naomichi Mugikura", "Takuya Hayasaka as Young wrestler 2", "Takahiro Yoshinaga as Ring announcer", "Sachi Matsumoto as Female fan 1", "Akiko Ashida as Female fan 2", "Akimitsu Takase as Reporter"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Place Exposed to the Sun",
         nextCase: "The Lucky Cigar Case »",
-
 
         mangaToAnimeChanges: [
             "In the manga, when Ushigome was choking Conan, he had him pinned to the ground rather than in air like in the anime."
@@ -21093,6 +21727,9 @@ const allData = [
     {
         id: "317", isFiller: false, title: "317: The Sullied Masked Hero (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Naomichi Mugikura", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Sonoko Suzuki", "Osamu Machida", "Yoshihito Nakano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "汚れた覆面ヒーローREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yogoreta Fukumen Hiirō)",
         titleInOtherLanguages: [
@@ -21125,12 +21762,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba, Young wrestler 1 Naoko Matsui as Sonoko Suzuki Toshihiko Seki as Takaharu Ogami Mitsuaki Madono as Hyota Nagase Kiyomitsu Mizuuchi as Iwao Ushigome Masayuki Nakata as Hiroyuki Sakuma Masahiko Tanaka as Leonardo Rossi Joji Nakata as Kiba Hidenari Ugaki as Kayama Toru Okawa as Naomichi Mugikura Takuya Hayasaka as Young wrestler 2 Takahiro Yoshinaga as Ring announcer Sachi Matsumoto as Female fan 1 Akiko Ashida as Female fan 2 Akimitsu Takase as Reporter",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Isshin Chiba as Kazunobu Chiba, Young wrestler 1", "Naoko Matsui as Sonoko Suzuki", "Toshihiko Seki as Takaharu Ogami", "Mitsuaki Madono as Hyota Nagase", "Kiyomitsu Mizuuchi as Iwao Ushigome", "Masayuki Nakata as Hiroyuki Sakuma", "Masahiko Tanaka as Leonardo Rossi", "Joji Nakata as Kiba", "Hidenari Ugaki as Kayama", "Toru Okawa as Naomichi Mugikura", "Takuya Hayasaka as Young wrestler 2", "Takahiro Yoshinaga as Ring announcer", "Sachi Matsumoto as Female fan 1", "Akiko Ashida as Female fan 2", "Akimitsu Takase as Reporter"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Place Exposed to the Sun",
         nextCase: "The Lucky Cigar Case »",
-
 
         mangaToAnimeChanges: [
             "In the manga, when Ushigome was choking Conan, he had him pinned to the ground rather than in air like in the anime."
@@ -21164,6 +21800,9 @@ const allData = [
     {
         id: "318", isFiller: true, title: "318: The Lucky Cigar Case (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Police detective A", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "幸運のシガーケースREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kōun no Shigā Kēsu)",
         titleInOtherLanguages: [
@@ -21197,12 +21836,11 @@ const allData = [
         screenplay: "Shunsuke Ozawa",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Akio Otsuka as Sango Yokomizo Kan Tokumaru as Shiro Umetani Masaharu Sato as Eigo Kasahara Nobuo Tobita as Haruo Nakano Katsumi Toriumi as Masaki Hiramatsu Takashi Nagasako as Police detective A Akira Sasanuma as Officer Shimada",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Akio Otsuka as Sango Yokomizo", "Kan Tokumaru as Shiro Umetani", "Masaharu Sato as Eigo Kasahara", "Nobuo Tobita as Haruo Nakano", "Katsumi Toriumi as Masaki Hiramatsu", "Takashi Nagasako as Police detective A", "Akira Sasanuma as Officer Shimada"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Sullied Masked Hero",
         nextCase: "The Art of Ninja Alibi Craft »",
-
 
 
         trivia: [
@@ -21234,6 +21872,9 @@ const allData = [
     {
         id: "319", isFiller: true, title: "319: The Lucky Cigar Case (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sango Yokomizo", "Police detective A", "Policeman"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "幸運のシガーケースREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kōun no Shigā Kēsu)",
         titleInOtherLanguages: [
@@ -21267,12 +21908,11 @@ const allData = [
         screenplay: "Shunsuke Ozawa",
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Akio Otsuka as Sango Yokomizo Kan Tokumaru as Shiro Umetani Masaharu Sato as Eigo Kasahara Nobuo Tobita as Haruo Nakano Katsumi Toriumi as Masaki Hiramatsu Takashi Nagasako as Police detective A Akira Sasanuma as Officer Shimada",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Akio Otsuka as Sango Yokomizo", "Kan Tokumaru as Shiro Umetani", "Masaharu Sato as Eigo Kasahara", "Nobuo Tobita as Haruo Nakano", "Katsumi Toriumi as Masaki Hiramatsu", "Takashi Nagasako as Police detective A", "Akira Sasanuma as Officer Shimada"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Sullied Masked Hero",
         nextCase: "The Art of Ninja Alibi Craft »",
-
 
 
         trivia: [
@@ -21304,6 +21944,9 @@ const allData = [
     {
         id: "320", isFiller: true, title: "320: The Art of Ninja Alibi Craft",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Kazunobu Chiba", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "忍法アリバイ工作の術REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ninpō Aribai Kōsaku no Jutsu)",
         titleInOtherLanguages: [
@@ -21337,12 +21980,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba Tetsuya Iwanaga as Yuichi Kusaka Yōsuke Akimoto as Ryutaro Tsukigata Masato Hirano as Masaru Saruhashi Mayumi Horikoshi as Teito Station mother passenger Megumi Kubota as Teito Station child passenger",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Isshin Chiba as Kazunobu Chiba", "Tetsuya Iwanaga as Yuichi Kusaka", "Yōsuke Akimoto as Ryutaro Tsukigata", "Masato Hirano as Masaru Saruhashi", "Mayumi Horikoshi as Teito Station mother passenger", "Megumi Kubota as Teito Station child passenger"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Lucky Cigar Case",
         nextCase: "The Kidnapper's Disappearing Getaway Car »",
-
 
 
 
@@ -21373,6 +22015,9 @@ const allData = [
     {
         id: "321", isFiller: true, title: "321: The Kidnapper's Disappearing Getaway Car (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "Wataru Takagi", "Miwako Sato", "Juzo Megure", "Kazunobu Chiba", "Officer Tome", "Detective Kobayashi", "Detective Kojima", "Police detective", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "消えた誘拐逃走車REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kieta Yūkai Tōsōsha)",
         titleInOtherLanguages: [
@@ -21405,12 +22050,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "321 Hideki HiroshimaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH322 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima,Wataru Takagi, Next Conan's Hint Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba Takashi Nagasako as Detective Kobayashi Toshihiko Nakajima as Officer Tome Rica Matsumoto as Jun Kataoka Jin Yamanoi as Shigeru Kataoka Maria Kawamura as Sachiko Ezaki Aruno Tahara as Goro Kitayama Koji Totani as Tadashi Yoshizawa Asako Dodo as Nurse A Mutsumi Sugihara as Nurse B Tomohiro Nishimura as Director Naoki Imamura as Bus driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima,Wataru Takagi, Next Conan's Hint", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba", "Takashi Nagasako as Detective Kobayashi", "Toshihiko Nakajima as Officer Tome", "Rica Matsumoto as Jun Kataoka", "Jin Yamanoi as Shigeru Kataoka", "Maria Kawamura as Sachiko Ezaki", "Aruno Tahara as Goro Kitayama", "Koji Totani as Tadashi Yoshizawa", "Asako Dodo as Nurse A", "Mutsumi Sugihara as Nurse B", "Tomohiro Nishimura as Director", "Naoki Imamura as Bus driver"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Art of Ninja Alibi Craft",
         nextCase: "Heiji Hattori's Desperate Situation! »",
-
 
 
         trivia: [
@@ -21441,6 +22085,9 @@ const allData = [
     {
         id: "322", isFiller: true, title: "322: The Kidnapper's Disappearing Getaway Car (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "Wataru Takagi", "Miwako Sato", "Juzo Megure", "Kazunobu Chiba", "Officer Tome", "Detective Kobayashi", "Detective Kojima", "Police detective", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "消えた誘拐逃走車REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kieta Yūkai Tōsōsha)",
         titleInOtherLanguages: [
@@ -21473,12 +22120,11 @@ const allData = [
         screenplay: "Takeo Ohno",
         storyboard: "321 Hideki HiroshimaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH322 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Chafurin as Juzo Megure Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima,Wataru Takagi, Next Conan's Hint Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba Takashi Nagasako as Detective Kobayashi Toshihiko Nakajima as Officer Tome Rica Matsumoto as Jun Kataoka Jin Yamanoi as Shigeru Kataoka Maria Kawamura as Sachiko Ezaki Aruno Tahara as Goro Kitayama Koji Totani as Tadashi Yoshizawa Asako Dodo as Nurse A Mutsumi Sugihara as Nurse B Tomohiro Nishimura as Director Naoki Imamura as Bus driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Chafurin as Juzo Megure", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima,Wataru Takagi, Next Conan's Hint", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba", "Takashi Nagasako as Detective Kobayashi", "Toshihiko Nakajima as Officer Tome", "Rica Matsumoto as Jun Kataoka", "Jin Yamanoi as Shigeru Kataoka", "Maria Kawamura as Sachiko Ezaki", "Aruno Tahara as Goro Kitayama", "Koji Totani as Tadashi Yoshizawa", "Asako Dodo as Nurse A", "Mutsumi Sugihara as Nurse B", "Tomohiro Nishimura as Director", "Naoki Imamura as Bus driver"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Art of Ninja Alibi Craft",
         nextCase: "Heiji Hattori's Desperate Situation! »",
-
 
 
         trivia: [
@@ -21516,6 +22162,9 @@ const allData = [
     {
         id: "323", isFiller: false, title: "323: Heiji Hattori's Desperate Situation! (Part 1)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Kogoro Mouri", "Ran Mouri", "Ginshiro Toyama", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "服部平次絶体絶命!REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hattori Heiji Zettai Zetsumei!)",
         titleInOtherLanguages: [
@@ -21550,12 +22199,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hironori Miyata as Kusukawa Teiyu Ichiryusai as Misari Ito Shinya Otaki as Man A Masashi Hirose as Man B Katsuhisa Hoki as Detective agency chief Uko Tachibana as Resident A Masanobu Kariya as Resident B Isshin Chiba as Restaurant clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hironori Miyata as Kusukawa", "Teiyu Ichiryusai as Misari Ito", "Shinya Otaki as Man A", "Masashi Hirose as Man B", "Katsuhisa Hoki as Detective agency chief", "Uko Tachibana as Resident A", "Masanobu Kariya as Resident B", "Isshin Chiba as Restaurant clerk"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Kidnapper's Disappearing Getaway Car",
         nextCase: "The Red Horse within the Flames »",
-
 
 
         trivia: [
@@ -21582,6 +22230,9 @@ const allData = [
     {
         id: "324", isFiller: false, title: "324: Heiji Hattori's Desperate Situation! (Part 2)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Kogoro Mouri", "Ran Mouri", "Ginshiro Toyama", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "服部平次絶体絶命!REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hattori Heiji Zettai Zetsumei!)",
         titleInOtherLanguages: [
@@ -21616,12 +22267,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Hironori Miyata as Kusukawa Teiyu Ichiryusai as Misari Ito Shinya Otaki as Man A Masashi Hirose as Man B Katsuhisa Hoki as Detective agency chief Uko Tachibana as Resident A Masanobu Kariya as Resident B Isshin Chiba as Restaurant clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Hironori Miyata as Kusukawa", "Teiyu Ichiryusai as Misari Ito", "Shinya Otaki as Man A", "Masashi Hirose as Man B", "Katsuhisa Hoki as Detective agency chief", "Uko Tachibana as Resident A", "Masanobu Kariya as Resident B", "Isshin Chiba as Restaurant clerk"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Kidnapper's Disappearing Getaway Car",
         nextCase: "The Red Horse within the Flames »",
-
 
 
         trivia: [
@@ -21652,6 +22302,9 @@ const allData = [
     {
         id: "325", isFiller: false, title: "325: The Red Horse within the Flames (The Case)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Ran Mouri", "Kogoro Mouri", "Inspector Yuminaga"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "炎の中に赤い馬REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honō no Naka ni Akai Uma)",
         titleInOtherLanguages: [
@@ -21685,12 +22338,11 @@ const allData = [
 
         storyboard: "325 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH326 Kazuyoshi YokotaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH327 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Natsuo Tokuhiro as Inspector Yuminaga Isshin Chiba as Firefighter, Detective Hiroshi Masuoka as Takanori Genda Keiko Han as Ryoko Morozumi Kinryu Arimoto as Misao Soga Yumi Nakatani as Keiko Gendo Osamu Ichikawa as Akira Morozumi Makiko Omoto as Child Junko Hagimori as Mother Koichi Nagano as Antique shop clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Natsuo Tokuhiro as Inspector Yuminaga", "Isshin Chiba as Firefighter, Detective", "Hiroshi Masuoka as Takanori Genda", "Keiko Han as Ryoko Morozumi", "Kinryu Arimoto as Misao Soga", "Yumi Nakatani as Keiko Gendo", "Osamu Ichikawa as Akira Morozumi", "Makiko Omoto as Child", "Junko Hagimori as Mother", "Koichi Nagano as Antique shop clerk"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Heiji Hattori's Desperate Situation!",
         nextCase: "The Birthday Wine Mystery »",
-
 
 
         trivia: [
@@ -21719,6 +22371,9 @@ const allData = [
     {
         id: "326", isFiller: false, title: "326: The Red Horse within the Flames (The Investigation)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Ran Mouri", "Kogoro Mouri", "Inspector Yuminaga"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "炎の中に赤い馬REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honō no Naka ni Akai Uma)",
         titleInOtherLanguages: [
@@ -21752,12 +22407,11 @@ const allData = [
 
         storyboard: "325 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH326 Kazuyoshi YokotaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH327 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Natsuo Tokuhiro as Inspector Yuminaga Isshin Chiba as Firefighter, Detective Hiroshi Masuoka as Takanori Genda Keiko Han as Ryoko Morozumi Kinryu Arimoto as Misao Soga Yumi Nakatani as Keiko Gendo Osamu Ichikawa as Akira Morozumi Makiko Omoto as Child Junko Hagimori as Mother Koichi Nagano as Antique shop clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Natsuo Tokuhiro as Inspector Yuminaga", "Isshin Chiba as Firefighter, Detective", "Hiroshi Masuoka as Takanori Genda", "Keiko Han as Ryoko Morozumi", "Kinryu Arimoto as Misao Soga", "Yumi Nakatani as Keiko Gendo", "Osamu Ichikawa as Akira Morozumi", "Makiko Omoto as Child", "Junko Hagimori as Mother", "Koichi Nagano as Antique shop clerk"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Heiji Hattori's Desperate Situation!",
         nextCase: "The Birthday Wine Mystery »",
-
 
 
         trivia: [
@@ -21788,6 +22442,9 @@ const allData = [
     {
         id: "327", isFiller: false, title: "327: The Red Horse within the Flames (The Resolution)",
         appearances: ["Conan Edogawa", "Heiji Hattori", "Kazuha Toyama", "Ran Mouri", "Kogoro Mouri", "Inspector Yuminaga"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "炎の中に赤い馬REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honō no Naka ni Akai Uma)",
         titleInOtherLanguages: [
@@ -21821,12 +22478,11 @@ const allData = [
 
         storyboard: "325 Chika IchimaruREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH326 Kazuyoshi YokotaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH327 Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Ryo Horikawa as Heiji Hattori Yuko Miyamura as Kazuha Toyama Natsuo Tokuhiro as Inspector Yuminaga Isshin Chiba as Firefighter, Detective Hiroshi Masuoka as Takanori Genda Keiko Han as Ryoko Morozumi Kinryu Arimoto as Misao Soga Yumi Nakatani as Keiko Gendo Osamu Ichikawa as Akira Morozumi Makiko Omoto as Child Junko Hagimori as Mother Koichi Nagano as Antique shop clerk",
+        voiceCast: ["Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Ryo Horikawa as Heiji Hattori", "Yuko Miyamura as Kazuha Toyama", "Natsuo Tokuhiro as Inspector Yuminaga", "Isshin Chiba as Firefighter, Detective", "Hiroshi Masuoka as Takanori Genda", "Keiko Han as Ryoko Morozumi", "Kinryu Arimoto as Misao Soga", "Yumi Nakatani as Keiko Gendo", "Osamu Ichikawa as Akira Morozumi", "Makiko Omoto as Child", "Junko Hagimori as Mother", "Koichi Nagano as Antique shop clerk"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« Heiji Hattori's Desperate Situation!",
         nextCase: "The Birthday Wine Mystery »",
-
 
 
         trivia: [
@@ -21856,6 +22512,9 @@ const allData = [
     {
         id: "328", isFiller: true, title: "328: The Birthday Wine Mystery",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Officer Tome", "Kamen Yaiba"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "バースデー·ワインの謎REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Bāsudē Wain no Nazo)",
         titleInOtherLanguages: [
@@ -21887,12 +22546,11 @@ const allData = [
         screenplay: "Yutaka Yamada",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Toshihiko Nakajima as Officer Tome Mami Kingetsu as Yuki Kojima Kōsuke Meguro as Kazuki Nonaka Hiroko Emori as Keiko Sawaguchi Kyōsei Tsukui as Junji Togashi",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Toshihiko Nakajima as Officer Tome", "Mami Kingetsu as Yuki Kojima", "Kōsuke Meguro as Kazuki Nonaka", "Hiroko Emori as Keiko Sawaguchi", "Kyōsei Tsukui as Junji Togashi"],
         openingSong: "Kaze no Lalala",
         endingSong: "Ashita o Yume Mite",
         prevCase: "« The Red Horse within the Flames",
         nextCase: "A Friendship That Can't Be Bought »",
-
 
 
 
@@ -21923,6 +22581,9 @@ const allData = [
     {
         id: "329", isFiller: false, title: "329: A Friendship That Can't Be Bought (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Suguru Itakura", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Ran Mouri", "Sonoko Suzuki", "Yoko Okino", "Vermouth", "Elena Miyano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "お金で買えない友情REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Okane de Kaenai Yūjō)",
         titleInOtherLanguages: [
@@ -21955,12 +22616,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wakana Yamazaki as Ran Mouri Keiichi Nanba as Reiji Fukuura Kae Araki as Haruka Tendo Kouichi Nagano as Takuto Meshiai Minako Arakawa as Yasumi Shirafuji Keiichi Sonobe as Coroner Rie Kugimiya as Megumi",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wakana Yamazaki as Ran Mouri", "Keiichi Nanba as Reiji Fukuura", "Kae Araki as Haruka Tendo", "Kouichi Nagano as Takuto Meshiai", "Minako Arakawa as Yasumi Shirafuji", "Keiichi Sonobe as Coroner", "Rie Kugimiya as Megumi"],
         openingSong: "Kaze no Lalala",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Birthday Wine Mystery",
         nextCase: "The Suspicious Spicy Curry »",
-
 
 
         trivia: [
@@ -21993,6 +22653,9 @@ const allData = [
     {
         id: "330", isFiller: false, title: "330: A Friendship That Can't Be Bought( art 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Suguru Itakura", "Juzo Megure", "Wataru Takagi", "Shinichi Kudo", "Ran Mouri", "Sonoko Suzuki", "Yoko Okino", "Vermouth", "Elena Miyano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "お金で買えない友情REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Okane de Kaenai Yūjō)",
         titleInOtherLanguages: [
@@ -22025,12 +22688,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Wakana Yamazaki as Ran Mouri Keiichi Nanba as Reiji Fukuura Kae Araki as Haruka Tendo Kouichi Nagano as Takuto Meshiai Minako Arakawa as Yasumi Shirafuji Keiichi Sonobe as Coroner Rie Kugimiya as Megumi",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Wakana Yamazaki as Ran Mouri", "Keiichi Nanba as Reiji Fukuura", "Kae Araki as Haruka Tendo", "Kouichi Nagano as Takuto Meshiai", "Minako Arakawa as Yasumi Shirafuji", "Keiichi Sonobe as Coroner", "Rie Kugimiya as Megumi"],
         openingSong: "Kaze no Lalala",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Birthday Wine Mystery",
         nextCase: "The Suspicious Spicy Curry »",
-
 
 
         trivia: [
@@ -22063,6 +22725,9 @@ const allData = [
     {
         id: "331", isFiller: false, title: "331: The Suspicious Spicy Curry (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Misao Yamamura", "Makoto Kyogoku", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "疑惑の辛口カレーREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Giwaku no Karakuchi Karē)",
         titleInOtherLanguages: [
@@ -22094,12 +22759,11 @@ const allData = [
 
         storyboard: "331 Hirohito OchiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH332 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Toshio Furukawa as Misao Yamamura Shozo Iizuka as Iwao Akashi Tomoyuki Dan as Hiroto Akashi Isshin Chiba as Police officer A Takeharu Onishi as Police officer B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Toshio Furukawa as Misao Yamamura", "Shozo Iizuka as Iwao Akashi", "Tomoyuki Dan as Hiroto Akashi", "Isshin Chiba as Police officer A", "Takeharu Onishi as Police officer B"],
         openingSong: "Kaze no Lalala",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« A Friendship That Can't Be Bought",
         nextCase: "The Similar Princesses »",
-
 
 
         trivia: [
@@ -22135,6 +22799,9 @@ const allData = [
     {
         id: "332", isFiller: false, title: "332: The Suspicious Spicy Curry (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Misao Yamamura", "Makoto Kyogoku", "Shinichi Kudo"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "疑惑の辛口カレーREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Giwaku no Karakuchi Karē)",
         titleInOtherLanguages: [
@@ -22166,12 +22833,11 @@ const allData = [
 
         storyboard: "331 Hirohito OchiREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH332 Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Toshio Furukawa as Misao Yamamura Shozo Iizuka as Iwao Akashi Tomoyuki Dan as Hiroto Akashi Isshin Chiba as Police officer A Takeharu Onishi as Police officer B",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Toshio Furukawa as Misao Yamamura", "Shozo Iizuka as Iwao Akashi", "Tomoyuki Dan as Hiroto Akashi", "Isshin Chiba as Police officer A", "Takeharu Onishi as Police officer B"],
         openingSong: "Kaze no Lalala",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« A Friendship That Can't Be Bought",
         nextCase: "The Similar Princesses »",
-
 
 
         trivia: [
@@ -22208,6 +22874,9 @@ const allData = [
     {
         id: "333", isFiller: false, title: "333: The Similar Princesses (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Eri Kisaki", "Yukiko Kudo", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Midori Kuriyama", "Yoko Okino"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "似た者プリンセスREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Nitamono Purinsesu)",
         titleInOtherLanguages: [
@@ -22239,12 +22908,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Gara Takashima as Eri Kisaki Sumi Shimamoto as Yukiko Kudo Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba Asako Dodo as Midori Kuriyama Miki Nagasawa as Yoko Okino Fumio Matsuoka as Sohachi Ueki Akira Shimada as Kozo Doi Akira Murayama as Shigeru Fujieda Kosei Tomita as Mikio Fujieda Yukari Honma as Motoka Fujieda Yasunori Masutani as Waiter Naoki Makishima as Policeman 1 Masahiro Okazaki as Policeman 2 Fujiko Takimoto as Maid 1 Naoko Nakamura as Maid 2 Sayuri Kubo as Maid 3 Akiko Toda as Maid 4",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Gara Takashima as Eri Kisaki", "Sumi Shimamoto as Yukiko Kudo", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Isshin Chiba as Kazunobu Chiba", "Asako Dodo as Midori Kuriyama", "Miki Nagasawa as Yoko Okino", "Fumio Matsuoka as Sohachi Ueki", "Akira Shimada as Kozo Doi", "Akira Murayama as Shigeru Fujieda", "Kosei Tomita as Mikio Fujieda", "Yukari Honma as Motoka Fujieda", "Yasunori Masutani as Waiter", "Naoki Makishima as Policeman 1", "Masahiro Okazaki as Policeman 2", "Fujiko Takimoto as Maid 1", "Naoko Nakamura as Maid 2", "Sayuri Kubo as Maid 3", "Akiko Toda as Maid 4"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Suspicious Spicy Curry",
         nextCase: "Secret of the Tohto Film Development Studio »",
-
 
         mangaToAnimeChanges: [
             "In the manga, Yukiko wears a cross necklace as an accessory. This is changed to a silver 'l' in the anime to avoid doing any religious reference."
@@ -22281,6 +22949,9 @@ const allData = [
     {
         id: "334", isFiller: false, title: "334: The Similar Princesses (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Eri Kisaki", "Yukiko Kudo", "Juzo Megure", "Wataru Takagi", "Kazunobu Chiba", "Midori Kuriyama", "Yoko Okino"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "似た者プリンセスREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Nitamono Purinsesu)",
         titleInOtherLanguages: [
@@ -22312,12 +22983,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Gara Takashima as Eri Kisaki Sumi Shimamoto as Yukiko Kudo Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba Asako Dodo as Midori Kuriyama Miki Nagasawa as Yoko Okino Fumio Matsuoka as Sohachi Ueki Akira Shimada as Kozo Doi Akira Murayama as Shigeru Fujieda Kosei Tomita as Mikio Fujieda Yukari Honma as Motoka Fujieda Yasunori Masutani as Waiter Naoki Makishima as Policeman 1 Masahiro Okazaki as Policeman 2 Fujiko Takimoto as Maid 1 Naoko Nakamura as Maid 2 Sayuri Kubo as Maid 3 Akiko Toda as Maid 4",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Gara Takashima as Eri Kisaki", "Sumi Shimamoto as Yukiko Kudo", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Isshin Chiba as Kazunobu Chiba", "Asako Dodo as Midori Kuriyama", "Miki Nagasawa as Yoko Okino", "Fumio Matsuoka as Sohachi Ueki", "Akira Shimada as Kozo Doi", "Akira Murayama as Shigeru Fujieda", "Kosei Tomita as Mikio Fujieda", "Yukari Honma as Motoka Fujieda", "Yasunori Masutani as Waiter", "Naoki Makishima as Policeman 1", "Masahiro Okazaki as Policeman 2", "Fujiko Takimoto as Maid 1", "Naoko Nakamura as Maid 2", "Sayuri Kubo as Maid 3", "Akiko Toda as Maid 4"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Suspicious Spicy Curry",
         nextCase: "Secret of the Tohto Film Development Studio »",
-
 
         mangaToAnimeChanges: [
             "In the manga, Yukiko wears a cross necklace as an accessory. This is changed to a silver 'l' in the anime to avoid doing any religious reference."
@@ -22354,6 +23024,9 @@ const allData = [
     {
         id: "335", isFiller: false, title: "335: Secret of the Tohto Film Development Studio (Part 1)",
         appearances: ["Conan Edogawa", "Yukiko Kudo", "Ai Haibara", "Detective Boys", "Yusaku Kudo", "Gin", "Vodka", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa", "Shuichi Akai"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "東都現像所の秘密REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Tōto Genzōsho no Himitsu)",
         titleInOtherLanguages: [
@@ -22385,12 +23058,11 @@ const allData = [
 
         storyboard: "335 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH336 Kazuhito Kikuchi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Sumi Shimamoto as Yukiko Kudo Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Takeharu Onishi as Forensics Masaru Ikeda as Norihiro Furumura Masaharu Sato as Yoshihiko Negami Yutaka Shimaka as Takayoshi Karata Katsuyuki Konishi as Akira Hojima Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Sumi Shimamoto as Yukiko Kudo", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Chafurin as Juzo Megure", "Kenichi Ogata as Hiroshi Agasa", "Takeharu Onishi as Forensics", "Masaru Ikeda as Norihiro Furumura", "Masaharu Sato as Yoshihiko Negami", "Yutaka Shimaka as Takayoshi Karata", "Katsuyuki Konishi as Akira Hojima", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Similar Princesses",
         nextCase: "Hidden Circumstances of the Falling Incident »",
-
 
         mangaToAnimeChanges: [
             "In Manga the moon are Waning crescent but in Anime moon are Waning gibbous."
@@ -22431,6 +23103,9 @@ const allData = [
     {
         id: "336", isFiller: false, title: "336: Secret of the Tohto Film Development Studio (Part 2)",
         appearances: ["Conan Edogawa", "Yukiko Kudo", "Ai Haibara", "Detective Boys", "Yusaku Kudo", "Gin", "Vodka", "Juzo Megure", "Wataru Takagi", "Hiroshi Agasa", "Shuichi Akai"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "東都現像所の秘密REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Tōto Genzōsho no Himitsu)",
         titleInOtherLanguages: [
@@ -22462,12 +23137,11 @@ const allData = [
 
         storyboard: "335 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH336 Kazuhito Kikuchi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Sumi Shimamoto as Yukiko Kudo Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Chafurin as Juzo Megure Kenichi Ogata as Hiroshi Agasa Takeharu Onishi as Forensics Masaru Ikeda as Norihiro Furumura Masaharu Sato as Yoshihiko Negami Yutaka Shimaka as Takayoshi Karata Katsuyuki Konishi as Akira Hojima Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Sumi Shimamoto as Yukiko Kudo", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Chafurin as Juzo Megure", "Kenichi Ogata as Hiroshi Agasa", "Takeharu Onishi as Forensics", "Masaru Ikeda as Norihiro Furumura", "Masaharu Sato as Yoshihiko Negami", "Yutaka Shimaka as Takayoshi Karata", "Katsuyuki Konishi as Akira Hojima", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Similar Princesses",
         nextCase: "Hidden Circumstances of the Falling Incident »",
-
 
         mangaToAnimeChanges: [
             "In Manga the moon are Waning crescent but in Anime moon are Waning gibbous."
@@ -22510,6 +23184,9 @@ const allData = [
     {
         id: "337", isFiller: true, title: "337: Hidden Circumstances of the Falling Incident",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "転落事件の裏事情REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Tenraku Jiken no Ura-jijō)",
         titleInOtherLanguages: [
@@ -22542,12 +23219,11 @@ const allData = [
         screenplay: "Yoshifumi Fukushima",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Issei Futamata as Keisuke Furuta Tetsuo Kanao as Inspector Goto Tetsu Inada as Detective Saito Kazuo Oka as Yokoyama Masayuki Nakata as Moriwaki Hiroshi Yanaka as Hideki Sugimoto",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Issei Futamata as Keisuke Furuta", "Tetsuo Kanao as Inspector Goto", "Tetsu Inada as Detective Saito", "Kazuo Oka as Yokoyama", "Masayuki Nakata as Moriwaki", "Hiroshi Yanaka as Hideki Sugimoto"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Secret of the Tohto Film Development Studio",
         nextCase: "The Four Porsches »",
-
 
 
         trivia: [
@@ -22581,6 +23257,9 @@ const allData = [
     {
         id: "338", isFiller: false, title: "338: The Four Porsches (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Hiroshi Agasa", "Gin", "Vodka", "Ran Mouri", "Sonoko Suzuki", "Jodie Saintemillion", "Shuichi Akai", "Juzo Megure", "Wataru Takagi", "Tomoaki Araide", "Vermouth", "Director"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "4台のポルシェREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yon-dai no Porushe)",
         titleInOtherLanguages: [
@@ -22613,12 +23292,11 @@ const allData = [
 
         storyboard: "338 Kazuyoshi YokotaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH339 Hideaki Oba",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Miyuki Ichijou as Jodie Saintemillion Shuichi Ikeda as Shuichi Akai Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Hideyuki Hori as Tomoaki Araide Mami Koyama as Vermouth Osamu Kato as Yoshihito Kureko Hideyuki Umezu as Eiji Hotei Kaori Yamagata as Kaoru Taiyama Koichi Sakaguchi as Yukiya Banba Sadao Nunome as Forensics Kaoru Morota as Tomomi Kato Naoko Nakamura as Announcer Akimitsu Takase as Clerk Masahiko Horio as Driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Miyuki Ichijou as Jodie Saintemillion", "Shuichi Ikeda as Shuichi Akai", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Hideyuki Hori as Tomoaki Araide", "Mami Koyama as Vermouth", "Osamu Kato as Yoshihito Kureko", "Hideyuki Umezu as Eiji Hotei", "Kaori Yamagata as Kaoru Taiyama", "Koichi Sakaguchi as Yukiya Banba", "Sadao Nunome as Forensics", "Kaoru Morota as Tomomi Kato", "Naoko Nakamura as Announcer", "Akimitsu Takase as Clerk", "Masahiko Horio as Driver"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Hidden Circumstances of the Falling Incident",
         nextCase: "Hidden Bathroom Secret »",
-
 
 
         trivia: [
@@ -22655,6 +23333,9 @@ const allData = [
     {
         id: "339", isFiller: false, title: "339: The Four Porsches (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Hiroshi Agasa", "Gin", "Vodka", "Ran Mouri", "Sonoko Suzuki", "Jodie Saintemillion", "Shuichi Akai", "Juzo Megure", "Wataru Takagi", "Tomoaki Araide", "Vermouth", "Director"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "4台のポルシェREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Yon-dai no Porushe)",
         titleInOtherLanguages: [
@@ -22687,12 +23368,11 @@ const allData = [
 
         storyboard: "338 Kazuyoshi YokotaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH339 Hideaki Oba",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Miyuki Ichijou as Jodie Saintemillion Shuichi Ikeda as Shuichi Akai Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Hideyuki Hori as Tomoaki Araide Mami Koyama as Vermouth Osamu Kato as Yoshihito Kureko Hideyuki Umezu as Eiji Hotei Kaori Yamagata as Kaoru Taiyama Koichi Sakaguchi as Yukiya Banba Sadao Nunome as Forensics Kaoru Morota as Tomomi Kato Naoko Nakamura as Announcer Akimitsu Takase as Clerk Masahiko Horio as Driver",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Miyuki Ichijou as Jodie Saintemillion", "Shuichi Ikeda as Shuichi Akai", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Hideyuki Hori as Tomoaki Araide", "Mami Koyama as Vermouth", "Osamu Kato as Yoshihito Kureko", "Hideyuki Umezu as Eiji Hotei", "Kaori Yamagata as Kaoru Taiyama", "Koichi Sakaguchi as Yukiya Banba", "Sadao Nunome as Forensics", "Kaoru Morota as Tomomi Kato", "Naoko Nakamura as Announcer", "Akimitsu Takase as Clerk", "Masahiko Horio as Driver"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Hidden Circumstances of the Falling Incident",
         nextCase: "Hidden Bathroom Secret »",
-
 
 
         trivia: [
@@ -22730,6 +23410,9 @@ const allData = [
     {
         id: "340", isFiller: false, title: "340: Hidden Bathroom Secret (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Hiroshi Agasa", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Vermouth", "Akemi Miyano", "Yukiko Kudo", "Elena Miyano", "Officer Tome"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "トイレに隠した秘密REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Toire ni Kakushita Himitsu)",
         titleInOtherLanguages: [
@@ -22762,12 +23445,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Mami Koyama as Vermouth Sakiko Tamagawa as Akemi Miyano Hiroko Suzuki as Elena Miyano Katsuhisa Houki as Souhei Dejima Yousuke Akimoto as Tetsuo Imai Masuo Amada as Ukihiko Zaistu Osamu Hosoi as Isamu Natsubori",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Mami Koyama as Vermouth", "Sakiko Tamagawa as Akemi Miyano", "Hiroko Suzuki as Elena Miyano", "Katsuhisa Houki as Souhei Dejima", "Yousuke Akimoto as Tetsuo Imai", "Masuo Amada as Ukihiko Zaistu", "Osamu Hosoi as Isamu Natsubori"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Four Porsches",
         nextCase: "The Bride of Huis ten Bosch »",
-
 
         mangaToAnimeChanges: [
             "Atsushi Miyano wasn't shown in any flashback in the original manga version, where his true appearance remains unknown until file 1011.",
@@ -22801,6 +23483,9 @@ const allData = [
     {
         id: "341", isFiller: false, title: "341: Hidden Bathroom Secret (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Hiroshi Agasa", "Ran Mouri", "Juzo Megure", "Wataru Takagi", "Vermouth", "Akemi Miyano", "Yukiko Kudo", "Elena Miyano", "Officer Tome"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "トイレに隠した秘密REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Toire ni Kakushita Himitsu)",
         titleInOtherLanguages: [
@@ -22833,12 +23518,11 @@ const allData = [
 
         storyboard: "Chika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi Mami Koyama as Vermouth Sakiko Tamagawa as Akemi Miyano Hiroko Suzuki as Elena Miyano Katsuhisa Houki as Souhei Dejima Yousuke Akimoto as Tetsuo Imai Masuo Amada as Ukihiko Zaistu Osamu Hosoi as Isamu Natsubori",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi", "Mami Koyama as Vermouth", "Sakiko Tamagawa as Akemi Miyano", "Hiroko Suzuki as Elena Miyano", "Katsuhisa Houki as Souhei Dejima", "Yousuke Akimoto as Tetsuo Imai", "Masuo Amada as Ukihiko Zaistu", "Osamu Hosoi as Isamu Natsubori"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Four Porsches",
         nextCase: "The Bride of Huis ten Bosch »",
-
 
         mangaToAnimeChanges: [
             "Atsushi Miyano wasn't shown in any flashback in the original manga version, where his true appearance remains unknown until file 1011.",
@@ -22874,6 +23558,9 @@ const allData = [
     {
         id: "342", isFiller: true, title: "342: The Bride of Huis ten Bosch (1 Hour Special)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "ハウステンボスの花嫁REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hausu Ten Bosu no Hanayome)",
         titleInOtherLanguages: [
@@ -22905,12 +23592,11 @@ const allData = [
         screenplay: "Toyoto Kogiso",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Yoshino Takamori as Akane Katori Ken Narita as Shinya Ooga Hisako Kyouda as Tae Ooga Aya Hisakawa as Mika Ooga Nobuaki Fukuda as Tatsuya Ooga Masako Isobe as Masayo Ooga Minoru Inaba as Hideo Mochida Kissei Kumamoto as Driver Akimitsu Takase as Staff Asako Dodo as Salesperson Naomi Shindou as Employee Misa Kimura as Waitress Sho Hayami as Junichi Takahashi",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", " Yoshino Takamori as Akane Katori", "Ken Narita as Shinya Ooga", "Hisako Kyouda as Tae Ooga", "Aya Hisakawa as Mika Ooga", "Nobuaki Fukuda as Tatsuya Ooga", "Masako Isobe as Masayo Ooga", "Minoru Inaba as Hideo Mochida", "Kissei Kumamoto as Driver", "Akimitsu Takase as Staff", "Asako Dodo as Salesperson", "Naomi Shindou as Employee", "Misa Kimura as Waitress", "Sho Hayami as Junichi Takahashi"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Hidden Bathroom Secret",
         nextCase: "The Convenience Store Trap »",
-
 
 
         trivia: [
@@ -22961,6 +23647,9 @@ const allData = [
     {
         id: "343", isFiller: false, title: "343: The Convenience Store Trap (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Jodie Starling", "Ai Haibara", "Hiroshi Agasa", "Shinichi Kudo", "Professor", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "コンビニの落とし穴REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Konbini no Otoshiana)",
         titleInOtherLanguages: [
@@ -22993,12 +23682,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Naoko Matsui as Sonoko Suzuki Miyuki Ichijou as Jodie Starling Akiko Yajima as Aya Nanakawa Yasuo Iwata as Tsukayama Isshin Chiba as Hori Wada Yasunori Matsumoto as Salaryman Junichi Sugawara as Professor Shigeru Shibuya as Customer Hiroaki Yoshida as Delivery member Yumi Toma as Mysterious young girl Hiroko Suzuki as Elena Miyano",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Naoko Matsui as Sonoko Suzuki", "Miyuki Ichijou as Jodie Starling", "Akiko Yajima as Aya Nanakawa", "Yasuo Iwata as Tsukayama", "Isshin Chiba as Hori Wada", "Yasunori Matsumoto as Salaryman", "Junichi Sugawara as Professor", "Shigeru Shibuya as Customer", "Hiroaki Yoshida as Delivery member", "Yumi Toma as Mysterious young girl", "Hiroko Suzuki as Elena Miyano"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Bride of Huis ten Bosch",
         nextCase: "Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night »",
-
 
         mangaToAnimeChanges: [
             "The anime failed to draw the irregular borders of Jodie's pictures correctly for a second time after the first omission in English Teacher vs. Great Western Detective. This time, Araide's face was hidden completely under other pictures, making this clue, once again, useless."
@@ -23034,6 +23722,9 @@ const allData = [
     {
         id: "344", isFiller: false, title: "344: The Convenience Store Trap (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Jodie Starling", "Ai Haibara", "Hiroshi Agasa", "Shinichi Kudo", "Professor", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "コンビニの落とし穴REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Konbini no Otoshiana)",
         titleInOtherLanguages: [
@@ -23066,12 +23757,11 @@ const allData = [
 
         storyboard: "Hirohito Ochi",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHJunko Yamanaka and Kumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Naoko Matsui as Sonoko Suzuki Miyuki Ichijou as Jodie Starling Akiko Yajima as Aya Nanakawa Yasuo Iwata as Tsukayama Isshin Chiba as Hori Wada Yasunori Matsumoto as Salaryman Junichi Sugawara as Professor Shigeru Shibuya as Customer Hiroaki Yoshida as Delivery member Yumi Toma as Mysterious young girl Hiroko Suzuki as Elena Miyano",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Naoko Matsui as Sonoko Suzuki", "Miyuki Ichijou as Jodie Starling", "Akiko Yajima as Aya Nanakawa", "Yasuo Iwata as Tsukayama", "Isshin Chiba as Hori Wada", "Yasunori Matsumoto as Salaryman", "Junichi Sugawara as Professor", "Shigeru Shibuya as Customer", "Hiroaki Yoshida as Delivery member", "Yumi Toma as Mysterious young girl", "Hiroko Suzuki as Elena Miyano"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Bride of Huis ten Bosch",
         nextCase: "Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night »",
-
 
         mangaToAnimeChanges: [
             "The anime failed to draw the irregular borders of Jodie's pictures correctly for a second time after the first omission in English Teacher vs. Great Western Detective. This time, Araide's face was hidden completely under other pictures, making this clue, once again, useless."
@@ -23107,6 +23797,9 @@ const allData = [
     {
         id: "345", isFiller: false, title: "345: Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night (2.5 Hour Special)",
         appearances: ["Conan Edogawa", "Shinichi Kudo", "Kogoro Mouri", "Heiji Hattori", "Ai Haibara", "Jodie Starling", "Vermouth", "Calvados", "Shuichi Akai", "Tomoaki Araide", "Ran Mouri", "Sonoko Suzuki", "Yukiko Kudo", "Hiroshi Agasa", "Gin", "Vodka", "Hikaru Yasumoto", "Mitsu Araide", "Yoko Araide", "Yoshiteru Araide", "Juzo Megure", "Ninzaburo Shiratori", "Wataru Takagi", "Miwako Sato", "Kazunobu Chiba", "Kazuha Toyama", "Akemi Miyano"],
+
+
+
         episodeDescription: "",
         japaneseTitle: "黒の組織と真っ向勝負満月の夜の二元ミステリーREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kuro no Soshiki to Makkou Shoubu Mangetsu no Yoru no Nigen Misuterii)",
         titleInOtherLanguages: [
@@ -23140,12 +23833,11 @@ const allData = [
 
         storyboard: "Yasuichiro YamamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHChika Ichimaru",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kappei Yamaguchi as Shinichi Kudo Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Naoko Matsui as Sonoko Suzuki Sumi Shimamoto as Yukiko Kudo Ryo Horikawa as Heiji Hattori Miyuki Ichijou as Jodie Starling Hideyuki Hori as Tomoaki Araide Natsuo Tokuhiro as Haunted Ghost Captain (Senzo Fukura) Ai Orikasa as Medusa Masashi Hirose as Werewolf Yuji Takada as Frankenstein Shingo Hiromori as Mummy Hiroshi Tamura as Monster A Tōko Aoyama as Monster B Hiroyuki Shoji as Monster C Chikara Osaka as Monster D Akira Kawashima as Monster E Toru Inada as Receptionist A Yuko Nagashima as Receptionist B Fumihiko Goto as Taxi driver Masahiko Horio as Bartender Misa Kimura as Staff A Sayuri Kubo as Staff B Yumi Toma as Young girl Shinpachi Tsuji as President Takashi Nagasako as NY slasher Shigeru Shibuya as Security guard Mami Koyama as Vermouth Yukitoshi Hori as Gin Fumihiko Tachiki as Vodka Shuichi Ikeda as Shuichi Akai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kappei Yamaguchi as Shinichi Kudo", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Naoko Matsui as Sonoko Suzuki", "Sumi Shimamoto as Yukiko Kudo", "Ryo Horikawa as Heiji Hattori", "Miyuki Ichijou as Jodie Starling", "Hideyuki Hori as Tomoaki Araide", "Natsuo Tokuhiro as Haunted Ghost Captain (Senzo Fukura)", "Ai Orikasa as Medusa", "Masashi Hirose as Werewolf", "Yuji Takada as Frankenstein", "Shingo Hiromori as Mummy", "Hiroshi Tamura as Monster A", "Tōko Aoyama as Monster B", "Hiroyuki Shoji as Monster C", "Chikara Osaka as Monster D", "Akira Kawashima as Monster E", "Toru Inada as Receptionist A", "Yuko Nagashima as Receptionist B", "Fumihiko Goto as Taxi driver", "Masahiko Horio as Bartender", "Misa Kimura as Staff A", "Sayuri Kubo as Staff B", "Yumi Toma as Young girl", "Shinpachi Tsuji as President", "Takashi Nagasako as NY slasher", "Shigeru Shibuya as Security guard", "Mami Koyama as Vermouth", "Yukitoshi Hori as Gin", "Fumihiko Tachiki as Vodka", "Shuichi Ikeda as Shuichi Akai"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« The Convenience Store Trap",
         nextCase: "Find the Buttock's Mark »",
-
 
         mangaToAnimeChanges: [
             "In the anime, in the flashback to Vermouth killing Jodie's father Vermouth has a bruise/or dirt/or a scratch of some kind on one side of her face that is consistent across several frames looking like a defensive mark. This mark is not present in the manga at all.",
@@ -23228,6 +23920,9 @@ const allData = [
     {
         id: "346", isFiller: false, title: "346: Find the Buttock's Mark (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Jodie Starling", "Ran Mouri", "Sonoko Suzuki", "James Black", "Miwako Sato", "Wataru Takagi", "Juzo Megure", "Kazunobu Chiba", "Hiroshi Agasa", "Yukiko Kudo", "Vermouth"],
+
+
+
         episodeDescription: "After the confrontation with Black Organization, Jodie Starling offers Ai Haibara to join the Witness Protection Program, which allows Haibara to escape the Black Organization by faking her name and cutting ties with her friends.",
         japaneseTitle: "お尻のマークを探せREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Oshiri no Māku o Sagase)",
         titleInOtherLanguages: [
@@ -23259,12 +23954,11 @@ const allData = [
 
         storyboard: "346 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Nana Harada",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Sumi Shimamoto as Yukiko Kudo Mami Koyama as Vermouth Chafurin as Juzo Megure Atsuko Yuya as Miwako Sato Hiroaki Yoshida as Forensics Isshin Chiba as Kazunobu Chiba Iemasa Kayumi as James Black Miyuki Ichijou as Jodie Saintemillion Jun Hazumi as Toshiaki Degawa Katsuya Shiga as Hiroshi Enomoto Hisao Egawa as Naokazu Fukuchi Hiroshi Kawaguchi as Salaryman Chisato Nakajima as Woman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Sumi Shimamoto as Yukiko Kudo", "Mami Koyama as Vermouth", "Chafurin as Juzo Megure", "Atsuko Yuya as Miwako Sato", "Hiroaki Yoshida as Forensics", "Isshin Chiba as Kazunobu Chiba", "Iemasa Kayumi as James Black", "Miyuki Ichijou as Jodie Saintemillion", "Jun Hazumi as Toshiaki Degawa", "Katsuya Shiga as Hiroshi Enomoto", "Hisao Egawa as Naokazu Fukuchi", "Hiroshi Kawaguchi as Salaryman", "Chisato Nakajima as Woman"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night",
         nextCase: "Love, Ghosts, and World Heritage »",
-
         resolution: "Naokazu Fukuchi is the Culprit Based on the testimonies, the Detective Boys realize that culprit is Naokazu Fukuchi. Among the three suspects, Fukuchi's testimony contradicts with his actions at the time of murder: a unskilled driver would never test drive their car in a location full of people or on the day with poor visibility due to rain. In additional to that, he parked his car in an extremely close distance with the nearby car and did it very neatly, meaning that he is in fact a very good driver. Despite the fact that the culprit might have disposed of the key, there would still be presence of blood in the keyhole, so Conan asked Takagi to bring in the forensics to perform a Luminol spray test. Though initially there was no reaction, Conan is able to sever the lock cylinder and reveal that the exterior of the keyhole was replaced by another one in order to remove the incriminating evidence. Moreover, the police can check the key lock with the one near the wheel to confirm whether or not they belong to the same car. Additionally, Fukuchi is unlikely to have replaced the key hole near the steering wheel, which means that there must still be a bloodstain from his victim there from when he inserted his key to start up the car. Fukuchi attempts to escape while pretending to let the police confirm the key lock, but is knocked out by Conan's dart. After intense interrogation, he reveals he was slashing random victims to become famous and gain attention, a change to his mundane life. The Aftermath: Moved by Ayumi's courage, Haibara decides to decline in participating in the Witness Protection Program, knowing that she cannot fully trust the FBI and that she herself no longer wants to keep running away from the Black Organization forever. Though Jodie is initially against this, she accepts Haibara's decision and ask her to always remember the courage of this day. After Haibara left, James comments that Haibara was like Jodie long ago, as Jodie herself also refused to participate in the program unless they let her join the FBI to chase after her father's murderer. However, Jodie replies that both of them are different, as Haibara has the warmth of her friends by her side, giving her the courage to fight on no matter what the future may bring.",
 
         trivia: [
@@ -23297,6 +23991,9 @@ const allData = [
     {
         id: "347", isFiller: false, title: "347: Find the Buttock's Mark (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Jodie Starling", "Ran Mouri", "Sonoko Suzuki", "James Black", "Miwako Sato", "Wataru Takagi", "Juzo Megure", "Kazunobu Chiba", "Hiroshi Agasa", "Yukiko Kudo", "Vermouth"],
+
+
+
         episodeDescription: "After the confrontation with Black Organization, Jodie Starling offers Ai Haibara to join the Witness Protection Program, which allows Haibara to escape the Black Organization by faking her name and cutting ties with her friends.",
         japaneseTitle: "お尻のマークを探せREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Oshiri no Māku o Sagase)",
         titleInOtherLanguages: [
@@ -23328,12 +24025,11 @@ const allData = [
 
         storyboard: "346 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH347 Nana Harada",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Sumi Shimamoto as Yukiko Kudo Mami Koyama as Vermouth Chafurin as Juzo Megure Atsuko Yuya as Miwako Sato Hiroaki Yoshida as Forensics Isshin Chiba as Kazunobu Chiba Iemasa Kayumi as James Black Miyuki Ichijou as Jodie Saintemillion Jun Hazumi as Toshiaki Degawa Katsuya Shiga as Hiroshi Enomoto Hisao Egawa as Naokazu Fukuchi Hiroshi Kawaguchi as Salaryman Chisato Nakajima as Woman",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Sumi Shimamoto as Yukiko Kudo", "Mami Koyama as Vermouth", "Chafurin as Juzo Megure", "Atsuko Yuya as Miwako Sato", "Hiroaki Yoshida as Forensics", "Isshin Chiba as Kazunobu Chiba", "Iemasa Kayumi as James Black", "Miyuki Ichijou as Jodie Saintemillion", "Jun Hazumi as Toshiaki Degawa", "Katsuya Shiga as Hiroshi Enomoto", "Hisao Egawa as Naokazu Fukuchi", "Hiroshi Kawaguchi as Salaryman", "Chisato Nakajima as Woman"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Head-to-Head Match with the Black Organization: A Dual Mystery on a Full Moon Night",
         nextCase: "Love, Ghosts, and World Heritage »",
-
         resolution: "Naokazu Fukuchi is the Culprit Based on the testimonies, the Detective Boys realize that culprit is Naokazu Fukuchi. Among the three suspects, Fukuchi's testimony contradicts with his actions at the time of murder: a unskilled driver would never test drive their car in a location full of people or on the day with poor visibility due to rain. In additional to that, he parked his car in an extremely close distance with the nearby car and did it very neatly, meaning that he is in fact a very good driver. Despite the fact that the culprit might have disposed of the key, there would still be presence of blood in the keyhole, so Conan asked Takagi to bring in the forensics to perform a Luminol spray test. Though initially there was no reaction, Conan is able to sever the lock cylinder and reveal that the exterior of the keyhole was replaced by another one in order to remove the incriminating evidence. Moreover, the police can check the key lock with the one near the wheel to confirm whether or not they belong to the same car. Additionally, Fukuchi is unlikely to have replaced the key hole near the steering wheel, which means that there must still be a bloodstain from his victim there from when he inserted his key to start up the car. Fukuchi attempts to escape while pretending to let the police confirm the key lock, but is knocked out by Conan's dart. After intense interrogation, he reveals he was slashing random victims to become famous and gain attention, a change to his mundane life. The Aftermath: Moved by Ayumi's courage, Haibara decides to decline in participating in the Witness Protection Program, knowing that she cannot fully trust the FBI and that she herself no longer wants to keep running away from the Black Organization forever. Though Jodie is initially against this, she accepts Haibara's decision and ask her to always remember the courage of this day. After Haibara left, James comments that Haibara was like Jodie long ago, as Jodie herself also refused to participate in the program unless they let her join the FBI to chase after her father's murderer. However, Jodie replies that both of them are different, as Haibara has the warmth of her friends by her side, giving her the courage to fight on no matter what the future may bring.",
 
         trivia: [
@@ -23365,6 +24061,9 @@ const allData = [
     {
         id: "348", isFiller: true, title: "348: Love, Ghosts, and World Heritage (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "Kogoro, Ran, Conan, Haibara, and the Detective Boys are visiting an old-fashioned village that has a very dark past. While there, a man is nearly murdered, and by his body was what seemed to be a ghost. Is there a trick to this murder case, and could the murder have anything to do with the village's dark past? Also, who was the ghost?",
         japaneseTitle: "愛と幽霊と地球遺産REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ai to Yūrei to Chikyū Isan)",
         titleInOtherLanguages: [
@@ -23397,12 +24096,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Koji Totani as Kensaku Kawaji Eiji Maruyama as Shokichi Sakaki Nobuo Tobita as Kazuaki Kuwashima Makiko Ohmoto as Rumiko Yoshii Chiharu Tezuka as Kanako Kinoshita Rumi Ochiai as Keiko Tayama Hiroshi Tsuchida as Akira Hiroi Yuzuru Fujimoto as Iwao Nagakura Tamie Kubota as Kimiko Nagakura Takeharu Onishi as Leader, Villager 1 Kumiko Nishihara as Mami Otozawa Shinobu Sato as Landlady Anna Kobayashi as Tourist Hiroshi Okamoto as Villager 2 Keiji Hirai as Villager 3 Ryohei Nakao as Villager 4 Keisuke Baba as Villager 5 Hitoshi Horimoto as Tamekichi Matsushiro",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Koji Totani as Kensaku Kawaji", "Eiji Maruyama as Shokichi Sakaki", "Nobuo Tobita as Kazuaki Kuwashima", "Makiko Ohmoto as Rumiko Yoshii", "Chiharu Tezuka as Kanako Kinoshita", "Rumi Ochiai as Keiko Tayama", "Hiroshi Tsuchida as Akira Hiroi", "Yuzuru Fujimoto as Iwao Nagakura", "Tamie Kubota as Kimiko Nagakura", "Takeharu Onishi as Leader, Villager 1", "Kumiko Nishihara as Mami Otozawa", "Shinobu Sato as Landlady", "Anna Kobayashi as Tourist", "Hiroshi Okamoto as Villager 2", "Keiji Hirai as Villager 3", "Ryohei Nakao as Villager 4", "Keisuke Baba as Villager 5", "Hitoshi Horimoto as Tamekichi Matsushiro"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Find the Buttock's Mark",
         nextCase: "The Forgotten Cell Phone »",
-
         resolution: "The true culprit behind all these cases is Shokichi Sakaki. One month ago, he planned a jewel heist at the shop he worked at and tricked Eiji into working with him. After that, he killed Eiji (thrown off a cliff) to make it seem like he committed suicide, and then hid the jewels in the house next to the Nagakuras. He returned here to find the jewels, except that the hiding place was 'moved' so he couldn't find it and was discovered by Nagakura so he stabbed him. The evidence is that he has an inflammation from a plant that can only be found at the crime scene, which tore apart his supposed alibi. Attemped Murder Location: Onizawa Village Victim: Detective Boys Attack type: Stabbing Culprit: Shokichi Sakaki Sakaki tries to stab the Detective Boys before escaping only to be stopped by 'Mami's spirit' who keeps him from doing so. Sakaki tries to flee but is haunted by Ayumi, who 'dressed up' as Mami's spirit, and is stunned by Conan down the window. He is then arrested. The next day, Ayumi stands alone on the bridge and wishes that she could see Mami once more. The river reflection then shows Mami and Eiji walked happily away together, as Mami's way of thanking Ayumi for helping to prove Eiji's innocence. Even Conan who doesn't believe in supernatural things can't find a way to disprove this event. After two mnths The Onizawa Village is the UNESCO World Heritage Site.",
 
         trivia: [
@@ -23435,6 +24133,9 @@ const allData = [
     {
         id: "349", isFiller: true, title: "349: Love, Ghosts, and World Heritage (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Kogoro Mouri", "Ran Mouri", "Hiroshi Agasa"],
+
+
+
         episodeDescription: "Kogoro, Ran, Conan, Haibara, and the Detective Boys are visiting an old-fashioned village that has a very dark past. While there, a man is nearly murdered, and by his body was what seemed to be a ghost. Is there a trick to this murder case, and could the murder have anything to do with the village's dark past? Also, who was the ghost?",
         japaneseTitle: "愛と幽霊と地球遺産REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Ai to Yūrei to Chikyū Isan)",
         titleInOtherLanguages: [
@@ -23467,12 +24168,11 @@ const allData = [
         screenplay: "Junichi Miyashita",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Wataru Takagi as Genta Kojima Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Kenichi Ogata as Hiroshi Agasa Koji Totani as Kensaku Kawaji Eiji Maruyama as Shokichi Sakaki Nobuo Tobita as Kazuaki Kuwashima Makiko Ohmoto as Rumiko Yoshii Chiharu Tezuka as Kanako Kinoshita Rumi Ochiai as Keiko Tayama Hiroshi Tsuchida as Akira Hiroi Yuzuru Fujimoto as Iwao Nagakura Tamie Kubota as Kimiko Nagakura Takeharu Onishi as Leader, Villager 1 Kumiko Nishihara as Mami Otozawa Shinobu Sato as Landlady Anna Kobayashi as Tourist Hiroshi Okamoto as Villager 2 Keiji Hirai as Villager 3 Ryohei Nakao as Villager 4 Keisuke Baba as Villager 5 Hitoshi Horimoto as Tamekichi Matsushiro",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Wataru Takagi as Genta Kojima", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Kenichi Ogata as Hiroshi Agasa", "Koji Totani as Kensaku Kawaji", "Eiji Maruyama as Shokichi Sakaki", "Nobuo Tobita as Kazuaki Kuwashima", "Makiko Ohmoto as Rumiko Yoshii", "Chiharu Tezuka as Kanako Kinoshita", "Rumi Ochiai as Keiko Tayama", "Hiroshi Tsuchida as Akira Hiroi", "Yuzuru Fujimoto as Iwao Nagakura", "Tamie Kubota as Kimiko Nagakura", "Takeharu Onishi as Leader, Villager 1", "Kumiko Nishihara as Mami Otozawa", "Shinobu Sato as Landlady", "Anna Kobayashi as Tourist", "Hiroshi Okamoto as Villager 2", "Keiji Hirai as Villager 3", "Ryohei Nakao as Villager 4", "Keisuke Baba as Villager 5", "Hitoshi Horimoto as Tamekichi Matsushiro"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Kimi to Iu Hikari",
         prevCase: "« Find the Buttock's Mark",
         nextCase: "The Forgotten Cell Phone »",
-
         resolution: "The true culprit behind all these cases is Shokichi Sakaki. One month ago, he planned a jewel heist at the shop he worked at and tricked Eiji into working with him. After that, he killed Eiji (thrown off a cliff) to make it seem like he committed suicide, and then hid the jewels in the house next to the Nagakuras. He returned here to find the jewels, except that the hiding place was 'moved' so he couldn't find it and was discovered by Nagakura so he stabbed him. The evidence is that he has an inflammation from a plant that can only be found at the crime scene, which tore apart his supposed alibi. Attemped Murder Location: Onizawa Village Victim: Detective Boys Attack type: Stabbing Culprit: Shokichi Sakaki Sakaki tries to stab the Detective Boys before escaping only to be stopped by 'Mami's spirit' who keeps him from doing so. Sakaki tries to flee but is haunted by Ayumi, who 'dressed up' as Mami's spirit, and is stunned by Conan down the window. He is then arrested. The next day, Ayumi stands alone on the bridge and wishes that she could see Mami once more. The river reflection then shows Mami and Eiji walked happily away together, as Mami's way of thanking Ayumi for helping to prove Eiji's innocence. Even Conan who doesn't believe in supernatural things can't find a way to disprove this event. After two mnths The Onizawa Village is the UNESCO World Heritage Site.",
 
         trivia: [
@@ -23502,6 +24202,9 @@ const allData = [
     {
         id: "350", isFiller: false, title: "350: The Forgotten Cell Phone (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Yumi Miyamoto", "Azusa Enomoto", "Ran Mouri", "Vermouth", "Officer Numata"],
+
+
+
         episodeDescription: "While Kogoro and Conan were taking break in a coffee shop below the Detective Agency, Azusa Enomoto asked for Kogoro's help. A customer left his cellphone two days ago and Azusa wanted to return it. While searching for clues about the customer's whereabouts, Yumi, a police officer, came and they found out that they were investigating about the same person. They later found out that the man they were looking for died in a car accident.",
         japaneseTitle: "忘れられた携帯電話REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Wasurerareta Keitai Denwa)",
         titleInOtherLanguages: [
@@ -23533,12 +24236,11 @@ const allData = [
 
         storyboard: "Masayuki Miyaji",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Yuu Sugimoto as Yumi Miyamoto Mikiko Enomoto as Azusa Enomoto Wakana Yamazaki as Ran Mouri Takehiko Murozono as Police officer Junko Noda as Officer Numata Junichi Kanemaru as Café Poirot Master Yusaku Yara as Sunglasses man Yonehiko Kitagawa as Shuhei Baishou Yuu Shimaka as Columbo Restaurant chef Yukiko Mizuochi as Yuka Naoki Makishima as Fat man Takayuki Okada as Student Isshin Chiba as Apollo Sports employee Katsumi Toriumi as Station employee",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Yuu Sugimoto as Yumi Miyamoto", " Mikiko Enomoto as Azusa Enomoto", "Wakana Yamazaki as Ran Mouri", "Takehiko Murozono as Police officer", "Junko Noda as Officer Numata", "Junichi Kanemaru as Café Poirot Master", "Yusaku Yara as Sunglasses man", "Yonehiko Kitagawa as Shuhei Baishou", "Yuu Shimaka as Columbo Restaurant chef", "Yukiko Mizuochi as Yuka", "Naoki Makishima as Fat man", "Takayuki Okada as Student", "Isshin Chiba as Apollo Sports employee", "Katsumi Toriumi as Station employee"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Love, Ghosts, and World Heritage",
         nextCase: "The Fishing Tournament Tragedy »",
-
         resolution: "The culprit is the man wearing sunglasses. The numbers in the cell phone are really information concerning the diet member Shuhei Baishou. The fat man intended on using this information to blackmail the diet member and the phone was meant as proof that he had that information. But he got the wrong location, when he was trying to pass over the phone, and died when he realized that and tried to correct it. Conan tricks the man wearing sunglasses to give up the number to the phone. With it the police track down the identity of the fat man, who was a reporter, and in his apartment, they found the evidence to arrest the Diet member.",
 
         trivia: [
@@ -23573,6 +24275,9 @@ const allData = [
     {
         id: "351", isFiller: false, title: "351: The Forgotten Cell Phone (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Yumi Miyamoto", "Azusa Enomoto", "Ran Mouri", "Vermouth", "Officer Numata"],
+
+
+
         episodeDescription: "While Kogoro and Conan were taking break in a coffee shop below the Detective Agency, Azusa Enomoto asked for Kogoro's help. A customer left his cellphone two days ago and Azusa wanted to return it. While searching for clues about the customer's whereabouts, Yumi, a police officer, came and they found out that they were investigating about the same person. They later found out that the man they were looking for died in a car accident.",
         japaneseTitle: "忘れられた携帯電話REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Wasurerareta Keitai Denwa)",
         titleInOtherLanguages: [
@@ -23604,12 +24309,11 @@ const allData = [
 
         storyboard: "Masayuki Miyaji",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Yuu Sugimoto as Yumi Miyamoto Mikiko Enomoto as Azusa Enomoto Wakana Yamazaki as Ran Mouri Takehiko Murozono as Police officer Junko Noda as Officer Numata Junichi Kanemaru as Café Poirot Master Yusaku Yara as Sunglasses man Yonehiko Kitagawa as Shuhei Baishou Yuu Shimaka as Columbo Restaurant chef Yukiko Mizuochi as Yuka Naoki Makishima as Fat man Takayuki Okada as Student Isshin Chiba as Apollo Sports employee Katsumi Toriumi as Station employee",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Yuu Sugimoto as Yumi Miyamoto", " Mikiko Enomoto as Azusa Enomoto", "Wakana Yamazaki as Ran Mouri", "Takehiko Murozono as Police officer", "Junko Noda as Officer Numata", "Junichi Kanemaru as Café Poirot Master", "Yusaku Yara as Sunglasses man", "Yonehiko Kitagawa as Shuhei Baishou", "Yuu Shimaka as Columbo Restaurant chef", "Yukiko Mizuochi as Yuka", "Naoki Makishima as Fat man", "Takayuki Okada as Student", "Isshin Chiba as Apollo Sports employee", "Katsumi Toriumi as Station employee"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Love, Ghosts, and World Heritage",
         nextCase: "The Fishing Tournament Tragedy »",
-
         resolution: "The culprit is the man wearing sunglasses. The numbers in the cell phone are really information concerning the diet member Shuhei Baishou. The fat man intended on using this information to blackmail the diet member and the phone was meant as proof that he had that information. But he got the wrong location, when he was trying to pass over the phone, and died when he realized that and tried to correct it. Conan tricks the man wearing sunglasses to give up the number to the phone. With it the police track down the identity of the fat man, who was a reporter, and in his apartment, they found the evidence to arrest the Diet member.",
 
         trivia: [
@@ -23649,6 +24353,9 @@ const allData = [
     {
         id: "352", isFiller: true, title: "352: The Fishing Tournament Tragedy (Part 1)",
         appearances: ["Conan Edogawa", "Detective Boys", "Jugo Yokomizo", "Ran Mouri", "Sonoko Suzuki", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "Ran and Conan were invited to a fishing tournament in Lake Okutani, Kanagawa Prefecture, that was being sponsored by Sonoko's father's company. After hearing that, Genta, Ayumi and Mitsuhiko wanted to come along as well. During the tournament, they met Ayukawa Saori and Masubuchi Takuya, both participants, and Funaki Toshihiko, a freelance writer. On the second day of the tournament, Funaki was found dead by Ran and Sonoko near the lake.",
         japaneseTitle: "フィッシング大会の悲劇REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Fisshingu Taikai no Higeki)",
         titleInOtherLanguages: [
@@ -23680,12 +24387,11 @@ const allData = [
         screenplay: "Toyoto Kogiso",
         storyboard: "352 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Katsumi Endo",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Akio Otsuka as Jugo Yokomizo Sayuri as Saori Ayukawa Takahiro Sakurai as Takuya Masubuchi Shinya Otaki as Toshihiko Funaki Shinobu Satouchi as Junichi Mizui Kisho Taniyama as Kensuke Kanie Nobuyuki Furuta as Forensics officer Takeharu Onishi as Detective A Hiroaki Yoshida as Detective B Shinichi Namiki as Fisherman Yu Kobayashi as Announcer Akimitsu Takase as Security guard",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Akio Otsuka as Jugo Yokomizo", "Sayuri as Saori Ayukawa", "Takahiro Sakurai as Takuya Masubuchi", "Shinya Otaki as Toshihiko Funaki", "Shinobu Satouchi as Junichi Mizui", "Kisho Taniyama as Kensuke Kanie", "Nobuyuki Furuta as Forensics officer", "Takeharu Onishi as Detective A", "Hiroaki Yoshida as Detective B", "Shinichi Namiki as Fisherman", "Yu Kobayashi as Announcer", "Akimitsu Takase as Security guard"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Forgotten Cell Phone",
         nextCase: "A Small Client »",
-
         resolution: "Saori Ayukawa turned out to be the one who murdered Funaki. She killed him because she was being blackmailed by Funaki-san for witnessing her accidentally pushing Kanie-san that led to his death. On the other hand, Conan was convinced that Ayukawa-san was the one who committed the well-thought out murder of Funaki-san. After acquiring evidence that will prove Ayukawa-san's crime, Conan shot Sonoko with his tranquilizer watch and presented his deduction through her. She had positioned a wooden plank on the bridge above the train tracks and had a rock, and her handkerchief tied to it as well. While Funaki-San was busy taking pictures of the train, she used her skills as a pro fisherman and hurled her lure onto the handkerchief. Then she yanked with all her might and caused the plank and rock to fall hitting him on the head, at the same time he fell on top of the train and was carried all the way to where he was found. The evidence of her guilt is the photos of the train that Funaki-San was taking and the stain that was found on his vest. Which turned out to be from the train when he rode on top of it, and finally the wooden plank with her handkerchief tied to it. Earlier she had used it to clean Ayumi's knees after she scrapped them while playing near the rocks, proving that the handkerchief belonged to her and no one else as Ayumi's blood is still on it. Her motive was that she had been talking to a fellow fisherman Kensuke Kanie, he had feelings for her but was too forward. When he tried to hug her, she pushed him away, which accidentally caused him to landed on top of a passing train that carried him off to his death. Funaki-San had witnessed this and rather then tell the police, he saw this as a opportunity to blackmail her every now and again. He did so every chance he got, eventually the amount of money he had continually asked for kept increasing. As a result Saori Ayukawa decided to kill him the same way she killed Kanie in the past. Accident (Past) Location: Mountain Victim: Kensuke Kanie Cause of death: Blunt trauma to head after falling on train Kanie gets accident fell on train pass.",
 
 
@@ -23713,6 +24419,9 @@ const allData = [
     {
         id: "353", isFiller: true, title: "353: The Fishing Tournament Tragedy (Part 2)",
         appearances: ["Conan Edogawa", "Detective Boys", "Jugo Yokomizo", "Ran Mouri", "Sonoko Suzuki", "Makoto Kyogoku"],
+
+
+
         episodeDescription: "Ran and Conan were invited to a fishing tournament in Lake Okutani, Kanagawa Prefecture, that was being sponsored by Sonoko's father's company. After hearing that, Genta, Ayumi and Mitsuhiko wanted to come along as well. During the tournament, they met Ayukawa Saori and Masubuchi Takuya, both participants, and Funaki Toshihiko, a freelance writer. On the second day of the tournament, Funaki was found dead by Ran and Sonoko near the lake.",
         japaneseTitle: "フィッシング大会の悲劇REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Fisshingu Taikai no Higeki)",
         titleInOtherLanguages: [
@@ -23744,12 +24453,11 @@ const allData = [
         screenplay: "Toyoto Kogiso",
         storyboard: "352 Yasumi MikamotoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH353 Katsumi Endo",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Naoko Matsui as Sonoko Suzuki Ikue Otani as Mitsuhiko Tsuburaya Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Akio Otsuka as Jugo Yokomizo Sayuri as Saori Ayukawa Takahiro Sakurai as Takuya Masubuchi Shinya Otaki as Toshihiko Funaki Shinobu Satouchi as Junichi Mizui Kisho Taniyama as Kensuke Kanie Nobuyuki Furuta as Forensics officer Takeharu Onishi as Detective A Hiroaki Yoshida as Detective B Shinichi Namiki as Fisherman Yu Kobayashi as Announcer Akimitsu Takase as Security guard",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Naoko Matsui as Sonoko Suzuki", "Ikue Otani as Mitsuhiko Tsuburaya", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Akio Otsuka as Jugo Yokomizo", "Sayuri as Saori Ayukawa", "Takahiro Sakurai as Takuya Masubuchi", "Shinya Otaki as Toshihiko Funaki", "Shinobu Satouchi as Junichi Mizui", "Kisho Taniyama as Kensuke Kanie", "Nobuyuki Furuta as Forensics officer", "Takeharu Onishi as Detective A", "Hiroaki Yoshida as Detective B", "Shinichi Namiki as Fisherman", "Yu Kobayashi as Announcer", "Akimitsu Takase as Security guard"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Forgotten Cell Phone",
         nextCase: "A Small Client »",
-
         resolution: "Saori Ayukawa turned out to be the one who murdered Funaki. She killed him because she was being blackmailed by Funaki-san for witnessing her accidentally pushing Kanie-san that led to his death. On the other hand, Conan was convinced that Ayukawa-san was the one who committed the well-thought out murder of Funaki-san. After acquiring evidence that will prove Ayukawa-san's crime, Conan shot Sonoko with his tranquilizer watch and presented his deduction through her. She had positioned a wooden plank on the bridge above the train tracks and had a rock, and her handkerchief tied to it as well. While Funaki-San was busy taking pictures of the train, she used her skills as a pro fisherman and hurled her lure onto the handkerchief. Then she yanked with all her might and caused the plank and rock to fall hitting him on the head, at the same time he fell on top of the train and was carried all the way to where he was found. The evidence of her guilt is the photos of the train that Funaki-San was taking and the stain that was found on his vest. Which turned out to be from the train when he rode on top of it, and finally the wooden plank with her handkerchief tied to it. Earlier she had used it to clean Ayumi's knees after she scrapped them while playing near the rocks, proving that the handkerchief belonged to her and no one else as Ayumi's blood is still on it. Her motive was that she had been talking to a fellow fisherman Kensuke Kanie, he had feelings for her but was too forward. When he tried to hug her, she pushed him away, which accidentally caused him to landed on top of a passing train that carried him off to his death. Funaki-San had witnessed this and rather then tell the police, he saw this as a opportunity to blackmail her every now and again. He did so every chance he got, eventually the amount of money he had continually asked for kept increasing. As a result Saori Ayukawa decided to kill him the same way she killed Kanie in the past. Accident (Past) Location: Mountain Victim: Kensuke Kanie Cause of death: Blunt trauma to head after falling on train Kanie gets accident fell on train pass.",
 
 
@@ -23775,6 +24483,9 @@ const allData = [
     {
         id: "354", isFiller: false, title: "354: A Small Client (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yoko Okino", "Eri Kisaki", "Sango Yokomizo"],
+
+
+
         episodeDescription: "A seven year old movie star by the name of Kazuki Kinukawa comes to the Mouri Detective Agency to try and find his mother who abandoned him at a church. His reasons are to tell his mother he will not give her any money now that he is famous. Conan is able to deduce Kazuki's mother is a hotel employee in Atami due to the old dirty postcards she sent him. Kazuki reveals that he remembered that his mother had a beauty mark near her breast. The trio and Kazuki travels to Atami to track down the hotel. They manage to find the hotel that sells the postcards and an employee there comfirms that the leftovers get divided between them. However they don't have one named Atsuko working here, but Kazuki's mother might have use another name. A freelance writer named Yasuhiro Kamoshita checks into the hotel as he plans to find Kazuki's mother and interview her to confirm whether Kazuki's father was truly a murderer. Later that day, Kamoshita is strangled to death but managed to take a picture on his cellphone during the attack.",
         japaneseTitle: "小さな依頼者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chiisana Iraisha)",
         titleInOtherLanguages: [
@@ -23807,12 +24518,11 @@ const allData = [
 
         storyboard: "Hideaki Oba",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Miki Nagasawa as Yoko Okino Akio Otsuka as Sango Yokomizo Yūko Mita as Kazuki Kinukawa Isamu Sugaya as Yasuhiro Kamoshita Rumiko Ukai as Tomoka Saegusa Ako Mayama as Mitsu Kusano Megumi Urawa as Toshiko Bessho Kiyonobu Suzuki as Izumiya Kiyomitsu Mizuuchi as Kanichi Hazama Chie Sato as Female employer Masahiko Horio as Detective Kubota Hidenari Ugaki as Chef Keiichi Sonobe as Forensics",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Miki Nagasawa as Yoko Okino", "Akio Otsuka as Sango Yokomizo", "Yūko Mita as Kazuki Kinukawa", "Isamu Sugaya as Yasuhiro Kamoshita", "Rumiko Ukai as Tomoka Saegusa", "Ako Mayama as Mitsu Kusano", "Megumi Urawa as Toshiko Bessho", "Kiyonobu Suzuki as Izumiya", "Kiyomitsu Mizuuchi as Kanichi Hazama", "Chie Sato as Female employer", "Masahiko Horio as Detective Kubota", "Hidenari Ugaki as Chef", "Keiichi Sonobe as Forensics"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Fishing Tournament Tragedy",
         nextCase: "Kaitou Kid's Miraculous Midair Walk »",
-
         resolution: "Conan tranquilizes Kogoro and uses his voice changing bowtie to impersonate him. The murder weapon used to strangle Kamoshita is in fact the video tape, evidenced by that the movie started earlier by one minute missing the company logo and prologue. The culprit first entered the bath room, lured Kamoshita inside then beat him with the shower head. After killing him, she threw his body into the bathtub to conceal the fact that the tape was used as a murder weapon. Conan reveals that the beauty mark on the murderer was actually a blood stain and that the culprit is revealed to be Toshiko Bessho as evidenced by the small blood stain near her collar which she covers with her clothes. Toshiko confesses to the murder and explains that she decided to play a joke on Kazuki's production company by threatening to reveal Kazuki's father is a murderer unless they pay her ¥20 million. Her only goal was to make them stop giving postcards to Kazuki from his mother. However, they actually paid her which sparked Kamoshita's investigation. Kamoshita upon finding the truth, blackmails Toshiko for money which motivated her for murder. Toshiko had also lied about being Kazuki's mother, but this is because she cannot have children and has a deep envy of one of her fellow hosts who had a child but gave him away, the real mother of Kazuki, who also had told the details of him which Toshiko used in the blackmail. Said woman turns out to be Tomoka Saegusa. Conan later confirms to Ran that Tomoka is the mother because she used to carry Kazuki on her back with a sling while doing household chores, until she gave him up; this is why Kazuki, who had very good memory for a little kid yet couldn't recall all details, mistakenly recalled his mom's mole to be on her breast instead of on the back of her neck, where it actually is. He suggest at Kazuki might have mixed his memories from his time at the church. The following day, Kazuki gives Tomoka a package of post cards and tells her she has to continue to send her monthly post cards or he will visit her again. As Kazuki leaves, Tomoka breaks down in guilt for abandoning her son those many years ago.",
         mangaToAnimeChanges: [
             "The anime added an extra scene that Kazuki bumped into Saegusa which she helped him and Kazuki noticed a mole on the back of her neck.",
@@ -23850,6 +24560,9 @@ const allData = [
     {
         id: "355", isFiller: false, title: "355: A Small Client (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Yoko Okino", "Eri Kisaki", "Sango Yokomizo"],
+
+
+
         episodeDescription: "A seven year old movie star by the name of Kazuki Kinukawa comes to the Mouri Detective Agency to try and find his mother who abandoned him at a church. His reasons are to tell his mother he will not give her any money now that he is famous. Conan is able to deduce Kazuki's mother is a hotel employee in Atami due to the old dirty postcards she sent him. Kazuki reveals that he remembered that his mother had a beauty mark near her breast. The trio and Kazuki travels to Atami to track down the hotel. They manage to find the hotel that sells the postcards and an employee there comfirms that the leftovers get divided between them. However they don't have one named Atsuko working here, but Kazuki's mother might have use another name. A freelance writer named Yasuhiro Kamoshita checks into the hotel as he plans to find Kazuki's mother and interview her to confirm whether Kazuki's father was truly a murderer. Later that day, Kamoshita is strangled to death but managed to take a picture on his cellphone during the attack.",
         japaneseTitle: "小さな依頼者REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Chiisana Iraisha)",
         titleInOtherLanguages: [
@@ -23882,12 +24595,11 @@ const allData = [
 
         storyboard: "Hideaki Oba",
         characterDesign: "Masatomo SudoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Miki Nagasawa as Yoko Okino Akio Otsuka as Sango Yokomizo Yūko Mita as Kazuki Kinukawa Isamu Sugaya as Yasuhiro Kamoshita Rumiko Ukai as Tomoka Saegusa Ako Mayama as Mitsu Kusano Megumi Urawa as Toshiko Bessho Kiyonobu Suzuki as Izumiya Kiyomitsu Mizuuchi as Kanichi Hazama Chie Sato as Female employer Masahiko Horio as Detective Kubota Hidenari Ugaki as Chef Keiichi Sonobe as Forensics",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Miki Nagasawa as Yoko Okino", "Akio Otsuka as Sango Yokomizo", "Yūko Mita as Kazuki Kinukawa", "Isamu Sugaya as Yasuhiro Kamoshita", "Rumiko Ukai as Tomoka Saegusa", "Ako Mayama as Mitsu Kusano", "Megumi Urawa as Toshiko Bessho", "Kiyonobu Suzuki as Izumiya", "Kiyomitsu Mizuuchi as Kanichi Hazama", "Chie Sato as Female employer", "Masahiko Horio as Detective Kubota", "Hidenari Ugaki as Chef", "Keiichi Sonobe as Forensics"],
         openingSong: "Kimi to Yakusoku Shita Yasashii Ano Basho Made",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Fishing Tournament Tragedy",
         nextCase: "Kaitou Kid's Miraculous Midair Walk »",
-
         resolution: "Conan tranquilizes Kogoro and uses his voice changing bowtie to impersonate him. The murder weapon used to strangle Kamoshita is in fact the video tape, evidenced by that the movie started earlier by one minute missing the company logo and prologue. The culprit first entered the bath room, lured Kamoshita inside then beat him with the shower head. After killing him, she threw his body into the bathtub to conceal the fact that the tape was used as a murder weapon. Conan reveals that the beauty mark on the murderer was actually a blood stain and that the culprit is revealed to be Toshiko Bessho as evidenced by the small blood stain near her collar which she covers with her clothes. Toshiko confesses to the murder and explains that she decided to play a joke on Kazuki's production company by threatening to reveal Kazuki's father is a murderer unless they pay her ¥20 million. Her only goal was to make them stop giving postcards to Kazuki from his mother. However, they actually paid her which sparked Kamoshita's investigation. Kamoshita upon finding the truth, blackmails Toshiko for money which motivated her for murder. Toshiko had also lied about being Kazuki's mother, but this is because she cannot have children and has a deep envy of one of her fellow hosts who had a child but gave him away, the real mother of Kazuki, who also had told the details of him which Toshiko used in the blackmail. Said woman turns out to be Tomoka Saegusa. Conan later confirms to Ran that Tomoka is the mother because she used to carry Kazuki on her back with a sling while doing household chores, until she gave him up; this is why Kazuki, who had very good memory for a little kid yet couldn't recall all details, mistakenly recalled his mom's mole to be on her breast instead of on the back of her neck, where it actually is. He suggest at Kazuki might have mixed his memories from his time at the church. The following day, Kazuki gives Tomoka a package of post cards and tells her she has to continue to send her monthly post cards or he will visit her again. As Kazuki leaves, Tomoka breaks down in guilt for abandoning her son those many years ago.",
         mangaToAnimeChanges: [
             "The anime added an extra scene that Kazuki bumped into Saegusa which she helped him and Kazuki noticed a mole on the back of her neck.",
@@ -23927,6 +24639,9 @@ const allData = [
     {
         id: "356", isFiller: false, title: "356: Kaitou Kid's Miraculous Midair Walk (1 Hour Special)",
         appearances: ["Conan Edogawa", "Kaitou Kid", "Ginzo Nakamori", "Jirokichi Suzuki", "Kogoro Mouri", "Ran Mouri", "Sonoko Suzuki", "Konosuke Jii", "Makoto Kyogoku", "Naomichi Mugikura", "Detective Konno", "Kamen Yaiba"],
+
+
+
         episodeDescription: "Sonoko's uncle named Jirokichi Suzuki wants to capture Kaitou Kid to improve his fame, by Kaitou Kid to see if he can steal the jewel called, 'Blue Wonder', in reality Jirokichi wants to use it as bait. He sent a message to Kid saying, 'Attention Kaitou Kid. I challenge you: I've put the priceless artifact Blue Wonder atop my museum in the city. Come and take it if you can.' Later, Kaitou Kid accepts Jirokichi's challenge and will steal the Blue Wonder.",
         japaneseTitle: "怪盗キッドの驚異空中歩行REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Kaitō Kiddo no Kyōi Kūchū Hokō)",
         titleInOtherLanguages: [
@@ -23958,12 +24673,11 @@ const allData = [
 
         storyboard: "Katsumi EndoYasumi Mikamoto",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Kappei Yamaguchi as Kaitou Kid, Kaito Kuroba Naoko Matsui as Sonoko Suzuki Ichiro Nagai as Jirokichi Suzuki Unsho Ishizuka as Ginzo Nakamori Akira Kamiya as Kogoro Mouri Wataru Takagi as Lupin Isshin Chiba as Detective Konno Kaori Shimizu as CM Voice Mari Maruta as Woman Yosuke Akimoto as Helicopter pilot A Seitaro Mukai as Helicopter pilot B Takuhiro Kimura as Security guard Kiyomitsu Mizuuchi as Staff A Tomoya Kawai as Staff B Keiji Hirai as Staff C Kazuaki Ito as Manager Kosuke Meguro as Naomichi Mugikura Kenji Nojima as Riot policeman Masayuki Nakata as Police officer",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Kappei Yamaguchi as Kaitou Kid, Kaito Kuroba", "Naoko Matsui as Sonoko Suzuki", "Ichiro Nagai as Jirokichi Suzuki", "Unsho Ishizuka as Ginzo Nakamori", "Akira Kamiya as Kogoro Mouri", "Wataru Takagi as Lupin", "Isshin Chiba as Detective Konno", "Kaori Shimizu as CM Voice", "Mari Maruta as Woman", "Yosuke Akimoto as Helicopter pilot A", "Seitaro Mukai as Helicopter pilot B", "Takuhiro Kimura as Security guard", "Kiyomitsu Mizuuchi as Staff A", "Tomoya Kawai as Staff B", "Keiji Hirai as Staff C", "Kazuaki Ito as Manager", "Kosuke Meguro as Naomichi Mugikura", "Kenji Nojima as Riot policeman", "Masayuki Nakata as Police officer"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« A Small Client",
         nextCase: "Sweetheart is an Illusion of Spring »",
-
         resolution: "Jirokichi Suzuki got the jewel from indoors and is riding on a motorcycle while laughing until sudden, Conan is found to be on the passenger seat. Conan reveals that Jirokichi Suzuki is Kid in disguise. Conan already knew his identity since Kid came on his bike. It's the same as now: Jirokichi is not wearing any goggles. Kid took Jirokichi's dog to Shirou Park and used on sleeping pills to keep it there. If someone with contact lenses rides a bike without goggles, the wind's force will damage their eyes. Kaitou Kid manages to lose Conan and escape once again.",
 
         trivia: [
@@ -24003,6 +24717,9 @@ const allData = [
     {
         id: "357", isFiller: true, title: "357: Sweetheart is an Illusion of Spring",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Wataru Takagi", "Kazunobu Chiba"],
+
+
+
         episodeDescription: "Ran and Conan run into Sachiko, an acquaintance of Ran's, while shopping. She says she is buying steak and wine for dinner with her lover who's visiting. Ran is impressed that Sachiko has someone she wants to cook for. The next day Ran and Conan find that Sachiko is murdered. Kogoro gets permission to take a look, since Sachiko was a friend of Ran.",
         japaneseTitle: "恋人は春のまぼろしREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Koibito wa Haru no Maboroshi)",
         titleInOtherLanguages: [
@@ -24033,12 +24750,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Masahiro Hosoda",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Wataru Takagi as Wataru Takagi Isshin Chiba as Kazunobu Chiba Michiyo Yanagisawa as Sachiko Nishimura Junko Midori as Mrs. Henmi Naomi Kusumi as Hiroyuki Henmi Yasuhiko Kawazu as Muramatsu Chika Okuhara as Kyoko Kawamura Tomoko Ishimura as Shigeko Takezumi Nishimura as Izaki Mitsuaki Madono as Kenji Suenaga",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Wataru Takagi as Wataru Takagi", "Isshin Chiba as Kazunobu Chiba", "Michiyo Yanagisawa as Sachiko Nishimura", "Junko Midori as Mrs. Henmi", "Naomi Kusumi as Hiroyuki Henmi", "Yasuhiko Kawazu as Muramatsu", "Chika Okuhara as Kyoko Kawamura", "Tomoko Ishimura as Shigeko", "Takezumi Nishimura as Izaki", "Mitsuaki Madono as Kenji Suenaga"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Kaitou Kid's Miraculous Midair Walk",
         nextCase: "Metropolitan Police Detective Love Story 5 »",
-
         resolution: "It's later revealed that Sachiko's lover died in a tragic climbing accident, and every month on the 25th for the last year and a half she has honored his memory with making dinner for them both, because the lover had, before he went away, promised to come back on 25th. The mother of the lover had given Sachiko pictures, that had been found, on the 25th an year and a half ago, which Sachiko took as a sign that her lover had come back. The murderer, KENJI SUENAGA is confronted by Takagi, Ran and Conan; he eventually admits to killing Sachiko for rejecting him. He thought at she made up the lover to reject him and killed her in anger. He then stole her money and jewel to make it look like money was the motive for the murder and gave a false testimony to the police to mislead them. And the evidence? Kenji gave the stolen money to a friend, who he had borrowed money from. The money still had the fingerprints from both him and Sachiko. The friend also informed Takagi that Kenji had asked Sachiko out, but was rejected, and that he has complained about it for the last month. When the killer insults the victim, Conan points out that if Sachiko only intended to reject Kenji with this 'lover', then there had been no need for buying the wine and make the dinner for two. Ran explains the story of Sachiko's late lover to Kenji's shock.",
 
 
@@ -24065,6 +24781,9 @@ const allData = [
     {
         id: "358", isFiller: false, title: "358: Metropolitan Police Detective Love Story 5 (Part 1)",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ai Haibara", "Detective Boys", "Ninzaburo Shiratori", "Hiroshi Agasa", "Kazunobu Chiba", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Jinpei Matsuda", "Manabu Fujimaki", "Detective Fukui", "Detective Horita", "Detective Kawanaka", "Detective Miyazaki", "Detective Nakamura", "Detective Oda", "Detective Saitoh", "Detective Sogawa", "Detective Takano", "Detective Takikawa", "Detective Okumura", "Detective Sugita", "Unnamed officer", "Unnamed officer"],
+
+
+
         episodeDescription: "Takagi and Sato are on a date at Tropical Land. Meanwhile, Shiratori, along with several other officers, are at the park in a surveillance van investigating a rumored drug deal involving a dealer in hiding named Asakichi Yakura. Shiratori also plans to intentionally interfere with Takagi's date. Shiratori has one of the officers bring the Detective Boys to the park and put them in Takagi and Sato's care. Takagi plans to present Sato with a ring inside his green backpack and discovers a bag of heroin inside. He realizes that he picked up the wrong backpack during the roller coaster ride. They return to the ride and learn from the attendant that no one returned asking for the backpack. Conan discerns the bag's owner was delivering the drugs without knowing what was inside, causing Sato to suspect Yakura's involvement. The backpack's strap reveals that the owner wore it on his left shoulder, suggesting he is left handed. They proceed to a photo-booth to examine the passengers who were with them on the roller coaster. Meanwhile, the officers misunderstand Sato's conversation, believing Kekkon (血痕?, lit. 'Bloodstain') to mean Kekkon (結婚?, lit. 'Marriage') and Heroin to mean Hirōen (披露宴?, lit. 'Reception') which causes them to believe that Takagi proposed. This allures them to seek out Takagi's backpack with the ring. At the photo booth, the four suspects are a golfer, a baseball player, soccer player, and swimmer. The golfer's writing reveals him to be left handed due to the ink smearing to the right.",
         japaneseTitle: "本庁の刑事恋物語5(ファイブ)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honchō no Keiji Koi-monogatari Faibu)",
         titleInOtherLanguages: [
@@ -24095,12 +24814,11 @@ const allData = [
 
         storyboard: "Yuzo Aoki",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wataru Takagi as Wataru Takagi, Genta Kojima Atsuko Yuya as Miwako Sato Megumi Hayashibara as Ai Haibara Isshin Chiba as Kazunobu Chiba, Penguin presenter Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kazuhiko Inoue as Ninzaburo Shiratori Tomohiro Nishimura as Asakichi Yakura Takashi Nagasako as Noboru Takagi Kousuke Okano as Baseball player Banjo Ginga as Manabu Fujimaki Shinya Otaki as Detective Takikawa Dai Matsumoto as Detective Miyazaki, Detective Saito Yasuhiko Kawazu as Detective Fukui, Detective Nakamura Hisao Egawa as Detective Horita Koji Ishii as Detective Takano Tomoya Kawai as Detective Sogawa Takehiro Murozono as Detective Oda Yuko Nagashima as Announcement Asako Dodo as Receptionist Misa Kimura as Guide",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Atsuko Yuya as Miwako Sato", "Megumi Hayashibara as Ai Haibara", "Isshin Chiba as Kazunobu Chiba, Penguin presenter", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Kazuhiko Inoue as Ninzaburo Shiratori", "Tomohiro Nishimura as Asakichi Yakura", "Takashi Nagasako as Noboru Takagi", "Kousuke Okano as Baseball player", "Banjo Ginga as Manabu Fujimaki", "Shinya Otaki as Detective Takikawa", "Dai Matsumoto as Detective Miyazaki, Detective Saito", "Yasuhiko Kawazu as Detective Fukui, Detective Nakamura", "Hisao Egawa as Detective Horita", "Koji Ishii as Detective Takano", "Tomoya Kawai as Detective Sogawa", "Takehiro Murozono as Detective Oda", "Yuko Nagashima as Announcement", "Asako Dodo as Receptionist", "Misa Kimura as Guide"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Sweetheart is an Illusion of Spring",
         nextCase: "A Mysterious Spring Beetle »",
-
         resolution: "Conan investigates the backpack's contents and upon sniffing oil from a rag, reveals the owner to be the BASEBALL PLAYER. Conan explains that out of the other three athletes, the baseball player uses the oil for his baseball glove. They then search for the baseball player and upon finding him, follow him to the aquatic show. When Sato discovers the baseball player is meeting with Yakura, she attempts to apprehend him. Yakura manages to escape Sato's grip and flees towards the ferris wheel. The fireworks and ferris wheel cause Sato to remember a traumatic moment, halting her to a standstill. ROBBERY AND ESCAPE 290px Location: Tropical Land Culprit: Asakichi Yakura Yakura Get to stolen the Ship to Escape but conan Kick the soccer Knock the Dealer into the ocean. Conan manages to knock Yakura into the ocean. Takagi's backpack falls in as well, meaning that it and the ring are lost forever. The police apprehend Yakura and, satisfied with Takagi's loss, leave. Takagi comforts Sato and promises her that he will not leave her.",
 
         trivia: [
@@ -24137,6 +24855,9 @@ const allData = [
     {
         id: "359", isFiller: false, title: "359: Metropolitan Police Detective Love Story 5 (Part 2)",
         appearances: ["Conan Edogawa", "Wataru Takagi", "Miwako Sato", "Ai Haibara", "Detective Boys", "Ninzaburo Shiratori", "Hiroshi Agasa", "Kazunobu Chiba", "Juzo Megure", "Kogoro Mouri", "Ran Mouri", "Jinpei Matsuda", "Manabu Fujimaki", "Detective Fukui", "Detective Horita", "Detective Kawanaka", "Detective Miyazaki", "Detective Nakamura", "Detective Oda", "Detective Saitoh", "Detective Sogawa", "Detective Takano", "Detective Takikawa", "Detective Okumura", "Detective Sugita", "Unnamed officer", "Unnamed officer"],
+
+
+
         episodeDescription: "Takagi and Sato are on a date at Tropical Land. Meanwhile, Shiratori, along with several other officers, are at the park in a surveillance van investigating a rumored drug deal involving a dealer in hiding named Asakichi Yakura. Shiratori also plans to intentionally interfere with Takagi's date. Shiratori has one of the officers bring the Detective Boys to the park and put them in Takagi and Sato's care. Takagi plans to present Sato with a ring inside his green backpack and discovers a bag of heroin inside. He realizes that he picked up the wrong backpack during the roller coaster ride. They return to the ride and learn from the attendant that no one returned asking for the backpack. Conan discerns the bag's owner was delivering the drugs without knowing what was inside, causing Sato to suspect Yakura's involvement. The backpack's strap reveals that the owner wore it on his left shoulder, suggesting he is left handed. They proceed to a photo-booth to examine the passengers who were with them on the roller coaster. Meanwhile, the officers misunderstand Sato's conversation, believing Kekkon (血痕?, lit. 'Bloodstain') to mean Kekkon (結婚?, lit. 'Marriage') and Heroin to mean Hirōen (披露宴?, lit. 'Reception') which causes them to believe that Takagi proposed. This allures them to seek out Takagi's backpack with the ring. At the photo booth, the four suspects are a golfer, a baseball player, soccer player, and swimmer. The golfer's writing reveals him to be left handed due to the ink smearing to the right.",
         japaneseTitle: "本庁の刑事恋物語5(ファイブ)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Honchō no Keiji Koi-monogatari Faibu)",
         titleInOtherLanguages: [
@@ -24167,12 +24888,11 @@ const allData = [
 
         storyboard: "Yuzo Aoki",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wataru Takagi as Wataru Takagi, Genta Kojima Atsuko Yuya as Miwako Sato Megumi Hayashibara as Ai Haibara Isshin Chiba as Kazunobu Chiba, Penguin presenter Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Chafurin as Juzo Megure Kazuhiko Inoue as Ninzaburo Shiratori Tomohiro Nishimura as Asakichi Yakura Takashi Nagasako as Noboru Takagi Kousuke Okano as Baseball player Banjo Ginga as Manabu Fujimaki Shinya Otaki as Detective Takikawa Dai Matsumoto as Detective Miyazaki, Detective Saito Yasuhiko Kawazu as Detective Fukui, Detective Nakamura Hisao Egawa as Detective Horita Koji Ishii as Detective Takano Tomoya Kawai as Detective Sogawa Takehiro Murozono as Detective Oda Yuko Nagashima as Announcement Asako Dodo as Receptionist Misa Kimura as Guide",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Atsuko Yuya as Miwako Sato", "Megumi Hayashibara as Ai Haibara", "Isshin Chiba as Kazunobu Chiba, Penguin presenter", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Kenichi Ogata as Hiroshi Agasa", "Chafurin as Juzo Megure", "Kazuhiko Inoue as Ninzaburo Shiratori", "Tomohiro Nishimura as Asakichi Yakura", "Takashi Nagasako as Noboru Takagi", "Kousuke Okano as Baseball player", "Banjo Ginga as Manabu Fujimaki", "Shinya Otaki as Detective Takikawa", "Dai Matsumoto as Detective Miyazaki, Detective Saito", "Yasuhiko Kawazu as Detective Fukui, Detective Nakamura", "Hisao Egawa as Detective Horita", "Koji Ishii as Detective Takano", "Tomoya Kawai as Detective Sogawa", "Takehiro Murozono as Detective Oda", "Yuko Nagashima as Announcement", "Asako Dodo as Receptionist", "Misa Kimura as Guide"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Sweetheart is an Illusion of Spring",
         nextCase: "A Mysterious Spring Beetle »",
-
         resolution: "Conan investigates the backpack's contents and upon sniffing oil from a rag, reveals the owner to be the BASEBALL PLAYER. Conan explains that out of the other three athletes, the baseball player uses the oil for his baseball glove. They then search for the baseball player and upon finding him, follow him to the aquatic show. When Sato discovers the baseball player is meeting with Yakura, she attempts to apprehend him. Yakura manages to escape Sato's grip and flees towards the ferris wheel. The fireworks and ferris wheel cause Sato to remember a traumatic moment, halting her to a standstill. ROBBERY AND ESCAPE 290px Location: Tropical Land Culprit: Asakichi Yakura Yakura Get to stolen the Ship to Escape but conan Kick the soccer Knock the Dealer into the ocean. Conan manages to knock Yakura into the ocean. Takagi's backpack falls in as well, meaning that it and the ring are lost forever. The police apprehend Yakura and, satisfied with Takagi's loss, leave. Takagi comforts Sato and promises her that he will not leave her.",
 
         trivia: [
@@ -24212,6 +24932,9 @@ const allData = [
     {
         id: "360", isFiller: true, title: "360: A Mysterious Spring Beetle",
         appearances: ["Conan Edogawa", "Detective Boys", "Miwako Sato", "Wataru Takagi", "Misao Yamamura", "Detective Terashima"],
+
+
+
         episodeDescription: "The Detective Boys, with Genta's persuasion, decide to visit a pet shop where they find the owner, Minoru Shirai, dead.",
         japaneseTitle: "不思議な春のかぶと虫REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Fushigi na Haru no Kabutomushi)",
         titleInOtherLanguages: [
@@ -24242,12 +24965,11 @@ const allData = [
         screenplay: "Yuko Okabe",
         storyboard: "Katsumi Endo",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Wataru Takagi, Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Toshio Furukawa as Misao Yamamura Atsuko Yuya as Miwako Sato Kōichi Tōchika as Detective Terashima Masaya Taki as Saburo Haruna Takehito Koyasu as Yutaka Araki Yūsuke Numata as Toshiya Ninomiya Katsuhisa Hōki as Minoru Shirai Hikaru Midorikawa as Takashi Ishida",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Toshio Furukawa as Misao Yamamura", "Atsuko Yuya as Miwako Sato", "Kōichi Tōchika as Detective Terashima", "Masaya Taki as Saburo Haruna", "Takehito Koyasu as Yutaka Araki", "Yūsuke Numata as Toshiya Ninomiya", "Katsuhisa Hōki as Minoru Shirai", "Hikaru Midorikawa as Takashi Ishida"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Metropolitan Police Detective Love Story 5",
         nextCase: "Teitan High School's Ghost Story »",
-
         resolution: "Deducing from his investigation that the accomplice is one of the employees at the museum, Conan tranquilizes Yamamura and reveals TAKASHI ISHIDA to be the culprit. Conan explains that evidence on Shirai's body suggested he was murdered in the van and was strangled by a neck strap from the museum. MURDER Location: Inside truck Victim: Minoru Shirai Age: 41 years old Cause of death: Strangulation Culprit: Takashi Ishida As further evidence, Conan reveals that he saw a message from Ishida's phone that proves he was selling the stolen Rhinoceros beetles. Ishida confesses to the murder and explains that Shirai was always insulting him.",
 
         trivia: [
@@ -24283,6 +25005,9 @@ const allData = [
     {
         id: "361", isFiller: false, title: "361: Teitan High School's Ghost Story (Part 1)",
         appearances: ["Conan Edogawa", "Tomoaki Araide", "Sonoko Suzuki", "Ran Mouri", "Kazumi Tsukamoto", "Nakamichi", "Eisuke Aizawa", "Tashiro", "Hidaka", "Kogoro Mouri", "Jodie Starling", "Vermouth", "Shinichi Kudo", "Ai Haibara", "Gin", "Vodka"],
+
+
+
         episodeDescription: "Sonoko, Ran, and Conan go to Teitan High School to investigate mysterious events supposedly caused by the grudge of a dead student named Hideaki Hosaka. Ran and Sonoko greet some friends and introduce Conan to them; the friends tease Conan and Ran by saying Shinichi and Conan rather alike. Conan then runs into the real Dr. Araide, who has returned. He informs Conan of that he had been hiding overseas with his family, and told him that Jodie told him to tell Conan everything. Ran asks Dr. Araide to help investigate the ghost story with them.",
         japaneseTitle: "帝丹高校学校怪談REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Teitan Koukō Gakkou Kaidan)",
         titleInOtherLanguages: [
@@ -24314,12 +25039,11 @@ const allData = [
 
         storyboard: "Hideaki Oba",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Hideyuki Hori as Tomoaki Araide Megumi Hayashibara as Ai Haibara Miyuki Ichijou as Jodie Starling Hōko Kuwashima as Kazumi Tsukamoto Ken Narita as Masao Monobe Tomokazu Seki as Eisuke Aizawa Takumi Yamazaki as Nakamichi Yukana as Tashiro Rikako Aikawa as Hidaka Kōji Yada as Principal Shōtarō Morikubo as Kunishige Seko",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Hideyuki Hori as Tomoaki Araide", "Megumi Hayashibara as Ai Haibara", "Miyuki Ichijou as Jodie Starling", "Hōko Kuwashima as Kazumi Tsukamoto", "Ken Narita as Masao Monobe", "Tomokazu Seki as Eisuke Aizawa", "Takumi Yamazaki as Nakamichi", "Yukana as Tashiro", "Rikako Aikawa as Hidaka", "Kōji Yada as Principal", "Shōtarō Morikubo as Kunishige Seko"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« A Mysterious Spring Beetle",
         nextCase: "The City Crows »",
-
         resolution: "Conan, using Sonoko, solves the case and reveals the culprit was KUNISHIGE SEKO, a close friend to the dead student Hideaki Hosaka. Kunishige reveals that he found his friend's desk in the storage room with a name on it, thinking he was bullied and then murdered. Masao Monobe reveals the true story of events, Hosaka died saving him from falling backwards down the stairs while holding a heavy sculpture. The sculpture crushed Hosaka. Kazumi Tsukamoto explains that Hosaka's desk was put in the storage room so that it could be brought out for graduation in memory of Hosaka and was not to hide evidence. Dr. Araide, who was the first doctor on the scene, concocts a white lie about Hosaka's last words to say held no grudges when he died in order to soothe the third years. After the case, Dr. Araide receives a call from Jodie who is checking on his reintegration into Teitan High. Dr. Araide says it went smoothly but asks Jodie if Vermouth was really an evil person because all the students and teachers had nothing but praise for the disguised Vermouth's kindness and compassion. Jodie angrily hangs up on Araide after yelling, 'How in the world can someone be kind if she kills people with a smile!?'",
         mangaToAnimeChanges: [
             "The anime adds the scene in the beginning where Ran had a nightmare about seeing a ghost at the school."
@@ -24354,6 +25078,9 @@ const allData = [
     {
         id: "362", isFiller: false, title: "362: Teitan High School's Ghost Story (Part 2)",
         appearances: ["Conan Edogawa", "Tomoaki Araide", "Sonoko Suzuki", "Ran Mouri", "Kazumi Tsukamoto", "Nakamichi", "Eisuke Aizawa", "Tashiro", "Hidaka", "Kogoro Mouri", "Jodie Starling", "Vermouth", "Shinichi Kudo", "Ai Haibara", "Gin", "Vodka"],
+
+
+
         episodeDescription: "Sonoko, Ran, and Conan go to Teitan High School to investigate mysterious events supposedly caused by the grudge of a dead student named Hideaki Hosaka. Ran and Sonoko greet some friends and introduce Conan to them; the friends tease Conan and Ran by saying Shinichi and Conan rather alike. Conan then runs into the real Dr. Araide, who has returned. He informs Conan of that he had been hiding overseas with his family, and told him that Jodie told him to tell Conan everything. Ran asks Dr. Araide to help investigate the ghost story with them.",
         japaneseTitle: "帝丹高校学校怪談REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Teitan Koukō Gakkou Kaidan)",
         titleInOtherLanguages: [
@@ -24385,12 +25112,11 @@ const allData = [
 
         storyboard: "Hideaki Oba",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Akira Kamiya as Kogoro Mouri Naoko Matsui as Sonoko Suzuki Hideyuki Hori as Tomoaki Araide Megumi Hayashibara as Ai Haibara Miyuki Ichijou as Jodie Starling Hōko Kuwashima as Kazumi Tsukamoto Ken Narita as Masao Monobe Tomokazu Seki as Eisuke Aizawa Takumi Yamazaki as Nakamichi Yukana as Tashiro Rikako Aikawa as Hidaka Kōji Yada as Principal Shōtarō Morikubo as Kunishige Seko",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Akira Kamiya as Kogoro Mouri", "Naoko Matsui as Sonoko Suzuki", "Hideyuki Hori as Tomoaki Araide", "Megumi Hayashibara as Ai Haibara", "Miyuki Ichijou as Jodie Starling", "Hōko Kuwashima as Kazumi Tsukamoto", "Ken Narita as Masao Monobe", "Tomokazu Seki as Eisuke Aizawa", "Takumi Yamazaki as Nakamichi", "Yukana as Tashiro", "Rikako Aikawa as Hidaka", "Kōji Yada as Principal", "Shōtarō Morikubo as Kunishige Seko"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« A Mysterious Spring Beetle",
         nextCase: "The City Crows »",
-
         resolution: "Conan, using Sonoko, solves the case and reveals the culprit was KUNISHIGE SEKO, a close friend to the dead student Hideaki Hosaka. Kunishige reveals that he found his friend's desk in the storage room with a name on it, thinking he was bullied and then murdered. Masao Monobe reveals the true story of events, Hosaka died saving him from falling backwards down the stairs while holding a heavy sculpture. The sculpture crushed Hosaka. Kazumi Tsukamoto explains that Hosaka's desk was put in the storage room so that it could be brought out for graduation in memory of Hosaka and was not to hide evidence. Dr. Araide, who was the first doctor on the scene, concocts a white lie about Hosaka's last words to say held no grudges when he died in order to soothe the third years. After the case, Dr. Araide receives a call from Jodie who is checking on his reintegration into Teitan High. Dr. Araide says it went smoothly but asks Jodie if Vermouth was really an evil person because all the students and teachers had nothing but praise for the disguised Vermouth's kindness and compassion. Jodie angrily hangs up on Araide after yelling, 'How in the world can someone be kind if she kills people with a smile!?'",
         mangaToAnimeChanges: [
             "The anime adds the scene in the beginning where Ran had a nightmare about seeing a ghost at the school."
@@ -24428,6 +25154,9 @@ const allData = [
     {
         id: "363", isFiller: true, title: "363: The City Crows",
         appearances: ["Conan Edogawa", "Detective Boys", "Kazunobu Chiba", "Detective Terashima"],
+
+
+
         episodeDescription: "An old lady is found dead after a pot falls on her from the top of a building where she lived alone.",
         japaneseTitle: "都会のカラスREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Tokai no Karasu)",
         titleInOtherLanguages: [
@@ -24458,12 +25187,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Yuzo Aoki",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Isshin Chiba as Kazunobu Chiba Kōichi Tōchika as Detective Terashima Takeharu Onishi as Resident Yoshiaki Takagi as Worker Keiko Yamamoto as Tatsue Egami Ginka Sakura as Housewife Miho Kashiwao as Housewife Misuzu Sasaki as Housewife Nozomu Sasaki as Noriko's lover Junko Iwao as Noriko Imai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Isshin Chiba as Kazunobu Chiba", "Kōichi Tōchika as Detective Terashima", "Takeharu Onishi as Resident", "Yoshiaki Takagi as Worker", "Keiko Yamamoto as Tatsue Egami", "Ginka Sakura as Housewife", "Miho Kashiwao as Housewife", "Misuzu Sasaki as Housewife", "Nozomu Sasaki as Noriko's lover", "Junko Iwao as Noriko Imai"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Teitan High School's Ghost Story",
         nextCase: "The Synchronicity Case »",
-
         resolution: "They then confronted NORIKO IMAI, where Conan says Egami was not killed by the flower pot on accident but it was only her who could that since she is the only one living above the victim. She fished Egami's flower pot up, then she dropped the fishing line down to the floor, circled the string behind the broken refrigerator and taped the lottery ticket to it. Finally, putting the lottery ticket on the front step, she waited for Tatsue to return. When Tatsue tried to pick up the lottery ticket, she pulled the line, that way, she can position her at exactly where she was needed. However, she couldn't aim for Tatsue's head, since the refrigerator was to big and it probably blocked her view of her. After dropping the pot, she pulled the lottery ticket back to complete the trick, where she then put the 500 yen coin there before hand to explain the strange position of Tatsue. To incriminate her, Conan saw strange marks under the refrigerator when the garbage-men collected it, along with a torn piece of the lottery ticket that ripped when she was pulling it back up. Imai confesses where she reveals that Tatsue Egami humiliated her in her own shop by bringing a letter that she picked up. This letter was actually the ripped break-up letter (divorce certificate) that her boyfriend wrote to her. RIPPED BREAK-UP (PAST) Location: Pastry shop Victim: Noriko Imai Culprit: Tatsue Egami The 'Grandma Crow' is made the broken heart of Noriko's boyfriend from divorce certificate. Tatsue Egami had found the letter which was ripped up and in pieces from the garbage can where she then proceeded to repair it in order to humiliate Noriko in her shop, while Noriko herself was trying to forget the sorrowful memory. With Ayumi's persuasion, she turns herself in.",
 
         trivia: [
@@ -24494,6 +25222,9 @@ const allData = [
     {
         id: "364", isFiller: true, title: "364: The Synchronicity Case (Part 1)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Kogoro goes undercover at Beika Sports Center: stalking a man named Shoichiro Hitomi who is negotiating with a rich man by the swimming pool. After the negotiation failed, the man enters the sport club's restroom while Kogoro receives a call from Ran and Conan. The two informs him that since he won't be back for the lunch, they decide to go and have 'cheap and unlimited buffet' by themselves at Viking which causes Kogoro's stomach to growl. At the same time, the target exits the restroom with a serious expression, worrying Kogoro. He follows Mr. Hitomi to Beika Hotel and witnesses him calling someone with a payphone. However, he runs into Ran and Conan who informs him that they are having lunch at the hotel. The three spy on Mr.Hitomi who repeatedly glances at the reception when a young woman asks the employee if he has a package from a man named Manabu Anzai. Later, as Ran and Conan are eating in the restaurant, they witness Mr.Hitomi falling off the building.",
         japaneseTitle: "シンクロにシティ事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Shinkuronishiti Jiken)",
         titleInOtherLanguages: [
@@ -24524,12 +25255,11 @@ const allData = [
         screenplay: "Hiro Masaki",
         storyboard: "Yuzo Aoki",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Hochu Otsuka as Shoichiro Hitomi and Takehiko Hitomi Yuriko Yamamoto as Kanako Hitomi Hideyuki Umezu as Yasuharu Endo Satsuki Yukino as Kaoru Minamizato Isshin Chiba as Announcer, Employee Naoki Makishima as Officer Tetsu Inada as Receptionist Hiromi Ishikawa as Woman Takeshi Kusao as Manabu Anzai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Hochu Otsuka as Shoichiro Hitomi and Takehiko Hitomi", "Yuriko Yamamoto as Kanako Hitomi", "Hideyuki Umezu as Yasuharu Endo", "Satsuki Yukino as Kaoru Minamizato", "Isshin Chiba as Announcer, Employee", "Naoki Makishima as Officer", "Tetsu Inada as Receptionist", "Hiromi Ishikawa as Woman", "Takeshi Kusao as Manabu Anzai"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The City Crows",
         nextCase: "The Tragedy of the Pier in Plain Sight »",
-
         resolution: "The murder of Takehiko was committed by MANABU ANZAI, whose real name is later revealed to be CHIEZO NEGURA in a newspaper, who coerced Shoichiro into an exchange murder. The plan was for Shoichiro to call Kanako's outside to create an alibi for himself after he murdered Minamizato, while Anzai used Takehiko's house key received from Shoichiro to enter the house and kill him. Afterwards, he broke the window in the study to conceal the crime as a robbery. However, Shoichiro relented and failed in his part which forced him to carry out the act himself. His motive is to silence Minamizato before his gold digger history is exposed.",
 
         trivia: [
@@ -24562,6 +25292,9 @@ const allData = [
     {
         id: "365", isFiller: true, title: "365: The Synchronicity Case (Part 2)",
         appearances: ["Conan Edogawa", "Ran Mouri", "Kogoro Mouri", "Juzo Megure", "Wataru Takagi"],
+
+
+
         episodeDescription: "Kogoro goes undercover at Beika Sports Center: stalking a man named Shoichiro Hitomi who is negotiating with a rich man by the swimming pool. After the negotiation failed, the man enters the sport club's restroom while Kogoro receives a call from Ran and Conan. The two informs him that since he won't be back for the lunch, they decide to go and have 'cheap and unlimited buffet' by themselves at Viking which causes Kogoro's stomach to growl. At the same time, the target exits the restroom with a serious expression, worrying Kogoro. He follows Mr. Hitomi to Beika Hotel and witnesses him calling someone with a payphone. However, he runs into Ran and Conan who informs him that they are having lunch at the hotel. The three spy on Mr.Hitomi who repeatedly glances at the reception when a young woman asks the employee if he has a package from a man named Manabu Anzai. Later, as Ran and Conan are eating in the restaurant, they witness Mr.Hitomi falling off the building.",
         japaneseTitle: "シンクロにシティ事件REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Shinkuronishiti Jiken)",
         titleInOtherLanguages: [
@@ -24592,12 +25325,11 @@ const allData = [
         screenplay: "Hiro Masaki",
         storyboard: "Yuzo Aoki",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Hochu Otsuka as Shoichiro Hitomi and Takehiko Hitomi Yuriko Yamamoto as Kanako Hitomi Hideyuki Umezu as Yasuharu Endo Satsuki Yukino as Kaoru Minamizato Isshin Chiba as Announcer, Employee Naoki Makishima as Officer Tetsu Inada as Receptionist Hiromi Ishikawa as Woman Takeshi Kusao as Manabu Anzai",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Hochu Otsuka as Shoichiro Hitomi and Takehiko Hitomi", "Yuriko Yamamoto as Kanako Hitomi", "Hideyuki Umezu as Yasuharu Endo", "Satsuki Yukino as Kaoru Minamizato", "Isshin Chiba as Announcer, Employee", "Naoki Makishima as Officer", "Tetsu Inada as Receptionist", "Hiromi Ishikawa as Woman", "Takeshi Kusao as Manabu Anzai"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The City Crows",
         nextCase: "The Tragedy of the Pier in Plain Sight »",
-
         resolution: "The murder of Takehiko was committed by MANABU ANZAI, whose real name is later revealed to be CHIEZO NEGURA in a newspaper, who coerced Shoichiro into an exchange murder. The plan was for Shoichiro to call Kanako's outside to create an alibi for himself after he murdered Minamizato, while Anzai used Takehiko's house key received from Shoichiro to enter the house and kill him. Afterwards, he broke the window in the study to conceal the crime as a robbery. However, Shoichiro relented and failed in his part which forced him to carry out the act himself. His motive is to silence Minamizato before his gold digger history is exposed.",
 
         trivia: [
@@ -24627,6 +25359,9 @@ const allData = [
     {
         id: "366", isFiller: false, title: "366: The Tragedy of the Pier in Plain Sight (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Jugo Yokomizo", "Futoshi Ejiri", "Iwao Ida", "Police detective"],
+
+
+
         episodeDescription: "The Detective Boys are out fishing when a man is found to be poisoned.",
         japaneseTitle: "丸見え埠頭の惨劇REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Marumie Futō no Sangeki)",
         titleInOtherLanguages: [
@@ -24657,12 +25392,11 @@ const allData = [
 
         storyboard: "Katsumi Endo",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Akio Otsuka as Jugo Yokomizo Keiko Han as Kiriko Shirane Kazuhiko Kishino as Futoshi Ejiri Junichi Sugawara as Iwao Ida Akimitsu Takase as Captain Bin Shimada as Mineto Kanetani",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Akio Otsuka as Jugo Yokomizo", "Keiko Han as Kiriko Shirane", "Kazuhiko Kishino as Futoshi Ejiri", "Junichi Sugawara as Iwao Ida", "Akimitsu Takase as Captain", "Bin Shimada as Mineto Kanetani"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Synchronicity Case",
         nextCase: "The Candy House the Witch Lives In »",
-
         resolution: "MINETO KANETANI reveals that he did it to the victim for cheating on his (victim)'s wife, Shirane. However, Shirane reveals that that he divorced her not because he was cheating, but because he was going to borrow money to start up a business, and if that business failed, he did not want her to go in debt with him. Agasa arrives and reveals that the victim made a full recovery and that he will forgive the culprit if he catches fish for his wife. It is also revealed that it is Agasa's birthday. Since he starts the series at age 52, he is now 53.",
 
         trivia: [
@@ -24686,6 +25420,9 @@ const allData = [
     {
         id: "367", isFiller: false, title: "367: The Tragedy of the Pier in Plain Sight (Part 2)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Jugo Yokomizo", "Futoshi Ejiri", "Iwao Ida", "Police detective"],
+
+
+
         episodeDescription: "The Detective Boys are out fishing when a man is found to be poisoned.",
         japaneseTitle: "丸見え埠頭の惨劇REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Marumie Futō no Sangeki)",
         titleInOtherLanguages: [
@@ -24716,12 +25453,11 @@ const allData = [
 
         storyboard: "Katsumi Endo",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Akio Otsuka as Jugo Yokomizo Keiko Han as Kiriko Shirane Kazuhiko Kishino as Futoshi Ejiri Junichi Sugawara as Iwao Ida Akimitsu Takase as Captain Bin Shimada as Mineto Kanetani",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Akio Otsuka as Jugo Yokomizo", "Keiko Han as Kiriko Shirane", "Kazuhiko Kishino as Futoshi Ejiri", "Junichi Sugawara as Iwao Ida", "Akimitsu Takase as Captain", "Bin Shimada as Mineto Kanetani"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Synchronicity Case",
         nextCase: "The Candy House the Witch Lives In »",
-
         resolution: "MINETO KANETANI reveals that he did it to the victim for cheating on his (victim)'s wife, Shirane. However, Shirane reveals that that he divorced her not because he was cheating, but because he was going to borrow money to start up a business, and if that business failed, he did not want her to go in debt with him. Agasa arrives and reveals that the victim made a full recovery and that he will forgive the culprit if he catches fish for his wife. It is also revealed that it is Agasa's birthday. Since he starts the series at age 52, he is now 53.",
 
         trivia: [
@@ -24752,6 +25488,9 @@ const allData = [
     {
         id: "368", isFiller: true, title: "368: The Candy House the Witch Lives In",
         appearances: ["Conan Edogawa", "Ran Mouri", "Sonoko Suzuki", "Juzo Megure", "Kazunobu Chiba", "Detective Terashima", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Sonoko take Ran and Conan to the 'Candy House' in the Ecriture. In there, Conan meets a group of three masters who make pastries and puddings: Tsuyoshi Maeda the 'Iron Pastry' Chief, Yasuo Fujino the 'Prince of Pastries', and Yumi Morimoto the 'Candy Magician'. They taste the sweets that the three chefs made, which are very delicious. Later, they suddenly hear a scream.",
         japaneseTitle: "魔女の棲むお菓子の家REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Majo no Sumu Okashi no Ie)",
         titleInOtherLanguages: [
@@ -24782,12 +25521,11 @@ const allData = [
         screenplay: "Michiko TsumuraREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHHiroshi Kashiwabara",
         storyboard: "Nana Harada",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Wakana Yamazaki as Ran Mouri Chafurin as Juzo Megure Naoko Matsui as Sonoko Suzuki Yuko Kobayashi as Sachiko Hashigaki Jūrōta Kosugi as Tsuyoshi Maeda Konami Yoshida as Yumi Morimoto Isshin Chiba as Kazunobu Chiba Keiji Hirai as Detective A Tomomi Watanabe as Female customer Atsushi Kisaichi as Yasuo Fujino",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Wakana Yamazaki as Ran Mouri", "Chafurin as Juzo Megure", "Naoko Matsui as Sonoko Suzuki", "Yuko Kobayashi as Sachiko Hashigaki", "Jūrōta Kosugi as Tsuyoshi Maeda", "Konami Yoshida as Yumi Morimoto", "Isshin Chiba as Kazunobu Chiba", "Keiji Hirai as Detective A", "Tomomi Watanabe as Female customer", "Atsushi Kisaichi as Yasuo Fujino"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Tragedy of the Pier in Plain Sight",
         nextCase: "A Lucky Man's Suspense »",
-
         resolution: "Conan stuns Sonoko and proves Morimoto's innocence. He reveals the culprit to be YASUO FUJINO. Fujino murdered Hashigaki by using a wooden log. He got the inspiration for this plan from the design of the Candy House. The house looks as though you can eat it, but in reality, the house is an ordinary wooden house outfitted with a candy surface to give the illusion that the entire house is edible. First, he hid a log that was slightly smaller than an ordinary chocolate cake roll in the kitchen. He then hid the log under the tray which was carrying Conan's cake by supporting it with his hand. When he arrived near to Hashigaki, he took advantage of the blind spot that was present between them and Morimoto's kitchen to swing the log at Hashigaki. Furthermore, he swung at Hashigaki while Morimoto was using the blender which negated any noise that the victim might make. Afterwards, he inserted the log from the side into Conan's cake in order to hide the murder weapon. He then walked out of the Candy House calmly to present Conan with the cake. The evidence was on Fujino's display stand. On the display stand, the cake with the log in it was still present, and when it was cut, the log was found. Fujino admitted to his crime with the reason being that Hashigaki didn't allow Fujino to open his own business despite having promised to. After three years, Fujino could no longer endure the abuse from her and murdered her. Conan remarks that Hashigaki was exactly like the witch in 'Hansel and Gretel' who lured children into the forest to eat them with 'Hansel and Gretel' being the building's theme.",
 
         trivia: [
@@ -24821,6 +25559,9 @@ const allData = [
     {
         id: "369", isFiller: true, title: "369: A Lucky Man's Suspense",
         appearances: ["Conan Edogawa", "Detective Boys", "Kogoro Mouri", "Shinichi Kudo"],
+
+
+
         episodeDescription: "Yokoto Owada, a doctor of the Beika Central Hospital, wins the third place prize at a raffle. The raffle makes it his third winning of the week: the first was a lottery, the second was a one year supply of beer. When Conan returns home, he discovers that the one year supply of beer that Owada supposedly won is a lie because the draw had been postponed and hadn't started yet. The next day, the Detective Boys find out the raffle had been fixed by a tall and slender woman posing as the doctor's wife. While investigating, they overhear gossip of the doctor's other made up winnings. What was the purpose of these strange rumors?",
         japaneseTitle: "ツイてる男のサスペンスREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Tsuiteru Otoko no Sasupensu)",
         titleInOtherLanguages: [
@@ -24851,12 +25592,11 @@ const allData = [
         screenplay: "Nobuo Ogizawa",
         storyboard: "Hideaki Oba",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Toshihiko Seki as Yokoto Owada Ai Satō as Tsuneko Owada Junko Hagimori as Housewife A Misa Watanabe as Housewife B Mami Horikoshi as Housewife C Junko Asami as Nurse Megumi Kubota as Hiroaki Hiroshi Tsuchida as Lottery staff Takashi Taguchi as Osawa Kazuo Oka as Patient A Hiroaki Yoshida as Patient B Rei Sakuma as Akiko Shiina",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Toshihiko Seki as Yokoto Owada", "Ai Satō as Tsuneko Owada", "Junko Hagimori as Housewife A", "Misa Watanabe as Housewife B", "Mami Horikoshi as Housewife C", "Junko Asami as Nurse", "Megumi Kubota as Hiroaki", "Hiroshi Tsuchida as Lottery staff", "Takashi Taguchi as Osawa", "Kazuo Oka as Patient A", "Hiroaki Yoshida as Patient B", "Rei Sakuma as Akiko Shiina"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« The Candy House the Witch Lives In",
         nextCase: "Running Away in a Game »",
-
         resolution: "Following the trail of gossip, they soon find the woman responsible for the rumors, AKIKO SHIINA. ATTEMPTED MURDER 290px Location: Night Alley Victim: Yokoto Owada Age: 30 years old Attack types: Bashing from behind Culprit: Akiko Shiina She decided to kill Owada, but wasn't because Conan protected. One month earlier, her husband was killed in a hit and run accident. As Owada was the doctor who operated on him, Akiko held him responsible for her husband's death. After witnessing Owada win a lottery, she decided to kill him. She knew that if she went after him right away, she would be suspected immediately as the only one with a motive. So she spread the rumors to make people think that Owada was targeted by someone who was jealous of his supposedly good fortune. Conan dismisses the case to trick the Detective Boys into going home, but returns at night to stop Akiko from murdering the doctor. Using Kogoro's voice, he talks her into giving up her revenge plan and encourages her to get over the pain caused by her husband's death.",
 
 
@@ -24883,6 +25623,9 @@ const allData = [
     {
         id: "370", isFiller: true, title: "370: Running Away in a Game",
         appearances: ["Conan Edogawa", "Detective Boys", "Juzo Megure", "Miwako Sato", "Wataru Takagi", "Kazunobu Chiba"],
+
+
+
         episodeDescription: "Conan and the Detective Boys visit a game company where they end up with a tape they believe to be a new edition of a video game. They end up being haunted down by the president of the gaming company, but they don't know why, until they actually put in the tape and see something that puts their lives in danger.",
         japaneseTitle: "逃げ回るゲームソフトREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Nigemawaru Gēmusofuto)",
         titleInOtherLanguages: [
@@ -24912,12 +25655,11 @@ const allData = [
         screenplay: "Michiru Shimada",
         storyboard: "Yasumi Mikamoto",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima, Wataru Takagi Ikue Otani as Mitsuhiko Tsuburaya Chafurin as Juzo Megure Atsuko Yuya as Miwako Sato Isshin Chiba as Kazunobu Chiba Kunihiko Yasui as Nobukazu Michiba Tetsuya Iwanaga as Tsutomu Ohashi Hidenari Ugaki as Security guard Yukiko Mizuochi as Female reporter Ryuzaburo Otomo as Detective Junji Kitajima as Shinji Kobayashi Yuko Nagashima as Yukari Hachisuga",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima, Wataru Takagi", "Ikue Otani as Mitsuhiko Tsuburaya", "Chafurin as Juzo Megure", "Atsuko Yuya as Miwako Sato", "Isshin Chiba as Kazunobu Chiba", "Kunihiko Yasui as Nobukazu Michiba", "Tetsuya Iwanaga as Tsutomu Ohashi", "Hidenari Ugaki as Security guard", "Yukiko Mizuochi as Female reporter", "Ryuzaburo Otomo as Detective", "Junji Kitajima as Shinji Kobayashi", "Yuko Nagashima as Yukari Hachisuga"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« A Lucky Man's Suspense",
         nextCase: "A Course Without Protest »",
-
         resolution: "After watching the video, they later found out that the receptionist, YUKARI HACHISUGA, was the accomplice, Agent 'B', of the game company's president. ATTEMPTED MURDER Location: Nobukasu Michiba's office Victim: Ayumi Yoshida, Mitsuhiko Tsuburaya, and Genta Kojima Attack types: Shooting Culprit: Yukari Hachisuga She decided to kill them, but wasn't because Conan came. She tried to kill the Detective Boys but Conan came. He explained that she was called B because of her name 'Hachi' that could also be translated as '8' and sounds like 'bee' in Japanese language. She threatened Conan without her knowing that the police officers were listening to them and B was arrrested as well as the president. The detective held as hostage was later saved.",
 
         trivia: [
@@ -24959,6 +25701,9 @@ const allData = [
     {
         id: "371", isFiller: false, title: "371: A Course Without Protest (Part 1)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Vermouth", "Eri Kisaki"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan fly to Okinawa to attend an interview with a famous baseball player, Toshio Nose. On the way there, they witness the player dead on the street.",
         japaneseTitle: "物言わぬ航路REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mono Iwanu Kōro)",
         titleInOtherLanguages: [
@@ -24990,12 +25735,11 @@ const allData = [
 
         storyboard: "Roko Ogiwara",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Koji Ishii as Toshizo Nose Kazuo Oka as Inspector Tokashiki Tomoya Kawai as Detective Irabu Isshin Chiba as Teranishi Kiyomitsu Mizuuchi as Announcer Yasuhiro Takato as Forensics officer Takeharu Onishi as Producer Naoki Bandō as Masaharu Motoyama",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Koji Ishii as Toshizo Nose", "Kazuo Oka as Inspector Tokashiki", "Tomoya Kawai as Detective Irabu", "Isshin Chiba as Teranishi", "Kiyomitsu Mizuuchi as Announcer", "Yasuhiro Takato as Forensics officer", "Takeharu Onishi as Producer", "Naoki Bandō as Masaharu Motoyama"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Running Away in a Game",
         nextCase: "Deadly Poisonous Spider Trap »",
-
         resolution: "After investigating, it is revealed the culprit (MASAHARU MOTOYAMA) took two plane rides to create his alibi. Instead of taking the direct route from Miyazaki to Okinawa, Motoyama had taken a plane to Tokyo first, then a retour flight (Flight JAL 931) to Okinawa, where he arrived at 9:20 am, precisely 10 minutes before he committed the murder. He then returned to the airport, pretending that he had just come off the direct Miyazaki-Okinawa flight. Hence Motoyama's cryptic historical reference to him being Hideyoshi and Noze being Mitsuhide, as Hideyoshi had caught up with Mitsuhide much quicker than anticipated. Motoyama was incidentally on the same flight Conan, Ran and Kogoro had boarded and, in disguise, had caught one of the balls Ran had inadvertently dropped. While the tennis ball's felt coating could not retain Motoyama's fingerprints, Kogoro has suggested otherwise in order to have Motoyama guide him and the police to the location of the bloodstained raincoat and murder knife, still hidden in the trunk of the car Motoyama rented for the deed. Another clue was that, when he first met the Moris, he already knew that Conan, who stood apart from Kogoro and Ran at that time, was part of their company, proving that he had seen them together before, i.e. on Flight JAL 931. The reason behind the murder was that Nose had suggested to Motoyama, who was a celebrated baseball pitcher himself at that time, that his throwing technique was flawed, prompting Motoyama to practice his pitching obsessively until his throwing arm was ruined. While Nose subsequently used his contacts to get Motoyama the sports reporting job, a shocked Motoyama learned later, through an unedited studio recording of a sports talkshow, that Nose had intentionally caused Motoyama to drop out of active sports in order to get rid of, what he considered, his competitor for fame. After solving the case, Kogoro wonders how he can pass the autographed baseball to his wife, now that her favorite player is dead, but then realizes that with Nose's demise, the baseball has now become a collectors item.",
 
         trivia: [
@@ -25029,6 +25773,9 @@ const allData = [
     {
         id: "372", isFiller: false, title: "372: A Course Without Protest (Part 2)",
         appearances: ["Conan Edogawa", "Kogoro Mouri", "Ran Mouri", "Vermouth", "Eri Kisaki"],
+
+
+
         episodeDescription: "Kogoro, Ran, and Conan fly to Okinawa to attend an interview with a famous baseball player, Toshio Nose. On the way there, they witness the player dead on the street.",
         japaneseTitle: "物言わぬ航路REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mono Iwanu Kōro)",
         titleInOtherLanguages: [
@@ -25060,12 +25807,11 @@ const allData = [
 
         storyboard: "Roko Ogiwara",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Wakana Yamazaki as Ran Mouri Koji Ishii as Toshizo Nose Kazuo Oka as Inspector Tokashiki Tomoya Kawai as Detective Irabu Isshin Chiba as Teranishi Kiyomitsu Mizuuchi as Announcer Yasuhiro Takato as Forensics officer Takeharu Onishi as Producer Naoki Bandō as Masaharu Motoyama",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Wakana Yamazaki as Ran Mouri", "Koji Ishii as Toshizo Nose", "Kazuo Oka as Inspector Tokashiki", "Tomoya Kawai as Detective Irabu", "Isshin Chiba as Teranishi", "Kiyomitsu Mizuuchi as Announcer", "Yasuhiro Takato as Forensics officer", "Takeharu Onishi as Producer", "Naoki Bandō as Masaharu Motoyama"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Running Away in a Game",
         nextCase: "Deadly Poisonous Spider Trap »",
-
         resolution: "After investigating, it is revealed the culprit (MASAHARU MOTOYAMA) took two plane rides to create his alibi. Instead of taking the direct route from Miyazaki to Okinawa, Motoyama had taken a plane to Tokyo first, then a retour flight (Flight JAL 931) to Okinawa, where he arrived at 9:20 am, precisely 10 minutes before he committed the murder. He then returned to the airport, pretending that he had just come off the direct Miyazaki-Okinawa flight. Hence Motoyama's cryptic historical reference to him being Hideyoshi and Noze being Mitsuhide, as Hideyoshi had caught up with Mitsuhide much quicker than anticipated. Motoyama was incidentally on the same flight Conan, Ran and Kogoro had boarded and, in disguise, had caught one of the balls Ran had inadvertently dropped. While the tennis ball's felt coating could not retain Motoyama's fingerprints, Kogoro has suggested otherwise in order to have Motoyama guide him and the police to the location of the bloodstained raincoat and murder knife, still hidden in the trunk of the car Motoyama rented for the deed. Another clue was that, when he first met the Moris, he already knew that Conan, who stood apart from Kogoro and Ran at that time, was part of their company, proving that he had seen them together before, i.e. on Flight JAL 931. The reason behind the murder was that Nose had suggested to Motoyama, who was a celebrated baseball pitcher himself at that time, that his throwing technique was flawed, prompting Motoyama to practice his pitching obsessively until his throwing arm was ruined. While Nose subsequently used his contacts to get Motoyama the sports reporting job, a shocked Motoyama learned later, through an unedited studio recording of a sports talkshow, that Nose had intentionally caused Motoyama to drop out of active sports in order to get rid of, what he considered, his competitor for fame. After solving the case, Kogoro wonders how he can pass the autographed baseball to his wife, now that her favorite player is dead, but then realizes that with Nose's demise, the baseball has now become a collectors item.",
 
         trivia: [
@@ -25099,6 +25845,9 @@ const allData = [
     {
         id: "373", isFiller: true, title: "373: Deadly Poisonous Spider Trap",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Juzo Megure", "Wataru Takagi", "Kogoro Mouri"],
+
+
+
         episodeDescription: "Conan and the Detective Boys meet spider researchers who are taking pictures of a Redback spider. One of them calls their professor, but upon hearing him panic on the phone, they rush to the facility to find their professor fallen to a deadly poisonous spider.",
         japaneseTitle: "猛毒蜘蛛の罠REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Mōdoku Kumo no Wana)",
         titleInOtherLanguages: [
@@ -25129,12 +25878,11 @@ const allData = [
         screenplay: "Yoko AbeREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHHiroshi Kashiwabara",
         storyboard: "Yuzo Aoki",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Akira Kamiya as Kogoro Mouri Chafurin as Juzo Megure Wataru Takagi as Wataru Takagi, Genta Kojima Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Ikue Otani as Mitsuhiko Tsuburaya Katsumi Chō as Yutaka Shinno Masami Kikuchi as Tooru Itokawa Ryūzō Ishino as Yoshiki Urasaki Sayaka Ohara as Miwa Yasuda",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Akira Kamiya as Kogoro Mouri", "Chafurin as Juzo Megure", "Wataru Takagi as Wataru Takagi, Genta Kojima", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Ikue Otani as Mitsuhiko Tsuburaya", "Katsumi Chō as Yutaka Shinno", "Masami Kikuchi as Tooru Itokawa", "Ryūzō Ishino as Yoshiki Urasaki", "Sayaka Ohara as Miwa Yasuda"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« A Course Without Protest",
         nextCase: "A Code of Stars and Tobacco »",
-
         resolution: "It was later revealed that MIWA YASUDA killed the professor. The cause of death wasn't the poison from the spider bite, but a heart attack. The spider was already dead before the professor came into contact with it. It had been planted on a needle hidden in the phone receiver. When the victim answered the phone, he would think that he had been bitten by the poisonous spider. The anti-venom had been hidden beforehand, and when he couldn't find it, he panicked. Because of his weak heart, he had a heart attack and died. She did that for her boyfriend, Itokawa. She didn't intend to kill the professor: she just wanted him to be sent to the hospital for awhile so that Itokawa could present his research on the academic conferences that the professor took credit for.",
 
 
@@ -25161,8 +25909,17 @@ const allData = [
         ]
     },
     {
-        id: "374", isFiller: false, title: "374: A Code of Stars and Tobacco (Part 1)",
+        id: "374", isFiller: true, title: "374: A Code of Stars and Tobacco (Part 1)",
         appearances: ["Conan Edogawa", "Ai Haibara", "Detective Boys", "Hiroshi Agasa", "Misao Yamamura"],
+        characters: ["Conan Edogawa", "Ai Haibara", "Ayumi Yoshida", "Mitsuhiko Tsuburaya", "Genta Kojima", "Hiroshi Agasa", "Misao Yamamura", "Masaharu Motoyama (background)"],
+        people: [
+            { name: "Etsuko Nonomiya", info: ["28 years old", "Inn guest", "Kono's girlfriend"] },
+            { name: "Ryoji Amatsuchi", info: ["34 years old", "Pension owner", "Kono's childhood friend"] },
+            { name: "Hajime Futagawa", info: ["Victim (fell)", "35 years old", "Inn guest", "Space Sunday magazine assistant-editor"] },
+            { name: "Heihachi Mikami", info: ["43 years old", "Inn guest", "Space Sunday magazine editor-in-chief"] },
+            { name: "Asao Kono", info: ["Deceased (fell)", "Etsuko's boyfriend", "Astronomer"] },
+            { name: "Komori", info: ["Tottori hot springs' owner", "Former Jaguars baseball player"] }],
+        gadgets: ["Power-Enhancing Kick Shoes", "Stun-Gun Wristwatch", "Wristwatch Flashlight", "Anywhere Ball Dispensing Belt", "Detective Boys Badge"],
         episodeDescription: "For an astronomical observation, Conan and the group went to a pension deep inside the mountain. Other than the pension owner, there were also other three people in the pension: the fiancee of the person who invited the three, and the two magazine staff. As they went to the nearby hill to see the stars, they saw decayed bones and underneath a rock nearby, they found a box of cigarettes and a ring which implies he was the missing fiance. That same night, the other man from the magazine staff was killed and left another dying message.",
         japaneseTitle: "星とタバコのコードREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH(Hoshi to Tabako no Kõdo)",
         titleInOtherLanguages: [
@@ -25193,19 +25950,12 @@ const allData = [
 
         storyboard: "374 Katsumi EndoREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASH375 Yasumi Mikamoto",
         characterDesign: "Mari TominagaREMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKeiko Sasaki (sub-character)REMOVE_THIS_AND_REPLACE_WITH_/N_BUT_WITH_BACKSLASHKumiko Shishido (design works)",
-        voiceCast: "Minami Takayama as Conan Edogawa Kenichi Ogata as Hiroshi Agasa Megumi Hayashibara as Ai Haibara Yukiko Iwai as Ayumi Yoshida Wataru Takagi as Genta Kojima Ikue Otani as Mitsuhiko Tsuburaya Toshio Furukawa as Misao Yamamura Katsuya Shiga as Hajime Futagawa Kenichi Sakaguchi as Ryoji Amatsuchi Ryōka Yuzuki as Etsuko Nonomiya Tomohiro Tsuboi as Asao Kono Jun Hazumi as Heihachi Mikami",
+        voiceCast: ["Minami Takayama as Conan Edogawa", "Kenichi Ogata as Hiroshi Agasa", "Megumi Hayashibara as Ai Haibara", "Yukiko Iwai as Ayumi Yoshida", "Wataru Takagi as Genta Kojima", "Ikue Otani as Mitsuhiko Tsuburaya", "Toshio Furukawa as Misao Yamamura", "Katsuya Shiga as Hajime Futagawa", "Kenichi Sakaguchi as Ryoji Amatsuchi", "Ryōka Yuzuki as Etsuko Nonomiya", "Tomohiro Tsuboi as Asao Kono", "Jun Hazumi as Heihachi Mikami"],
         openingSong: "START",
         endingSong: "Nemuru Kimi no Yokogao ni Hohoemi o",
         prevCase: "« Deadly Poisonous Spider Trap",
         nextCase: "The Time Limit is 15:00! »",
-        people: [
-            { name: "Etsuko Nonomiya", info: ["28 years old", "Inn guest", "Kono's girlfriend"] },
-            { name: "Ryoji Amatsuchi", info: ["34 years old", "Pension owner", "Kono's childhood friend"] },
-            { name: "Hajime Futagawa", info: ["Victim (fell)", "35 years old", "Inn guest", "Space Sunday magazine assistant-editor"] },
-            { name: "Heihachi Mikami", info: ["43 years old", "Inn guest", "Space Sunday magazine editor-in-chief"] },
-            { name: "Asao Kono", info: ["Deceased (fell)", "Etsuko's boyfriend", "Astronomer"] },
-            { name: "Komori", info: ["Tottori hot springs' owner", "Former Jaguars baseball player"] 
-            UCHI, the pension owner. He did that because he wanted to find the person who murdered Kono, as he already found his bones and belongings before. He also hid the cable to the phone to disable communication, and also deflated the tires to trap everyone at the pension. However, he was not the murderer, as he had a lot of opportunities to destroy the dying message/remove Konno's remains elsewhere. While Etsuko Nonomiya has the most obvious motive to murder Futagawa for his supposed involvement in Konno's death, she was able to provide her alibi during the murder as she was in the forest and saw Conan, Ayumi, and Mitsuhiko rushing toward the cliff, as it is not possible to identify them from the top. With both singled out, it is HEIHACHI MIKAMI who murdered BOTH Kono and Futagawa. The dying messages' meaning: Futagawa's dying message directly refers to Mikami's given name Heihachi (平八) with 5 long strokes and 2 short strokes. Because Kono didn't know Mikami's given name or the Kanji (御上) used in his surname, he had to rely in the most common spelling of the name Mikami (三上), with 4 long strokes and 2 short strokes, and spelt his dying message that way instead. Futagawa, knowing this ambiguity, added one more long stroke cigarette to make the murderer's identity clearer. Evidence: Since the weapon, the iron rod-like object, used to incapitate Futagawa was never found at the crime scene, Mikami must still had it in his possession. Conan, noticing that Mikami's telescope is missing a weight, concluded that he must have hidden in his telescope. The luminol test on it will be a solid proof against Mikami. Motive: Mikammi killed Kono because he refused to include his name to the comet that Kono found after asking his help to confirm if it was a new discovery or not. He killed Futagawa after he tried to threatened him that if he didn't pay up 50,000,000, he would surely reveal the crime he committed. Mikami then unveils the weapon he used to incapitate Futagawa, that turned out to be a shotgun. ATTEMPTED MURDER Location: Inn Victim: Etsuko Ninomiya, Ryoji Amatsuchi, Conan Edogawa, Ai Haibara, Ayumi Yoshida, Genta Kojima, Mitsuhiko Tsuburaya, and Professor Agasa Age: 28 years old (Etsuko) and 34 years old (Ryoji) Attack types: Shooting Culprit: Heihachi Mikami He decided to kill everyone, but is stopped by Conan. He attempts to kill all the inn guests, but is tranquilized by Conan. At the end of the episode, when Conan and the Detective Boys are taken to the police station for questioning, Conan reveals the real meaning Kono doesn't add Mikami's name to the comet he found because he wants to make the word 'Amanogawa' (Milky Way). Then Conan says Mikami will be remembered, as a criminal.",
+        resolution: "The only suspect: The real person who invited the three was proven to be RYOJI AMATSUCHI, the pension owner. He did that because he wanted to find the person who murdered Kono, as he already found his bones and belongings before. He also hid the cable to the phone to disable communication, and also deflated the tires to trap everyone at the pension. However, he was not the murderer, as he had a lot of opportunities to destroy the dying message/remove Konno's remains elsewhere. While Etsuko Nonomiya has the most obvious motive to murder Futagawa for his supposed involvement in Konno's death, she was able to provide her alibi during the murder as she was in the forest and saw Conan, Ayumi, and Mitsuhiko rushing toward the cliff, as it is not possible to identify them from the top. With both singled out, it is HEIHACHI MIKAMI who murdered BOTH Kono and Futagawa. The dying messages' meaning: Futagawa's dying message directly refers to Mikami's given name Heihachi (平八) with 5 long strokes and 2 short strokes. Because Kono didn't know Mikami's given name or the Kanji (御上) used in his surname, he had to rely in the most common spelling of the name Mikami (三上), with 4 long strokes and 2 short strokes, and spelt his dying message that way instead. Futagawa, knowing this ambiguity, added one more long stroke cigarette to make the murderer's identity clearer. Evidence: Since the weapon, the iron rod-like object, used to incapitate Futagawa was never found at the crime scene, Mikami must still had it in his possession. Conan, noticing that Mikami's telescope is missing a weight, concluded that he must have hidden in his telescope. The luminol test on it will be a solid proof against Mikami. Motive: Mikammi killed Kono because he refused to include his name to the comet that Kono found after asking his help to confirm if it was a new discovery or not. He killed Futagawa after he tried to threatened him that if he didn't pay up 50,000,000, he would surely reveal the crime he committed. Mikami then unveils the weapon he used to incapitate Futagawa, that turned out to be a shotgun. ATTEMPTED MURDER Location: Inn Victim: Etsuko Ninomiya, Ryoji Amatsuchi, Conan Edogawa, Ai Haibara, Ayumi Yoshida, Genta Kojima, Mitsuhiko Tsuburaya, and Professor Agasa Age: 28 years old (Etsuko) and 34 years old (Ryoji) Attack types: Shooting Culprit: Heihachi Mikami He decided to kill everyone, but is stopped by Conan. He attempts to kill all the inn guests, but is tranquilized by Conan. At the end of the episode, when Conan and the Detective Boys are taken to the police station for questioning, Conan reveals the real meaning Kono doesn't add Mikami's name to the comet he found because he wants to make the word 'Amanogawa' (Milky Way). Then Conan says Mikami will be remembered, as a criminal.",
 
         trivia: [
             "Ryoji Amatsuchi SUV at the pension lodging is a 2001 Silver Toyota Rav4 [XA20].",

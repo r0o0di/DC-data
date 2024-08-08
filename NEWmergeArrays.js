@@ -137,6 +137,16 @@ const mergeArrays = (episodes, episodesData) => {
             return `["${lang[0]}", "${lang[1]}", "${lang[2]}"]${comma}<br>`;
         }).join('');
 
+        const formattedCharacters = item.characters ? item.characters.map((text, index) => {
+            const comma = index < item.characters.length - 1 ? ',' : '';
+            return `"${text}"${comma} `;
+        }).join('') : '';
+
+        const formattedGadgets = item.gadgets ? item.gadgets.map((text, index) => {
+            const comma = index < item.gadgets.length - 1 ? ',' : '';
+            return `"${text}"${comma} `;
+        }).join('') : '';
+
         const formattedMangaToAnimeChanges = item.mangaToAnimeChanges ? item.mangaToAnimeChanges.map((text, index) => {
             const comma = index < item.mangaToAnimeChanges.length - 1 ? ',' : '';
             return `"${text}"${comma}<br>`;
@@ -181,10 +191,12 @@ const mergeArrays = (episodes, episodesData) => {
         const screenplay = item.hasOwnProperty('screenplay') ? `screenplay: "${item.screenplay}", ` : '';
         const storyboard = item.hasOwnProperty('storyboard') ? `storyboard:"${item.storyboard}", ` : '';
         const characterDesign = item.hasOwnProperty('characterDesign') ? `characterDesign: "${item.characterDesign}", ` : '';
-        const voiceCast = item.hasOwnProperty('voiceCast') ? `voiceCast: "${item.voiceCast}", ` : '';
+        const voiceCast = item.hasOwnProperty('voiceCast') ? `voiceCast: ["${item.voiceCast.replace(/  /gi, '", "')}"], ` : '';
         const openingSong = item.hasOwnProperty('openingSong') ? `openingSong: "${item.openingSong}", ` : '';
         const endingSong = item.hasOwnProperty('closingSong') ? `endingSong: "${item.closingSong}", ` : '';
         const prevCase = item.hasOwnProperty('prevCase') ? `prevCase: "${item.prevCase}", ` : '';
+        const characters = item.hasOwnProperty('characters') ? `characters: [${formattedCharacters}], ` : '';
+        const gadgets = item.hasOwnProperty('gadgets') ? `gadgets: [${formattedGadgets}], ` : '';
         const nextCase = item.hasOwnProperty('nextCase') ? `nextCase: "${item.nextCase}", ` : '';
         const people = item.hasOwnProperty('people') ? `people: ${formatPeople(item.people)}, ` : '';
         const resolution = item.hasOwnProperty('resolution') ? `resolution: "${item.resolution}", ` : '';
@@ -196,12 +208,15 @@ const mergeArrays = (episodes, episodesData) => {
             const jsonString = JSON.stringify(peopleArray, null); // Indent by 2 spaces
             return jsonString.replace(/\{/, '<br>{').replace(/\},/g, '},<br>').replace(/"name"/gi, "name").replace(/"info"/gi, "info");
           }
-        return `<div> 
-        { <br>
+          return `<div> 
+          { <br>
             ${id}
             ${isFiller}
             ${title}<br>
             ${cast}<br>
+            ${characters}<br>
+            ${people}<br>
+            ${gadgets}<br>
             ${episodeDescription}<br>
             ${japaneseTitle}<br>
             ${titleInOtherLanguages}<br>
@@ -228,7 +243,6 @@ const mergeArrays = (episodes, episodesData) => {
             ${endingSong}<br>
             ${prevCase}<br>
             ${nextCase}<br>
-            ${people}<br>
             ${resolution}<br>
             ${mangaToAnimeChanges}<br>
             ${trivia}<br>

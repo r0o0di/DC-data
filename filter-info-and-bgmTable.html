@@ -54,6 +54,8 @@
 
     <script>
         const parseBtn = document.getElementById("parse");
+        const focusEpisodeId = document.getElementById("episodeId").focus()
+
         parseBtn.addEventListener("click", function parseAndFilterHTML() {
             const episodeId = document.getElementById('episodeId').value;
             const fillerCheckbox = document.getElementById('fillerCheckbox').checked;
@@ -69,6 +71,7 @@
                 id: episodeId,
                 isFiller: fillerCheckbox,
                 cast: [],
+                charactersIntroduced: [],
                 characters: [],
                 gadgets: [],
                 people: [],
@@ -169,29 +172,60 @@
             });
 
 
+            // // PEOPLE
+            // // Find the parent element of the span with id "People"
+            // const charactersIntroducedParent = tempDiv.querySelector('#Characters_introduced').parentElement;
+            // // Get the next element, which is the div containing the charactersIntroduced list
+            // // SOMETIMES, LIKE IN EP 1, THE NEXT ELEMENT MIGHT NOT BE A DIV, WHICH IS A PROBLEM.
+            // // if thats the case, go to the next sibling again
+            // const charactersIntroducedListDiv = charactersIntroducedParent.nextElementSibling;
+
+            // // Extract charactersIntroduced data
+            // const charactersIntroduced = [];
+            // const personalInfos = charactersIntroducedListDiv.querySelectorAll('li');
+            // const person = {};
+            // const names = charactersIntroducedListDiv.querySelectorAll('th');
+            // names.forEach(name => {
+            //     console.log(name.textContent)
+            //     person.name = name.textContent.trim().replace(/\n/gi, "");
+            //     console.log(person)
+            // })
+
+            // personalInfos.forEach(personalInfo => {
+            //     console.log(personalInfo)
+            //     // Extract info
+            //     const info = [];
+            //     info.push(personalInfo.textContent?.trim() || '');
+            //     console.log(info)
+            //     person.info = info;
+            //     console.log(person)
+            //     charactersIntroduced.push(person);
+            // });
+            // const filteredcharactersIntroduced = charactersIntroduced.filter(person => person.hasOwnProperty('name'));
+            // result.charactersIntroduced = filteredcharactersIntroduced;
+            // console.log(result.charactersIntroduced)
+
+
 
 
             // CHARACTERS
-            // Find the parent element of the span with id "People"
-            const charactersParent = tempDiv.querySelector('#Cast').parentElement;
+            const charactersParent = tempDiv.querySelector('#Cast')?.parentElement;
             // Get the next element, which is the div containing the characters list
-            const charactersListDiv = charactersParent.nextElementSibling;
-            const characters =  charactersListDiv.querySelectorAll(".thumbcaption");
-            characters.forEach(character => {
-                console.log(character.textContent)
+            const charactersListDiv = charactersParent?.nextElementSibling;
+            const characters = charactersListDiv?.querySelectorAll(".thumbcaption");
+            characters?.forEach(character => {
                 result.characters.push(`"${character.textContent}"`);
             });
-            
 
-            
-            
+
+
+
             // GADGETS
-            const gadgetsParent = tempDiv.querySelector('#Gadgets').parentElement;
+            const gadgetsParent = tempDiv.querySelector('#Gadgets')?.parentElement;
             // Get the next element, which is the div containing the gadgets list
-            const gadgetsListDiv = gadgetsParent.nextElementSibling;
-            const gadgets =  gadgetsListDiv.querySelectorAll(".thumbcaption");
-            gadgets.forEach(gadget => {
-                console.log(gadget.textContent)
+            const gadgetsListDiv = gadgetsParent?.nextElementSibling;
+            const gadgets = gadgetsListDiv?.querySelectorAll(".thumbcaption");
+            gadgets?.forEach(gadget => {
                 result.gadgets.push(`"${gadget.textContent}"`);
             });
 
@@ -200,35 +234,35 @@
 
 
             // PEOPLE
-                // Find the parent element of the span with id "People"
-                const peopleParent = tempDiv.querySelector('#People').parentElement;
-                // Get the next element, which is the div containing the people list
-                const peopleListDiv = peopleParent.nextElementSibling;
+            // Find the parent element of the span with id "People"
+            const peopleParent = tempDiv.querySelector('#People').parentElement;
+            // Get the next element, which is the div containing the people list
+            const peopleListDiv = peopleParent.nextElementSibling;
 
-                // Extract people data
-                const people = [];
-                const personListItems = peopleListDiv.querySelectorAll('li');
+            // Extract people data
+            const people = [];
+            const personListItems = peopleListDiv.querySelectorAll('li');
 
-                personListItems.forEach(personItem => {
-                    const person = {};
-                    const names = personItem.querySelectorAll('th');
-                    names.forEach(name => {
-                        person.name = name.textContent.trim().replace(/\n/gi, "");
-                    })
-                    // Extract info
-                    const infoList = personItem.querySelector('tr:last-child td:last-child ul');
-                    const info = [];
-                    if (infoList) {
-                        infoList.querySelectorAll('li').forEach(infoItem => {
-                            info.push(infoItem.textContent?.trim() || '');
-                        });
-                    }
-                    person.info = info;
-                    people.push(person);
-                });
-                const filteredPeople = people.filter(person => person.hasOwnProperty('name'));
-                result.people = filteredPeople;
-           
+            personListItems.forEach(personItem => {
+                const person = {};
+                const names = personItem.querySelectorAll('th');
+                names.forEach(name => {
+                    person.name = name.textContent.trim().replace(/\n/gi, "");
+                })
+                // Extract info
+                const infoList = personItem.querySelector('tr:last-child td:last-child ul');
+                const info = [];
+                if (infoList) {
+                    infoList.querySelectorAll('li').forEach(infoItem => {
+                        info.push(infoItem.textContent?.trim() || '');
+                    });
+                }
+                person.info = info;
+                people.push(person);
+            });
+            const filteredPeople = people.filter(person => person.hasOwnProperty('name'));
+            result.people = filteredPeople;
+
 
 
 
@@ -362,18 +396,26 @@
             let formattedOutput = `\n{\n id: "${episodeId}",\n isFiller: ${fillerCheckbox},\n episodeDescription: "${result.episodeDescription}",\n`;
 
             for (const [key, value] of Object.entries(result)) {
-                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "characters" && key !== "gadgets" && key !== "people" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
+                if (key !== 'id' && key !== 'isFiller' && key !== "cast" && key !== "charactersIntroduced" && key !== "characters" && key !== "gadgets" && key !== "people" && key !== "resolution" && key !== 'episodeDescription' && key !== "trivia" && key !== "mangaToAnimeChanges" && key !== 'inOtherLanguages' && key !== 'BGM') {
                     formattedOutput += ` ${formatPropertyName(key)} "${formatPropertyValue(value)}",\n`;
                 } else if (key === "cast") {
+                    if (result.charactersIntroduced.length > 0) {
+                        formattedOutput += ` charactersIntroduced: [${result.charactersIntroduced}],\n`;
+                    }
+                    if (result.characters.length > 0) {
+                        formattedOutput += ` characters: [${result.characters}],\n`;
+                    }
 
                     formattedOutput += ` ${key}: ["${value.join('", "')}"], \n`; // surround the value with [] to make it an array and put each name inside " ".
+
+                    if (result.gadgets.length > 0) {
+                        formattedOutput += ` gadgets: [${result.gadgets}],\n`;
+                    }
 
                 }
 
             }
 
-            formattedOutput += ` characters: [${result.characters}],\n`;
-            formattedOutput += ` gadgets: [${result.gadgets}],\n`;
             formattedOutput += ` resolution: "${result.resolution}",\n`;
 
             if (result.mangaToAnimeChanges.length > 0) {

@@ -172,8 +172,8 @@
             });
 
 
-            // // PEOPLE
-            // // Find the parent element of the span with id "People"
+            // // characters introduced
+            // // Find the parent element of the span with id "characters introduced"
             // const charactersIntroducedParent = tempDiv.querySelector('#Characters_introduced').parentElement;
             // // Get the next element, which is the div containing the charactersIntroduced list
             // // SOMETIMES, LIKE IN EP 1, THE NEXT ELEMENT MIGHT NOT BE A DIV, WHICH IS A PROBLEM.
@@ -291,6 +291,10 @@
                     .replace("Conclusion\n", "Conclusion: ")
                     .replace("The only suspect\n", "The only suspect: ")
                     .replace("The dying messages' meaning\n", "The dying messages' meaning: ")
+                    .replace("Hints about the accomplice\n", "Hints about the accomplice: ")
+                    .replace("Sekiguchi murder method\n", "Sekiguchi murder method: ")
+                    .replace("The Master murder method\n", "The Master murder method: ")
+                    .replace("The meaning of the texts\n", "The meaning of the texts: ")
                     .replace("Motive\n", "Motive: ")
                     .replace(/\n\n/gi, "\n")
                     .replace(/\nAftermath/, " The Aftermath:")

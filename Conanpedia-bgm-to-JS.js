@@ -3,7 +3,7 @@
 const soundtracks = [
     {
         title: "Detective Conan Original Soundtrack 1",
-        shortTitle: "OSTTV1",
+        shortTitle: "osttv1",
         tracks: [
             ["1", "名探偵コナン・メインテーマ", "Meitantei Konan・Mein Tēma", "Detective Conan Main Theme", "2:33"],
             ["2", "蘭のテーマ", "Ran no Tēma", "Ran's Theme", "4:12"],

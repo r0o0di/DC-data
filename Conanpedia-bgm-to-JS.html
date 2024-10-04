@@ -30,7 +30,6 @@
         <input type="text" id="album" placeholder="short album title (e.g. OSTTV1)">
         <input type="number" id="trackNum" placeholder="track number">
         <input type="submit" id="submit" value="Submit">
-        <button id="copy">copy</button>
     </div>
 
     <pre id="output">
@@ -57,7 +56,7 @@ BGM: [ <div id="tracks"></div> ]
             const trackNum = document.getElementById("trackNum").value;
 
             soundtracks.forEach(album => {
-                if (albumName.trim().toLowerCase() == album.shortTitle.trim().toLowerCase()) {
+                if (albumName.trim().toLowerCase() == album.shortTitle) {
                     console.log(album.shortTitle);
                     console.log(album.tracks[trackNum - 1])
 
@@ -67,16 +66,7 @@ BGM: [ <div id="tracks"></div> ]
             });
 
         })
-        const copyBtn = document.getElementById("copy");
-            copyBtn.addEventListener("click", function copyToClipboard() {
-                const outputElement = document.getElementById("output");
-                const range = document.createRange();
-                range.selectNode(outputElement);
-                window.getSelection().removeAllRanges();
-                window.getSelection().addRange(range);
-                document.execCommand("copy");
-                window.getSelection().removeAllRanges();
-            });
+        
     </script>
 </body>
 

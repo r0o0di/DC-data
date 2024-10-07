@@ -17,6 +17,7 @@
             flex-direction: column;
             align-items: stretch;
         }
+
         input {
             margin: 5px;
         }
@@ -26,16 +27,14 @@
 <body>
     <div class="inputContainer">
         <input type="text" id="epNumber" placeholder="episode number">
-        <input type="text" id="timestamp" placeholder="timestamp 00:00">
-        <input type="text" id="album" placeholder="short album title (e.g. OSTTV1)">
-        <input type="number" id="trackNum" placeholder="track number">
+        <textarea id="track" placeholder="00:00 osttv1-2"></textarea>
         <input type="submit" id="submit" value="Submit">
     </div>
 
     <pre id="output">
 {
 id: "<span id="number"></span>",
-BGM: [ <div id="tracks"></div> ]
+BGM: [ <div id="tracksContainer"></div> ]
 },
     </pre>
 
@@ -46,14 +45,29 @@ BGM: [ <div id="tracks"></div> ]
         const submitBtn = document.getElementById("submit");
         const output = document.getElementById("output");
         let number = document.getElementById("number");
-        const tracks = document.getElementById("tracks");
+        const tracksContainer = document.getElementById("tracksContainer");
 
 
         submitBtn.addEventListener("click", () => {
             const epNumber = document.getElementById("epNumber").value;
-            const timestamp = document.getElementById("timestamp").value || "00:00";
-            const albumName = document.getElementById("album").value;
-            const trackNum = document.getElementById("trackNum").value;
+            const track = document.getElementById("track").value;
+            let timestamp;
+            let albumName;
+            let trackNum;
+
+            // Regular expression to match the timestamp, album name, and track number
+            const regex = /(\d{2}:\d{2})\s(ost\w+-)(\d+)/;
+
+            // Apply the regex to the input string
+            const match = track.match(regex);
+
+            if (match) {
+                timestamp = match[1];
+                albumName = match[2].replace("-", "");
+                trackNum = match[3];
+            } else {
+                console.log("No match found.");
+            }
 
             soundtracks.forEach(album => {
                 if (albumName.trim().toLowerCase() == album.shortTitle) {
@@ -61,12 +75,12 @@ BGM: [ <div id="tracks"></div> ]
                     console.log(album.tracks[trackNum - 1])
 
                     number.innerText = epNumber;
-                    tracks.append(`["${timestamp}", "${album.tracks[trackNum - 1][1]}", "${album.tracks[trackNum - 1][2]}", "${album.tracks[trackNum - 1][3]}", "${album.title}"],\n`);
+                    tracksContainer.append(`["${timestamp}", "${album.tracks[trackNum - 1][1]}", "${album.tracks[trackNum - 1][2]}", "${album.tracks[trackNum - 1][3]}", "${album.title}"],\n`);
                 }
             });
 
         })
-        
+
     </script>
 </body>
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rename and Download Images</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script> <!-- Load JSZip -->
+
+</head>
+
+<body>
+    <h2>Rename and Download Images</h2>
+    <input type="file" id="fileInput" multiple accept=".jpg">
+    <button id="processButton">Process and Download as ZIP</button>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById('processButton').addEventListener('click', async () => {
+            const files = document.getElementById('fileInput').files;
+            const output = document.getElementById('output');
+            output.innerHTML = '';
+
+            if (files.length === 0) {
+                alert('Please select images.');
+                return;
+            }
+
+            const zip = new JSZip(); // Create a new ZIP object
+
+            for (let file of files) {
+                const originalName = file.name;
+
+                // Regular expression to capture both *number1* and *number2*.
+                const match = originalName.match(/(\d+)_EP(\d+)_\.jpg$/) || originalName.match(/(\d+)_EP(\d+)(_filler)?\.jpg$/);
+
+                if (match) {
+                    let number1 = match[1];  // Capture the first number
+                    const number2 = match[2];  // Capture the second number
+                    const isFiller = match[3];  // Check if '_filler' is present
+
+
+                    // Ignore the first 2 digits of number1
+                    if (number1.length > 2) {
+                        number1 = number1.slice(3);
+                    }
+
+                    // Create the new filename "EP*number2*-*number1*.jpg"
+                    let newName = `EP${number2}-${number1}`;
+                    if (isFiller) {
+                        newName += "-filler";  // Append "-filler" if it is a filler episode
+                    }
+                    newName += '.jpg';
+
+                    // Read the file and add it to the ZIP
+                    const fileData = await file.arrayBuffer();
+                    zip.file(newName, fileData);  // Add the renamed file to the ZIP
+
+
+                    // Create a download link for each renamed file
+                    const link = document.createElement('a');
+                    link.href = URL.createObjectURL(file);
+                    link.download = newName;
+                    link.textContent = `${newName}`;
+                    output.appendChild(link);
+                    output.appendChild(document.createElement('br'));
+                } else {
+                    output.innerHTML += `<p>File "${originalName}" does not match the expected pattern and will not be renamed.</p>`;
+                }
+            };
+            // Generate the ZIP and offer it for download
+            zip.generateAsync({ type: "blob" }).then(function (content) {
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(content);
+                link.download = 'renamed_images.zip';  // Name of the zip file
+                link.click();
+            });
+        });
+    </script>
+</body>
+
+</html>
